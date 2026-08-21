@@ -16,13 +16,35 @@ from typing import Any, Dict, List
 import config
 
 
-def get_github_username(env: dict) -> str:
-    """Gets authenticated GitHub username using gh CLI."""
+def get_github_username(env: dict = None) -> str:
+    """Gets authenticated GitHub username using GitHub REST API or fallback."""
+    if config.GITHUB_TOKEN:
+        try:
+            ctx = ssl.create_default_context()
+            ctx.check_hostname = False
+            ctx.verify_mode = ssl.CERT_NONE
+            req = urllib.request.Request(
+                "https://api.github.com/user",
+                headers={
+                    "User-Agent": "Mozilla/5.0",
+                    "Authorization": f"token {config.GITHUB_TOKEN}",
+                    "Accept": "application/vnd.github.v3+json",
+                },
+            )
+            with urllib.request.urlopen(req, context=ctx) as resp:
+                data = json.loads(resp.read().decode())
+                login = data.get("login")
+                if login:
+                    return login
+        except Exception:
+            pass
+
     try:
-        res = subprocess.run(["gh", "api", "user", "-q", ".login"], capture_output=True, text=True, check=True, env=env)
+        res = subprocess.run(["gh", "api", "user", "-q", ".login"], capture_output=True, text=True, check=True)
         return res.stdout.strip()
     except Exception:
         return "kingkrs10"
+
 
 
 class BountyClaimer:
@@ -128,34 +150,51 @@ class BountyClaimer:
         # Rule 3: Engage on the Issue First
         self.engage_on_issue(headers, ctx)
 
-        print(f"[*] Ensuring fork exists for {self.repo_owner}/{self.repo_name}...")
-        fork_api_url = f"https://api.github.com/repos/{self.repo_owner}/{self.repo_name}/forks"
-        try:
-            req = urllib.request.Request(fork_api_url, headers=headers, method="POST")
-            with urllib.request.urlopen(req, context=ctx) as resp:
-                fork_data = json.loads(resp.read().decode())
-                fork_repo_name = fork_data.get("name", self.repo_name)
-        except Exception as e:
-            print(f"[*] Fork call returned: {e} (proceeding if fork already exists)")
-            fork_repo_name = self.repo_name
+        is_own_repo = self.repo_owner.lower() == username.lower()
+        fork_repo_name = self.repo_name
 
-        # Set up authenticated fork remote
-        if config.GITHUB_TOKEN:
-            fork_url = f"https://x-access-token:{config.GITHUB_TOKEN}@github.com/{username}/{fork_repo_name}.git"
+        if not is_own_repo:
+            print(f"[*] Ensuring fork exists for {self.repo_owner}/{self.repo_name}...")
+            fork_api_url = f"https://api.github.com/repos/{self.repo_owner}/{self.repo_name}/forks"
+            try:
+                req = urllib.request.Request(fork_api_url, headers=headers, method="POST")
+                with urllib.request.urlopen(req, context=ctx) as resp:
+                    fork_data = json.loads(resp.read().decode())
+                    fork_repo_name = fork_data.get("name", self.repo_name)
+                    import time
+                    time.sleep(2)
+            except Exception as e:
+                print(f"[*] Fork call returned: {e} (proceeding if fork already exists)")
+
+            if config.GITHUB_TOKEN:
+                fork_url = f"https://x-access-token:{config.GITHUB_TOKEN}@github.com/{username}/{fork_repo_name}.git"
+            else:
+                fork_url = f"https://github.com/{username}/{fork_repo_name}.git"
+
+            subprocess.run(["git", "remote", "remove", "fork"], cwd=self.repo_dir, capture_output=True)
+            subprocess.run(["git", "remote", "add", "fork", fork_url], cwd=self.repo_dir, capture_output=True)
+
+            print(f"[*] Pushing branch '{branch_name}' to fork (https://github.com/{username}/{fork_repo_name}.git)...")
+            push_res = subprocess.run(["git", "push", "-u", "fork", branch_name, "--force"], cwd=self.repo_dir, capture_output=True, text=True, env=env)
+            if push_res.returncode != 0:
+                print(f"[*] Retrying push after brief fork sync delay...")
+                import time
+                time.sleep(3)
+                push_res = subprocess.run(["git", "push", "-u", "fork", branch_name, "--force"], cwd=self.repo_dir, capture_output=True, text=True, env=env)
+
+            if push_res.returncode != 0:
+                print(f"[!] Push to fork failed: {push_res.stderr.strip()}", file=sys.stderr)
+                return False
         else:
-            fork_url = f"https://github.com/{username}/{fork_repo_name}.git"
-
-        subprocess.run(["git", "remote", "remove", "fork"], cwd=self.repo_dir, capture_output=True)
-        subprocess.run(["git", "remote", "add", "fork", fork_url], cwd=self.repo_dir, capture_output=True)
-
-        print(f"[*] Pushing branch '{branch_name}' to fork (https://github.com/{username}/{fork_repo_name}.git)...")
-        push_res = subprocess.run(["git", "push", "-u", "fork", branch_name, "--force"], cwd=self.repo_dir, capture_output=True, text=True, env=env)
-        if push_res.returncode != 0:
-            print(f"[!] Push to fork failed: {push_res.stderr.strip()}", file=sys.stderr)
-            return False
+            print(f"[*] Pushing directly to origin branch '{branch_name}'...")
+            push_res = subprocess.run(["git", "push", "-u", "origin", branch_name, "--force"], cwd=self.repo_dir, capture_output=True, text=True, env=env)
+            if push_res.returncode != 0:
+                print(f"[!] Push to origin failed: {push_res.stderr.strip()}", file=sys.stderr)
+                return False
 
         # Fetch target repo default branch dynamically
         default_branch = "main"
+
         try:
             repo_info_url = f"https://api.github.com/repos/{self.repo_owner}/{self.repo_name}"
             req_info = urllib.request.Request(repo_info_url, headers=headers)
@@ -193,8 +232,8 @@ class BountyClaimer:
             return False
 
 
-def claim_solved_bounties(dry_run: bool = False) -> int:
-    """Claims all solved bounties from solved_bounties.json."""
+def claim_solved_bounties(dry_run: bool = False, claim_all: bool = False) -> int:
+    """Claims solved bounties from solved_bounties.json that are ready for submission."""
     if not config.SOLVED_BOUNTIES_FILE.exists():
         print("[!] No solved_bounties.json found. Run solver.py first.")
         return 0
@@ -206,16 +245,41 @@ def claim_solved_bounties(dry_run: bool = False) -> int:
         print("[!] No solved bounties found to claim.")
         return 0
 
+    # Filter for active candidates ready to claim (not closed, not already submitted)
+    candidates = [
+        b for b in solved
+        if not b.get("pr_url") and b.get("tracking_status") != "closed" and b.get("issue_live_state") != "closed"
+    ]
+
+    if not candidates:
+        print("[!] No pending unsubmitted bounties found. All solved cases have PRs submitted or are closed.")
+        return 0
+
+    targets = candidates if claim_all else [candidates[-1]]
     claimed_count = 0
-    latest_solved = [solved[-1]] if solved else []
-    for bounty in latest_solved:
+
+    for bounty in targets:
         claimer = BountyClaimer(bounty, dry_run=dry_run)
         if claimer.create_pull_request():
             claimed_count += 1
+            if not dry_run and bounty.get("pr_url"):
+                bounty["tracking_status"] = "pr_submitted"
 
-    print(f"\n[+] Processed {claimed_count}/{len(latest_solved)} bounty claims.")
+    # Save updated records if live
+    if not dry_run and claimed_count > 0:
+        with open(config.SOLVED_BOUNTIES_FILE, "w", encoding="utf-8") as f:
+            json.dump(solved, f, indent=2)
+
+    print(f"\n[+] Processed {claimed_count}/{len(targets)} bounty claim submissions.")
     return claimed_count
 
 
 if __name__ == "__main__":
-    claim_solved_bounties(dry_run=False)
+    import argparse
+    parser = argparse.ArgumentParser(description="MicroBountyHarvest Claimer")
+    parser.add_argument("--live", action="store_true", help="Submit live Pull Requests to GitHub")
+    parser.add_argument("--all", action="store_true", help="Claim all pending ready-to-claim cases")
+    args = parser.parse_args()
+
+    claim_solved_bounties(dry_run=not args.live, claim_all=args.all)
+

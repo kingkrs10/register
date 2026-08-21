@@ -181,6 +181,20 @@ def score_bounty_solvability(bounty: Dict[str, Any]) -> float:
     if platform in ["polar.sh", "opire", "gitcoin"]:
         score += 10.0
 
+    # Rule 0: Anti-Spam / Non-Code Disqualifiers (Grants, Alerts, Automated Feeds)
+    spam_or_non_code = [
+        "[funding]",
+        "gitcoin grants",
+        "bounty alert",
+        "tz-radar",
+        "[demand]",
+        "opportunities found",
+        "opportunityies found",
+        "public model transfer link",
+    ]
+    if any(s in title or s in body for s in spam_or_non_code):
+        return 0.0
+
     # Ease keywords bonus
     easy_keywords = [
         "doc",
@@ -210,6 +224,7 @@ def score_bounty_solvability(bounty: Dict[str, Any]) -> float:
         score -= 25.0
 
     return max(0.0, min(100.0, score))
+
 
 
 def scan_bounties(limit: int = 50) -> List[Dict[str, Any]]:
@@ -254,9 +269,10 @@ def scan_bounties(limit: int = 50) -> List[Dict[str, Any]]:
     for item in all_bounties:
         item["solvability_score"] = score_bounty_solvability(item)
         item_id = item.get("id")
-        if item_id not in seen_ids and config.MIN_BOUNTY_USD <= item["reward_usd"] <= config.MAX_BOUNTY_USD:
+        if item_id not in seen_ids and item["solvability_score"] > 0 and config.MIN_BOUNTY_USD <= item["reward_usd"] <= config.MAX_BOUNTY_USD:
             seen_ids.add(item_id)
             filtered.append(item)
+
 
     # Sort by solvability score descending
     filtered.sort(key=lambda x: x["solvability_score"], reverse=True)

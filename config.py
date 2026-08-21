@@ -45,3 +45,6 @@ DRY_RUN = os.getenv("DRY_RUN", "true").lower() in ("true", "1", "yes")
 # Files
 OPEN_BOUNTIES_FILE = DATA_DIR / "open_bounties.json"
 SOLVED_BOUNTIES_FILE = DATA_DIR / "solved_bounties.json"
+DAILY_STATUS_REPORT_FILE = DATA_DIR / "daily_status_report.json"
+DAILY_STATUS_MD_FILE = DATA_DIR / "daily_status_report.md"
+
