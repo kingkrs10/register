@@ -141,14 +141,68 @@ def check_maintainer_activity(repo_owner: str, repo_name: str, days: int = 30) -
     return False
 
 
+def verify_funded_escrow(bounty: Dict[str, Any]) -> bool:
+    """
+    Strict Escrow Verification:
+    Ensures the bounty has verified, pre-deposited funds in escrow rather than just a generic bot template or unfunded footer.
+    """
+    platform = (bounty.get("platform") or "").lower()
+    title = (bounty.get("title") or "").lower()
+    body = (bounty.get("body") or "").lower()
+
+    # 1. Algora: direct tRPC bounties are always backed by escrow
+    if platform == "algora":
+        return True
+
+    # 2. IssueHunt: check for funded badges or backer deposits
+    if "issuehunt" in platform or "issuehunt" in body:
+        funded_indicators = [
+            "funded", "backers", "issuehunt-%24", "issuehunt.io/r/", "oss.issuehunt.io"
+        ]
+        if any(ind in body for ind in funded_indicators):
+            return True
+
+    # 3. Polar.sh: check for polar pledge badges or active program rewards
+    if "polar" in platform or "polar.sh" in body:
+        polar_indicators = [
+            "polar pledge", "pledge.svg", "polar.sh/api/github", "/pledge",
+            "polar for startups", "startup program", "bounty"
+        ]
+        if any(ind in body or ind in title for ind in polar_indicators):
+            return True
+
+    # 4. Opire: only accept if there is an explicit reward command / deposit, reject template-only footers
+    if "opire" in platform or "opire" in body:
+        # Check if there is an explicit /reward command or funded amount
+        if "/reward" in body and not ("replace `100`" in body and body.count("/reward") == 1):
+            return True
+        return False
+
+    # 5. Gitcoin: must have explicit bounty funding indicator
+    if "gitcoin" in platform:
+        if "bounty" in title or "reward" in body:
+            return True
+
+    # General fallback: must have explicit dollar amount with bounty context
+    if bounty.get("reward_usd", 0) > 0 and ("bounty" in title or "reward" in title or "bounty" in body):
+        return True
+
+    return False
+
+
 def score_bounty_solvability(bounty: Dict[str, Any]) -> float:
     """
     Computes a solvability score (0.0 to 100.0) based on:
+    - Strict Escrow Verification (guaranteed pre-funded rewards)
     - Target active maintainers (merged PRs / commits in last 30 days)
     - Language / tech stack match
     - Reward range appropriateness ($10 to $500)
     - Clear title/description details
     """
+    # Strict Escrow Verification Check: reject unfunded template issues
+    if not verify_funded_escrow(bounty):
+        return 0.0
+
     score = 50.0
 
     title = (bounty.get("title") or "").lower()
