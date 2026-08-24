@@ -13,19 +13,26 @@ from tracker import run_status_check
 
 def main():
     parser = argparse.ArgumentParser(
-        description="MicroBountyHarvest - Autonomous AI Micro-Bounty Hunter Engine"
+        description="MicroBountyHarvest - Multi-Domain Autonomous AI Micro-Bounty Hunter Engine"
     )
     parser.add_argument(
-        "--scan", action="store_true", help="Scout open micro-bounties on Algora and GitHub"
+        "--scan", action="store_true", help="Scout open micro-bounties across supported domains"
     )
     parser.add_argument(
         "--solve", action="store_true", help="Solve top scouted micro-bounty"
     )
     parser.add_argument(
-        "--claim", action="store_true", help="Submit Pull Request and claim solved bounty"
+        "--claim", action="store_true", help="Submit Pull Request or claim artifact for solved bounty"
     )
     parser.add_argument(
-        "--live", action="store_true", help="Execute live network submissions (pushes fork & creates PRs)"
+        "--domain",
+        type=str,
+        default=None,
+        choices=["all", "code", "web3_desci", "security", "kaggle"],
+        help="Target specific domain (default: all)",
+    )
+    parser.add_argument(
+        "--live", action="store_true", help="Execute live network submissions (pushes fork & creates PRs / Kaggle submit)"
     )
     parser.add_argument(
         "--all", action="store_true", help="Apply action to all eligible bounties instead of just the top one"
@@ -34,7 +41,7 @@ def main():
         "--status",
         "--check-daily",
         action="store_true",
-        help="Check live status of open and solved bounties on GitHub",
+        help="Check live status of open and solved bounties across all domains",
     )
     parser.add_argument(
         "--auto-dry-run",
@@ -60,36 +67,36 @@ def main():
         run_status_check()
 
     if args.scan:
-        scan_bounties(limit=args.limit)
+        scan_bounties(limit=args.limit, domain=args.domain)
 
     if args.solve:
-        solve_top_bounty()
+        solve_top_bounty(domain=args.domain)
 
     if args.claim:
         is_dry_run = not args.live
-        claim_solved_bounties(dry_run=is_dry_run, claim_all=args.all)
-
+        claim_solved_bounties(dry_run=is_dry_run, claim_all=args.all, domain=args.domain)
 
     if args.auto_dry_run:
-        print("\n=== STARTING AUTONOMOUS BOUNTY HUNTER (DRY-RUN MODE) ===")
-        bounties = scan_bounties(limit=args.limit)
+        dom_str = f"[{args.domain.upper()}]" if args.domain else "[ALL DOMAINS]"
+        print(f"\n=== STARTING AUTONOMOUS BOUNTY HUNTER (DRY-RUN MODE {dom_str}) ===")
+        bounties = scan_bounties(limit=args.limit, domain=args.domain)
         if bounties:
-            solved = solve_top_bounty()
+            solved = solve_top_bounty(domain=args.domain)
             if solved:
-                claim_solved_bounties(dry_run=True)
+                claim_solved_bounties(dry_run=True, domain=args.domain)
         run_status_check()
         print("\n=== AUTONOMOUS BOUNTY HUNTER RUN COMPLETE ===")
 
     if args.auto_live:
-        print("\n=== STARTING AUTONOMOUS BOUNTY HUNTER (LIVE MODE) ===")
-        bounties = scan_bounties(limit=args.limit)
+        dom_str = f"[{args.domain.upper()}]" if args.domain else "[ALL DOMAINS]"
+        print(f"\n=== STARTING AUTONOMOUS BOUNTY HUNTER (LIVE MODE {dom_str}) ===")
+        bounties = scan_bounties(limit=args.limit, domain=args.domain)
         if bounties:
-            solved = solve_top_bounty()
+            solved = solve_top_bounty(domain=args.domain)
             if solved:
-                claim_solved_bounties(dry_run=False)
+                claim_solved_bounties(dry_run=False, domain=args.domain)
         run_status_check()
         print("\n=== AUTONOMOUS BOUNTY HUNTER RUN COMPLETE ===")
-
 
 
 if __name__ == "__main__":

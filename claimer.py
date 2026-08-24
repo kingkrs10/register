@@ -11,7 +11,7 @@ import sys
 import urllib.error
 import urllib.parse
 import urllib.request
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 
 import config
 
@@ -50,6 +50,7 @@ def get_github_username(env: dict = None) -> str:
 class BountyClaimer:
     def __init__(self, bounty: Dict[str, Any], dry_run: bool = False):
         self.bounty = bounty
+        self.domain = bounty.get("domain", "code")
         self.dry_run = dry_run
         self.repo_owner = bounty.get("repo_owner", "")
         self.repo_name = bounty.get("repo_name", "")
@@ -102,6 +103,32 @@ class BountyClaimer:
         except Exception as e:
             print(f"[*] Issue comment status: {e} (proceeding to PR creation)")
             return False
+
+    def claim(self) -> bool:
+        """Routes claiming process based on domain."""
+        # 1. Kaggle ML Claim
+        if self.domain == "kaggle":
+            from domains.kaggle_solver import KaggleAutoMLSolver
+            solver = KaggleAutoMLSolver(self.bounty)
+            success = solver.submit_prediction(dry_run=self.dry_run)
+            if success and not self.dry_run:
+                self.bounty["pr_url"] = f"https://www.kaggle.com/competitions/{self.bounty.get('competition_ref', '')}/submissions"
+            return success
+
+        # 2. Cybersecurity Advisory Claim
+        if self.domain == "security":
+            report_file = self.bounty.get("advisory_report")
+            print(f"\n[SECURITY ADVISORY CLAIM - {self.repo_owner}/{self.repo_name}]")
+            print(f"Advisory Report: {report_file}")
+            if self.dry_run:
+                print("[DRY RUN MODE ACTIVE] - Security advisory disclosure report verified locally.")
+                return True
+            else:
+                # In live mode, post PR or security disclosure
+                return self.create_pull_request()
+
+        # 3. Web3 & Standard Code Git PR Claim
+        return self.create_pull_request()
 
     def create_pull_request(self) -> bool:
         """Forks repo, pushes branch, and submits PR using GitHub REST API."""
@@ -232,8 +259,8 @@ class BountyClaimer:
             return False
 
 
-def claim_solved_bounties(dry_run: bool = False, claim_all: bool = False) -> int:
-    """Claims solved bounties from solved_bounties.json that are ready for submission."""
+def claim_solved_bounties(dry_run: bool = False, claim_all: bool = False, domain: Optional[str] = None) -> int:
+    """Claims solved bounties from solved_bounties.json that are ready for submission, optionally filtered by domain."""
     if not config.SOLVED_BOUNTIES_FILE.exists():
         print("[!] No solved_bounties.json found. Run solver.py first.")
         return 0
@@ -245,14 +272,17 @@ def claim_solved_bounties(dry_run: bool = False, claim_all: bool = False) -> int
         print("[!] No solved bounties found to claim.")
         return 0
 
-    # Filter for active candidates ready to claim (not closed, not already submitted)
+    # Filter for active candidates ready to claim
     candidates = [
         b for b in solved
         if not b.get("pr_url") and b.get("tracking_status") != "closed" and b.get("issue_live_state") != "closed"
     ]
 
+    if domain and domain.lower() not in ["all", "any"]:
+        candidates = [b for b in candidates if b.get("domain", "code") == domain.lower()]
+
     if not candidates:
-        print("[!] No pending unsubmitted bounties found. All solved cases have PRs submitted or are closed.")
+        print("[!] No pending unsubmitted bounties found matching filter.")
         return 0
 
     targets = candidates if claim_all else [candidates[-1]]
@@ -260,7 +290,7 @@ def claim_solved_bounties(dry_run: bool = False, claim_all: bool = False) -> int
 
     for bounty in targets:
         claimer = BountyClaimer(bounty, dry_run=dry_run)
-        if claimer.create_pull_request():
+        if claimer.claim():
             claimed_count += 1
             if not dry_run and bounty.get("pr_url"):
                 bounty["tracking_status"] = "pr_submitted"
@@ -277,9 +307,10 @@ def claim_solved_bounties(dry_run: bool = False, claim_all: bool = False) -> int
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description="MicroBountyHarvest Claimer")
-    parser.add_argument("--live", action="store_true", help="Submit live Pull Requests to GitHub")
+    parser.add_argument("--live", action="store_true", help="Submit live Pull Requests to GitHub / Kaggle")
     parser.add_argument("--all", action="store_true", help="Claim all pending ready-to-claim cases")
+    parser.add_argument("--domain", type=str, default=None, help="Target domain filter (code, web3_desci, security, kaggle)")
     args = parser.parse_args()
 
-    claim_solved_bounties(dry_run=not args.live, claim_all=args.all)
+    claim_solved_bounties(dry_run=not args.live, claim_all=args.all, domain=args.domain)
 

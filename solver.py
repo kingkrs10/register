@@ -12,11 +12,15 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 import config
+from domains.kaggle_solver import KaggleAutoMLSolver
+from domains.security import SecuritySolver
+from domains.web3_desci import Web3DeSciSolver
 
 
 class BountySolver:
     def __init__(self, bounty: Dict[str, Any]):
         self.bounty = bounty
+        self.domain = bounty.get("domain", "code")
         self.repo_owner = bounty.get("repo_owner", "")
         self.repo_name = bounty.get("repo_name", "")
         self.issue_number = bounty.get("issue_number", 0)
@@ -35,13 +39,18 @@ class BountySolver:
 
         if self.repo_dir.exists():
             print(f"[*] Workspace directory {self.repo_dir} already exists. Cleaning up...")
-            shutil.rmtree(self.repo_dir, ignore_errors=True)
+            subprocess.run(["rm", "-rf", str(self.repo_dir)], capture_output=True)
+            if self.repo_dir.exists():
+                shutil.rmtree(self.repo_dir, ignore_errors=True)
 
         print(f"[*] Cloning {clone_url} to {self.repo_dir}...")
         try:
-            subprocess.run(["git", "clone", "--depth", "1", clone_url, str(self.repo_dir)], check=True, capture_output=True, text=True)
+            subprocess.run(["git", "clone", "--depth", "1", clone_url, str(self.repo_dir)], check=True, capture_output=True, text=True, timeout=45)
             print(f"[+] Successfully cloned {self.repo_owner}/{self.repo_name}")
             return True
+        except subprocess.TimeoutExpired:
+            print(f"[!] Git clone timed out for {self.repo_owner}/{self.repo_name} (45s limit).", file=sys.stderr)
+            return False
         except subprocess.CalledProcessError as e:
             print(f"[!] Git clone failed: {e.stderr}", file=sys.stderr)
             return False
@@ -90,7 +99,6 @@ class BountySolver:
         """
         print(f"[*] Analyzing issue context for '{self.title}'...")
 
-        # Gather file summary in repo_dir
         repo_files = []
         for p in self.repo_dir.rglob("*"):
             if p.is_file() and ".git" not in p.parts and "node_modules" not in p.parts and "target" not in p.parts:
@@ -98,7 +106,6 @@ class BountySolver:
 
         print(f"[*] Located {len(repo_files)} repository source files.")
 
-        # Find target document/readme or source file to update
         target_file = None
         for f in repo_files:
             fname = f.name.lower()
@@ -125,15 +132,56 @@ class BountySolver:
         return True
 
     def solve(self) -> bool:
-        """Executes full solve pipeline: clone -> generate fix -> test."""
+        """Executes domain-routed solve pipeline."""
+        domain_tag = self.domain.upper()
         print(f"\n=========================================")
-        print(f"SOLVING BOUNTY: [{self.bounty.get('reward_formatted', '$?')}] {self.title}")
+        print(f"SOLVING [{domain_tag}] BOUNTY: [{self.bounty.get('reward_formatted', '$?')}] {self.title}")
         print(f"URL: {self.bounty.get('url')}")
         print(f"=========================================")
 
+        solved_entry = {**self.bounty, "status": "solved"}
+
+        # 1. Kaggle Domain Solver
+        if self.domain == "kaggle":
+            kaggle_solver = KaggleAutoMLSolver(self.bounty)
+            result = kaggle_solver.generate_and_train_baseline()
+            if result.get("success"):
+                solved_entry.update({
+                    "cv_score": result.get("cv_score"),
+                    "submission_file": result.get("submission_file"),
+                    "workspace": str(kaggle_solver.output_dir),
+                })
+                self._record_solved(solved_entry)
+                return True
+            return False
+
+        # Clone repository for Git-based domains
         if not self.clone_repository():
             return False
 
+        solved_entry["workspace"] = str(self.repo_dir)
+
+        # 2. Cybersecurity Domain Solver
+        if self.domain == "security":
+            sec_solver = SecuritySolver(self.bounty)
+            advisory_path = sec_solver.audit_and_generate_advisory()
+            if advisory_path:
+                solved_entry["advisory_report"] = str(advisory_path)
+                self._record_solved(solved_entry)
+                return True
+            return False
+
+        # 3. Web3 & DeSci Domain Solver
+        if self.domain == "web3_desci":
+            web3_solver = Web3DeSciSolver(self.bounty)
+            if not web3_solver.generate_fix():
+                return False
+            if web3_solver.detect_and_run_verification():
+                self._record_solved(solved_entry)
+                return True
+            return False
+
+        # 4. Standard Code Bounty Solver
         fix_success = self.generate_ai_fix()
         if not fix_success:
             print("[!] Failed to generate AI code fix.")
@@ -142,30 +190,29 @@ class BountySolver:
         tests_pass = self.run_tests()
         if tests_pass:
             print(f"[SUCCESS] Bounty issue #{self.issue_number} in {self.repo_owner}/{self.repo_name} solved!")
-            
-            # Record solved bounty
-            solved_bounties = []
-            if config.SOLVED_BOUNTIES_FILE.exists():
-                try:
-                    with open(config.SOLVED_BOUNTIES_FILE, "r", encoding="utf-8") as f:
-                        solved_bounties = json.load(f)
-                except Exception:
-                    solved_bounties = []
-
-            solved_entry = {**self.bounty, "status": "solved", "workspace": str(self.repo_dir)}
-            solved_bounties.append(solved_entry)
-
-            with open(config.SOLVED_BOUNTIES_FILE, "w", encoding="utf-8") as f:
-                json.dump(solved_bounties, f, indent=2)
-
+            self._record_solved(solved_entry)
             return True
         else:
             print(f"[!] Verification tests failed for issue #{self.issue_number}.")
             return False
 
+    def _record_solved(self, entry: Dict[str, Any]):
+        """Helper to append solved bounty record."""
+        solved_bounties = []
+        if config.SOLVED_BOUNTIES_FILE.exists():
+            try:
+                with open(config.SOLVED_BOUNTIES_FILE, "r", encoding="utf-8") as f:
+                    solved_bounties = json.load(f)
+            except Exception:
+                solved_bounties = []
 
-def solve_top_bounty(max_attempts: int = 5) -> bool:
-    """Solves the highest scored unsolved bounty from open_bounties.json, retrying with next candidates if one fails."""
+        solved_bounties.append(entry)
+        with open(config.SOLVED_BOUNTIES_FILE, "w", encoding="utf-8") as f:
+            json.dump(solved_bounties, f, indent=2)
+
+
+def solve_top_bounty(max_attempts: int = 5, domain: Optional[str] = None) -> bool:
+    """Solves the highest scored unsolved bounty from open_bounties.json, optionally filtering by domain."""
     if not config.OPEN_BOUNTIES_FILE.exists():
         print("[!] open_bounties.json not found. Run scout.py first.")
         return False
@@ -191,6 +238,10 @@ def solve_top_bounty(max_attempts: int = 5) -> bool:
 
     attempts = 0
     for b in bounties:
+        b_domain = b.get("domain", "code")
+        if domain and domain.lower() not in ["all", "any"] and b_domain != domain.lower():
+            continue
+
         b_id = b.get("id")
         alt_id = f"gh-{b.get('repo_owner')}/{b.get('repo_name')}-{b.get('issue_number')}"
         if b_id in solved_ids or alt_id in solved_ids:
@@ -200,7 +251,7 @@ def solve_top_bounty(max_attempts: int = 5) -> bool:
         solver = BountySolver(b)
         if solver.solve():
             return True
-        
+
         print(f"[*] Candidate {b.get('id')} attempt failed. Trying next candidate...")
         if attempts >= max_attempts:
             print(f"[!] Reached max attempt limit ({max_attempts}).")

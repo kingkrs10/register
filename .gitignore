@@ -9,12 +9,21 @@ __pycache__/
 
 # Data & Workspaces
 workspace/
-data/
+data/kaggle_submissions/
+data/security_reports/
+!data/*.json
+!data/*.md
+
+# Node / Next.js
 node_modules/
+dashboard/node_modules/
+dashboard/.next/
 algora-mcp-server/node_modules/
 algora-mcp-server/dist/
 
-# Scratch & Log files
+# OS / Scratch / Log files
+.DS_Store
+*/.DS_Store
 *.log
 scratch/
 test_*.mjs

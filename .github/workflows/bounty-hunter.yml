@@ -6,6 +6,30 @@ on:
     - cron: '0 */2 * * *'
   workflow_dispatch:
     inputs:
+      action:
+        description: 'Action to run'
+        required: false
+        default: 'auto-live'
+        type: choice
+        options:
+          - auto-live
+          - auto-dry-run
+          - scan
+          - solve
+          - claim
+          - claim-live
+          - status
+      domain:
+        description: 'Target domain'
+        required: false
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - code
+          - web3_desci
+          - security
+          - kaggle
       limit:
         description: 'Bounty scan limit'
         required: false
@@ -36,14 +60,30 @@ jobs:
           && echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
           && sudo apt update && sudo apt install gh -y)
 
-      - name: Run MicroBountyHarvest Live Engine & Status Audit
+      - name: Run MicroBountyHarvest Engine
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
           DRY_RUN: 'false'
         run: |
-          python main.py --auto-live --limit ${{ inputs.limit || '30' }}
+          ACTION="${{ inputs.action || 'auto-live' }}"
+          DOMAIN="${{ inputs.domain || 'all' }}"
+          LIMIT="${{ inputs.limit || '30' }}"
+          DOMAIN_FLAG=""
+          if [ "$DOMAIN" != "all" ]; then
+            DOMAIN_FLAG="--domain $DOMAIN"
+          fi
+          case "$ACTION" in
+            scan)          python main.py --scan --limit "$LIMIT" $DOMAIN_FLAG ;;
+            solve)         python main.py --solve $DOMAIN_FLAG ;;
+            claim)         python main.py --claim $DOMAIN_FLAG ;;
+            claim-live)    python main.py --claim --live $DOMAIN_FLAG ;;
+            status)        python main.py --status ;;
+            auto-dry-run)  python main.py --auto-dry-run --limit "$LIMIT" $DOMAIN_FLAG ;;
+            auto-live)     python main.py --auto-live --limit "$LIMIT" $DOMAIN_FLAG ;;
+            *)             python main.py --auto-live --limit "$LIMIT" ;;
+          esac
 
       - name: Commit & Sync Daily Status Reports
         run: |

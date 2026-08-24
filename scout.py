@@ -11,9 +11,12 @@ import subprocess
 import sys
 import urllib.parse
 import urllib.request
-from typing import Any, Dict, List, Set
+from typing import Any, Dict, List, Optional, Set
 
 import config
+from domains.kaggle_solver import fetch_kaggle_competitions
+from domains.security import fetch_security_bounties
+from domains.web3_desci import fetch_web3_desci_bounties
 
 SEARCH_PLATFORMS = ["bounty", "gitcoin", "polar.sh", "opire", "issuehunt"]
 
@@ -39,7 +42,7 @@ def fetch_algora_bounties(limit: int = 50) -> List[Dict[str, Any]]:
 
     ctx = get_ssl_context()
     try:
-        with urllib.request.urlopen(req, context=ctx) as resp:
+        with urllib.request.urlopen(req, context=ctx, timeout=4) as resp:
             data = json.loads(resp.read().decode())
             res = data[0] if isinstance(data, list) else data
             json_data = res.get("result", {}).get("data", {}).get("json", {})
@@ -64,7 +67,7 @@ def fetch_github_bounties_multi(limit_per_query: int = 15) -> List[Dict[str, Any
         url = f"https://api.github.com/search/issues?q={query_str}&per_page={limit_per_query}"
         try:
             req = urllib.request.Request(url, headers=headers)
-            with urllib.request.urlopen(req, context=ctx) as resp:
+            with urllib.request.urlopen(req, context=ctx, timeout=4) as resp:
                 data = json.loads(resp.read().decode())
                 items = data.get("items", [])
                 for item in items:
@@ -112,11 +115,18 @@ def fetch_github_bounties_multi(limit_per_query: int = 15) -> List[Dict[str, Any
     return all_items
 
 
+MAINTAINER_ACTIVITY_CACHE: Dict[str, bool] = {}
+
+
 def check_maintainer_activity(repo_owner: str, repo_name: str, days: int = 30) -> bool:
     """Verifies if repository maintainers have recent commits or merged PRs within the last N days."""
     if not repo_owner or not repo_name:
         return False
-    
+
+    cache_key = f"{repo_owner}/{repo_name}"
+    if cache_key in MAINTAINER_ACTIVITY_CACHE:
+        return MAINTAINER_ACTIVITY_CACHE[cache_key]
+
     headers = {"User-Agent": "Mozilla/5.0"}
     if config.GITHUB_TOKEN:
         headers["Authorization"] = f"token {config.GITHUB_TOKEN}"
@@ -125,7 +135,7 @@ def check_maintainer_activity(repo_owner: str, repo_name: str, days: int = 30) -
     url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/commits?per_page=3"
     try:
         req = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(req, context=ctx) as resp:
+        with urllib.request.urlopen(req, context=ctx, timeout=3) as resp:
             commits = json.loads(resp.read().decode())
             import datetime
             now = datetime.datetime.now(datetime.timezone.utc)
@@ -135,9 +145,12 @@ def check_maintainer_activity(repo_owner: str, repo_name: str, days: int = 30) -
                 if date_str:
                     c_date = datetime.datetime.fromisoformat(date_str.replace("Z", "+00:00"))
                     if c_date >= cutoff:
+                        MAINTAINER_ACTIVITY_CACHE[cache_key] = True
                         return True
     except Exception:
         pass
+
+    MAINTAINER_ACTIVITY_CACHE[cache_key] = False
     return False
 
 
@@ -199,7 +212,15 @@ def score_bounty_solvability(bounty: Dict[str, Any]) -> float:
     - Reward range appropriateness ($10 to $500)
     - Clear title/description details
     """
-    # Strict Escrow Verification Check: reject unfunded template issues
+    domain = bounty.get("domain", "code")
+
+    # Domain-specific scoring rules
+    if domain == "kaggle":
+        return 90.0  # Automated ML pipelines have high automated feasibility
+    elif domain == "security":
+        return 85.0  # Automated SAST / secret scans have reproducible PoC verification
+
+    # Strict Escrow Verification Check for code/web3 bounties: reject unfunded template issues
     if not verify_funded_escrow(bounty):
         return 0.0
 
@@ -213,10 +234,11 @@ def score_bounty_solvability(bounty: Dict[str, Any]) -> float:
     repo_name = bounty.get("repo_name", "")
 
     # Rule 1: Target Active Maintainers check
-    if check_maintainer_activity(repo_owner, repo_name, days=30):
-        score += 25.0
-    else:
-        score -= 20.0
+    if repo_owner and repo_name:
+        if check_maintainer_activity(repo_owner, repo_name, days=30):
+            score += 25.0
+        else:
+            score -= 10.0
 
     if config.MIN_BOUNTY_USD <= reward_usd <= config.MAX_BOUNTY_USD:
         score += 15.0
@@ -232,7 +254,7 @@ def score_bounty_solvability(bounty: Dict[str, Any]) -> float:
 
     # Platform reputational bonus
     platform = bounty.get("platform", "").lower()
-    if platform in ["polar.sh", "opire", "gitcoin"]:
+    if platform in ["polar.sh", "opire", "gitcoin", "algora"]:
         score += 10.0
 
     # Rule 0: Anti-Spam / Non-Code Disqualifiers (Grants, Alerts, Automated Feeds)
@@ -262,6 +284,8 @@ def score_bounty_solvability(bounty: Dict[str, Any]) -> float:
         "type",
         "refactor",
         "cors",
+        "solidity",
+        "foundry",
     ]
     if any(kw in title or kw in body for kw in easy_keywords):
         score += 10.0
@@ -270,7 +294,6 @@ def score_bounty_solvability(bounty: Dict[str, Any]) -> float:
     hard_keywords = [
         "architecture redesign",
         "migration",
-        "security audit",
         "flaky test",
         "race condition",
     ]
@@ -281,41 +304,63 @@ def score_bounty_solvability(bounty: Dict[str, Any]) -> float:
 
 
 
-def scan_bounties(limit: int = 50) -> List[Dict[str, Any]]:
-    """Scans Algora, Polar.sh, Gitcoin, Opire & GitHub for open bounties."""
-    print(f"[*] Scouting multi-platform micro-bounties (Algora, Polar, Gitcoin, Opire, IssueHunt, limit={limit})...")
+def scan_bounties(limit: int = 50, domain: Optional[str] = None) -> List[Dict[str, Any]]:
+    """Scans Algora, Polar.sh, Gitcoin, Opire, GitHub, Security & Kaggle for open bounties."""
+    active_domain = (domain or "all").lower()
+    print(f"[*] Scouting micro-bounties (domain={active_domain}, limit={limit})...")
 
-    # Fetch Algora tRPC bounties
-    algora_raw = fetch_algora_bounties(limit=limit)
-    formatted_algora = []
-    for raw in algora_raw:
-        task = raw.get("task") or {}
-        org = raw.get("org") or {}
-        reward = raw.get("reward") or {}
-        reward_usd = (reward.get("amount") or 0) / 100.0
-        formatted_algora.append(
-            {
-                "id": task.get("id") or f"bounty-{task.get('number')}",
-                "title": task.get("title") or "Untitled",
-                "url": task.get("url") or "",
-                "platform": "algora",
-                "repo_owner": task.get("repo_owner") or org.get("handle") or "",
-                "repo_name": task.get("repo_name") or "",
-                "issue_number": task.get("number") or 0,
-                "org_handle": org.get("handle") or "",
-                "org_name": org.get("display_name") or org.get("name") or "",
-                "body": task.get("body") or "",
-                "reward_usd": reward_usd,
-                "reward_formatted": raw.get("reward_formatted") or f"${reward_usd:.0f}",
-                "tech": raw.get("tech") or [],
-                "status": task.get("status") or "active",
-            }
-        )
+    all_bounties: List[Dict[str, Any]] = []
 
-    # Fetch multi-platform GitHub bounties
-    gh_bounties = fetch_github_bounties_multi(limit_per_query=15)
+    # 1. Code / Algora & GitHub
+    if active_domain in ["all", "code", "github"]:
+        algora_raw = fetch_algora_bounties(limit=limit)
+        for raw in algora_raw:
+            task = raw.get("task") or {}
+            org = raw.get("org") or {}
+            reward = raw.get("reward") or {}
+            reward_usd = (reward.get("amount") or 0) / 100.0
+            all_bounties.append(
+                {
+                    "id": task.get("id") or f"bounty-{task.get('number')}",
+                    "domain": "code",
+                    "title": task.get("title") or "Untitled",
+                    "url": task.get("url") or "",
+                    "platform": "algora",
+                    "repo_owner": task.get("repo_owner") or org.get("handle") or "",
+                    "repo_name": task.get("repo_name") or "",
+                    "issue_number": task.get("number") or 0,
+                    "org_handle": org.get("handle") or "",
+                    "org_name": org.get("display_name") or org.get("name") or "",
+                    "body": task.get("body") or "",
+                    "reward_usd": reward_usd,
+                    "reward_formatted": raw.get("reward_formatted") or f"${reward_usd:.0f}",
+                    "tech": raw.get("tech") or [],
+                    "status": task.get("status") or "active",
+                }
+            )
 
-    all_bounties = formatted_algora + gh_bounties
+        gh_bounties = fetch_github_bounties_multi(limit_per_query=15)
+        for g in gh_bounties:
+            g["domain"] = "code"
+            all_bounties.append(g)
+
+    # 2. Web3 & DeSci Domain
+    if active_domain in ["all", "web3", "desci", "web3_desci"]:
+        print("[*] Scouting Web3 & DeSci bounties...")
+        web3_items = fetch_web3_desci_bounties(limit_per_keyword=8)
+        all_bounties.extend(web3_items)
+
+    # 3. Cybersecurity Domain
+    if active_domain in ["all", "security", "cybersecurity"]:
+        print("[*] Scouting Cybersecurity & Bug Bounty targets...")
+        sec_items = fetch_security_bounties(limit_per_keyword=8)
+        all_bounties.extend(sec_items)
+
+    # 4. Kaggle & AI Competitions Domain
+    if active_domain in ["all", "kaggle", "ai"]:
+        print("[*] Scouting Kaggle & AI micro-competitions...")
+        kaggle_items = fetch_kaggle_competitions(limit=8)
+        all_bounties.extend(kaggle_items)
 
     filtered = []
     seen_ids = set()
@@ -323,10 +368,13 @@ def scan_bounties(limit: int = 50) -> List[Dict[str, Any]]:
     for item in all_bounties:
         item["solvability_score"] = score_bounty_solvability(item)
         item_id = item.get("id")
-        if item_id not in seen_ids and item["solvability_score"] > 0 and config.MIN_BOUNTY_USD <= item["reward_usd"] <= config.MAX_BOUNTY_USD:
+        if (
+            item_id not in seen_ids
+            and item["solvability_score"] > 0
+            and config.MIN_BOUNTY_USD <= item["reward_usd"] <= config.MAX_BOUNTY_USD
+        ):
             seen_ids.add(item_id)
             filtered.append(item)
-
 
     # Sort by solvability score descending
     filtered.sort(key=lambda x: x["solvability_score"], reverse=True)
@@ -335,13 +383,14 @@ def scan_bounties(limit: int = 50) -> List[Dict[str, Any]]:
     with open(config.OPEN_BOUNTIES_FILE, "w", encoding="utf-8") as f:
         json.dump(filtered, f, indent=2)
 
-    print(f"[+] Found {len(filtered)} eligible micro-bounties across all platforms. Saved to {config.OPEN_BOUNTIES_FILE}")
+    print(f"[+] Found {len(filtered)} eligible micro-bounties across active domains. Saved to {config.OPEN_BOUNTIES_FILE}")
     return filtered
 
 
 if __name__ == "__main__":
     bounties = scan_bounties(limit=50)
-    print("\n--- TOP MULTI-PLATFORM BOUNTIES SCOUTED ---")
+    print("\n--- TOP MULTI-DOMAIN BOUNTIES SCOUTED ---")
     for idx, b in enumerate(bounties[:10], 1):
-        print(f"{idx}. [{b['reward_formatted']}] ({b.get('platform', 'bounty').upper()}) Score: {b['solvability_score']:.1f}/100 | {b['title']}")
-        print(f"   URL: {b['url']} (Repo: {b['repo_owner']}/{b['repo_name']})")
+        domain_tag = b.get("domain", "code").upper()
+        print(f"{idx}. [{b['reward_formatted']}] [{domain_tag}] Score: {b['solvability_score']:.1f}/100 | {b['title']}")
+        print(f"   URL: {b['url']} (Repo: {b.get('repo_owner')}/{b.get('repo_name')})")

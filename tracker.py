@@ -89,7 +89,7 @@ class BountyTracker:
             repo = b.get("repo_name")
             issue_num = b.get("issue_number")
 
-            if not owner or not repo or not issue_num:
+            if not owner or not repo or not issue_num or b.get("domain") == "kaggle":
                 active_open.append(b)
                 total_open_value += b.get("reward_usd", 0.0)
                 continue
@@ -229,14 +229,16 @@ class BountyTracker:
             elif pr_url and pr_state == "open":
                 s["tracking_status"] = "pr_submitted"
                 pr_open.append(s)
-            elif not pr_url and issue_state == "open":
+            elif not pr_url and issue_state == "open" and s.get("tracking_status") != "closed":
                 s["tracking_status"] = "ready_to_claim"
                 ready_to_claim.append(s)
             else:
                 s["tracking_status"] = "closed"
                 closed_cases.append(s)
 
+
             audited_solved.append(s)
+
 
         # Write clean deduplicated list back to solved_bounties.json
         with open(config.SOLVED_BOUNTIES_FILE, "w", encoding="utf-8") as f:
@@ -330,33 +332,41 @@ class BountyTracker:
             "",
             "## 🛠️ Solved Cases Live Status Breakdown",
             "",
-            "| # | Target Repo & Issue | Platform | Reward | Live Issue State | Tracking Status | PR Link |",
-            "|---|---|---|---|---|---|---|",
+            "| # | Domain | Target Repo & Issue | Platform | Reward | Live Issue State | Tracking Status | PR Link / Artifact |",
+            "|---|---|---|---|---|---|---|---|",
         ]
 
         for idx, item in enumerate(solved_items, 1):
+            domain = item.get("domain", "code").upper()
             repo = f"{item.get('repo_owner')}/{item.get('repo_name')}#{item.get('issue_number')}"
             plat = item.get("platform", "algora") or "algora"
             reward = item.get("reward_formatted", "$?")
             issue_st = item.get("issue_live_state", "open")
             track_st = item.get("tracking_status", "ready_to_claim")
             pr_url = item.get("pr_url")
-            pr_link = f"[PR Link]({pr_url})" if pr_url else "Not Submitted"
+
+            if domain == "SECURITY":
+                pr_link = f"[Advisory Report]({item.get('advisory_report')})" if item.get("advisory_report") else "Report Generated"
+            elif domain == "KAGGLE":
+                pr_link = f"[Submission CSV]({item.get('submission_file')})" if item.get("submission_file") else "Artifact Ready"
+            else:
+                pr_link = f"[PR Link]({pr_url})" if pr_url else "Not Submitted"
 
             status_badge = {
                 "ready_to_claim": "🟢 Ready to Claim",
-                "pr_submitted": "🟡 PR Open",
+                "pr_submitted": "🟡 Submitted",
                 "merged": "🏆 Merged / Won",
                 "closed": "⚪ Closed",
             }.get(track_st, track_st)
 
-            lines.append(f"| {idx} | `{repo}` | {plat} | **{reward}** | `{issue_st}` | {status_badge} | {pr_link} |")
+            lines.append(f"| {idx} | `[{domain}]` | `{repo}` | {plat} | **{reward}** | `{issue_st}` | {status_badge} | {pr_link} |")
 
         lines.extend([
             "",
             "## 🚀 Actionable Next Steps",
-            "- Run `python main.py --claim` to submit pull requests for **Ready to Claim** cases in dry-run or live mode.",
+            "- Run `python main.py --claim` to submit pull requests or artifacts for **Ready to Claim** cases.",
             "- Run `python main.py --solve` to pick the next highest-scoring open bounty and generate verified patches.",
+            "- Run `python main.py --domain <name>` (e.g., `web3_desci`, `security`, `kaggle`, `code`) to target specific verticals.",
             "- Run `python main.py --status` anytime to refresh live GitHub status.",
         ])
 
