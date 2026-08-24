@@ -6,22 +6,28 @@ const REPO_OWNER = process.env.GITHUB_REPO_OWNER || 'kingkrs10';
 const REPO_NAME = process.env.GITHUB_REPO_NAME || 'register';
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN || '';
 
-const headers = {
-  'Accept': 'application/vnd.github.v3.raw',
-  'Authorization': `Bearer ${GITHUB_TOKEN}`,
-  'X-GitHub-Api-Version': '2022-11-28',
-};
+function getHeaders(accept = 'application/vnd.github.v3.raw') {
+  const h: Record<string, string> = {
+    'Accept': accept,
+    'User-Agent': 'MicroBountyHarvest-Dashboard',
+    'X-GitHub-Api-Version': '2022-11-28',
+  };
+  if (GITHUB_TOKEN && GITHUB_TOKEN.trim() !== '') {
+    h['Authorization'] = `token ${GITHUB_TOKEN.trim()}`;
+  }
+  return h;
+}
 
 // In-memory cache with TTL
 const cache = new Map<string, { data: unknown; expiry: number }>();
-const CACHE_TTL = 60_000; // 60 seconds
+const CACHE_TTL = 30_000; // 30 seconds
 
-async function fetchWithCache(url: string): Promise<unknown> {
+async function fetchWithCache(url: string, accept?: string): Promise<unknown> {
   const now = Date.now();
   const cached = cache.get(url);
   if (cached && cached.expiry > now) return cached.data;
-  
-  const res = await fetch(url, { headers, next: { revalidate: 60 } });
+
+  const res = await fetch(url, { headers: getHeaders(accept), next: { revalidate: 30 } });
   if (!res.ok) throw new Error(`GitHub API error: ${res.status} ${res.statusText}`);
   const data = await res.json();
   cache.set(url, { data, expiry: now + CACHE_TTL });
@@ -29,10 +35,22 @@ async function fetchWithCache(url: string): Promise<unknown> {
 }
 
 export async function fetchRepoFile(filePath: string) {
+  // 1. Try raw github raw URL (fastest & most reliable for public repos)
+  try {
+    const rawUrl = `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/main/${filePath}`;
+    const res = await fetch(rawUrl, { next: { revalidate: 30 } });
+    if (res.ok) {
+      return await res.json();
+    }
+  } catch {
+    // continue to next fallback
+  }
+
+  // 2. Try GitHub Contents API
   try {
     return await fetchWithCache(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${filePath}`);
   } catch (error) {
-    // Fallback to local data directory if available
+    // 3. Fallback to local filesystem if available (dev / self-hosted)
     try {
       const localPath = path.resolve(process.cwd(), '..', filePath);
       if (fs.existsSync(localPath)) {
@@ -45,7 +63,7 @@ export async function fetchRepoFile(filePath: string) {
         return JSON.parse(content);
       }
     } catch {
-      // ignore and throw original error
+      // ignore
     }
     throw error;
   }
@@ -68,8 +86,7 @@ export async function triggerWorkflow(action: string, domain: string = 'all', li
   const res = await fetch(url, {
     method: 'POST',
     headers: {
-      ...headers,
-      'Accept': 'application/vnd.github.v3+json',
+      ...getHeaders('application/vnd.github.v3+json'),
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
@@ -85,7 +102,11 @@ export async function triggerWorkflow(action: string, domain: string = 'all', li
 }
 
 export async function fetchLatestWorkflowRun(): Promise<WorkflowRun | null> {
-  const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/actions/workflows/bounty-hunter.yml/runs?per_page=1`;
-  const data = await fetchWithCache(url) as { workflow_runs: WorkflowRun[] };
-  return data.workflow_runs?.[0] || null;
+  try {
+    const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/actions/workflows/bounty-hunter.yml/runs?per_page=1`;
+    const data = await fetchWithCache(url, 'application/vnd.github.v3+json') as { workflow_runs: WorkflowRun[] };
+    return data.workflow_runs?.[0] || null;
+  } catch {
+    return null;
+  }
 }
