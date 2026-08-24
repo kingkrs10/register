@@ -3,7 +3,7 @@ import path from 'path';
 import { OpenBounty, SolvedBounty, DailyReport, WorkflowRun } from '@/lib/types';
 
 const REPO_OWNER = process.env.GITHUB_REPO_OWNER || 'kingkrs10';
-const REPO_NAME = process.env.GITHUB_REPO_NAME || 'amengine';
+const REPO_NAME = process.env.GITHUB_REPO_NAME || 'register';
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN || '';
 
 const headers = {
