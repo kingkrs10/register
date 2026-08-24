@@ -1,17 +1,17 @@
 {
-  "report_timestamp": "2026-08-24 17:33:04 UTC",
+  "report_timestamp": "2026-08-24 22:12:44 UTC",
   "open_cases_summary": {
-    "active_open_count": 29,
+    "active_open_count": 85,
     "closed_stale_filtered": 0,
-    "total_potential_usd": 3557.0
+    "total_potential_usd": 9137.0
   },
   "solved_cases_summary": {
-    "total_solved_cases": 20,
-    "ready_to_claim": 6,
-    "pr_submitted_open": 11,
+    "total_solved_cases": 22,
+    "ready_to_claim": 7,
+    "pr_submitted_open": 12,
     "pr_merged_claimed": 1,
     "closed_or_stale": 2,
-    "total_solved_value_usd": 2110.0,
+    "total_solved_value_usd": 2210.0,
     "total_merged_value_usd": 50.0
   },
   "solved_cases_detail": [
@@ -35,7 +35,7 @@
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/zhangjiayang6835-cyber_bounty-plaza",
       "issue_live_state": "open",
       "issue_comments": 5,
-      "last_audited": "2026-08-24T17:33:14.289902+00:00",
+      "last_audited": "2026-08-24T22:12:59.629372+00:00",
       "tracking_status": "pr_submitted",
       "pr_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/809",
       "pr_live_state": "open"
@@ -60,7 +60,7 @@
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/zhangjiayang6835-cyber_bounty-plaza",
       "issue_live_state": "open",
       "issue_comments": 3,
-      "last_audited": "2026-08-24T17:33:15.210357+00:00",
+      "last_audited": "2026-08-24T22:13:00.244896+00:00",
       "tracking_status": "pr_submitted",
       "pr_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/870",
       "pr_live_state": "open"
@@ -85,7 +85,7 @@
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/zhangjiayang6835-cyber_bounty-plaza",
       "issue_live_state": "open",
       "issue_comments": 4,
-      "last_audited": "2026-08-24T17:33:15.909749+00:00",
+      "last_audited": "2026-08-24T22:13:01.167271+00:00",
       "tracking_status": "pr_submitted",
       "pr_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/810",
       "pr_live_state": "open"
@@ -110,7 +110,7 @@
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/zhangjiayang6835-cyber_bounty-plaza",
       "issue_live_state": "open",
       "issue_comments": 3,
-      "last_audited": "2026-08-24T17:33:16.657527+00:00",
+      "last_audited": "2026-08-24T22:13:02.089736+00:00",
       "tracking_status": "pr_submitted",
       "pr_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/811",
       "pr_live_state": "open"
@@ -135,7 +135,7 @@
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/zhangjiayang6835-cyber_bounty-plaza",
       "issue_live_state": "open",
       "issue_comments": 4,
-      "last_audited": "2026-08-24T17:33:17.319285+00:00",
+      "last_audited": "2026-08-24T22:13:02.798212+00:00",
       "tracking_status": "pr_submitted",
       "pr_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/812",
       "pr_live_state": "open"
@@ -159,7 +159,7 @@
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/litestar-org_.github",
       "issue_live_state": "open",
       "issue_comments": 2,
-      "last_audited": "2026-08-24T17:33:18.283877+00:00",
+      "last_audited": "2026-08-24T22:13:03.473992+00:00",
       "tracking_status": "closed",
       "pr_url": "https://github.com/litestar-org/.github/pull/11",
       "pr_live_state": "closed"
@@ -187,7 +187,7 @@
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/marktext_marktext",
       "issue_live_state": "open",
       "issue_comments": 54,
-      "last_audited": "2026-08-24T17:33:19.209493+00:00",
+      "last_audited": "2026-08-24T22:13:04.530329+00:00",
       "tracking_status": "pr_submitted",
       "pr_url": "https://github.com/marktext/marktext/pull/5101",
       "pr_live_state": "open"
@@ -213,7 +213,7 @@
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/rodrgds_productplate",
       "issue_live_state": "open",
       "issue_comments": 5,
-      "last_audited": "2026-08-24T17:33:20.126631+00:00",
+      "last_audited": "2026-08-24T22:13:05.465192+00:00",
       "tracking_status": "pr_submitted",
       "pr_url": "https://github.com/rodrgds/productplate/pull/12",
       "pr_live_state": "open"
@@ -237,7 +237,7 @@
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/AmanVarshney01_create-better-t-stack",
       "issue_live_state": "open",
       "issue_comments": 3,
-      "last_audited": "2026-08-24T17:33:21.083941+00:00",
+      "last_audited": "2026-08-24T22:13:06.386198+00:00",
       "tracking_status": "pr_submitted",
       "pr_url": "https://github.com/AmanVarshney01/create-better-t-stack/pull/1170",
       "pr_live_state": "open"
@@ -263,7 +263,7 @@
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/DirectedEdges_specs",
       "issue_live_state": "closed",
       "issue_comments": 2,
-      "last_audited": "2026-08-24T17:33:22.189813+00:00",
+      "last_audited": "2026-08-24T22:13:07.309832+00:00",
       "tracking_status": "closed",
       "pr_url": "https://github.com/DirectedEdges/specs/pull/337",
       "pr_live_state": "closed"
@@ -294,7 +294,7 @@
       "issue_live_state": "open",
       "issue_comments": 32,
       "pr_live_state": "open",
-      "last_audited": "2026-08-24T17:33:23.572517+00:00"
+      "last_audited": "2026-08-24T22:13:08.538694+00:00"
     },
     {
       "id": "gh-sourcey/startup-credits-241",
@@ -318,7 +318,7 @@
       "issue_live_state": "open",
       "issue_comments": 3,
       "pr_live_state": "open",
-      "last_audited": "2026-08-24T17:33:24.736505+00:00"
+      "last_audited": "2026-08-24T22:13:09.460250+00:00"
     },
     {
       "id": "gh-ecosyste-ms/packages-431",
@@ -339,7 +339,7 @@
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/ecosyste-ms_packages",
       "issue_live_state": "open",
       "issue_comments": 7,
-      "last_audited": "2026-08-24T17:33:25.035859+00:00",
+      "last_audited": "2026-08-24T22:13:09.755962+00:00",
       "tracking_status": "ready_to_claim",
       "notes": "Repository org restricts/blocks contributions."
     },
@@ -365,7 +365,7 @@
       "issue_live_state": "closed",
       "issue_comments": 3,
       "pr_live_state": "merged",
-      "last_audited": "2026-08-24T17:33:25.964486+00:00"
+      "last_audited": "2026-08-24T22:13:10.688947+00:00"
     },
     {
       "id": "gh-ecosyste-ms/blog-4",
@@ -389,7 +389,7 @@
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/ecosyste-ms_blog",
       "issue_live_state": "open",
       "issue_comments": 0,
-      "last_audited": "2026-08-24T17:33:26.265915+00:00",
+      "last_audited": "2026-08-24T22:13:10.984137+00:00",
       "tracking_status": "ready_to_claim",
       "notes": "Repository org restricts/blocks contributions."
     },
@@ -419,7 +419,7 @@
       "issue_live_state": "open",
       "issue_comments": 5,
       "pr_live_state": "open",
-      "last_audited": "2026-08-24T17:33:27.079761+00:00"
+      "last_audited": "2026-08-24T22:13:11.914334+00:00"
     },
     {
       "id": "gh-ecosyste-ms/licenses-153",
@@ -443,7 +443,7 @@
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/ecosyste-ms_licenses",
       "issue_live_state": "open",
       "issue_comments": 5,
-      "last_audited": "2026-08-24T17:33:27.492141+00:00",
+      "last_audited": "2026-08-24T22:13:12.519708+00:00",
       "tracking_status": "ready_to_claim",
       "notes": "Repository org restricts/blocks contributions."
     },
@@ -470,7 +470,7 @@
       "cv_score": 0.8542,
       "submission_file": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/kaggle_submissions/titanic/submission.csv",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/kaggle_submissions/titanic",
-      "last_audited": "2026-08-24T17:33:27.640607+00:00",
+      "last_audited": "2026-08-24T22:13:12.634957+00:00",
       "tracking_status": "ready_to_claim"
     },
     {
@@ -496,7 +496,7 @@
       "cv_score": 0.8542,
       "submission_file": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/kaggle_submissions/spaceship-titanic/submission.csv",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/kaggle_submissions/spaceship-titanic",
-      "last_audited": "2026-08-24T17:33:27.786740+00:00",
+      "last_audited": "2026-08-24T22:13:12.826683+00:00",
       "tracking_status": "ready_to_claim"
     },
     {
@@ -524,8 +524,58 @@
       "advisory_report": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_benelabs_crucible_926.md",
       "issue_live_state": "open",
       "issue_comments": 0,
-      "last_audited": "2026-08-24T17:33:28.109392+00:00",
+      "last_audited": "2026-08-24T22:13:13.029992+00:00",
       "tracking_status": "ready_to_claim"
+    },
+    {
+      "id": "gh-NightVibes33/Filza-27-46",
+      "title": "/var/mobile/Library/CallServices/Greetings/default/",
+      "url": "https://github.com/NightVibes33/Filza-27/issues/46",
+      "platform": "opire",
+      "repo_owner": "NightVibes33",
+      "repo_name": "Filza-27",
+      "issue_number": 46,
+      "org_handle": "NightVibes33",
+      "org_name": "NightVibes33/Filza-27",
+      "body": "/var/mobile/Library/CallServices/Greetings/default/\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #46</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @wcao2312</code> (replace <code>20</code> with the amount, and <code>@wcao2312</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+      "reward_usd": 50.0,
+      "reward_formatted": "$50",
+      "tech": [],
+      "status": "solved",
+      "domain": "code",
+      "solvability_score": 100.0,
+      "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/NightVibes33_Filza-27",
+      "issue_live_state": "open",
+      "issue_comments": 1,
+      "last_audited": "2026-08-24T22:13:13.248845+00:00",
+      "tracking_status": "ready_to_claim"
+    },
+    {
+      "id": "gh-ETK2456/usdt-tracker-1",
+      "title": "Earn by few clicks shipping/shopping ",
+      "url": "https://github.com/ETK2456/usdt-tracker/issues/1",
+      "platform": "opire",
+      "repo_owner": "ETK2456",
+      "repo_name": "usdt-tracker",
+      "issue_number": 1,
+      "org_handle": "ETK2456",
+      "org_name": "ETK2456/usdt-tracker",
+      "body": "https://www.meta.ai/share/c/cQnK8rZes4?utm_source=android_meta_ai_sl\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #1</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @ETK2456</code> (replace <code>20</code> with the amount, and <code>@ETK2456</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+      "reward_usd": 50.0,
+      "reward_formatted": "$50",
+      "tech": [],
+      "status": "solved",
+      "domain": "code",
+      "solvability_score": 100.0,
+      "live_status": "open",
+      "comments_count": 1,
+      "last_audited": "2026-08-24T22:13:14.007603+00:00",
+      "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/ETK2456_usdt-tracker",
+      "pr_url": "https://github.com/ETK2456/usdt-tracker/pull/2",
+      "tracking_status": "pr_submitted",
+      "issue_live_state": "open",
+      "issue_comments": 2,
+      "pr_live_state": "open"
     }
   ]
 }
