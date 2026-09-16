@@ -216,17 +216,10 @@ class SecuritySolver:
         findings = scanner.run_full_scan()
 
         if not findings:
-            # Add a baseline preventive hardening finding if clean
-            findings.append({
-                "category": "Security Hardening & Dependency Best Practice",
-                "severity": "Low",
-                "description": "Audit of repository security posture and dependency configuration completed.",
-                "file": "README.md",
-                "line": 1,
-                "matched_snippet": "Standard Security Audit",
-            })
+            print(f"[*] No actionable security vulnerabilities detected in {self.repo_owner}/{self.repo_name}. Skipping advisory generation.")
+            return None
 
-        print(f"[+] Identified {len(findings)} security audit finding(s).")
+        print(f"[+] Identified {len(findings)} high-confidence security finding(s).")
 
         # Generate Report
         ts = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")

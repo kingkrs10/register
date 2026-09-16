@@ -79,13 +79,24 @@ def fetch_github_bounties_multi(limit_per_query: int = 15) -> List[Dict[str, Any
                         repo_parts = repo_url.split("/repos/")[-1].split("/") if "/repos/" in repo_url else ["", ""]
                         repo_owner = repo_parts[0] if len(repo_parts) > 0 else ""
                         repo_name = repo_parts[1] if len(repo_parts) > 1 else ""
-
                         body = item.get("body") or ""
                         title = item.get("title") or ""
 
-                        # Extract reward if specified
-                        reward_match = re.search(r"\$(\d+)", title + " " + body)
-                        reward_usd = float(reward_match.group(1)) if reward_match else 50.0
+                        # Anti-spam filter: reject obvious phishing or non-development topics
+                        spam_triggers = ["usdt-tracker", "shipping/shopping", "paste prompt.md", "airdrop", "earn by few clicks", "telegram"]
+                        if any(st in (title + body).lower() for st in spam_triggers):
+                            continue
+
+                        # Extract explicit reward if specified (e.g., "$150", "bounty of $100", "pledged $50")
+                        reward_match = re.search(r"(?:bounty|reward|funded|pledged?)\s*(?:of|is|:)?\s*\$?(\d+(?:\.\d{2})?)", title + " " + body, re.IGNORECASE)
+                        if not reward_match:
+                            reward_match = re.search(r"\$(\d+)", title + " " + body)
+
+                        reward_usd = float(reward_match.group(1)) if reward_match else 0.0
+
+                        # Only include issues that have an actual verified reward amount
+                        if reward_usd < config.MIN_BOUNTY_USD:
+                            continue
 
                         all_items.append(
                             {
@@ -116,13 +127,15 @@ def fetch_github_bounties_multi(limit_per_query: int = 15) -> List[Dict[str, Any
 
 
 MAINTAINER_ACTIVITY_CACHE: Dict[str, bool] = {}
+COMPETITOR_PR_CACHE: Dict[str, int] = {}
 
 
-def check_maintainer_activity(repo_owner: str, repo_name: str, days: int = 30) -> bool:
+def check_maintainer_activity(repo_owner: str, repo_name: str, days: Optional[int] = None) -> bool:
     """Verifies if repository maintainers have recent commits or merged PRs within the last N days."""
     if not repo_owner or not repo_name:
         return False
 
+    active_days = days or config.MAX_MAINTAINER_INACTIVE_DAYS
     cache_key = f"{repo_owner}/{repo_name}"
     if cache_key in MAINTAINER_ACTIVITY_CACHE:
         return MAINTAINER_ACTIVITY_CACHE[cache_key]
@@ -139,7 +152,7 @@ def check_maintainer_activity(repo_owner: str, repo_name: str, days: int = 30) -
             commits = json.loads(resp.read().decode())
             import datetime
             now = datetime.datetime.now(datetime.timezone.utc)
-            cutoff = now - datetime.timedelta(days=days)
+            cutoff = now - datetime.timedelta(days=active_days)
             for c in commits:
                 date_str = c.get("commit", {}).get("committer", {}).get("date")
                 if date_str:
@@ -152,6 +165,33 @@ def check_maintainer_activity(repo_owner: str, repo_name: str, days: int = 30) -
 
     MAINTAINER_ACTIVITY_CACHE[cache_key] = False
     return False
+
+
+def count_open_competitor_prs(repo_owner: str, repo_name: str, issue_number: int) -> int:
+    """Checks how many open PRs currently target this issue to avoid competition and maintainer fatigue."""
+    if not repo_owner or not repo_name or not issue_number:
+        return 0
+    cache_key = f"{repo_owner}/{repo_name}#{issue_number}"
+    if cache_key in COMPETITOR_PR_CACHE:
+        return COMPETITOR_PR_CACHE[cache_key]
+
+    headers = {"User-Agent": "Mozilla/5.0"}
+    if config.GITHUB_TOKEN:
+        headers["Authorization"] = f"token {config.GITHUB_TOKEN}"
+    ctx = get_ssl_context()
+    query = urllib.parse.quote(f"repo:{repo_owner}/{repo_name} type:pr state:open #{issue_number}")
+    url = f"https://api.github.com/search/issues?q={query}"
+    try:
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, context=ctx, timeout=3) as resp:
+            data = json.loads(resp.read().decode())
+            total_count = data.get("total_count", 0)
+            COMPETITOR_PR_CACHE[cache_key] = total_count
+            return total_count
+    except Exception:
+        pass
+    COMPETITOR_PR_CACHE[cache_key] = 0
+    return 0
 
 
 def verify_funded_escrow(bounty: Dict[str, Any]) -> bool:
@@ -207,7 +247,8 @@ def score_bounty_solvability(bounty: Dict[str, Any]) -> float:
     """
     Computes a solvability score (0.0 to 100.0) based on:
     - Strict Escrow Verification (guaranteed pre-funded rewards)
-    - Target active maintainers (merged PRs / commits in last 30 days)
+    - Anti-Bot / Anti-Flagging rules (rejects no-ai repos and high-competition PRs)
+    - Target active maintainers (merged PRs / commits in last 14 days)
     - Language / tech stack match
     - Reward range appropriateness ($10 to $500)
     - Clear title/description details
@@ -232,13 +273,27 @@ def score_bounty_solvability(bounty: Dict[str, Any]) -> float:
     reward_usd = bounty.get("reward_usd", 0.0)
     repo_owner = bounty.get("repo_owner", "")
     repo_name = bounty.get("repo_name", "")
+    issue_num = bounty.get("issue_number", 0)
 
-    # Rule 1: Target Active Maintainers check
+    # Anti-Bot label check: Reject repos that prohibit automated contributions
+    anti_bot_labels = ["no-ai", "human-only", "no-bots", "no-automation", "manual-only"]
+    if any(ab in t for t in tech for ab in anti_bot_labels):
+        return 0.0
+
+    # Competitor PR check: Disqualify crowded issues to avoid maintainer fatigue
+    if repo_owner and repo_name and issue_num:
+        competitor_prs = count_open_competitor_prs(repo_owner, repo_name, issue_num)
+        bounty["competitor_prs"] = competitor_prs
+        if competitor_prs >= config.MAX_OPEN_PR_COMPETITORS:
+            return 0.0
+
+    # Rule 1: Target Active Maintainers check (within MAX_MAINTAINER_INACTIVE_DAYS)
     if repo_owner and repo_name:
-        if check_maintainer_activity(repo_owner, repo_name, days=30):
+        if check_maintainer_activity(repo_owner, repo_name, days=config.MAX_MAINTAINER_INACTIVE_DAYS):
             score += 25.0
         else:
-            score -= 10.0
+            # Inactive maintainer: severely penalize
+            score -= 25.0
 
     if config.MIN_BOUNTY_USD <= reward_usd <= config.MAX_BOUNTY_USD:
         score += 15.0

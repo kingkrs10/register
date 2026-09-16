@@ -77,13 +77,18 @@ SECURITY_KEYWORDS = [
 KAGGLE_USERNAME = os.getenv("KAGGLE_USERNAME", "")
 KAGGLE_KEY = os.getenv("KAGGLE_KEY", "")
 
-# Solvability Criteria
+# Solvability Criteria & Anti-Flagging Guardrails
 PREFER_DOCS_AND_SIMPLE_BUGS = True
-MAX_OPEN_PR_COMPETITORS = 5
+MAX_OPEN_PR_COMPETITORS = int(os.getenv("MAX_OPEN_PR_COMPETITORS", "2"))
+MAX_MAINTAINER_INACTIVE_DAYS = int(os.getenv("MAX_MAINTAINER_INACTIVE_DAYS", "14"))
+MAX_PATCH_DIFF_LINES = int(os.getenv("MAX_PATCH_DIFF_LINES", "150"))
+STRICT_TEST_PASS_REQUIRED = True
+ENABLE_BOT_ISSUE_COMMENTS = False  # Never post canned "I am working on this" comments
+ENABLE_PUBLIC_SECURITY_PRS = False  # NEVER open public PRs for security advisories (responsible disclosure)
 
 # AI Solver Settings
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
-GEMINI_MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")  # default solver model
+GEMINI_MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-flash-latest")  # default solver model
 MAX_SOLVER_RETRIES = 3
 
 # Claimer & Git Settings

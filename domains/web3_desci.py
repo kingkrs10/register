@@ -163,23 +163,10 @@ class Web3DeSciSolver:
         return True
 
     def generate_fix(self) -> bool:
-        """Generates and applies Web3/DeSci specific patch."""
+        """Generates and applies Web3/DeSci specific patch using AI solver."""
         print(f"[*] Applying domain-specific fix for {self.sub_type}: '{self.title}'...")
-        
-        # Locate target file (.sol, .py, .md, .csv)
-        candidates = list(self.repo_dir.rglob("*.sol")) + list(self.repo_dir.rglob("*.py")) + list(self.repo_dir.rglob("*.md"))
-        candidates = [c for c in candidates if ".git" not in c.parts and "node_modules" not in c.parts and "lib" not in c.parts]
-
-        target_file = candidates[0] if candidates else None
-        if target_file:
-            try:
-                content = target_file.read_text(encoding="utf-8", errors="ignore")
-                patch = f"\n\n// Web3/DeSci Fix #{self.issue_number}: {self.title}\n" if target_file.suffix == ".sol" else f"\n\n# Web3/DeSci Fix #{self.issue_number}: {self.title}\n"
-                if patch not in content:
-                    target_file.write_text(content + patch, encoding="utf-8")
-                    print(f"[+] Applied patch to {target_file.relative_to(self.repo_dir)}")
-                return True
-            except Exception as e:
-                print(f"[!] Error applying patch: {e}")
-                return False
-        return True
+        # Import solver dynamically to avoid circular dependencies
+        import solver as _solver
+        base_solver = _solver.BountySolver(self.bounty)
+        base_solver.repo_dir = self.repo_dir
+        return base_solver.generate_ai_fix()
