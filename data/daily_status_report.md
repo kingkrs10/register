@@ -1,15 +1,15 @@
 # 🎯 MicroBountyHarvest - Daily Status Report
-*Generated on: `2026-09-17 11:26:21 UTC`*
+*Generated on: `2026-09-17 16:43:35 UTC`*
 
 ## 📊 Executive Summary
 
 | Metric | Value |
 |---|---|
-| **Active Open Bounties** | **74** |
-| **Open Bounty Pipeline Value** | **$10,144.00** |
-| **Total Solved Bounties** | **74** |
-| **Solved Bounties Value** | **$8,338.00** |
-| **Ready to Claim (Local Fix Tested)** | **14** |
+| **Active Open Bounties** | **76** |
+| **Open Bounty Pipeline Value** | **$10,344.00** |
+| **Total Solved Bounties** | **75** |
+| **Solved Bounties Value** | **$8,438.00** |
+| **Ready to Claim (Local Fix Tested)** | **15** |
 | **PRs Submitted & Pending Review** | **42** |
 | **PRs Merged / Payout Won** | **1** |
 | **Closed / Inactive Cases** | **17** |
@@ -92,6 +92,7 @@
 | 72 | `[WEB3_DESCI]` | `zhangjiayang6835-cyber/bounty-plaza#1214` | web3_github | **$350** | `open` | 🟢 Ready to Claim | Not Submitted |
 | 73 | `[CODE]` | `zhangjiayang6835-cyber/bounty-plaza#1573` | bounty | **$250** | `open` | 🟢 Ready to Claim | Not Submitted |
 | 74 | `[CODE]` | `NightVibes33/FlekDeck#2` | opire | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
+| 75 | `[CODE]` | `strias-ai/embodied-ai-reservations-madrid#1` | opire | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
 
 ## 🚀 Actionable Next Steps
 - Run `python main.py --claim` to submit pull requests or artifacts for **Ready to Claim** cases.
