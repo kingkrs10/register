@@ -19,7 +19,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-17T21:12:57.441224+00:00"
+    "last_audited": "2026-09-18T00:04:34.429960+00:00"
   },
   {
     "id": "gh-strias-ai/embodied-ai-reservations-madrid-1",
@@ -41,7 +41,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-17T21:12:57.766618+00:00"
+    "last_audited": "2026-09-18T00:04:34.766356+00:00"
   },
   {
     "id": "gh-mrzhangkris/dsh-subagent-roster-1",
@@ -63,7 +63,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-17T21:12:58.079480+00:00"
+    "last_audited": "2026-09-18T00:04:35.106739+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-81",
@@ -87,7 +87,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-17T21:12:58.413989+00:00"
+    "last_audited": "2026-09-18T00:04:35.424650+00:00"
   },
   {
     "id": "gh-NightVibes33/FlekDeck-2",
@@ -109,7 +109,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 12,
-    "last_audited": "2026-09-17T21:12:58.744730+00:00"
+    "last_audited": "2026-09-18T00:04:35.746748+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-1214",
@@ -135,7 +135,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-17T21:12:59.067341+00:00"
+    "last_audited": "2026-09-18T00:04:36.088826+00:00"
   },
   {
     "id": "web3-connect-boiz/soroban-security-scanner-477",
@@ -165,7 +165,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-09-17T21:12:59.449123+00:00"
+    "last_audited": "2026-09-18T00:04:36.442111+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -190,7 +190,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-09-17T21:12:59.828198+00:00"
+    "last_audited": "2026-09-18T00:04:36.822668+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -216,7 +216,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-17T21:13:00.173458+00:00"
+    "last_audited": "2026-09-18T00:04:37.176965+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1573",
@@ -241,7 +241,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-17T21:13:00.501858+00:00"
+    "last_audited": "2026-09-18T00:04:37.497861+00:00"
   },
   {
     "id": "gh-OmniBlocks/Boxy-gh-143",
@@ -265,7 +265,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 28,
-    "last_audited": "2026-09-17T21:13:00.861709+00:00"
+    "last_audited": "2026-09-18T00:04:37.845193+00:00"
   },
   {
     "id": "gh-OmniBlocks/monorepo-795",
@@ -288,8 +288,8 @@
     "competitor_prs": 0,
     "solvability_score": 90.0,
     "live_status": "open",
-    "comments_count": 9,
-    "last_audited": "2026-09-17T21:13:01.192652+00:00"
+    "comments_count": 36,
+    "last_audited": "2026-09-18T00:04:38.193008+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1295",
@@ -314,7 +314,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 14,
-    "last_audited": "2026-09-17T21:13:01.571581+00:00"
+    "last_audited": "2026-09-18T00:04:38.524877+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1291",
@@ -339,7 +339,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 8,
-    "last_audited": "2026-09-17T21:13:01.906838+00:00"
+    "last_audited": "2026-09-18T00:04:38.841517+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1293",
@@ -364,7 +364,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 9,
-    "last_audited": "2026-09-17T21:13:02.233206+00:00"
+    "last_audited": "2026-09-18T00:04:39.178264+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1221",
@@ -389,7 +389,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-17T21:13:02.535997+00:00"
+    "last_audited": "2026-09-18T00:04:39.512096+00:00"
   },
   {
     "id": "gh-photoprism/photoprism-93",
@@ -414,7 +414,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 90,
-    "last_audited": "2026-09-17T21:13:02.858046+00:00"
+    "last_audited": "2026-09-18T00:04:39.832823+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-951",
@@ -440,7 +440,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 12,
-    "last_audited": "2026-09-17T21:13:03.197627+00:00"
+    "last_audited": "2026-09-18T00:04:40.160257+00:00"
   },
   {
     "id": "web3-relayhop/sn-monetization-runtime-753",
@@ -467,7 +467,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 12,
-    "last_audited": "2026-09-17T21:13:03.555230+00:00"
+    "last_audited": "2026-09-18T00:04:40.493713+00:00"
   },
   {
     "id": "web3-connect-boiz/soroban-security-scanner-475",
@@ -495,7 +495,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-17T21:13:03.930230+00:00"
+    "last_audited": "2026-09-18T00:04:40.824905+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -604,7 +604,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-17T21:13:04.238140+00:00"
+    "last_audited": "2026-09-18T00:04:41.141539+00:00"
   },
   {
     "id": "sec-Akanimoh12/Stellar-Tipz-1394",
@@ -629,7 +629,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-17T21:13:04.573619+00:00"
+    "last_audited": "2026-09-18T00:04:41.468257+00:00"
   },
   {
     "id": "sec-Smartdevs17/stellarlend-983",
@@ -654,7 +654,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-17T21:13:04.897889+00:00"
+    "last_audited": "2026-09-18T00:04:41.785163+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -679,7 +679,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-17T21:13:05.315400+00:00"
+    "last_audited": "2026-09-18T00:04:42.140546+00:00"
   },
   {
     "id": "sec-Haroldwonder/TrustLink-1331",
@@ -704,7 +704,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-17T21:13:05.644966+00:00"
+    "last_audited": "2026-09-18T00:04:42.489328+00:00"
   },
   {
     "id": "sec-MergeFi/contracts-299",
@@ -729,7 +729,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-17T21:13:05.961709+00:00"
+    "last_audited": "2026-09-18T00:04:42.796494+00:00"
   },
   {
     "id": "sec-stellar-vortex-protocol/vortex-contracts-298",
@@ -754,7 +754,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-17T21:13:06.313136+00:00"
+    "last_audited": "2026-09-18T00:04:43.135155+00:00"
   },
   {
     "id": "sec-LeoCunhaLabz/powerlifting-app-302",
@@ -779,7 +779,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-17T21:13:06.630037+00:00"
+    "last_audited": "2026-09-18T00:04:43.435751+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -804,7 +804,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-17T21:13:07.002974+00:00"
+    "last_audited": "2026-09-18T00:04:43.775609+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -829,7 +829,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-17T21:13:07.350378+00:00"
+    "last_audited": "2026-09-18T00:04:44.135981+00:00"
+  },
+  {
+    "id": "sec-maschina-labs/maschina-321",
+    "domain": "security",
+    "title": "Start a bug bounty",
+    "url": "https://github.com/maschina-labs/maschina/issues/321",
+    "platform": "github_security",
+    "repo_owner": "maschina-labs",
+    "repo_name": "maschina",
+    "issue_number": 321,
+    "org_handle": "maschina-labs",
+    "org_name": "maschina-labs/maschina",
+    "body": "Rewards for responsibly reported vulnerabilities, with clear scope and payouts.\n\n**Done when:** the program is public and the first report has been handled end to end.\n\n<!-- roadmap: a9-bug-bounty -->\n",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 1,
+    "last_audited": "2026-09-18T00:04:44.487735+00:00"
   },
   {
     "id": "sec-AudioBitsStellar/AudioBlock_Backend-510",
@@ -854,7 +879,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-17T21:13:07.706153+00:00"
+    "last_audited": "2026-09-18T00:04:44.844306+00:00"
   },
   {
     "id": "sec-AgoraIO/docs-portal-1102",
@@ -879,7 +904,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-17T21:13:08.070382+00:00"
+    "last_audited": "2026-09-18T00:04:45.204443+00:00"
   },
   {
     "id": "sec-Vikingr2023/awesome-agent-bounties-261",
@@ -904,32 +929,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-17T21:13:08.393979+00:00"
-  },
-  {
-    "id": "sec-Vikingr2023/awesome-agent-bounties-324",
-    "domain": "security",
-    "title": "[zhangjiayang6835-cyber/bounty-plaza] [Bounty] [NSPG13/agent-bounties] [1 USDC autonomous bounty] ",
-    "url": "https://github.com/Vikingr2023/awesome-agent-bounties/issues/324",
-    "platform": "github_security",
-    "repo_owner": "Vikingr2023",
-    "repo_name": "awesome-agent-bounties",
-    "issue_number": 324,
-    "org_handle": "Vikingr2023",
-    "org_name": "Vikingr2023/awesome-agent-bounties",
-    "body": "## \u5916\u90e8 Bounty \u4efb\u52a1\u955c\u50cf\n\n| \u5b57\u6bb5 | \u503c |\n|---|---|\n| \u6e90\u4ed3\u5e93 | zhangjiayang6835-cyber/bounty-plaza |\n| \u539f issue | #492 |\n| \u4f5c\u8005 | zhangjiayang6835-cyber |\n| \u521b\u5efa\u65f6\u95f4 | 2026-07-13T10:41:49 |\n| \u6807\u7b7e | bounty,real |\n| \u8bc4\u8bba | 3 \u6761 |\n| \u8d4f\u91d1 | 1 USD |\n| \u539f URL | https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/492 |\n\n---\n\n### \u4efb\u52a1\u63cf\u8ff0\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/Vikingr2023/awesome-agent-bounties/issues/267\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[NSPG13/agent-bounties] [1 USDC autonomous bounty] Seed a deterministic-verifier chi\n\n## \u5916\u90e8 Bounty \u4efb\u52a1\u955c\u50cf\n\n| \u5b57\u6bb5 | \u503c |\n|---|---|\n| \u6e90\u4ed3\u5e93 | NSPG13/agent-bounties |\n| \u539f issue | #219 |\n| \u4f5c\u8005 | NSPG13 |\n| \u521b\u5efa\u65f6\u95f4 | 2026-07-13T06:41:00 |\n| \u6807\u7b7e | bounty,ai-agent-welcome,distribution,activation-blocked |\n| \u8bc4\u8bba | 8 \u6761 |\n| \u8d4f\u91d1 | 1 USD |\n| \u539f URL | https://github.com/NSPG13/agent-bounties/issues/219 |\n\n---\n\n### \u4efb\u52a1\u63cf\u8ff0\n\n## Goal\n\nCreate a fully funded canonical child bounty for a deterministic verifier or harness improvement that another wallet claims and submits.\n\n## Suggested lane\n\nPrefer measurable fixtures, replay tests, contract checks, or fail-closed verification work.\n\nThe lane guides usefulness; payout eligibility is only the exact deterministic on-chain criteria below.\n## Payment truth\n\n- **Current status:** activation-blocked and not yet funded. Do not claim until a maintainer evidence comment links the canonical contract and confirmed `FundingAdded` plus `BountyBecameClaimable` events, and the `funded-live` and `claimable-live` labels are present.\n- **Planned root funding:** 1.00 USDC on Base mainnet: 0.90 USDC solver reward and 0.10 USDC verifier reward.\n- **Claim bond:** 0.10 USDC, returned on successful settlement; verification timeout also returns it under autonomous-v1.\n- **Payment proof:** only a confirmed canonical `BountySettled` event proves payme\n\n\n---\n\nThis bounty is now mirrored on **31day.cloud** - AI Agent \u5728 Docker \u6c99\u7bb1\u62a2\u5355\u4e2d.\n\n```\npip install thirtyoneday\n```\n\n> GitHubBountyHunter v0.2\n",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 3,
-    "last_audited": "2026-09-17T21:13:08.757800+00:00"
+    "last_audited": "2026-09-18T00:04:45.523980+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -954,7 +954,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-17T21:13:09.097356+00:00"
+    "last_audited": "2026-09-18T00:04:45.831620+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -979,7 +979,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-17T21:13:09.427125+00:00"
+    "last_audited": "2026-09-18T00:04:46.158965+00:00"
   },
   {
     "id": "sec-relayhop/ClaudeEarnSelf-runtime-988",
@@ -1004,7 +1004,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-17T21:13:09.724547+00:00"
+    "last_audited": "2026-09-18T00:04:46.498567+00:00"
+  },
+  {
+    "id": "sec-OmniBlocks/bountyfarmer-6",
+    "domain": "security",
+    "title": "bitcoin bounty",
+    "url": "https://github.com/OmniBlocks/bountyfarmer/issues/6",
+    "platform": "github_security",
+    "repo_owner": "OmniBlocks",
+    "repo_name": "bountyfarmer",
+    "issue_number": 6,
+    "org_handle": "OmniBlocks",
+    "org_name": "OmniBlocks/bountyfarmer",
+    "body": "You will get 99999999 btc if you add a saas to boxy \ud83d\udcb0\ud83d\udcb0\ud83d\udcb0\ud83d\udcb0\ud83d\udcb0",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 7,
+    "last_audited": "2026-09-18T00:04:46.838463+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -1029,7 +1054,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-17T21:13:10.040188+00:00"
+    "last_audited": "2026-09-18T00:04:47.161194+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1115",
@@ -1054,7 +1079,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-17T21:13:10.428186+00:00"
+    "last_audited": "2026-09-18T00:04:47.503244+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-306",
@@ -1079,57 +1104,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-17T21:13:10.742597+00:00"
-  },
-  {
-    "id": "sec-scylladb/scylladb-31175",
-    "domain": "security",
-    "title": "security vulnerability submitted",
-    "url": "https://github.com/scylladb/scylladb/issues/31175",
-    "platform": "github_security",
-    "repo_owner": "scylladb",
-    "repo_name": "scylladb",
-    "issue_number": 31175,
-    "org_handle": "scylladb",
-    "org_name": "scylladb/scylladb",
-    "body": "According to https://www.scylladb.com/bug-bounty-program/ \"In addition, you should open a corresponding issue in the relevant ScyllaDB GitHub repository, labeled as a security finding, so it is tracked alongside the project\u2019s other open issues\"\n\nJust making this issue to track a vulnerability submitted roughly 1 week ago. I didn't get any confirmation or anything so can't provide any links or references, but am trying to follow the procedure as described.",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-09-17T21:13:11.128729+00:00"
-  },
-  {
-    "id": "sec-NSPG13/agent-bounties-864",
-    "domain": "security",
-    "title": "[Bounty] Seed a paid wallet UX child bounty",
-    "url": "https://github.com/NSPG13/agent-bounties/issues/864",
-    "platform": "github_security",
-    "repo_owner": "NSPG13",
-    "repo_name": "agent-bounties",
-    "issue_number": 864,
-    "org_handle": "NSPG13",
-    "org_name": "NSPG13/agent-bounties",
-    "body": "<!-- agent-bounties/github-discovery-v1:start -->\n<!-- agent-bounties/github-discovery-v1 {\"discovery_id\":\"eip155:8453:agent-bounties/autonomous-v1:0xe8c1d3f046f3e4690bef59ba4abd5d02d2a6984b\"} -->\n## Canonical bounty discovery\n\nCreate and fully fund a concrete wallet UX coding bounty that a different registered participant completes and receives canonical settlement for.\n\n- **Mode:** Exclusive claim\n- **Lifecycle:** `unavailable`\n- **Solver reward:** 0.90 USDC\n- **Entry/claim bond:** 0.10 USDC\n- **Funding:** 1.00 / 1.00 USDC\n- **Verifier:** deterministic_module (`deterministic_module`; ready: `false`)\n- **Funding Deadline:** `2026-10-11T00:00:00+00:00`\n\n### Next action\n\n**[Inspect canonical state](https://api.agentbounties.app/v1/base/autonomous-bounties/events?network=base-mainnet&bounty_id=0xed39b0f29e43a16acff555865d464eeb94b13eac27c4ead88e598c52609ab253&utm_source=github&utm_medium=issue&utm_campaign=bounty-discovery-v1&discovery_id=eip155%3A8453%3Aagent-bounties%2Fautonomous-v1%3A0xe8c1d3f046f3e4690bef59ba4abd5d02d2a6984b)** \u2014 Inspect confirmed canonical events. GitHub state is not settlement evidence.\n\n[Open the public bounty page](https://agentbounties.app/earn.html?bountyContract=0xe8c1d3f046f3e4690bef59ba4abd5d02d2a6984b&network=base-mainnet&utm_source=github&utm_medium=issue&utm_campaign=bounty-discovery-v1&discovery_id=eip155%3A8453%3Aagent-bounties%2Fautonomous-v1%3A0xe8c1d3f046f3e4690bef59ba4abd5d02d2a6984b)\n[Original source](https://github.com/NSPG13/agent-bounties/issues/336)\n\n> GitHub mirrors canonical public state and cannot fund, claim, verify, settle, or prove payment. Only a confirmed canonical `BountySettled` receipt below proves solver payment.\n<!-- agent-bounties/github-discovery-v1:end -->\n",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 3,
-    "last_audited": "2026-09-17T21:13:11.460775+00:00"
+    "last_audited": "2026-09-18T00:04:47.796968+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -1154,7 +1129,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-17T21:13:11.823533+00:00"
+    "last_audited": "2026-09-18T00:04:48.104112+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -1179,7 +1154,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-17T21:13:12.151652+00:00"
+    "last_audited": "2026-09-18T00:04:48.423447+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -1204,7 +1179,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-17T21:13:12.442755+00:00"
+    "last_audited": "2026-09-18T00:04:48.733783+00:00"
   },
   {
     "id": "sec-Smartdevs17/stellarlend-969",
@@ -1229,7 +1204,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-17T21:13:12.780884+00:00"
+    "last_audited": "2026-09-18T00:04:49.048752+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1251,7 +1226,10 @@
       "vulnerability"
     ],
     "status": "active",
-    "solvability_score": 85.0
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 4,
+    "last_audited": "2026-09-18T00:04:49.357946+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
