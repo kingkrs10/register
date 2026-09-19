@@ -19,7 +19,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-19T17:08:44.262561+00:00"
+    "last_audited": "2026-09-19T20:24:56.434519+00:00"
   },
   {
     "id": "gh-strias-ai/embodied-ai-reservations-madrid-1",
@@ -41,7 +41,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-19T17:08:44.463649+00:00"
+    "last_audited": "2026-09-19T20:24:56.610207+00:00"
   },
   {
     "id": "gh-mrzhangkris/dsh-subagent-roster-1",
@@ -63,7 +63,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-19T17:08:44.632269+00:00"
+    "last_audited": "2026-09-19T20:24:56.760808+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-81",
@@ -87,29 +87,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-19T17:08:44.814050+00:00"
-  },
-  {
-    "id": "gh-NightVibes33/Filza-27-46",
-    "title": "/var/mobile/Library/CallServices/Greetings/default/",
-    "url": "https://github.com/NightVibes33/Filza-27/issues/46",
-    "platform": "opire",
-    "repo_owner": "NightVibes33",
-    "repo_name": "Filza-27",
-    "issue_number": 46,
-    "org_handle": "NightVibes33",
-    "org_name": "NightVibes33/Filza-27",
-    "body": "/var/mobile/Library/CallServices/Greetings/default/\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #46</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @wcao2312</code> (replace <code>20</code> with the amount, and <code>@wcao2312</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 2,
-    "last_audited": "2026-09-19T17:08:45.005823+00:00"
+    "last_audited": "2026-09-19T20:24:56.962044+00:00"
   },
   {
     "id": "gh-NightVibes33/FlekDeck-2",
@@ -131,7 +109,29 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 12,
-    "last_audited": "2026-09-19T17:08:45.187415+00:00"
+    "last_audited": "2026-09-19T20:24:57.174749+00:00"
+  },
+  {
+    "id": "gh-NightVibes33/Filza-27-46",
+    "title": "/var/mobile/Library/CallServices/Greetings/default/",
+    "url": "https://github.com/NightVibes33/Filza-27/issues/46",
+    "platform": "opire",
+    "repo_owner": "NightVibes33",
+    "repo_name": "Filza-27",
+    "issue_number": 46,
+    "org_handle": "NightVibes33",
+    "org_name": "NightVibes33/Filza-27",
+    "body": "/var/mobile/Library/CallServices/Greetings/default/\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #46</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @wcao2312</code> (replace <code>20</code> with the amount, and <code>@wcao2312</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 2,
+    "last_audited": "2026-09-19T20:24:57.370357+00:00"
   },
   {
     "id": "gh-dporkka/dev-plane-19",
@@ -153,7 +153,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-19T17:08:45.371525+00:00"
+    "last_audited": "2026-09-19T20:24:57.550653+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-1214",
@@ -179,7 +179,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-19T17:08:45.559677+00:00"
+    "last_audited": "2026-09-19T20:24:57.740904+00:00"
   },
   {
     "id": "web3-connect-boiz/soroban-security-scanner-477",
@@ -209,7 +209,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-09-19T17:08:45.786946+00:00"
+    "last_audited": "2026-09-19T20:24:57.940339+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -234,7 +234,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-09-19T17:08:45.992761+00:00"
+    "last_audited": "2026-09-19T20:24:58.122592+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -260,55 +260,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-19T17:08:46.201608+00:00"
-  },
-  {
-    "id": "gh-OmniBlocks/Boxy-gh-143",
-    "title": "Bounty",
-    "url": "https://github.com/OmniBlocks/Boxy-gh/issues/143",
-    "platform": "bounty",
-    "repo_owner": "OmniBlocks",
-    "repo_name": "Boxy-gh",
-    "issue_number": 143,
-    "org_handle": "OmniBlocks",
-    "org_name": "OmniBlocks/Boxy-gh",
-    "body": "I will pay $100 for whoever can implement a feature in Boxy's code review bot that pre-emptively closes the PRs of people who aren't in the organization and aren't explicitly whitelisted, and then pings @OmniBlocks/coders to reopen before a review.\n\nAdditionally, to get a bonus payment of $200, you may implement a feature that makes Boxy reject PRs that attempt to remove humor, and accept ones that try to add it.\n\nWill pay in BTC, XMR, SOL, any centralized financial service, cash, gold, goats, whatever. Instant delivery or <sup>I'll take</sup> your money back. All of it. Even the money you had before.\n\n<sup>Disclaimer: Bounties to be paid in PPPDUD Dollars. Value: 0.00 USD per PPPDUD dollar.</sup>",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "bounty"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 90.0,
-    "live_status": "open",
-    "comments_count": 28,
-    "last_audited": "2026-09-19T17:08:46.440747+00:00"
-  },
-  {
-    "id": "gh-OmniBlocks/monorepo-795",
-    "title": "Reverse bounty",
-    "url": "https://github.com/OmniBlocks/monorepo/issues/795",
-    "platform": "bounty",
-    "repo_owner": "OmniBlocks",
-    "repo_name": "monorepo",
-    "issue_number": 795,
-    "org_handle": "OmniBlocks",
-    "org_name": "OmniBlocks/monorepo",
-    "body": "Hello! I am looking to pay a bounty of great magnitude* to whoever can complete the following tasks by April 1st, 2027:\n* Write a blog post detailing how you were fooled into accepting a silly bounty, publish it on your website, and leave a link here.\n* Pay me $500 in Solana, Bitcoin, Ethereum, or Monero.\n* Pledge to stop spamming random projects looking for bounties.\n\n_<sup>*The bounty is negative.</sup>_",
-    "reward_usd": 500.0,
-    "reward_formatted": "$500",
-    "tech": [
-      "bounty"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 90.0,
-    "live_status": "open",
-    "comments_count": 36,
-    "last_audited": "2026-09-19T17:08:46.629693+00:00"
+    "last_audited": "2026-09-19T20:24:58.313574+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1598",
@@ -330,7 +282,57 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-19T17:08:46.793739+00:00"
+    "last_audited": "2026-09-19T20:24:58.491644+00:00"
+  },
+  {
+    "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1295",
+    "title": "[Bounty] [Bounty] Seed a paid MCP child bounty",
+    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1295",
+    "platform": "bounty",
+    "repo_owner": "zhangjiayang6835-cyber",
+    "repo_name": "bounty-plaza",
+    "issue_number": 1295,
+    "org_handle": "zhangjiayang6835-cyber",
+    "org_name": "zhangjiayang6835-cyber/bounty-plaza",
+    "body": "### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/NSPG13/agent-bounties/issues/1364\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] Seed a paid MCP child bounty\n\n<!-- agent-bounties/github-discovery-v1:start -->\n<!-- agent-bounties/github-discovery-v1 {\"discovery_id\":\"eip155:8453:agent-bounties/autonomous-v1:0x43d42cb227d76588ab16693f14efd6cff851fa7a\"} -->\n## Canonical bounty discovery\n\nCreate and fully fund a concrete MCP coding bounty that a different registered participant completes and receives canonical settlement for.\n\n- **Current work state:** `unavailable`\n- **Current payment state:** `escrowed`\n- **Current competition state:** `exclusive_claim`\n- **Solver reward:** 0.90 USDC\n- **Entry/claim bond:** 0.10 USDC\n- **Funding:** 1.00 / 1.00 USDC\n- **Verifier:** deterministic_module (`deterministic_module`; ready: `false`)\n- **Funding Deadline:** `2026-10-11T00:00:00+00:00`\n\n### Next action\n\n**[Inspect canonical state](https://api.agentbounties.app/v1/base/autonomous-bounties/events?network=base-mainnet&bounty_id=0x12ad2fa99de272728311a3eb07c3c741048382260cb91ba1e8f001ed3b5759d0&utm_source=github&utm_medium=issue&utm_campaign=bounty-discovery-v1&discovery_id=eip155%3A8453%3Aagent-bounties%2Fautonomous-v1%3A0x43d42cb227d76588ab16693f14efd6cff851fa7a)** \u2014 Inspect confirmed canonical events. GitHub state is not settlement evidence.\n\n[Open the public bounty page](https://agentbounties.app/earn.html?bountyContract=0x43d42cb227d76588ab16693f14efd6cff851fa7a&network=base-mainnet&utm_source=github&utm_medium=issue&utm_campaign=bounty-discovery-v1&discovery_id=eip155%3A8453%3Aagent-bounties%2Fautonomous-v1%3A0x43d42cb227d76588ab16693f14efd6cff851fa7a)\n[Original source](https://github.com/NSPG13/agent-bounties/issues/335)\n\n> GitHub mirrors canonical public state and cannot fund, claim, verify, settle, or prove payment. Only a confirmed canonical `BountySettled` receipt below proves solver payment.\n<!-- agent-bounties/github-discovery-v1:end -->\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n112 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$90\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n",
+    "reward_usd": 112.0,
+    "reward_formatted": "$112",
+    "tech": [
+      "bounty",
+      "real"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 1,
+    "solvability_score": 90.0,
+    "live_status": "open",
+    "comments_count": 14,
+    "last_audited": "2026-09-19T20:24:58.666301+00:00"
+  },
+  {
+    "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1291",
+    "title": "[Bounty] [Bounty] Seed a paid CLI child bounty",
+    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1291",
+    "platform": "bounty",
+    "repo_owner": "zhangjiayang6835-cyber",
+    "repo_name": "bounty-plaza",
+    "issue_number": 1291,
+    "org_handle": "zhangjiayang6835-cyber",
+    "org_name": "zhangjiayang6835-cyber/bounty-plaza",
+    "body": "### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/NSPG13/agent-bounties/issues/1371\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] Seed a paid CLI child bounty\n\n<!-- agent-bounties/github-discovery-v1:start -->\n<!-- agent-bounties/github-discovery-v1 {\"discovery_id\":\"eip155:8453:agent-bounties/autonomous-v1:0xfffecb0fcd36477c5f6ecec808f6f0cf53819562\"} -->\n## Canonical bounty discovery\n\nCreate and fully fund a concrete CLI coding bounty that a different registered participant completes and receives canonical settlement for.\n\n- **Current work state:** `unavailable`\n- **Current payment state:** `escrowed`\n- **Current competition state:** `exclusive_claim`\n- **Solver reward:** 0.90 USDC\n- **Entry/claim bond:** 0.10 USDC\n- **Funding:** 1.00 / 1.00 USDC\n- **Verifier:** deterministic_module (`deterministic_module`; ready: `false`)\n- **Funding Deadline:** `2026-10-11T00:00:00+00:00`\n\n### Next action\n\n**[Inspect canonical state](https://api.agentbounties.app/v1/base/autonomous-bounties/events?network=base-mainnet&bounty_id=0x7e8e455f2a454358383cb92b9db9f9e0cfa8e8a3e73caaf739a17a033ed641b6&utm_source=github&utm_medium=issue&utm_campaign=bounty-discovery-v1&discovery_id=eip155%3A8453%3Aagent-bounties%2Fautonomous-v1%3A0xfffecb0fcd36477c5f6ecec808f6f0cf53819562)** \u2014 Inspect confirmed canonical events. GitHub state is not settlement evidence.\n\n[Open the public bounty page](https://agentbounties.app/earn.html?bountyContract=0xfffecb0fcd36477c5f6ecec808f6f0cf53819562&network=base-mainnet&utm_source=github&utm_medium=issue&utm_campaign=bounty-discovery-v1&discovery_id=eip155%3A8453%3Aagent-bounties%2Fautonomous-v1%3A0xfffecb0fcd36477c5f6ecec808f6f0cf53819562)\n[Original source](https://github.com/NSPG13/agent-bounties/issues/333)\n\n> GitHub mirrors canonical public state and cannot fund, claim, verify, settle, or prove payment. Only a confirmed canonical `BountySettled` receipt below proves solver payment.\n<!-- agent-bounties/github-discovery-v1:end -->\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n112 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$90\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n",
+    "reward_usd": 112.0,
+    "reward_formatted": "$112",
+    "tech": [
+      "bounty",
+      "real"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 1,
+    "solvability_score": 90.0,
+    "live_status": "open",
+    "comments_count": 8,
+    "last_audited": "2026-09-19T20:24:58.839587+00:00"
   },
   {
     "id": "gh-photoprism/photoprism-93",
@@ -355,7 +357,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 90,
-    "last_audited": "2026-09-19T17:08:47.003165+00:00"
+    "last_audited": "2026-09-19T20:24:59.053714+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-951",
@@ -381,7 +383,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 12,
-    "last_audited": "2026-09-19T17:08:47.189209+00:00"
+    "last_audited": "2026-09-19T20:24:59.230714+00:00"
   },
   {
     "id": "web3-relayhop/sn-monetization-runtime-753",
@@ -408,7 +410,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 12,
-    "last_audited": "2026-09-19T17:08:47.375571+00:00"
+    "last_audited": "2026-09-19T20:24:59.402969+00:00"
   },
   {
     "id": "web3-connect-boiz/soroban-security-scanner-475",
@@ -436,7 +438,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-19T17:08:47.635668+00:00"
+    "last_audited": "2026-09-19T20:24:59.617902+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -545,7 +547,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-19T17:08:47.830397+00:00"
+    "last_audited": "2026-09-19T20:24:59.788707+00:00"
   },
   {
     "id": "sec-Akanimoh12/Stellar-Tipz-1394",
@@ -570,7 +572,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-19T17:08:47.987765+00:00"
+    "last_audited": "2026-09-19T20:24:59.945616+00:00"
   },
   {
     "id": "sec-Smartdevs17/stellarlend-983",
@@ -595,7 +597,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-19T17:08:48.179786+00:00"
+    "last_audited": "2026-09-19T20:25:00.138544+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -620,7 +622,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-19T17:08:48.370174+00:00"
+    "last_audited": "2026-09-19T20:25:00.321926+00:00"
   },
   {
     "id": "sec-Haroldwonder/TrustLink-1331",
@@ -645,7 +647,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-19T17:08:48.518588+00:00"
+    "last_audited": "2026-09-19T20:25:00.510793+00:00"
   },
   {
     "id": "sec-MergeFi/contracts-299",
@@ -670,7 +672,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-19T17:08:48.737759+00:00"
+    "last_audited": "2026-09-19T20:25:00.720818+00:00"
   },
   {
     "id": "sec-stellar-vortex-protocol/vortex-contracts-298",
@@ -695,7 +697,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-19T17:08:48.953859+00:00"
+    "last_audited": "2026-09-19T20:25:00.911794+00:00"
   },
   {
     "id": "sec-LeoCunhaLabz/powerlifting-app-302",
@@ -720,7 +722,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-19T17:08:49.131007+00:00"
+    "last_audited": "2026-09-19T20:25:01.120578+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -745,7 +747,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-19T17:08:49.333945+00:00"
+    "last_audited": "2026-09-19T20:25:01.340137+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -770,7 +772,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-19T17:08:49.545238+00:00"
+    "last_audited": "2026-09-19T20:25:01.521501+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -795,7 +797,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-19T17:08:49.730569+00:00"
+    "last_audited": "2026-09-19T20:25:01.737076+00:00"
+  },
+  {
+    "id": "sec-Kirch-Nairu/INTER-LAN-CROSS.OS-COMMUNICATION-TOOL-4",
+    "domain": "security",
+    "title": "RC PROGRAM \u2014 staging, adversarial bug bounty, stabilization and usable V1",
+    "url": "https://github.com/Kirch-Nairu/INTER-LAN-CROSS.OS-COMMUNICATION-TOOL/issues/4",
+    "platform": "github_security",
+    "repo_owner": "Kirch-Nairu",
+    "repo_name": "INTER-LAN-CROSS.OS-COMMUNICATION-TOOL",
+    "issue_number": 4,
+    "org_handle": "Kirch-Nairu",
+    "org_name": "Kirch-Nairu/INTER-LAN-CROSS.OS-COMMUNICATION-TOOL",
+    "body": "## Authority\n\nTechnical Authority: **Kirch Ivan Balite**\n\nThis issue defines the path from the current P1 candidate to a **usable V1 release candidate**. It does not waive phase gates.\n\nCurrent state:\n- accepted `main`: `8216a327c7c30b82866bd42af444bd10c868c0bf`\n- active P1 branch: `KIRCH-INTERLAN-P1-LAN-IDENTITY`\n- current P1 head: `9c27704fa17a27a23877349cf5253eebcde513ed`\n- current blocker: Windows real HTTPS smoke still red while Linux/macOS/web are green.\n\n## Release path\n\n### Gate A \u2014 Finish P1\n- fix/classify Windows localhost/dual-stack HTTPS smoke;\n- full Windows/Linux/macOS + web green;\n- P1 review;\n- merge only accepted candidate.\n\n### Gate B \u2014 Functional core\n- P2 direct messaging;\n- P3 group chat;\n- P4 file hosting;\n- P5 Telegram archive/restore;\n- each phase gets isolated branch, tests, PR review, and accepted merge.\n\n### Gate C \u2014 Staging\nCreate a dedicated release-candidate branch only after functional gates are accepted.\n\nStaging must prove:\n- owner machine cold start;\n- fresh server bootstrap;\n- desktop client join from at least two OSes;\n- Android browser join;\n- reconnect after server/client restart;\n- DM + GC delivery ordering;\n- duplicate suppression;\n- file upload/download;\n- Telegram archive confirmation;\n- Telegram restore + SHA-256 verification;\n- revoked client loses access;\n- backup/recovery procedure.\n\n### Gate D \u2014 adversarial / bug-bounty campaign\n\nAttack surfaces:\n- bootstrap race / second-owner creation;\n- invite brute force/replay/expiry;\n- session theft/replay/revocation;\n- role escalation;\n- IDOR across DMs/groups/files;\n- malformed SignalR payloads;\n- oversized messages/files;\n- path traversal and filename tricks;\n- MIME confusion;\n- archive-job duplication;\n- Telegram outage / partial archive;\n- restore tampering / checksum mismatch;\n- SQLite corruption/restart;\n- TLS fingerprint mismatch;\n- discovery spoofing;\n- reconnect storms;\n- concurrent message/file traffic;\n- denial-of-service bounds;\n- log/secret leakage;\n- Android/browser authorization parity.\n\nEvery finding must record:\n- reproduction;\n- expected behavior;\n- observed behavior;\n- severity;\n- affected commit;\n- fix commit;\n- regression test;\n- replay result.\n\n### Gate E \u2014 stabilization\n\nRequired before a usable V1 label:\n- zero open CRITICAL/HIGH security findings;\n- all accepted regression tests green;\n- packaging/install proof on Windows/Linux/macOS;\n- Android web-client smoke on a real device/browser;\n- server restart and recovery proof;\n- Telegram outage/recovery proof;\n- no plaintext secrets in repo, logs, DB, or client payloads;\n- release notes and operator setup guide;\n- exact release SHA/tag.\n\n## Important boundary\n\nA few ChatGPT/GitHub turns can move the repository through these gates quickly because implementation, review, CI and issue bookkeeping can be orchestrated directly. That does **not** mean two prompts magically prove production stability. Real staging and bug-bounty confidence still require actual runtime/device/network evidence.\n\nDo not mark V1 stable merely because CI is green.",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 4,
+    "last_audited": "2026-09-19T20:25:01.930988+00:00"
   },
   {
     "id": "sec-AudioBitsStellar/AudioBlock_Backend-510",
@@ -820,7 +847,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-19T17:08:49.926726+00:00"
+    "last_audited": "2026-09-19T20:25:02.143837+00:00"
   },
   {
     "id": "sec-AgoraIO/docs-portal-1102",
@@ -845,32 +872,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-19T17:08:50.152370+00:00"
-  },
-  {
-    "id": "sec-Vikingr2023/awesome-agent-bounties-261",
-    "domain": "security",
-    "title": "[zhangjiayang6835-cyber/bounty-plaza] [Bounty] [claude-builders-bounty/claude-builders-bounty] [BO",
-    "url": "https://github.com/Vikingr2023/awesome-agent-bounties/issues/261",
-    "platform": "github_security",
-    "repo_owner": "Vikingr2023",
-    "repo_name": "awesome-agent-bounties",
-    "issue_number": 261,
-    "org_handle": "Vikingr2023",
-    "org_name": "Vikingr2023/awesome-agent-bounties",
-    "body": "## \u5916\u90e8 Bounty \u4efb\u52a1\u955c\u50cf\n\n| \u5b57\u6bb5 | \u503c |\n|---|---|\n| \u6e90\u4ed3\u5e93 | zhangjiayang6835-cyber/bounty-plaza |\n| \u539f issue | #484 |\n| \u4f5c\u8005 | zhangjiayang6835-cyber |\n| \u521b\u5efa\u65f6\u95f4 | 2026-07-13T07:33:02 |\n| \u6807\u7b7e | bounty,real |\n| \u8bc4\u8bba | 3 \u6761 |\n| \u8d4f\u91d1 | $200 |\n| \u539f URL | https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/484 |\n\n---\n\n### \u4efb\u52a1\u63cf\u8ff0\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/Vikingr2023/awesome-agent-bounties/issues/225\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[claude-builders-bounty/claude-builders-bounty] [BOUNTY $200] WORKFLOW: n8n + Claude Code \u2014 automated weekly\n\n## \u5916\u90e8 Bounty \u4efb\u52a1\u955c\u50cf\n\n| \u5b57\u6bb5 | \u503c |\n|---|---|\n| \u6e90\u4ed3\u5e93 | claude-builders-bounty/claude-builders-bounty |\n| \u539f issue | #5 |\n| \u4f5c\u8005 | claudebounty |\n| \u521b\u5efa\u65f6\u95f4 | 2026-03-27T00:55:44 |\n| \u6807\u7b7e | bounty,workflow |\n| \u8bc4\u8bba | 861 \u6761 |\n| \u8d4f\u91d1 | $200 |\n| \u539f URL | https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5 |\n\n---\n\n### \u4efb\u52a1\u63cf\u8ff0\n\n## \ud83d\udcb0 Bounty: $200 \u2014 powered by [Opire](https://opire.dev)\n\n## Description\nCreate a complete n8n workflow that automatically generates a weekly narrative\nsummary of a GitHub repo's activity, using the Claude API.\n\n## Acceptance Criteria\n- [ ] Exportable n8n workflow (importable `.json` file)\n- [ ] Trigger: weekly cron (e.g., Friday at 5pm)\n- [ ] Fetches from GitHub API: commits, closed issues, merged PRs for the week\n- [ ] Calls Claude API (`claude-sonnet-4-20250514`) to generate a narrative summary\n- [ ] Delivers the summary via: email OR Discord/Slack webhook (your choice, documented)\n- [ ] Configurable variables: GitHub repo, destination channel, language (EN/FR)\n- [ ] Tested on a real n8n instance (include a screenshot of successful execution)\n- [ ] README with setup instructions in 5 steps or fewer\n\n## How to Claim\n1. Comment `/opire try` in this issue\n2. Submit a PR with the `.json` workflow + README\n3. Payment\n\n\n---\n\nThis bounty is now mirrored on **31day.cloud** - AI Agent \u5728 Docker \u6c99\u7bb1\u62a2\u5355\u4e2d.\n\n```\npip install thirtyoneday\n```\n\n> GitHubBountyHunter v0.2\n",
-    "reward_usd": 200.0,
-    "reward_formatted": "$200",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 3,
-    "last_audited": "2026-09-19T17:08:50.314994+00:00"
+    "last_audited": "2026-09-19T20:25:02.328264+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -895,7 +897,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-19T17:08:50.467810+00:00"
+    "last_audited": "2026-09-19T20:25:02.499563+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -920,7 +922,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-19T17:08:50.674962+00:00"
+    "last_audited": "2026-09-19T20:25:02.692908+00:00"
   },
   {
     "id": "sec-OmniBlocks/bountyfarmer-6",
@@ -945,7 +947,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-09-19T17:08:50.878592+00:00"
+    "last_audited": "2026-09-19T20:25:02.874022+00:00"
   },
   {
     "id": "sec-relayhop/ClaudeEarnSelf-runtime-988",
@@ -970,7 +972,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-19T17:08:51.059303+00:00"
+    "last_audited": "2026-09-19T20:25:03.043315+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -995,7 +997,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-19T17:08:51.225249+00:00"
+    "last_audited": "2026-09-19T20:25:03.216484+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-306",
@@ -1020,7 +1022,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-19T17:08:51.416457+00:00"
+    "last_audited": "2026-09-19T20:25:03.413691+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -1045,7 +1047,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-19T17:08:51.587074+00:00"
+    "last_audited": "2026-09-19T20:25:03.586199+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -1070,7 +1072,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-19T17:08:51.778195+00:00"
+    "last_audited": "2026-09-19T20:25:03.764793+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -1095,7 +1097,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-19T17:08:51.960098+00:00"
+    "last_audited": "2026-09-19T20:25:03.958692+00:00"
   },
   {
     "id": "sec-Smartdevs17/stellarlend-969",
@@ -1120,7 +1122,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-19T17:08:52.150643+00:00"
+    "last_audited": "2026-09-19T20:25:04.149038+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1145,7 +1147,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-19T17:08:52.347617+00:00"
+    "last_audited": "2026-09-19T20:25:04.450201+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -1170,7 +1172,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-19T17:08:52.508848+00:00"
+    "last_audited": "2026-09-19T20:25:04.623229+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -1195,7 +1197,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-19T17:08:52.679018+00:00"
+    "last_audited": "2026-09-19T20:25:04.810499+00:00"
   },
   {
     "id": "gh-piotrwitek/typesafe-actions-139",
@@ -1220,7 +1222,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-19T17:08:52.851655+00:00"
+    "last_audited": "2026-09-19T20:25:04.983362+00:00"
   },
   {
     "id": "web3-Chainbounty/chainbounty-contracts-3",
@@ -1457,29 +1459,6 @@
     "org_handle": "Christian-Sidak",
     "org_name": "Christian-Sidak/awesome-mcp-tools",
     "body": "Request to add Bug Bounty Intelligence to the list.\n\n- GitHub: https://github.com/holistis/bug-bounty-intelligence-mcp\n- Category: Security / Web3\n- Tools: scan_contract (paid, \\ USDC), list_vulnerability_patterns (free), get_scan_report (free)\n- Training: 27,681 accepted findings from Sherlock + Code4rena\n- Payment: x402 (HTTP 402, USDC on Base) \u2014 AI agent autopay\n- MCP registry: io.github.holistis/bug-bounty-intelligence-mcp\n- Install: npx -y github:holistis/bug-bounty-intelligence-mcp\n- License: MIT",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "solidity",
-      "python"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 55.0
-  },
-  {
-    "id": "web3-chatmcp/mcpso-3237",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "Submit MCP Server: Bug Bounty Intelligence \u2014 AI smart contract security scanner",
-    "url": "https://github.com/chatmcp/mcpso/issues/3237",
-    "platform": "web3_github",
-    "repo_owner": "chatmcp",
-    "repo_name": "mcpso",
-    "issue_number": 3237,
-    "org_handle": "chatmcp",
-    "org_name": "chatmcp/mcpso",
-    "body": "## MCP Server Submission\n\n**Name:** Bug Bounty Intelligence\n**GitHub:** https://github.com/holistis/bug-bounty-intelligence-mcp\n**Description:** AI-powered smart contract security analysis for AI agents. Trained on 27,681 accepted findings from Sherlock and Code4rena competitions.\n\n**Tools:**\n- scan_contract \u2014 submit GitHub repo for security analysis (\\ USDC via x402)\n- list_vulnerability_patterns \u2014 historical acceptance rates per vulnerability class (FREE)\n- get_scan_report \u2014 poll status and retrieve report (FREE)\n\n**Installation:**\nnpx -y github:holistis/bug-bounty-intelligence-mcp\n\n**MCP Registry:** io.github.holistis/bug-bounty-intelligence-mcp\n**Categories:** security, smart-contracts, defi, audit, web3\n**License:** MIT\n**API:** https://wazir-x402.duckdns.org/api/bug-intel\n**Payment:** x402 protocol (HTTP 402, USDC on Base) \u2014 AI agent autopay compatible",
     "reward_usd": 100.0,
     "reward_formatted": "$100",
     "tech": [
