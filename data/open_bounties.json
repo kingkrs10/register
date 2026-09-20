@@ -19,7 +19,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-19T20:24:56.434519+00:00"
+    "last_audited": "2026-09-20T00:01:20.403356+00:00"
   },
   {
     "id": "gh-strias-ai/embodied-ai-reservations-madrid-1",
@@ -41,7 +41,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-19T20:24:56.610207+00:00"
+    "last_audited": "2026-09-20T00:01:20.601680+00:00"
   },
   {
     "id": "gh-mrzhangkris/dsh-subagent-roster-1",
@@ -63,7 +63,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-19T20:24:56.760808+00:00"
+    "last_audited": "2026-09-20T00:01:20.799612+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-81",
@@ -87,29 +87,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-19T20:24:56.962044+00:00"
-  },
-  {
-    "id": "gh-NightVibes33/FlekDeck-2",
-    "title": "question",
-    "url": "https://github.com/NightVibes33/FlekDeck/issues/2",
-    "platform": "opire",
-    "repo_owner": "NightVibes33",
-    "repo_name": "FlekDeck",
-    "issue_number": 2,
-    "org_handle": "NightVibes33",
-    "org_name": "NightVibes33/FlekDeck",
-    "body": "how do you access hidden apps\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #2</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @accountname291203</code> (replace <code>20</code> with the amount, and <code>@accountname291203</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 12,
-    "last_audited": "2026-09-19T20:24:57.174749+00:00"
+    "last_audited": "2026-09-20T00:01:20.987679+00:00"
   },
   {
     "id": "gh-NightVibes33/Filza-27-46",
@@ -131,7 +109,29 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-19T20:24:57.370357+00:00"
+    "last_audited": "2026-09-20T00:01:21.177601+00:00"
+  },
+  {
+    "id": "gh-NightVibes33/FlekDeck-2",
+    "title": "question",
+    "url": "https://github.com/NightVibes33/FlekDeck/issues/2",
+    "platform": "opire",
+    "repo_owner": "NightVibes33",
+    "repo_name": "FlekDeck",
+    "issue_number": 2,
+    "org_handle": "NightVibes33",
+    "org_name": "NightVibes33/FlekDeck",
+    "body": "how do you access hidden apps\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #2</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @accountname291203</code> (replace <code>20</code> with the amount, and <code>@accountname291203</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 12,
+    "last_audited": "2026-09-20T00:01:21.340378+00:00"
   },
   {
     "id": "gh-dporkka/dev-plane-19",
@@ -153,7 +153,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-19T20:24:57.550653+00:00"
+    "last_audited": "2026-09-20T00:01:21.530075+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-1214",
@@ -179,7 +179,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-19T20:24:57.740904+00:00"
+    "last_audited": "2026-09-20T00:01:21.737378+00:00"
   },
   {
     "id": "web3-connect-boiz/soroban-security-scanner-477",
@@ -209,7 +209,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-09-19T20:24:57.940339+00:00"
+    "last_audited": "2026-09-20T00:01:21.945250+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -234,7 +234,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-09-19T20:24:58.122592+00:00"
+    "last_audited": "2026-09-20T00:01:22.167846+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -260,7 +260,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-19T20:24:58.313574+00:00"
+    "last_audited": "2026-09-20T00:01:22.379344+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1598",
@@ -282,7 +282,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-19T20:24:58.491644+00:00"
+    "last_audited": "2026-09-20T00:01:22.552827+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1295",
@@ -307,7 +307,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 14,
-    "last_audited": "2026-09-19T20:24:58.666301+00:00"
+    "last_audited": "2026-09-20T00:01:22.740577+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1291",
@@ -332,7 +332,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 8,
-    "last_audited": "2026-09-19T20:24:58.839587+00:00"
+    "last_audited": "2026-09-20T00:01:22.938177+00:00"
   },
   {
     "id": "gh-photoprism/photoprism-93",
@@ -357,7 +357,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 90,
-    "last_audited": "2026-09-19T20:24:59.053714+00:00"
+    "last_audited": "2026-09-20T00:01:23.150010+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-951",
@@ -383,7 +383,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 12,
-    "last_audited": "2026-09-19T20:24:59.230714+00:00"
+    "last_audited": "2026-09-20T00:01:23.310417+00:00"
   },
   {
     "id": "web3-relayhop/sn-monetization-runtime-753",
@@ -410,7 +410,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 12,
-    "last_audited": "2026-09-19T20:24:59.402969+00:00"
+    "last_audited": "2026-09-20T00:01:23.508809+00:00"
   },
   {
     "id": "web3-connect-boiz/soroban-security-scanner-475",
@@ -438,7 +438,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-19T20:24:59.617902+00:00"
+    "last_audited": "2026-09-20T00:01:23.697194+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -525,6 +525,31 @@
     "solvability_score": 90.0
   },
   {
+    "id": "sec-StellarTickets/blockchain-42",
+    "domain": "security",
+    "title": "Add public bug bounty guidelines",
+    "url": "https://github.com/StellarTickets/blockchain/issues/42",
+    "platform": "github_security",
+    "repo_owner": "StellarTickets",
+    "repo_name": "blockchain",
+    "issue_number": 42,
+    "org_handle": "StellarTickets",
+    "org_name": "StellarTickets/blockchain",
+    "body": "## Context\nDisclosure scope undefined.\n\n## Task\n- Add scope and rewards placeholder to SECURITY.md\n\n## Acceptance criteria\n- [ ] Reviewed\n\nThis issue is self-contained and can be picked up independently of any other open issue.",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-09-20T00:01:23.882306+00:00"
+  },
+  {
     "id": "sec-mikalv/msgr-213",
     "domain": "security",
     "title": "[P2] Etabler bug bounty program",
@@ -547,7 +572,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-19T20:24:59.788707+00:00"
+    "last_audited": "2026-09-20T00:01:24.067581+00:00"
   },
   {
     "id": "sec-Akanimoh12/Stellar-Tipz-1394",
@@ -572,7 +597,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-19T20:24:59.945616+00:00"
+    "last_audited": "2026-09-20T00:01:24.218732+00:00"
   },
   {
     "id": "sec-Smartdevs17/stellarlend-983",
@@ -597,7 +622,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-19T20:25:00.138544+00:00"
+    "last_audited": "2026-09-20T00:01:24.392649+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -622,7 +647,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-19T20:25:00.321926+00:00"
+    "last_audited": "2026-09-20T00:01:24.570697+00:00"
   },
   {
     "id": "sec-Haroldwonder/TrustLink-1331",
@@ -647,7 +672,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-19T20:25:00.510793+00:00"
+    "last_audited": "2026-09-20T00:01:24.745599+00:00"
   },
   {
     "id": "sec-MergeFi/contracts-299",
@@ -672,7 +697,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-19T20:25:00.720818+00:00"
+    "last_audited": "2026-09-20T00:01:24.953319+00:00"
   },
   {
     "id": "sec-stellar-vortex-protocol/vortex-contracts-298",
@@ -697,32 +722,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-19T20:25:00.911794+00:00"
-  },
-  {
-    "id": "sec-LeoCunhaLabz/powerlifting-app-302",
-    "domain": "security",
-    "title": "security: adicionar SECURITY.md (pol\u00edtica de divulga\u00e7\u00e3o de vulnerabilidades)",
-    "url": "https://github.com/LeoCunhaLabz/powerlifting-app/issues/302",
-    "platform": "github_security",
-    "repo_owner": "LeoCunhaLabz",
-    "repo_name": "powerlifting-app",
-    "issue_number": 302,
-    "org_handle": "LeoCunhaLabz",
-    "org_name": "LeoCunhaLabz/powerlifting-app",
-    "body": "## Ideia (p\u00f3s-MVP \u2014 maturar antes de aprovar)\n\nO repo \u00e9 p\u00fablico e j\u00e1 tem hardening real (headers de seguran\u00e7a, upgrade do JWT \u2014 #280, #283, #296), mas n\u00e3o tem uma `SECURITY.md` dizendo como reportar uma vulnerabilidade com responsabilidade. Hoje um pesquisador de seguran\u00e7a n\u00e3o tem canal privado \u00f3bvio.\n\n## Perguntas a maturar\n\n1. Canal de report privado: GitHub Security Advisories (\"Report a vulnerability\") \u00e9 gr\u00e1tis mesmo em repo p\u00fablico \u2014 caminho mais natural que o do openGym (que usa issue confidencial no GitLab por n\u00e3o ter mais esse recurso liberado no GitHub).\n2. Escopo declarado: provavelmente `apps/api` (auth, dados de outro usu\u00e1rio), infra de deploy (Dockerfile, nginx), frontend (XSS). Confirmar o que fica fora.\n3. Expectativa de prazo de resposta \u2014 sendo side project, \"sem SLA, resposta em dias\" \u00e9 uma reda\u00e7\u00e3o honesta.\n\n## Fora de escopo\n\nBug bounty pago.\n\n**Origem:** auditoria comparativa com o projeto open-source openGym, p\u00f3s-MVP.\n",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-09-19T20:25:01.120578+00:00"
+    "last_audited": "2026-09-20T00:01:25.150851+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -747,7 +747,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-19T20:25:01.340137+00:00"
+    "last_audited": "2026-09-20T00:01:25.377329+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -772,7 +772,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-19T20:25:01.521501+00:00"
+    "last_audited": "2026-09-20T00:01:25.591334+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -797,32 +797,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-19T20:25:01.737076+00:00"
-  },
-  {
-    "id": "sec-Kirch-Nairu/INTER-LAN-CROSS.OS-COMMUNICATION-TOOL-4",
-    "domain": "security",
-    "title": "RC PROGRAM \u2014 staging, adversarial bug bounty, stabilization and usable V1",
-    "url": "https://github.com/Kirch-Nairu/INTER-LAN-CROSS.OS-COMMUNICATION-TOOL/issues/4",
-    "platform": "github_security",
-    "repo_owner": "Kirch-Nairu",
-    "repo_name": "INTER-LAN-CROSS.OS-COMMUNICATION-TOOL",
-    "issue_number": 4,
-    "org_handle": "Kirch-Nairu",
-    "org_name": "Kirch-Nairu/INTER-LAN-CROSS.OS-COMMUNICATION-TOOL",
-    "body": "## Authority\n\nTechnical Authority: **Kirch Ivan Balite**\n\nThis issue defines the path from the current P1 candidate to a **usable V1 release candidate**. It does not waive phase gates.\n\nCurrent state:\n- accepted `main`: `8216a327c7c30b82866bd42af444bd10c868c0bf`\n- active P1 branch: `KIRCH-INTERLAN-P1-LAN-IDENTITY`\n- current P1 head: `9c27704fa17a27a23877349cf5253eebcde513ed`\n- current blocker: Windows real HTTPS smoke still red while Linux/macOS/web are green.\n\n## Release path\n\n### Gate A \u2014 Finish P1\n- fix/classify Windows localhost/dual-stack HTTPS smoke;\n- full Windows/Linux/macOS + web green;\n- P1 review;\n- merge only accepted candidate.\n\n### Gate B \u2014 Functional core\n- P2 direct messaging;\n- P3 group chat;\n- P4 file hosting;\n- P5 Telegram archive/restore;\n- each phase gets isolated branch, tests, PR review, and accepted merge.\n\n### Gate C \u2014 Staging\nCreate a dedicated release-candidate branch only after functional gates are accepted.\n\nStaging must prove:\n- owner machine cold start;\n- fresh server bootstrap;\n- desktop client join from at least two OSes;\n- Android browser join;\n- reconnect after server/client restart;\n- DM + GC delivery ordering;\n- duplicate suppression;\n- file upload/download;\n- Telegram archive confirmation;\n- Telegram restore + SHA-256 verification;\n- revoked client loses access;\n- backup/recovery procedure.\n\n### Gate D \u2014 adversarial / bug-bounty campaign\n\nAttack surfaces:\n- bootstrap race / second-owner creation;\n- invite brute force/replay/expiry;\n- session theft/replay/revocation;\n- role escalation;\n- IDOR across DMs/groups/files;\n- malformed SignalR payloads;\n- oversized messages/files;\n- path traversal and filename tricks;\n- MIME confusion;\n- archive-job duplication;\n- Telegram outage / partial archive;\n- restore tampering / checksum mismatch;\n- SQLite corruption/restart;\n- TLS fingerprint mismatch;\n- discovery spoofing;\n- reconnect storms;\n- concurrent message/file traffic;\n- denial-of-service bounds;\n- log/secret leakage;\n- Android/browser authorization parity.\n\nEvery finding must record:\n- reproduction;\n- expected behavior;\n- observed behavior;\n- severity;\n- affected commit;\n- fix commit;\n- regression test;\n- replay result.\n\n### Gate E \u2014 stabilization\n\nRequired before a usable V1 label:\n- zero open CRITICAL/HIGH security findings;\n- all accepted regression tests green;\n- packaging/install proof on Windows/Linux/macOS;\n- Android web-client smoke on a real device/browser;\n- server restart and recovery proof;\n- Telegram outage/recovery proof;\n- no plaintext secrets in repo, logs, DB, or client payloads;\n- release notes and operator setup guide;\n- exact release SHA/tag.\n\n## Important boundary\n\nA few ChatGPT/GitHub turns can move the repository through these gates quickly because implementation, review, CI and issue bookkeeping can be orchestrated directly. That does **not** mean two prompts magically prove production stability. Real staging and bug-bounty confidence still require actual runtime/device/network evidence.\n\nDo not mark V1 stable merely because CI is green.",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 4,
-    "last_audited": "2026-09-19T20:25:01.930988+00:00"
+    "last_audited": "2026-09-20T00:01:25.782027+00:00"
   },
   {
     "id": "sec-AudioBitsStellar/AudioBlock_Backend-510",
@@ -847,7 +822,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-19T20:25:02.143837+00:00"
+    "last_audited": "2026-09-20T00:01:25.982053+00:00"
   },
   {
     "id": "sec-AgoraIO/docs-portal-1102",
@@ -872,7 +847,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-19T20:25:02.328264+00:00"
+    "last_audited": "2026-09-20T00:01:26.184516+00:00"
+  },
+  {
+    "id": "sec-Kirch-Nairu/INTER-LAN-CROSS.OS-COMMUNICATION-TOOL-4",
+    "domain": "security",
+    "title": "RC PROGRAM \u2014 staging, adversarial bug bounty, stabilization and usable V1",
+    "url": "https://github.com/Kirch-Nairu/INTER-LAN-CROSS.OS-COMMUNICATION-TOOL/issues/4",
+    "platform": "github_security",
+    "repo_owner": "Kirch-Nairu",
+    "repo_name": "INTER-LAN-CROSS.OS-COMMUNICATION-TOOL",
+    "issue_number": 4,
+    "org_handle": "Kirch-Nairu",
+    "org_name": "Kirch-Nairu/INTER-LAN-CROSS.OS-COMMUNICATION-TOOL",
+    "body": "## Authority\n\nTechnical Authority: **Kirch Ivan Balite**\n\nThis issue defines the path from the current P1 candidate to a **usable V1 release candidate**. It does not waive phase gates.\n\nCurrent state:\n- accepted `main`: `8216a327c7c30b82866bd42af444bd10c868c0bf`\n- active P1 branch: `KIRCH-INTERLAN-P1-LAN-IDENTITY`\n- current P1 head: `9c27704fa17a27a23877349cf5253eebcde513ed`\n- current blocker: Windows real HTTPS smoke still red while Linux/macOS/web are green.\n\n## Release path\n\n### Gate A \u2014 Finish P1\n- fix/classify Windows localhost/dual-stack HTTPS smoke;\n- full Windows/Linux/macOS + web green;\n- P1 review;\n- merge only accepted candidate.\n\n### Gate B \u2014 Functional core\n- P2 direct messaging;\n- P3 group chat;\n- P4 file hosting;\n- P5 Telegram archive/restore;\n- each phase gets isolated branch, tests, PR review, and accepted merge.\n\n### Gate C \u2014 Staging\nCreate a dedicated release-candidate branch only after functional gates are accepted.\n\nStaging must prove:\n- owner machine cold start;\n- fresh server bootstrap;\n- desktop client join from at least two OSes;\n- Android browser join;\n- reconnect after server/client restart;\n- DM + GC delivery ordering;\n- duplicate suppression;\n- file upload/download;\n- Telegram archive confirmation;\n- Telegram restore + SHA-256 verification;\n- revoked client loses access;\n- backup/recovery procedure.\n\n### Gate D \u2014 adversarial / bug-bounty campaign\n\nAttack surfaces:\n- bootstrap race / second-owner creation;\n- invite brute force/replay/expiry;\n- session theft/replay/revocation;\n- role escalation;\n- IDOR across DMs/groups/files;\n- malformed SignalR payloads;\n- oversized messages/files;\n- path traversal and filename tricks;\n- MIME confusion;\n- archive-job duplication;\n- Telegram outage / partial archive;\n- restore tampering / checksum mismatch;\n- SQLite corruption/restart;\n- TLS fingerprint mismatch;\n- discovery spoofing;\n- reconnect storms;\n- concurrent message/file traffic;\n- denial-of-service bounds;\n- log/secret leakage;\n- Android/browser authorization parity.\n\nEvery finding must record:\n- reproduction;\n- expected behavior;\n- observed behavior;\n- severity;\n- affected commit;\n- fix commit;\n- regression test;\n- replay result.\n\n### Gate E \u2014 stabilization\n\nRequired before a usable V1 label:\n- zero open CRITICAL/HIGH security findings;\n- all accepted regression tests green;\n- packaging/install proof on Windows/Linux/macOS;\n- Android web-client smoke on a real device/browser;\n- server restart and recovery proof;\n- Telegram outage/recovery proof;\n- no plaintext secrets in repo, logs, DB, or client payloads;\n- release notes and operator setup guide;\n- exact release SHA/tag.\n\n## Important boundary\n\nA few ChatGPT/GitHub turns can move the repository through these gates quickly because implementation, review, CI and issue bookkeeping can be orchestrated directly. That does **not** mean two prompts magically prove production stability. Real staging and bug-bounty confidence still require actual runtime/device/network evidence.\n\nDo not mark V1 stable merely because CI is green.",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 5,
+    "last_audited": "2026-09-20T00:01:26.346474+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -897,7 +897,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-19T20:25:02.499563+00:00"
+    "last_audited": "2026-09-20T00:01:26.514088+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -922,7 +922,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-19T20:25:02.692908+00:00"
+    "last_audited": "2026-09-20T00:01:26.736734+00:00"
   },
   {
     "id": "sec-OmniBlocks/bountyfarmer-6",
@@ -947,7 +947,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-09-19T20:25:02.874022+00:00"
+    "last_audited": "2026-09-20T00:01:26.927480+00:00"
   },
   {
     "id": "sec-relayhop/ClaudeEarnSelf-runtime-988",
@@ -972,7 +972,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-19T20:25:03.043315+00:00"
+    "last_audited": "2026-09-20T00:01:27.108225+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -997,7 +997,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-19T20:25:03.216484+00:00"
+    "last_audited": "2026-09-20T00:01:27.282776+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-306",
@@ -1022,7 +1022,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-19T20:25:03.413691+00:00"
+    "last_audited": "2026-09-20T00:01:27.457719+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -1047,7 +1047,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-19T20:25:03.586199+00:00"
+    "last_audited": "2026-09-20T00:01:27.663055+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -1072,7 +1072,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-19T20:25:03.764793+00:00"
+    "last_audited": "2026-09-20T00:01:27.861145+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -1097,7 +1097,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-19T20:25:03.958692+00:00"
+    "last_audited": "2026-09-20T00:01:28.054582+00:00"
   },
   {
     "id": "sec-Smartdevs17/stellarlend-969",
@@ -1122,7 +1122,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-19T20:25:04.149038+00:00"
+    "last_audited": "2026-09-20T00:01:28.231863+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1147,7 +1147,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-19T20:25:04.450201+00:00"
+    "last_audited": "2026-09-20T00:01:28.440393+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -1172,7 +1172,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-19T20:25:04.623229+00:00"
+    "last_audited": "2026-09-20T00:01:28.614471+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -1197,7 +1197,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-19T20:25:04.810499+00:00"
+    "last_audited": "2026-09-20T00:01:28.809261+00:00"
   },
   {
     "id": "gh-piotrwitek/typesafe-actions-139",
@@ -1222,7 +1222,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-19T20:25:04.983362+00:00"
+    "last_audited": "2026-09-20T00:01:28.978279+00:00"
   },
   {
     "id": "web3-Chainbounty/chainbounty-contracts-3",
