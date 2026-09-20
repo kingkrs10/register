@@ -19,7 +19,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-20T18:39:40.750080+00:00"
+    "last_audited": "2026-09-20T22:20:50.691947+00:00"
   },
   {
     "id": "gh-chenzilin100/StellarBladeTrainer-Releases-3",
@@ -41,7 +41,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-20T18:39:40.971435+00:00"
+    "last_audited": "2026-09-20T22:20:50.949296+00:00"
   },
   {
     "id": "gh-strias-ai/embodied-ai-reservations-madrid-1",
@@ -63,7 +63,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-20T18:39:41.181179+00:00"
+    "last_audited": "2026-09-20T22:20:51.212320+00:00"
   },
   {
     "id": "gh-mrzhangkris/dsh-subagent-roster-1",
@@ -85,7 +85,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-20T18:39:41.414336+00:00"
+    "last_audited": "2026-09-20T22:20:51.486861+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-81",
@@ -109,7 +109,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-20T18:39:41.674422+00:00"
+    "last_audited": "2026-09-20T22:20:51.745774+00:00"
   },
   {
     "id": "gh-NightVibes33/Filza-27-46",
@@ -131,7 +131,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-20T18:39:41.962672+00:00"
+    "last_audited": "2026-09-20T22:20:52.013504+00:00"
   },
   {
     "id": "gh-NightVibes33/FlekDeck-2",
@@ -153,7 +153,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 12,
-    "last_audited": "2026-09-20T18:39:42.168108+00:00"
+    "last_audited": "2026-09-20T22:20:52.271237+00:00"
   },
   {
     "id": "gh-dporkka/dev-plane-19",
@@ -175,7 +175,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-20T18:39:42.364610+00:00"
+    "last_audited": "2026-09-20T22:20:52.527087+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-1214",
@@ -201,7 +201,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-20T18:39:42.564342+00:00"
+    "last_audited": "2026-09-20T22:20:52.775181+00:00"
   },
   {
     "id": "web3-connect-boiz/soroban-security-scanner-477",
@@ -231,33 +231,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-09-20T18:39:42.818668+00:00"
-  },
-  {
-    "id": "web3-priors-agents/priors-1",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "Security review of the CreditPool contracts \u2014 several verified findings, report ready",
-    "url": "https://github.com/priors-agents/priors/issues/1",
-    "platform": "web3_github",
-    "repo_owner": "priors-agents",
-    "repo_name": "priors",
-    "issue_number": 1,
-    "org_handle": "priors-agents",
-    "org_name": "priors-agents/priors",
-    "body": "hey, we went through the creditpool contracts recently with a foundry suite + live fork pocs. found a few real issues, all verified with repro steps \u2014 a couple of them look like they'd still apply to the new deployment.\n\nscope note: the review targets the old pool (0xd970\u2026aC95, paused + drained now). we saw the markDefault fix went into the new pool (0x4B9f\u2026d122) \u2014 one of our findings is that same lender-funds bug, independently confirmed and quantified. the rest are new and worth a look before more liquidity goes in.\n\nwe're not posting details publicly for obvious reasons. full report is ready to share \u2014 is contact@priors.trade active? happy to send there, or enable private vulnerability reporting on this repo and we'll file it there instead.\n\none more thing \u2014 didn't find a SECURITY.md or any bounty info anywhere, so asking directly: is there a reward / bounty program for this kind of thing?\n\n\u2014 llen\n",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "solidity",
-      "python"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-09-20T18:39:43.027575+00:00"
+    "last_audited": "2026-09-20T22:20:53.045735+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -282,7 +256,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-09-20T18:39:43.287009+00:00"
+    "last_audited": "2026-09-20T22:20:53.321541+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -308,7 +282,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-20T18:39:43.502768+00:00"
+    "last_audited": "2026-09-20T22:20:53.597693+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1598",
@@ -330,7 +304,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-20T18:39:43.724392+00:00"
+    "last_audited": "2026-09-20T22:20:53.880094+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1295",
@@ -355,7 +329,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 14,
-    "last_audited": "2026-09-20T18:39:43.966124+00:00"
+    "last_audited": "2026-09-20T22:20:54.127574+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1291",
@@ -380,7 +354,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 8,
-    "last_audited": "2026-09-20T18:39:44.242209+00:00"
+    "last_audited": "2026-09-20T22:20:54.378937+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1293",
@@ -405,7 +379,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 9,
-    "last_audited": "2026-09-20T18:39:44.451472+00:00"
+    "last_audited": "2026-09-20T22:20:54.626696+00:00"
   },
   {
     "id": "gh-photoprism/photoprism-93",
@@ -430,7 +404,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 90,
-    "last_audited": "2026-09-20T18:39:44.694094+00:00"
+    "last_audited": "2026-09-20T22:20:54.905549+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-951",
@@ -456,7 +430,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 12,
-    "last_audited": "2026-09-20T18:39:44.934523+00:00"
+    "last_audited": "2026-09-20T22:20:55.177844+00:00"
   },
   {
     "id": "web3-connect-boiz/soroban-security-scanner-475",
@@ -484,7 +458,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-20T18:39:45.211301+00:00"
+    "last_audited": "2026-09-20T22:20:55.454879+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -593,7 +567,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-20T18:39:45.432302+00:00"
+    "last_audited": "2026-09-20T22:20:55.712810+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -618,7 +592,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-20T18:39:45.633838+00:00"
+    "last_audited": "2026-09-20T22:20:55.977164+00:00"
   },
   {
     "id": "sec-Akanimoh12/Stellar-Tipz-1394",
@@ -643,7 +617,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-20T18:39:45.834849+00:00"
+    "last_audited": "2026-09-20T22:20:56.229997+00:00"
   },
   {
     "id": "sec-Smartdevs17/stellarlend-983",
@@ -668,7 +642,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-20T18:39:46.053984+00:00"
+    "last_audited": "2026-09-20T22:20:56.489361+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -693,7 +667,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-20T18:39:46.291299+00:00"
+    "last_audited": "2026-09-20T22:20:56.761701+00:00"
   },
   {
     "id": "sec-Haroldwonder/TrustLink-1331",
@@ -718,7 +692,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-20T18:39:46.514384+00:00"
+    "last_audited": "2026-09-20T22:20:56.993000+00:00"
   },
   {
     "id": "sec-MergeFi/contracts-299",
@@ -743,7 +717,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-20T18:39:46.778869+00:00"
+    "last_audited": "2026-09-20T22:20:57.251924+00:00"
   },
   {
     "id": "sec-stellar-vortex-protocol/vortex-contracts-298",
@@ -768,7 +742,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-20T18:39:47.001230+00:00"
+    "last_audited": "2026-09-20T22:20:57.512020+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -793,7 +767,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-20T18:39:47.232565+00:00"
+    "last_audited": "2026-09-20T22:20:57.764874+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -818,7 +792,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-20T18:39:47.488440+00:00"
+    "last_audited": "2026-09-20T22:20:58.028938+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -843,7 +817,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-20T18:39:47.722590+00:00"
+    "last_audited": "2026-09-20T22:20:58.285221+00:00"
   },
   {
     "id": "sec-AudioBitsStellar/AudioBlock_Backend-510",
@@ -868,7 +842,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-20T18:39:47.962562+00:00"
+    "last_audited": "2026-09-20T22:20:58.556384+00:00"
   },
   {
     "id": "sec-AgoraIO/docs-portal-1102",
@@ -893,7 +867,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-20T18:39:48.184813+00:00"
+    "last_audited": "2026-09-20T22:20:58.861254+00:00"
   },
   {
     "id": "sec-Kirch-Nairu/INTER-LAN-CROSS.OS-COMMUNICATION-TOOL-4",
@@ -918,7 +892,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-20T18:39:48.389100+00:00"
+    "last_audited": "2026-09-20T22:20:59.131998+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -943,7 +917,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-20T18:39:48.600545+00:00"
+    "last_audited": "2026-09-20T22:20:59.412214+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1124",
@@ -968,7 +942,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-20T18:39:48.817050+00:00"
+    "last_audited": "2026-09-20T22:20:59.652235+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -993,7 +967,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-20T18:39:49.050545+00:00"
+    "last_audited": "2026-09-20T22:20:59.889955+00:00"
   },
   {
     "id": "sec-relayhop/ClaudeEarnSelf-runtime-988",
@@ -1018,7 +992,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-20T18:39:49.262108+00:00"
+    "last_audited": "2026-09-20T22:21:00.137362+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -1043,7 +1017,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-20T18:39:49.464330+00:00"
+    "last_audited": "2026-09-20T22:21:00.399189+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-306",
@@ -1068,7 +1042,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-20T18:39:49.657141+00:00"
+    "last_audited": "2026-09-20T22:21:00.650885+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -1093,7 +1067,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-20T18:39:49.857666+00:00"
+    "last_audited": "2026-09-20T22:21:00.895152+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -1118,7 +1092,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-20T18:39:50.062627+00:00"
+    "last_audited": "2026-09-20T22:21:01.161645+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -1143,7 +1117,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-20T18:39:50.308285+00:00"
+    "last_audited": "2026-09-20T22:21:01.403276+00:00"
   },
   {
     "id": "sec-Smartdevs17/stellarlend-969",
@@ -1168,7 +1142,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-20T18:39:50.518261+00:00"
+    "last_audited": "2026-09-20T22:21:01.656439+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1193,7 +1167,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-20T18:39:50.747635+00:00"
+    "last_audited": "2026-09-20T22:21:01.915506+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -1218,7 +1192,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-20T18:39:50.958545+00:00"
+    "last_audited": "2026-09-20T22:21:02.137453+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -1240,7 +1214,10 @@
       "vulnerability"
     ],
     "status": "active",
-    "solvability_score": 85.0
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 5,
+    "last_audited": "2026-09-20T22:21:02.406375+00:00"
   },
   {
     "id": "gh-piotrwitek/typesafe-actions-139",
