@@ -160,6 +160,14 @@ class BountySolver:
             print("[*] No standard test runner detected. Static code validation passed.")
             return True
 
+        # Ensure dependencies are present for npm projects
+        if cmd[0] == "npm" and not (self.repo_dir / "node_modules").exists():
+            print(f"[*] Installing package dependencies for test execution in {self.repo_dir}...")
+            try:
+                subprocess.run(["npm", "install", "--prefer-offline", "--no-audit"], cwd=self.repo_dir, capture_output=True, timeout=90)
+            except Exception as e:
+                print(f"[*] Dependency install notice: {e}")
+
         print(f"[*] Running test suite: {' '.join(cmd)} in {self.repo_dir}...")
         try:
             res = subprocess.run(cmd, cwd=self.repo_dir, capture_output=True, text=True, timeout=120)
