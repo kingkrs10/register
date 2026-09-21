@@ -19,7 +19,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-21T12:33:20.995644+00:00"
+    "last_audited": "2026-09-21T19:15:51.862122+00:00"
   },
   {
     "id": "gh-chenzilin100/StellarBladeTrainer-Releases-3",
@@ -41,7 +41,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-21T12:33:21.252629+00:00"
+    "last_audited": "2026-09-21T19:15:52.221265+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-82",
@@ -65,7 +65,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-21T12:33:21.554497+00:00"
+    "last_audited": "2026-09-21T19:15:52.552526+00:00"
   },
   {
     "id": "gh-strias-ai/embodied-ai-reservations-madrid-1",
@@ -87,7 +87,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-21T12:33:21.820542+00:00"
+    "last_audited": "2026-09-21T19:15:52.919839+00:00"
   },
   {
     "id": "gh-mrzhangkris/dsh-subagent-roster-1",
@@ -109,7 +109,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-21T12:33:22.110498+00:00"
+    "last_audited": "2026-09-21T19:15:53.251996+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-81",
@@ -133,7 +133,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-21T12:33:22.384872+00:00"
+    "last_audited": "2026-09-21T19:15:53.625359+00:00"
   },
   {
     "id": "gh-NightVibes33/Filza-27-46",
@@ -155,7 +155,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-21T12:33:22.690027+00:00"
+    "last_audited": "2026-09-21T19:15:53.992033+00:00"
   },
   {
     "id": "gh-dporkka/dev-plane-19",
@@ -177,7 +177,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-21T12:33:22.969273+00:00"
+    "last_audited": "2026-09-21T19:15:54.338178+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-1214",
@@ -203,7 +203,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-21T12:33:23.235323+00:00"
+    "last_audited": "2026-09-21T19:15:54.672982+00:00"
   },
   {
     "id": "web3-connect-boiz/soroban-security-scanner-477",
@@ -233,7 +233,33 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-09-21T12:33:23.546419+00:00"
+    "last_audited": "2026-09-21T19:15:55.062346+00:00"
+  },
+  {
+    "id": "web3-priors-agents/priors-1",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "Security review of the CreditPool contracts \u2014 several verified findings, report ready",
+    "url": "https://github.com/priors-agents/priors/issues/1",
+    "platform": "web3_github",
+    "repo_owner": "priors-agents",
+    "repo_name": "priors",
+    "issue_number": 1,
+    "org_handle": "priors-agents",
+    "org_name": "priors-agents/priors",
+    "body": "hey, we went through the creditpool contracts recently with a foundry suite + live fork pocs. found a few real issues, all verified with repro steps \u2014 a couple of them look like they'd still apply to the new deployment.\n\nscope note: the review targets the old pool (0xd970\u2026aC95, paused + drained now). we saw the markDefault fix went into the new pool (0x4B9f\u2026d122) \u2014 one of our findings is that same lender-funds bug, independently confirmed and quantified. the rest are new and worth a look before more liquidity goes in.\n\nwe're not posting details publicly for obvious reasons. full report is ready to share \u2014 is contact@priors.trade active? happy to send there, or enable private vulnerability reporting on this repo and we'll file it there instead.\n\none more thing \u2014 didn't find a SECURITY.md or any bounty info anywhere, so asking directly: is there a reward / bounty program for this kind of thing?\n\n\u2014 llen\n",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "solidity",
+      "python"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 4,
+    "last_audited": "2026-09-21T19:15:55.383032+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -258,7 +284,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-09-21T12:33:23.871185+00:00"
+    "last_audited": "2026-09-21T19:15:55.744129+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -284,7 +310,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-21T12:33:24.180398+00:00"
+    "last_audited": "2026-09-21T19:15:56.107688+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1598",
@@ -306,7 +332,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-21T12:33:24.471512+00:00"
+    "last_audited": "2026-09-21T19:15:56.447398+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1295",
@@ -331,7 +357,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 14,
-    "last_audited": "2026-09-21T12:33:24.802971+00:00"
+    "last_audited": "2026-09-21T19:15:56.774993+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1291",
@@ -356,7 +382,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 8,
-    "last_audited": "2026-09-21T12:33:25.164431+00:00"
+    "last_audited": "2026-09-21T19:15:57.117158+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1293",
@@ -381,7 +407,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 9,
-    "last_audited": "2026-09-21T12:33:25.457132+00:00"
+    "last_audited": "2026-09-21T19:15:57.453007+00:00"
   },
   {
     "id": "gh-photoprism/photoprism-93",
@@ -406,7 +432,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 90,
-    "last_audited": "2026-09-21T12:33:25.768611+00:00"
+    "last_audited": "2026-09-21T19:15:57.811581+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-951",
@@ -432,7 +458,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 12,
-    "last_audited": "2026-09-21T12:33:26.074232+00:00"
+    "last_audited": "2026-09-21T19:15:58.114542+00:00"
   },
   {
     "id": "web3-connect-boiz/soroban-security-scanner-475",
@@ -460,7 +486,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-21T12:33:26.380961+00:00"
+    "last_audited": "2026-09-21T19:15:58.470826+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -569,7 +595,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-21T12:33:26.679181+00:00"
+    "last_audited": "2026-09-21T19:15:58.822478+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -594,7 +620,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-21T12:33:26.954799+00:00"
+    "last_audited": "2026-09-21T19:15:59.133797+00:00"
   },
   {
     "id": "sec-Akanimoh12/Stellar-Tipz-1394",
@@ -619,7 +645,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-21T12:33:27.247343+00:00"
+    "last_audited": "2026-09-21T19:15:59.449332+00:00"
   },
   {
     "id": "sec-Smartdevs17/stellarlend-983",
@@ -644,7 +670,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-21T12:33:27.540583+00:00"
+    "last_audited": "2026-09-21T19:15:59.780851+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -669,7 +695,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-21T12:33:27.876494+00:00"
+    "last_audited": "2026-09-21T19:16:00.170601+00:00"
   },
   {
     "id": "sec-Haroldwonder/TrustLink-1331",
@@ -694,7 +720,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-21T12:33:28.172578+00:00"
+    "last_audited": "2026-09-21T19:16:00.492900+00:00"
   },
   {
     "id": "sec-MergeFi/contracts-299",
@@ -719,7 +745,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-21T12:33:28.466665+00:00"
+    "last_audited": "2026-09-21T19:16:00.853989+00:00"
   },
   {
     "id": "sec-stellar-vortex-protocol/vortex-contracts-298",
@@ -744,7 +770,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-21T12:33:28.746967+00:00"
+    "last_audited": "2026-09-21T19:16:01.204168+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -769,7 +795,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-21T12:33:29.088023+00:00"
+    "last_audited": "2026-09-21T19:16:01.530171+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -794,7 +820,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-21T12:33:29.376954+00:00"
+    "last_audited": "2026-09-21T19:16:01.887378+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -819,7 +845,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-21T12:33:29.732582+00:00"
+    "last_audited": "2026-09-21T19:16:02.279720+00:00"
   },
   {
     "id": "sec-AudioBitsStellar/AudioBlock_Backend-510",
@@ -844,7 +870,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-21T12:33:30.064427+00:00"
+    "last_audited": "2026-09-21T19:16:02.630993+00:00"
   },
   {
     "id": "sec-AgoraIO/docs-portal-1102",
@@ -869,7 +895,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-21T12:33:30.397968+00:00"
+    "last_audited": "2026-09-21T19:16:02.963433+00:00"
   },
   {
     "id": "sec-Kirch-Nairu/INTER-LAN-CROSS.OS-COMMUNICATION-TOOL-4",
@@ -894,7 +920,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-21T12:33:30.670337+00:00"
+    "last_audited": "2026-09-21T19:16:03.319245+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -919,32 +945,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-21T12:33:30.935011+00:00"
-  },
-  {
-    "id": "sec-relayhop/sn-monetization-runtime-1124",
-    "domain": "security",
-    "title": "[radar] SN open bounty 2026-09-20T11:15",
-    "url": "https://github.com/relayhop/sn-monetization-runtime/issues/1124",
-    "platform": "github_security",
-    "repo_owner": "relayhop",
-    "repo_name": "sn-monetization-runtime",
-    "issue_number": 1124,
-    "org_handle": "relayhop",
-    "org_name": "relayhop/sn-monetization-runtime",
-    "body": "New SN OPEN_BOUNTY detected:\n\n```\n1577504\tStacker_Stocks\t2\t51\t10000\t1\t0.3\t9274\t27632\trecent@Stacker_Stocks|top@Stacker_Stocks\tOPEN_BOUNTY,LOW_COMP,FRESH\tDaily Stock Discussion Sunday\u2019s Weekly Close Contest \ud83d\udfe5 or \ud83d\udfe9? 40k sats\n```",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 1,
-    "last_audited": "2026-09-21T12:33:31.222965+00:00"
+    "last_audited": "2026-09-21T19:16:03.641458+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -969,7 +970,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-21T12:33:31.517899+00:00"
+    "last_audited": "2026-09-21T19:16:03.987727+00:00"
+  },
+  {
+    "id": "sec-relayhop/sn-monetization-runtime-1124",
+    "domain": "security",
+    "title": "[radar] SN open bounty 2026-09-20T11:15",
+    "url": "https://github.com/relayhop/sn-monetization-runtime/issues/1124",
+    "platform": "github_security",
+    "repo_owner": "relayhop",
+    "repo_name": "sn-monetization-runtime",
+    "issue_number": 1124,
+    "org_handle": "relayhop",
+    "org_name": "relayhop/sn-monetization-runtime",
+    "body": "New SN OPEN_BOUNTY detected:\n\n```\n1577504\tStacker_Stocks\t2\t51\t10000\t1\t0.3\t9274\t27632\trecent@Stacker_Stocks|top@Stacker_Stocks\tOPEN_BOUNTY,LOW_COMP,FRESH\tDaily Stock Discussion Sunday\u2019s Weekly Close Contest \ud83d\udfe5 or \ud83d\udfe9? 40k sats\n```",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 2,
+    "last_audited": "2026-09-21T19:16:04.364301+00:00"
   },
   {
     "id": "sec-relayhop/ClaudeEarnSelf-runtime-988",
@@ -994,7 +1020,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-21T12:33:31.789699+00:00"
+    "last_audited": "2026-09-21T19:16:04.700468+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -1019,7 +1045,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-21T12:33:32.091795+00:00"
+    "last_audited": "2026-09-21T19:16:05.021593+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-306",
@@ -1044,7 +1070,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-21T12:33:32.376740+00:00"
+    "last_audited": "2026-09-21T19:16:05.356181+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -1069,7 +1095,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-21T12:33:32.648444+00:00"
+    "last_audited": "2026-09-21T19:16:05.688703+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -1094,7 +1120,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-21T12:33:32.910698+00:00"
+    "last_audited": "2026-09-21T19:16:06.033169+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -1119,7 +1145,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-21T12:33:33.177700+00:00"
+    "last_audited": "2026-09-21T19:16:06.357356+00:00"
   },
   {
     "id": "sec-Smartdevs17/stellarlend-969",
@@ -1144,7 +1170,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-21T12:33:33.455633+00:00"
+    "last_audited": "2026-09-21T19:16:06.669924+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1169,7 +1195,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-21T12:33:33.759250+00:00"
+    "last_audited": "2026-09-21T19:16:07.021720+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -1194,7 +1220,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-21T12:33:34.033982+00:00"
+    "last_audited": "2026-09-21T19:16:07.366390+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -1216,10 +1242,7 @@
       "vulnerability"
     ],
     "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 5,
-    "last_audited": "2026-09-21T12:33:34.366459+00:00"
+    "solvability_score": 85.0
   },
   {
     "id": "gh-piotrwitek/typesafe-actions-139",
