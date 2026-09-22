@@ -19,7 +19,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-22T04:24:20.113141+00:00"
+    "last_audited": "2026-09-22T11:21:13.780810+00:00"
   },
   {
     "id": "gh-chenzilin100/StellarBladeTrainer-Releases-3",
@@ -41,7 +41,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-22T04:24:20.336355+00:00"
+    "last_audited": "2026-09-22T11:21:14.103593+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-82",
@@ -65,7 +65,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-22T04:24:20.579641+00:00"
+    "last_audited": "2026-09-22T11:21:14.379750+00:00"
   },
   {
     "id": "gh-strias-ai/embodied-ai-reservations-madrid-1",
@@ -87,7 +87,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-22T04:24:20.792748+00:00"
+    "last_audited": "2026-09-22T11:21:14.598667+00:00"
   },
   {
     "id": "gh-mrzhangkris/dsh-subagent-roster-1",
@@ -109,7 +109,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-22T04:24:21.019301+00:00"
+    "last_audited": "2026-09-22T11:21:14.850674+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-81",
@@ -133,7 +133,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-22T04:24:21.268913+00:00"
+    "last_audited": "2026-09-22T11:21:15.074941+00:00"
   },
   {
     "id": "gh-NightVibes33/Filza-27-46",
@@ -155,19 +155,19 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-22T04:24:21.509438+00:00"
+    "last_audited": "2026-09-22T11:21:15.332794+00:00"
   },
   {
-    "id": "gh-NightVibes33/FlekDeck-2",
-    "title": "question",
-    "url": "https://github.com/NightVibes33/FlekDeck/issues/2",
+    "id": "gh-dporkka/dev-plane-19",
+    "title": "Harden VCS runner against GIT_TERMINAL_PROMPT override",
+    "url": "https://github.com/dporkka/dev-plane/issues/19",
     "platform": "opire",
-    "repo_owner": "NightVibes33",
-    "repo_name": "FlekDeck",
-    "issue_number": 2,
-    "org_handle": "NightVibes33",
-    "org_name": "NightVibes33/FlekDeck",
-    "body": "how do you access hidden apps\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #2</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @accountname291203</code> (replace <code>20</code> with the amount, and <code>@accountname291203</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "repo_owner": "dporkka",
+    "repo_name": "dev-plane",
+    "issue_number": 19,
+    "org_handle": "dporkka",
+    "org_name": "dporkka/dev-plane",
+    "body": "`packages/vcs/runner.go` documents that autonomous VCS operations must never block on terminal credential prompts, but `mergeEnv()` currently sets `GIT_TERMINAL_PROMPT=0` **before** applying caller overrides. A caller can therefore pass `GIT_TERMINAL_PROMPT=1` and re-enable blocking prompts.\n\nProposed fix:\n- apply caller environment overrides first\n- force `GIT_TERMINAL_PROMPT=0` last (or explicitly reject attempts to override it)\n- extend `TestMergeEnvDisablesTerminalPrompts` with an override map containing `GIT_TERMINAL_PROMPT=1` and assert the merged environment still contains `GIT_TERMINAL_PROMPT=0`\n\nDo not edit this symbol until the repository-required GitNexus checks can be run. `AGENTS.md` requires `impact({target: \"mergeEnv\", direction: \"upstream\"})` before editing and `detect_changes({scope: \"compare\", base_ref: \"main\"})` before committing. GitNexus is not currently available in the connected toolset.\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #19</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @dporkka</code> (replace <code>20</code> with the amount, and <code>@dporkka</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
     "reward_usd": 100.0,
     "reward_formatted": "$100",
     "tech": [],
@@ -176,8 +176,8 @@
     "competitor_prs": 0,
     "solvability_score": 100.0,
     "live_status": "open",
-    "comments_count": 12,
-    "last_audited": "2026-09-22T04:24:21.729983+00:00"
+    "comments_count": 0,
+    "last_audited": "2026-09-22T11:21:15.560536+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-1214",
@@ -203,7 +203,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-22T04:24:21.980498+00:00"
+    "last_audited": "2026-09-22T11:21:15.801731+00:00"
   },
   {
     "id": "web3-connect-boiz/soroban-security-scanner-477",
@@ -233,7 +233,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-09-22T04:24:22.232476+00:00"
+    "last_audited": "2026-09-22T11:21:16.058695+00:00"
   },
   {
     "id": "web3-priors-agents/priors-1",
@@ -259,7 +259,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-22T04:24:22.486148+00:00"
+    "last_audited": "2026-09-22T11:21:16.278801+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -284,7 +284,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-09-22T04:24:22.741878+00:00"
+    "last_audited": "2026-09-22T11:21:16.516781+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -310,7 +310,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-22T04:24:22.992867+00:00"
+    "last_audited": "2026-09-22T11:21:16.757686+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1598",
@@ -332,7 +332,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-22T04:24:23.252801+00:00"
+    "last_audited": "2026-09-22T11:21:16.995858+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1295",
@@ -357,7 +357,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 14,
-    "last_audited": "2026-09-22T04:24:23.492303+00:00"
+    "last_audited": "2026-09-22T11:21:17.220255+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1291",
@@ -382,7 +382,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 8,
-    "last_audited": "2026-09-22T04:24:23.707415+00:00"
+    "last_audited": "2026-09-22T11:21:17.449600+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1293",
@@ -407,7 +407,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 9,
-    "last_audited": "2026-09-22T04:24:23.939696+00:00"
+    "last_audited": "2026-09-22T11:21:17.685594+00:00"
   },
   {
     "id": "gh-photoprism/photoprism-93",
@@ -432,7 +432,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 90,
-    "last_audited": "2026-09-22T04:24:24.187345+00:00"
+    "last_audited": "2026-09-22T11:21:17.985493+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-951",
@@ -458,7 +458,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 12,
-    "last_audited": "2026-09-22T04:24:24.425929+00:00"
+    "last_audited": "2026-09-22T11:21:18.211415+00:00"
   },
   {
     "id": "web3-connect-boiz/soroban-security-scanner-475",
@@ -486,7 +486,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-22T04:24:24.696716+00:00"
+    "last_audited": "2026-09-22T11:21:18.492631+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -595,7 +595,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-22T04:24:24.936103+00:00"
+    "last_audited": "2026-09-22T11:21:18.735714+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -620,7 +620,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-22T04:24:25.176766+00:00"
+    "last_audited": "2026-09-22T11:21:18.956961+00:00"
   },
   {
     "id": "sec-Akanimoh12/Stellar-Tipz-1394",
@@ -645,7 +645,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-22T04:24:25.398875+00:00"
+    "last_audited": "2026-09-22T11:21:19.260846+00:00"
   },
   {
     "id": "sec-Smartdevs17/stellarlend-983",
@@ -670,7 +670,82 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-22T04:24:25.645090+00:00"
+    "last_audited": "2026-09-22T11:21:19.501961+00:00"
+  },
+  {
+    "id": "sec-veracindarella/paystream-contracts-41",
+    "domain": "security",
+    "title": "SEC-12: Add SECURITY.md contact update \u2014 replace placeholder email",
+    "url": "https://github.com/veracindarella/paystream-contracts/issues/41",
+    "platform": "github_security",
+    "repo_owner": "veracindarella",
+    "repo_name": "paystream-contracts",
+    "issue_number": 41,
+    "org_handle": "veracindarella",
+    "org_name": "veracindarella/paystream-contracts",
+    "body": "## Description\n`SECURITY.md` lists the vulnerability disclosure contact as `security@paystream.example` \u2014 a placeholder domain. Before any public launch this must be replaced with a real, monitored security contact.\n\n## Acceptance Criteria\n- [ ] `SECURITY.md` updated with a real security contact (email or HackerOne/bug bounty program URL)\n- [ ] PGP key or encrypted reporting channel documented\n- [ ] Response SLA defined (e.g. acknowledge within 48 hours)\n- [ ] README security badge links to updated SECURITY.md\n\n## Priority: High | Effort: Small",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-09-22T11:21:19.737916+00:00"
+  },
+  {
+    "id": "sec-veracindarella/paystream-contracts-98",
+    "domain": "security",
+    "title": "DOC-14: Add security disclosure timeline to SECURITY.md",
+    "url": "https://github.com/veracindarella/paystream-contracts/issues/98",
+    "platform": "github_security",
+    "repo_owner": "veracindarella",
+    "repo_name": "paystream-contracts",
+    "issue_number": 98,
+    "org_handle": "veracindarella",
+    "org_name": "veracindarella/paystream-contracts",
+    "body": "## Description\n`SECURITY.md` explains how to report vulnerabilities but does not define the expected disclosure timeline: how long before a fix is deployed, when the reporter is credited, when the vulnerability is made public. A defined timeline builds trust with security researchers.\n\n## Acceptance Criteria\n- [ ] SECURITY.md updated with a disclosure timeline section\n- [ ] Timeline: acknowledge within 48h, assess severity within 5 days, fix Critical within 14 days / High within 30 days, coordinate disclosure with reporter\n- [ ] Bug bounty scope and rewards defined (or note that a program is planned)\n- [ ] Hall of fame section for acknowledged reporters\n\n## Priority: Medium | Effort: Small",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-09-22T11:21:19.963357+00:00"
+  },
+  {
+    "id": "sec-Stellar-Agent-Guard/stellar-agent-guard-contracts-78",
+    "domain": "security",
+    "title": "docs(docs): security.md: add vulnerability reporting channels beyond Telegram",
+    "url": "https://github.com/Stellar-Agent-Guard/stellar-agent-guard-contracts/issues/78",
+    "platform": "github_security",
+    "repo_owner": "Stellar-Agent-Guard",
+    "repo_name": "stellar-agent-guard-contracts",
+    "issue_number": 78,
+    "org_handle": "Stellar-Agent-Guard",
+    "org_name": "Stellar-Agent-Guard/stellar-agent-guard-contracts",
+    "body": "## Summary\nSECURITY.md currently points disclosures at Telegram (documented as \"the Stellar ecosystem norm\"). For a fund-gating contract targeting an audit (#6), a GitHub private vulnerability reporting path (`GHSA`/Security tab advisory) plus PGP-or-email fallback is expected by auditors and bug bounty participants, and Telegram messages are neither private nor trackable. Keep Telegram as a community channel; add the formal path alongside.\n\n## Background\nSee Summary.\n\n## Acceptance criteria\n- SECURITY.md lists: GitHub Security Advisory (private report) as primary, email as fallback, Telegram as community-only; expected response window stated.\n- Scope section: what's in-scope (contract, agent-tx) vs out (deployed testnet instances, SDK/dashboard sibling repos with their own policies).\n- Explicit `bug bounty` position (none/not-yet) to set expectations.\n- Maintainer checklist item: enable \"Private vulnerability reporting\" in repo settings (linked, can't be done in-PR).\n- Lint, type-check, and tests all pass locally.\n- PR description references this issue with `Closes #`.\n\n## Implementation hints\nAudience: contributor.\n\nCreate a branch: `git checkout -b docs(docs)/security-md-add-vulnerability-reporting-channels-beyond-telegram`\n\nKey files: `SECURITY.md`, repo Settings note (GitHub private reporting must be enabled \u2014 maintainer action outside repo).\n\n## Repo-specific notes\n```bash\ncargo fmt --check\ncargo clippy --all-targets --all-features\ncargo test\n```\n\n## Out of scope\n- Sibling repositories (`stellar-agent-guard-sdk`, `stellar-agent-guard-dashboard`) \u2014 cross-repo work is tracked in its own repository.\n\n## How to claim and submit\n1. Comment on this issue saying you'd like to take it on; wait for a maintainer to assign you.\n2. Open a PR that references this issue (`Closes #`).\n3. Make sure CI is green and request review from a maintainer.",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 1,
+    "last_audited": "2026-09-22T11:21:20.201635+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -695,82 +770,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-22T04:24:25.902944+00:00"
-  },
-  {
-    "id": "sec-Haroldwonder/TrustLink-1331",
-    "domain": "security",
-    "title": "SECURITY.md's 48-hour acknowledgement SLA contradicts docs/bug-bounty.md's 24-hour acknowledgement claim",
-    "url": "https://github.com/Haroldwonder/TrustLink/issues/1331",
-    "platform": "github_security",
-    "repo_owner": "Haroldwonder",
-    "repo_name": "TrustLink",
-    "issue_number": 1331,
-    "org_handle": "Haroldwonder",
-    "org_name": "Haroldwonder/TrustLink",
-    "body": "SECURITY.md's \"Severity response targets\" table states acknowledgement for every severity (CRITICAL/HIGH/MEDIUM/LOW) happens within 48 hours. docs/bug-bounty.md states two different numbers for the same step: the \"Submission Process\" header says \"Response Time: 48 hours (Monday\u2013Friday)\" while the \"Triage & Assessment\" section two paragraphs later says \"Acknowledge receipt \u2014 within 24 hours.\" A researcher following bug-bounty.md's own triage timeline gets a different SLA than SECURITY.md promises, and bug-bounty.md is internally inconsistent about its own commitment.",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-09-22T04:24:26.151055+00:00"
-  },
-  {
-    "id": "sec-MergeFi/contracts-299",
-    "domain": "security",
-    "title": "SECURITY.md still missing \u2014 #115 closed without the fix landing",
-    "url": "https://github.com/MergeFi/contracts/issues/299",
-    "platform": "github_security",
-    "repo_owner": "MergeFi",
-    "repo_name": "contracts",
-    "issue_number": 299,
-    "org_handle": "MergeFi",
-    "org_name": "MergeFi/contracts",
-    "body": "## Overview\nIssue #115 (\"No SECURITY.md / responsible-disclosure policy\") is closed, but `find . -iname \"SECURITY*\"` finds nothing anywhere in the repository. For a contract suite holding live sponsor/contributor funds on Stellar mainnet-bound infrastructure, the absence of a documented vulnerability-disclosure contact/process is a real operational gap, not just a formality \u2014 a security researcher who finds a live issue currently has no documented channel to report it responsibly.\n\n## Requirements\nAdd a `SECURITY.md` at the repository root documenting how to report a vulnerability (contact, expected response time, scope, and whether a bug-bounty/reward applies).\n\n## Acceptance Criteria\n- [ ] `SECURITY.md` added at repo root\n- [ ] GitHub's \"Security\" tab picks it up (verify via repo settings)\n\n## Additional Notes\nVerified via `find . -iname \"SECURITY*\"` (no results) and `ls -la` at repo root. Cross-reference: #115 (closed).",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 1,
-    "last_audited": "2026-09-22T04:24:26.396468+00:00"
-  },
-  {
-    "id": "sec-stellar-vortex-protocol/vortex-contracts-298",
-    "domain": "security",
-    "title": "[High] Design and publish a bug-bounty program scoped to `SECURITY.md`'s Assets-at-Risk table",
-    "url": "https://github.com/stellar-vortex-protocol/vortex-contracts/issues/298",
-    "platform": "github_security",
-    "repo_owner": "stellar-vortex-protocol",
-    "repo_name": "vortex-contracts",
-    "issue_number": 298,
-    "org_handle": "stellar-vortex-protocol",
-    "org_name": "stellar-vortex-protocol/vortex-contracts",
-    "body": "**Description:** `SECURITY.md` currently defers all vulnerability reporting to the org-level `SECURITY.md` for \"responsible-disclosure process\" instructions, but this repository has no bounty program, reward structure, or in-scope/out-of-scope definition of its own. Design and publish one, directly mapped to the specific assets and trust assumptions this repo's own `SECURITY.md` already documents (solver bonds, user swap output, protocol fees, admin privileges).\n\n**Problem Statement & Context:** `SECURITY.md`'s Threat Model section is unusually thorough for a project at this stage \u2014 it already enumerates exactly which assets are at risk, their approximate value (\"\u2265 50 USDC per solver,\" \"Unbounded\" for user swap output), and five distinct named trust assumptions with their implications. That existing rigor is exactly what a well-scoped bounty program needs as its foundation, but nothing currently turns that threat model into actual reward incentives for external security researchers \u2014 a real gap ahead of the mainnet deployment `docs/mainnet-deployment-runbook.md` and `docs/pre-deploy-security-checklist.md` are both preparing for.\n\n**Scope & Acceptance Criteria:**\n\n- A `docs/bug-bounty-program.md` (or a dedicated section appended to `SECURITY.md`) defining severity tiers mapped explicitly to `SECURITY.md`'s existing Assets at Risk table (e.g., a finding that could drain solver bonds or user swap output is Critical; a finding limited to griefing/admin-key-blast-radius per the existing \"What a compromised admin key can and cannot do\" table is a lower tier), in-scope contracts/versions, and out-of-scope categories (e.g., issues already tracked in this very issue list, per the existing \"Known Limitations\" section).\n- A clear reward structure or reward-determination process (even if final dollar amounts depend on a not-yet-established treasury per issue #37 \u2014 the program can specify tiers and a commitment to fund them once treasury infrastructure exists, rather than blocking entirely on that dependency).\n- Out of scope: standing up an actual bounty-hosting platform (Immunefi, HackenProof, etc.) integration \u2014 this issue delivers the program's scope/reward-tier design as a document; platform integration is a follow-up business decision.\n\n**Implementation Guidelines:**\n\n1. Key files: `SECURITY.md` (Assets at Risk table, Trust Assumptions \u00a71\u20135, Known Limitations \u2014 the exact source material this program's scope and severity tiers must be grounded in, not invented independently), `docs/pre-deploy-security-checklist.md` (mainnet-readiness context this program should align its urgency/timeline with).\n2. Cross-reference severity tiers against concrete example findings from this very issue list (e.g., issue #82's `compute_intent_id` collision audit, issue #84's overflow audit) as worked examples of what would qualify at each tier, grounding the abstract severity definitions in real, already-identified risk categories.\n3. Edge cases: explicitly address how a finding overlapping with an already-open issue in this list is handled (e.g., does filing a PR against an existing security issue qualify for a bounty, or only genuinely novel findings?) \u2014 this is a real ambiguity a Drips Wave-style contributor pool will hit immediately.\n4. Testing: not applicable in the traditional sense \u2014 validate via review from someone with prior bug-bounty-program design experience, and by dry-running the severity-tier rubric against two or three real findings from this issue list's existing Security & Auditing issues.\n\n**Definition of Done:**\n\n- `docs/bug-bounty-program.md` written, cross-referenced from `SECURITY.md`.\n- Acceptance criteria met.\n- PR reviewed and approved.\n- Reviewed and approved.\n\n**Resources:** `SECURITY.md`, `docs/pre-deploy-security-checklist.md`\n\n**Complexity:** High (200 points)\n",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 2,
-    "last_audited": "2026-09-22T04:24:26.655208+00:00"
+    "last_audited": "2026-09-22T11:21:20.448823+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -795,7 +795,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-22T04:24:26.918207+00:00"
+    "last_audited": "2026-09-22T11:21:20.720658+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -820,7 +820,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-22T04:24:27.187721+00:00"
+    "last_audited": "2026-09-22T11:21:20.976606+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -845,7 +845,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-22T04:24:27.455415+00:00"
+    "last_audited": "2026-09-22T11:21:21.251319+00:00"
+  },
+  {
+    "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
+    "domain": "security",
+    "title": "Design and launch a bug bounty program",
+    "url": "https://github.com/Invoice-Liquidity-Network/Invoice-Liquidity-Network/issues/1080",
+    "platform": "github_security",
+    "repo_owner": "Invoice-Liquidity-Network",
+    "repo_name": "Invoice-Liquidity-Network",
+    "issue_number": 1080,
+    "org_handle": "Invoice-Liquidity-Network",
+    "org_name": "Invoice-Liquidity-Network/Invoice-Liquidity-Network",
+    "body": "`docs/vulnerability-disclosure.md` documents a disclosure process, but there's currently no structured bug bounty program (scope, reward tiers, triage SLA) to actively incentivize external security researchers ahead of mainnet.\n\n**Requirements and context**\n- Define program scope (in-scope services/repos, out-of-scope items), severity taxonomy, and reward tiers appropriate for a pre-mainnet financial protocol\n- Stand up the intake and triage process, cross-referencing `docs/vulnerability-disclosure.md` for consistency\n- Select and configure a bounty platform or self-hosted process\n- Publish the program and cross-link from `SECURITY.md`\n\n**Suggested execution**\n```\ngit checkout -b docs/bug-bounty-program-launch\n```\n- Design scope, rewards, and triage process for a bug bounty program, then launch it\n\n**Complexity**\nHigh (200 points) \u2014 this batch intentionally excludes trivial/medium-complexity work; see the ILN Stellar Wave contribution guide before picking this up.\n\n**Example commit message**\n`docs: design and launch bug bounty program ahead of mainnet`",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-09-22T11:21:21.487864+00:00"
   },
   {
     "id": "sec-AudioBitsStellar/AudioBlock_Backend-510",
@@ -870,7 +895,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-22T04:24:27.702389+00:00"
+    "last_audited": "2026-09-22T11:21:21.738992+00:00"
   },
   {
     "id": "sec-AgoraIO/docs-portal-1102",
@@ -895,32 +920,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-22T04:24:27.939270+00:00"
-  },
-  {
-    "id": "sec-Kirch-Nairu/INTER-LAN-CROSS.OS-COMMUNICATION-TOOL-4",
-    "domain": "security",
-    "title": "RC PROGRAM \u2014 staging, adversarial bug bounty, stabilization and usable V1",
-    "url": "https://github.com/Kirch-Nairu/INTER-LAN-CROSS.OS-COMMUNICATION-TOOL/issues/4",
-    "platform": "github_security",
-    "repo_owner": "Kirch-Nairu",
-    "repo_name": "INTER-LAN-CROSS.OS-COMMUNICATION-TOOL",
-    "issue_number": 4,
-    "org_handle": "Kirch-Nairu",
-    "org_name": "Kirch-Nairu/INTER-LAN-CROSS.OS-COMMUNICATION-TOOL",
-    "body": "## Authority\n\nTechnical Authority: **Kirch Ivan Balite**\n\nThis issue defines the path from the current P1 candidate to a **usable V1 release candidate**. It does not waive phase gates.\n\nCurrent state:\n- accepted `main`: `8216a327c7c30b82866bd42af444bd10c868c0bf`\n- active P1 branch: `KIRCH-INTERLAN-P1-LAN-IDENTITY`\n- current P1 head: `9c27704fa17a27a23877349cf5253eebcde513ed`\n- current blocker: Windows real HTTPS smoke still red while Linux/macOS/web are green.\n\n## Release path\n\n### Gate A \u2014 Finish P1\n- fix/classify Windows localhost/dual-stack HTTPS smoke;\n- full Windows/Linux/macOS + web green;\n- P1 review;\n- merge only accepted candidate.\n\n### Gate B \u2014 Functional core\n- P2 direct messaging;\n- P3 group chat;\n- P4 file hosting;\n- P5 Telegram archive/restore;\n- each phase gets isolated branch, tests, PR review, and accepted merge.\n\n### Gate C \u2014 Staging\nCreate a dedicated release-candidate branch only after functional gates are accepted.\n\nStaging must prove:\n- owner machine cold start;\n- fresh server bootstrap;\n- desktop client join from at least two OSes;\n- Android browser join;\n- reconnect after server/client restart;\n- DM + GC delivery ordering;\n- duplicate suppression;\n- file upload/download;\n- Telegram archive confirmation;\n- Telegram restore + SHA-256 verification;\n- revoked client loses access;\n- backup/recovery procedure.\n\n### Gate D \u2014 adversarial / bug-bounty campaign\n\nAttack surfaces:\n- bootstrap race / second-owner creation;\n- invite brute force/replay/expiry;\n- session theft/replay/revocation;\n- role escalation;\n- IDOR across DMs/groups/files;\n- malformed SignalR payloads;\n- oversized messages/files;\n- path traversal and filename tricks;\n- MIME confusion;\n- archive-job duplication;\n- Telegram outage / partial archive;\n- restore tampering / checksum mismatch;\n- SQLite corruption/restart;\n- TLS fingerprint mismatch;\n- discovery spoofing;\n- reconnect storms;\n- concurrent message/file traffic;\n- denial-of-service bounds;\n- log/secret leakage;\n- Android/browser authorization parity.\n\nEvery finding must record:\n- reproduction;\n- expected behavior;\n- observed behavior;\n- severity;\n- affected commit;\n- fix commit;\n- regression test;\n- replay result.\n\n### Gate E \u2014 stabilization\n\nRequired before a usable V1 label:\n- zero open CRITICAL/HIGH security findings;\n- all accepted regression tests green;\n- packaging/install proof on Windows/Linux/macOS;\n- Android web-client smoke on a real device/browser;\n- server restart and recovery proof;\n- Telegram outage/recovery proof;\n- no plaintext secrets in repo, logs, DB, or client payloads;\n- release notes and operator setup guide;\n- exact release SHA/tag.\n\n## Important boundary\n\nA few ChatGPT/GitHub turns can move the repository through these gates quickly because implementation, review, CI and issue bookkeeping can be orchestrated directly. That does **not** mean two prompts magically prove production stability. Real staging and bug-bounty confidence still require actual runtime/device/network evidence.\n\nDo not mark V1 stable merely because CI is green.",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 5,
-    "last_audited": "2026-09-22T04:24:28.169592+00:00"
+    "last_audited": "2026-09-22T11:21:22.039551+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -945,7 +945,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-22T04:24:28.384179+00:00"
+    "last_audited": "2026-09-22T11:21:22.257158+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -970,7 +970,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-22T04:24:28.637849+00:00"
+    "last_audited": "2026-09-22T11:21:22.509392+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1124",
@@ -995,7 +995,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-22T04:24:28.867453+00:00"
+    "last_audited": "2026-09-22T11:21:22.739128+00:00"
   },
   {
     "id": "sec-relayhop/ClaudeEarnSelf-runtime-988",
@@ -1020,7 +1020,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-22T04:24:29.095598+00:00"
+    "last_audited": "2026-09-22T11:21:23.019539+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -1045,7 +1045,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-22T04:24:29.331480+00:00"
+    "last_audited": "2026-09-22T11:21:23.266993+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-306",
@@ -1070,7 +1070,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-22T04:24:29.554001+00:00"
+    "last_audited": "2026-09-22T11:21:23.490222+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -1095,7 +1095,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-22T04:24:29.792412+00:00"
+    "last_audited": "2026-09-22T11:21:23.728301+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -1120,7 +1120,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-22T04:24:30.035378+00:00"
+    "last_audited": "2026-09-22T11:21:23.946812+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -1145,7 +1145,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-22T04:24:30.279652+00:00"
+    "last_audited": "2026-09-22T11:21:24.227431+00:00"
   },
   {
     "id": "sec-Smartdevs17/stellarlend-969",
@@ -1170,7 +1170,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-22T04:24:30.504385+00:00"
+    "last_audited": "2026-09-22T11:21:24.475384+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1195,7 +1195,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-22T04:24:30.777292+00:00"
+    "last_audited": "2026-09-22T11:21:24.727008+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -1220,7 +1220,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-22T04:24:31.013494+00:00"
+    "last_audited": "2026-09-22T11:21:24.973076+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
