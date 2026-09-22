@@ -19,7 +19,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-22T11:21:13.780810+00:00"
+    "last_audited": "2026-09-22T16:43:06.651382+00:00"
   },
   {
     "id": "gh-chenzilin100/StellarBladeTrainer-Releases-3",
@@ -41,7 +41,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-22T11:21:14.103593+00:00"
+    "last_audited": "2026-09-22T16:43:06.855366+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-82",
@@ -65,7 +65,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-22T11:21:14.379750+00:00"
+    "last_audited": "2026-09-22T16:43:07.068676+00:00"
   },
   {
     "id": "gh-strias-ai/embodied-ai-reservations-madrid-1",
@@ -87,7 +87,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-22T11:21:14.598667+00:00"
+    "last_audited": "2026-09-22T16:43:07.252763+00:00"
   },
   {
     "id": "gh-mrzhangkris/dsh-subagent-roster-1",
@@ -109,7 +109,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-22T11:21:14.850674+00:00"
+    "last_audited": "2026-09-22T16:43:07.429621+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-81",
@@ -133,7 +133,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-22T11:21:15.074941+00:00"
+    "last_audited": "2026-09-22T16:43:07.604441+00:00"
   },
   {
     "id": "gh-NightVibes33/Filza-27-46",
@@ -155,7 +155,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-22T11:21:15.332794+00:00"
+    "last_audited": "2026-09-22T16:43:07.790004+00:00"
   },
   {
     "id": "gh-dporkka/dev-plane-19",
@@ -177,7 +177,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-22T11:21:15.560536+00:00"
+    "last_audited": "2026-09-22T16:43:08.016801+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-1214",
@@ -203,7 +203,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-22T11:21:15.801731+00:00"
+    "last_audited": "2026-09-22T16:43:08.192253+00:00"
   },
   {
     "id": "web3-connect-boiz/soroban-security-scanner-477",
@@ -233,7 +233,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-09-22T11:21:16.058695+00:00"
+    "last_audited": "2026-09-22T16:43:08.467921+00:00"
   },
   {
     "id": "web3-priors-agents/priors-1",
@@ -259,7 +259,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-22T11:21:16.278801+00:00"
+    "last_audited": "2026-09-22T16:43:08.650801+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -284,7 +284,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-09-22T11:21:16.516781+00:00"
+    "last_audited": "2026-09-22T16:43:08.881333+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -310,7 +310,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-22T11:21:16.757686+00:00"
+    "last_audited": "2026-09-22T16:43:09.081580+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1598",
@@ -328,11 +328,11 @@
     "tech": [],
     "status": "active",
     "domain": "code",
-    "competitor_prs": 0,
+    "competitor_prs": 1,
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-22T11:21:16.995858+00:00"
+    "last_audited": "2026-09-22T16:43:09.255130+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1295",
@@ -357,7 +357,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 14,
-    "last_audited": "2026-09-22T11:21:17.220255+00:00"
+    "last_audited": "2026-09-22T16:43:09.451660+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1291",
@@ -382,7 +382,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 8,
-    "last_audited": "2026-09-22T11:21:17.449600+00:00"
+    "last_audited": "2026-09-22T16:43:09.661550+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1293",
@@ -407,7 +407,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 9,
-    "last_audited": "2026-09-22T11:21:17.685594+00:00"
+    "last_audited": "2026-09-22T16:43:09.850839+00:00"
   },
   {
     "id": "gh-photoprism/photoprism-93",
@@ -432,7 +432,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 90,
-    "last_audited": "2026-09-22T11:21:17.985493+00:00"
+    "last_audited": "2026-09-22T16:43:10.054305+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-951",
@@ -458,7 +458,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 12,
-    "last_audited": "2026-09-22T11:21:18.211415+00:00"
+    "last_audited": "2026-09-22T16:43:10.254099+00:00"
   },
   {
     "id": "web3-connect-boiz/soroban-security-scanner-475",
@@ -486,7 +486,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-22T11:21:18.492631+00:00"
+    "last_audited": "2026-09-22T16:43:10.491628+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -595,7 +595,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-22T11:21:18.735714+00:00"
+    "last_audited": "2026-09-22T16:43:10.686909+00:00"
+  },
+  {
+    "id": "sec-Invoice-Liquidity-Network/ILN-Smart-Contract-923",
+    "domain": "security",
+    "title": "Design and launch a post-mainnet bug bounty program",
+    "url": "https://github.com/Invoice-Liquidity-Network/ILN-Smart-Contract/issues/923",
+    "platform": "github_security",
+    "repo_owner": "Invoice-Liquidity-Network",
+    "repo_name": "ILN-Smart-Contract",
+    "issue_number": 923,
+    "org_handle": "Invoice-Liquidity-Network",
+    "org_name": "Invoice-Liquidity-Network/ILN-Smart-Contract",
+    "body": "\n## Description\nNo bug bounty program currently exists per docs/security.md -- define scope, reward tiers, safe-harbor terms extending the existing disclosure policy, and a funding source for payouts.\n\n## Requirements and Context\n- Define program scope (in-scope contracts/surfaces, out-of-scope items), severity-to-reward tiers, and safe-harbor legal terms building on the existing responsible-disclosure policy\n- Decide and secure a funding source for payouts (treasury allocation, external platform sponsorship)\n- Publish the program in docs/security.md and on a bounty-platform listing if one is used\n\n## Suggested Execution\n```\ngit checkout -b docs/post-mainnet-bug-bounty-program\n```\n- Define scope, reward tiers, and safe-harbor terms\n- Secure funding source\n- Publish program\n\n## Guidelines\n- **Complexity:** High (200 pts) -- **Category:** POST-AUDIT REMEDIATION & PUBLIC SECURITY PROGRAM READINESS\n- Match the existing code style, error-handling, and test patterns in the affected crate/package.\n- Cover the change with unit/integration tests; update any `docs/` file this issue references.\n- Open the PR against `dev`, link this issue (`Closes #119`), and summarize the change plus any residual/accepted risk.\n- Suggested commit message style: `docs: design and launch post-mainnet bug bounty program`\n\n<!-- Format follows https://www.drips.network/blog/posts/creating-meaningful-issues -->\n",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-09-22T16:43:10.868382+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -620,7 +645,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-22T11:21:18.956961+00:00"
+    "last_audited": "2026-09-22T16:43:11.067813+00:00"
   },
   {
     "id": "sec-Akanimoh12/Stellar-Tipz-1394",
@@ -645,7 +670,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-22T11:21:19.260846+00:00"
+    "last_audited": "2026-09-22T16:43:11.273868+00:00"
   },
   {
     "id": "sec-Smartdevs17/stellarlend-983",
@@ -670,7 +695,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-22T11:21:19.501961+00:00"
+    "last_audited": "2026-09-22T16:43:11.499294+00:00"
   },
   {
     "id": "sec-veracindarella/paystream-contracts-41",
@@ -695,7 +720,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-22T11:21:19.737916+00:00"
+    "last_audited": "2026-09-22T16:43:11.692574+00:00"
   },
   {
     "id": "sec-veracindarella/paystream-contracts-98",
@@ -720,7 +745,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-22T11:21:19.963357+00:00"
+    "last_audited": "2026-09-22T16:43:11.874555+00:00"
   },
   {
     "id": "sec-Stellar-Agent-Guard/stellar-agent-guard-contracts-78",
@@ -745,32 +770,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-22T11:21:20.201635+00:00"
-  },
-  {
-    "id": "sec-Demilade10/PayStream-52",
-    "domain": "security",
-    "title": "security(core): draft bug bounty program scope and rewards proposal",
-    "url": "https://github.com/Demilade10/PayStream/issues/52",
-    "platform": "github_security",
-    "repo_owner": "Demilade10",
-    "repo_name": "PayStream",
-    "issue_number": 52,
-    "org_handle": "Demilade10",
-    "org_name": "Demilade10/PayStream",
-    "body": "## Description\nDraft a proposed bug bounty framework for PayStream covering eligible targets, severity classification, submission rules, and possible future reward ranges.\n\nThis issue does **not** launch a bug bounty, promise payment, or authorize unrestricted security testing. PayStream currently has no funded bounty treasury. Activation must be a separate maintainer decision after funding, legal/operational review, and publication of final terms.\n\n## Requirements and Context\nThis is a documentation-only proposal. Do not change contract or keeper code.\n\nThe work should use the merged findings from:\n\n- the `require_auth()` audit;\n- core contract invariants;\n- reentrancy/security review;\n- error and arithmetic audits;\n- `SECURITY.md` and its verified private-reporting channel.\n\nIf those dependencies are incomplete, mark affected sections as pending rather than inventing conclusions.\n\nCreate `docs/decisions/bug-bounty-proposal.md` with the following sections.\n\n### Status and disclaimer\n\nDisplay a prominent notice at the top:\n\n- **Status: Proposal only \u2014 not active**\n- no monetary rewards are currently guaranteed;\n- reports must follow `SECURITY.md`;\n- publishing this proposal does not authorize testing outside the stated safe-testing boundaries;\n- only a later, explicitly announced program can create reward eligibility.\n\nAvoid language such as \u201cwe pay,\u201d \u201creward,\u201d or \u201celigible for payment\u201d unless clearly qualified as proposed and contingent on activation.\n\n### Proposed in-scope assets\n\nIdentify assets precisely, including versions and contract addresses where applicable:\n\n- PayStream contract source in this repository;\n- the supported deployed Stellar testnet contract:\n  `CAGPAEHIEP7TOREAANS6CTYACQ6MCNVTKTBOQZIRFP3DVL3PC3DODSPJ`;\n- keeper code only where a flaw could cause unauthorized signing, secret exposure, duplicate charges, or incorrect payment submission;\n- future mainnet deployments only after explicitly added to an activated scope;\n- swap, oracle, token allowlist, plan-management, or usage-billing components only if they are merged and explicitly listed.\n\nClarify that source-code findings must affect the supported version or deployment to qualify under any future program.\n\nHighlight likely high-value attack surfaces:\n\n- missing or incorrect authorization;\n- unauthorized transfers;\n- allowance manipulation or accounting divergence;\n- charge calculation, overflow, underflow, or rounding errors;\n- duplicate/replay charging;\n- reentrancy or unsafe cross-contract interaction;\n- storage corruption and invariant violations;\n- token allowlist bypass;\n- oracle manipulation, stale-price acceptance, and slippage bypass;\n- keeper signing-key exposure.\n\n### Proposed out-of-scope items\n\nAt minimum, evaluate and document:\n\n- UI-only or cosmetic issues;\n- documentation typos;\n- issues in example/reference SDK contracts not deployed or controlled by PayStream;\n- vulnerabilities solely in Stellar, Soroban, third-party tokens, RPC providers, wallets, DEXs, or oracle infrastructure, unless caused by PayStream's unsafe integration;\n- known network-level availability/resource constraints without a PayStream-specific exploit;\n- testnet asset loss with no protocol-security impact;\n- attacks requiring a reporter's own compromised credentials;\n- social engineering, phishing, physical attacks, credential theft, and privacy violations;\n- denial-of-service or load testing;\n- automated scanning that degrades shared infrastructure;\n- findings already known, previously reported, or publicly disclosed;\n- unsupported branches, forks, old deployments, and unmerged pull requests;\n- best-practice suggestions without a demonstrable security impact.\n\n### Testing rules\n\nPropose safe research boundaries consistent with `SECURITY.md`:\n\n- use testnet and accounts/assets owned by the researcher;\n- do not test mainnet or third-party systems without explicit permission;\n- do not access, alter, or retain another person's data or assets;\n- stop immediately if unintended impact occurs;\n- do not perform denial-of-service, spam, destructive testing, or social engineering;\n- never request or expose seed phrases, secret keys, or credentials;\n- submit findings privately through the verified channel;\n- allow reasonable remediation time before coordinated disclosure.\n\nDo not promise legal safe harbor beyond what the project can responsibly provide.\n\n### Severity model\n\nDefine severity using impact and exploitability, not labels alone. Include example categories such as:\n\n| Tier | Proposed impact definition | Examples |\n|---|---|---|\n| Critical | Direct unauthorized asset loss, systemic theft, or complete authorization bypass | Unauthorized transfer from subscribers; arbitrary keeper-key compromise caused by repository code |\n| High | Serious integrity/invariant failure with substantial financial risk | Repeat charging, allowance-accounting bypass, exploitable oracle/slippage failure |\n| Medium | Limited financial impact or contract-specific availability loss | Persistent failure of a core function for affected subscriptions |\n| Low | Low-impact security weakness with a concrete scenario | Limited information exposure or hardening issue |\n\nAccount for:\n\n- attack prerequisites;\n- privileges required;\n- user interaction;\n- reproducibility;\n- affected users/assets;\n- maximum realistic impact;\n- whether the supported deployment is affected;\n- quality and originality of the report.\n\nState that final severity would be determined by the maintainer using documented evidence and, if adopted, a named methodology such as Immunefi-style impact categories or CVSS supplemented by blockchain-specific impact.\n\n### Duplicate and report-quality rules\n\nPropose how to handle:\n\n- duplicate reports;\n- multiple symptoms from one root cause;\n- previously known issues;\n- publicly disclosed findings;\n- unverifiable or AI-generated reports without a working reproduction;\n- reports submitted after a patch;\n- dependency vulnerabilities with and without PayStream-specific exploitability.\n\nThe earliest complete, privately submitted, reproducible report should generally receive priority under any activated program.\n\n### Proposed rewards\n\nProvide conservative, clearly non-binding ranges appropriate for an early testnet project. Present at least two possible models:\n\n1. a funded monetary model activated only after dedicated funds are escrowed or budgeted;\n2. an unfunded recognition model that offers public credit, acknowledgements, or contributor recognition only with reporter consent.\n\nFor monetary ranges:\n\n- use a clearly identified currency or stablecoin;\n- state whether amounts are fixed or ranges;\n- explain how severity, impact, report quality, and duplicates affect the proposed amount;\n- avoid ranges the project could not realistically fund;\n- include a total program budget and per-finding cap;\n- state that no monetary model becomes active until funds and final terms are publicly confirmed.\n\nDo not promise expedited acceptance or favorable treatment for a reporter's unrelated contributions. Code contributions must continue through normal review and assignment rules.\n\n### Activation checklist\n\nDefine prerequisites for launching a real program:\n\n- merge and verify `SECURITY.md`;\n- enable and test GitHub Private Vulnerability Reporting;\n- complete the relevant security audits and invariant documentation;\n- identify exact supported commit/deployment addresses;\n- secure and ring-fence a bounty budget;\n- define payout currency, method, eligibility, sanctions/tax considerations, and payment authority;\n- publish final scope, exclusions, severity rules, testing rules, and disclosure process;\n- define duplicate handling and dispute/escalation process;\n- announce an explicit activation date;\n- replace every \u201cproposed\u201d label with reviewed final terms.\n\nPossible funding sources may include grants or Drips funding, but do not imply acceptance, availability, or commitment.\n\n### Decision and maintenance\n\nConclude with:\n\n- recommendation on whether to activate now or defer;\n- reasoning;\n- conditions that should trigger reconsideration;\n- policy owner;\n- review cadence;\n- requirement to update scope whenever the supported contract address or major attack surface changes.\n\nIf `SECURITY.md` is merged, add only a brief link that clearly labels this document as an inactive proposal. If `SECURITY.md` is not merged, do not add or modify it in this PR.\n\n## Suggested Execution\n- **Branch name:** `docs/bug-bounty-proposal`\n- **Files to touch:**\n  - `docs/decisions/bug-bounty-proposal.md` (new)\n  - `SECURITY.md` (optional pointer only if already merged)\n- **Example commit message:** `docs(security): propose bug bounty scope and reward framework`\n\n## Test and Commit Steps\n1. Confirm the status of the auth audit, invariant documentation, reentrancy review, and `SECURITY.md`.\n2. Extract the actual merged attack surfaces and supported deployment details.\n3. Draft the proposal with the **not active / no guaranteed payment** notice at the top.\n4. Define scope, exclusions, safe-testing rules, severity, duplicate handling, possible reward models, and activation prerequisites.\n5. Review every statement to remove accidental promises or unsupported reporting channels.\n6. If applicable, add a clearly labelled proposal link from `SECURITY.md`.\n7. Commit the actual changed files:\n\n```powershell\ngit add docs/decisions/bug-bounty-proposal.md\ngit commit -m \"docs(security): propose bug bounty scope and reward framework\"\n```\n\nIf `SECURITY.md` is changed, stage it before committing.\n\n8. Open a PR referencing this issue.\n9. Do not announce or describe the program as active after merge.\n\n## Guidelines\n- Comment with the proposed document outline and request assignment before starting.\n- Do not start or open a PR until assigned by a maintainer.\n- The PR description must include `Closes #<issue-number>`.\n- Keep this PR documentation-only.\n- State prominently that the program is proposed, unfunded, and inactive.\n- Do not promise payment, an SLA, legal protection, or preferential contribution treatment.\n- Do not disclose unresolved vulnerabilities or unnecessary exploit details.\n- Use only verified reporting channels from `SECURITY.md`.\n- Do not upgrade Soroban SDK from `27.0.3`.\n- Follow Conventional Commits and repository branch conventions.\n\n## Complexity\n**High (200 pts)**",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-09-22T11:21:20.448823+00:00"
+    "last_audited": "2026-09-22T16:43:12.101187+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -795,7 +795,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-22T11:21:20.720658+00:00"
+    "last_audited": "2026-09-22T16:43:12.325153+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -820,7 +820,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-22T11:21:20.976606+00:00"
+    "last_audited": "2026-09-22T16:43:12.522853+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -845,7 +845,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-22T11:21:21.251319+00:00"
+    "last_audited": "2026-09-22T16:43:12.766481+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -870,7 +870,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-22T11:21:21.487864+00:00"
+    "last_audited": "2026-09-22T16:43:12.995112+00:00"
+  },
+  {
+    "id": "sec-Demilade10/PayStream-52",
+    "domain": "security",
+    "title": "security(core): draft bug bounty program scope and rewards proposal",
+    "url": "https://github.com/Demilade10/PayStream/issues/52",
+    "platform": "github_security",
+    "repo_owner": "Demilade10",
+    "repo_name": "PayStream",
+    "issue_number": 52,
+    "org_handle": "Demilade10",
+    "org_name": "Demilade10/PayStream",
+    "body": "## Description\nDraft a proposed bug bounty framework for PayStream covering eligible targets, severity classification, submission rules, and possible future reward ranges.\n\nThis issue does **not** launch a bug bounty, promise payment, or authorize unrestricted security testing. PayStream currently has no funded bounty treasury. Activation must be a separate maintainer decision after funding, legal/operational review, and publication of final terms.\n\n## Requirements and Context\nThis is a documentation-only proposal. Do not change contract or keeper code.\n\nThe work should use the merged findings from:\n\n- the `require_auth()` audit;\n- core contract invariants;\n- reentrancy/security review;\n- error and arithmetic audits;\n- `SECURITY.md` and its verified private-reporting channel.\n\nIf those dependencies are incomplete, mark affected sections as pending rather than inventing conclusions.\n\nCreate `docs/decisions/bug-bounty-proposal.md` with the following sections.\n\n### Status and disclaimer\n\nDisplay a prominent notice at the top:\n\n- **Status: Proposal only \u2014 not active**\n- no monetary rewards are currently guaranteed;\n- reports must follow `SECURITY.md`;\n- publishing this proposal does not authorize testing outside the stated safe-testing boundaries;\n- only a later, explicitly announced program can create reward eligibility.\n\nAvoid language such as \u201cwe pay,\u201d \u201creward,\u201d or \u201celigible for payment\u201d unless clearly qualified as proposed and contingent on activation.\n\n### Proposed in-scope assets\n\nIdentify assets precisely, including versions and contract addresses where applicable:\n\n- PayStream contract source in this repository;\n- the supported deployed Stellar testnet contract:\n  `CAGPAEHIEP7TOREAANS6CTYACQ6MCNVTKTBOQZIRFP3DVL3PC3DODSPJ`;\n- keeper code only where a flaw could cause unauthorized signing, secret exposure, duplicate charges, or incorrect payment submission;\n- future mainnet deployments only after explicitly added to an activated scope;\n- swap, oracle, token allowlist, plan-management, or usage-billing components only if they are merged and explicitly listed.\n\nClarify that source-code findings must affect the supported version or deployment to qualify under any future program.\n\nHighlight likely high-value attack surfaces:\n\n- missing or incorrect authorization;\n- unauthorized transfers;\n- allowance manipulation or accounting divergence;\n- charge calculation, overflow, underflow, or rounding errors;\n- duplicate/replay charging;\n- reentrancy or unsafe cross-contract interaction;\n- storage corruption and invariant violations;\n- token allowlist bypass;\n- oracle manipulation, stale-price acceptance, and slippage bypass;\n- keeper signing-key exposure.\n\n### Proposed out-of-scope items\n\nAt minimum, evaluate and document:\n\n- UI-only or cosmetic issues;\n- documentation typos;\n- issues in example/reference SDK contracts not deployed or controlled by PayStream;\n- vulnerabilities solely in Stellar, Soroban, third-party tokens, RPC providers, wallets, DEXs, or oracle infrastructure, unless caused by PayStream's unsafe integration;\n- known network-level availability/resource constraints without a PayStream-specific exploit;\n- testnet asset loss with no protocol-security impact;\n- attacks requiring a reporter's own compromised credentials;\n- social engineering, phishing, physical attacks, credential theft, and privacy violations;\n- denial-of-service or load testing;\n- automated scanning that degrades shared infrastructure;\n- findings already known, previously reported, or publicly disclosed;\n- unsupported branches, forks, old deployments, and unmerged pull requests;\n- best-practice suggestions without a demonstrable security impact.\n\n### Testing rules\n\nPropose safe research boundaries consistent with `SECURITY.md`:\n\n- use testnet and accounts/assets owned by the researcher;\n- do not test mainnet or third-party systems without explicit permission;\n- do not access, alter, or retain another person's data or assets;\n- stop immediately if unintended impact occurs;\n- do not perform denial-of-service, spam, destructive testing, or social engineering;\n- never request or expose seed phrases, secret keys, or credentials;\n- submit findings privately through the verified channel;\n- allow reasonable remediation time before coordinated disclosure.\n\nDo not promise legal safe harbor beyond what the project can responsibly provide.\n\n### Severity model\n\nDefine severity using impact and exploitability, not labels alone. Include example categories such as:\n\n| Tier | Proposed impact definition | Examples |\n|---|---|---|\n| Critical | Direct unauthorized asset loss, systemic theft, or complete authorization bypass | Unauthorized transfer from subscribers; arbitrary keeper-key compromise caused by repository code |\n| High | Serious integrity/invariant failure with substantial financial risk | Repeat charging, allowance-accounting bypass, exploitable oracle/slippage failure |\n| Medium | Limited financial impact or contract-specific availability loss | Persistent failure of a core function for affected subscriptions |\n| Low | Low-impact security weakness with a concrete scenario | Limited information exposure or hardening issue |\n\nAccount for:\n\n- attack prerequisites;\n- privileges required;\n- user interaction;\n- reproducibility;\n- affected users/assets;\n- maximum realistic impact;\n- whether the supported deployment is affected;\n- quality and originality of the report.\n\nState that final severity would be determined by the maintainer using documented evidence and, if adopted, a named methodology such as Immunefi-style impact categories or CVSS supplemented by blockchain-specific impact.\n\n### Duplicate and report-quality rules\n\nPropose how to handle:\n\n- duplicate reports;\n- multiple symptoms from one root cause;\n- previously known issues;\n- publicly disclosed findings;\n- unverifiable or AI-generated reports without a working reproduction;\n- reports submitted after a patch;\n- dependency vulnerabilities with and without PayStream-specific exploitability.\n\nThe earliest complete, privately submitted, reproducible report should generally receive priority under any activated program.\n\n### Proposed rewards\n\nProvide conservative, clearly non-binding ranges appropriate for an early testnet project. Present at least two possible models:\n\n1. a funded monetary model activated only after dedicated funds are escrowed or budgeted;\n2. an unfunded recognition model that offers public credit, acknowledgements, or contributor recognition only with reporter consent.\n\nFor monetary ranges:\n\n- use a clearly identified currency or stablecoin;\n- state whether amounts are fixed or ranges;\n- explain how severity, impact, report quality, and duplicates affect the proposed amount;\n- avoid ranges the project could not realistically fund;\n- include a total program budget and per-finding cap;\n- state that no monetary model becomes active until funds and final terms are publicly confirmed.\n\nDo not promise expedited acceptance or favorable treatment for a reporter's unrelated contributions. Code contributions must continue through normal review and assignment rules.\n\n### Activation checklist\n\nDefine prerequisites for launching a real program:\n\n- merge and verify `SECURITY.md`;\n- enable and test GitHub Private Vulnerability Reporting;\n- complete the relevant security audits and invariant documentation;\n- identify exact supported commit/deployment addresses;\n- secure and ring-fence a bounty budget;\n- define payout currency, method, eligibility, sanctions/tax considerations, and payment authority;\n- publish final scope, exclusions, severity rules, testing rules, and disclosure process;\n- define duplicate handling and dispute/escalation process;\n- announce an explicit activation date;\n- replace every \u201cproposed\u201d label with reviewed final terms.\n\nPossible funding sources may include grants or Drips funding, but do not imply acceptance, availability, or commitment.\n\n### Decision and maintenance\n\nConclude with:\n\n- recommendation on whether to activate now or defer;\n- reasoning;\n- conditions that should trigger reconsideration;\n- policy owner;\n- review cadence;\n- requirement to update scope whenever the supported contract address or major attack surface changes.\n\nIf `SECURITY.md` is merged, add only a brief link that clearly labels this document as an inactive proposal. If `SECURITY.md` is not merged, do not add or modify it in this PR.\n\n## Suggested Execution\n- **Branch name:** `docs/bug-bounty-proposal`\n- **Files to touch:**\n  - `docs/decisions/bug-bounty-proposal.md` (new)\n  - `SECURITY.md` (optional pointer only if already merged)\n- **Example commit message:** `docs(security): propose bug bounty scope and reward framework`\n\n## Test and Commit Steps\n1. Confirm the status of the auth audit, invariant documentation, reentrancy review, and `SECURITY.md`.\n2. Extract the actual merged attack surfaces and supported deployment details.\n3. Draft the proposal with the **not active / no guaranteed payment** notice at the top.\n4. Define scope, exclusions, safe-testing rules, severity, duplicate handling, possible reward models, and activation prerequisites.\n5. Review every statement to remove accidental promises or unsupported reporting channels.\n6. If applicable, add a clearly labelled proposal link from `SECURITY.md`.\n7. Commit the actual changed files:\n\n```powershell\ngit add docs/decisions/bug-bounty-proposal.md\ngit commit -m \"docs(security): propose bug bounty scope and reward framework\"\n```\n\nIf `SECURITY.md` is changed, stage it before committing.\n\n8. Open a PR referencing this issue.\n9. Do not announce or describe the program as active after merge.\n\n## Guidelines\n- Comment with the proposed document outline and request assignment before starting.\n- Do not start or open a PR until assigned by a maintainer.\n- The PR description must include `Closes #<issue-number>`.\n- Keep this PR documentation-only.\n- State prominently that the program is proposed, unfunded, and inactive.\n- Do not promise payment, an SLA, legal protection, or preferential contribution treatment.\n- Do not disclose unresolved vulnerabilities or unnecessary exploit details.\n- Use only verified reporting channels from `SECURITY.md`.\n- Do not upgrade Soroban SDK from `27.0.3`.\n- Follow Conventional Commits and repository branch conventions.\n\n## Complexity\n**High (200 pts)**",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-09-22T16:43:13.184550+00:00"
   },
   {
     "id": "sec-AudioBitsStellar/AudioBlock_Backend-510",
@@ -895,32 +920,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-22T11:21:21.738992+00:00"
-  },
-  {
-    "id": "sec-AgoraIO/docs-portal-1102",
-    "domain": "security",
-    "title": "[Docs]: Update Agora Bug Bounty Policy",
-    "url": "https://github.com/AgoraIO/docs-portal/issues/1102",
-    "platform": "github_security",
-    "repo_owner": "AgoraIO",
-    "repo_name": "docs-portal",
-    "issue_number": 1102,
-    "org_handle": "AgoraIO",
-    "org_name": "AgoraIO/docs-portal",
-    "body": "### Page URL\n\nhttps://docs.agora.io/en/realtime-media/voice/reference/security#agora-bug-bounty-program\n\n### Locale\n\nEnglish\n\n### What is wrong?\n\nThe current Agora Bug Bounty Policy is outdated and needs to be updated to reflect the latest program requirements and practices.\nThe **\u201cAgora bug bounty program\u201d** section on this page should be replaced with the new policy content.\n\n### What should the docs say or do instead?\n\nPlease replace the current \u201cAgora bug bounty program\u201d section with the updated policy attached to this issue.\nThe attached Markdown file contains the complete replacement content and should be used as the source of truth.\nSecurity team review is required before publication.\n\n[agora-bug-bounty-policy-20260916.md](https://github.com/user-attachments/files/32269815/agora-bug-bounty-policy-20260916.md)\n\n### Additional context\n\n_No response_",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 3,
-    "last_audited": "2026-09-22T11:21:22.039551+00:00"
+    "last_audited": "2026-09-22T16:43:13.384880+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -945,7 +945,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-22T11:21:22.257158+00:00"
+    "last_audited": "2026-09-22T16:43:13.562786+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -970,7 +970,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-22T11:21:22.509392+00:00"
+    "last_audited": "2026-09-22T16:43:13.824525+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1124",
@@ -995,7 +995,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-22T11:21:22.739128+00:00"
+    "last_audited": "2026-09-22T16:43:14.040679+00:00"
   },
   {
     "id": "sec-relayhop/ClaudeEarnSelf-runtime-988",
@@ -1020,7 +1020,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-22T11:21:23.019539+00:00"
+    "last_audited": "2026-09-22T16:43:14.222180+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -1045,7 +1045,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-22T11:21:23.266993+00:00"
+    "last_audited": "2026-09-22T16:43:14.423366+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-306",
@@ -1070,7 +1070,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-22T11:21:23.490222+00:00"
+    "last_audited": "2026-09-22T16:43:14.609102+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -1095,7 +1095,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-22T11:21:23.728301+00:00"
+    "last_audited": "2026-09-22T16:43:14.817197+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -1120,7 +1120,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-22T11:21:23.946812+00:00"
+    "last_audited": "2026-09-22T16:43:14.994220+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -1145,7 +1145,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-22T11:21:24.227431+00:00"
+    "last_audited": "2026-09-22T16:43:15.186237+00:00"
   },
   {
     "id": "sec-Smartdevs17/stellarlend-969",
@@ -1170,7 +1170,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-22T11:21:24.475384+00:00"
+    "last_audited": "2026-09-22T16:43:16.387771+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1195,7 +1195,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-22T11:21:24.727008+00:00"
+    "last_audited": "2026-09-22T16:43:16.626852+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -1220,7 +1220,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-22T11:21:24.973076+00:00"
+    "last_audited": "2026-09-22T16:43:16.838502+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
