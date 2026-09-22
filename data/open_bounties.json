@@ -19,7 +19,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-21T23:08:02.014027+00:00"
+    "last_audited": "2026-09-22T04:24:20.113141+00:00"
   },
   {
     "id": "gh-chenzilin100/StellarBladeTrainer-Releases-3",
@@ -41,7 +41,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-21T23:08:02.298354+00:00"
+    "last_audited": "2026-09-22T04:24:20.336355+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-82",
@@ -65,7 +65,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-21T23:08:02.594149+00:00"
+    "last_audited": "2026-09-22T04:24:20.579641+00:00"
   },
   {
     "id": "gh-strias-ai/embodied-ai-reservations-madrid-1",
@@ -87,7 +87,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-21T23:08:02.837430+00:00"
+    "last_audited": "2026-09-22T04:24:20.792748+00:00"
   },
   {
     "id": "gh-mrzhangkris/dsh-subagent-roster-1",
@@ -109,7 +109,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-21T23:08:03.067325+00:00"
+    "last_audited": "2026-09-22T04:24:21.019301+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-81",
@@ -133,7 +133,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-21T23:08:03.339050+00:00"
+    "last_audited": "2026-09-22T04:24:21.268913+00:00"
   },
   {
     "id": "gh-NightVibes33/Filza-27-46",
@@ -155,19 +155,19 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-21T23:08:03.615777+00:00"
+    "last_audited": "2026-09-22T04:24:21.509438+00:00"
   },
   {
-    "id": "gh-dporkka/dev-plane-19",
-    "title": "Harden VCS runner against GIT_TERMINAL_PROMPT override",
-    "url": "https://github.com/dporkka/dev-plane/issues/19",
+    "id": "gh-NightVibes33/FlekDeck-2",
+    "title": "question",
+    "url": "https://github.com/NightVibes33/FlekDeck/issues/2",
     "platform": "opire",
-    "repo_owner": "dporkka",
-    "repo_name": "dev-plane",
-    "issue_number": 19,
-    "org_handle": "dporkka",
-    "org_name": "dporkka/dev-plane",
-    "body": "`packages/vcs/runner.go` documents that autonomous VCS operations must never block on terminal credential prompts, but `mergeEnv()` currently sets `GIT_TERMINAL_PROMPT=0` **before** applying caller overrides. A caller can therefore pass `GIT_TERMINAL_PROMPT=1` and re-enable blocking prompts.\n\nProposed fix:\n- apply caller environment overrides first\n- force `GIT_TERMINAL_PROMPT=0` last (or explicitly reject attempts to override it)\n- extend `TestMergeEnvDisablesTerminalPrompts` with an override map containing `GIT_TERMINAL_PROMPT=1` and assert the merged environment still contains `GIT_TERMINAL_PROMPT=0`\n\nDo not edit this symbol until the repository-required GitNexus checks can be run. `AGENTS.md` requires `impact({target: \"mergeEnv\", direction: \"upstream\"})` before editing and `detect_changes({scope: \"compare\", base_ref: \"main\"})` before committing. GitNexus is not currently available in the connected toolset.\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #19</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @dporkka</code> (replace <code>20</code> with the amount, and <code>@dporkka</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "repo_owner": "NightVibes33",
+    "repo_name": "FlekDeck",
+    "issue_number": 2,
+    "org_handle": "NightVibes33",
+    "org_name": "NightVibes33/FlekDeck",
+    "body": "how do you access hidden apps\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #2</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @accountname291203</code> (replace <code>20</code> with the amount, and <code>@accountname291203</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
     "reward_usd": 100.0,
     "reward_formatted": "$100",
     "tech": [],
@@ -176,8 +176,8 @@
     "competitor_prs": 0,
     "solvability_score": 100.0,
     "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-09-21T23:08:03.903697+00:00"
+    "comments_count": 12,
+    "last_audited": "2026-09-22T04:24:21.729983+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-1214",
@@ -203,7 +203,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-21T23:08:04.172190+00:00"
+    "last_audited": "2026-09-22T04:24:21.980498+00:00"
   },
   {
     "id": "web3-connect-boiz/soroban-security-scanner-477",
@@ -233,7 +233,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-09-21T23:08:04.473994+00:00"
+    "last_audited": "2026-09-22T04:24:22.232476+00:00"
   },
   {
     "id": "web3-priors-agents/priors-1",
@@ -259,7 +259,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-21T23:08:04.749215+00:00"
+    "last_audited": "2026-09-22T04:24:22.486148+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -284,7 +284,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-09-21T23:08:05.005813+00:00"
+    "last_audited": "2026-09-22T04:24:22.741878+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -310,7 +310,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-21T23:08:05.280472+00:00"
+    "last_audited": "2026-09-22T04:24:22.992867+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1598",
@@ -332,7 +332,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-21T23:08:05.557197+00:00"
+    "last_audited": "2026-09-22T04:24:23.252801+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1295",
@@ -357,7 +357,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 14,
-    "last_audited": "2026-09-21T23:08:05.828014+00:00"
+    "last_audited": "2026-09-22T04:24:23.492303+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1291",
@@ -382,7 +382,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 8,
-    "last_audited": "2026-09-21T23:08:06.080337+00:00"
+    "last_audited": "2026-09-22T04:24:23.707415+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1293",
@@ -407,7 +407,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 9,
-    "last_audited": "2026-09-21T23:08:06.348518+00:00"
+    "last_audited": "2026-09-22T04:24:23.939696+00:00"
   },
   {
     "id": "gh-photoprism/photoprism-93",
@@ -432,7 +432,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 90,
-    "last_audited": "2026-09-21T23:08:06.617011+00:00"
+    "last_audited": "2026-09-22T04:24:24.187345+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-951",
@@ -458,7 +458,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 12,
-    "last_audited": "2026-09-21T23:08:06.853425+00:00"
+    "last_audited": "2026-09-22T04:24:24.425929+00:00"
   },
   {
     "id": "web3-connect-boiz/soroban-security-scanner-475",
@@ -486,7 +486,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-21T23:08:07.145131+00:00"
+    "last_audited": "2026-09-22T04:24:24.696716+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -595,7 +595,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-21T23:08:07.434167+00:00"
+    "last_audited": "2026-09-22T04:24:24.936103+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -620,7 +620,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-21T23:08:07.667111+00:00"
+    "last_audited": "2026-09-22T04:24:25.176766+00:00"
   },
   {
     "id": "sec-Akanimoh12/Stellar-Tipz-1394",
@@ -645,7 +645,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-21T23:08:07.919788+00:00"
+    "last_audited": "2026-09-22T04:24:25.398875+00:00"
   },
   {
     "id": "sec-Smartdevs17/stellarlend-983",
@@ -670,7 +670,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-21T23:08:08.174315+00:00"
+    "last_audited": "2026-09-22T04:24:25.645090+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -695,7 +695,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-21T23:08:08.433096+00:00"
+    "last_audited": "2026-09-22T04:24:25.902944+00:00"
   },
   {
     "id": "sec-Haroldwonder/TrustLink-1331",
@@ -720,7 +720,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-21T23:08:08.673385+00:00"
+    "last_audited": "2026-09-22T04:24:26.151055+00:00"
   },
   {
     "id": "sec-MergeFi/contracts-299",
@@ -745,7 +745,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-21T23:08:08.937128+00:00"
+    "last_audited": "2026-09-22T04:24:26.396468+00:00"
   },
   {
     "id": "sec-stellar-vortex-protocol/vortex-contracts-298",
@@ -770,7 +770,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-21T23:08:09.285325+00:00"
+    "last_audited": "2026-09-22T04:24:26.655208+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -795,7 +795,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-21T23:08:09.579281+00:00"
+    "last_audited": "2026-09-22T04:24:26.918207+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -820,7 +820,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-21T23:08:09.871727+00:00"
+    "last_audited": "2026-09-22T04:24:27.187721+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -845,7 +845,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-21T23:08:10.149355+00:00"
+    "last_audited": "2026-09-22T04:24:27.455415+00:00"
   },
   {
     "id": "sec-AudioBitsStellar/AudioBlock_Backend-510",
@@ -870,7 +870,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-21T23:08:10.485923+00:00"
+    "last_audited": "2026-09-22T04:24:27.702389+00:00"
   },
   {
     "id": "sec-AgoraIO/docs-portal-1102",
@@ -895,7 +895,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-21T23:08:10.754248+00:00"
+    "last_audited": "2026-09-22T04:24:27.939270+00:00"
   },
   {
     "id": "sec-Kirch-Nairu/INTER-LAN-CROSS.OS-COMMUNICATION-TOOL-4",
@@ -920,7 +920,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-21T23:08:10.992676+00:00"
+    "last_audited": "2026-09-22T04:24:28.169592+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -945,7 +945,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-21T23:08:11.232284+00:00"
+    "last_audited": "2026-09-22T04:24:28.384179+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -970,7 +970,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-21T23:08:11.539249+00:00"
+    "last_audited": "2026-09-22T04:24:28.637849+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1124",
@@ -995,7 +995,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-21T23:08:11.807566+00:00"
+    "last_audited": "2026-09-22T04:24:28.867453+00:00"
   },
   {
     "id": "sec-relayhop/ClaudeEarnSelf-runtime-988",
@@ -1020,7 +1020,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-21T23:08:12.081090+00:00"
+    "last_audited": "2026-09-22T04:24:29.095598+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -1045,7 +1045,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-21T23:08:12.346284+00:00"
+    "last_audited": "2026-09-22T04:24:29.331480+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-306",
@@ -1070,7 +1070,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-21T23:08:12.613179+00:00"
+    "last_audited": "2026-09-22T04:24:29.554001+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -1095,7 +1095,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-21T23:08:12.923950+00:00"
+    "last_audited": "2026-09-22T04:24:29.792412+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -1120,7 +1120,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-21T23:08:13.204833+00:00"
+    "last_audited": "2026-09-22T04:24:30.035378+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -1145,7 +1145,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-21T23:08:13.451047+00:00"
+    "last_audited": "2026-09-22T04:24:30.279652+00:00"
   },
   {
     "id": "sec-Smartdevs17/stellarlend-969",
@@ -1170,7 +1170,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-21T23:08:13.694606+00:00"
+    "last_audited": "2026-09-22T04:24:30.504385+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1195,7 +1195,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-21T23:08:13.960172+00:00"
+    "last_audited": "2026-09-22T04:24:30.777292+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -1220,7 +1220,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-21T23:08:14.258631+00:00"
+    "last_audited": "2026-09-22T04:24:31.013494+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -1622,28 +1622,6 @@
       "bounty",
       "tier-2",
       "backend"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 50.0
-  },
-  {
-    "id": "web3-ResearchHub/issues-31",
-    "domain": "web3_desci",
-    "sub_type": "desci_data",
-    "title": "Bounties Page",
-    "url": "https://github.com/ResearchHub/issues/issues/31",
-    "platform": "web3_github",
-    "repo_owner": "ResearchHub",
-    "repo_name": "issues",
-    "issue_number": 31,
-    "org_handle": "ResearchHub",
-    "org_name": "ResearchHub/issues",
-    "body": "We would like to add a bounties page to the left sidebar. This page should include:\r\n\r\n### \"What are bounties?\" section. \r\n- Some content can come from https://docs.researchhub.com/researchhub/product-features/bounties\r\n- Something like \"Earn ResearchCoin\" by completing bounties on this page \r\n\r\n### 3 column layout \r\n- Rather than showing full-width cards, let's experiment with 3 column card layout where each row shows three bounty cards in full resolution \r\n  - Each card should have:\r\n    - Bounty title \r\n    - Description of bounty\r\n    - Expiration date\r\n    - RSC Amount\r\n    - Avatar(s) of user(s) created by\r\n    - Upvote mechanism (no downvote)\r\n\r\n###  Filters\r\n\r\n    - Completed: Show completed bounties only\r\n    - Filters (let's have icons for these):\r\n      - All\r\n      - Peer Review\r\n      - Replication (let's have a copy icon)\r\n    - Sort: ResearchCoin offered, newest\r\n\r\n###  Create bounty modal\r\n\r\n- Need to update the bounty options to include:\r\n  - Answer to question\r\n  - Peer Review \r\n  - Replication\r\n  - Other\r\n- Allow user to enter a short title for their bounty\r\n- Allow user to enter optinoal information in text form: \"What is needed for bounty to be considered completed?\" \r\n\r\n<img width=\"996\" alt=\"image\" src=\"https://github.com/ResearchHub/issues/assets/802819/c0e0403d-e730-4fc1-ba50-ef97021bd055\">\r\n\r\n\r\nFor reference:\r\n- Technically we have a bounties page that is available through the Live Feed but it is not easily visible https://www.researchhub.com/live?contentType=BOUNTY",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "Design"
     ],
     "status": "active",
     "competitor_prs": 0,
