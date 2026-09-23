@@ -19,7 +19,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-23T13:32:45.008799+00:00"
+    "last_audited": "2026-09-23T18:21:56.332388+00:00"
   },
   {
     "id": "gh-chenzilin100/StellarBladeTrainer-Releases-3",
@@ -41,7 +41,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T13:32:45.250083+00:00"
+    "last_audited": "2026-09-23T18:21:56.624948+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-82",
@@ -65,7 +65,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T13:32:45.495175+00:00"
+    "last_audited": "2026-09-23T18:21:56.919640+00:00"
   },
   {
     "id": "gh-strias-ai/embodied-ai-reservations-madrid-1",
@@ -87,7 +87,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-23T13:32:45.717797+00:00"
+    "last_audited": "2026-09-23T18:21:57.142557+00:00"
   },
   {
     "id": "gh-mrzhangkris/dsh-subagent-roster-1",
@@ -109,7 +109,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-23T13:32:45.946006+00:00"
+    "last_audited": "2026-09-23T18:21:57.373174+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-81",
@@ -133,7 +133,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T13:32:46.204353+00:00"
+    "last_audited": "2026-09-23T18:21:57.610780+00:00"
   },
   {
     "id": "gh-NightVibes33/Filza-27-46",
@@ -155,29 +155,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-23T13:32:46.464099+00:00"
-  },
-  {
-    "id": "gh-NightVibes33/FlekDeck-2",
-    "title": "question",
-    "url": "https://github.com/NightVibes33/FlekDeck/issues/2",
-    "platform": "opire",
-    "repo_owner": "NightVibes33",
-    "repo_name": "FlekDeck",
-    "issue_number": 2,
-    "org_handle": "NightVibes33",
-    "org_name": "NightVibes33/FlekDeck",
-    "body": "how do you access hidden apps\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #2</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @accountname291203</code> (replace <code>20</code> with the amount, and <code>@accountname291203</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 12,
-    "last_audited": "2026-09-23T13:32:46.701771+00:00"
+    "last_audited": "2026-09-23T18:21:57.857031+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-1214",
@@ -203,7 +181,33 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-23T13:32:46.954089+00:00"
+    "last_audited": "2026-09-23T18:21:58.113605+00:00"
+  },
+  {
+    "id": "web3-johnephraim949-web/cypher-gridpay-contracts-114",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "security: Update SECURITY.md with threat model, bug bounty program, and vulnerability reporting process",
+    "url": "https://github.com/johnephraim949-web/cypher-gridpay-contracts/issues/114",
+    "platform": "web3_github",
+    "repo_owner": "johnephraim949-web",
+    "repo_name": "cypher-gridpay-contracts",
+    "issue_number": 114,
+    "org_handle": "johnephraim949-web",
+    "org_name": "johnephraim949-web/cypher-gridpay-contracts",
+    "body": "### Problem / Rationale\n`SECURITY.md` should detail the threat model, scope of smart contract security, reporting PGP keys, and expected disclosure timelines.\n\n### Proposed Solution & Acceptance Criteria\n- Expand `SECURITY.md` with detailed smart contract threat model.\n- Provide security contact information and disclosure policy.\n\n### Affected Components & Files\n- `SECURITY.md`",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "documentation",
+      "security"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 2,
+    "last_audited": "2026-09-23T18:21:58.368342+00:00"
   },
   {
     "id": "web3-connect-boiz/soroban-security-scanner-477",
@@ -233,7 +237,60 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-09-23T13:32:47.261777+00:00"
+    "last_audited": "2026-09-23T18:21:58.665974+00:00"
+  },
+  {
+    "id": "web3-Smartdevs17/stellarlend-939",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "[BUG BOUNTY] LiquidationStrategyContract.initialize allows governance takeover",
+    "url": "https://github.com/Smartdevs17/stellarlend/issues/939",
+    "platform": "web3_github",
+    "repo_owner": "Smartdevs17",
+    "repo_name": "stellarlend",
+    "issue_number": 939,
+    "org_handle": "Smartdevs17",
+    "org_name": "Smartdevs17/stellarlend",
+    "body": "## Vulnerability description\n\n`LiquidationStrategyContract::initialize` writes `Governance`, `Admin`, and\n`StrategyCount` on every call without checking whether the contract is already\ninitialized and without authenticating either supplied authority:\n\n```rust\npub fn initialize(env: Env, governance: Address, admin: Address) {\n    env.storage().instance().set(&DataKey::Governance, &governance);\n    env.storage().instance().set(&DataKey::Admin, &admin);\n    env.storage().instance().set(&DataKey::StrategyCount, &0u32);\n}\n```\n\nAny account can call this entry point after deployment and replace the stored\ngovernance address. The call also resets the strategy counter while existing\nstrategy records remain in instance storage.\n\n## Impact\n\nThe stored governance address authorizes `register_strategy`,\n`record_liquidation_attempt`, `change_pool_strategy`, and `disable_strategy`.\nAn attacker can therefore overwrite governance and then authenticate as the\nnew authority to register attacker-controlled strategies, change pool routing,\ndisable existing strategies, or corrupt analytics. This is an unauthenticated,\nrepeatable privilege takeover in an in-scope smart contract.\n\nThe issue was analyzed locally only; no deployed contract, account, or live\nfunds were accessed.\n\n## Reproduction\n\n1. Deploy and initialize a fresh `LiquidationStrategyContract` with the\n   legitimate governance and admin addresses.\n2. From an unrelated account, call `initialize` again with attacker-controlled\n   addresses. The vulnerable implementation accepts the call and overwrites\n   the authority storage without an authorization context.\n3. Invoke a governance-gated method using the new governance address.\n\n## Remediation\n\nThe accompanying fix rejects a second initialization and requires both\nconfigured authority addresses to authenticate during the first initialization.\nRegression tests cover both repeat initialization and missing authority auth.\n\n## Severity\n\nThis appears at least High under the repository's definitions because it allows\nunauthorized manipulation of protocol liquidation strategy routing. Final\nclassification remains with the maintainers.\n\nPrepared with AI assistance on behalf of the account owner; no payout details\nare included here.\n",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "solidity",
+      "python"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 3,
+    "last_audited": "2026-09-23T18:21:58.908389+00:00"
+  },
+  {
+    "id": "web3-SO4-Markets/so4-oracle-1000",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "No CODE_OF_CONDUCT.md \u2014 GitHub's community health check reports 50% completion",
+    "url": "https://github.com/SO4-Markets/so4-oracle/issues/1000",
+    "platform": "web3_github",
+    "repo_owner": "SO4-Markets",
+    "repo_name": "so4-oracle",
+    "issue_number": 1000,
+    "org_handle": "SO4-Markets",
+    "org_name": "SO4-Markets/so4-oracle",
+    "body": "**File(s):** repository root / `.github/` (no `CODE_OF_CONDUCT.md`)\n\n**Problem:**\nGitHub's own community-standards check confirms this repository is missing a code of conduct:\n\n```\n$ gh api repos/SO4-Markets/so4-oracle/community/profile\n{\"health_percentage\":50, \"files\":{\"code_of_conduct\":null,\"code_of_conduct_file\":null, ...}}\n```\n\n`health_percentage: 50` \u2014 only half of GitHub's standard community-health checklist is satisfied (README, LICENSE, CONTRIBUTING, and a PR template are present; `code_of_conduct` and `issue_template` are not \u2014 the latter separately filed). This is an externally-contributed, bounty-driven project with 200+ merged PRs from roughly 30 different outside contributors (per the commit history's author diversity) \u2014 exactly the kind of open, high-external-participation repository where a documented code of conduct (expected behavior, reporting process for violations, enforcement) is standard practice and most valuable, not a formality.\n\n**Suggested fix:**\nAdd a `CODE_OF_CONDUCT.md` at the repository root (GitHub's template \u2014 the Contributor Covenant \u2014 can be added directly via the repository's Insights \u2192 Community Standards page, which links to it) and reference it from `CONTRIBUTING.md`.\n",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "documentation",
+      "good first issue",
+      "Stellar Wave"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 8,
+    "last_audited": "2026-09-23T18:21:59.209974+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -258,7 +315,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-09-23T13:32:47.534382+00:00"
+    "last_audited": "2026-09-23T18:21:59.464572+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -284,7 +341,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-23T13:32:47.861055+00:00"
+    "last_audited": "2026-09-23T18:21:59.738428+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1598",
@@ -306,7 +363,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T13:32:48.112123+00:00"
+    "last_audited": "2026-09-23T18:21:59.964325+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1295",
@@ -331,7 +388,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 14,
-    "last_audited": "2026-09-23T13:32:48.368745+00:00"
+    "last_audited": "2026-09-23T18:22:00.209485+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1291",
@@ -356,7 +413,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 8,
-    "last_audited": "2026-09-23T13:32:48.636981+00:00"
+    "last_audited": "2026-09-23T18:22:00.450993+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1293",
@@ -381,7 +438,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 9,
-    "last_audited": "2026-09-23T13:32:48.874756+00:00"
+    "last_audited": "2026-09-23T18:22:00.705359+00:00"
   },
   {
     "id": "gh-photoprism/photoprism-93",
@@ -406,7 +463,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 90,
-    "last_audited": "2026-09-23T13:32:49.134278+00:00"
+    "last_audited": "2026-09-23T18:22:00.968830+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-951",
@@ -432,7 +489,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 12,
-    "last_audited": "2026-09-23T13:32:49.429763+00:00"
+    "last_audited": "2026-09-23T18:22:01.226236+00:00"
   },
   {
     "id": "web3-connect-boiz/soroban-security-scanner-475",
@@ -460,7 +517,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-23T13:32:49.705630+00:00"
+    "last_audited": "2026-09-23T18:22:01.486955+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -569,7 +626,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T13:32:50.004765+00:00"
+    "last_audited": "2026-09-23T18:22:01.787995+00:00"
+  },
+  {
+    "id": "sec-johnephraim949-web/cypher-gridpay-contracts-114",
+    "domain": "security",
+    "title": "security: Update SECURITY.md with threat model, bug bounty program, and vulnerability reporting process",
+    "url": "https://github.com/johnephraim949-web/cypher-gridpay-contracts/issues/114",
+    "platform": "github_security",
+    "repo_owner": "johnephraim949-web",
+    "repo_name": "cypher-gridpay-contracts",
+    "issue_number": 114,
+    "org_handle": "johnephraim949-web",
+    "org_name": "johnephraim949-web/cypher-gridpay-contracts",
+    "body": "### Problem / Rationale\n`SECURITY.md` should detail the threat model, scope of smart contract security, reporting PGP keys, and expected disclosure timelines.\n\n### Proposed Solution & Acceptance Criteria\n- Expand `SECURITY.md` with detailed smart contract threat model.\n- Provide security contact information and disclosure policy.\n\n### Affected Components & Files\n- `SECURITY.md`",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 2,
+    "last_audited": "2026-09-23T18:22:02.041611+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/ILN-Smart-Contract-923",
@@ -594,7 +676,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T13:32:50.271603+00:00"
+    "last_audited": "2026-09-23T18:22:02.301784+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -619,7 +701,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-23T13:32:50.525163+00:00"
+    "last_audited": "2026-09-23T18:22:02.540359+00:00"
   },
   {
     "id": "sec-Akanimoh12/Stellar-Tipz-1394",
@@ -644,7 +726,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-23T13:32:50.764541+00:00"
+    "last_audited": "2026-09-23T18:22:02.789112+00:00"
   },
   {
     "id": "sec-MyFanss/MyFans-1849",
@@ -669,7 +751,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T13:32:51.006168+00:00"
+    "last_audited": "2026-09-23T18:22:03.032338+00:00"
   },
   {
     "id": "sec-dadadave80/lattice-241",
@@ -694,32 +776,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T13:32:51.243464+00:00"
-  },
-  {
-    "id": "sec-Smartdevs17/stellarlend-983",
-    "domain": "security",
-    "title": "Clarify private security reporting channel and current bounty eligibility",
-    "url": "https://github.com/Smartdevs17/stellarlend/issues/983",
-    "platform": "github_security",
-    "repo_owner": "Smartdevs17",
-    "repo_name": "stellarlend",
-    "issue_number": 983,
-    "org_handle": "Smartdevs17",
-    "org_name": "Smartdevs17/stellarlend",
-    "body": "Hello maintainers,\n\nI would like to follow the project's responsible-disclosure process. SECURITY.md links to `/bug-bounty` and a GitHub issue template, while the README asks researchers not to open public vulnerability issues.\n\nCould you confirm the approved private submission channel, such as a maintainer-owned security email address or GitHub private vulnerability reporting, and whether the published USDC bug bounty program is currently accepting reports?\n\nPlease also clarify whether locally reproduced source-code findings in the documented scope qualify when deployment exposure has not been verified, any additional eligibility or duplicate-report requirements, and the supported USDC payout network. I understand that SECURITY.md describes manual payouts after a fix is deployed; confirmation of the current terms would help avoid misunderstandings.\n\nThis is a process-only inquiry. No vulnerability details, reproduction steps, source locations, or private report attachments are included here.\n\nThank you.",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-09-23T13:32:51.537656+00:00"
+    "last_audited": "2026-09-23T18:22:03.257925+00:00"
   },
   {
     "id": "sec-veracindarella/paystream-contracts-41",
@@ -743,8 +800,8 @@
     "status": "active",
     "solvability_score": 85.0,
     "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-09-23T13:32:51.811088+00:00"
+    "comments_count": 1,
+    "last_audited": "2026-09-23T18:22:03.501559+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -769,7 +826,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-23T13:32:52.089376+00:00"
+    "last_audited": "2026-09-23T18:22:03.786642+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -794,7 +851,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-23T13:32:52.359567+00:00"
+    "last_audited": "2026-09-23T18:22:04.110642+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -819,7 +876,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-23T13:32:52.617095+00:00"
+    "last_audited": "2026-09-23T18:22:04.377355+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -844,7 +901,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T13:32:52.888394+00:00"
+    "last_audited": "2026-09-23T18:22:04.647905+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -869,7 +926,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T13:32:53.194641+00:00"
+    "last_audited": "2026-09-23T18:22:04.938306+00:00"
   },
   {
     "id": "sec-abdulsalam-create/bounty-watch-27",
@@ -894,7 +951,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T13:32:53.434674+00:00"
+    "last_audited": "2026-09-23T18:22:05.207642+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -919,7 +976,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-23T13:32:53.672175+00:00"
+    "last_audited": "2026-09-23T18:22:05.452897+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -944,7 +1001,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-23T13:32:53.950572+00:00"
+    "last_audited": "2026-09-23T18:22:05.720842+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1124",
@@ -969,7 +1026,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-23T13:32:54.213826+00:00"
+    "last_audited": "2026-09-23T18:22:05.960071+00:00"
   },
   {
     "id": "sec-relayhop/ClaudeEarnSelf-runtime-988",
@@ -994,7 +1051,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-23T13:32:54.447158+00:00"
+    "last_audited": "2026-09-23T18:22:06.268630+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -1019,7 +1076,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-23T13:32:54.677136+00:00"
+    "last_audited": "2026-09-23T18:22:06.495932+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-306",
@@ -1044,7 +1101,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-23T13:32:54.947195+00:00"
+    "last_audited": "2026-09-23T18:22:06.740017+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -1069,7 +1126,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-23T13:32:55.202208+00:00"
+    "last_audited": "2026-09-23T18:22:06.999340+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -1094,7 +1151,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-23T13:32:55.444400+00:00"
+    "last_audited": "2026-09-23T18:22:07.257538+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -1119,7 +1176,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-23T13:32:55.731911+00:00"
+    "last_audited": "2026-09-23T18:22:07.496932+00:00"
   },
   {
     "id": "sec-Smartdevs17/stellarlend-969",
@@ -1144,7 +1201,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-23T13:32:55.965055+00:00"
+    "last_audited": "2026-09-23T18:22:07.741651+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1169,7 +1226,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-23T13:32:56.255303+00:00"
+    "last_audited": "2026-09-23T18:22:07.995791+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -1191,10 +1248,7 @@
       "vulnerability"
     ],
     "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 3,
-    "last_audited": "2026-09-23T13:32:56.496059+00:00"
+    "solvability_score": 85.0
   },
   {
     "id": "gh-piotrwitek/typesafe-actions-139",
@@ -1216,10 +1270,7 @@
     "status": "active",
     "domain": "code",
     "competitor_prs": 0,
-    "solvability_score": 65.0,
-    "live_status": "open",
-    "comments_count": 4,
-    "last_audited": "2026-09-23T13:32:56.782435+00:00"
+    "solvability_score": 65.0
   },
   {
     "id": "web3-Chainbounty/chainbounty-contracts-3",
@@ -1310,6 +1361,25 @@
     "solvability_score": 60.0
   },
   {
+    "id": "gh-ColinMcArthur85/ColinMcArthur85-1",
+    "title": "Collaboration Proposal \u2014 Intro for Colin McArthur",
+    "url": "https://github.com/ColinMcArthur85/ColinMcArthur85/issues/1",
+    "platform": "opire",
+    "repo_owner": "ColinMcArthur85",
+    "repo_name": "ColinMcArthur85",
+    "issue_number": 1,
+    "org_handle": "ColinMcArthur85",
+    "org_name": "ColinMcArthur85/ColinMcArthur85",
+    "body": "@ColinMcArthur85\n\n[![Collaboration proposal](https://raw.githubusercontent.com/kaigeoffreyk-tech/kaigeoffreyk-tech/main/letters/ColinMcArthur85-1790183046955.png)](https://meet-kai.ucanscan.com)\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #1</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @kaigeoffreyk-tech</code> (replace <code>20</code> with the amount, and <code>@kaigeoffreyk-tech</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 60.0
+  },
+  {
     "id": "gh-rasoolharlym8/CockroachDB-13",
     "title": "Question: proof of contributor payments?",
     "url": "https://github.com/rasoolharlym8/CockroachDB/issues/13",
@@ -1341,29 +1411,6 @@
     "org_handle": "Chainbounty",
     "org_name": "Chainbounty/chainbounty-contracts",
     "body": "## Summary\n\nContributors who claim a bounty may realize they cannot complete it. Add an `unclaim_bounty` function so contributors can release their lock and allow others to claim the bounty.\n\n## Acceptance criteria\n\n- [ ] Add `unclaim_bounty` function callable only by the locked contributor.\n- [ ] Reset bounty status to Open and clear the contributor field.\n- [ ] Emit an `unclaimed` event.\n\n## Getting started\n\nFork this repository, clone your fork, and add this repo as `upstream`:\n\n```bash\ngit clone https://github.com/<your-username>/chainbounty-contracts.git\ncd chainbounty-contracts\ngit remote add upstream https://github.com/Chainbounty/chainbounty-contracts.git\n```\n\nCreate a branch for this issue:\n\n```bash\ngit checkout -b feat/unclaim-bounty\n```\n\nSuggested commit message:\n\n```\nfeat: allow contributors to unclaim bounties\n```\n\nRun `cargo fmt --check`, `cargo clippy`, and `cargo test` before pushing, then open a pull request from your fork against `main` and link this issue.",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "solidity",
-      "python"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 55.0
-  },
-  {
-    "id": "web3-Smartdevs17/stellarlend-939",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "[BUG BOUNTY] LiquidationStrategyContract.initialize allows governance takeover",
-    "url": "https://github.com/Smartdevs17/stellarlend/issues/939",
-    "platform": "web3_github",
-    "repo_owner": "Smartdevs17",
-    "repo_name": "stellarlend",
-    "issue_number": 939,
-    "org_handle": "Smartdevs17",
-    "org_name": "Smartdevs17/stellarlend",
-    "body": "## Vulnerability description\n\n`LiquidationStrategyContract::initialize` writes `Governance`, `Admin`, and\n`StrategyCount` on every call without checking whether the contract is already\ninitialized and without authenticating either supplied authority:\n\n```rust\npub fn initialize(env: Env, governance: Address, admin: Address) {\n    env.storage().instance().set(&DataKey::Governance, &governance);\n    env.storage().instance().set(&DataKey::Admin, &admin);\n    env.storage().instance().set(&DataKey::StrategyCount, &0u32);\n}\n```\n\nAny account can call this entry point after deployment and replace the stored\ngovernance address. The call also resets the strategy counter while existing\nstrategy records remain in instance storage.\n\n## Impact\n\nThe stored governance address authorizes `register_strategy`,\n`record_liquidation_attempt`, `change_pool_strategy`, and `disable_strategy`.\nAn attacker can therefore overwrite governance and then authenticate as the\nnew authority to register attacker-controlled strategies, change pool routing,\ndisable existing strategies, or corrupt analytics. This is an unauthenticated,\nrepeatable privilege takeover in an in-scope smart contract.\n\nThe issue was analyzed locally only; no deployed contract, account, or live\nfunds were accessed.\n\n## Reproduction\n\n1. Deploy and initialize a fresh `LiquidationStrategyContract` with the\n   legitimate governance and admin addresses.\n2. From an unrelated account, call `initialize` again with attacker-controlled\n   addresses. The vulnerable implementation accepts the call and overwrites\n   the authority storage without an authorization context.\n3. Invoke a governance-gated method using the new governance address.\n\n## Remediation\n\nThe accompanying fix rejects a second initialization and requires both\nconfigured authority addresses to authenticate during the first initialization.\nRegression tests cover both repeat initialization and missing authority auth.\n\n## Severity\n\nThis appears at least High under the repository's definitions because it allows\nunauthorized manipulation of protocol liquidation strategy routing. Final\nclassification remains with the maintainers.\n\nPrepared with AI assistance on behalf of the account owner; no payout details\nare included here.\n",
     "reward_usd": 100.0,
     "reward_formatted": "$100",
     "tech": [
