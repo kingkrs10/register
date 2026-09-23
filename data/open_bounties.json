@@ -19,7 +19,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-23T07:38:02.730146+00:00"
+    "last_audited": "2026-09-23T13:32:45.008799+00:00"
   },
   {
     "id": "gh-chenzilin100/StellarBladeTrainer-Releases-3",
@@ -41,7 +41,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T07:38:02.984915+00:00"
+    "last_audited": "2026-09-23T13:32:45.250083+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-82",
@@ -65,7 +65,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T07:38:03.311732+00:00"
+    "last_audited": "2026-09-23T13:32:45.495175+00:00"
   },
   {
     "id": "gh-strias-ai/embodied-ai-reservations-madrid-1",
@@ -87,7 +87,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-23T07:38:03.546246+00:00"
+    "last_audited": "2026-09-23T13:32:45.717797+00:00"
   },
   {
     "id": "gh-mrzhangkris/dsh-subagent-roster-1",
@@ -109,7 +109,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-23T07:38:03.773879+00:00"
+    "last_audited": "2026-09-23T13:32:45.946006+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-81",
@@ -133,7 +133,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T07:38:04.016286+00:00"
+    "last_audited": "2026-09-23T13:32:46.204353+00:00"
   },
   {
     "id": "gh-NightVibes33/Filza-27-46",
@@ -155,19 +155,19 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-23T07:38:04.272929+00:00"
+    "last_audited": "2026-09-23T13:32:46.464099+00:00"
   },
   {
-    "id": "gh-dporkka/dev-plane-19",
-    "title": "Harden VCS runner against GIT_TERMINAL_PROMPT override",
-    "url": "https://github.com/dporkka/dev-plane/issues/19",
+    "id": "gh-NightVibes33/FlekDeck-2",
+    "title": "question",
+    "url": "https://github.com/NightVibes33/FlekDeck/issues/2",
     "platform": "opire",
-    "repo_owner": "dporkka",
-    "repo_name": "dev-plane",
-    "issue_number": 19,
-    "org_handle": "dporkka",
-    "org_name": "dporkka/dev-plane",
-    "body": "`packages/vcs/runner.go` documents that autonomous VCS operations must never block on terminal credential prompts, but `mergeEnv()` currently sets `GIT_TERMINAL_PROMPT=0` **before** applying caller overrides. A caller can therefore pass `GIT_TERMINAL_PROMPT=1` and re-enable blocking prompts.\n\nProposed fix:\n- apply caller environment overrides first\n- force `GIT_TERMINAL_PROMPT=0` last (or explicitly reject attempts to override it)\n- extend `TestMergeEnvDisablesTerminalPrompts` with an override map containing `GIT_TERMINAL_PROMPT=1` and assert the merged environment still contains `GIT_TERMINAL_PROMPT=0`\n\nDo not edit this symbol until the repository-required GitNexus checks can be run. `AGENTS.md` requires `impact({target: \"mergeEnv\", direction: \"upstream\"})` before editing and `detect_changes({scope: \"compare\", base_ref: \"main\"})` before committing. GitNexus is not currently available in the connected toolset.\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #19</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @dporkka</code> (replace <code>20</code> with the amount, and <code>@dporkka</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "repo_owner": "NightVibes33",
+    "repo_name": "FlekDeck",
+    "issue_number": 2,
+    "org_handle": "NightVibes33",
+    "org_name": "NightVibes33/FlekDeck",
+    "body": "how do you access hidden apps\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #2</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @accountname291203</code> (replace <code>20</code> with the amount, and <code>@accountname291203</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
     "reward_usd": 100.0,
     "reward_formatted": "$100",
     "tech": [],
@@ -176,8 +176,8 @@
     "competitor_prs": 0,
     "solvability_score": 100.0,
     "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-09-23T07:38:04.508552+00:00"
+    "comments_count": 12,
+    "last_audited": "2026-09-23T13:32:46.701771+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-1214",
@@ -203,7 +203,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-23T07:38:04.761332+00:00"
+    "last_audited": "2026-09-23T13:32:46.954089+00:00"
   },
   {
     "id": "web3-connect-boiz/soroban-security-scanner-477",
@@ -233,7 +233,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-09-23T07:38:05.056902+00:00"
+    "last_audited": "2026-09-23T13:32:47.261777+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -258,7 +258,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-09-23T07:38:05.327428+00:00"
+    "last_audited": "2026-09-23T13:32:47.534382+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -284,7 +284,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-23T07:38:05.557044+00:00"
+    "last_audited": "2026-09-23T13:32:47.861055+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1598",
@@ -306,7 +306,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T07:38:05.788008+00:00"
+    "last_audited": "2026-09-23T13:32:48.112123+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1295",
@@ -331,7 +331,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 14,
-    "last_audited": "2026-09-23T07:38:06.016720+00:00"
+    "last_audited": "2026-09-23T13:32:48.368745+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1291",
@@ -356,7 +356,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 8,
-    "last_audited": "2026-09-23T07:38:06.255056+00:00"
+    "last_audited": "2026-09-23T13:32:48.636981+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1293",
@@ -381,7 +381,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 9,
-    "last_audited": "2026-09-23T07:38:06.496176+00:00"
+    "last_audited": "2026-09-23T13:32:48.874756+00:00"
   },
   {
     "id": "gh-photoprism/photoprism-93",
@@ -406,7 +406,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 90,
-    "last_audited": "2026-09-23T07:38:06.765958+00:00"
+    "last_audited": "2026-09-23T13:32:49.134278+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-951",
@@ -432,7 +432,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 12,
-    "last_audited": "2026-09-23T07:38:07.074504+00:00"
+    "last_audited": "2026-09-23T13:32:49.429763+00:00"
   },
   {
     "id": "web3-connect-boiz/soroban-security-scanner-475",
@@ -460,7 +460,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-23T07:38:07.331193+00:00"
+    "last_audited": "2026-09-23T13:32:49.705630+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -569,7 +569,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T07:38:07.579580+00:00"
+    "last_audited": "2026-09-23T13:32:50.004765+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/ILN-Smart-Contract-923",
@@ -594,7 +594,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T07:38:07.851033+00:00"
+    "last_audited": "2026-09-23T13:32:50.271603+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -619,7 +619,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-23T07:38:08.071977+00:00"
+    "last_audited": "2026-09-23T13:32:50.525163+00:00"
   },
   {
     "id": "sec-Akanimoh12/Stellar-Tipz-1394",
@@ -644,7 +644,57 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-23T07:38:08.303315+00:00"
+    "last_audited": "2026-09-23T13:32:50.764541+00:00"
+  },
+  {
+    "id": "sec-MyFanss/MyFans-1849",
+    "domain": "security",
+    "title": "SECURITY.md penetration-test tracker including contract review rows and disclosure process",
+    "url": "https://github.com/MyFanss/MyFans/issues/1849",
+    "platform": "github_security",
+    "repo_owner": "MyFanss",
+    "repo_name": "MyFans",
+    "issue_number": 1849,
+    "org_handle": "MyFanss",
+    "org_name": "MyFanss/MyFans",
+    "body": "## Problem statement\n\nLaunch without tracked findings repeats known classes of bugs.\n\n## Background / architecture\n\nSECURITY.md; security issue template.\n\n## Current state\n\nSECURITY.md exists.\n\n## Technical design\n\n1. Findings table.\n2. Contract pen-test row.\n3. Severity SLA.\n4. Disclosure contact.\n5. Link AUTH_MATRIX.\n\n## Edge cases & failure modes\n\n- Duplicate findings.\n\n## Security considerations\n\n- Safe harbor language.\n\n## Implementation plan\n\n1. Update SECURITY.md.\n2. Process for closing findings.\n\n## Test plan\n\n- Peer review.\n\n## Acceptance criteria\n\n- [ ] Tracker live.\n- [ ] Disclosure clear.\n\n## Out of scope\n\nBug bounty payouts setup.\n\n## References\n\n- `SECURITY.md`\n- `.github/ISSUE_TEMPLATE/security.md`\n",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-09-23T13:32:51.006168+00:00"
+  },
+  {
+    "id": "sec-dadadave80/lattice-241",
+    "domain": "security",
+    "title": "security: complete SECURITY.md and index the review evidence",
+    "url": "https://github.com/dadadave80/lattice/issues/241",
+    "platform": "github_security",
+    "repo_owner": "dadadave80",
+    "repo_name": "lattice",
+    "issue_number": 241,
+    "org_handle": "dadadave80",
+    "org_name": "dadadave80/lattice",
+    "body": "### Summary\n\nSECURITY.md gives a private channel and a 90-day disclosure default. It has no scope, acknowledgement target, bounty statement, fix-announcement channel or known-issues list, and takes no Safe Harbor stance although the library ships a `SafeHarborAdopter` facet. \"Unaudited\" is stated clearly, but no tracked file indexes the existing review evidence or says how a future audit will be recorded.\n\n### Why it matters\n\n- OpenZeppelin's [SECURITY.md#L3-L19 @ 9a02119](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/9a0211903755a2d0e342a64738f9c5b88ced8637/SECURITY.md#L3-L19) states its channel, bounty and advisory policy and recommends `@custom:security-contact`. [Uniswap v4-core @ 46c6834](https://github.com/Uniswap/v4-core/blob/46c6834698c48bc4a463a86d8420f4eb1d7f3b75/SECURITY.md) names a bounty and a contact.\n- Code4rena excludes findings already listed as known issues ([submission guidelines](https://docs.code4rena.com/competitions/submission-guidelines)), so a published list heads off duplicate reports.\n- SEAL Safe Harbor adoption needs off-chain steps: a fact page, Exhibit D in the terms of service, and a registry call from the decision-making authority ([README#L84-L88 @ 78ba923](https://github.com/security-alliance/safe-harbor/blob/78ba9237377a9622439cbab41a5336673cea1b92/README.md#L84-L88)). The facet makes only the call.\n- Trail of Bits asks for a frozen commit and a file list ([review checklist @ 2de122e](https://github.com/crytic/building-secure-contracts/blob/2de122e3a6b63bc450a1ec41215f0c44d72fb96b/development-guidelines/review_checklist.md)); Nascent, for a scope that includes deploy scripts ([checklist @ 69ad8be](https://github.com/nascentxyz/simple-security-toolkit/blob/69ad8be8cef8555a2b4143b0870af7640485f69d/audit-readiness-checklist.md)).\n- Live exposure: none. Private reporting works, and Lattice's own deployments are testnet-only.\n\n### Evidence\n\nAudited: `dev` @ f4a32c8 (2026-09-22).\n\n- [SECURITY.md#L15-L31](https://github.com/dadadave80/lattice/blob/f4a32c8330934d39bcfdffff87d35a04b7fa6a79/SECURITY.md#L15-L31) covers intake only. `git show f4a32c8:SECURITY.md | grep -n -i -E 'scope|bounty|safe harbor|known issue|acknowledg'` prints nothing (exit 1). L28: `responses are best-effort`. The L25 fallback is an ENS name; [CODE_OF_CONDUCT.md#L39](https://github.com/dadadave80/lattice/blob/f4a32c8330934d39bcfdffff87d35a04b7fa6a79/CODE_OF_CONDUCT.md#L39) already publishes a direct address.\n- Settings (read-only API, 2026-09-22): `private-vulnerability-reporting` \u2192 `{\"enabled\":true}`; `security-advisories --jq length` \u2192 `0`.\n- [SafeHarborAdopter.sol#L11](https://github.com/dadadave80/lattice/blob/f4a32c8330934d39bcfdffff87d35a04b7fa6a79/src/governance/SafeHarborAdopter.sol#L11): `Stateless Diamond facet letting a diamond adopt the SEAL Whitehat Safe Harbor agreement`. `git grep -i -E 'fact page|terms.of.service|exhibit d' f4a32c8` prints nothing (exit 1).\n- `git ls-tree -r --name-only f4a32c8 | grep -i -E 'audit|threat|review'` prints nothing (exit 1). \"Unaudited\" is prominent in [README.md#L19-L24](https://github.com/dadadave80/lattice/blob/f4a32c8330934d39bcfdffff87d35a04b7fa6a79/README.md#L19-L24).\n- Tracked evidence that nothing indexes: STORAGE_REGISTRY.md, `StorageSlotVerificationTest`, the [`GUARDED_STRUCTS` guard](https://github.com/dadadave80/lattice/blob/f4a32c8330934d39bcfdffff87d35a04b7fa6a79/script/upgrades/check-storage-layout.sh#L63-L118) (52 of 88 namespaces; #177, #179), the advisory Slither job ([test.yml#L200-L221](https://github.com/dadadave80/lattice/blob/f4a32c8330934d39bcfdffff87d35a04b7fa6a79/.github/workflows/test.yml#L200-L221)) and lib/VENDORED.md.\n\n### Proposed change\n\nSECURITY.md:\n\n1. **Scope.** `src/**` except `src/examples/**`. Examples, `test/**` and the testnet demos: reports welcome, not production. `lib/**`: report to the upstream repository. Decide on `script/base/**` (the one-transaction init rule) and `script/deploy/**` (release addresses).\n2. **Response.** An acknowledgement target the maintainer sets, with the CODE_OF_CONDUCT address as the direct fallback.\n3. **Bounty.** \"No bug bounty\", or a link to one.\n4. **Advisories.** Fixes to tagged releases ship as GitHub Security Advisories.\n5. **Known issues.** Link the open P0 and P1 security issues, starting with #214, #215 and #216, without reproduction detail. Each fix PR removes its entry.\n6. **Safe Harbor.** One sentence: Lattice holds no funds and has not adopted Safe Harbor; each adopting diamond publishes its own agreement. The SEAL off-chain steps go in the facet NatSpec.\n7. Optional: `@custom:security-contact` on released contracts (today [1 of 542 `src` files](https://github.com/dadadave80/lattice/blob/f4a32c8330934d39bcfdffff87d35a04b7fa6a79/src/examples/crosschain/CCTPHookVault.sol#L27)). `foundry.toml` keeps the default `bytecode_hash`, so the tag changes the metadata hash and the CREATE2 address; add it in a release that moves addresses anyway (#193).\n\n\"Supported versions\" follows #228.\n\nAlso add `audits/README.md` (or a SECURITY.md section): no external audit yet; how a future audit is recorded (report, audited commit SHA, scope, fix commits); and an index of the tracked evidence above plus the Slither baseline from #225. [AGENTS.md#L86-L89](https://github.com/dadadave80/lattice/blob/f4a32c8330934d39bcfdffff87d35a04b7fa6a79/AGENTS.md#L86-L89) keeps plans out of the repo. This file is evidence, not a plan, but the call is the maintainer's.\n\n### Acceptance criteria\n\n- [ ] SECURITY.md has Scope, Response, Bounty, Advisories and Known issues sections, plus a Safe Harbor statement.\n- [ ] Known issues matches the open P0/P1 security issues at merge.\n- [ ] `SafeHarborAdopter` NatSpec lists the SEAL off-chain steps.\n- [ ] A tracked review index lists only tracked paths and says how a future audit is recorded.\n- [ ] Every relative link in the changed files resolves.\n\n### References\n\n- #177, #179, #193; #214, #215, #216, #225, #228, #244\n- https://github.com/OpenZeppelin/openzeppelin-contracts/blob/9a0211903755a2d0e342a64738f9c5b88ced8637/SECURITY.md\n\n### Meta\n\n- Priority: P2\n- Effort: S\n- Depends on: none\n- Tracking: #213\n",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-09-23T13:32:51.243464+00:00"
   },
   {
     "id": "sec-Smartdevs17/stellarlend-983",
@@ -669,7 +719,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T07:38:08.570597+00:00"
+    "last_audited": "2026-09-23T13:32:51.537656+00:00"
   },
   {
     "id": "sec-veracindarella/paystream-contracts-41",
@@ -694,57 +744,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T07:38:08.783580+00:00"
-  },
-  {
-    "id": "sec-veracindarella/paystream-contracts-98",
-    "domain": "security",
-    "title": "DOC-14: Add security disclosure timeline to SECURITY.md",
-    "url": "https://github.com/veracindarella/paystream-contracts/issues/98",
-    "platform": "github_security",
-    "repo_owner": "veracindarella",
-    "repo_name": "paystream-contracts",
-    "issue_number": 98,
-    "org_handle": "veracindarella",
-    "org_name": "veracindarella/paystream-contracts",
-    "body": "## Description\n`SECURITY.md` explains how to report vulnerabilities but does not define the expected disclosure timeline: how long before a fix is deployed, when the reporter is credited, when the vulnerability is made public. A defined timeline builds trust with security researchers.\n\n## Acceptance Criteria\n- [ ] SECURITY.md updated with a disclosure timeline section\n- [ ] Timeline: acknowledge within 48h, assess severity within 5 days, fix Critical within 14 days / High within 30 days, coordinate disclosure with reporter\n- [ ] Bug bounty scope and rewards defined (or note that a program is planned)\n- [ ] Hall of fame section for acknowledged reporters\n\n## Priority: Medium | Effort: Small",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-09-23T07:38:09.021016+00:00"
-  },
-  {
-    "id": "sec-Stellar-Agent-Guard/stellar-agent-guard-contracts-78",
-    "domain": "security",
-    "title": "docs(docs): security.md: add vulnerability reporting channels beyond Telegram",
-    "url": "https://github.com/Stellar-Agent-Guard/stellar-agent-guard-contracts/issues/78",
-    "platform": "github_security",
-    "repo_owner": "Stellar-Agent-Guard",
-    "repo_name": "stellar-agent-guard-contracts",
-    "issue_number": 78,
-    "org_handle": "Stellar-Agent-Guard",
-    "org_name": "Stellar-Agent-Guard/stellar-agent-guard-contracts",
-    "body": "## Summary\nSECURITY.md currently points disclosures at Telegram (documented as \"the Stellar ecosystem norm\"). For a fund-gating contract targeting an audit (#6), a GitHub private vulnerability reporting path (`GHSA`/Security tab advisory) plus PGP-or-email fallback is expected by auditors and bug bounty participants, and Telegram messages are neither private nor trackable. Keep Telegram as a community channel; add the formal path alongside.\n\n## Background\nSee Summary.\n\n## Acceptance criteria\n- SECURITY.md lists: GitHub Security Advisory (private report) as primary, email as fallback, Telegram as community-only; expected response window stated.\n- Scope section: what's in-scope (contract, agent-tx) vs out (deployed testnet instances, SDK/dashboard sibling repos with their own policies).\n- Explicit `bug bounty` position (none/not-yet) to set expectations.\n- Maintainer checklist item: enable \"Private vulnerability reporting\" in repo settings (linked, can't be done in-PR).\n- Lint, type-check, and tests all pass locally.\n- PR description references this issue with `Closes #`.\n\n## Implementation hints\nAudience: contributor.\n\nCreate a branch: `git checkout -b docs(docs)/security-md-add-vulnerability-reporting-channels-beyond-telegram`\n\nKey files: `SECURITY.md`, repo Settings note (GitHub private reporting must be enabled \u2014 maintainer action outside repo).\n\n## Repo-specific notes\n```bash\ncargo fmt --check\ncargo clippy --all-targets --all-features\ncargo test\n```\n\n## Out of scope\n- Sibling repositories (`stellar-agent-guard-sdk`, `stellar-agent-guard-dashboard`) \u2014 cross-repo work is tracked in its own repository.\n\n## How to claim and submit\n1. Comment on this issue saying you'd like to take it on; wait for a maintainer to assign you.\n2. Open a PR that references this issue (`Closes #`).\n3. Make sure CI is green and request review from a maintainer.",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 1,
-    "last_audited": "2026-09-23T07:38:09.258426+00:00"
+    "last_audited": "2026-09-23T13:32:51.811088+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -769,7 +769,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-23T07:38:09.523679+00:00"
+    "last_audited": "2026-09-23T13:32:52.089376+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -794,7 +794,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-23T07:38:09.785620+00:00"
+    "last_audited": "2026-09-23T13:32:52.359567+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -819,7 +819,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-23T07:38:10.042987+00:00"
+    "last_audited": "2026-09-23T13:32:52.617095+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -844,7 +844,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T07:38:10.315173+00:00"
+    "last_audited": "2026-09-23T13:32:52.888394+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -869,7 +869,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T07:38:10.579974+00:00"
+    "last_audited": "2026-09-23T13:32:53.194641+00:00"
   },
   {
     "id": "sec-abdulsalam-create/bounty-watch-27",
@@ -894,7 +894,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T07:38:10.812187+00:00"
+    "last_audited": "2026-09-23T13:32:53.434674+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -919,7 +919,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-23T07:38:11.054967+00:00"
+    "last_audited": "2026-09-23T13:32:53.672175+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -944,7 +944,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-23T07:38:11.301927+00:00"
+    "last_audited": "2026-09-23T13:32:53.950572+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1124",
@@ -969,7 +969,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-23T07:38:11.539791+00:00"
+    "last_audited": "2026-09-23T13:32:54.213826+00:00"
   },
   {
     "id": "sec-relayhop/ClaudeEarnSelf-runtime-988",
@@ -994,7 +994,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-23T07:38:11.774242+00:00"
+    "last_audited": "2026-09-23T13:32:54.447158+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -1019,7 +1019,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-23T07:38:12.011158+00:00"
+    "last_audited": "2026-09-23T13:32:54.677136+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-306",
@@ -1044,7 +1044,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-23T07:38:12.242047+00:00"
+    "last_audited": "2026-09-23T13:32:54.947195+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -1069,7 +1069,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-23T07:38:12.449408+00:00"
+    "last_audited": "2026-09-23T13:32:55.202208+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -1094,7 +1094,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-23T07:38:12.699003+00:00"
+    "last_audited": "2026-09-23T13:32:55.444400+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -1119,7 +1119,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-23T07:38:12.933610+00:00"
+    "last_audited": "2026-09-23T13:32:55.731911+00:00"
   },
   {
     "id": "sec-Smartdevs17/stellarlend-969",
@@ -1144,7 +1144,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-23T07:38:13.174556+00:00"
+    "last_audited": "2026-09-23T13:32:55.965055+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1169,7 +1169,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-23T07:38:13.476010+00:00"
+    "last_audited": "2026-09-23T13:32:56.255303+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -1194,7 +1194,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-23T07:38:13.707826+00:00"
+    "last_audited": "2026-09-23T13:32:56.496059+00:00"
   },
   {
     "id": "gh-piotrwitek/typesafe-actions-139",
@@ -1219,7 +1219,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-23T07:38:13.952974+00:00"
+    "last_audited": "2026-09-23T13:32:56.782435+00:00"
   },
   {
     "id": "web3-Chainbounty/chainbounty-contracts-3",
@@ -1577,6 +1577,28 @@
       "bounty",
       "tier-2",
       "backend"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 50.0
+  },
+  {
+    "id": "web3-ResearchHub/issues-31",
+    "domain": "web3_desci",
+    "sub_type": "desci_data",
+    "title": "Bounties Page",
+    "url": "https://github.com/ResearchHub/issues/issues/31",
+    "platform": "web3_github",
+    "repo_owner": "ResearchHub",
+    "repo_name": "issues",
+    "issue_number": 31,
+    "org_handle": "ResearchHub",
+    "org_name": "ResearchHub/issues",
+    "body": "We would like to add a bounties page to the left sidebar. This page should include:\r\n\r\n### \"What are bounties?\" section. \r\n- Some content can come from https://docs.researchhub.com/researchhub/product-features/bounties\r\n- Something like \"Earn ResearchCoin\" by completing bounties on this page \r\n\r\n### 3 column layout \r\n- Rather than showing full-width cards, let's experiment with 3 column card layout where each row shows three bounty cards in full resolution \r\n  - Each card should have:\r\n    - Bounty title \r\n    - Description of bounty\r\n    - Expiration date\r\n    - RSC Amount\r\n    - Avatar(s) of user(s) created by\r\n    - Upvote mechanism (no downvote)\r\n\r\n###  Filters\r\n\r\n    - Completed: Show completed bounties only\r\n    - Filters (let's have icons for these):\r\n      - All\r\n      - Peer Review\r\n      - Replication (let's have a copy icon)\r\n    - Sort: ResearchCoin offered, newest\r\n\r\n###  Create bounty modal\r\n\r\n- Need to update the bounty options to include:\r\n  - Answer to question\r\n  - Peer Review \r\n  - Replication\r\n  - Other\r\n- Allow user to enter a short title for their bounty\r\n- Allow user to enter optinoal information in text form: \"What is needed for bounty to be considered completed?\" \r\n\r\n<img width=\"996\" alt=\"image\" src=\"https://github.com/ResearchHub/issues/assets/802819/c0e0403d-e730-4fc1-ba50-ef97021bd055\">\r\n\r\n\r\nFor reference:\r\n- Technically we have a bounties page that is available through the Live Feed but it is not easily visible https://www.researchhub.com/live?contentType=BOUNTY",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "Design"
     ],
     "status": "active",
     "competitor_prs": 0,
