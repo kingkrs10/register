@@ -19,7 +19,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-23T00:14:41.479910+00:00"
+    "last_audited": "2026-09-23T07:38:02.730146+00:00"
   },
   {
     "id": "gh-chenzilin100/StellarBladeTrainer-Releases-3",
@@ -41,7 +41,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T00:14:41.763315+00:00"
+    "last_audited": "2026-09-23T07:38:02.984915+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-82",
@@ -65,7 +65,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T00:14:42.025568+00:00"
+    "last_audited": "2026-09-23T07:38:03.311732+00:00"
   },
   {
     "id": "gh-strias-ai/embodied-ai-reservations-madrid-1",
@@ -87,7 +87,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-23T00:14:42.303904+00:00"
+    "last_audited": "2026-09-23T07:38:03.546246+00:00"
   },
   {
     "id": "gh-mrzhangkris/dsh-subagent-roster-1",
@@ -109,29 +109,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-23T00:14:42.547621+00:00"
-  },
-  {
-    "id": "gh-NightVibes33/Filza-27-46",
-    "title": "/var/mobile/Library/CallServices/Greetings/default/",
-    "url": "https://github.com/NightVibes33/Filza-27/issues/46",
-    "platform": "opire",
-    "repo_owner": "NightVibes33",
-    "repo_name": "Filza-27",
-    "issue_number": 46,
-    "org_handle": "NightVibes33",
-    "org_name": "NightVibes33/Filza-27",
-    "body": "/var/mobile/Library/CallServices/Greetings/default/\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #46</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @wcao2312</code> (replace <code>20</code> with the amount, and <code>@wcao2312</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 2,
-    "last_audited": "2026-09-23T00:14:42.788433+00:00"
+    "last_audited": "2026-09-23T07:38:03.773879+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-81",
@@ -155,7 +133,29 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T00:14:43.100983+00:00"
+    "last_audited": "2026-09-23T07:38:04.016286+00:00"
+  },
+  {
+    "id": "gh-NightVibes33/Filza-27-46",
+    "title": "/var/mobile/Library/CallServices/Greetings/default/",
+    "url": "https://github.com/NightVibes33/Filza-27/issues/46",
+    "platform": "opire",
+    "repo_owner": "NightVibes33",
+    "repo_name": "Filza-27",
+    "issue_number": 46,
+    "org_handle": "NightVibes33",
+    "org_name": "NightVibes33/Filza-27",
+    "body": "/var/mobile/Library/CallServices/Greetings/default/\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #46</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @wcao2312</code> (replace <code>20</code> with the amount, and <code>@wcao2312</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 2,
+    "last_audited": "2026-09-23T07:38:04.272929+00:00"
   },
   {
     "id": "gh-dporkka/dev-plane-19",
@@ -177,7 +177,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T00:14:43.354633+00:00"
+    "last_audited": "2026-09-23T07:38:04.508552+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-1214",
@@ -203,7 +203,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-23T00:14:43.617684+00:00"
+    "last_audited": "2026-09-23T07:38:04.761332+00:00"
   },
   {
     "id": "web3-connect-boiz/soroban-security-scanner-477",
@@ -233,7 +233,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-09-23T00:14:43.909411+00:00"
+    "last_audited": "2026-09-23T07:38:05.056902+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -258,7 +258,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-09-23T00:14:44.198197+00:00"
+    "last_audited": "2026-09-23T07:38:05.327428+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -284,7 +284,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-23T00:14:44.479878+00:00"
+    "last_audited": "2026-09-23T07:38:05.557044+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1598",
@@ -306,7 +306,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T00:14:44.732473+00:00"
+    "last_audited": "2026-09-23T07:38:05.788008+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1295",
@@ -331,7 +331,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 14,
-    "last_audited": "2026-09-23T00:14:44.998470+00:00"
+    "last_audited": "2026-09-23T07:38:06.016720+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1291",
@@ -356,7 +356,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 8,
-    "last_audited": "2026-09-23T00:14:45.268267+00:00"
+    "last_audited": "2026-09-23T07:38:06.255056+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1293",
@@ -381,7 +381,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 9,
-    "last_audited": "2026-09-23T00:14:45.533202+00:00"
+    "last_audited": "2026-09-23T07:38:06.496176+00:00"
   },
   {
     "id": "gh-photoprism/photoprism-93",
@@ -406,7 +406,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 90,
-    "last_audited": "2026-09-23T00:14:45.847179+00:00"
+    "last_audited": "2026-09-23T07:38:06.765958+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-951",
@@ -432,7 +432,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 12,
-    "last_audited": "2026-09-23T00:14:46.110297+00:00"
+    "last_audited": "2026-09-23T07:38:07.074504+00:00"
   },
   {
     "id": "web3-connect-boiz/soroban-security-scanner-475",
@@ -460,7 +460,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-23T00:14:46.390427+00:00"
+    "last_audited": "2026-09-23T07:38:07.331193+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -569,7 +569,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T00:14:46.714652+00:00"
+    "last_audited": "2026-09-23T07:38:07.579580+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/ILN-Smart-Contract-923",
@@ -594,7 +594,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T00:14:47.007775+00:00"
+    "last_audited": "2026-09-23T07:38:07.851033+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -619,7 +619,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-23T00:14:47.260941+00:00"
+    "last_audited": "2026-09-23T07:38:08.071977+00:00"
   },
   {
     "id": "sec-Akanimoh12/Stellar-Tipz-1394",
@@ -644,7 +644,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-23T00:14:47.534223+00:00"
+    "last_audited": "2026-09-23T07:38:08.303315+00:00"
   },
   {
     "id": "sec-Smartdevs17/stellarlend-983",
@@ -669,7 +669,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T00:14:47.785920+00:00"
+    "last_audited": "2026-09-23T07:38:08.570597+00:00"
   },
   {
     "id": "sec-veracindarella/paystream-contracts-41",
@@ -694,7 +694,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T00:14:48.052575+00:00"
+    "last_audited": "2026-09-23T07:38:08.783580+00:00"
   },
   {
     "id": "sec-veracindarella/paystream-contracts-98",
@@ -719,7 +719,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T00:14:48.299830+00:00"
+    "last_audited": "2026-09-23T07:38:09.021016+00:00"
   },
   {
     "id": "sec-Stellar-Agent-Guard/stellar-agent-guard-contracts-78",
@@ -744,7 +744,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-23T00:14:48.578995+00:00"
+    "last_audited": "2026-09-23T07:38:09.258426+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -769,7 +769,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-23T00:14:48.860726+00:00"
+    "last_audited": "2026-09-23T07:38:09.523679+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -794,7 +794,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-23T00:14:49.141493+00:00"
+    "last_audited": "2026-09-23T07:38:09.785620+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -819,7 +819,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-23T00:14:49.403301+00:00"
+    "last_audited": "2026-09-23T07:38:10.042987+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -844,7 +844,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T00:14:49.662981+00:00"
+    "last_audited": "2026-09-23T07:38:10.315173+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -869,7 +869,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T00:14:49.959947+00:00"
+    "last_audited": "2026-09-23T07:38:10.579974+00:00"
   },
   {
     "id": "sec-abdulsalam-create/bounty-watch-27",
@@ -894,7 +894,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-23T00:14:50.241216+00:00"
+    "last_audited": "2026-09-23T07:38:10.812187+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -919,7 +919,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-23T00:14:51.511546+00:00"
+    "last_audited": "2026-09-23T07:38:11.054967+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -944,7 +944,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-23T00:14:51.765225+00:00"
+    "last_audited": "2026-09-23T07:38:11.301927+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1124",
@@ -969,7 +969,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-23T00:14:52.032588+00:00"
+    "last_audited": "2026-09-23T07:38:11.539791+00:00"
   },
   {
     "id": "sec-relayhop/ClaudeEarnSelf-runtime-988",
@@ -994,7 +994,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-23T00:14:52.326895+00:00"
+    "last_audited": "2026-09-23T07:38:11.774242+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -1019,7 +1019,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-23T00:14:52.555424+00:00"
+    "last_audited": "2026-09-23T07:38:12.011158+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-306",
@@ -1044,7 +1044,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-23T00:14:52.836258+00:00"
+    "last_audited": "2026-09-23T07:38:12.242047+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -1069,7 +1069,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-23T00:14:53.084471+00:00"
+    "last_audited": "2026-09-23T07:38:12.449408+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -1094,7 +1094,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-23T00:14:53.348709+00:00"
+    "last_audited": "2026-09-23T07:38:12.699003+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -1119,7 +1119,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-23T00:14:53.568341+00:00"
+    "last_audited": "2026-09-23T07:38:12.933610+00:00"
   },
   {
     "id": "sec-Smartdevs17/stellarlend-969",
@@ -1144,7 +1144,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-23T00:14:53.878151+00:00"
+    "last_audited": "2026-09-23T07:38:13.174556+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1169,7 +1169,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-23T00:14:54.145086+00:00"
+    "last_audited": "2026-09-23T07:38:13.476010+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -1194,7 +1194,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-23T00:14:54.418061+00:00"
+    "last_audited": "2026-09-23T07:38:13.707826+00:00"
   },
   {
     "id": "gh-piotrwitek/typesafe-actions-139",
@@ -1219,7 +1219,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-23T00:14:54.684552+00:00"
+    "last_audited": "2026-09-23T07:38:13.952974+00:00"
   },
   {
     "id": "web3-Chainbounty/chainbounty-contracts-3",
