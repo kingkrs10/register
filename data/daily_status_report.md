@@ -1,12 +1,12 @@
 # 🎯 MicroBountyHarvest - Daily Status Report
-*Generated on: `2026-09-22 21:08:38 UTC`*
+*Generated on: `2026-09-23 00:14:41 UTC`*
 
 ## 📊 Executive Summary
 
 | Metric | Value |
 |---|---|
-| **Active Open Bounties** | **72** |
-| **Open Bounty Pipeline Value** | **$8,794.00** |
+| **Active Open Bounties** | **71** |
+| **Open Bounty Pipeline Value** | **$8,694.00** |
 | **Total Solved Bounties** | **86** |
 | **Solved Bounties Value** | **$9,510.00** |
 | **Ready to Claim (Local Fix Tested)** | **25** |
@@ -101,7 +101,7 @@
 | 81 | `[CODE]` | `dporkka/dev-plane#19` | opire | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
 | 82 | `[CODE]` | `zhangjiayang6835-cyber/bounty-plaza#1598` | bounty | **$37** | `open` | 🟢 Ready to Claim | Not Submitted |
 | 83 | `[CODE]` | `chenzilin100/StellarBladeTrainer-Releases#3` | opire | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
-| 84 | `[WEB3_DESCI]` | `priors-agents/priors#1` | web3_github | **$100** | `open` | ⚪ Closed | Not Submitted |
+| 84 | `[WEB3_DESCI]` | `priors-agents/priors#1` | web3_github | **$100** | `closed` | ⚪ Closed | Not Submitted |
 | 85 | `[CODE]` | `kostasuser01gr/VoiceAI-Support-Dashboard#82` | opire | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
 | 86 | `[CODE]` | `kostasuser01gr/VoiceAI-Support-Dashboard#81` | opire | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
 
