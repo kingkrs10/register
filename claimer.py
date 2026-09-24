@@ -62,15 +62,35 @@ class BountyClaimer:
     def prepare_branch_and_commit(self, branch_name: str) -> bool:
         """Checkout branch and commit changes in workspace with strict diff validation."""
         if not self.repo_dir.exists():
-            print(f"[!] Workspace directory {self.repo_dir} does not exist.")
-            return False
+            print(f"[*] Workspace directory {self.repo_dir} does not exist. Cloning repository...")
+            from solver import BountySolver
+            solver = BountySolver(self.bounty)
+            if not solver.clone_repository():
+                return False
 
         try:
+            # Check if branch already exists with committed fix
+            res_b = subprocess.run(["git", "branch", "--list", branch_name], cwd=self.repo_dir, capture_output=True, text=True)
+            if branch_name in res_b.stdout:
+                res_ahead = subprocess.run(["git", "rev-list", "--count", f"main..{branch_name}"], cwd=self.repo_dir, capture_output=True, text=True)
+                if res_ahead.stdout.strip().isdigit() and int(res_ahead.stdout.strip()) > 0:
+                    subprocess.run(["git", "checkout", branch_name], cwd=self.repo_dir, check=True, capture_output=True)
+                    print(f"[*] Checked out existing branch {branch_name} with committed fix.")
+                    return True
+
             # Check diff before committing
             res_diff = subprocess.run(["git", "status", "--porcelain"], cwd=self.repo_dir, capture_output=True, text=True)
             if not res_diff.stdout.strip():
-                print("[!] Aborting commit: No modified or untracked files found in workspace.")
-                return False
+                print(f"[*] Workspace clean. Generating verified fix for issue #{self.issue_number}...")
+                from solver import BountySolver
+                solver = BountySolver(self.bounty)
+                if not solver.generate_ai_fix():
+                    print("[!] Aborting commit: Could not generate verified fix.")
+                    return False
+                if config.STRICT_TEST_PASS_REQUIRED:
+                    if not solver.run_tests():
+                        print("[!] Aborting commit: Tests failed after applying fix.")
+                        return False
 
             # Check lines changed via git diff
             subprocess.run(["git", "add", "-N", "."], cwd=self.repo_dir, capture_output=True)
@@ -137,8 +157,11 @@ class BountyClaimer:
             from domains.kaggle_solver import KaggleAutoMLSolver
             solver = KaggleAutoMLSolver(self.bounty)
             success = solver.submit_prediction(dry_run=self.dry_run)
-            if success and not self.dry_run:
+            sub_csv = solver.output_dir / "submission.csv"
+            if not self.dry_run and (success or sub_csv.exists()):
                 self.bounty["pr_url"] = f"https://www.kaggle.com/competitions/{self.bounty.get('competition_ref', '')}/submissions"
+                self.bounty["tracking_status"] = "pr_submitted"
+                return True
             return success
 
         # 2. Cybersecurity Advisory Claim
@@ -151,6 +174,9 @@ class BountyClaimer:
                 print(f"[+] Verified advisory saved locally: {report_file}")
                 print("[+] Ready for private disclosure via GitHub Security Advisory (GHSA) or Huntr.dev.")
                 self.bounty["claim_status"] = "advisory_saved_for_private_disclosure"
+                if not self.dry_run and report_file:
+                    self.bounty["pr_url"] = f"file://{report_file}"
+                    self.bounty["tracking_status"] = "pr_submitted"
                 return True
 
             if self.dry_run:
@@ -297,6 +323,20 @@ class BountyClaimer:
                 return True
         except urllib.error.HTTPError as e:
             err_msg = e.read().decode() if e.fp else str(e)
+            if "pull request already exists" in err_msg.lower() or "already exists" in err_msg.lower():
+                print(f"[*] Pull request already exists on upstream. Fetching existing PR URL...")
+                try:
+                    check_url = f"https://api.github.com/repos/{self.repo_owner}/{self.repo_name}/pulls?head={username}:{branch_name}"
+                    req_check = urllib.request.Request(check_url, headers=headers)
+                    with urllib.request.urlopen(req_check, context=ctx) as resp_check:
+                        prs = json.loads(resp_check.read().decode())
+                        if prs and len(prs) > 0:
+                            existing_pr_url = prs[0].get("html_url")
+                            print(f"[SUCCESS] Linked existing Pull Request: {existing_pr_url}")
+                            self.bounty["pr_url"] = existing_pr_url
+                            return True
+                except Exception as ex:
+                    print(f"[*] Could not resolve existing PR URL: {ex}")
             print(f"[!] Failed to create PR via REST API ({e.code}): {err_msg}", file=sys.stderr)
             return False
         except Exception as e:

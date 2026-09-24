@@ -61,7 +61,7 @@ def call_gemini_api(prompt: str, system_instruction: Optional[str] = None) -> Op
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
         try:
             req = urllib.request.Request(url, data=data, headers=headers, method="POST")
-            with urllib.request.urlopen(req, context=ctx, timeout=25) as resp:
+            with urllib.request.urlopen(req, context=ctx, timeout=45) as resp:
                 resp_data = json.loads(resp.read().decode("utf-8"))
                 candidates = resp_data.get("candidates", [])
                 if candidates:

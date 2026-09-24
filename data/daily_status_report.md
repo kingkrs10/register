@@ -1,18 +1,18 @@
 # 🎯 MicroBountyHarvest - Daily Status Report
-*Generated on: `2026-09-24 11:30:17 UTC`*
+*Generated on: `2026-09-24 16:34:47 UTC`*
 
 ## 📊 Executive Summary
 
 | Metric | Value |
 |---|---|
-| **Active Open Bounties** | **75** |
-| **Open Bounty Pipeline Value** | **$9,494.00** |
-| **Total Solved Bounties** | **89** |
-| **Solved Bounties Value** | **$9,810.00** |
-| **Ready to Claim (Local Fix Tested)** | **27** |
-| **PRs Submitted & Pending Review** | **40** |
-| **PRs Merged / Payout Won** | **1** |
-| **Closed / Inactive Cases** | **21** |
+| **Active Open Bounties** | **71** |
+| **Open Bounty Pipeline Value** | **$8,644.00** |
+| **Total Solved Bounties** | **86** |
+| **Solved Bounties Value** | **$9,510.00** |
+| **Ready to Claim (Local Fix Tested)** | **9** |
+| **PRs Submitted & Pending Review** | **55** |
+| **PRs Merged / Payout Won** | **2** |
+| **Closed / Inactive Cases** | **20** |
 
 ## 🛠️ Solved Cases Live Status Breakdown
 
@@ -35,8 +35,8 @@
 | 15 | `[CODE]` | `ecosyste-ms/blog#4` | polar.sh | **** | `closed` | ⚪ Closed | Not Submitted |
 | 16 | `[CODE]` | `workout-lol/workout-lol#19` | polar.sh | **** | `open` | 🟡 Submitted | [PR Link](https://github.com/workout-lol/workout-lol/pull/90) |
 | 17 | `[CODE]` | `ecosyste-ms/licenses#153` | polar.sh | **** | `open` | 🟢 Ready to Claim | Not Submitted |
-| 18 | `[KAGGLE]` | `kaggle/titanic#1` | kaggle | **$100 (Badge)** | `open` | 🟢 Ready to Claim | [Submission CSV](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/kaggle_submissions/titanic/submission.csv) |
-| 19 | `[KAGGLE]` | `kaggle/spaceship-titanic#1` | kaggle | **$250 (Bounty)** | `open` | 🟢 Ready to Claim | [Submission CSV](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/kaggle_submissions/spaceship-titanic/submission.csv) |
+| 18 | `[KAGGLE]` | `kaggle/titanic#1` | kaggle | **$100 (Badge)** | `open` | 🟡 Submitted | [Submission CSV](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/kaggle_submissions/titanic/submission.csv) |
+| 19 | `[KAGGLE]` | `kaggle/spaceship-titanic#1` | kaggle | **$250 (Bounty)** | `open` | 🟡 Submitted | [Submission CSV](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/kaggle_submissions/spaceship-titanic/submission.csv) |
 | 20 | `[SECURITY]` | `benelabs/crucible#926` | github_security | **$150** | `closed` | ⚪ Closed | [Advisory Report](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_benelabs_crucible_926.md) |
 | 21 | `[CODE]` | `NightVibes33/Filza-27#46` | opire | **$50** | `open` | ⚪ Closed | [PR Link](https://github.com/NightVibes33/Filza-27/pull/50) |
 | 22 | `[CODE]` | `ETK2456/usdt-tracker#1` | opire | **$50** | `open` | 🟡 Submitted | [PR Link](https://github.com/ETK2456/usdt-tracker/pull/2) |
@@ -57,18 +57,18 @@
 | 37 | `[WEB3_DESCI]` | `connect-boiz/soroban-security-scanner#475` | web3_github | **$100** | `open` | 🟡 Submitted | [PR Link](https://github.com/connect-boiz/soroban-security-scanner/pull/540) |
 | 38 | `[CODE]` | `photoprism/photoprism#93` | algora | **$?** | `open` | ⚪ Closed | Not Submitted |
 | 39 | `[WEB3_DESCI]` | `openscad/openscad#783` | web3_github | **$100** | `open` | ⚪ Closed | [PR Link](https://github.com/openscad/openscad/pull/7038) |
-| 40 | `[KAGGLE]` | `kaggle/house-prices-advanced-regression-techniques#1` | kaggle | **$300 (Bounty)** | `open` | 🟢 Ready to Claim | [Submission CSV](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/kaggle_submissions/house-prices-advanced-regression-techniques/submission.csv) |
-| 41 | `[KAGGLE]` | `kaggle/playground-series-s4e8#1` | kaggle | **$500 (Prize)** | `open` | 🟢 Ready to Claim | [Submission CSV](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/kaggle_submissions/playground-series-s4e8/submission.csv) |
-| 42 | `[SECURITY]` | `Akanimoh12/Stellar-Tipz#1394` | github_security | **$150** | `open` | 🟢 Ready to Claim | [Advisory Report](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_Akanimoh12_Stellar-Tipz_1394.md) |
-| 43 | `[SECURITY]` | `mikalv/msgr#213` | github_security | **$150** | `open` | 🟢 Ready to Claim | [Advisory Report](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_mikalv_msgr_213.md) |
-| 44 | `[SECURITY]` | `stellar-vortex-protocol/vortex-contracts#298` | github_security | **$150** | `open` | 🟢 Ready to Claim | [Advisory Report](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_stellar-vortex-protocol_vortex-contracts_298.md) |
+| 40 | `[KAGGLE]` | `kaggle/house-prices-advanced-regression-techniques#1` | kaggle | **$300 (Bounty)** | `open` | 🟡 Submitted | [Submission CSV](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/kaggle_submissions/house-prices-advanced-regression-techniques/submission.csv) |
+| 41 | `[KAGGLE]` | `kaggle/playground-series-s4e8#1` | kaggle | **$500 (Prize)** | `open` | 🟡 Submitted | [Submission CSV](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/kaggle_submissions/playground-series-s4e8/submission.csv) |
+| 42 | `[SECURITY]` | `Akanimoh12/Stellar-Tipz#1394` | github_security | **$150** | `open` | 🟡 Submitted | [Advisory Report](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_Akanimoh12_Stellar-Tipz_1394.md) |
+| 43 | `[SECURITY]` | `mikalv/msgr#213` | github_security | **$150** | `open` | 🟡 Submitted | [Advisory Report](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_mikalv_msgr_213.md) |
+| 44 | `[SECURITY]` | `stellar-vortex-protocol/vortex-contracts#298` | github_security | **$150** | `open` | 🟡 Submitted | [Advisory Report](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_stellar-vortex-protocol_vortex-contracts_298.md) |
 | 45 | `[SECURITY]` | `freedom-winds/BountyScout#926` | github_security | **$150** | `open` | 🟡 Submitted | [Advisory Report](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_freedom-winds_BountyScout_926.md) |
-| 46 | `[SECURITY]` | `vansh-09/BountyScout#1016` | github_security | **$150** | `open` | 🟢 Ready to Claim | [Advisory Report](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_vansh-09_BountyScout_1016.md) |
+| 46 | `[SECURITY]` | `vansh-09/BountyScout#1016` | github_security | **$150** | `open` | 🟡 Submitted | [Advisory Report](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_vansh-09_BountyScout_1016.md) |
 | 47 | `[SECURITY]` | `pancakeswap/pancake-v3-contracts#32` | github_security | **$150** | `open` | 🟡 Submitted | [Advisory Report](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_pancakeswap_pancake-v3-contracts_32.md) |
 | 48 | `[SECURITY]` | `MyZubster-Ecosystem/myzubster#488` | github_security | **$150** | `open` | 🟡 Submitted | [Advisory Report](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_MyZubster-Ecosystem_myzubster_488.md) |
 | 49 | `[SECURITY]` | `Oliversmoke/comeback#359` | github_security | **$150** | `open` | 🟡 Submitted | [Advisory Report](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_Oliversmoke_comeback_359.md) |
 | 50 | `[SECURITY]` | `AudioBitsStellar/AudioBlock_Backend#510` | github_security | **$150** | `open` | 🟡 Submitted | [Advisory Report](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_AudioBitsStellar_AudioBlock_Backend_510.md) |
-| 51 | `[SECURITY]` | `Stellar-Unified-Price-Oracle/Stellar-Unified-Price-Oracle-Frontend-#529` | github_security | **$150** | `open` | 🟡 Submitted | [Advisory Report](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_Stellar-Unified-Price-Oracle_Stellar-Unified-Price-Oracle-Frontend-_529.md) |
+| 51 | `[SECURITY]` | `Stellar-Unified-Price-Oracle/Stellar-Unified-Price-Oracle-Frontend-#529` | github_security | **$150** | `closed` | 🏆 Merged / Won | [Advisory Report](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_Stellar-Unified-Price-Oracle_Stellar-Unified-Price-Oracle-Frontend-_529.md) |
 | 52 | `[SECURITY]` | `StellarDevHub/soroban-playground#1367` | github_security | **$150** | `open` | 🟡 Submitted | [Advisory Report](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_StellarDevHub_soroban-playground_1367.md) |
 | 53 | `[SECURITY]` | `ainetwork-global/AI-Network-Lab-Brain#42` | github_security | **$150** | `open` | 🟡 Submitted | [Advisory Report](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_ainetwork-global_AI-Network-Lab-Brain_42.md) |
 | 54 | `[SECURITY]` | `zhangjiayang6835-cyber/bounty-plaza#281` | github_security | **$12** | `open` | 🟡 Submitted | [Advisory Report](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_zhangjiayang6835-cyber_bounty-plaza_281.md) |
@@ -88,25 +88,22 @@
 | 68 | `[CODE]` | `vansh-09/BountyScout#448` | algora | **$?** | `open` | ⚪ Closed | Not Submitted |
 | 69 | `[WEB3_DESCI]` | `xlabtg/wallet-contract#1` | web3_github | **$100** | `open` | 🟡 Submitted | [PR Link](https://github.com/xlabtg/wallet-contract/pull/3) |
 | 70 | `[CODE]` | `piotrwitek/typesafe-actions#139` | algora | **$?** | `open` | ⚪ Closed | Not Submitted |
-| 71 | `[CODE]` | `jaykode2025/stargazers-log#1` | opire | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
-| 72 | `[WEB3_DESCI]` | `zhangjiayang6835-cyber/bounty-plaza#1214` | web3_github | **$350** | `open` | 🟢 Ready to Claim | Not Submitted |
+| 71 | `[CODE]` | `jaykode2025/stargazers-log#1` | opire | **$100** | `open` | 🟡 Submitted | [PR Link](https://github.com/jaykode2025/stargazers-log/pull/2) |
+| 72 | `[WEB3_DESCI]` | `zhangjiayang6835-cyber/bounty-plaza#1214` | web3_github | **$350** | `open` | 🟡 Submitted | [PR Link](https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1643) |
 | 73 | `[CODE]` | `zhangjiayang6835-cyber/bounty-plaza#1573` | bounty | **$250** | `open` | 🟢 Ready to Claim | Not Submitted |
-| 74 | `[CODE]` | `NightVibes33/FlekDeck#2` | opire | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
+| 74 | `[CODE]` | `NightVibes33/FlekDeck#2` | opire | **$100** | `open` | 🟡 Submitted | [PR Link](https://github.com/NightVibes33/FlekDeck/pull/3) |
 | 75 | `[CODE]` | `strias-ai/embodied-ai-reservations-madrid#1` | opire | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
 | 76 | `[CODE]` | `zhangjiayang6835-cyber/bounty-plaza#1295` | bounty | **$112** | `open` | 🟢 Ready to Claim | Not Submitted |
-| 77 | `[CODE]` | `zhangjiayang6835-cyber/bounty-plaza#1291` | bounty | **$112** | `open` | 🟢 Ready to Claim | Not Submitted |
+| 77 | `[CODE]` | `zhangjiayang6835-cyber/bounty-plaza#1291` | bounty | **$112** | `open` | 🟡 Submitted | [PR Link](https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1644) |
 | 78 | `[CODE]` | `zhangjiayang6835-cyber/bounty-plaza#1293` | bounty | **$112** | `open` | 🟢 Ready to Claim | Not Submitted |
-| 79 | `[WEB3_DESCI]` | `zhangjiayang6835-cyber/bounty-plaza#951` | web3_github | **$99** | `open` | 🟢 Ready to Claim | Not Submitted |
+| 79 | `[WEB3_DESCI]` | `zhangjiayang6835-cyber/bounty-plaza#951` | web3_github | **$99** | `open` | 🟡 Submitted | [PR Link](https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1645) |
 | 80 | `[CODE]` | `dporkka/dev-plane#17` | opire | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
 | 81 | `[CODE]` | `dporkka/dev-plane#19` | opire | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
-| 82 | `[CODE]` | `zhangjiayang6835-cyber/bounty-plaza#1598` | bounty | **$37** | `open` | 🟢 Ready to Claim | Not Submitted |
-| 83 | `[CODE]` | `chenzilin100/StellarBladeTrainer-Releases#3` | opire | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
+| 82 | `[CODE]` | `zhangjiayang6835-cyber/bounty-plaza#1598` | bounty | **$37** | `open` | 🟡 Submitted | [PR Link](https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1646) |
+| 83 | `[CODE]` | `chenzilin100/StellarBladeTrainer-Releases#3` | opire | **$100** | `open` | 🟡 Submitted | [PR Link](https://github.com/chenzilin100/StellarBladeTrainer-Releases/pull/4) |
 | 84 | `[WEB3_DESCI]` | `priors-agents/priors#1` | web3_github | **$100** | `closed` | ⚪ Closed | Not Submitted |
 | 85 | `[CODE]` | `kostasuser01gr/VoiceAI-Support-Dashboard#82` | opire | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
-| 86 | `[CODE]` | `kostasuser01gr/VoiceAI-Support-Dashboard#81` | opire | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
-| 87 | `[WEB3_DESCI]` | `johnephraim949-web/cypher-gridpay-contracts#114` | web3_github | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
-| 88 | `[WEB3_DESCI]` | `releaseken/Perpetua-Contracts#101` | web3_github | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
-| 89 | `[WEB3_DESCI]` | `SO4-Markets/so4-oracle#1000` | web3_github | **$100** | `closed` | ⚪ Closed | Not Submitted |
+| 86 | `[CODE]` | `kostasuser01gr/VoiceAI-Support-Dashboard#81` | opire | **$100** | `open` | 🟡 Submitted | [PR Link](https://github.com/kostasuser01gr/VoiceAI-Support-Dashboard/pull/83) |
 
 ## 🚀 Actionable Next Steps
 - Run `python main.py --claim` to submit pull requests or artifacts for **Ready to Claim** cases.

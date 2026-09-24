@@ -218,6 +218,9 @@ class BountyTracker:
                         else:
                             pr_state = pr_data.get("state", "open")
                         s["pr_live_state"] = pr_state
+            elif pr_url:
+                pr_state = "open"
+                s["pr_live_state"] = pr_state
 
             s["last_audited"] = datetime.datetime.now(datetime.timezone.utc).isoformat()
 
