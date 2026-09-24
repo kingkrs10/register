@@ -19,7 +19,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-24T04:16:46.701656+00:00"
+    "last_audited": "2026-09-24T11:30:17.883304+00:00"
   },
   {
     "id": "gh-chenzilin100/StellarBladeTrainer-Releases-3",
@@ -41,7 +41,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-24T04:16:47.078930+00:00"
+    "last_audited": "2026-09-24T11:30:18.171337+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-82",
@@ -65,7 +65,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-24T04:16:47.401253+00:00"
+    "last_audited": "2026-09-24T11:30:18.569785+00:00"
   },
   {
     "id": "gh-strias-ai/embodied-ai-reservations-madrid-1",
@@ -87,7 +87,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-24T04:16:47.702868+00:00"
+    "last_audited": "2026-09-24T11:30:18.834009+00:00"
   },
   {
     "id": "gh-mrzhangkris/dsh-subagent-roster-1",
@@ -109,7 +109,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-24T04:16:47.997719+00:00"
+    "last_audited": "2026-09-24T11:30:19.108051+00:00"
   },
   {
     "id": "gh-NightVibes33/Filza-27-46",
@@ -131,7 +131,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-24T04:16:48.351506+00:00"
+    "last_audited": "2026-09-24T11:30:19.461216+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-1214",
@@ -157,7 +157,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-24T04:16:48.672271+00:00"
+    "last_audited": "2026-09-24T11:30:19.764920+00:00"
   },
   {
     "id": "web3-johnephraim949-web/cypher-gridpay-contracts-114",
@@ -183,7 +183,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-24T04:16:49.007551+00:00"
+    "last_audited": "2026-09-24T11:30:20.079642+00:00"
   },
   {
     "id": "web3-connect-boiz/soroban-security-scanner-477",
@@ -213,61 +213,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-09-24T04:16:49.352007+00:00"
-  },
-  {
-    "id": "web3-releaseken/Perpetua-Contracts-101",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "[Third-Party Audit] Formal setup of audit scope and bug bounty program guidelines",
-    "url": "https://github.com/releaseken/Perpetua-Contracts/issues/101",
-    "platform": "web3_github",
-    "repo_owner": "releaseken",
-    "repo_name": "Perpetua-Contracts",
-    "issue_number": 101,
-    "org_handle": "releaseken",
-    "org_name": "releaseken/Perpetua-Contracts",
-    "body": "### Background & Context\n`docs/KNOWN-LIMITATIONS.md` \u00a74 notes: \"Not audited. No third-party security audit has been performed.\"\n\n### Problem Statement\nPreparing Perpetua for mainnet deployment requires establishing an audit readiness repository package and bug bounty scope.\n\n### Proposed Solution\n1. Create `docs/audit_scope.md` detailing all smart contract source files, threat models, invariants, and scope boundaries.\n2. Outline Immunefi-style bug bounty severity criteria (Critical, High, Medium, Low).\n3. Publish audit readiness checklist.\n\n### Acceptance Criteria\n- [ ] `docs/audit_scope.md` published.\n- [ ] Bug bounty scope defined.\n- [ ] Codebase frozen tag designated for external audit.",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "documentation",
-      "security",
-      "Stellar Wave"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 2,
-    "last_audited": "2026-09-24T04:16:49.706474+00:00"
-  },
-  {
-    "id": "web3-SO4-Markets/so4-oracle-1000",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "No CODE_OF_CONDUCT.md \u2014 GitHub's community health check reports 50% completion",
-    "url": "https://github.com/SO4-Markets/so4-oracle/issues/1000",
-    "platform": "web3_github",
-    "repo_owner": "SO4-Markets",
-    "repo_name": "so4-oracle",
-    "issue_number": 1000,
-    "org_handle": "SO4-Markets",
-    "org_name": "SO4-Markets/so4-oracle",
-    "body": "**File(s):** repository root / `.github/` (no `CODE_OF_CONDUCT.md`)\n\n**Problem:**\nGitHub's own community-standards check confirms this repository is missing a code of conduct:\n\n```\n$ gh api repos/SO4-Markets/so4-oracle/community/profile\n{\"health_percentage\":50, \"files\":{\"code_of_conduct\":null,\"code_of_conduct_file\":null, ...}}\n```\n\n`health_percentage: 50` \u2014 only half of GitHub's standard community-health checklist is satisfied (README, LICENSE, CONTRIBUTING, and a PR template are present; `code_of_conduct` and `issue_template` are not \u2014 the latter separately filed). This is an externally-contributed, bounty-driven project with 200+ merged PRs from roughly 30 different outside contributors (per the commit history's author diversity) \u2014 exactly the kind of open, high-external-participation repository where a documented code of conduct (expected behavior, reporting process for violations, enforcement) is standard practice and most valuable, not a formality.\n\n**Suggested fix:**\nAdd a `CODE_OF_CONDUCT.md` at the repository root (GitHub's template \u2014 the Contributor Covenant \u2014 can be added directly via the repository's Insights \u2192 Community Standards page, which links to it) and reference it from `CONTRIBUTING.md`.\n",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "documentation",
-      "good first issue",
-      "Stellar Wave"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 8,
-    "last_audited": "2026-09-24T04:16:50.118953+00:00"
+    "last_audited": "2026-09-24T11:30:20.460800+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -292,7 +238,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-09-24T04:16:50.478417+00:00"
+    "last_audited": "2026-09-24T11:30:20.783067+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -318,7 +264,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-24T04:16:50.821759+00:00"
+    "last_audited": "2026-09-24T11:30:21.090520+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1598",
@@ -340,7 +286,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-24T04:16:51.158412+00:00"
+    "last_audited": "2026-09-24T11:30:21.399556+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1295",
@@ -365,7 +311,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 14,
-    "last_audited": "2026-09-24T04:16:51.486416+00:00"
+    "last_audited": "2026-09-24T11:30:21.695330+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1291",
@@ -390,7 +336,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 8,
-    "last_audited": "2026-09-24T04:16:51.811748+00:00"
+    "last_audited": "2026-09-24T11:30:22.017722+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1293",
@@ -415,7 +361,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 9,
-    "last_audited": "2026-09-24T04:16:52.131844+00:00"
+    "last_audited": "2026-09-24T11:30:22.296291+00:00"
   },
   {
     "id": "gh-photoprism/photoprism-93",
@@ -440,7 +386,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 90,
-    "last_audited": "2026-09-24T04:16:52.477437+00:00"
+    "last_audited": "2026-09-24T11:30:22.567940+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-951",
@@ -466,7 +412,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 12,
-    "last_audited": "2026-09-24T04:16:52.795924+00:00"
+    "last_audited": "2026-09-24T11:30:22.861934+00:00"
   },
   {
     "id": "web3-connect-boiz/soroban-security-scanner-475",
@@ -494,7 +440,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-24T04:16:53.182264+00:00"
+    "last_audited": "2026-09-24T11:30:23.144123+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -603,7 +549,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-24T04:16:53.545406+00:00"
+    "last_audited": "2026-09-24T11:30:23.452514+00:00"
   },
   {
     "id": "sec-Refract-Protocol/refract-backend-132",
@@ -628,7 +574,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-24T04:16:53.867616+00:00"
+    "last_audited": "2026-09-24T11:30:23.773951+00:00"
   },
   {
     "id": "sec-johnephraim949-web/cypher-gridpay-contracts-114",
@@ -653,7 +599,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-24T04:16:54.222724+00:00"
+    "last_audited": "2026-09-24T11:30:24.055643+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/ILN-Smart-Contract-923",
@@ -678,7 +624,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-24T04:16:54.530911+00:00"
+    "last_audited": "2026-09-24T11:30:24.348909+00:00"
+  },
+  {
+    "id": "sec-Refract-Protocol/refract-contracts-115",
+    "domain": "security",
+    "title": "[High] Implement an on-chain bug bounty escrow with governance-controlled payout",
+    "url": "https://github.com/Refract-Protocol/refract-contracts/issues/115",
+    "platform": "github_security",
+    "repo_owner": "Refract-Protocol",
+    "repo_name": "refract-contracts",
+    "issue_number": 115,
+    "org_handle": "Refract-Protocol",
+    "org_name": "Refract-Protocol/refract-contracts",
+    "body": "**Complexity:** High (200 points)\n**Category:** Governance & Treasury\n\n**Description:** Build a `RefractBountyEscrow` contract holding a dedicated reward pool (funded from the treasury, from the sibling treasury issue) that governance can approve payouts from to security researchers who responsibly disclose vulnerabilities, per the process `SECURITY.md` already describes but currently has no on-chain funding mechanism for.\n\n**Problem Statement & Context:** `SECURITY.md` establishes a responsible-disclosure process, but there is no funded, on-chain bounty mechanism backing it \u2014 reward amounts and payment would today have to be arranged entirely off-chain and out-of-band with whatever funds the team happens to control manually. An on-chain, governance-auditable bounty escrow makes the commitment credible and the payout process transparent, which matters for attracting serious security researchers to a pre-audit protocol.\n\n**Scope & Acceptance Criteria:**\n- New `bounty/` crate: `RefractBountyEscrow` with `fund(from, amount)` (anyone can top it up, including the treasury), and `award(caller, researcher: Address, amount, report_hash: BytesN<32>)` gated by governance/the timelock (from sibling issues) \u2014 never a single admin key, given the sensitivity of directly authorizing a payout tied to a specific disclosure.\n- `report_hash` is stored on-chain alongside the award as an immutable, timestamped record that a specific disclosure was rewarded (without needing to publish the vulnerability details themselves on-chain \u2014 just a hash/commitment for later verification).\n- Out of scope: any on-chain vulnerability-report submission/triage workflow (report handling stays off-chain per `SECURITY.md`'s existing process; this contract is purely the funded, governed payout mechanism).\n\n**Implementation Guidelines (Suggested Execution):**\n1. **Key files:** New `bounty/Cargo.toml`, `bounty/src/lib.rs`; depends on the timelock/governance contracts (sibling issues) for `award`'s authorization, and can integrate with the treasury (sibling issue) for funding.\n2. **Design:** Keep `award` requiring `caller` to be the timelock/governance address specifically (not a plain admin key) \u2014 this is one of the clearest cases in this wave for why the governance path matters, since a single compromised admin key authorizing arbitrary \"bounty\" payouts to an attacker-controlled address is a direct fund-drain vector.\n3. **Edge cases:** `award` amount must never exceed the escrow's current balance \u2014 a straightforward balance check, but must be explicit and tested (no silent underflow/negative-balance state).\n4. **Testing:** Fund\u2192award happy path, award exceeding balance rejected, and award callable only by the governance/timelock address (direct admin-key calls rejected, if a plain admin key is even wired to have any authority here \u2014 document that it explicitly is not).\n\n**Definition of \"Done\":** New crate compiles, tests for the fund/award lifecycle and the governance-only authorization requirement, `SECURITY.md` updated to reference the on-chain bounty escrow. CI green, reviewed and approved.\n\n**Resources:** `SECURITY.md`, sibling timelock and treasury issues.\n\n**Complexity:** High (200 points)",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-09-24T11:30:24.637684+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -703,7 +674,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-24T04:16:54.848818+00:00"
+    "last_audited": "2026-09-24T11:30:24.888279+00:00"
   },
   {
     "id": "sec-FinesseStudioLab/Trivela-1310",
@@ -727,8 +698,8 @@
     "status": "active",
     "solvability_score": 85.0,
     "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-09-24T04:16:55.185695+00:00"
+    "comments_count": 2,
+    "last_audited": "2026-09-24T11:30:25.443327+00:00"
   },
   {
     "id": "sec-Akanimoh12/Stellar-Tipz-1394",
@@ -753,32 +724,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-24T04:16:55.501508+00:00"
-  },
-  {
-    "id": "sec-MyFanss/MyFans-1849",
-    "domain": "security",
-    "title": "SECURITY.md penetration-test tracker including contract review rows and disclosure process",
-    "url": "https://github.com/MyFanss/MyFans/issues/1849",
-    "platform": "github_security",
-    "repo_owner": "MyFanss",
-    "repo_name": "MyFans",
-    "issue_number": 1849,
-    "org_handle": "MyFanss",
-    "org_name": "MyFanss/MyFans",
-    "body": "## Problem statement\n\nLaunch without tracked findings repeats known classes of bugs.\n\n## Background / architecture\n\nSECURITY.md; security issue template.\n\n## Current state\n\nSECURITY.md exists.\n\n## Technical design\n\n1. Findings table.\n2. Contract pen-test row.\n3. Severity SLA.\n4. Disclosure contact.\n5. Link AUTH_MATRIX.\n\n## Edge cases & failure modes\n\n- Duplicate findings.\n\n## Security considerations\n\n- Safe harbor language.\n\n## Implementation plan\n\n1. Update SECURITY.md.\n2. Process for closing findings.\n\n## Test plan\n\n- Peer review.\n\n## Acceptance criteria\n\n- [ ] Tracker live.\n- [ ] Disclosure clear.\n\n## Out of scope\n\nBug bounty payouts setup.\n\n## References\n\n- `SECURITY.md`\n- `.github/ISSUE_TEMPLATE/security.md`\n",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-09-24T04:16:55.854437+00:00"
+    "last_audited": "2026-09-24T11:30:25.735385+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -803,7 +749,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-24T04:16:56.181031+00:00"
+    "last_audited": "2026-09-24T11:30:26.059506+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -828,7 +774,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-24T04:16:56.511972+00:00"
+    "last_audited": "2026-09-24T11:30:26.338333+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -853,7 +799,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-24T04:16:56.877953+00:00"
+    "last_audited": "2026-09-24T11:30:26.626568+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -878,7 +824,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-24T04:16:57.220167+00:00"
+    "last_audited": "2026-09-24T11:30:26.896321+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -903,7 +849,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-24T04:16:57.557411+00:00"
+    "last_audited": "2026-09-24T11:30:27.238162+00:00"
   },
   {
     "id": "sec-Shackole/NeuroWealth-Smartcontract-72",
@@ -928,7 +874,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-09-24T04:16:57.898498+00:00"
+    "last_audited": "2026-09-24T11:30:27.545675+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -953,7 +899,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-24T04:16:58.203149+00:00"
+    "last_audited": "2026-09-24T11:30:27.776619+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -978,7 +924,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-09-24T04:16:58.538029+00:00"
+    "last_audited": "2026-09-24T11:30:28.111516+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1124",
@@ -1003,7 +949,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-24T04:16:58.936991+00:00"
+    "last_audited": "2026-09-24T11:30:28.394320+00:00"
   },
   {
     "id": "sec-relayhop/ClaudeEarnSelf-runtime-988",
@@ -1028,7 +974,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-24T04:16:59.250754+00:00"
+    "last_audited": "2026-09-24T11:30:28.672701+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -1053,7 +999,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-24T04:16:59.553776+00:00"
+    "last_audited": "2026-09-24T11:30:28.970165+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1115",
@@ -1078,7 +1024,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-24T04:16:59.918616+00:00"
+    "last_audited": "2026-09-24T11:30:29.260641+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -1103,7 +1049,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-24T04:17:00.240920+00:00"
+    "last_audited": "2026-09-24T11:30:29.562234+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -1128,7 +1074,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-24T04:17:00.558463+00:00"
+    "last_audited": "2026-09-24T11:30:29.830068+00:00"
   },
   {
     "id": "sec-abdulsalam-create/bounty-watch-27",
@@ -1153,7 +1099,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-24T04:17:00.908428+00:00"
+    "last_audited": "2026-09-24T11:30:30.117935+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -1178,7 +1124,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-24T04:17:01.302963+00:00"
+    "last_audited": "2026-09-24T11:30:30.422758+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1203,7 +1149,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-24T04:17:01.651757+00:00"
+    "last_audited": "2026-09-24T11:30:30.747070+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -1228,7 +1174,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-24T04:17:01.982429+00:00"
+    "last_audited": "2026-09-24T11:30:31.019409+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -1250,7 +1196,10 @@
       "vulnerability"
     ],
     "status": "active",
-    "solvability_score": 85.0
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 5,
+    "last_audited": "2026-09-24T11:30:31.381462+00:00"
   },
   {
     "id": "gh-piotrwitek/typesafe-actions-139",
@@ -1272,30 +1221,10 @@
     "status": "active",
     "domain": "code",
     "competitor_prs": 0,
-    "solvability_score": 65.0
-  },
-  {
-    "id": "web3-Chainbounty/chainbounty-contracts-3",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "Implement bounty extension feature to update deadline",
-    "url": "https://github.com/Chainbounty/chainbounty-contracts/issues/3",
-    "platform": "web3_github",
-    "repo_owner": "Chainbounty",
-    "repo_name": "chainbounty-contracts",
-    "issue_number": 3,
-    "org_handle": "Chainbounty",
-    "org_name": "Chainbounty/chainbounty-contracts",
-    "body": "## Summary\n\nAllow posters to extend the deadline of an Open or Claimed bounty if they need more time for contributors to complete the work. This adds flexibility without requiring bounty cancellation and reposting.\n\n## Acceptance criteria\n\n- [ ] Add `extend_deadline` function that only the poster can call.\n- [ ] New deadline must be in the future and after the current deadline.\n- [ ] Emit a `deadline_extended` event with old and new deadline values.\n\n## Getting started\n\nFork this repository, clone your fork, and add this repo as `upstream`:\n\n```bash\ngit clone https://github.com/<your-username>/chainbounty-contracts.git\ncd chainbounty-contracts\ngit remote add upstream https://github.com/Chainbounty/chainbounty-contracts.git\n```\n\nCreate a branch for this issue:\n\n```bash\ngit checkout -b feat/extend-deadline\n```\n\nSuggested commit message:\n\n```\nfeat: allow posters to extend bounty deadlines\n```\n\nRun `cargo fmt --check`, `cargo clippy`, and `cargo test` before pushing, then open a pull request from your fork against `main` and link this issue.",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "solidity",
-      "python"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 65.0
+    "solvability_score": 65.0,
+    "live_status": "open",
+    "comments_count": 4,
+    "last_audited": "2026-09-24T11:30:31.716651+00:00"
   },
   {
     "id": "web3-xlabtg/wallet-contract-1",
@@ -1418,29 +1347,6 @@
     "domain": "code",
     "competitor_prs": 0,
     "solvability_score": 60.0
-  },
-  {
-    "id": "web3-Chainbounty/chainbounty-contracts-4",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "Add contributor unclaim feature for releasing locked bounties",
-    "url": "https://github.com/Chainbounty/chainbounty-contracts/issues/4",
-    "platform": "web3_github",
-    "repo_owner": "Chainbounty",
-    "repo_name": "chainbounty-contracts",
-    "issue_number": 4,
-    "org_handle": "Chainbounty",
-    "org_name": "Chainbounty/chainbounty-contracts",
-    "body": "## Summary\n\nContributors who claim a bounty may realize they cannot complete it. Add an `unclaim_bounty` function so contributors can release their lock and allow others to claim the bounty.\n\n## Acceptance criteria\n\n- [ ] Add `unclaim_bounty` function callable only by the locked contributor.\n- [ ] Reset bounty status to Open and clear the contributor field.\n- [ ] Emit an `unclaimed` event.\n\n## Getting started\n\nFork this repository, clone your fork, and add this repo as `upstream`:\n\n```bash\ngit clone https://github.com/<your-username>/chainbounty-contracts.git\ncd chainbounty-contracts\ngit remote add upstream https://github.com/Chainbounty/chainbounty-contracts.git\n```\n\nCreate a branch for this issue:\n\n```bash\ngit checkout -b feat/unclaim-bounty\n```\n\nSuggested commit message:\n\n```\nfeat: allow contributors to unclaim bounties\n```\n\nRun `cargo fmt --check`, `cargo clippy`, and `cargo test` before pushing, then open a pull request from your fork against `main` and link this issue.",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "solidity",
-      "python"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 55.0
   },
   {
     "id": "web3-tetherless-world/whyis-237",
@@ -1623,6 +1529,94 @@
     ],
     "status": "active",
     "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 50.0
+  },
+  {
+    "id": "web3-mergemint-mint/mergemint-contracts-934",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "[Solidity] Remove duplicate MockBountyManager",
+    "url": "https://github.com/mergemint-mint/mergemint-contracts/issues/934",
+    "platform": "web3_github",
+    "repo_owner": "mergemint-mint",
+    "repo_name": "mergemint-contracts",
+    "issue_number": 934,
+    "org_handle": "mergemint-mint",
+    "org_name": "mergemint-mint/mergemint-contracts",
+    "body": "**Description**\n\nThere are two copies of `MockBountyManager.sol` in `test/`, which already caused confusion in a previous PR.\n\nThis issue keeps the copy under `test/bounty/mocks/`, deletes the other and updates imports.\n\n**Requirements and context**\n\n- Keep one canonical mock\n- Update imports\n\n**Suggested execution**\n\nFork the repo and create a branch\n\n```bash\ngit checkout -b chore/dedupe-mock\n```\n\nImplement changes\n\n- Delete the duplicate\n- Fix test imports\n\nTest and commit\n\n- Run the Hardhat test suite\n\n**Example commit message**\n\n```\nchore(solidity): remove duplicate mock\n```",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "maintenance"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 50.0
+  },
+  {
+    "id": "web3-mergemint-mint/mergemint-contracts-932",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "[Solidity] Add Foundry tests for BountyRefresh",
+    "url": "https://github.com/mergemint-mint/mergemint-contracts/issues/932",
+    "platform": "web3_github",
+    "repo_owner": "mergemint-mint",
+    "repo_name": "mergemint-contracts",
+    "issue_number": 932,
+    "org_handle": "mergemint-mint",
+    "org_name": "mergemint-mint/mergemint-contracts",
+    "body": "**Description**\n\n`BountyRefresh.sol` is only tested with Hardhat, which is slower and has weaker fuzzing support.\n\nThis issue adds Foundry tests that mirror the Hardhat suite and add fuzz tests for batch creation and parallel processing.\n\n**Requirements and context**\n\n- Cover batch creation and parallel processing\n\n**Suggested execution**\n\nFork the repo and create a branch\n\n```bash\ngit checkout -b test/foundry-bounty-refresh\n```\n\nImplement changes\n\n- Add `foundry.toml`\n- Add `test/foundry/BountyRefresh.t.sol`\n\nTest and commit\n\n- Run `forge test`\n\n**Example commit message**\n\n```\ntest(solidity): add foundry tests for BountyRefresh\n```",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "testing"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 50.0
+  },
+  {
+    "id": "web3-mergemint-mint/mergemint-contracts-933",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "[Solidity] Gas optimization pass for BountyRefresh",
+    "url": "https://github.com/mergemint-mint/mergemint-contracts/issues/933",
+    "platform": "web3_github",
+    "repo_owner": "mergemint-mint",
+    "repo_name": "mergemint-contracts",
+    "issue_number": 933,
+    "org_handle": "mergemint-mint",
+    "org_name": "mergemint-mint/mergemint-contracts",
+    "body": "**Description**\n\nThe batch loops in `BountyRefresh.sol` use patterns that cost more gas than needed, such as reading array length on every iteration and revert strings.\n\nThis issue caches lengths, switches to custom errors and packs storage, then records before and after gas snapshots.\n\n**Requirements and context**\n\n- Cache array length\n- Use custom errors\n- Pack storage\n\n**Suggested execution**\n\nFork the repo and create a branch\n\n```bash\ngit checkout -b perf/bounty-refresh-gas\n```\n\nImplement changes\n\n- Refactor loops and errors\n- Update `docs/changes/gas-regression-tests.md`\n\nTest and commit\n\n- Compare gas snapshots in the PR\n\n**Example commit message**\n\n```\nperf(solidity): optimize BountyRefresh gas\n```",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "performance"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 50.0
+  },
+  {
+    "id": "web3-mergemint-mint/mergemint-contracts-935",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "[Solidity] Emit events for batch retry attempts",
+    "url": "https://github.com/mergemint-mint/mergemint-contracts/issues/935",
+    "platform": "web3_github",
+    "repo_owner": "mergemint-mint",
+    "repo_name": "mergemint-contracts",
+    "issue_number": 935,
+    "org_handle": "mergemint-mint",
+    "org_name": "mergemint-mint/mergemint-contracts",
+    "body": "**Description**\n\nTask retries in `BountyRefresh` happen silently, making failures hard to debug on chain.\n\nThis issue adds a `TaskRetried` event with batch id, task id and attempt number.\n\n**Requirements and context**\n\n- Include batch id, task id and attempt\n\n**Suggested execution**\n\nFork the repo and create a branch\n\n```bash\ngit checkout -b feature/batch-retry-events\n```\n\nImplement changes\n\n- Add `TaskRetried` event in `BountyRefresh.sol`\n\nTest and commit\n\n- Assert event in `test/bounty/BountyRefresh.test.js`\n\n**Example commit message**\n\n```\nfeat(solidity): emit task retry events\n```",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "enhancement"
+    ],
+    "status": "active",
     "competitor_prs": 0,
     "solvability_score": 50.0
   },
