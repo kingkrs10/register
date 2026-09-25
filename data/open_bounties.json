@@ -19,7 +19,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T07:31:17.258919+00:00"
+    "last_audited": "2026-09-25T13:33:15.452046+00:00"
   },
   {
     "id": "gh-dalecannegie-commits/OPIRE-2-3",
@@ -43,7 +43,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T07:31:17.585468+00:00"
+    "last_audited": "2026-09-25T13:33:15.758848+00:00"
   },
   {
     "id": "gh-jaykode2025/stargazers-log-1",
@@ -65,7 +65,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-25T07:31:17.920986+00:00"
+    "last_audited": "2026-09-25T13:33:16.076253+00:00"
   },
   {
     "id": "gh-dalecannegie-commits/OPIRE-2-2",
@@ -89,7 +89,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T07:31:18.268764+00:00"
+    "last_audited": "2026-09-25T13:33:16.373274+00:00"
   },
   {
     "id": "gh-chenzilin100/StellarBladeTrainer-Releases-3",
@@ -111,7 +111,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T07:31:18.613492+00:00"
+    "last_audited": "2026-09-25T13:33:16.671616+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-82",
@@ -135,7 +135,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T07:31:18.962187+00:00"
+    "last_audited": "2026-09-25T13:33:16.982394+00:00"
   },
   {
     "id": "web3-mergemint-mint/mergemint-contracts-934",
@@ -160,7 +160,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T07:31:19.305674+00:00"
+    "last_audited": "2026-09-25T13:33:17.300098+00:00"
   },
   {
     "id": "web3-mergemint-mint/mergemint-contracts-932",
@@ -185,7 +185,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T07:31:19.651016+00:00"
+    "last_audited": "2026-09-25T13:33:17.589391+00:00"
   },
   {
     "id": "web3-mergemint-mint/mergemint-contracts-933",
@@ -210,7 +210,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T07:31:20.009617+00:00"
+    "last_audited": "2026-09-25T13:33:17.869875+00:00"
   },
   {
     "id": "web3-mergemint-mint/mergemint-contracts-935",
@@ -236,7 +236,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-25T07:31:20.423497+00:00"
+    "last_audited": "2026-09-25T13:33:18.186480+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-1214",
@@ -262,7 +262,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-25T07:31:20.753632+00:00"
+    "last_audited": "2026-09-25T13:33:18.502606+00:00"
   },
   {
     "id": "web3-anthropics/claude-code-96705",
@@ -292,7 +292,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T07:31:21.162072+00:00"
+    "last_audited": "2026-09-25T13:33:18.838308+00:00"
   },
   {
     "id": "web3-johnephraim949-web/cypher-gridpay-contracts-114",
@@ -318,7 +318,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-25T07:31:21.505710+00:00"
+    "last_audited": "2026-09-25T13:33:19.144869+00:00"
   },
   {
     "id": "web3-mergemint-mint/mergemint-contracts-947",
@@ -344,37 +344,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-25T07:31:21.868900+00:00"
-  },
-  {
-    "id": "web3-connect-boiz/soroban-security-scanner-477",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "[CRITICAL][Smart Contract] verify_vulnerability allows double-payout and never checks/deducts the bounty pool",
-    "url": "https://github.com/connect-boiz/soroban-security-scanner/issues/477",
-    "platform": "web3_github",
-    "repo_owner": "connect-boiz",
-    "repo_name": "soroban-security-scanner",
-    "issue_number": 477,
-    "org_handle": "connect-boiz",
-    "org_name": "connect-boiz/soroban-security-scanner",
-    "body": "## Summary\nverify_vulnerability() does not check whether the report was already verified, does not check the BOUNTY_POOL has sufficient funds, and does not deduct the bounty from any pool. A verifier can call it repeatedly on the same report_id to re-award the bounty and repeatedly inflate the reporter's reputation/earnings.\n\n## Severity\nCritical\n\n## Location\ncontracts/scanner/src/lib.rs - verify_vulnerability()\n\n## Impact\n- Double/multi-payout: repeated calls re-run update_reputation(reporter, 1, bounty_amount) and reset report.bounty_amount, so a single report can be paid many times.\n- No funds check means a verifier can authorize payouts exceeding the pool (or any payout at all, since pools are fictional - see related custody issue).\n\n## Root Cause\nMissing status guard (report.status == \"pending\") and missing pool balance check/deduction.\n\n## Recommended Fix\n- Reject if report.status != \"pending\" (one-time verification).\n- Check bounty_amount <= BOUNTY_POOL and subtract it from the pool atomically.\n- Use the report's stored status as a state machine (pending -> verified/rejected).\n\n## Bounty Note\nDirect loss-of-funds via double-payout is a classic, high-reward finding.",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "priority:high",
-      "Maybe Rewarded",
-      "GrantFox OSS",
-      "contract",
-      "security",
-      "Third Campaign"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 7,
-    "last_audited": "2026-09-25T07:31:22.233722+00:00"
+    "last_audited": "2026-09-25T13:33:19.593676+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -399,7 +369,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-09-25T07:31:22.584351+00:00"
+    "last_audited": "2026-09-25T13:33:19.924410+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -425,7 +395,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-25T07:31:22.909830+00:00"
+    "last_audited": "2026-09-25T13:33:20.217666+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1295",
@@ -450,7 +420,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 14,
-    "last_audited": "2026-09-25T07:31:23.237131+00:00"
+    "last_audited": "2026-09-25T13:33:20.563843+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1293",
@@ -475,7 +445,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 9,
-    "last_audited": "2026-09-25T07:31:23.568403+00:00"
+    "last_audited": "2026-09-25T13:33:20.850097+00:00"
   },
   {
     "id": "gh-photoprism/photoprism-93",
@@ -500,7 +470,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 90,
-    "last_audited": "2026-09-25T07:31:23.911898+00:00"
+    "last_audited": "2026-09-25T13:33:21.147801+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-951",
@@ -526,35 +496,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 12,
-    "last_audited": "2026-09-25T07:31:24.309344+00:00"
-  },
-  {
-    "id": "web3-connect-boiz/soroban-security-scanner-475",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "[CRITICAL][Smart Contract] Multi-sig can be bypassed: proposer controls required_approvals and execution_delay",
-    "url": "https://github.com/connect-boiz/soroban-security-scanner/issues/475",
-    "platform": "web3_github",
-    "repo_owner": "connect-boiz",
-    "repo_name": "soroban-security-scanner",
-    "issue_number": 475,
-    "org_handle": "connect-boiz",
-    "org_name": "connect-boiz/soroban-security-scanner",
-    "body": "## Summary\npropose_high_bounty_verification() forwards caller-supplied required_approvals and execution_delay directly into create_multi_sig_proposal() without enforcing any minimum. A single Verifier can set required_approvals=1 and execution_delay=0, then propose, approve and execute a multi-million bounty payout alone.\n\n## Severity\nCritical\n\n## Location\ncontracts/scanner/src/lib.rs - propose_high_bounty_verification() and create_multi_sig_proposal()\n\n## Impact\n- The multi-signature control intended to protect high-value bounty payouts (verify_vulnerability returns MultiSigRequired for amounts > 1,000,000) is trivially bypassed.\n- A single compromised/rogue Verifier can authorize arbitrary bounty_amount payouts without any second signer or timelock.\n\n## Root Cause\npropose_high_bounty_verification passes required_approvals and execution_delay verbatim. Contrast with propose_emergency_verification and propose_role_grant, which enforce minimums (>=3 approvals, >=1h; >=2 approvals, >=24h).\n\n## Recommended Fix\n- Enforce minimums server-side in propose_high_bounty_verification (e.g. required_approvals >= 2, execution_delay >= 3600).\n- Also reject required_approvals == 0 and validate that required_approvals does not exceed the number of registered verifiers.\n\n## Bounty Note\nBypass of a security control that guards treasury payouts is a direct loss-of-funds vector and highly rewarded.",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "priority:high",
-      "Maybe Rewarded",
-      "contract",
-      "security"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 90.0,
-    "live_status": "open",
-    "comments_count": 2,
-    "last_audited": "2026-09-25T07:31:24.679112+00:00"
+    "last_audited": "2026-09-25T13:33:21.426220+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -663,7 +605,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T07:31:25.004769+00:00"
+    "last_audited": "2026-09-25T13:33:21.742717+00:00"
   },
   {
     "id": "sec-OpenLedger-Foundation/Kora-Contract-819",
@@ -688,7 +630,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T07:31:25.359702+00:00"
+    "last_audited": "2026-09-25T13:33:22.021457+00:00"
   },
   {
     "id": "sec-Refract-Protocol/refract-backend-132",
@@ -713,7 +655,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T07:31:25.691467+00:00"
+    "last_audited": "2026-09-25T13:33:22.333924+00:00"
   },
   {
     "id": "sec-johnephraim949-web/cypher-gridpay-contracts-114",
@@ -738,7 +680,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-25T07:31:26.051632+00:00"
+    "last_audited": "2026-09-25T13:33:22.624693+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/ILN-Smart-Contract-923",
@@ -763,7 +705,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T07:31:26.376247+00:00"
+    "last_audited": "2026-09-25T13:33:22.936729+00:00"
   },
   {
     "id": "sec-Refract-Protocol/refract-contracts-115",
@@ -788,7 +730,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T07:31:26.717752+00:00"
+    "last_audited": "2026-09-25T13:33:23.221435+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -813,7 +755,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-25T07:31:27.114700+00:00"
+    "last_audited": "2026-09-25T13:33:23.504463+00:00"
   },
   {
     "id": "sec-FinesseStudioLab/Trivela-1310",
@@ -838,7 +780,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-25T07:31:27.455103+00:00"
+    "last_audited": "2026-09-25T13:33:23.807255+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -863,7 +805,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-25T07:31:27.791736+00:00"
+    "last_audited": "2026-09-25T13:33:24.135548+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -888,7 +830,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-25T07:31:28.133566+00:00"
+    "last_audited": "2026-09-25T13:33:24.442518+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -913,7 +855,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T07:31:28.536978+00:00"
+    "last_audited": "2026-09-25T13:33:24.710996+00:00"
+  },
+  {
+    "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
+    "domain": "security",
+    "title": "Design and launch a bug bounty program",
+    "url": "https://github.com/Invoice-Liquidity-Network/Invoice-Liquidity-Network/issues/1080",
+    "platform": "github_security",
+    "repo_owner": "Invoice-Liquidity-Network",
+    "repo_name": "Invoice-Liquidity-Network",
+    "issue_number": 1080,
+    "org_handle": "Invoice-Liquidity-Network",
+    "org_name": "Invoice-Liquidity-Network/Invoice-Liquidity-Network",
+    "body": "`docs/vulnerability-disclosure.md` documents a disclosure process, but there's currently no structured bug bounty program (scope, reward tiers, triage SLA) to actively incentivize external security researchers ahead of mainnet.\n\n**Requirements and context**\n- Define program scope (in-scope services/repos, out-of-scope items), severity taxonomy, and reward tiers appropriate for a pre-mainnet financial protocol\n- Stand up the intake and triage process, cross-referencing `docs/vulnerability-disclosure.md` for consistency\n- Select and configure a bounty platform or self-hosted process\n- Publish the program and cross-link from `SECURITY.md`\n\n**Suggested execution**\n```\ngit checkout -b docs/bug-bounty-program-launch\n```\n- Design scope, rewards, and triage process for a bug bounty program, then launch it\n\n**Complexity**\nHigh (200 points) \u2014 this batch intentionally excludes trivial/medium-complexity work; see the ILN Stellar Wave contribution guide before picking this up.\n\n**Example commit message**\n`docs: design and launch bug bounty program ahead of mainnet`",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 6,
+    "last_audited": "2026-09-25T13:33:25.024076+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -938,32 +905,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-25T07:31:28.882112+00:00"
-  },
-  {
-    "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
-    "domain": "security",
-    "title": "Design and launch a bug bounty program",
-    "url": "https://github.com/Invoice-Liquidity-Network/Invoice-Liquidity-Network/issues/1080",
-    "platform": "github_security",
-    "repo_owner": "Invoice-Liquidity-Network",
-    "repo_name": "Invoice-Liquidity-Network",
-    "issue_number": 1080,
-    "org_handle": "Invoice-Liquidity-Network",
-    "org_name": "Invoice-Liquidity-Network/Invoice-Liquidity-Network",
-    "body": "`docs/vulnerability-disclosure.md` documents a disclosure process, but there's currently no structured bug bounty program (scope, reward tiers, triage SLA) to actively incentivize external security researchers ahead of mainnet.\n\n**Requirements and context**\n- Define program scope (in-scope services/repos, out-of-scope items), severity taxonomy, and reward tiers appropriate for a pre-mainnet financial protocol\n- Stand up the intake and triage process, cross-referencing `docs/vulnerability-disclosure.md` for consistency\n- Select and configure a bounty platform or self-hosted process\n- Publish the program and cross-link from `SECURITY.md`\n\n**Suggested execution**\n```\ngit checkout -b docs/bug-bounty-program-launch\n```\n- Design scope, rewards, and triage process for a bug bounty program, then launch it\n\n**Complexity**\nHigh (200 points) \u2014 this batch intentionally excludes trivial/medium-complexity work; see the ILN Stellar Wave contribution guide before picking this up.\n\n**Example commit message**\n`docs: design and launch bug bounty program ahead of mainnet`",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-09-25T07:31:29.222435+00:00"
+    "last_audited": "2026-09-25T13:33:25.334641+00:00"
   },
   {
     "id": "sec-Shackole/NeuroWealth-Smartcontract-72",
@@ -988,7 +930,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-25T07:31:29.558388+00:00"
+    "last_audited": "2026-09-25T13:33:25.616364+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -1013,7 +955,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-25T07:31:29.948054+00:00"
+    "last_audited": "2026-09-25T13:33:25.878337+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -1038,7 +980,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-09-25T07:31:30.288905+00:00"
+    "last_audited": "2026-09-25T13:33:26.159850+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1124",
@@ -1063,7 +1005,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-25T07:31:30.654568+00:00"
+    "last_audited": "2026-09-25T13:33:26.433275+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -1088,7 +1030,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-25T07:31:30.963765+00:00"
+    "last_audited": "2026-09-25T13:33:26.712274+00:00"
   },
   {
     "id": "sec-relayhop/ClaudeEarnSelf-runtime-988",
@@ -1113,7 +1055,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-25T07:31:31.293133+00:00"
+    "last_audited": "2026-09-25T13:33:26.965278+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1115",
@@ -1138,7 +1080,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-25T07:31:31.631997+00:00"
+    "last_audited": "2026-09-25T13:33:27.233392+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -1163,7 +1105,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-25T07:31:31.941507+00:00"
+    "last_audited": "2026-09-25T13:33:27.511302+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -1188,7 +1130,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-25T07:31:32.266798+00:00"
+    "last_audited": "2026-09-25T13:33:27.779188+00:00"
   },
   {
     "id": "sec-Akanimoh12/Stellar-Tipz-1394",
@@ -1213,7 +1155,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-25T07:31:32.626386+00:00"
+    "last_audited": "2026-09-25T13:33:28.047855+00:00"
   },
   {
     "id": "sec-abdulsalam-create/bounty-watch-27",
@@ -1238,7 +1180,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T07:31:32.988089+00:00"
+    "last_audited": "2026-09-25T13:33:28.328414+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -1260,7 +1202,10 @@
       "vulnerability"
     ],
     "status": "active",
-    "solvability_score": 85.0
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 2,
+    "last_audited": "2026-09-25T13:33:28.613267+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -1282,7 +1227,10 @@
       "vulnerability"
     ],
     "status": "active",
-    "solvability_score": 85.0
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 3,
+    "last_audited": "2026-09-25T13:33:28.882513+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1657,6 +1605,33 @@
     "solvability_score": 50.0
   },
   {
+    "id": "web3-connect-boiz/soroban-security-scanner-477",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "[CRITICAL][Smart Contract] verify_vulnerability allows double-payout and never checks/deducts the bounty pool",
+    "url": "https://github.com/connect-boiz/soroban-security-scanner/issues/477",
+    "platform": "web3_github",
+    "repo_owner": "connect-boiz",
+    "repo_name": "soroban-security-scanner",
+    "issue_number": 477,
+    "org_handle": "connect-boiz",
+    "org_name": "connect-boiz/soroban-security-scanner",
+    "body": "## Summary\nverify_vulnerability() does not check whether the report was already verified, does not check the BOUNTY_POOL has sufficient funds, and does not deduct the bounty from any pool. A verifier can call it repeatedly on the same report_id to re-award the bounty and repeatedly inflate the reporter's reputation/earnings.\n\n## Severity\nCritical\n\n## Location\ncontracts/scanner/src/lib.rs - verify_vulnerability()\n\n## Impact\n- Double/multi-payout: repeated calls re-run update_reputation(reporter, 1, bounty_amount) and reset report.bounty_amount, so a single report can be paid many times.\n- No funds check means a verifier can authorize payouts exceeding the pool (or any payout at all, since pools are fictional - see related custody issue).\n\n## Root Cause\nMissing status guard (report.status == \"pending\") and missing pool balance check/deduction.\n\n## Recommended Fix\n- Reject if report.status != \"pending\" (one-time verification).\n- Check bounty_amount <= BOUNTY_POOL and subtract it from the pool atomically.\n- Use the report's stored status as a state machine (pending -> verified/rejected).\n\n## Bounty Note\nDirect loss-of-funds via double-payout is a classic, high-reward finding.",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "priority:high",
+      "Maybe Rewarded",
+      "GrantFox OSS",
+      "contract",
+      "security",
+      "Third Campaign"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 50.0
+  },
+  {
     "id": "web3-SolFoundry/solfoundry-840",
     "domain": "web3_desci",
     "sub_type": "web3_smart_contract",
@@ -1809,6 +1784,31 @@
     ],
     "status": "active",
     "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 40.0
+  },
+  {
+    "id": "web3-connect-boiz/soroban-security-scanner-475",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "[CRITICAL][Smart Contract] Multi-sig can be bypassed: proposer controls required_approvals and execution_delay",
+    "url": "https://github.com/connect-boiz/soroban-security-scanner/issues/475",
+    "platform": "web3_github",
+    "repo_owner": "connect-boiz",
+    "repo_name": "soroban-security-scanner",
+    "issue_number": 475,
+    "org_handle": "connect-boiz",
+    "org_name": "connect-boiz/soroban-security-scanner",
+    "body": "## Summary\npropose_high_bounty_verification() forwards caller-supplied required_approvals and execution_delay directly into create_multi_sig_proposal() without enforcing any minimum. A single Verifier can set required_approvals=1 and execution_delay=0, then propose, approve and execute a multi-million bounty payout alone.\n\n## Severity\nCritical\n\n## Location\ncontracts/scanner/src/lib.rs - propose_high_bounty_verification() and create_multi_sig_proposal()\n\n## Impact\n- The multi-signature control intended to protect high-value bounty payouts (verify_vulnerability returns MultiSigRequired for amounts > 1,000,000) is trivially bypassed.\n- A single compromised/rogue Verifier can authorize arbitrary bounty_amount payouts without any second signer or timelock.\n\n## Root Cause\npropose_high_bounty_verification passes required_approvals and execution_delay verbatim. Contrast with propose_emergency_verification and propose_role_grant, which enforce minimums (>=3 approvals, >=1h; >=2 approvals, >=24h).\n\n## Recommended Fix\n- Enforce minimums server-side in propose_high_bounty_verification (e.g. required_approvals >= 2, execution_delay >= 3600).\n- Also reject required_approvals == 0 and validate that required_approvals does not exceed the number of registered verifiers.\n\n## Bounty Note\nBypass of a security control that guards treasury payouts is a direct loss-of-funds vector and highly rewarded.",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "priority:high",
+      "Maybe Rewarded",
+      "contract",
+      "security"
+    ],
+    "status": "active",
     "competitor_prs": 0,
     "solvability_score": 40.0
   }
