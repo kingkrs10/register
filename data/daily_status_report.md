@@ -1,18 +1,18 @@
 # 🎯 MicroBountyHarvest - Daily Status Report
-*Generated on: `2026-09-25 13:33:15 UTC`*
+*Generated on: `2026-09-25 18:26:34 UTC`*
 
 ## 📊 Executive Summary
 
 | Metric | Value |
 |---|---|
-| **Active Open Bounties** | **76** |
-| **Open Bounty Pipeline Value** | **$9,695.00** |
-| **Total Solved Bounties** | **91** |
-| **Solved Bounties Value** | **$10,010.00** |
-| **Ready to Claim (Local Fix Tested)** | **14** |
+| **Active Open Bounties** | **74** |
+| **Open Bounty Pipeline Value** | **$9,495.00** |
+| **Total Solved Bounties** | **92** |
+| **Solved Bounties Value** | **$10,110.00** |
+| **Ready to Claim (Local Fix Tested)** | **12** |
 | **PRs Submitted & Pending Review** | **55** |
 | **PRs Merged / Payout Won** | **2** |
-| **Closed / Inactive Cases** | **20** |
+| **Closed / Inactive Cases** | **23** |
 
 ## 🛠️ Solved Cases Live Status Breakdown
 
@@ -104,11 +104,12 @@
 | 84 | `[WEB3_DESCI]` | `priors-agents/priors#1` | web3_github | **$100** | `closed` | ⚪ Closed | Not Submitted |
 | 85 | `[CODE]` | `kostasuser01gr/VoiceAI-Support-Dashboard#82` | opire | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
 | 86 | `[CODE]` | `kostasuser01gr/VoiceAI-Support-Dashboard#81` | opire | **$100** | `open` | 🟡 Submitted | [PR Link](https://github.com/kostasuser01gr/VoiceAI-Support-Dashboard/pull/83) |
-| 87 | `[CODE]` | `dalecannegie-commits/OPIRE-2#1` | opire | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
-| 88 | `[CODE]` | `dalecannegie-commits/OPIRE-2#3` | opire | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
-| 89 | `[CODE]` | `dalecannegie-commits/OPIRE-2#2` | opire | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
+| 87 | `[CODE]` | `dalecannegie-commits/OPIRE-2#1` | opire | **$100** | `closed` | ⚪ Closed | Not Submitted |
+| 88 | `[CODE]` | `dalecannegie-commits/OPIRE-2#3` | opire | **$100** | `closed` | ⚪ Closed | Not Submitted |
+| 89 | `[CODE]` | `dalecannegie-commits/OPIRE-2#2` | opire | **$100** | `closed` | ⚪ Closed | Not Submitted |
 | 90 | `[WEB3_DESCI]` | `mergemint-mint/mergemint-contracts#934` | web3_github | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
 | 91 | `[WEB3_DESCI]` | `mergemint-mint/mergemint-contracts#933` | web3_github | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
+| 92 | `[WEB3_DESCI]` | `mergemint-mint/mergemint-contracts#932` | web3_github | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
 
 ## 🚀 Actionable Next Steps
 - Run `python main.py --claim` to submit pull requests or artifacts for **Ready to Claim** cases.

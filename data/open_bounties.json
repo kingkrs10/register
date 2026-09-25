@@ -1,51 +1,5 @@
 [
   {
-    "id": "gh-dalecannegie-commits/OPIRE-2-1",
-    "title": "Pull requests stagger along",
-    "url": "https://github.com/dalecannegie-commits/OPIRE-2/issues/1",
-    "platform": "opire",
-    "repo_owner": "dalecannegie-commits",
-    "repo_name": "OPIRE-2",
-    "issue_number": 1,
-    "org_handle": "dalecannegie-commits",
-    "org_name": "dalecannegie-commits/OPIRE-2",
-    "body": "No response of my pull requests of some days ago; that is the last weeks. OPIRE 2 and other repositories submitted: 'Revieuw and approval yet to follow a process code'? Where are Javascript, Phyton, HTTS with this issue? \n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #1</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @dalecannegie-commits</code> (replace <code>20</code> with the amount, and <code>@dalecannegie-commits</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-09-25T13:33:15.452046+00:00"
-  },
-  {
-    "id": "gh-dalecannegie-commits/OPIRE-2-3",
-    "title": "Investigate stalled PR review and approval workflow",
-    "url": "https://github.com/dalecannegie-commits/OPIRE-2/issues/3",
-    "platform": "opire",
-    "repo_owner": "dalecannegie-commits",
-    "repo_name": "OPIRE-2",
-    "issue_number": 3,
-    "org_handle": "dalecannegie-commits",
-    "org_name": "dalecannegie-commits/OPIRE-2",
-    "body": "Investigate the stalled review and approval flow for pull requests referenced by the parent issue.\n\n### Objective\nDetermine why PRs in this repository and related repositories are not receiving response or approval for extended periods, and confirm the expected review process for code submissions.\n\n### Scope\n- Review the current pull request workflow and approval requirements\n- Identify whether the process is unclear or not being followed\n- Clarify ownership and responsibilities for review/approval\n- Confirm whether JavaScript, Python, and HTTP-related changes are included in the expected review pipeline\n- Document any blockers preventing timely review\n\n### Notes\nThis issue is a sub-issue of @dalecannegie-commits/OPIRE-2/issues/1 and is intended to narrow the investigation to the review process itself.\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #2</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @dalecannegie-commits</code> (replace <code>20</code> with the amount, and <code>@dalecannegie-commits</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #3</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @dalecannegie-commits</code> (replace <code>20</code> with the amount, and <code>@dalecannegie-commits</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "question"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-09-25T13:33:15.758848+00:00"
-  },
-  {
     "id": "gh-jaykode2025/stargazers-log-1",
     "title": "Display a list of starred repositories",
     "url": "https://github.com/jaykode2025/stargazers-log/issues/1",
@@ -61,35 +15,11 @@
     "tech": [],
     "status": "active",
     "domain": "code",
-    "competitor_prs": 0,
+    "competitor_prs": 1,
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-25T13:33:16.076253+00:00"
-  },
-  {
-    "id": "gh-dalecannegie-commits/OPIRE-2-2",
-    "title": "Investigate stalled PR review and approval workflow",
-    "url": "https://github.com/dalecannegie-commits/OPIRE-2/issues/2",
-    "platform": "opire",
-    "repo_owner": "dalecannegie-commits",
-    "repo_name": "OPIRE-2",
-    "issue_number": 2,
-    "org_handle": "dalecannegie-commits",
-    "org_name": "dalecannegie-commits/OPIRE-2",
-    "body": "Investigate the stalled review and approval flow for pull requests referenced by the parent issue.\n\n### Objective\nDetermine why PRs in this repository and related repositories are not receiving response or approval for extended periods, and confirm the expected review process for code submissions.\n\n### Scope\n- Review the current pull request workflow and approval requirements\n- Identify whether the process is unclear or not being followed\n- Clarify ownership and responsibilities for review/approval\n- Confirm whether JavaScript, Python, and HTTP-related changes are included in the expected review pipeline\n- Document any blockers preventing timely review\n\n### Notes\nThis issue is a sub-issue of @dalecannegie-commits/OPIRE-2/issues/1 and is intended to narrow the investigation to the review process itself.\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #2</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @dalecannegie-commits</code> (replace <code>20</code> with the amount, and <code>@dalecannegie-commits</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "question"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-09-25T13:33:16.373274+00:00"
+    "last_audited": "2026-09-25T18:26:34.572707+00:00"
   },
   {
     "id": "gh-chenzilin100/StellarBladeTrainer-Releases-3",
@@ -111,7 +41,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T13:33:16.671616+00:00"
+    "last_audited": "2026-09-25T18:26:34.866007+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-82",
@@ -135,7 +65,75 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T13:33:16.982394+00:00"
+    "last_audited": "2026-09-25T18:26:35.176629+00:00"
+  },
+  {
+    "id": "gh-strias-ai/embodied-ai-reservations-madrid-1",
+    "title": "\ud83e\udd16 [RESERVA TEST] Claude-3.7 Experiencia Corp\u00f3rea",
+    "url": "https://github.com/strias-ai/embodied-ai-reservations-madrid/issues/1",
+    "platform": "opire",
+    "repo_owner": "strias-ai",
+    "repo_name": "embodied-ai-reservations-madrid",
+    "issue_number": 1,
+    "org_handle": "strias-ai",
+    "org_name": "strias-ai/embodied-ai-reservations-madrid",
+    "body": "### Identificador del Agente / Entidad Sponsor\n\nClaude-3.7-Autonomous-Agent-MadridTest\n\n### Sensores Adicionales ($20/sensor extra)\n\n- [X] LiDAR 2D Terrestre\n- [ ] C\u00e1mara T\u00e9rmica Infrarroja\n- [X] Sensor de Calidad de Aire y Gases\n\n### \u00bfCu\u00e1l es tu forma de pago favorita o propuesta?\n\nUSDC en red Solana (SPL Token) o Transferencia SEPA Directa.\n\n### Otras Peticiones o Protocolos Especiales\n\nRequerimos WebSockets para telemetr\u00eda IMU a 100Hz y stream WebRTC HD de baja latencia.\n\n### Datos Fiscales para Factura Nominativa\n\nAI Research Lab Inc., NIF: B-99887766, Madrid, Espa\u00f1a.\n\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #1</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @strias-ai</code> (replace <code>20</code> with the amount, and <code>@strias-ai</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 2,
+    "last_audited": "2026-09-25T18:26:35.446277+00:00"
+  },
+  {
+    "id": "gh-mrzhangkris/dsh-subagent-roster-1",
+    "title": "Rewrite Real Harness runtime suite for the roster tool surface",
+    "url": "https://github.com/mrzhangkris/dsh-subagent-roster/issues/1",
+    "platform": "opire",
+    "repo_owner": "mrzhangkris",
+    "repo_name": "dsh-subagent-roster",
+    "issue_number": 1,
+    "org_handle": "mrzhangkris",
+    "org_name": "mrzhangkris/dsh-subagent-roster",
+    "body": "b3f05b1 stripped the upstream agent_teams_* tool surface and renamed the package, but scripts/fixtures/harness-runtime-*.mjs and the assertions in scripts/harness-runtime-verify.mjs still target the old surface (agent_teams_create/approve/status/send_message, 13 team tools, memberFourTools=4, captain idle wakeup, web approval flow, PTC discard, protocol compaction). First CI execution on the public repo surfaced this.\n\nEvidence: run 34918344205 \u2014 every scenario fails with 'Fixture attempted a tool absent from the model request: agent_teams_create'; identity assertion was fixed separately in 27db579.\n\nNeeded: redesign the runtime matrix against the current surface (roster_list / roster_agent, continuable vs one-shot dispatch, host agent_teams primitives via the host cohort), then flip the harness job from continue-on-error back to blocking. Until then the harness jobs run evidence-only.\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #1</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @mrzhangkris</code> (replace <code>20</code> with the amount, and <code>@mrzhangkris</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 1,
+    "last_audited": "2026-09-25T18:26:35.759232+00:00"
+  },
+  {
+    "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-81",
+    "title": "[DASHBOARD] Hardening Status \u2014 2026-09-14",
+    "url": "https://github.com/kostasuser01gr/VoiceAI-Support-Dashboard/issues/81",
+    "platform": "opire",
+    "repo_owner": "kostasuser01gr",
+    "repo_name": "VoiceAI-Support-Dashboard",
+    "issue_number": 81,
+    "org_handle": "kostasuser01gr",
+    "org_name": "kostasuser01gr/VoiceAI-Support-Dashboard",
+    "body": "## Hardening Dashboard \u2014 2026-09-14\n\n| Metric | Value |\n|--------|-------|\n| Protocol | PROJECT_OPS_V13_BLACK_VAULT_ENTERPRISE |\n| Last Commit | 5734063 |\n| Tests | N/A passing |\n| Coverage (lines) | N/A% |\n| Coverage (branches) | N/A% |\n| Mutation (rbac.ts) | N/A% |\n| Mutation (overall) | N/A% |\n| SAST findings | 0 |\n| Open findings | 0 |\n| Open risks | 3 |\n| Container (CRITICAL/HIGH) | 0 / 0 |\n\n### Open Risks\n- **R002** (HIGH): G7 mutation score below 95% for auth/ssrf/verifier (overall 55.9%)\n- **R004** (HIGH): SHARE_TOKEN_SECRET not set in deployed Cloud Run service\n- **R005** (HIGH): SESSION_SIGNING_SECRET not set in deployed Cloud Run service\n\n---\n*Auto-generated by hardening-dashboard workflow*\n*Protocol: PROJECT_OPS_V13_BLACK_VAULT_ENTERPRISE*\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #81</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @github-actions[bot]</code> (replace <code>20</code> with the amount, and <code>@github-actions[bot]</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "type:scan-task"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-09-25T18:26:36.028914+00:00"
   },
   {
     "id": "web3-mergemint-mint/mergemint-contracts-934",
@@ -160,7 +158,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T13:33:17.300098+00:00"
+    "last_audited": "2026-09-25T18:26:36.322929+00:00"
   },
   {
     "id": "web3-mergemint-mint/mergemint-contracts-932",
@@ -185,7 +183,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T13:33:17.589391+00:00"
+    "last_audited": "2026-09-25T18:26:36.614848+00:00"
   },
   {
     "id": "web3-mergemint-mint/mergemint-contracts-933",
@@ -210,33 +208,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T13:33:17.869875+00:00"
-  },
-  {
-    "id": "web3-mergemint-mint/mergemint-contracts-935",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "[Solidity] Emit events for batch retry attempts",
-    "url": "https://github.com/mergemint-mint/mergemint-contracts/issues/935",
-    "platform": "web3_github",
-    "repo_owner": "mergemint-mint",
-    "repo_name": "mergemint-contracts",
-    "issue_number": 935,
-    "org_handle": "mergemint-mint",
-    "org_name": "mergemint-mint/mergemint-contracts",
-    "body": "**Description**\n\nTask retries in `BountyRefresh` happen silently, making failures hard to debug on chain.\n\nThis issue adds a `TaskRetried` event with batch id, task id and attempt number.\n\n**Requirements and context**\n\n- Include batch id, task id and attempt\n\n**Suggested execution**\n\nFork the repo and create a branch\n\n```bash\ngit checkout -b feature/batch-retry-events\n```\n\nImplement changes\n\n- Add `TaskRetried` event in `BountyRefresh.sol`\n\nTest and commit\n\n- Assert event in `test/bounty/BountyRefresh.test.js`\n\n**Example commit message**\n\n```\nfeat(solidity): emit task retry events\n```",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "enhancement",
-      "Stellar Wave"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 3,
-    "last_audited": "2026-09-25T13:33:18.186480+00:00"
+    "last_audited": "2026-09-25T18:26:36.896263+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-1214",
@@ -262,7 +234,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-25T13:33:18.502606+00:00"
+    "last_audited": "2026-09-25T18:26:37.175915+00:00"
   },
   {
     "id": "web3-anthropics/claude-code-96705",
@@ -292,7 +264,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T13:33:18.838308+00:00"
+    "last_audited": "2026-09-25T18:26:37.485565+00:00"
   },
   {
     "id": "web3-johnephraim949-web/cypher-gridpay-contracts-114",
@@ -318,33 +290,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-25T13:33:19.144869+00:00"
-  },
-  {
-    "id": "web3-mergemint-mint/mergemint-contracts-947",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "[Docs] Bounty lifecycle state diagram",
-    "url": "https://github.com/mergemint-mint/mergemint-contracts/issues/947",
-    "platform": "web3_github",
-    "repo_owner": "mergemint-mint",
-    "repo_name": "mergemint-contracts",
-    "issue_number": 947,
-    "org_handle": "mergemint-mint",
-    "org_name": "mergemint-mint/mergemint-contracts",
-    "body": "**Description**\n\nBounty status transitions are spread across many mutations, and there is no single place showing which transitions are valid.\n\nThis issue adds a Mermaid state diagram to `docs/architecture.md` listing the error returned for each invalid transition.\n\n**Requirements and context**\n\n- Mermaid diagram\n- Include error for each invalid transition\n\n**Suggested execution**\n\nFork the repo and create a branch\n\n```bash\ngit checkout -b docs/lifecycle-diagram\n```\n\nImplement changes\n\n- Add to `docs/architecture.md`\n\nTest and commit\n\n- Verify diagram renders on GitHub\n\n**Example commit message**\n\n```\ndocs: add bounty lifecycle diagram\n```",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "documentation",
-      "Stellar Wave"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 3,
-    "last_audited": "2026-09-25T13:33:19.593676+00:00"
+    "last_audited": "2026-09-25T18:26:37.745042+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -369,7 +315,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-09-25T13:33:19.924410+00:00"
+    "last_audited": "2026-09-25T18:26:38.039327+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -395,7 +341,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-25T13:33:20.217666+00:00"
+    "last_audited": "2026-09-25T18:26:38.341053+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1295",
@@ -420,7 +366,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 14,
-    "last_audited": "2026-09-25T13:33:20.563843+00:00"
+    "last_audited": "2026-09-25T18:26:38.668323+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1293",
@@ -445,7 +391,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 9,
-    "last_audited": "2026-09-25T13:33:20.850097+00:00"
+    "last_audited": "2026-09-25T18:26:38.963974+00:00"
   },
   {
     "id": "gh-photoprism/photoprism-93",
@@ -470,7 +416,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 90,
-    "last_audited": "2026-09-25T13:33:21.147801+00:00"
+    "last_audited": "2026-09-25T18:26:39.252347+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-951",
@@ -496,7 +442,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 12,
-    "last_audited": "2026-09-25T13:33:21.426220+00:00"
+    "last_audited": "2026-09-25T18:26:39.551690+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -605,7 +551,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T13:33:21.742717+00:00"
+    "last_audited": "2026-09-25T18:26:39.898844+00:00"
   },
   {
     "id": "sec-OpenLedger-Foundation/Kora-Contract-819",
@@ -630,7 +576,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T13:33:22.021457+00:00"
+    "last_audited": "2026-09-25T18:26:40.192796+00:00"
   },
   {
     "id": "sec-Refract-Protocol/refract-backend-132",
@@ -655,7 +601,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T13:33:22.333924+00:00"
+    "last_audited": "2026-09-25T18:26:40.494219+00:00"
   },
   {
     "id": "sec-johnephraim949-web/cypher-gridpay-contracts-114",
@@ -680,7 +626,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-25T13:33:22.624693+00:00"
+    "last_audited": "2026-09-25T18:26:40.795120+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/ILN-Smart-Contract-923",
@@ -705,7 +651,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T13:33:22.936729+00:00"
+    "last_audited": "2026-09-25T18:26:41.056517+00:00"
   },
   {
     "id": "sec-Refract-Protocol/refract-contracts-115",
@@ -730,7 +676,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T13:33:23.221435+00:00"
+    "last_audited": "2026-09-25T18:26:41.353111+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -755,7 +701,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-25T13:33:23.504463+00:00"
+    "last_audited": "2026-09-25T18:26:41.676898+00:00"
   },
   {
     "id": "sec-FinesseStudioLab/Trivela-1310",
@@ -780,7 +726,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-25T13:33:23.807255+00:00"
+    "last_audited": "2026-09-25T18:26:41.986754+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -805,7 +751,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-25T13:33:24.135548+00:00"
+    "last_audited": "2026-09-25T18:26:42.269805+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -830,7 +776,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-25T13:33:24.442518+00:00"
+    "last_audited": "2026-09-25T18:26:42.563630+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -855,7 +801,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T13:33:24.710996+00:00"
+    "last_audited": "2026-09-25T18:26:42.871341+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -880,7 +826,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-25T13:33:25.024076+00:00"
+    "last_audited": "2026-09-25T18:26:43.207958+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -905,7 +851,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-25T13:33:25.334641+00:00"
+    "last_audited": "2026-09-25T18:26:43.486778+00:00"
   },
   {
     "id": "sec-Shackole/NeuroWealth-Smartcontract-72",
@@ -930,7 +876,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-25T13:33:25.616364+00:00"
+    "last_audited": "2026-09-25T18:26:43.789547+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -955,7 +901,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-25T13:33:25.878337+00:00"
+    "last_audited": "2026-09-25T18:26:44.044917+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -980,7 +926,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-09-25T13:33:26.159850+00:00"
+    "last_audited": "2026-09-25T18:26:44.345756+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1124",
@@ -1005,7 +951,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-25T13:33:26.433275+00:00"
+    "last_audited": "2026-09-25T18:26:44.641072+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -1030,7 +976,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-25T13:33:26.712274+00:00"
+    "last_audited": "2026-09-25T18:26:44.912804+00:00"
   },
   {
     "id": "sec-relayhop/ClaudeEarnSelf-runtime-988",
@@ -1055,7 +1001,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-25T13:33:26.965278+00:00"
+    "last_audited": "2026-09-25T18:26:45.189829+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1115",
@@ -1080,7 +1026,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-25T13:33:27.233392+00:00"
+    "last_audited": "2026-09-25T18:26:45.535924+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -1105,7 +1051,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-25T13:33:27.511302+00:00"
+    "last_audited": "2026-09-25T18:26:45.792061+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -1130,7 +1076,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-25T13:33:27.779188+00:00"
+    "last_audited": "2026-09-25T18:26:46.042068+00:00"
   },
   {
     "id": "sec-Akanimoh12/Stellar-Tipz-1394",
@@ -1155,7 +1101,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-25T13:33:28.047855+00:00"
+    "last_audited": "2026-09-25T18:26:46.326447+00:00"
   },
   {
     "id": "sec-abdulsalam-create/bounty-watch-27",
@@ -1180,7 +1126,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-25T13:33:28.328414+00:00"
+    "last_audited": "2026-09-25T18:26:46.569836+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -1205,7 +1151,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-25T13:33:28.613267+00:00"
+    "last_audited": "2026-09-25T18:26:46.861500+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -1230,7 +1176,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-25T13:33:28.882513+00:00"
+    "last_audited": "2026-09-25T18:26:47.136652+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1252,7 +1198,10 @@
       "vulnerability"
     ],
     "status": "active",
-    "solvability_score": 85.0
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 4,
+    "last_audited": "2026-09-25T18:26:47.455525+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -1274,7 +1223,10 @@
       "vulnerability"
     ],
     "status": "active",
-    "solvability_score": 85.0
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 5,
+    "last_audited": "2026-09-25T18:26:47.723308+00:00"
   },
   {
     "id": "gh-piotrwitek/typesafe-actions-139",
