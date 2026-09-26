@@ -19,7 +19,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-26T16:12:03.605639+00:00"
+    "last_audited": "2026-09-26T20:56:20.321658+00:00"
   },
   {
     "id": "gh-chenzilin100/StellarBladeTrainer-Releases-3",
@@ -41,7 +41,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-26T16:12:03.918327+00:00"
+    "last_audited": "2026-09-26T20:56:20.676144+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-82",
@@ -65,7 +65,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-26T16:12:04.203851+00:00"
+    "last_audited": "2026-09-26T20:56:21.025867+00:00"
   },
   {
     "id": "gh-strias-ai/embodied-ai-reservations-madrid-1",
@@ -87,7 +87,29 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-26T16:12:04.509256+00:00"
+    "last_audited": "2026-09-26T20:56:21.365907+00:00"
+  },
+  {
+    "id": "gh-dporkka/dev-plane-19",
+    "title": "Harden VCS runner against GIT_TERMINAL_PROMPT override",
+    "url": "https://github.com/dporkka/dev-plane/issues/19",
+    "platform": "opire",
+    "repo_owner": "dporkka",
+    "repo_name": "dev-plane",
+    "issue_number": 19,
+    "org_handle": "dporkka",
+    "org_name": "dporkka/dev-plane",
+    "body": "`packages/vcs/runner.go` documents that autonomous VCS operations must never block on terminal credential prompts, but `mergeEnv()` currently sets `GIT_TERMINAL_PROMPT=0` **before** applying caller overrides. A caller can therefore pass `GIT_TERMINAL_PROMPT=1` and re-enable blocking prompts.\n\nProposed fix:\n- apply caller environment overrides first\n- force `GIT_TERMINAL_PROMPT=0` last (or explicitly reject attempts to override it)\n- extend `TestMergeEnvDisablesTerminalPrompts` with an override map containing `GIT_TERMINAL_PROMPT=1` and assert the merged environment still contains `GIT_TERMINAL_PROMPT=0`\n\nDo not edit this symbol until the repository-required GitNexus checks can be run. `AGENTS.md` requires `impact({target: \"mergeEnv\", direction: \"upstream\"})` before editing and `detect_changes({scope: \"compare\", base_ref: \"main\"})` before committing. GitNexus is not currently available in the connected toolset.\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #19</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @dporkka</code> (replace <code>20</code> with the amount, and <code>@dporkka</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 1,
+    "last_audited": "2026-09-26T20:56:21.717240+00:00"
   },
   {
     "id": "gh-mrzhangkris/dsh-subagent-roster-1",
@@ -109,7 +131,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-26T16:12:04.789614+00:00"
+    "last_audited": "2026-09-26T20:56:22.027850+00:00"
   },
   {
     "id": "gh-NightVibes33/Filza-27-46",
@@ -131,31 +153,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-26T16:12:05.115437+00:00"
-  },
-  {
-    "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-81",
-    "title": "[DASHBOARD] Hardening Status \u2014 2026-09-14",
-    "url": "https://github.com/kostasuser01gr/VoiceAI-Support-Dashboard/issues/81",
-    "platform": "opire",
-    "repo_owner": "kostasuser01gr",
-    "repo_name": "VoiceAI-Support-Dashboard",
-    "issue_number": 81,
-    "org_handle": "kostasuser01gr",
-    "org_name": "kostasuser01gr/VoiceAI-Support-Dashboard",
-    "body": "## Hardening Dashboard \u2014 2026-09-14\n\n| Metric | Value |\n|--------|-------|\n| Protocol | PROJECT_OPS_V13_BLACK_VAULT_ENTERPRISE |\n| Last Commit | 5734063 |\n| Tests | N/A passing |\n| Coverage (lines) | N/A% |\n| Coverage (branches) | N/A% |\n| Mutation (rbac.ts) | N/A% |\n| Mutation (overall) | N/A% |\n| SAST findings | 0 |\n| Open findings | 0 |\n| Open risks | 3 |\n| Container (CRITICAL/HIGH) | 0 / 0 |\n\n### Open Risks\n- **R002** (HIGH): G7 mutation score below 95% for auth/ssrf/verifier (overall 55.9%)\n- **R004** (HIGH): SHARE_TOKEN_SECRET not set in deployed Cloud Run service\n- **R005** (HIGH): SESSION_SIGNING_SECRET not set in deployed Cloud Run service\n\n---\n*Auto-generated by hardening-dashboard workflow*\n*Protocol: PROJECT_OPS_V13_BLACK_VAULT_ENTERPRISE*\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #81</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @github-actions[bot]</code> (replace <code>20</code> with the amount, and <code>@github-actions[bot]</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "type:scan-task"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-09-26T16:12:05.479433+00:00"
+    "last_audited": "2026-09-26T20:56:22.427551+00:00"
   },
   {
     "id": "web3-mergemint-mint/mergemint-contracts-934",
@@ -181,7 +179,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-26T16:12:05.800574+00:00"
+    "last_audited": "2026-09-26T20:56:22.769875+00:00"
   },
   {
     "id": "web3-mergemint-mint/mergemint-contracts-932",
@@ -207,7 +205,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-26T16:12:06.121464+00:00"
+    "last_audited": "2026-09-26T20:56:23.125286+00:00"
   },
   {
     "id": "web3-mergemint-mint/mergemint-contracts-933",
@@ -233,7 +231,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-26T16:12:06.431329+00:00"
+    "last_audited": "2026-09-26T20:56:23.517483+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-1214",
@@ -259,7 +257,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-26T16:12:06.729645+00:00"
+    "last_audited": "2026-09-26T20:56:23.854691+00:00"
   },
   {
     "id": "web3-anthropics/claude-code-96705",
@@ -289,7 +287,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-26T16:12:07.094863+00:00"
+    "last_audited": "2026-09-26T20:56:24.244087+00:00"
   },
   {
     "id": "web3-johnephraim949-web/cypher-gridpay-contracts-114",
@@ -316,7 +314,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-26T16:12:07.415528+00:00"
+    "last_audited": "2026-09-26T20:56:24.609717+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -341,7 +339,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-09-26T16:12:07.772341+00:00"
+    "last_audited": "2026-09-26T20:56:24.992857+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -367,7 +365,34 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-26T16:12:08.108864+00:00"
+    "last_audited": "2026-09-26T20:56:25.352408+00:00"
+  },
+  {
+    "id": "web3-SoroWill/sorowill-contracts-378",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "distribute can compute the keeper bounty from one token but pay it out of another",
+    "url": "https://github.com/SoroWill/sorowill-contracts/issues/378",
+    "platform": "web3_github",
+    "repo_owner": "SoroWill",
+    "repo_name": "sorowill-contracts",
+    "issue_number": 378,
+    "org_handle": "SoroWill",
+    "org_name": "SoroWill/sorowill-contracts",
+    "body": "## Description\n\nThe bounty is computed from the first token whose share rounds above zero (`bounty_amount == 0` check), and the `available` amount is reduced only for that token. The payout later happens inside the first entry of `transfer_plan`. If the first token's bounty rounds to 0 but a later token's does not, the bounty is calculated against the later token yet transferred using the first token's client, and the first token was never reduced to make room. That either pays the keeper from other beneficiaries' funds or aborts the release with an insufficient balance.\n\n## Technical Context\n\n- `distribute` in `contracts/will/src/lib.rs` (around lines 3370-3375 for the calculation and 3454-3461 for the payment).\n- Only the first token entry in `transfer_plan` pays the bounty and then zeroes `bounty_amount`.\n\n## Acceptance Criteria\n\n- [ ] The bounty token is chosen explicitly and the payment uses that same token\n- [ ] A test uses a multi-token will where the first token's bounty rounds to zero\n- [ ] Rounding behaviour is documented",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "bug",
+      "High",
+      "Stellar Wave"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 7,
+    "last_audited": "2026-09-26T20:56:25.879805+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1295",
@@ -392,7 +417,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 14,
-    "last_audited": "2026-09-26T16:12:08.410151+00:00"
+    "last_audited": "2026-09-26T20:56:26.213593+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1293",
@@ -417,7 +442,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 9,
-    "last_audited": "2026-09-26T16:12:08.705513+00:00"
+    "last_audited": "2026-09-26T20:56:26.546072+00:00"
   },
   {
     "id": "gh-photoprism/photoprism-93",
@@ -442,7 +467,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 90,
-    "last_audited": "2026-09-26T16:12:09.018960+00:00"
+    "last_audited": "2026-09-26T20:56:26.880608+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-951",
@@ -468,7 +493,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 12,
-    "last_audited": "2026-09-26T16:12:09.320929+00:00"
+    "last_audited": "2026-09-26T20:56:27.223874+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -577,7 +602,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-26T16:12:09.606475+00:00"
+    "last_audited": "2026-09-26T20:56:27.564730+00:00"
   },
   {
     "id": "sec-Iris-IV/ProofOfHeart-frontend-1465",
@@ -602,7 +627,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-26T16:12:09.924417+00:00"
+    "last_audited": "2026-09-26T20:56:27.918766+00:00"
   },
   {
     "id": "sec-StellarTickets/blockchain-42",
@@ -627,7 +652,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-26T16:12:10.214082+00:00"
+    "last_audited": "2026-09-26T20:56:28.240854+00:00"
   },
   {
     "id": "sec-OpenLedger-Foundation/Kora-Contract-819",
@@ -652,7 +677,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-26T16:12:10.532495+00:00"
+    "last_audited": "2026-09-26T20:56:28.586036+00:00"
   },
   {
     "id": "sec-Refract-Protocol/refract-backend-132",
@@ -677,7 +702,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-26T16:12:10.831949+00:00"
+    "last_audited": "2026-09-26T20:56:28.929361+00:00"
   },
   {
     "id": "sec-johnephraim949-web/cypher-gridpay-contracts-114",
@@ -702,7 +727,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-26T16:12:11.105447+00:00"
+    "last_audited": "2026-09-26T20:56:29.252141+00:00"
   },
   {
     "id": "sec-Refract-Protocol/refract-contracts-115",
@@ -727,7 +752,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-26T16:12:11.383909+00:00"
+    "last_audited": "2026-09-26T20:56:29.585519+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -752,7 +777,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-26T16:12:11.668030+00:00"
+    "last_audited": "2026-09-26T20:56:29.907403+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -777,7 +802,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-26T16:12:11.977858+00:00"
+    "last_audited": "2026-09-26T20:56:30.252016+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -802,7 +827,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-26T16:12:12.277598+00:00"
+    "last_audited": "2026-09-26T20:56:30.604379+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -827,7 +852,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-26T16:12:12.625558+00:00"
+    "last_audited": "2026-09-26T20:56:30.987992+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -852,7 +877,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-26T16:12:12.945378+00:00"
+    "last_audited": "2026-09-26T20:56:31.332861+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -877,7 +902,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-26T16:12:13.253412+00:00"
+    "last_audited": "2026-09-26T20:56:31.684727+00:00"
   },
   {
     "id": "sec-Shackole/NeuroWealth-Smartcontract-72",
@@ -902,7 +927,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-26T16:12:13.570476+00:00"
+    "last_audited": "2026-09-26T20:56:32.025066+00:00"
   },
   {
     "id": "sec-abdulsalam-create/bounty-watch-27",
@@ -927,7 +952,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-26T16:12:13.943270+00:00"
+    "last_audited": "2026-09-26T20:56:32.349356+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -952,7 +977,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-26T16:12:14.209661+00:00"
+    "last_audited": "2026-09-26T20:56:32.659042+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -977,7 +1002,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-09-26T16:12:14.500900+00:00"
+    "last_audited": "2026-09-26T20:56:32.993790+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1124",
@@ -1002,7 +1027,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-26T16:12:14.841759+00:00"
+    "last_audited": "2026-09-26T20:56:33.328593+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -1027,7 +1052,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-26T16:12:15.146945+00:00"
+    "last_audited": "2026-09-26T20:56:33.640827+00:00"
   },
   {
     "id": "sec-relayhop/ClaudeEarnSelf-runtime-988",
@@ -1052,7 +1077,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-26T16:12:15.491315+00:00"
+    "last_audited": "2026-09-26T20:56:33.956388+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1115",
@@ -1077,7 +1102,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-26T16:12:15.766094+00:00"
+    "last_audited": "2026-09-26T20:56:34.291880+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -1102,7 +1127,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-26T16:12:16.047316+00:00"
+    "last_audited": "2026-09-26T20:56:34.621926+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -1127,7 +1152,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-26T16:12:16.323415+00:00"
+    "last_audited": "2026-09-26T20:56:34.935885+00:00"
   },
   {
     "id": "sec-Akanimoh12/Stellar-Tipz-1394",
@@ -1152,7 +1177,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-26T16:12:16.593623+00:00"
+    "last_audited": "2026-09-26T20:56:35.253687+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -1177,7 +1202,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-26T16:12:16.889170+00:00"
+    "last_audited": "2026-09-26T20:56:35.582472+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -1202,7 +1227,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-26T16:12:17.172539+00:00"
+    "last_audited": "2026-09-26T20:56:35.922266+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1224,10 +1249,7 @@
       "vulnerability"
     ],
     "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 4,
-    "last_audited": "2026-09-26T16:12:17.482202+00:00"
+    "solvability_score": 85.0
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -1647,30 +1669,6 @@
     "reward_formatted": "$100",
     "tech": [
       "Design"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 50.0
-  },
-  {
-    "id": "web3-SoroWill/sorowill-contracts-378",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "distribute can compute the keeper bounty from one token but pay it out of another",
-    "url": "https://github.com/SoroWill/sorowill-contracts/issues/378",
-    "platform": "web3_github",
-    "repo_owner": "SoroWill",
-    "repo_name": "sorowill-contracts",
-    "issue_number": 378,
-    "org_handle": "SoroWill",
-    "org_name": "SoroWill/sorowill-contracts",
-    "body": "## Description\n\nThe bounty is computed from the first token whose share rounds above zero (`bounty_amount == 0` check), and the `available` amount is reduced only for that token. The payout later happens inside the first entry of `transfer_plan`. If the first token's bounty rounds to 0 but a later token's does not, the bounty is calculated against the later token yet transferred using the first token's client, and the first token was never reduced to make room. That either pays the keeper from other beneficiaries' funds or aborts the release with an insufficient balance.\n\n## Technical Context\n\n- `distribute` in `contracts/will/src/lib.rs` (around lines 3370-3375 for the calculation and 3454-3461 for the payment).\n- Only the first token entry in `transfer_plan` pays the bounty and then zeroes `bounty_amount`.\n\n## Acceptance Criteria\n\n- [ ] The bounty token is chosen explicitly and the payment uses that same token\n- [ ] A test uses a multi-token will where the first token's bounty rounds to zero\n- [ ] Rounding behaviour is documented",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "bug",
-      "High",
-      "Stellar Wave"
     ],
     "status": "active",
     "competitor_prs": 0,
