@@ -19,7 +19,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-26T11:11:27.271114+00:00"
+    "last_audited": "2026-09-26T16:12:03.605639+00:00"
   },
   {
     "id": "gh-chenzilin100/StellarBladeTrainer-Releases-3",
@@ -41,7 +41,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-26T11:11:27.600107+00:00"
+    "last_audited": "2026-09-26T16:12:03.918327+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-82",
@@ -65,7 +65,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-26T11:11:27.929537+00:00"
+    "last_audited": "2026-09-26T16:12:04.203851+00:00"
   },
   {
     "id": "gh-strias-ai/embodied-ai-reservations-madrid-1",
@@ -87,7 +87,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-26T11:11:28.237094+00:00"
+    "last_audited": "2026-09-26T16:12:04.509256+00:00"
   },
   {
     "id": "gh-mrzhangkris/dsh-subagent-roster-1",
@@ -109,7 +109,29 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-26T11:11:28.547588+00:00"
+    "last_audited": "2026-09-26T16:12:04.789614+00:00"
+  },
+  {
+    "id": "gh-NightVibes33/Filza-27-46",
+    "title": "/var/mobile/Library/CallServices/Greetings/default/",
+    "url": "https://github.com/NightVibes33/Filza-27/issues/46",
+    "platform": "opire",
+    "repo_owner": "NightVibes33",
+    "repo_name": "Filza-27",
+    "issue_number": 46,
+    "org_handle": "NightVibes33",
+    "org_name": "NightVibes33/Filza-27",
+    "body": "/var/mobile/Library/CallServices/Greetings/default/\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #46</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @wcao2312</code> (replace <code>20</code> with the amount, and <code>@wcao2312</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 2,
+    "last_audited": "2026-09-26T16:12:05.115437+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-81",
@@ -133,7 +155,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-26T11:11:28.884783+00:00"
+    "last_audited": "2026-09-26T16:12:05.479433+00:00"
   },
   {
     "id": "web3-mergemint-mint/mergemint-contracts-934",
@@ -159,7 +181,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-26T11:11:29.221766+00:00"
+    "last_audited": "2026-09-26T16:12:05.800574+00:00"
   },
   {
     "id": "web3-mergemint-mint/mergemint-contracts-932",
@@ -185,7 +207,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-26T11:11:29.566517+00:00"
+    "last_audited": "2026-09-26T16:12:06.121464+00:00"
   },
   {
     "id": "web3-mergemint-mint/mergemint-contracts-933",
@@ -211,7 +233,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-26T11:11:29.888179+00:00"
+    "last_audited": "2026-09-26T16:12:06.431329+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-1214",
@@ -237,7 +259,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-26T11:11:30.217117+00:00"
+    "last_audited": "2026-09-26T16:12:06.729645+00:00"
   },
   {
     "id": "web3-anthropics/claude-code-96705",
@@ -267,7 +289,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-26T11:11:30.593657+00:00"
+    "last_audited": "2026-09-26T16:12:07.094863+00:00"
   },
   {
     "id": "web3-johnephraim949-web/cypher-gridpay-contracts-114",
@@ -286,14 +308,15 @@
     "reward_formatted": "$100",
     "tech": [
       "documentation",
-      "security"
+      "security",
+      "Stellar Wave"
     ],
     "status": "active",
     "competitor_prs": 0,
     "solvability_score": 100.0,
     "live_status": "open",
-    "comments_count": 3,
-    "last_audited": "2026-09-26T11:11:30.994046+00:00"
+    "comments_count": 5,
+    "last_audited": "2026-09-26T16:12:07.415528+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -318,7 +341,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-09-26T11:11:31.338486+00:00"
+    "last_audited": "2026-09-26T16:12:07.772341+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -344,7 +367,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-26T11:11:31.644528+00:00"
+    "last_audited": "2026-09-26T16:12:08.108864+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1295",
@@ -369,7 +392,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 14,
-    "last_audited": "2026-09-26T11:11:31.995136+00:00"
+    "last_audited": "2026-09-26T16:12:08.410151+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1293",
@@ -394,7 +417,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 9,
-    "last_audited": "2026-09-26T11:11:32.318209+00:00"
+    "last_audited": "2026-09-26T16:12:08.705513+00:00"
   },
   {
     "id": "gh-photoprism/photoprism-93",
@@ -419,7 +442,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 90,
-    "last_audited": "2026-09-26T11:11:32.646676+00:00"
+    "last_audited": "2026-09-26T16:12:09.018960+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-951",
@@ -445,7 +468,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 12,
-    "last_audited": "2026-09-26T11:11:32.973519+00:00"
+    "last_audited": "2026-09-26T16:12:09.320929+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -554,7 +577,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-26T11:11:33.335202+00:00"
+    "last_audited": "2026-09-26T16:12:09.606475+00:00"
   },
   {
     "id": "sec-Iris-IV/ProofOfHeart-frontend-1465",
@@ -579,7 +602,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-26T11:11:33.678796+00:00"
+    "last_audited": "2026-09-26T16:12:09.924417+00:00"
   },
   {
     "id": "sec-StellarTickets/blockchain-42",
@@ -604,7 +627,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-26T11:11:34.027992+00:00"
+    "last_audited": "2026-09-26T16:12:10.214082+00:00"
   },
   {
     "id": "sec-OpenLedger-Foundation/Kora-Contract-819",
@@ -629,7 +652,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-26T11:11:34.363247+00:00"
+    "last_audited": "2026-09-26T16:12:10.532495+00:00"
   },
   {
     "id": "sec-Refract-Protocol/refract-backend-132",
@@ -654,32 +677,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-26T11:11:34.676227+00:00"
-  },
-  {
-    "id": "sec-Invoice-Liquidity-Network/ILN-Smart-Contract-923",
-    "domain": "security",
-    "title": "Design and launch a post-mainnet bug bounty program",
-    "url": "https://github.com/Invoice-Liquidity-Network/ILN-Smart-Contract/issues/923",
-    "platform": "github_security",
-    "repo_owner": "Invoice-Liquidity-Network",
-    "repo_name": "ILN-Smart-Contract",
-    "issue_number": 923,
-    "org_handle": "Invoice-Liquidity-Network",
-    "org_name": "Invoice-Liquidity-Network/ILN-Smart-Contract",
-    "body": "\n## Description\nNo bug bounty program currently exists per docs/security.md -- define scope, reward tiers, safe-harbor terms extending the existing disclosure policy, and a funding source for payouts.\n\n## Requirements and Context\n- Define program scope (in-scope contracts/surfaces, out-of-scope items), severity-to-reward tiers, and safe-harbor legal terms building on the existing responsible-disclosure policy\n- Decide and secure a funding source for payouts (treasury allocation, external platform sponsorship)\n- Publish the program in docs/security.md and on a bounty-platform listing if one is used\n\n## Suggested Execution\n```\ngit checkout -b docs/post-mainnet-bug-bounty-program\n```\n- Define scope, reward tiers, and safe-harbor terms\n- Secure funding source\n- Publish program\n\n## Guidelines\n- **Complexity:** High (200 pts) -- **Category:** POST-AUDIT REMEDIATION & PUBLIC SECURITY PROGRAM READINESS\n- Match the existing code style, error-handling, and test patterns in the affected crate/package.\n- Cover the change with unit/integration tests; update any `docs/` file this issue references.\n- Open the PR against `dev`, link this issue (`Closes #119`), and summarize the change plus any residual/accepted risk.\n- Suggested commit message style: `docs: design and launch post-mainnet bug bounty program`\n\n<!-- Format follows https://www.drips.network/blog/posts/creating-meaningful-issues -->\n",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 4,
-    "last_audited": "2026-09-26T11:11:35.007684+00:00"
+    "last_audited": "2026-09-26T16:12:10.831949+00:00"
   },
   {
     "id": "sec-johnephraim949-web/cypher-gridpay-contracts-114",
@@ -703,8 +701,8 @@
     "status": "active",
     "solvability_score": 85.0,
     "live_status": "open",
-    "comments_count": 3,
-    "last_audited": "2026-09-26T11:11:35.305418+00:00"
+    "comments_count": 5,
+    "last_audited": "2026-09-26T16:12:11.105447+00:00"
   },
   {
     "id": "sec-Refract-Protocol/refract-contracts-115",
@@ -729,7 +727,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-26T11:11:35.627986+00:00"
+    "last_audited": "2026-09-26T16:12:11.383909+00:00"
+  },
+  {
+    "id": "sec-mikalv/msgr-213",
+    "domain": "security",
+    "title": "[P2] Etabler bug bounty program",
+    "url": "https://github.com/mikalv/msgr/issues/213",
+    "platform": "github_security",
+    "repo_owner": "mikalv",
+    "repo_name": "msgr",
+    "issue_number": 213,
+    "org_handle": "mikalv",
+    "org_name": "mikalv/msgr",
+    "body": "## Beskrivelse\n\nIngen formelt bug bounty program for sikkerhetsrapportering.\n\n## N\u00e5v\u00e6rende status\n\n- Ingen SECURITY.md\n- Ingen responsible disclosure policy\n- `architecture.md` nevner bug bounty\n\n## Akseptansekriterier\n\n- [ ] SECURITY.md med disclosure policy\n- [ ] Bug bounty plattform (HackerOne, Bugcrowd, eller egen)\n- [ ] Reward tiers definert\n- [ ] Response SLA dokumentert\n- [ ] Kontaktinformasjon for sikkerhetsteam\n\n## Referanser\n\n- `architecture.md` seksjon 5.5: \"bug bounty\"\n\n## Prioritet\n\n\ud83d\udfe1 **P2 - Medium prioritet**",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 1,
+    "last_audited": "2026-09-26T16:12:11.668030+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -754,7 +777,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-26T11:11:35.985608+00:00"
+    "last_audited": "2026-09-26T16:12:11.977858+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -779,7 +802,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-26T11:11:36.318487+00:00"
+    "last_audited": "2026-09-26T16:12:12.277598+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -804,7 +827,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-26T11:11:36.720132+00:00"
+    "last_audited": "2026-09-26T16:12:12.625558+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -829,7 +852,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-26T11:11:37.055344+00:00"
+    "last_audited": "2026-09-26T16:12:12.945378+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -854,7 +877,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-26T11:11:37.394351+00:00"
+    "last_audited": "2026-09-26T16:12:13.253412+00:00"
   },
   {
     "id": "sec-Shackole/NeuroWealth-Smartcontract-72",
@@ -879,232 +902,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-26T11:11:37.728138+00:00"
-  },
-  {
-    "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
-    "domain": "security",
-    "title": "[Bounty] bitcoin bounty",
-    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1570",
-    "platform": "github_security",
-    "repo_owner": "zhangjiayang6835-cyber",
-    "repo_name": "bounty-plaza",
-    "issue_number": 1570,
-    "org_handle": "zhangjiayang6835-cyber",
-    "org_name": "zhangjiayang6835-cyber/bounty-plaza",
-    "body": "### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/OmniBlocks/bountyfarmer/issues/6\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\nbitcoin bounty\n\nYou will get 99999999 btc if you add a saas to boxy \ud83d\udcb0\ud83d\udcb0\ud83d\udcb0\ud83d\udcb0\ud83d\udcb0\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n124999998 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$99,999,999\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n",
-    "reward_usd": 99.0,
-    "reward_formatted": "$99",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 1,
-    "last_audited": "2026-09-26T11:11:38.064095+00:00"
-  },
-  {
-    "id": "sec-relayhop/sn-monetization-runtime-1116",
-    "domain": "security",
-    "title": "[radar] SN open bounty 2026-09-14T19:16",
-    "url": "https://github.com/relayhop/sn-monetization-runtime/issues/1116",
-    "platform": "github_security",
-    "repo_owner": "relayhop",
-    "repo_name": "sn-monetization-runtime",
-    "issue_number": 1116,
-    "org_handle": "relayhop",
-    "org_name": "relayhop/sn-monetization-runtime",
-    "body": "New SN OPEN_BOUNTY detected:\n\n```\n1570125\tStacker_Stocks\t2\t286\t10000\t17\t32.9\t9274\t27415\trecent@Stacker_Stocks\tOPEN_BOUNTY,SELF_POST_OPP\tDaily Stock Discussion Sunday\u2019s Weekly Close Contest \ud83d\udfe5 or \ud83d\udfe9? 30k sat award!\n```",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 7,
-    "last_audited": "2026-09-26T11:11:38.414177+00:00"
-  },
-  {
-    "id": "sec-relayhop/sn-monetization-runtime-1124",
-    "domain": "security",
-    "title": "[radar] SN open bounty 2026-09-20T11:15",
-    "url": "https://github.com/relayhop/sn-monetization-runtime/issues/1124",
-    "platform": "github_security",
-    "repo_owner": "relayhop",
-    "repo_name": "sn-monetization-runtime",
-    "issue_number": 1124,
-    "org_handle": "relayhop",
-    "org_name": "relayhop/sn-monetization-runtime",
-    "body": "New SN OPEN_BOUNTY detected:\n\n```\n1577504\tStacker_Stocks\t2\t51\t10000\t1\t0.3\t9274\t27632\trecent@Stacker_Stocks|top@Stacker_Stocks\tOPEN_BOUNTY,LOW_COMP,FRESH\tDaily Stock Discussion Sunday\u2019s Weekly Close Contest \ud83d\udfe5 or \ud83d\udfe9? 40k sats\n```",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 2,
-    "last_audited": "2026-09-26T11:11:38.753761+00:00"
-  },
-  {
-    "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
-    "domain": "security",
-    "title": "[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Mass Assignment in User Profi",
-    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/281",
-    "platform": "github_security",
-    "repo_owner": "zhangjiayang6835-cyber",
-    "repo_name": "bounty-plaza",
-    "issue_number": 281,
-    "org_handle": "zhangjiayang6835-cyber",
-    "org_name": "zhangjiayang6835-cyber/bounty-plaza",
-    "body": "### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/220\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Mass Assignment in User Profile Update\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/214\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [BUG] Mass Assignment in User Profile Update \u2192 Privil\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/120\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [BUG] Mass Assignment in User Profile Update \u2192 Privilege Escal\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/83\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [BUG] Mass Assignment in User Profile Update \u2192 Privilege Escalation $12\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/19\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [BUG] Mass Assignment in User Profile Update \u2192 Privilege Escalation $120\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/ai-research/issues/964\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[BUG] Mass Assignment in User Profile Update \u2192 Privilege Escalation $120\n\n## Mass Assignment \u2192 \u6743\u9650\u63d0\u5347\n\n**\u96be\u5ea6**: Medium | **\u8d4f\u91d1**: $120\n\n### \u6f0f\u6d1e\u63cf\u8ff0\n\u7528\u6237\u8d44\u6599\u66f4\u65b0\u63a5\u53e3\u76f4\u63a5\u7ed1\u5b9a\u6240\u6709\u8bf7\u6c42\u53c2\u6570\u5230\u6a21\u578b\uff1a`User.update(params)`\u3002\u653b\u51fb\u8005\u53ef\u9644\u52a0 `role=admin` \u6216 `is_admin=true` \u53c2\u6570\u63d0\u5347\u4e3a\u7ba1\u7406\u5458\u3002\n\n### \u8981\u6c42\n\u4f7f\u7528\u767d\u540d\u5355\u53c2\u6570\u7ed1\u5b9a / DTO \u6a21\u5f0f / \u660e\u786e\u6307\u5b9a\u5141\u8bb8\u66f4\u65b0\u7684\u5b57\u6bb5\u3002\n\n### \u9a8c\u6536\u6807\u51c6\n- [ ] \u5b9a\u4e49\u53ef\u66f4\u65b0\u5b57\u6bb5\u767d\u540d\u5355\n- [ ] \u7981\u6b62\u6279\u91cf\u8d4b\u503c\u654f\u611f\u5b57\u6bb5\n- [ ] \u4f7f\u7528 ViewModel/DTO \u6a21\u5f0f\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n150 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$120\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n150 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$120\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n150 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$120\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n150 coins\n\n### \u771f\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n150 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$120\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n",
-    "reward_usd": 12.0,
-    "reward_formatted": "$12",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 4,
-    "last_audited": "2026-09-26T11:11:39.072735+00:00"
-  },
-  {
-    "id": "sec-relayhop/ClaudeEarnSelf-runtime-988",
-    "domain": "security",
-    "title": "[demand] high-priority 2026-09-15T23:08",
-    "url": "https://github.com/relayhop/ClaudeEarnSelf-runtime/issues/988",
-    "platform": "github_security",
-    "repo_owner": "relayhop",
-    "repo_name": "ClaudeEarnSelf-runtime",
-    "issue_number": 988,
-    "org_handle": "relayhop",
-    "org_name": "relayhop/ClaudeEarnSelf-runtime",
-    "body": "Demand-side radar \u9ad8\u512a\u5148\u8a0a\u865f:\n\n```\n6\tsn/bitcoin\t1.1\t-\tOPEN_NEED,LOW_COMP\thttps://stacker.news/items/1573009\tWhat would you want your signing device  manufacturer to do if there's vulns?\n5\tgithub\t0.2\t$100\tOPEN_ISSUE,LOW_COMP\thttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1559\t[Bounty] $100 BOUNTY FOR IMPLEMENTING A FOREVER IF BLOCK INTO OMNIBLOCKS\n5\tgithub\t0.2\t$500\tOPEN_ISSUE,LOW_COMP\thttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1558\t[Bounty] Reverse bounty\n```",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 1,
-    "last_audited": "2026-09-26T11:11:39.387058+00:00"
-  },
-  {
-    "id": "sec-relayhop/sn-monetization-runtime-1115",
-    "domain": "security",
-    "title": "[radar] SN open bounty 2026-09-14T13:54",
-    "url": "https://github.com/relayhop/sn-monetization-runtime/issues/1115",
-    "platform": "github_security",
-    "repo_owner": "relayhop",
-    "repo_name": "sn-monetization-runtime",
-    "issue_number": 1115,
-    "org_handle": "relayhop",
-    "org_name": "relayhop/sn-monetization-runtime",
-    "body": "New SN OPEN_BOUNTY detected:\n\n```\n1570125\tStacker_Stocks\t2\t286\t10000\t17\t27.5\t9274\t27409\trecent@Stacker_Stocks\tOPEN_BOUNTY,SELF_POST_OPP\tDaily Stock Discussion Sunday\u2019s Weekly Close Contest \ud83d\udfe5 or \ud83d\udfe9? 30k sat award!\n```",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 5,
-    "last_audited": "2026-09-26T11:11:39.735088+00:00"
-  },
-  {
-    "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
-    "domain": "security",
-    "title": "[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Python Pickle Deseri",
-    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/302",
-    "platform": "github_security",
-    "repo_owner": "zhangjiayang6835-cyber",
-    "repo_name": "bounty-plaza",
-    "issue_number": 302,
-    "org_handle": "zhangjiayang6835-cyber",
-    "org_name": "zhangjiayang6835-cyber/bounty-plaza",
-    "body": "### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/263\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Python Pickle Deserialization\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/239\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Python Pickle Deserialization RCE via \n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/197\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [BUG] Python Pickle Deserialization RCE via Cache $20\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/137\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [BUG] Python Pickle Deserialization RCE via Cache $200\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/66\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [BUG] Python Pickle Deserialization RCE via Cache $200\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/35\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [BUG] Python Pickle Deserialization RCE via Cache $200\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/ai-research/issues/948\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[BUG] Python Pickle Deserialization RCE via Cache $200\n\n## Pickle \u53cd\u5e8f\u5217\u5316 RCE\uff08\u901a\u8fc7\u7f13\u5b58\u7cfb\u7edf\uff09\n\n**\u96be\u5ea6**: Expert | **\u8d4f\u91d1**: $200\n\n### \u6f0f\u6d1e\u63cf\u8ff0\nRedis \u7f13\u5b58\u4e2d\u5b58\u50a8\u4e86 `pickle.dumps()` \u5e8f\u5217\u5316\u7684\u7528\u6237 session\u3002\u653b\u51fb\u8005\u53ef\u5199\u5165\u6076\u610f pickle payload\uff0c\u5f53\u670d\u52a1\u7aef `pickle.loads()` \u53cd\u5e8f\u5217\u5316\u65f6\u89e6\u53d1\u4efb\u610f\u4ee3\u7801\u6267\u884c\u3002\n\n### \u8981\u6c42\n\u66ff\u6362\u4e3a JSON \u5e8f\u5217\u5316 / \u4f7f\u7528 `pickle` \u7684\u66ff\u4ee3\u65b9\u6848 / \u52a0\u7b7e\u9a8c\u8bc1\u3002\n\n### \u9a8c\u6536\u6807\u51c6\n- [ ] \u4e0d\u4f7f\u7528 pickle \u5904\u7406\u4e0d\u53ef\u4fe1\u6570\u636e\n- [ ] \u6216\u4f7f\u7528 HMAC \u7b7e\u540d\u9a8c\u8bc1\u5b8c\u6574\u6027\n- [ ] \u7f13\u5b58\u6570\u636e\u52a0\u7b7e\u9632\u7be1\u6539\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n250 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$200\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n250 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$200\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n250 coi\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n250 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$200\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n",
-    "reward_usd": 20.0,
-    "reward_formatted": "$20",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 4,
-    "last_audited": "2026-09-26T11:11:40.052802+00:00"
-  },
-  {
-    "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
-    "domain": "security",
-    "title": "[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Java RMI Deserializa",
-    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/287",
-    "platform": "github_security",
-    "repo_owner": "zhangjiayang6835-cyber",
-    "repo_name": "bounty-plaza",
-    "issue_number": 287,
-    "org_handle": "zhangjiayang6835-cyber",
-    "org_name": "zhangjiayang6835-cyber/bounty-plaza",
-    "body": "### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/277\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Java RMI Deserialization \u2192 Re\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/229\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Java RMI Deserialization \u2192 Remote Code\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/206\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [BUG] Java RMI Deserialization \u2192 Remote Code Executio\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/128\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [BUG] Java RMI Deserialization \u2192 Remote Code Execution $200\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/75\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [BUG] Java RMI Deserialization \u2192 Remote Code Execution $200\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/27\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [BUG] Java RMI Deserialization \u2192 Remote Code Execution $200\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/ai-research/issues/956\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[BUG] Java RMI Deserialization \u2192 Remote Code Execution $200\n\n## Java RMI \u53cd\u5e8f\u5217\u5316 RCE\n\n**\u96be\u5ea6**: Expert | **\u8d4f\u91d1**: $200\n\n### \u6f0f\u6d1e\u63cf\u8ff0\nJava RMI \u7aef\u70b9\u66b4\u9732\u5728\u516c\u7f51\uff0c\u653b\u51fb\u8005\u53ef\u901a\u8fc7 ysoserial \u5de5\u5177\u53d1\u9001\u7cbe\u5fc3\u6784\u9020\u7684\u53cd\u5e8f\u5217\u5316 payload\uff0c\u89e6\u53d1 `Runtime.exec()`\u3002\n\n### \u8981\u6c42\n\u542f\u7528 RMI SSL + \u53cd\u5e8f\u5217\u5316\u8fc7\u6ee4\u5668\uff08JEP 290\uff09+ \u9632\u706b\u5899\u9650\u5236\u3002\n\n### \u9a8c\u6536\u6807\u51c6\n- [ ] \u90e8\u7f72 SerialFilter / JEP 290\n- [ ] \u9650\u5236 RMI \u7ed1\u5b9a\u5730\u5740\n- [ ] \u4ec5\u5141\u8bb8\u767d\u540d\u5355\u7c7b\u53cd\u5e8f\u5217\u5316\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n250 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$200\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n250 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$200\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n250 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08U\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n250 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$200\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n",
-    "reward_usd": 200.0,
-    "reward_formatted": "$200",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 4,
-    "last_audited": "2026-09-26T11:11:40.375206+00:00"
-  },
-  {
-    "id": "sec-Akanimoh12/Stellar-Tipz-1394",
-    "domain": "security",
-    "title": "Add a security disclosure and bug bounty process",
-    "url": "https://github.com/Akanimoh12/Stellar-Tipz/issues/1394",
-    "platform": "github_security",
-    "repo_owner": "Akanimoh12",
-    "repo_name": "Stellar-Tipz",
-    "issue_number": 1394,
-    "org_handle": "Akanimoh12",
-    "org_name": "Akanimoh12/Stellar-Tipz",
-    "body": "**Context.** `SECURITY.md` exists at root (5.7KB) and in `.github/`. For a platform handling real\nfunds on mainnet, a clear disclosure process with defined response times is essential.\n\n**Task.** Formalise security disclosure.\n\n**Acceptance criteria.**\n- [ ] A private reporting channel documented (GitHub Security Advisories enabled).\n- [ ] Response time commitments defined and realistic.\n- [ ] Scope explicitly defines what is in and out of bounds.\n- [ ] Safe harbour language for good-faith researchers.\n- [ ] The two SECURITY.md files are reconciled \u2014 they should not diverge.\n- [ ] A disclosure timeline policy is documented.\n\n**Guidance.** Reconciling the duplicate SECURITY.md files is a concrete cleanup \u2014 two security\npolicies that disagree is worse than one.\n\n**Labels.** `security`, `documentation`, `community`, `difficulty:medium`\n\n---\n<sub>Issue 246/250 from the production readiness audit \u2014 full set in [`docs/issues/`](https://github.com/Akanimoh12/Stellar-Tipz/tree/main/docs/issues). See [CONTRIBUTING](https://github.com/Akanimoh12/Stellar-Tipz/blob/main/docs/CONTRIBUTING.md) before starting.</sub>",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 2,
-    "last_audited": "2026-09-26T11:11:40.680122+00:00"
+    "last_audited": "2026-09-26T16:12:13.570476+00:00"
   },
   {
     "id": "sec-abdulsalam-create/bounty-watch-27",
@@ -1129,7 +927,232 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-26T11:11:40.978721+00:00"
+    "last_audited": "2026-09-26T16:12:13.943270+00:00"
+  },
+  {
+    "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
+    "domain": "security",
+    "title": "[Bounty] bitcoin bounty",
+    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1570",
+    "platform": "github_security",
+    "repo_owner": "zhangjiayang6835-cyber",
+    "repo_name": "bounty-plaza",
+    "issue_number": 1570,
+    "org_handle": "zhangjiayang6835-cyber",
+    "org_name": "zhangjiayang6835-cyber/bounty-plaza",
+    "body": "### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/OmniBlocks/bountyfarmer/issues/6\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\nbitcoin bounty\n\nYou will get 99999999 btc if you add a saas to boxy \ud83d\udcb0\ud83d\udcb0\ud83d\udcb0\ud83d\udcb0\ud83d\udcb0\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n124999998 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$99,999,999\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n",
+    "reward_usd": 99.0,
+    "reward_formatted": "$99",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 1,
+    "last_audited": "2026-09-26T16:12:14.209661+00:00"
+  },
+  {
+    "id": "sec-relayhop/sn-monetization-runtime-1116",
+    "domain": "security",
+    "title": "[radar] SN open bounty 2026-09-14T19:16",
+    "url": "https://github.com/relayhop/sn-monetization-runtime/issues/1116",
+    "platform": "github_security",
+    "repo_owner": "relayhop",
+    "repo_name": "sn-monetization-runtime",
+    "issue_number": 1116,
+    "org_handle": "relayhop",
+    "org_name": "relayhop/sn-monetization-runtime",
+    "body": "New SN OPEN_BOUNTY detected:\n\n```\n1570125\tStacker_Stocks\t2\t286\t10000\t17\t32.9\t9274\t27415\trecent@Stacker_Stocks\tOPEN_BOUNTY,SELF_POST_OPP\tDaily Stock Discussion Sunday\u2019s Weekly Close Contest \ud83d\udfe5 or \ud83d\udfe9? 30k sat award!\n```",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 7,
+    "last_audited": "2026-09-26T16:12:14.500900+00:00"
+  },
+  {
+    "id": "sec-relayhop/sn-monetization-runtime-1124",
+    "domain": "security",
+    "title": "[radar] SN open bounty 2026-09-20T11:15",
+    "url": "https://github.com/relayhop/sn-monetization-runtime/issues/1124",
+    "platform": "github_security",
+    "repo_owner": "relayhop",
+    "repo_name": "sn-monetization-runtime",
+    "issue_number": 1124,
+    "org_handle": "relayhop",
+    "org_name": "relayhop/sn-monetization-runtime",
+    "body": "New SN OPEN_BOUNTY detected:\n\n```\n1577504\tStacker_Stocks\t2\t51\t10000\t1\t0.3\t9274\t27632\trecent@Stacker_Stocks|top@Stacker_Stocks\tOPEN_BOUNTY,LOW_COMP,FRESH\tDaily Stock Discussion Sunday\u2019s Weekly Close Contest \ud83d\udfe5 or \ud83d\udfe9? 40k sats\n```",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 2,
+    "last_audited": "2026-09-26T16:12:14.841759+00:00"
+  },
+  {
+    "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
+    "domain": "security",
+    "title": "[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Mass Assignment in User Profi",
+    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/281",
+    "platform": "github_security",
+    "repo_owner": "zhangjiayang6835-cyber",
+    "repo_name": "bounty-plaza",
+    "issue_number": 281,
+    "org_handle": "zhangjiayang6835-cyber",
+    "org_name": "zhangjiayang6835-cyber/bounty-plaza",
+    "body": "### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/220\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Mass Assignment in User Profile Update\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/214\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [BUG] Mass Assignment in User Profile Update \u2192 Privil\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/120\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [BUG] Mass Assignment in User Profile Update \u2192 Privilege Escal\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/83\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [BUG] Mass Assignment in User Profile Update \u2192 Privilege Escalation $12\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/19\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [BUG] Mass Assignment in User Profile Update \u2192 Privilege Escalation $120\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/ai-research/issues/964\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[BUG] Mass Assignment in User Profile Update \u2192 Privilege Escalation $120\n\n## Mass Assignment \u2192 \u6743\u9650\u63d0\u5347\n\n**\u96be\u5ea6**: Medium | **\u8d4f\u91d1**: $120\n\n### \u6f0f\u6d1e\u63cf\u8ff0\n\u7528\u6237\u8d44\u6599\u66f4\u65b0\u63a5\u53e3\u76f4\u63a5\u7ed1\u5b9a\u6240\u6709\u8bf7\u6c42\u53c2\u6570\u5230\u6a21\u578b\uff1a`User.update(params)`\u3002\u653b\u51fb\u8005\u53ef\u9644\u52a0 `role=admin` \u6216 `is_admin=true` \u53c2\u6570\u63d0\u5347\u4e3a\u7ba1\u7406\u5458\u3002\n\n### \u8981\u6c42\n\u4f7f\u7528\u767d\u540d\u5355\u53c2\u6570\u7ed1\u5b9a / DTO \u6a21\u5f0f / \u660e\u786e\u6307\u5b9a\u5141\u8bb8\u66f4\u65b0\u7684\u5b57\u6bb5\u3002\n\n### \u9a8c\u6536\u6807\u51c6\n- [ ] \u5b9a\u4e49\u53ef\u66f4\u65b0\u5b57\u6bb5\u767d\u540d\u5355\n- [ ] \u7981\u6b62\u6279\u91cf\u8d4b\u503c\u654f\u611f\u5b57\u6bb5\n- [ ] \u4f7f\u7528 ViewModel/DTO \u6a21\u5f0f\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n150 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$120\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n150 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$120\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n150 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$120\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n150 coins\n\n### \u771f\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n150 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$120\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n",
+    "reward_usd": 12.0,
+    "reward_formatted": "$12",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 4,
+    "last_audited": "2026-09-26T16:12:15.146945+00:00"
+  },
+  {
+    "id": "sec-relayhop/ClaudeEarnSelf-runtime-988",
+    "domain": "security",
+    "title": "[demand] high-priority 2026-09-15T23:08",
+    "url": "https://github.com/relayhop/ClaudeEarnSelf-runtime/issues/988",
+    "platform": "github_security",
+    "repo_owner": "relayhop",
+    "repo_name": "ClaudeEarnSelf-runtime",
+    "issue_number": 988,
+    "org_handle": "relayhop",
+    "org_name": "relayhop/ClaudeEarnSelf-runtime",
+    "body": "Demand-side radar \u9ad8\u512a\u5148\u8a0a\u865f:\n\n```\n6\tsn/bitcoin\t1.1\t-\tOPEN_NEED,LOW_COMP\thttps://stacker.news/items/1573009\tWhat would you want your signing device  manufacturer to do if there's vulns?\n5\tgithub\t0.2\t$100\tOPEN_ISSUE,LOW_COMP\thttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1559\t[Bounty] $100 BOUNTY FOR IMPLEMENTING A FOREVER IF BLOCK INTO OMNIBLOCKS\n5\tgithub\t0.2\t$500\tOPEN_ISSUE,LOW_COMP\thttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1558\t[Bounty] Reverse bounty\n```",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 1,
+    "last_audited": "2026-09-26T16:12:15.491315+00:00"
+  },
+  {
+    "id": "sec-relayhop/sn-monetization-runtime-1115",
+    "domain": "security",
+    "title": "[radar] SN open bounty 2026-09-14T13:54",
+    "url": "https://github.com/relayhop/sn-monetization-runtime/issues/1115",
+    "platform": "github_security",
+    "repo_owner": "relayhop",
+    "repo_name": "sn-monetization-runtime",
+    "issue_number": 1115,
+    "org_handle": "relayhop",
+    "org_name": "relayhop/sn-monetization-runtime",
+    "body": "New SN OPEN_BOUNTY detected:\n\n```\n1570125\tStacker_Stocks\t2\t286\t10000\t17\t27.5\t9274\t27409\trecent@Stacker_Stocks\tOPEN_BOUNTY,SELF_POST_OPP\tDaily Stock Discussion Sunday\u2019s Weekly Close Contest \ud83d\udfe5 or \ud83d\udfe9? 30k sat award!\n```",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 5,
+    "last_audited": "2026-09-26T16:12:15.766094+00:00"
+  },
+  {
+    "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
+    "domain": "security",
+    "title": "[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Python Pickle Deseri",
+    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/302",
+    "platform": "github_security",
+    "repo_owner": "zhangjiayang6835-cyber",
+    "repo_name": "bounty-plaza",
+    "issue_number": 302,
+    "org_handle": "zhangjiayang6835-cyber",
+    "org_name": "zhangjiayang6835-cyber/bounty-plaza",
+    "body": "### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/263\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Python Pickle Deserialization\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/239\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Python Pickle Deserialization RCE via \n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/197\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [BUG] Python Pickle Deserialization RCE via Cache $20\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/137\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [BUG] Python Pickle Deserialization RCE via Cache $200\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/66\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [BUG] Python Pickle Deserialization RCE via Cache $200\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/35\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [BUG] Python Pickle Deserialization RCE via Cache $200\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/ai-research/issues/948\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[BUG] Python Pickle Deserialization RCE via Cache $200\n\n## Pickle \u53cd\u5e8f\u5217\u5316 RCE\uff08\u901a\u8fc7\u7f13\u5b58\u7cfb\u7edf\uff09\n\n**\u96be\u5ea6**: Expert | **\u8d4f\u91d1**: $200\n\n### \u6f0f\u6d1e\u63cf\u8ff0\nRedis \u7f13\u5b58\u4e2d\u5b58\u50a8\u4e86 `pickle.dumps()` \u5e8f\u5217\u5316\u7684\u7528\u6237 session\u3002\u653b\u51fb\u8005\u53ef\u5199\u5165\u6076\u610f pickle payload\uff0c\u5f53\u670d\u52a1\u7aef `pickle.loads()` \u53cd\u5e8f\u5217\u5316\u65f6\u89e6\u53d1\u4efb\u610f\u4ee3\u7801\u6267\u884c\u3002\n\n### \u8981\u6c42\n\u66ff\u6362\u4e3a JSON \u5e8f\u5217\u5316 / \u4f7f\u7528 `pickle` \u7684\u66ff\u4ee3\u65b9\u6848 / \u52a0\u7b7e\u9a8c\u8bc1\u3002\n\n### \u9a8c\u6536\u6807\u51c6\n- [ ] \u4e0d\u4f7f\u7528 pickle \u5904\u7406\u4e0d\u53ef\u4fe1\u6570\u636e\n- [ ] \u6216\u4f7f\u7528 HMAC \u7b7e\u540d\u9a8c\u8bc1\u5b8c\u6574\u6027\n- [ ] \u7f13\u5b58\u6570\u636e\u52a0\u7b7e\u9632\u7be1\u6539\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n250 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$200\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n250 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$200\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n250 coi\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n250 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$200\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n",
+    "reward_usd": 20.0,
+    "reward_formatted": "$20",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 4,
+    "last_audited": "2026-09-26T16:12:16.047316+00:00"
+  },
+  {
+    "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
+    "domain": "security",
+    "title": "[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Java RMI Deserializa",
+    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/287",
+    "platform": "github_security",
+    "repo_owner": "zhangjiayang6835-cyber",
+    "repo_name": "bounty-plaza",
+    "issue_number": 287,
+    "org_handle": "zhangjiayang6835-cyber",
+    "org_name": "zhangjiayang6835-cyber/bounty-plaza",
+    "body": "### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/277\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Java RMI Deserialization \u2192 Re\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/229\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Java RMI Deserialization \u2192 Remote Code\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/206\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [BUG] Java RMI Deserialization \u2192 Remote Code Executio\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/128\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [BUG] Java RMI Deserialization \u2192 Remote Code Execution $200\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/75\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [BUG] Java RMI Deserialization \u2192 Remote Code Execution $200\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/27\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [BUG] Java RMI Deserialization \u2192 Remote Code Execution $200\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/ai-research/issues/956\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[BUG] Java RMI Deserialization \u2192 Remote Code Execution $200\n\n## Java RMI \u53cd\u5e8f\u5217\u5316 RCE\n\n**\u96be\u5ea6**: Expert | **\u8d4f\u91d1**: $200\n\n### \u6f0f\u6d1e\u63cf\u8ff0\nJava RMI \u7aef\u70b9\u66b4\u9732\u5728\u516c\u7f51\uff0c\u653b\u51fb\u8005\u53ef\u901a\u8fc7 ysoserial \u5de5\u5177\u53d1\u9001\u7cbe\u5fc3\u6784\u9020\u7684\u53cd\u5e8f\u5217\u5316 payload\uff0c\u89e6\u53d1 `Runtime.exec()`\u3002\n\n### \u8981\u6c42\n\u542f\u7528 RMI SSL + \u53cd\u5e8f\u5217\u5316\u8fc7\u6ee4\u5668\uff08JEP 290\uff09+ \u9632\u706b\u5899\u9650\u5236\u3002\n\n### \u9a8c\u6536\u6807\u51c6\n- [ ] \u90e8\u7f72 SerialFilter / JEP 290\n- [ ] \u9650\u5236 RMI \u7ed1\u5b9a\u5730\u5740\n- [ ] \u4ec5\u5141\u8bb8\u767d\u540d\u5355\u7c7b\u53cd\u5e8f\u5217\u5316\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n250 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$200\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n250 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$200\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n250 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08U\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n250 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$200\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n",
+    "reward_usd": 200.0,
+    "reward_formatted": "$200",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 4,
+    "last_audited": "2026-09-26T16:12:16.323415+00:00"
+  },
+  {
+    "id": "sec-Akanimoh12/Stellar-Tipz-1394",
+    "domain": "security",
+    "title": "Add a security disclosure and bug bounty process",
+    "url": "https://github.com/Akanimoh12/Stellar-Tipz/issues/1394",
+    "platform": "github_security",
+    "repo_owner": "Akanimoh12",
+    "repo_name": "Stellar-Tipz",
+    "issue_number": 1394,
+    "org_handle": "Akanimoh12",
+    "org_name": "Akanimoh12/Stellar-Tipz",
+    "body": "**Context.** `SECURITY.md` exists at root (5.7KB) and in `.github/`. For a platform handling real\nfunds on mainnet, a clear disclosure process with defined response times is essential.\n\n**Task.** Formalise security disclosure.\n\n**Acceptance criteria.**\n- [ ] A private reporting channel documented (GitHub Security Advisories enabled).\n- [ ] Response time commitments defined and realistic.\n- [ ] Scope explicitly defines what is in and out of bounds.\n- [ ] Safe harbour language for good-faith researchers.\n- [ ] The two SECURITY.md files are reconciled \u2014 they should not diverge.\n- [ ] A disclosure timeline policy is documented.\n\n**Guidance.** Reconciling the duplicate SECURITY.md files is a concrete cleanup \u2014 two security\npolicies that disagree is worse than one.\n\n**Labels.** `security`, `documentation`, `community`, `difficulty:medium`\n\n---\n<sub>Issue 246/250 from the production readiness audit \u2014 full set in [`docs/issues/`](https://github.com/Akanimoh12/Stellar-Tipz/tree/main/docs/issues). See [CONTRIBUTING](https://github.com/Akanimoh12/Stellar-Tipz/blob/main/docs/CONTRIBUTING.md) before starting.</sub>",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 2,
+    "last_audited": "2026-09-26T16:12:16.593623+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -1154,7 +1177,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-26T11:11:41.301022+00:00"
+    "last_audited": "2026-09-26T16:12:16.889170+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -1179,7 +1202,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-26T11:11:41.641780+00:00"
+    "last_audited": "2026-09-26T16:12:17.172539+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1204,7 +1227,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-26T11:11:41.973986+00:00"
+    "last_audited": "2026-09-26T16:12:17.482202+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -1226,10 +1249,7 @@
       "vulnerability"
     ],
     "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 5,
-    "last_audited": "2026-09-26T11:11:42.300637+00:00"
+    "solvability_score": 85.0
   },
   {
     "id": "gh-piotrwitek/typesafe-actions-139",
