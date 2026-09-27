@@ -21,7 +21,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-27T13:47:49.244155+00:00"
+    "last_audited": "2026-09-27T18:14:27.118090+00:00"
   },
   {
     "id": "gh-Ricky1800/ledgerlite-6",
@@ -45,7 +45,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-27T13:47:49.474870+00:00"
+    "last_audited": "2026-09-27T18:14:27.373212+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-5",
@@ -70,31 +70,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-27T13:47:49.676397+00:00"
-  },
-  {
-    "id": "gh-Ricky1800/ledgerlite-5",
-    "title": "Budget vs. actual report",
-    "url": "https://github.com/Ricky1800/ledgerlite/issues/5",
-    "platform": "opire",
-    "repo_owner": "Ricky1800",
-    "repo_name": "ledgerlite",
-    "issue_number": 5,
-    "org_handle": "Ricky1800",
-    "org_name": "Ricky1800/ledgerlite",
-    "body": "**Body:**\n\nAdd an optional budget file (`budget.toml`, category -> monthly target)\nand a `ledgerlite report --budget` mode that shows actual vs. budget\nper category alongside the existing P&L.\n\n**Acceptance criteria:**\n\n- `budget.toml` schema documented in the README, loaded only when\n  `--budget` is passed (no behavior change otherwise).\n- Missing budget file with `--budget` passed produces a friendly error,\n  not a panic.\n- Table/CSV/JSON/MD renderers all handle the extra column(s).\n- Unit tests for variance calculation (over/under budget, category with\n  no budget entry, category with no actuals).\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #5</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @Ricky1800</code> (replace <code>20</code> with the amount, and <code>@Ricky1800</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "help wanted"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-09-27T13:47:49.907691+00:00"
+    "last_audited": "2026-09-27T18:14:27.638044+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-7",
@@ -119,7 +95,31 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-27T13:47:50.135285+00:00"
+    "last_audited": "2026-09-27T18:14:27.886201+00:00"
+  },
+  {
+    "id": "gh-Ricky1800/ledgerlite-5",
+    "title": "Budget vs. actual report",
+    "url": "https://github.com/Ricky1800/ledgerlite/issues/5",
+    "platform": "opire",
+    "repo_owner": "Ricky1800",
+    "repo_name": "ledgerlite",
+    "issue_number": 5,
+    "org_handle": "Ricky1800",
+    "org_name": "Ricky1800/ledgerlite",
+    "body": "**Body:**\n\nAdd an optional budget file (`budget.toml`, category -> monthly target)\nand a `ledgerlite report --budget` mode that shows actual vs. budget\nper category alongside the existing P&L.\n\n**Acceptance criteria:**\n\n- `budget.toml` schema documented in the README, loaded only when\n  `--budget` is passed (no behavior change otherwise).\n- Missing budget file with `--budget` passed produces a friendly error,\n  not a panic.\n- Table/CSV/JSON/MD renderers all handle the extra column(s).\n- Unit tests for variance calculation (over/under budget, category with\n  no budget entry, category with no actuals).\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #5</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @Ricky1800</code> (replace <code>20</code> with the amount, and <code>@Ricky1800</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "help wanted"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-09-27T18:14:28.112526+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-6",
@@ -144,7 +144,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-27T13:47:50.368646+00:00"
+    "last_audited": "2026-09-27T18:14:28.375210+00:00"
   },
   {
     "id": "gh-jaykode2025/stargazers-log-1",
@@ -166,22 +166,23 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-27T13:47:50.591885+00:00"
+    "last_audited": "2026-09-27T18:14:28.670373+00:00"
   },
   {
-    "id": "gh-Ricky1800/ledgerlite-8",
-    "title": "Interactive review mode for uncategorized transactions",
-    "url": "https://github.com/Ricky1800/ledgerlite/issues/8",
+    "id": "gh-Ricky1800/localbiz-site-8",
+    "title": "CLI script to scaffold a new `business.config.ts` interactively",
+    "url": "https://github.com/Ricky1800/localbiz-site/issues/8",
     "platform": "opire",
     "repo_owner": "Ricky1800",
-    "repo_name": "ledgerlite",
+    "repo_name": "localbiz-site",
     "issue_number": 8,
     "org_handle": "Ricky1800",
-    "org_name": "Ricky1800/ledgerlite",
-    "body": "**Body:**\n\n`ledgerlite report` already lists uncategorized transactions. Add an\ninteractive terminal mode, `ledgerlite categorize --interactive`, that\nwalks through each uncategorized transaction one at a time and lets the\nuser pick/type a category, writing straight to `overrides.toml`.\n\n**Acceptance criteria:**\n\n- No new TUI framework dependency unless discussed first in the issue \u2014\n  a simple stdin prompt loop is enough for v1.\n- Ctrl-C / EOF exits cleanly without corrupting `overrides.toml`\n  (write after each answer, not just at the end).\n- Skips transactions that already have a category or override.\n- Integration test simulating stdin input via `assert_cmd`'s\n  `write_stdin`.\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #8</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @Ricky1800</code> (replace <code>20</code> with the amount, and <code>@Ricky1800</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "org_name": "Ricky1800/localbiz-site",
+    "body": "**Body:**\nThe \"Customize in 10 minutes\" README flow is entirely manual (open the file,\nedit fields). Add an optional `npm run init` script (Node script under\n`scripts/`) that interactively prompts for the required fields (name,\naddress, phone, timezone, at least one service, brand color) and writes a\nstarting `business.config.ts`, without touching the example config file\nunless the user confirms an overwrite.\n\n**Acceptance criteria:**\n- [ ] Running `npm run init` on a fresh clone prompts for each required\n      field and writes a valid `business.config.ts` that passes\n      `npm run typecheck` and `npm run build` unmodified.\n- [ ] Refuses to silently overwrite an existing customized config \u2014 asks for\n      confirmation or writes to a different filename.\n- [ ] No new runtime dependency added to the site itself (a CLI-only\n      devDependency like `prompts` or `@inquirer/prompts` is fine).\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #8</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @Ricky1800</code> (replace <code>20</code> with the amount, and <code>@Ricky1800</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
     "reward_usd": 100.0,
     "reward_formatted": "$100",
     "tech": [
+      "enhancement",
       "help wanted"
     ],
     "status": "active",
@@ -190,22 +191,23 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-27T13:47:50.846346+00:00"
+    "last_audited": "2026-09-27T18:14:28.896992+00:00"
   },
   {
-    "id": "gh-Ricky1800/ledgerlite-7",
-    "title": "Multi-currency awareness",
-    "url": "https://github.com/Ricky1800/ledgerlite/issues/7",
+    "id": "gh-Ricky1800/localbiz-site-4",
+    "title": "Internationalization (i18n) for a bilingual service area",
+    "url": "https://github.com/Ricky1800/localbiz-site/issues/4",
     "platform": "opire",
     "repo_owner": "Ricky1800",
-    "repo_name": "ledgerlite",
-    "issue_number": 7,
+    "repo_name": "localbiz-site",
+    "issue_number": 4,
     "org_handle": "Ricky1800",
-    "org_name": "Ricky1800/ledgerlite",
-    "body": "**Body:**\n\nRight now ledgerlite silently assumes every account is in the same\ncurrency. At minimum, warn (or refuse) when accounts in\n`ledgerlite.toml` don't agree, and stamp reports with the currency\nsymbol/code from `[general] currency`.\n\n**Acceptance criteria:**\n\n- `[general] currency` (ISO 4217 code, e.g. `\"USD\"`) added to\n  `ledgerlite.toml`, defaulting to `USD` for backward compatibility.\n- Reports show the currency code in the header.\n- Explicitly **not** in scope for this issue: FX conversion between\n  currencies \u2014 that's a much bigger feature and should be its own issue\n  if ever pursued.\n- Unit test for the default-currency backward-compat case (old config\n  files without `[general] currency` still load).\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #7</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @Ricky1800</code> (replace <code>20</code> with the amount, and <code>@Ricky1800</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "org_name": "Ricky1800/localbiz-site",
+    "body": "**Body:**\nMany local-service businesses (especially in NJ) serve bilingual (English/\nSpanish) communities. Add optional i18n:\n- Use Next.js's built-in App Router i18n routing patterns (locale segments,\n  e.g. `/es/servicios/[slug]`).\n- Extend `business.config.ts` so translatable strings (tagline, description,\n  service names/descriptions, FAQ, testimonials) can optionally be provided\n  per-locale, falling back to the default locale when a translation is\n  missing.\n- Keep this fully optional \u2014 a config with no translations should render\n  exactly as it does today.\n\n**Acceptance criteria:**\n- [ ] A config with only English content builds and renders unchanged.\n- [ ] A config with `es` translations for a subset of fields renders the\n      Spanish route with translated content where provided, English\n      fallbacks elsewhere.\n- [ ] `hreflang` alternate links are added to metadata when more than one\n      locale is configured.\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #4</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @Ricky1800</code> (replace <code>20</code> with the amount, and <code>@Ricky1800</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
     "reward_usd": 100.0,
     "reward_formatted": "$100",
     "tech": [
+      "enhancement",
       "help wanted"
     ],
     "status": "active",
@@ -214,7 +216,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-27T13:47:51.126128+00:00"
+    "last_audited": "2026-09-27T18:14:29.154799+00:00"
   },
   {
     "id": "web3-mergemint-mint/mergemint-contracts-934",
@@ -240,7 +242,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-27T13:47:51.404517+00:00"
+    "last_audited": "2026-09-27T18:14:29.427805+00:00"
   },
   {
     "id": "web3-mergemint-mint/mergemint-contracts-932",
@@ -266,7 +268,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-27T13:47:51.627116+00:00"
+    "last_audited": "2026-09-27T18:14:29.689323+00:00"
   },
   {
     "id": "web3-mergemint-mint/mergemint-contracts-933",
@@ -292,7 +294,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-27T13:47:51.913992+00:00"
+    "last_audited": "2026-09-27T18:14:29.951401+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-1214",
@@ -318,7 +320,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-27T13:47:52.143604+00:00"
+    "last_audited": "2026-09-27T18:14:30.224688+00:00"
   },
   {
     "id": "web3-anthropics/claude-code-96705",
@@ -348,7 +350,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-27T13:47:52.400739+00:00"
+    "last_audited": "2026-09-27T18:14:30.537879+00:00"
   },
   {
     "id": "web3-johnephraim949-web/cypher-gridpay-contracts-114",
@@ -375,7 +377,33 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-27T13:47:52.636049+00:00"
+    "last_audited": "2026-09-27T18:14:30.778001+00:00"
+  },
+  {
+    "id": "web3-mergemint-mint/mergemint-contracts-853",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "[Contract] Add get_bounties_by_assignee query",
+    "url": "https://github.com/mergemint-mint/mergemint-contracts/issues/853",
+    "platform": "web3_github",
+    "repo_owner": "mergemint-mint",
+    "repo_name": "mergemint-contracts",
+    "issue_number": 853,
+    "org_handle": "mergemint-mint",
+    "org_name": "mergemint-mint/mergemint-contracts",
+    "body": "**Description**\n\nThe backend exposes `/bounties` filtered by assignee, but the contract has no index for it, so the backend must rely entirely on its own indexed data. Clients reading directly from the contract (for example through the SDK) have no efficient way to list what a contributor is working on.\n\nThis issue adds an assignee index in storage, maintained on claim, unclaim, completion, cancellation and expiry, and a paged query to read it.\n\n**Requirements and context**\n\n- Return paged ids\n- Maintain index on claim, unclaim and completion\n\n**Suggested execution**\n\nFork the repo and create a branch\n\n```bash\ngit checkout -b feature/assignee-index\n```\n\nImplement changes\n\n- Add an assignee index in `src/storage.rs`\n- Add the query in `src/contract/queries.rs`\n- Update mutations that change assignees\n\nTest and commit\n\n- Test index across claim and complete\n- Run `cargo test`\n\n**Example commit message**\n\n```\nfeat(contract): add assignee bounty index\n```",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "enhancement",
+      "Stellar Wave"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 4,
+    "last_audited": "2026-09-27T18:14:31.034404+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -400,7 +428,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-09-27T13:47:52.884053+00:00"
+    "last_audited": "2026-09-27T18:14:31.323520+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -426,7 +454,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-27T13:47:53.117469+00:00"
+    "last_audited": "2026-09-27T18:14:31.609193+00:00"
   },
   {
     "id": "web3-SoroWill/sorowill-contracts-378",
@@ -453,7 +481,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-09-27T13:47:53.367884+00:00"
+    "last_audited": "2026-09-27T18:14:31.867481+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1295",
@@ -478,7 +506,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 14,
-    "last_audited": "2026-09-27T13:47:53.588600+00:00"
+    "last_audited": "2026-09-27T18:14:32.154414+00:00"
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1293",
@@ -503,7 +531,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 9,
-    "last_audited": "2026-09-27T13:47:53.875301+00:00"
+    "last_audited": "2026-09-27T18:14:32.411192+00:00"
   },
   {
     "id": "gh-photoprism/photoprism-93",
@@ -528,7 +556,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 90,
-    "last_audited": "2026-09-27T13:47:54.113546+00:00"
+    "last_audited": "2026-09-27T18:14:32.683072+00:00"
   },
   {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-951",
@@ -554,7 +582,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 12,
-    "last_audited": "2026-09-27T13:47:54.328924+00:00"
+    "last_audited": "2026-09-27T18:14:32.949643+00:00"
   },
   {
     "id": "web3-mergemint-mint/mergemint-contracts-850",
@@ -580,7 +608,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-27T13:47:54.576399+00:00"
+    "last_audited": "2026-09-27T18:14:33.233679+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -688,8 +716,8 @@
     "status": "active",
     "solvability_score": 85.0,
     "live_status": "open",
-    "comments_count": 3,
-    "last_audited": "2026-09-27T13:47:54.826132+00:00"
+    "comments_count": 4,
+    "last_audited": "2026-09-27T18:14:33.504433+00:00"
   },
   {
     "id": "sec-Iris-IV/ProofOfHeart-frontend-1465",
@@ -714,7 +742,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-27T13:47:55.084687+00:00"
+    "last_audited": "2026-09-27T18:14:33.784796+00:00"
   },
   {
     "id": "sec-StellarTickets/blockchain-42",
@@ -739,7 +767,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-27T13:47:55.361380+00:00"
+    "last_audited": "2026-09-27T18:14:34.027099+00:00"
   },
   {
     "id": "sec-OpenLedger-Foundation/Kora-Contract-819",
@@ -764,7 +792,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-27T13:47:55.604262+00:00"
+    "last_audited": "2026-09-27T18:14:34.292079+00:00"
   },
   {
     "id": "sec-Refract-Protocol/refract-backend-132",
@@ -789,7 +817,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-27T13:47:55.839459+00:00"
+    "last_audited": "2026-09-27T18:14:34.580275+00:00"
   },
   {
     "id": "sec-johnephraim949-web/cypher-gridpay-contracts-114",
@@ -814,7 +842,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-27T13:47:56.081640+00:00"
+    "last_audited": "2026-09-27T18:14:34.859582+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -839,7 +867,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-27T13:47:56.323567+00:00"
+    "last_audited": "2026-09-27T18:14:35.088116+00:00"
   },
   {
     "id": "sec-Refract-Protocol/refract-contracts-115",
@@ -864,7 +892,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-27T13:47:56.558027+00:00"
+    "last_audited": "2026-09-27T18:14:35.327433+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -889,7 +917,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-27T13:47:56.809745+00:00"
+    "last_audited": "2026-09-27T18:14:35.589606+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -914,7 +942,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-27T13:47:57.041579+00:00"
+    "last_audited": "2026-09-27T18:14:35.846569+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -939,7 +967,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-27T13:47:57.303810+00:00"
+    "last_audited": "2026-09-27T18:14:36.106984+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -964,7 +992,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-27T13:47:57.546067+00:00"
+    "last_audited": "2026-09-27T18:14:36.373404+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -989,7 +1017,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-27T13:47:57.805019+00:00"
+    "last_audited": "2026-09-27T18:14:36.610674+00:00"
   },
   {
     "id": "sec-Shackole/NeuroWealth-Smartcontract-72",
@@ -1014,7 +1042,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-27T13:47:58.059132+00:00"
+    "last_audited": "2026-09-27T18:14:36.885559+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -1039,7 +1067,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-27T13:47:58.275353+00:00"
+    "last_audited": "2026-09-27T18:14:37.113400+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -1064,7 +1092,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-09-27T13:47:58.512263+00:00"
+    "last_audited": "2026-09-27T18:14:37.368407+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1124",
@@ -1089,7 +1117,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-27T13:47:58.768427+00:00"
+    "last_audited": "2026-09-27T18:14:37.617047+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -1114,7 +1142,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-27T13:47:59.003126+00:00"
+    "last_audited": "2026-09-27T18:14:37.851380+00:00"
   },
   {
     "id": "sec-relayhop/ClaudeEarnSelf-runtime-988",
@@ -1139,7 +1167,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-27T13:47:59.243112+00:00"
+    "last_audited": "2026-09-27T18:14:38.093835+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1115",
@@ -1164,7 +1192,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-27T13:47:59.507375+00:00"
+    "last_audited": "2026-09-27T18:14:38.402135+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -1189,7 +1217,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-27T13:47:59.758539+00:00"
+    "last_audited": "2026-09-27T18:14:38.637608+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -1214,7 +1242,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-27T13:47:59.989573+00:00"
+    "last_audited": "2026-09-27T18:14:38.888338+00:00"
   },
   {
     "id": "sec-Akanimoh12/Stellar-Tipz-1394",
@@ -1236,10 +1264,7 @@
       "vulnerability"
     ],
     "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 2,
-    "last_audited": "2026-09-27T13:48:00.185910+00:00"
+    "solvability_score": 85.0
   },
   {
     "id": "sec-abdulsalam-create/bounty-watch-27",
@@ -1660,28 +1685,6 @@
     ],
     "status": "active",
     "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 50.0
-  },
-  {
-    "id": "web3-Creditra/Creditra-Contracts-1265",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "Emit sweep events for treasury and bounty",
-    "url": "https://github.com/Creditra/Creditra-Contracts/issues/1265",
-    "platform": "web3_github",
-    "repo_owner": "Creditra",
-    "repo_name": "Creditra-Contracts",
-    "issue_number": 1265,
-    "org_handle": "Creditra",
-    "org_name": "Creditra/Creditra-Contracts",
-    "body": "## Summary\n`withdraw_treasury` and `withdraw_bounty` move tokens out of the contract and clear the balances without emitting events, unlike `execute_treasury_withdrawal`, which publishes `TreasuryWithdrawalExecutedEvent`.\n\n## Why this matters\nFund movements out of the protocol are invisible to indexers and monitoring, which undermines the proof-of-reserve story.\n\n## Scope\nEmit a `TreasuryWithdrawn`/`BountyWithdrawn` event with recipient, amount and executor, or reuse the executed-event struct. Skip events on the zero-balance early return.\n\nRelevant code in Creditra/Creditra-Contracts:\n- `contracts/credit/src/lib.rs`\n- `contracts/credit/src/events.rs`\n- `docs/EVENTS_CATALOG.md`\n\n## Priority\nMedium\n\n## Acceptance criteria\n- Both withdrawals emit one event with the transferred amount\n- Zero-balance calls emit nothing\n- Topics are pinned in event_topic_stability.rs\n- EVENTS_CATALOG updated\n\n## Validation\ncargo test -p creditra-credit --test event_topic_stability\n\n## Non-goals\n- Typo-only, formatting-only, or cosmetic changes.\n- Unrelated refactors, dependency upgrades, or broad rewrites.\n- Removing safeguards or weakening validation to make tests pass.\n\n## Contributor application\nBefore coding, describe the affected modules, proposed state/invariant changes, test strategy, compatibility considerations, and an estimate. Wait for assignment before starting implementation.\n\n## PR requirements\nUse a feature branch and include `Closes #<issue-number>`. Address every criterion, map criteria to code and tests, explain security and failure-mode handling, and ensure CI passes.\n\n## Quality review\nA maintainer will assess correctness, completeness, test depth, compatibility, observability, and adverse-case handling. A substantive implementation is required; merge or CI status alone does not guarantee reward eligibility.\n\n\n---\n_Generated by [Claude Code](https://claude.ai/code)_",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "Stellar Wave"
-    ],
-    "status": "active",
     "competitor_prs": 0,
     "solvability_score": 50.0
   },
