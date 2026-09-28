@@ -21,7 +21,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-28T13:32:20.321337+00:00"
+    "last_audited": "2026-09-28T20:30:14.823995+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-5",
@@ -46,7 +46,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-28T13:32:20.580788+00:00"
+    "last_audited": "2026-09-28T20:30:15.150053+00:00"
   },
   {
     "id": "gh-Ricky1800/ledgerlite-6",
@@ -70,7 +70,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-28T13:32:20.862414+00:00"
+    "last_audited": "2026-09-28T20:30:15.449921+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-7",
@@ -95,7 +95,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-28T13:32:21.263732+00:00"
+    "last_audited": "2026-09-28T20:30:15.718786+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-6",
@@ -120,7 +120,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-28T13:32:21.522935+00:00"
+    "last_audited": "2026-09-28T20:30:16.016218+00:00"
   },
   {
     "id": "gh-Ricky1800/ledgerlite-5",
@@ -144,7 +144,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-28T13:32:21.815836+00:00"
+    "last_audited": "2026-09-28T20:30:16.300231+00:00"
   },
   {
     "id": "gh-jaykode2025/stargazers-log-1",
@@ -166,7 +166,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-28T13:32:22.161854+00:00"
+    "last_audited": "2026-09-28T20:30:16.595934+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-84",
@@ -190,7 +190,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-28T13:32:22.433723+00:00"
+    "last_audited": "2026-09-28T20:30:16.856490+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-8",
@@ -215,7 +215,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-28T13:32:22.687077+00:00"
+    "last_audited": "2026-09-28T20:30:17.151463+00:00"
   },
   {
     "id": "web3-mergemint-mint/mergemint-contracts-934",
@@ -241,7 +241,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-28T13:32:23.139360+00:00"
+    "last_audited": "2026-09-28T20:30:17.525423+00:00"
   },
   {
     "id": "web3-mergemint-mint/mergemint-contracts-932",
@@ -267,7 +267,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-28T13:32:23.488539+00:00"
+    "last_audited": "2026-09-28T20:30:17.844452+00:00"
   },
   {
     "id": "web3-mergemint-mint/mergemint-contracts-933",
@@ -293,7 +293,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-28T13:32:23.831242+00:00"
+    "last_audited": "2026-09-28T20:30:18.141426+00:00"
   },
   {
     "id": "web3-anthropics/claude-code-96705",
@@ -323,7 +323,33 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-28T13:32:24.318527+00:00"
+    "last_audited": "2026-09-28T20:30:18.496290+00:00"
+  },
+  {
+    "id": "web3-verdikta/verdikta-applications-47",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "Bounty API: accept smart-wallet (EIP-1271) creator signatures on PATCH /jobs/:id/public-submissions",
+    "url": "https://github.com/verdikta/verdikta-applications/issues/47",
+    "platform": "web3_github",
+    "repo_owner": "verdikta",
+    "repo_name": "verdikta-applications",
+    "issue_number": 47,
+    "org_handle": "verdikta",
+    "org_name": "verdikta/verdikta-applications",
+    "body": "## Goal\n\nA bounty whose creator is a smart-contract wallet (a Coinbase Smart Wallet such as a Verdikta agent's CDP wallet, or a Base Account) can toggle its `publicSubmissions` flag through the existing creator-signed `PATCH /api/jobs/:id/public-submissions` flow.\n\n## Context\n\n`verifyPublicSubmissionsAction` in `example-bounty-program/server/utils/messageAuth.js` checks the signature with `ethers.verifyMessage` (ecrecover) and compares the recovered address to `job.creator`. A contract wallet has no private key of its own, so no signature can ever recover to its address: every toggle attempt by a smart-wallet creator gets a 401.\n\nObserved on Base mainnet, bounty 101 (2026-09-28): the owner asked the agent that created it to make submissions public, and the agent had no way to do it. The creator `0xA3b423861e6D6501a05e87d1f500fFff2402f7B1` is an ERC-1967 proxy to the Coinbase Smart Wallet v1.1 implementation `0x00000110dCdEdC9581cb5eCB8467282f2926534d`. Every agent-created bounty has a smart-account creator, so no agent can ever use this path today. Human creators using Base Account on the website are probably affected in the same way (not verified).\n\nThe standard fix is EIP-1271: when the creator address has code, call `isValidSignature(hashMessage(message), signature)` on it and accept the magic value `0x1626ba7e`. The agent-side counterpart (signing with the smart account and calling this endpoint) is tracked in verdikta/verdikta-agents (linked below).\n\n## Acceptance criteria\n\n- [ ] When `job.creator` has contract code, the verifier accepts the signature if `creator.isValidSignature(hashMessage(message), signature)` returns `0x1626ba7e`, called through the server's configured RPC provider.\n- [ ] EOA creators are verified by ecrecover exactly as today, with no change in behavior.\n- [ ] Existing rejections are unchanged: wrong signer, Bounty ID mismatch, body/message value mismatch, and an expired or future timestamp return the same status codes as today.\n- [ ] An `isValidSignature` call that reverts or returns anything other than the magic value is rejected with 401, never 500 and never accepted. An RPC failure never results in acceptance.\n- [ ] Every caller of the verifier awaits it (it becomes async).\n- [ ] `/api/docs` and `agents.txt` say the signature may be an EOA `personal_sign` or an EIP-1271 smart-wallet signature.\n- [ ] Deployed to testnet, then mainnet.\n\n## Validation\n\n- Unit tests: an EOA signature passes; a contract creator with a mocked `isValidSignature` returning the magic value passes; non-magic, revert and RPC-error cases get 401 or another non-2xx response and are never accepted.\n- Testnet: a signature produced by a CDP smart account (from the verdikta-agents counterpart, or a script using viem `toCoinbaseSmartAccount(...).signMessage`) toggles the flag, and `GET /api/jobs/:id` reflects the new value.\n- Mainnet: the agent that created bounty 101 sets `publicSubmissions: true`, and `GET /api/jobs/101` shows `true`.\n\n## Scope\n\nIn scope:\n\n- `messageAuth.js` verification, the PATCH route's call site, and the docs/agents.txt text.\n\nOut of scope:\n\n- ERC-6492 (undeployed wallets): every bounty creator has already sent `createBounty`, so its wallet is deployed.\n- Website UI changes.\n- Agent-side signing (verdikta-agents).\n- Any other creator-authorized endpoint.\n",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "solidity",
+      "python"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 3,
+    "last_audited": "2026-09-28T20:30:18.811726+00:00"
   },
   {
     "id": "web3-johnephraim949-web/cypher-gridpay-contracts-114",
@@ -350,33 +376,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-28T13:32:24.661564+00:00"
-  },
-  {
-    "id": "web3-mergemint-mint/mergemint-contracts-853",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "[Contract] Add get_bounties_by_assignee query",
-    "url": "https://github.com/mergemint-mint/mergemint-contracts/issues/853",
-    "platform": "web3_github",
-    "repo_owner": "mergemint-mint",
-    "repo_name": "mergemint-contracts",
-    "issue_number": 853,
-    "org_handle": "mergemint-mint",
-    "org_name": "mergemint-mint/mergemint-contracts",
-    "body": "**Description**\n\nThe backend exposes `/bounties` filtered by assignee, but the contract has no index for it, so the backend must rely entirely on its own indexed data. Clients reading directly from the contract (for example through the SDK) have no efficient way to list what a contributor is working on.\n\nThis issue adds an assignee index in storage, maintained on claim, unclaim, completion, cancellation and expiry, and a paged query to read it.\n\n**Requirements and context**\n\n- Return paged ids\n- Maintain index on claim, unclaim and completion\n\n**Suggested execution**\n\nFork the repo and create a branch\n\n```bash\ngit checkout -b feature/assignee-index\n```\n\nImplement changes\n\n- Add an assignee index in `src/storage.rs`\n- Add the query in `src/contract/queries.rs`\n- Update mutations that change assignees\n\nTest and commit\n\n- Test index across claim and complete\n- Run `cargo test`\n\n**Example commit message**\n\n```\nfeat(contract): add assignee bounty index\n```",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "enhancement",
-      "Stellar Wave"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 4,
-    "last_audited": "2026-09-28T13:32:25.015967+00:00"
+    "last_audited": "2026-09-28T20:30:19.107325+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -401,7 +401,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-09-28T13:32:25.458876+00:00"
+    "last_audited": "2026-09-28T20:30:19.417910+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -427,59 +427,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-28T13:32:25.783250+00:00"
-  },
-  {
-    "id": "web3-SoroWill/sorowill-contracts-378",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "distribute can compute the keeper bounty from one token but pay it out of another",
-    "url": "https://github.com/SoroWill/sorowill-contracts/issues/378",
-    "platform": "web3_github",
-    "repo_owner": "SoroWill",
-    "repo_name": "sorowill-contracts",
-    "issue_number": 378,
-    "org_handle": "SoroWill",
-    "org_name": "SoroWill/sorowill-contracts",
-    "body": "## Description\n\nThe bounty is computed from the first token whose share rounds above zero (`bounty_amount == 0` check), and the `available` amount is reduced only for that token. The payout later happens inside the first entry of `transfer_plan`. If the first token's bounty rounds to 0 but a later token's does not, the bounty is calculated against the later token yet transferred using the first token's client, and the first token was never reduced to make room. That either pays the keeper from other beneficiaries' funds or aborts the release with an insufficient balance.\n\n## Technical Context\n\n- `distribute` in `contracts/will/src/lib.rs` (around lines 3370-3375 for the calculation and 3454-3461 for the payment).\n- Only the first token entry in `transfer_plan` pays the bounty and then zeroes `bounty_amount`.\n\n## Acceptance Criteria\n\n- [ ] The bounty token is chosen explicitly and the payment uses that same token\n- [ ] A test uses a multi-token will where the first token's bounty rounds to zero\n- [ ] Rounding behaviour is documented",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "bug",
-      "High",
-      "Stellar Wave"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 7,
-    "last_audited": "2026-09-28T13:32:26.046063+00:00"
-  },
-  {
-    "id": "gh-photoprism/photoprism-93",
-    "title": "Infrastructure: Support for cloud storage ( with encryption )",
-    "url": "https://github.com/photoprism/photoprism/issues/93",
-    "platform": "issuehunt",
-    "repo_owner": "photoprism",
-    "repo_name": "photoprism",
-    "issue_number": 93,
-    "org_handle": "photoprism",
-    "org_name": "photoprism/photoprism",
-    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2426.76%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/photoprism/photoprism/issues/93)\n<!-- /Issuehunt Badges -->\n\n\nMost people have way too many photos and videos to store locally, and no-one I know of has a backup strategy for their photos. Supporting encrypted storage on S3 ( for example ) would be a huge feature - outsourcing your storage and backup processes and costs.\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $26.76)\n\n- $26.76 have been anonymously funded.\n\n#### [Become a backer now!](https://issuehunt.io/r/photoprism/photoprism/issues/93)\n#### [Or submit a pull request to get the deposits!](https://issuehunt.io/r/photoprism/photoprism/issues/93)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://issuehunt.io/r/photoprism/photoprism/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
-    "reward_usd": 26.0,
-    "reward_formatted": "$26",
-    "tech": [
-      "idea",
-      "priority"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 90.0,
-    "live_status": "open",
-    "comments_count": 90,
-    "last_audited": "2026-09-28T13:32:26.333050+00:00"
+    "last_audited": "2026-09-28T20:30:19.707598+00:00"
   },
   {
     "id": "web3-mergemint-mint/mergemint-contracts-850",
@@ -505,7 +453,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-28T13:32:26.597043+00:00"
+    "last_audited": "2026-09-28T20:30:20.033960+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -614,32 +562,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-28T13:32:26.911771+00:00"
-  },
-  {
-    "id": "sec-Iris-IV/ProofOfHeart-frontend-1465",
-    "domain": "security",
-    "title": "[Docs] Security Vulnerability Disclosure Policy & Bug Bounty Guidelines",
-    "url": "https://github.com/Iris-IV/ProofOfHeart-frontend/issues/1465",
-    "platform": "github_security",
-    "repo_owner": "Iris-IV",
-    "repo_name": "ProofOfHeart-frontend",
-    "issue_number": 1465,
-    "org_handle": "Iris-IV",
-    "org_name": "Iris-IV/ProofOfHeart-frontend",
-    "body": "## Context & Motivation\nThorough and up-to-date documentation is essential for onboarding developers and ensuring long-term project maintainability. Clear procedures for reporting security findings, response timelines, and bounty reward tiers.\n\n## Problem Statement\nThe documentation surrounding `SECURITY.md` requires updating to reflect recent codebase changes, architectural patterns, and developer workflows.\n\n## Proposed Implementation Details\n1. Author or update markdown documentation in `SECURITY.md`.\n2. Include code snippets, configuration examples, and step-by-step instructions.\n3. Ensure formatting strictly follows standard GitHub Flavored Markdown rules.\n\n## Acceptance Criteria\n- [ ] Clear, comprehensive documentation published in `SECURITY.md`.\n- [ ] All code examples verified for accuracy against current codebase.\n- [ ] Free of dead links or outdated setup instructions.\n\n## Affected Modules / Files\n- `SECURITY.md`",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-09-28T13:32:27.164711+00:00"
+    "last_audited": "2026-09-28T20:30:20.347717+00:00"
   },
   {
     "id": "sec-StellarTickets/blockchain-42",
@@ -664,32 +587,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-28T13:32:27.423060+00:00"
-  },
-  {
-    "id": "sec-OpenLedger-Foundation/Kora-Contract-819",
-    "domain": "security",
-    "title": "[High] Build Bug Bounty Triage and Disclosure Workflow Tooling",
-    "url": "https://github.com/OpenLedger-Foundation/Kora-Contract/issues/819",
-    "platform": "github_security",
-    "repo_owner": "OpenLedger-Foundation",
-    "repo_name": "Kora-Contract",
-    "issue_number": 819,
-    "org_handle": "OpenLedger-Foundation",
-    "org_name": "OpenLedger-Foundation/Kora-Contract",
-    "body": "**Description:** Build the operational tooling and documented workflow needed to run a responsible bug-bounty and coordinated-disclosure program \u2014 a secure intake channel, severity-classification rubric, and a defined SLA-based response process \u2014 consistent with `SECURITY.md`.\n\n**Problem Statement & Context:** `SECURITY.md` establishes the intent for responsible disclosure, but as the protocol's surface area grows substantially in this wave, a properly tooled, consistently-run triage workflow is needed so external researchers reporting real findings get a fast, professional response rather than an ad hoc one, which is critical for attracting serious security researchers.\n\n**Scope & Acceptance Criteria:**\n- Secure, documented intake channel for vulnerability reports separate from public issue tracking.\n- A written, severity-based SLA (e.g., critical findings acknowledged within N hours) and an internal triage/escalation workflow.\n- Out of scope: setting up and funding an actual paid bounty program (tooling and process only; funding is a business decision outside this issue's scope).\n\n**Implementation Guidelines:**\n1. Key Files/Modules: `SECURITY.md`, new internal triage tooling/runbook.\n2. Design/Architecture: Severity rubric should map directly onto the response tiers already used in `docs/INCIDENT_RESPONSE.md` for consistency across security and operational incident handling.\n3. Edge Cases/Constraints: Must define exactly how a critical, actively-exploited finding escalates into the emergency-pause drill process from this same category; must not require the reporter to use an insecure channel to submit sensitive details.\n4. Testing: Conduct a documented tabletop exercise simulating an incoming critical report through the full triage-to-resolution workflow, results included in the PR.\n\n**Definition of \"Done\":**\n- Workflow and tooling written, documented; `SECURITY.md` updated.\n- All acceptance criteria met.\n- PR passes CI where applicable.\n- Reviewed and approved.\n\n**Complexity:** High (200 points)\n\n**Resources:**\n- `SECURITY.md`, `docs/INCIDENT_RESPONSE.md`\n",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 3,
-    "last_audited": "2026-09-28T13:32:27.776511+00:00"
+    "last_audited": "2026-09-28T20:30:20.640221+00:00"
   },
   {
     "id": "sec-Refract-Protocol/refract-backend-132",
@@ -714,7 +612,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-28T13:32:28.043154+00:00"
+    "last_audited": "2026-09-28T20:30:20.951666+00:00"
+  },
+  {
+    "id": "sec-Akanimoh12/Stellar-Tipz-1394",
+    "domain": "security",
+    "title": "Add a security disclosure and bug bounty process",
+    "url": "https://github.com/Akanimoh12/Stellar-Tipz/issues/1394",
+    "platform": "github_security",
+    "repo_owner": "Akanimoh12",
+    "repo_name": "Stellar-Tipz",
+    "issue_number": 1394,
+    "org_handle": "Akanimoh12",
+    "org_name": "Akanimoh12/Stellar-Tipz",
+    "body": "**Context.** `SECURITY.md` exists at root (5.7KB) and in `.github/`. For a platform handling real\nfunds on mainnet, a clear disclosure process with defined response times is essential.\n\n**Task.** Formalise security disclosure.\n\n**Acceptance criteria.**\n- [ ] A private reporting channel documented (GitHub Security Advisories enabled).\n- [ ] Response time commitments defined and realistic.\n- [ ] Scope explicitly defines what is in and out of bounds.\n- [ ] Safe harbour language for good-faith researchers.\n- [ ] The two SECURITY.md files are reconciled \u2014 they should not diverge.\n- [ ] A disclosure timeline policy is documented.\n\n**Guidance.** Reconciling the duplicate SECURITY.md files is a concrete cleanup \u2014 two security\npolicies that disagree is worse than one.\n\n**Labels.** `security`, `documentation`, `community`, `difficulty:medium`\n\n---\n<sub>Issue 246/250 from the production readiness audit \u2014 full set in [`docs/issues/`](https://github.com/Akanimoh12/Stellar-Tipz/tree/main/docs/issues). See [CONTRIBUTING](https://github.com/Akanimoh12/Stellar-Tipz/blob/main/docs/CONTRIBUTING.md) before starting.</sub>",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 5,
+    "last_audited": "2026-09-28T20:30:21.292560+00:00"
   },
   {
     "id": "sec-johnephraim949-web/cypher-gridpay-contracts-114",
@@ -739,7 +662,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-28T13:32:28.307597+00:00"
+    "last_audited": "2026-09-28T20:30:21.617514+00:00"
+  },
+  {
+    "id": "sec-Refract-Protocol/refract-contracts-115",
+    "domain": "security",
+    "title": "[High] Implement an on-chain bug bounty escrow with governance-controlled payout",
+    "url": "https://github.com/Refract-Protocol/refract-contracts/issues/115",
+    "platform": "github_security",
+    "repo_owner": "Refract-Protocol",
+    "repo_name": "refract-contracts",
+    "issue_number": 115,
+    "org_handle": "Refract-Protocol",
+    "org_name": "Refract-Protocol/refract-contracts",
+    "body": "**Complexity:** High (200 points)\n**Category:** Governance & Treasury\n\n**Description:** Build a `RefractBountyEscrow` contract holding a dedicated reward pool (funded from the treasury, from the sibling treasury issue) that governance can approve payouts from to security researchers who responsibly disclose vulnerabilities, per the process `SECURITY.md` already describes but currently has no on-chain funding mechanism for.\n\n**Problem Statement & Context:** `SECURITY.md` establishes a responsible-disclosure process, but there is no funded, on-chain bounty mechanism backing it \u2014 reward amounts and payment would today have to be arranged entirely off-chain and out-of-band with whatever funds the team happens to control manually. An on-chain, governance-auditable bounty escrow makes the commitment credible and the payout process transparent, which matters for attracting serious security researchers to a pre-audit protocol.\n\n**Scope & Acceptance Criteria:**\n- New `bounty/` crate: `RefractBountyEscrow` with `fund(from, amount)` (anyone can top it up, including the treasury), and `award(caller, researcher: Address, amount, report_hash: BytesN<32>)` gated by governance/the timelock (from sibling issues) \u2014 never a single admin key, given the sensitivity of directly authorizing a payout tied to a specific disclosure.\n- `report_hash` is stored on-chain alongside the award as an immutable, timestamped record that a specific disclosure was rewarded (without needing to publish the vulnerability details themselves on-chain \u2014 just a hash/commitment for later verification).\n- Out of scope: any on-chain vulnerability-report submission/triage workflow (report handling stays off-chain per `SECURITY.md`'s existing process; this contract is purely the funded, governed payout mechanism).\n\n**Implementation Guidelines (Suggested Execution):**\n1. **Key files:** New `bounty/Cargo.toml`, `bounty/src/lib.rs`; depends on the timelock/governance contracts (sibling issues) for `award`'s authorization, and can integrate with the treasury (sibling issue) for funding.\n2. **Design:** Keep `award` requiring `caller` to be the timelock/governance address specifically (not a plain admin key) \u2014 this is one of the clearest cases in this wave for why the governance path matters, since a single compromised admin key authorizing arbitrary \"bounty\" payouts to an attacker-controlled address is a direct fund-drain vector.\n3. **Edge cases:** `award` amount must never exceed the escrow's current balance \u2014 a straightforward balance check, but must be explicit and tested (no silent underflow/negative-balance state).\n4. **Testing:** Fund\u2192award happy path, award exceeding balance rejected, and award callable only by the governance/timelock address (direct admin-key calls rejected, if a plain admin key is even wired to have any authority here \u2014 document that it explicitly is not).\n\n**Definition of \"Done\":** New crate compiles, tests for the fund/award lifecycle and the governance-only authorization requirement, `SECURITY.md` updated to reference the on-chain bounty escrow. CI green, reviewed and approved.\n\n**Resources:** `SECURITY.md`, sibling timelock and treasury issues.\n\n**Complexity:** High (200 points)",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 3,
+    "last_audited": "2026-09-28T20:30:21.885475+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -764,82 +712,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-28T13:32:28.564665+00:00"
-  },
-  {
-    "id": "sec-Refract-Protocol/refract-contracts-115",
-    "domain": "security",
-    "title": "[High] Implement an on-chain bug bounty escrow with governance-controlled payout",
-    "url": "https://github.com/Refract-Protocol/refract-contracts/issues/115",
-    "platform": "github_security",
-    "repo_owner": "Refract-Protocol",
-    "repo_name": "refract-contracts",
-    "issue_number": 115,
-    "org_handle": "Refract-Protocol",
-    "org_name": "Refract-Protocol/refract-contracts",
-    "body": "**Complexity:** High (200 points)\n**Category:** Governance & Treasury\n\n**Description:** Build a `RefractBountyEscrow` contract holding a dedicated reward pool (funded from the treasury, from the sibling treasury issue) that governance can approve payouts from to security researchers who responsibly disclose vulnerabilities, per the process `SECURITY.md` already describes but currently has no on-chain funding mechanism for.\n\n**Problem Statement & Context:** `SECURITY.md` establishes a responsible-disclosure process, but there is no funded, on-chain bounty mechanism backing it \u2014 reward amounts and payment would today have to be arranged entirely off-chain and out-of-band with whatever funds the team happens to control manually. An on-chain, governance-auditable bounty escrow makes the commitment credible and the payout process transparent, which matters for attracting serious security researchers to a pre-audit protocol.\n\n**Scope & Acceptance Criteria:**\n- New `bounty/` crate: `RefractBountyEscrow` with `fund(from, amount)` (anyone can top it up, including the treasury), and `award(caller, researcher: Address, amount, report_hash: BytesN<32>)` gated by governance/the timelock (from sibling issues) \u2014 never a single admin key, given the sensitivity of directly authorizing a payout tied to a specific disclosure.\n- `report_hash` is stored on-chain alongside the award as an immutable, timestamped record that a specific disclosure was rewarded (without needing to publish the vulnerability details themselves on-chain \u2014 just a hash/commitment for later verification).\n- Out of scope: any on-chain vulnerability-report submission/triage workflow (report handling stays off-chain per `SECURITY.md`'s existing process; this contract is purely the funded, governed payout mechanism).\n\n**Implementation Guidelines (Suggested Execution):**\n1. **Key files:** New `bounty/Cargo.toml`, `bounty/src/lib.rs`; depends on the timelock/governance contracts (sibling issues) for `award`'s authorization, and can integrate with the treasury (sibling issue) for funding.\n2. **Design:** Keep `award` requiring `caller` to be the timelock/governance address specifically (not a plain admin key) \u2014 this is one of the clearest cases in this wave for why the governance path matters, since a single compromised admin key authorizing arbitrary \"bounty\" payouts to an attacker-controlled address is a direct fund-drain vector.\n3. **Edge cases:** `award` amount must never exceed the escrow's current balance \u2014 a straightforward balance check, but must be explicit and tested (no silent underflow/negative-balance state).\n4. **Testing:** Fund\u2192award happy path, award exceeding balance rejected, and award callable only by the governance/timelock address (direct admin-key calls rejected, if a plain admin key is even wired to have any authority here \u2014 document that it explicitly is not).\n\n**Definition of \"Done\":** New crate compiles, tests for the fund/award lifecycle and the governance-only authorization requirement, `SECURITY.md` updated to reference the on-chain bounty escrow. CI green, reviewed and approved.\n\n**Resources:** `SECURITY.md`, sibling timelock and treasury issues.\n\n**Complexity:** High (200 points)",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-09-28T13:32:28.847001+00:00"
-  },
-  {
-    "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
-    "domain": "security",
-    "title": "Launch Bug Bounty Program",
-    "url": "https://github.com/Soroban-Cookbook/Soroban-Cookbook-/issues/928",
-    "platform": "github_security",
-    "repo_owner": "Soroban-Cookbook",
-    "repo_name": "Soroban-Cookbook-",
-    "issue_number": 928,
-    "org_handle": "Soroban-Cookbook",
-    "org_name": "Soroban-Cookbook/Soroban-Cookbook-",
-    "body": "## Summary\nPublic launch of bug bounty\n\n## Current State\nNo in-repo deliverables; operational/community work tracked for planning.\n\n## Implementation Hints\nDocument outcomes in README or `CONTRIBUTING.md` when completed; link external resources.\n\n## Acceptance Criteria\n- Program live\n- Announcement published\n- Marketing campaign\n- Community notified\n- Initial participants\n\n## Verification\nManual verification against acceptance criteria; update phase file when done.\n\n## Source\nPhase issue #386 from phase 8 issues.md (line 87)\nPriority: High | Scope: M",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 1,
-    "last_audited": "2026-09-28T13:32:29.102855+00:00"
-  },
-  {
-    "id": "sec-Oliversmoke/comeback-359",
-    "domain": "security",
-    "title": "security: bug bounty program setup",
-    "url": "https://github.com/Oliversmoke/comeback/issues/359",
-    "platform": "github_security",
-    "repo_owner": "Oliversmoke",
-    "repo_name": "comeback",
-    "issue_number": 359,
-    "org_handle": "Oliversmoke",
-    "org_name": "Oliversmoke/comeback",
-    "body": "## Summary\nInvite security researchers.\n\n## Acceptance Criteria\nScope, rewards, safe harbor.\n\n---\nSource: ISSUES.md #360 \u00b7 StakeMind",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 2,
-    "last_audited": "2026-09-28T13:32:29.481540+00:00"
+    "last_audited": "2026-09-28T20:30:22.177433+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -864,7 +737,57 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-28T13:32:29.796408+00:00"
+    "last_audited": "2026-09-28T20:30:22.495727+00:00"
+  },
+  {
+    "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
+    "domain": "security",
+    "title": "Launch Bug Bounty Program",
+    "url": "https://github.com/Soroban-Cookbook/Soroban-Cookbook-/issues/928",
+    "platform": "github_security",
+    "repo_owner": "Soroban-Cookbook",
+    "repo_name": "Soroban-Cookbook-",
+    "issue_number": 928,
+    "org_handle": "Soroban-Cookbook",
+    "org_name": "Soroban-Cookbook/Soroban-Cookbook-",
+    "body": "## Summary\nPublic launch of bug bounty\n\n## Current State\nNo in-repo deliverables; operational/community work tracked for planning.\n\n## Implementation Hints\nDocument outcomes in README or `CONTRIBUTING.md` when completed; link external resources.\n\n## Acceptance Criteria\n- Program live\n- Announcement published\n- Marketing campaign\n- Community notified\n- Initial participants\n\n## Verification\nManual verification against acceptance criteria; update phase file when done.\n\n## Source\nPhase issue #386 from phase 8 issues.md (line 87)\nPriority: High | Scope: M",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 1,
+    "last_audited": "2026-09-28T20:30:22.777269+00:00"
+  },
+  {
+    "id": "sec-Oliversmoke/comeback-359",
+    "domain": "security",
+    "title": "security: bug bounty program setup",
+    "url": "https://github.com/Oliversmoke/comeback/issues/359",
+    "platform": "github_security",
+    "repo_owner": "Oliversmoke",
+    "repo_name": "comeback",
+    "issue_number": 359,
+    "org_handle": "Oliversmoke",
+    "org_name": "Oliversmoke/comeback",
+    "body": "## Summary\nInvite security researchers.\n\n## Acceptance Criteria\nScope, rewards, safe harbor.\n\n---\nSource: ISSUES.md #360 \u00b7 StakeMind",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 2,
+    "last_audited": "2026-09-28T20:30:23.059877+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -889,7 +812,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-28T13:32:30.092392+00:00"
+    "last_audited": "2026-09-28T20:30:23.416981+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -914,7 +837,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-28T13:32:30.351954+00:00"
+    "last_audited": "2026-09-28T20:30:23.746939+00:00"
   },
   {
     "id": "sec-abdulsalam-create/bounty-watch-27",
@@ -939,7 +862,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-28T13:32:30.616653+00:00"
+    "last_audited": "2026-09-28T20:30:24.017653+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -964,7 +887,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-28T13:32:30.859698+00:00"
+    "last_audited": "2026-09-28T20:30:24.270279+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -989,7 +912,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-09-28T13:32:31.158662+00:00"
+    "last_audited": "2026-09-28T20:30:24.525586+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -1014,7 +937,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-28T13:32:31.416660+00:00"
+    "last_audited": "2026-09-28T20:30:24.808376+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1124",
@@ -1039,7 +962,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-28T13:32:31.741892+00:00"
+    "last_audited": "2026-09-28T20:30:25.099052+00:00"
   },
   {
     "id": "sec-relayhop/ClaudeEarnSelf-runtime-988",
@@ -1064,7 +987,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-28T13:32:32.065686+00:00"
+    "last_audited": "2026-09-28T20:30:25.389051+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-306",
@@ -1089,7 +1012,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-28T13:32:32.308246+00:00"
+    "last_audited": "2026-09-28T20:30:25.663046+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -1114,7 +1037,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-28T13:32:32.568852+00:00"
+    "last_audited": "2026-09-28T20:30:25.938014+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -1139,32 +1062,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-28T13:32:32.886656+00:00"
-  },
-  {
-    "id": "sec-Akanimoh12/Stellar-Tipz-1394",
-    "domain": "security",
-    "title": "Add a security disclosure and bug bounty process",
-    "url": "https://github.com/Akanimoh12/Stellar-Tipz/issues/1394",
-    "platform": "github_security",
-    "repo_owner": "Akanimoh12",
-    "repo_name": "Stellar-Tipz",
-    "issue_number": 1394,
-    "org_handle": "Akanimoh12",
-    "org_name": "Akanimoh12/Stellar-Tipz",
-    "body": "**Context.** `SECURITY.md` exists at root (5.7KB) and in `.github/`. For a platform handling real\nfunds on mainnet, a clear disclosure process with defined response times is essential.\n\n**Task.** Formalise security disclosure.\n\n**Acceptance criteria.**\n- [ ] A private reporting channel documented (GitHub Security Advisories enabled).\n- [ ] Response time commitments defined and realistic.\n- [ ] Scope explicitly defines what is in and out of bounds.\n- [ ] Safe harbour language for good-faith researchers.\n- [ ] The two SECURITY.md files are reconciled \u2014 they should not diverge.\n- [ ] A disclosure timeline policy is documented.\n\n**Guidance.** Reconciling the duplicate SECURITY.md files is a concrete cleanup \u2014 two security\npolicies that disagree is worse than one.\n\n**Labels.** `security`, `documentation`, `community`, `difficulty:medium`\n\n---\n<sub>Issue 246/250 from the production readiness audit \u2014 full set in [`docs/issues/`](https://github.com/Akanimoh12/Stellar-Tipz/tree/main/docs/issues). See [CONTRIBUTING](https://github.com/Akanimoh12/Stellar-Tipz/blob/main/docs/CONTRIBUTING.md) before starting.</sub>",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 2,
-    "last_audited": "2026-09-28T13:32:33.148745+00:00"
+    "last_audited": "2026-09-28T20:30:26.214188+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -1189,7 +1087,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-28T13:32:33.397793+00:00"
+    "last_audited": "2026-09-28T20:30:26.499436+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -1214,7 +1112,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-28T13:32:33.685418+00:00"
+    "last_audited": "2026-09-28T20:30:26.783161+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1239,7 +1137,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-28T13:32:33.941702+00:00"
+    "last_audited": "2026-09-28T20:30:27.095527+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -1261,7 +1159,10 @@
       "vulnerability"
     ],
     "status": "active",
-    "solvability_score": 85.0
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 5,
+    "last_audited": "2026-09-28T20:30:27.422949+00:00"
   },
   {
     "id": "gh-piotrwitek/typesafe-actions-139",
@@ -1283,7 +1184,10 @@
     "status": "active",
     "domain": "code",
     "competitor_prs": 0,
-    "solvability_score": 65.0
+    "solvability_score": 65.0,
+    "live_status": "open",
+    "comments_count": 5,
+    "last_audited": "2026-09-28T20:30:27.687867+00:00"
   },
   {
     "id": "web3-owocki-bot/ai-bounty-board-42",
@@ -1306,7 +1210,10 @@
     ],
     "status": "active",
     "competitor_prs": 0,
-    "solvability_score": 65.0
+    "solvability_score": 65.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-09-28T20:30:27.992609+00:00"
   },
   {
     "id": "web3-daydreamsai/agent-bounties-61",
@@ -1329,30 +1236,10 @@
     ],
     "status": "active",
     "competitor_prs": 0,
-    "solvability_score": 65.0
-  },
-  {
-    "id": "web3-xlabtg/wallet-contract-1",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "\ud83d\udd12 Smart Contract Security Audit Request",
-    "url": "https://github.com/xlabtg/wallet-contract/issues/1",
-    "platform": "web3_github",
-    "repo_owner": "xlabtg",
-    "repo_name": "wallet-contract",
-    "issue_number": 1,
-    "org_handle": "xlabtg",
-    "org_name": "xlabtg/wallet-contract",
-    "body": "## Objective\nConduct a comprehensive security audit of these TON smart contracts to identify vulnerabilities within the scope of the [TON Bug Bounty Program](https://github.com/ton-blockchain/bug-bounty).\n\nBe sure to read this before completing the assignment https://github.com/ton-blockchain/bug-bounty/blob/main/skills/bug-bounty-self-check.md\n\n## Scope (In-Scope Vulnerabilities)\n\n### Critical & High Severity\n- **Fund Theft**: Any vulnerability allowing unauthorized transfer of funds\n- **Signature Bypass**: Bypassing signature verification\n- **Replay Attacks**: Replaying transactions without proper protection\n- **Sequence Number Bypass**: Bypassing seqno checks\n- **Integer Overflow/Underflow**: Arithmetic errors leading to fund loss\n- **Logic Errors**: Flaws in contract logic allowing unauthorized actions\n- **Gas Manipulation**: Forcing contract to run out of gas at critical moments\n- **Message Spoofing**: Forging messages from trusted sources\n\n### Medium Severity\n- **Denial of Service**: Making contract permanently unusable\n- **Information Leakage**: Exposing sensitive information via contract state\n- **Upgrade Vulnerabilities**: Flaws in upgrade mechanisms\n- **Access Control Issues**: Improper permission checks\n\n### Low Severity\n- **Gas Inefficiency**: Suboptimal gas usage (only if it creates attack vectors)\n- **Code Quality Issues**: Only if they have security implications\n\n## Out of Scope\n- UI/UX issues\n- Missing features without security impact\n- Gas optimization without security impact\n- Known TON blockchain limitations\n\n## Smart Contract Attack Vectors to Check\n\n### 1. Message Handling\n- [ ] Verify all incoming messages are properly validated\n- [ ] Check `op` (operation code) handling\n- [ ] Verify sender authentication\n- [ ] Check for message replay protection (seqno, valid_until)\n- [ ] Verify proper handling of bounced messages\n\n### 2. Signature Verification\n- [ ] Verify signature is checked for all privileged operations\n- [ ] Check for signature malleability issues\n- [ ] Verify public key is properly stored and used\n- [ ] Check for missing signature checks\n\n### 3. State Management\n- [ ] Verify state is properly initialized\n- [ ] Check for race conditions in state updates\n- [ ] Verify state consistency after operations\n- [ ] Check for improper state exposure\n\n### 4. Fund Management\n- [ ] Verify balance checks before transfers\n- [ ] Check for integer overflow in amount calculations\n- [ ] Verify proper handling of TON vs Jetton\n- [ ] Check for dust attacks vulnerability\n\n### 5. TVM-Specific Issues\n- [ ] Check for gas consumption issues\n- [ ] Verify proper use of TVM primitives\n- [ ] Check for cell/slice handling errors\n- [ ] Verify proper exception handling\n\n### 6. Wallet-Specific (for wallet-contract)\n- [ ] Verify seqno increment logic\n- [ ] Check valid_until implementation\n- [ ] Verify multi-signature logic (if applicable)\n- [ ] Check for sub-wallet ID vulnerabilities\n\n### 7. Multisig-Specific (for multisig-contract)\n- [ ] Verify signature collection logic\n- [ ] Check for signature replay across different proposals\n- [ ] Verify quorum enforcement\n- [ ] Check for proposer authorization\n\n### 8. Token-Specific (for token-contract)\n- [ ] Verify mint/burn authorization\n- [ ] Check for balance manipulation\n- [ ] Verify transfer logic\n- [ ] Check for approval/allowance vulnerabilities\n\n### 9. DNS-Specific (for dns-contract)\n- [ ] Verify domain ownership checks\n- [ ] Check for DNS record manipulation\n- [ ] Verify proper resolution logic\n\n### 10. Nominator Pool-Specific (for nominator-pool)\n- [ ] Verify stake/unstake logic\n- [ ] Check for reward calculation errors\n- [ ] Verify validator authorization\n- [ ] Check for fund locking issues\n\n## Methodology\n\n### Phase 1: Code Comprehension\n1. Read entire contract code\n2. Map all functions and their purposes\n3. Identify entry points (recv_internal, recv_external)\n4. Map state variables and their purposes\n5. Understand the contract's role in TON ecosystem\n\n### Phase 2: Threat Modeling\n1. Identify trusted parties (owner, validator, etc.)\n2. Identify untrusted parties (anyone sending messages)\n3. Map trust boundaries\n4. Identify critical assets (funds, state)\n5. List potential attackers and their goals\n\n### Phase 3: Vulnerability Analysis\nFor each function:\n1. Check input validation\n2. Verify authorization checks\n3. Analyze state changes\n4. Check for integer overflow/underflow\n5. Verify proper error handling\n6. Check for gas-related issues\n\n### Phase 4: Attack Simulation\nFor each potential vulnerability:\n1. Construct attack scenario\n2. Write PoC in Fift or use TON Sandbox\n3. Verify exploit works\n4. Assess impact\n\n## Deliverables\n\nFor EACH vulnerability found, create a separate issue with:\n\n### Issue Title Format\n`[Security] <Severity>: <Brief Description> in <Contract Name>`\n\nExample: `[Security] Critical: Signature Bypass in Wallet V4 seqno check`\n\n### Issue Template\n```markdown\n## Vulnerability Details\n\n**Severity**: Critical / High / Medium / Low\n**CVSS Score**: [0.0-10.0]\n**CVSS Vector**: [CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H]\n**Vulnerability Type**: [CWE ID and Name]\n**Affected Contract**: [Contract name and file path]\n**Affected Function**: [Function name]\n**Affected Lines**: [Line numbers]\n\n## Description\n[Detailed technical description of the vulnerability]\n\n## Root Cause\n[Why this vulnerability exists - the underlying flaw]\n\n## Impact\n[What an attacker can achieve]\n- Financial impact: [How much can be stolen/lost]\n- Operational impact: [What functionality is compromised]\n\n## Proof of Concept (PoC)\n\n### Attack Scenario\n[Step-by-step description of the attack]\n\n### PoC Code (Fift/Python)\n```fift\n// Fift code demonstrating the exploit\n```\n\nOR\n\n```python\n# Python code using pytonlib or TON Sandbox\n```\n\n### Expected Behavior\n[What should happen according to contract logic]\n\n### Actual Behavior\n[What actually happens - the exploit]\n\n### Transaction Trace\n[If available, show the transaction flow]\n\n## Remediation\n\n### Root Cause Fix\n[How to fix the underlying issue]\n\n### Code Fix\n```func\n// Before (vulnerable)\n() vulnerable_function(...) inline {\n    // vulnerable code\n}\n\n// After (fixed)\n() fixed_function(...) inline {\n    // fixed code\n}\n```\n\n### Additional Recommendations\n[Any additional security improvements]\n\n## References\n- [Link to CWE]\n- [Link to similar vulnerability in other projects]\n- [Link to TON documentation]\n- [Link to TON Bug Bounty scope]\n\n## Self-Check Validation\n- [ ] Verified this is in-scope for TON Bug Bounty\n- [ ] Confirmed this is not a known/documented issue\n- [ ] PoC tested in isolated environment (TON Sandbox, NOT mainnet/testnet)\n- [ ] Impact assessment is accurate and realistic\n- [ ] Remediation is practical and doesn't break functionality\n- [ ] No false positives - vulnerability is real and exploitable\n\n## Execution Instructions\n\n1. **Read all contracts thoroughly**: Don't skip any file\n2. **Understand the ecosystem**: How do these contracts interact?\n3. **Think like an attacker**: What would YOU try to exploit?\n4. **Verify everything**: Double-check each finding\n5. **Create separate issues**: One issue per vulnerability\n6. **Prioritize by severity**: Critical first, then High, Medium, Low\n7. **Tag appropriately**: Use labels like `security`, `critical`, `smart-contract`, `wallet`, `multisig`, etc.\n8. **No false positives**: Only report what you can prove with PoC\n\n## Special Considerations\n\n### For Wallet Contracts\n- Focus on seqno, valid_until, signature verification\n- Check for replay attack vectors\n- Verify sub-wallet ID handling\n\n### For Multisig Contracts\n- Focus on signature collection and verification\n- Check for quorum enforcement\n- Verify proposal lifecycle\n\n### For Token Contracts\n- Focus on mint/burn authorization\n- Check for balance manipulation\n- Verify transfer and approval logic\n\n### For DNS Contracts\n- Focus on domain ownership verification\n- Check for record manipulation\n\n### For Nominator Pools\n- Focus on stake/unstake logic\n- Check for reward calculation\n- Verify validator interactions\n\n## Context Management\nYou have unlimited time and context. The context autocompacts, so you can continue indefinitely. Do as much as possible in one go. If something is left over, continue in the same issue until fully complete.\n\n## Repository to Audit\nhttps://github.com/xlabtg/wallet-contract\n\n**CRITICAL WARNING**: \n- Do NOT deploy or test exploits on mainnet or testnet\n- Use TON Sandbox or local test environment only\n- This is for security research purposes only\n- Follow responsible disclosure practices",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "solidity",
-      "python"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 65.0
+    "solvability_score": 65.0,
+    "live_status": "open",
+    "comments_count": 4,
+    "last_audited": "2026-09-28T20:30:28.313513+00:00"
   },
   {
     "id": "web3-ResearchHub/issues-716",
@@ -1508,6 +1395,29 @@
     "solvability_score": 55.0
   },
   {
+    "id": "web3-Aman-Pal00/google-stopwatch.github.io-1",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "WEB3 bug bounty hunt programs",
+    "url": "https://github.com/Aman-Pal00/google-stopwatch.github.io/issues/1",
+    "platform": "web3_github",
+    "repo_owner": "Aman-Pal00",
+    "repo_name": "google-stopwatch.github.io",
+    "issue_number": 1,
+    "org_handle": "Aman-Pal00",
+    "org_name": "Aman-Pal00/google-stopwatch.github.io",
+    "body": "# BOUNTY EARNING\r\nBounties are a permissionless way for people to get started with working in web3. The talent supply in web3 is quite small in web3 compared to the demand from various web3 projects big and small. There are 100s of DAOs, 1000s of NFT Projects, 100s of Defi projects, and much more which all need people to work on them.\r\n",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "solidity",
+      "python"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 55.0
+  },
+  {
     "id": "gh-gitcoinco/gitcoin_co_30-511",
     "title": "[App] OnlyDust",
     "url": "https://github.com/gitcoinco/gitcoin_co_30/issues/511",
@@ -1530,6 +1440,51 @@
     "solvability_score": 50.0
   },
   {
+    "id": "gh-egoist/majo-12",
+    "title": "Separate the majo instance and middleware context",
+    "url": "https://github.com/egoist/majo/issues/12",
+    "platform": "issuehunt",
+    "repo_owner": "egoist",
+    "repo_name": "majo",
+    "issue_number": 12,
+    "org_handle": "egoist",
+    "org_name": "egoist/majo",
+    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%24100%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/egoist/majo/issues/12)\n<!-- /Issuehunt Badges -->\n\n\nSome methods like `stream.rename` `stream.createFile` are only available in middlewares, if you call theme directly outside a middleware it will either not work or throw an error.\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $100.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($100.00)\n\n### Submitted pull Requests\n- [#16 Separate middleware-specific functions to MajoFiles class](https://oss.issuehunt.io/r/egoist/majo/pull/16)\n- [#50 Separate middleware context](https://oss.issuehunt.io/r/egoist/majo/pull/50)\n- [#52 Separate middleware context](https://oss.issuehunt.io/r/egoist/majo/pull/52)\n- [#54 fix: queue file mutations called before process (issue #12)](https://oss.issuehunt.io/r/egoist/majo/pull/54)\n- [#55 Separate middleware context from stream instance](https://oss.issuehunt.io/r/egoist/majo/pull/55)\n- [#58 refactor: separate middleware context from Majo](https://oss.issuehunt.io/r/egoist/majo/pull/58)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/egoist/majo/issues/12)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/egoist/majo/issues/12)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/egoist/majo/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "enhancement",
+      "help wanted",
+      ":dollar: Funded on Issuehunt"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 50.0
+  },
+  {
+    "id": "gh-shanalikhan/code-settings-sync-256",
+    "title": "Adding Support for Import / Export Sync Settings to File System",
+    "url": "https://github.com/shanalikhan/code-settings-sync/issues/256",
+    "platform": "issuehunt",
+    "repo_owner": "shanalikhan",
+    "repo_name": "code-settings-sync",
+    "issue_number": 256,
+    "org_handle": "shanalikhan",
+    "org_name": "shanalikhan/code-settings-sync",
+    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%24100%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/issues/256)\n<!-- /Issuehunt Badges -->\n\n\nSync Local Settings File can have more enhancements like adding path from which to export and import settings.\r\n\r\nModes will be provided to use to select either from GitHub Gist or File System via UI.\r\n\r\n1. Existing Command will be changed to Import and Export\r\n    a. By Export means to Upload in Gist and Import means to Download \r\n    b. Similar for File System respectively.\r\n2. Folder Path will be defined in the LocalSettings file.\r\n3. UI will be changed accordingly.\r\n\r\nUser can set a path inside OneDrive, Dropbox or other folder to view them and email them.\r\n\r\nThis feature will be developed upon user requests priority in this issue page\r\nAlso when alot of other core features are shipped with extension.\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $100.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($100.00)\n\n### Submitted pull Requests\n- [#1469 feat: add local filesystem sync service](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/pull/1469)\n- [#1483 feat: add filesystem settings import and export](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/pull/1483)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/issues/256)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/issues/256)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "feature-request  \ud83d\udca1",
+      ":dollar: Funded on Issuehunt"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 50.0
+  },
+  {
     "id": "gh-gajus/flow-runtime-165",
     "title": "webpack loader",
     "url": "https://github.com/gajus/flow-runtime/issues/165",
@@ -1539,12 +1494,34 @@
     "issue_number": 165,
     "org_handle": "gajus",
     "org_name": "gajus/flow-runtime",
-    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%24200%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/gajus/flow-runtime/issues/165)\n<!-- /Issuehunt Badges -->\n\n\n<!--\r\n  Thanks for using flow-runtime! To help us address your issue quickly please\r\n  provide as much information about the problem you're facing, or the feature you'd like adding.\r\n-->\r\n\r\nThis is a:\r\n\r\n - [ ] Bug Report\r\n - [x] Feature Request\r\n - [ ] Question\r\n - [ ] Other\r\n\r\nIt'd be awesome to have a webpack loader so I could automatically get runtime validation of flow types from libraries.\r\n\r\nMy use case is that I want to validate DraftJS state on the server, which I'd love to do like this:\r\n\r\n```JS\r\n// Note: .js.flow file\r\nimport { RawDraftContentState } from 'flow-runtime-loader!draft-js/lib/RawDraftContentState.js.flow';\r\n\r\nconst storePost = (body) => {\r\n  t.param('body', RawDraftContentState).assert(body); \r\n  return storePostInDb({ body });\r\n}\r\n```\r\n\r\n\r\nDoes something like that exist?\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $200.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($200.00)\n\n### Submitted pull Requests\n- [#284 Add flow-runtime webpack loader](https://oss.issuehunt.io/r/gajus/flow-runtime/pull/284)\n- [#295 Add flow-runtime webpack loader](https://oss.issuehunt.io/r/gajus/flow-runtime/pull/295)\n- [#305 Add flow-runtime webpack loader](https://oss.issuehunt.io/r/gajus/flow-runtime/pull/305)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/gajus/flow-runtime/issues/165)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/gajus/flow-runtime/issues/165)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/gajus/flow-runtime/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
+    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%24200%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/gajus/flow-runtime/issues/165)\n<!-- /Issuehunt Badges -->\n\n\n<!--\r\n  Thanks for using flow-runtime! To help us address your issue quickly please\r\n  provide as much information about the problem you're facing, or the feature you'd like adding.\r\n-->\r\n\r\nThis is a:\r\n\r\n - [ ] Bug Report\r\n - [x] Feature Request\r\n - [ ] Question\r\n - [ ] Other\r\n\r\nIt'd be awesome to have a webpack loader so I could automatically get runtime validation of flow types from libraries.\r\n\r\nMy use case is that I want to validate DraftJS state on the server, which I'd love to do like this:\r\n\r\n```JS\r\n// Note: .js.flow file\r\nimport { RawDraftContentState } from 'flow-runtime-loader!draft-js/lib/RawDraftContentState.js.flow';\r\n\r\nconst storePost = (body) => {\r\n  t.param('body', RawDraftContentState).assert(body); \r\n  return storePostInDb({ body });\r\n}\r\n```\r\n\r\n\r\nDoes something like that exist?\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $200.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($200.00)\n\n### Submitted pull Requests\n- [#284 Add flow-runtime webpack loader](https://oss.issuehunt.io/r/gajus/flow-runtime/pull/284)\n- [#295 Add flow-runtime webpack loader](https://oss.issuehunt.io/r/gajus/flow-runtime/pull/295)\n- [#305 Add flow-runtime webpack loader](https://oss.issuehunt.io/r/gajus/flow-runtime/pull/305)\n- [#309 feat: add a webpack loader for Flow runtime validators](https://oss.issuehunt.io/r/gajus/flow-runtime/pull/309)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/gajus/flow-runtime/issues/165)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/gajus/flow-runtime/issues/165)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/gajus/flow-runtime/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
     "reward_usd": 200.0,
     "reward_formatted": "$200",
     "tech": [
       "enhancement",
       ":dollar: Funded on Issuehunt"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 50.0
+  },
+  {
+    "id": "gh-shanalikhan/code-settings-sync-413",
+    "title": "Suggestion: Allow upload to repository",
+    "url": "https://github.com/shanalikhan/code-settings-sync/issues/413",
+    "platform": "issuehunt",
+    "repo_owner": "shanalikhan",
+    "repo_name": "code-settings-sync",
+    "issue_number": 413,
+    "org_handle": "shanalikhan",
+    "org_name": "shanalikhan/code-settings-sync",
+    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%24200%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/issues/413)\n<!-- /Issuehunt Badges -->\n\n\nBy @shanalikhan\r\n\r\nBefore starting this feature, Settings Sync required code requires refactoring. You can take https://github.com/shanalikhan/code-settings-sync/pull/937 as a baseline for refactoring to start working.\r\n\r\nFollowing are the feature i see for git sync.\r\n```\r\n1. It should ask either backup needs to be saved on Github Gist or simple Git Repository.\r\n2. Once the User select the Git Repo, it should setup accordingly.\r\n3. Provide user option to either use Github or GitLab and create a repository from there by their profile tokens.\r\n4. By Download means, user can do `git pull` forcefully. \r\n5. By Upload means, user can do `git push` forcefully.\r\n6. Allow user to setup branches or profiles like `master` and `office` and keep the selected profile / branch in Sync Global Settings and download/ upload to that branch.\r\n7. When user is switched to Gist, it should not upload the Git folder there.\r\n8. Support Github and Gitlab Enterprise versions\r\n9. Complete New UI with integrated with above features to allow users to change via UI\r\n\r\n```\r\n\r\n\r\nOriginally by @smbkr\r\n\r\nIt would be useful to be able to upload the settings to a repo instead of a gist, the way that JetBrains IDEs sync, so that the changes could be versioned and rolled back as desired.\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $200.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/13612118?v=4' alt='boostio' width=24 height=24> boostio](https://oss.issuehunt.io/u/boostio) ($200.00)\n\n### Submitted pull Requests\n- [#1475 Add Git repository sync backend](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/pull/1475)\n- [#1484 feat: add Git repository settings sync](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/pull/1484)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/issues/413)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/issues/413)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
+    "reward_usd": 200.0,
+    "reward_formatted": "$200",
+    "tech": [
+      "feature-request  \ud83d\udca1",
+      "bounty"
     ],
     "status": "active",
     "domain": "code",
@@ -1569,28 +1546,6 @@
       "needs API design",
       "needs community feedback",
       ":dollar: Funded on Issuehunt"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 50.0
-  },
-  {
-    "id": "gh-shanalikhan/code-settings-sync-143",
-    "title": "Considering disabled extensions",
-    "url": "https://github.com/shanalikhan/code-settings-sync/issues/143",
-    "platform": "issuehunt",
-    "repo_owner": "shanalikhan",
-    "repo_name": "code-settings-sync",
-    "issue_number": 143,
-    "org_handle": "shanalikhan",
-    "org_name": "shanalikhan/code-settings-sync",
-    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%24120%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/issues/143)\n<!-- /Issuehunt Badges -->\n\n\n**Visual Studio Code Version :** 1.7.1\r\n**Code Sync Settings Version :** 2.3.8\r\n**Operating System :** W10\r\n**Occurs On:** [Upload / Download]\r\n**Proxy Enabled:** No\r\n\r\nAs of version 1.7, VSCode introduced _[disabled extensions](http://code.visualstudio.com/updates/v1_7#_disable-extensions)_. \r\n\r\nWe're excited to find these supported by this beloved plugin soon, hopefully! ;) Thank you!\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $120.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($120.00)\n\n### Submitted pull Requests\n- [#1462 Include installed extensions missing from VS Code API](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/pull/1462)\n- [#1476 Feature: Support syncing disabled extensions](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/pull/1476)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/issues/143)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/issues/143)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
-    "reward_usd": 120.0,
-    "reward_formatted": "$120",
-    "tech": [
-      "feature-request  \ud83d\udca1",
-      "bounty"
     ],
     "status": "active",
     "domain": "code",
@@ -1689,25 +1644,24 @@
     "solvability_score": 40.0
   },
   {
-    "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1293",
-    "title": "[Bounty] [Bounty] Seed a paid API child bounty",
-    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1293",
-    "platform": "bounty",
-    "repo_owner": "zhangjiayang6835-cyber",
-    "repo_name": "bounty-plaza",
-    "issue_number": 1293,
-    "org_handle": "zhangjiayang6835-cyber",
-    "org_name": "zhangjiayang6835-cyber/bounty-plaza",
-    "body": "### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/NSPG13/agent-bounties/issues/1368\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] Seed a paid API child bounty\n\n<!-- agent-bounties/github-discovery-v1:start -->\n<!-- agent-bounties/github-discovery-v1 {\"discovery_id\":\"eip155:8453:agent-bounties/autonomous-v1:0xbe17ef2d154265ebe3142d7bda5e99610d571455\"} -->\n## Canonical bounty discovery\n\nCreate and fully fund a concrete API coding bounty that a different registered participant completes and receives canonical settlement for.\n\n- **Current work state:** `unavailable`\n- **Current payment state:** `escrowed`\n- **Current competition state:** `exclusive_claim`\n- **Solver reward:** 0.90 USDC\n- **Entry/claim bond:** 0.10 USDC\n- **Funding:** 1.00 / 1.00 USDC\n- **Verifier:** deterministic_module (`deterministic_module`; ready: `false`)\n- **Funding Deadline:** `2026-10-11T00:00:00+00:00`\n\n### Next action\n\n**[Inspect canonical state](https://api.agentbounties.app/v1/base/autonomous-bounties/events?network=base-mainnet&bounty_id=0x99f668fc2f432e156033fd2fda2c9e91edffa30cc598013b4f2aaebbfd2348e3&utm_source=github&utm_medium=issue&utm_campaign=bounty-discovery-v1&discovery_id=eip155%3A8453%3Aagent-bounties%2Fautonomous-v1%3A0xbe17ef2d154265ebe3142d7bda5e99610d571455)** \u2014 Inspect confirmed canonical events. GitHub state is not settlement evidence.\n\n[Open the public bounty page](https://agentbounties.app/earn.html?bountyContract=0xbe17ef2d154265ebe3142d7bda5e99610d571455&network=base-mainnet&utm_source=github&utm_medium=issue&utm_campaign=bounty-discovery-v1&discovery_id=eip155%3A8453%3Aagent-bounties%2Fautonomous-v1%3A0xbe17ef2d154265ebe3142d7bda5e99610d571455)\n[Original source](https://github.com/NSPG13/agent-bounties/issues/334)\n\n> GitHub mirrors canonical public state and cannot fund, claim, verify, settle, or prove payment. Only a confirmed canonical `BountySettled` receipt below proves solver payment.\n<!-- agent-bounties/github-discovery-v1:end -->\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n112 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$90\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n",
-    "reward_usd": 112.0,
-    "reward_formatted": "$112",
+    "id": "gh-egoist/codepan-63",
+    "title": "add query string parameters for setting panel width",
+    "url": "https://github.com/egoist/codepan/issues/63",
+    "platform": "issuehunt",
+    "repo_owner": "egoist",
+    "repo_name": "codepan",
+    "issue_number": 63,
+    "org_handle": "egoist",
+    "org_name": "egoist/codepan",
+    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%24100%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/egoist/codepan/issues/63)\n<!-- /Issuehunt Badges -->\n\n\nCurrently writing a course and embedding codepan iframes for experimenting with JS, yet having large console is a design problem for integration. I was thinking about something like what Glitch does: https://glitch-embed.glitch.me/#preview\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $100.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($100.00)\n\n### Submitted pull Requests\n- [#70 iframe width and tabs](https://oss.issuehunt.io/r/egoist/codepan/pull/70)\n- [#113 Add query parameter for pane widths](https://oss.issuehunt.io/r/egoist/codepan/pull/113)\n- [#112 Add query parameter for panel widths](https://oss.issuehunt.io/r/egoist/codepan/pull/112)\n- [#114 feat: configure embedded panel widths from the URL](https://oss.issuehunt.io/r/egoist/codepan/pull/114)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/egoist/codepan/issues/63)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/egoist/codepan/issues/63)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/egoist/codepan/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
     "tech": [
-      "bounty",
-      "real"
+      ":dollar: Funded on Issuehunt"
     ],
     "status": "active",
     "domain": "code",
-    "competitor_prs": 1,
+    "competitor_prs": 0,
     "solvability_score": 40.0
   },
   {
@@ -1791,29 +1745,6 @@
     "reward_formatted": "$80",
     "tech": [
       "Priority: Medium"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 40.0
-  },
-  {
-    "id": "gh-Qix-/better-exceptions-10",
-    "title": "ipython support",
-    "url": "https://github.com/Qix-/better-exceptions/issues/10",
-    "platform": "issuehunt",
-    "repo_owner": "Qix-",
-    "repo_name": "better-exceptions",
-    "issue_number": 10,
-    "org_handle": "Qix-",
-    "org_name": "Qix-/better-exceptions",
-    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2470%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/Qix-/better-exceptions/issues/10)\n<!-- /Issuehunt Badges -->\n\n\nDoes not appear to work in ipython (at least in emacs)\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $70.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://issuehunt.io/u/issuehunt) ($70.00)\n\n#### [Become a backer now!](https://issuehunt.io/r/Qix-/better-exceptions/issues/10)\n#### [Or submit a pull request to get the deposits!](https://issuehunt.io/r/Qix-/better-exceptions/issues/10)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://issuehunt.io/r/Qix-/better-exceptions/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://issuehunt.io/r/new) on IssueHunt to raise funds.\n---\nIssueHunt has been backed by the following sponsors. [Become a sponsor](https://issuehunt.io/membership/members)\n</details>\n<!-- /Issuehunt content-->",
-    "reward_usd": 70.0,
-    "reward_formatted": "$70",
-    "tech": [
-      "enhancement",
-      "help wanted",
-      ":dollar: Funded on Issuehunt"
     ],
     "status": "active",
     "domain": "code",
