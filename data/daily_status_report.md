@@ -1,18 +1,18 @@
 # 🎯 MicroBountyHarvest - Daily Status Report
-*Generated on: `2026-09-29 16:26:47 UTC`*
+*Generated on: `2026-09-29 22:08:06 UTC`*
 
 ## 📊 Executive Summary
 
 | Metric | Value |
 |---|---|
 | **Active Open Bounties** | **73** |
-| **Open Bounty Pipeline Value** | **$9,359.00** |
+| **Open Bounty Pipeline Value** | **$9,347.00** |
 | **Total Solved Bounties** | **104** |
 | **Solved Bounties Value** | **$11,310.00** |
-| **Ready to Claim (Local Fix Tested)** | **19** |
+| **Ready to Claim (Local Fix Tested)** | **17** |
 | **PRs Submitted & Pending Review** | **54** |
 | **PRs Merged / Payout Won** | **3** |
-| **Closed / Inactive Cases** | **28** |
+| **Closed / Inactive Cases** | **30** |
 
 ## 🛠️ Solved Cases Live Status Breakdown
 
@@ -59,7 +59,7 @@
 | 39 | `[WEB3_DESCI]` | `openscad/openscad#783` | web3_github | **$100** | `open` | ⚪ Closed | [PR Link](https://github.com/openscad/openscad/pull/7038) |
 | 40 | `[KAGGLE]` | `kaggle/house-prices-advanced-regression-techniques#1` | kaggle | **$300 (Bounty)** | `open` | 🟡 Submitted | [Submission CSV](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/kaggle_submissions/house-prices-advanced-regression-techniques/submission.csv) |
 | 41 | `[KAGGLE]` | `kaggle/playground-series-s4e8#1` | kaggle | **$500 (Prize)** | `open` | 🟡 Submitted | [Submission CSV](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/kaggle_submissions/playground-series-s4e8/submission.csv) |
-| 42 | `[SECURITY]` | `Akanimoh12/Stellar-Tipz#1394` | github_security | **$150** | `open` | 🟡 Submitted | [Advisory Report](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_Akanimoh12_Stellar-Tipz_1394.md) |
+| 42 | `[SECURITY]` | `Akanimoh12/Stellar-Tipz#1394` | github_security | **$150** | `closed` | 🟡 Submitted | [Advisory Report](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_Akanimoh12_Stellar-Tipz_1394.md) |
 | 43 | `[SECURITY]` | `mikalv/msgr#213` | github_security | **$150** | `open` | 🟡 Submitted | [Advisory Report](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_mikalv_msgr_213.md) |
 | 44 | `[SECURITY]` | `stellar-vortex-protocol/vortex-contracts#298` | github_security | **$150** | `open` | 🟡 Submitted | [Advisory Report](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_stellar-vortex-protocol_vortex-contracts_298.md) |
 | 45 | `[SECURITY]` | `freedom-winds/BountyScout#926` | github_security | **$150** | `open` | 🟡 Submitted | [Advisory Report](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_freedom-winds_BountyScout_926.md) |
@@ -117,9 +117,9 @@
 | 97 | `[CODE]` | `shashwatvoa/Gravitation_System_Opengl#2` | opire | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
 | 98 | `[CODE]` | `Ricky1800/localbiz-site#7` | opire | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
 | 99 | `[CODE]` | `Ricky1800/localbiz-site#6` | opire | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
-| 100 | `[WEB3_DESCI]` | `mergemint-mint/mergemint-contracts#853` | web3_github | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
+| 100 | `[WEB3_DESCI]` | `mergemint-mint/mergemint-contracts#853` | web3_github | **$100** | `closed` | ⚪ Closed | Not Submitted |
 | 101 | `[WEB3_DESCI]` | `verdikta/verdikta-applications#47` | web3_github | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
-| 102 | `[WEB3_DESCI]` | `mergemint-mint/mergemint-contracts#850` | web3_github | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
+| 102 | `[WEB3_DESCI]` | `mergemint-mint/mergemint-contracts#850` | web3_github | **$100** | `closed` | ⚪ Closed | Not Submitted |
 | 103 | `[CODE]` | `kostasuser01gr/VoiceAI-Support-Dashboard#84` | opire | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
 | 104 | `[CODE]` | `NightVibes33/Filza-27#55` | opire | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
 
