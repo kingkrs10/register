@@ -1,5 +1,30 @@
 [
   {
+    "id": "gh-shashwatvoa/Gravitation_System_Opengl-3",
+    "title": "Test issue contribution for all the members",
+    "url": "https://github.com/shashwatvoa/Gravitation_System_Opengl/issues/3",
+    "platform": "opire",
+    "repo_owner": "shashwatvoa",
+    "repo_name": "Gravitation_System_Opengl",
+    "issue_number": 3,
+    "org_handle": "shashwatvoa",
+    "org_name": "shashwatvoa/Gravitation_System_Opengl",
+    "body": "All of the members have to create a pull request here\n\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #3</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @shashwatvoa</code> (replace <code>20</code> with the amount, and <code>@shashwatvoa</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "good first issue",
+      "testing"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-09-30T19:02:20.099342+00:00"
+  },
+  {
     "id": "gh-NightVibes33/Filza-27-55",
     "title": "can we access appdata on ths filza in ios 27.0?",
     "url": "https://github.com/NightVibes33/Filza-27/issues/55",
@@ -19,7 +44,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-30T12:23:10.983993+00:00"
+    "last_audited": "2026-09-30T19:02:20.283827+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-5",
@@ -44,7 +69,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-30T12:23:11.278281+00:00"
+    "last_audited": "2026-09-30T19:02:20.463768+00:00"
   },
   {
     "id": "gh-Ricky1800/ledgerlite-6",
@@ -68,7 +93,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-30T12:23:11.582711+00:00"
+    "last_audited": "2026-09-30T19:02:20.652438+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-7",
@@ -93,7 +118,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-30T12:23:11.885150+00:00"
+    "last_audited": "2026-09-30T19:02:20.860023+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-6",
@@ -118,7 +143,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-30T12:23:12.196352+00:00"
+    "last_audited": "2026-09-30T19:02:21.042261+00:00"
   },
   {
     "id": "gh-Ricky1800/ledgerlite-5",
@@ -142,7 +167,29 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-30T12:23:12.463178+00:00"
+    "last_audited": "2026-09-30T19:02:21.271981+00:00"
+  },
+  {
+    "id": "gh-probe-rs/webpage-303",
+    "title": "docs page: menu sidebar overlaps the content",
+    "url": "https://github.com/probe-rs/webpage/issues/303",
+    "platform": "opire",
+    "repo_owner": "probe-rs",
+    "repo_name": "webpage",
+    "issue_number": 303,
+    "org_handle": "probe-rs",
+    "org_name": "probe-rs/webpage",
+    "body": "https://probe.rs/docs/ looks bad at the moment:\n\n<img width=\"600\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/95949dcd-2311-4e52-8b13-42af0978c2c1\" />\n\n`ml-74` in `<div id=\"outside-menu\" class=\"pb-10 mx-10 md:ml-74\">` is expanded to\n\n```css\n@media (width >= 48rem) {\n    .md\\:ml-74 {\n        margin-left: calc(var(--spacing) * 74);\n    }\n}\n```\n\nWhen I changed the multiplicator `74`  to `100`, the content area looks normal. \n\nThis page looks good several days ago, but this line of code didn't change [for a year](https://github.com/probe-rs/webpage/blame/87af3d550b5dae600c6e4bca210bdfe9bc2f8bd0/src/layouts/Doc.astro#L58), so maybe something  breaks.\n\nhttps://github.com/user-attachments/assets/bee6d0c0-70b0-4f2b-8cb3-1526689f7626\n\n\n\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #303</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @zjp-CN</code> (replace <code>20</code> with the amount, and <code>@zjp-CN</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-09-30T19:02:21.518754+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-84",
@@ -166,57 +213,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-30T12:23:12.742137+00:00"
-  },
-  {
-    "id": "gh-Ricky1800/localbiz-site-8",
-    "title": "CLI script to scaffold a new `business.config.ts` interactively",
-    "url": "https://github.com/Ricky1800/localbiz-site/issues/8",
-    "platform": "opire",
-    "repo_owner": "Ricky1800",
-    "repo_name": "localbiz-site",
-    "issue_number": 8,
-    "org_handle": "Ricky1800",
-    "org_name": "Ricky1800/localbiz-site",
-    "body": "**Body:**\nThe \"Customize in 10 minutes\" README flow is entirely manual (open the file,\nedit fields). Add an optional `npm run init` script (Node script under\n`scripts/`) that interactively prompts for the required fields (name,\naddress, phone, timezone, at least one service, brand color) and writes a\nstarting `business.config.ts`, without touching the example config file\nunless the user confirms an overwrite.\n\n**Acceptance criteria:**\n- [ ] Running `npm run init` on a fresh clone prompts for each required\n      field and writes a valid `business.config.ts` that passes\n      `npm run typecheck` and `npm run build` unmodified.\n- [ ] Refuses to silently overwrite an existing customized config \u2014 asks for\n      confirmation or writes to a different filename.\n- [ ] No new runtime dependency added to the site itself (a CLI-only\n      devDependency like `prompts` or `@inquirer/prompts` is fine).\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #8</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @Ricky1800</code> (replace <code>20</code> with the amount, and <code>@Ricky1800</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "enhancement",
-      "help wanted"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-09-30T12:23:13.026478+00:00"
-  },
-  {
-    "id": "gh-Ricky1800/localbiz-site-4",
-    "title": "Internationalization (i18n) for a bilingual service area",
-    "url": "https://github.com/Ricky1800/localbiz-site/issues/4",
-    "platform": "opire",
-    "repo_owner": "Ricky1800",
-    "repo_name": "localbiz-site",
-    "issue_number": 4,
-    "org_handle": "Ricky1800",
-    "org_name": "Ricky1800/localbiz-site",
-    "body": "**Body:**\nMany local-service businesses (especially in NJ) serve bilingual (English/\nSpanish) communities. Add optional i18n:\n- Use Next.js's built-in App Router i18n routing patterns (locale segments,\n  e.g. `/es/servicios/[slug]`).\n- Extend `business.config.ts` so translatable strings (tagline, description,\n  service names/descriptions, FAQ, testimonials) can optionally be provided\n  per-locale, falling back to the default locale when a translation is\n  missing.\n- Keep this fully optional \u2014 a config with no translations should render\n  exactly as it does today.\n\n**Acceptance criteria:**\n- [ ] A config with only English content builds and renders unchanged.\n- [ ] A config with `es` translations for a subset of fields renders the\n      Spanish route with translated content where provided, English\n      fallbacks elsewhere.\n- [ ] `hreflang` alternate links are added to metadata when more than one\n      locale is configured.\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #4</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @Ricky1800</code> (replace <code>20</code> with the amount, and <code>@Ricky1800</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "enhancement",
-      "help wanted"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-09-30T12:23:13.314671+00:00"
+    "last_audited": "2026-09-30T19:02:21.800136+00:00"
   },
   {
     "id": "web3-anthropics/claude-code-96705",
@@ -246,7 +243,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-30T12:23:13.692008+00:00"
+    "last_audited": "2026-09-30T19:02:22.076977+00:00"
   },
   {
     "id": "web3-verdikta/verdikta-applications-47",
@@ -272,32 +269,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-30T12:23:14.012136+00:00"
-  },
-  {
-    "id": "web3-x402-foundation/x402-3065",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "[Feature]: verification gated release policy for auth-capture (a pact-escrow profile)",
-    "url": "https://github.com/x402-foundation/x402/issues/3065",
-    "platform": "web3_github",
-    "repo_owner": "x402-foundation",
-    "repo_name": "x402",
-    "issue_number": 3065,
-    "org_handle": "x402-foundation",
-    "org_name": "x402-foundation/x402",
-    "body": "### Problem or use case\n\nauth-capture deliberately defines the hold and stays silent on the release: capture or void is a discretionary act of the captureAuthorizer. That's the right layering, but it leaves the two parties with no protocol-level way to (1) agree upfront what satisfactory delivery means for this payment, (2) verify delivery against that agreement, and (3) dispute a wrong release decision. Today the client trusts the captureAuthorizer's judgment, off-protocol.\n\nThat blocks the use case several open issues are circling: agent-to-agent task delegation where payment releases on verified completion (#1247), dispute handling when verification is contested (#2001), a correctness and dispute layer for what settlement can't see (#2887), and canonical delivery proof at settlement (#1195, #2833).\n\nConcrete example: an agent pays $195 for a data cleaning job under auth-capture with autoCapture:false. What decides capture vs void? Today, nothing the counterparties agreed to in a machine checkable form. The acceptance tests passing or failing should be that decision, and both sides should have committed to those tests before work started.\n\n### Proposed solution\n\nA release-policy profile over auth-capture. No changes to the scheme itself, the profile specifies what a conformant captureAuthorizer executes:\n\n  1. Before authorization, buyer and seller co-sign a Verifiable Task Contract: a JSON object fixing task scope by hash, price, verification method, challenge window, and the seller's bond. Canonicalized with JCS (RFC 8785), signed with JWS (RFC 7515).\n\n  2. Release becomes mechanical. Verification passes: capture. Verification fails: void. On the optimistic path, capture fires at challenge-window expiry unless a fraud proof lands; the bond funds slashing, challenger cost reimbursement, and a capped bounty, because slashing alone doesn't fix the verifier's dilemma. Verification is graded per contract: deterministic re-execution, TEE attestation (EAT/RATS), zkML, or staked arbitration.\n\n  3. At settlement, both parties co-sign a Work Attestation carrying the contract hash and outcome: a delivery receipt in the sense #1195 and #2833 are after, except only emittable through a bonded, escrowed contract, which is what makes accumulated receipts expensive to fake.\n \nThe full lifecycle is specified as an IETF Internet-Draft, draft-laxsharma-pact-00 (individual submission, Experimental). One honesty note: Section 8 of the -00 currently expresses the x402 binding as a standalone pact-escrow scheme, written against the escrow and deferred lineage that was closed in May (#873, #426). Reshaping that binding into a profile over the merged auth-capture machinery is exactly the change I'd make in -01, and this issue is me proposing it here first. Schemas and worked examples whose hashes verify in CI: https://github.com/pact-spec/spec . Draft: https://datatracker.ietf.org/doc/draft-laxsharma-pact/\n\nConcrete ask: (a) is this better shaped as a profile doc under specs/schemes/auth-capture/ or an extension under specs/extensions/? (b) If maintainers see a path, I'll draft that spec doc as a PR. It's a -00, published to be demolished; sharp edges welcome.",
-    "reward_usd": 195.0,
-    "reward_formatted": "$195",
-    "tech": [
-      "enhancement"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 21,
-    "last_audited": "2026-09-30T12:23:14.327837+00:00"
+    "last_audited": "2026-09-30T19:02:22.367410+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -323,7 +295,32 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-30T12:23:14.698988+00:00"
+    "last_audited": "2026-09-30T19:02:22.577607+00:00"
+  },
+  {
+    "id": "web3-x402-foundation/x402-3065",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "[Feature]: verification gated release policy for auth-capture (a pact-escrow profile)",
+    "url": "https://github.com/x402-foundation/x402/issues/3065",
+    "platform": "web3_github",
+    "repo_owner": "x402-foundation",
+    "repo_name": "x402",
+    "issue_number": 3065,
+    "org_handle": "x402-foundation",
+    "org_name": "x402-foundation/x402",
+    "body": "### Problem or use case\n\nauth-capture deliberately defines the hold and stays silent on the release: capture or void is a discretionary act of the captureAuthorizer. That's the right layering, but it leaves the two parties with no protocol-level way to (1) agree upfront what satisfactory delivery means for this payment, (2) verify delivery against that agreement, and (3) dispute a wrong release decision. Today the client trusts the captureAuthorizer's judgment, off-protocol.\n\nThat blocks the use case several open issues are circling: agent-to-agent task delegation where payment releases on verified completion (#1247), dispute handling when verification is contested (#2001), a correctness and dispute layer for what settlement can't see (#2887), and canonical delivery proof at settlement (#1195, #2833).\n\nConcrete example: an agent pays $195 for a data cleaning job under auth-capture with autoCapture:false. What decides capture vs void? Today, nothing the counterparties agreed to in a machine checkable form. The acceptance tests passing or failing should be that decision, and both sides should have committed to those tests before work started.\n\n### Proposed solution\n\nA release-policy profile over auth-capture. No changes to the scheme itself, the profile specifies what a conformant captureAuthorizer executes:\n\n  1. Before authorization, buyer and seller co-sign a Verifiable Task Contract: a JSON object fixing task scope by hash, price, verification method, challenge window, and the seller's bond. Canonicalized with JCS (RFC 8785), signed with JWS (RFC 7515).\n\n  2. Release becomes mechanical. Verification passes: capture. Verification fails: void. On the optimistic path, capture fires at challenge-window expiry unless a fraud proof lands; the bond funds slashing, challenger cost reimbursement, and a capped bounty, because slashing alone doesn't fix the verifier's dilemma. Verification is graded per contract: deterministic re-execution, TEE attestation (EAT/RATS), zkML, or staked arbitration.\n\n  3. At settlement, both parties co-sign a Work Attestation carrying the contract hash and outcome: a delivery receipt in the sense #1195 and #2833 are after, except only emittable through a bonded, escrowed contract, which is what makes accumulated receipts expensive to fake.\n \nThe full lifecycle is specified as an IETF Internet-Draft, draft-laxsharma-pact-00 (individual submission, Experimental). One honesty note: Section 8 of the -00 currently expresses the x402 binding as a standalone pact-escrow scheme, written against the escrow and deferred lineage that was closed in May (#873, #426). Reshaping that binding into a profile over the merged auth-capture machinery is exactly the change I'd make in -01, and this issue is me proposing it here first. Schemas and worked examples whose hashes verify in CI: https://github.com/pact-spec/spec . Draft: https://datatracker.ietf.org/doc/draft-laxsharma-pact/\n\nConcrete ask: (a) is this better shaped as a profile doc under specs/schemes/auth-capture/ or an extension under specs/extensions/? (b) If maintainers see a path, I'll draft that spec doc as a PR. It's a -00, published to be demolished; sharp edges welcome.",
+    "reward_usd": 195.0,
+    "reward_formatted": "$195",
+    "tech": [
+      "enhancement"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 21,
+    "last_audited": "2026-09-30T19:02:22.839488+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -432,7 +429,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-30T12:23:15.092828+00:00"
+    "last_audited": "2026-09-30T19:02:23.084101+00:00"
   },
   {
     "id": "sec-StellarTickets/blockchain-42",
@@ -457,7 +454,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-30T12:23:15.408168+00:00"
+    "last_audited": "2026-09-30T19:02:23.357461+00:00"
+  },
+  {
+    "id": "sec-ethereum/go-ethereum-35852",
+    "domain": "security",
+    "title": "SECURITY.md: the PGP key expired on 2026-02-22",
+    "url": "https://github.com/ethereum/go-ethereum/issues/35852",
+    "platform": "github_security",
+    "repo_owner": "ethereum",
+    "repo_name": "go-ethereum",
+    "issue_number": 35852,
+    "org_handle": "ethereum",
+    "org_name": "ethereum/go-ethereum",
+    "body": "The key in SECURITY.md (`AE96 ED96 9E47 9B00 84F3 E17F E88D 3334 FA5F 6A0A`, security@ / bounty@ethereum.org) expired on 2026-02-22:\n\n```\npub   rsa4096 2016-11-11 [SC] [expired: 2026-02-22]\n      AE96ED969E479B0084F3E17FE88D3334FA5F6A0A\nuid           Ethereum Foundation Security Team <security@ethereum.org>\nuid           Ethereum Foundation Bug Bounty <bounty@ethereum.org>\n```\n\nThe copies on keyserver.ubuntu.com, pgp.mit.edu, and ethereum.org/security_at_ethereum.org.asc show the same expiry, so gpg warns anyone encrypting a report to it. Same thing as #24055 in 2021. Could the expiry be extended and the key block in SECURITY.md refreshed (and the ethereum.org copy)?",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-09-30T19:02:23.560955+00:00"
   },
   {
     "id": "sec-Refract-Protocol/refract-backend-132",
@@ -482,7 +504,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-09-30T12:23:15.723512+00:00"
+    "last_audited": "2026-09-30T19:02:23.782380+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -507,7 +529,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-30T12:23:15.999471+00:00"
+    "last_audited": "2026-09-30T19:02:24.039939+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -532,32 +554,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-30T12:23:16.368571+00:00"
-  },
-  {
-    "id": "sec-Smartdevs17/stellarlend-1189",
-    "domain": "security",
-    "title": "Private security follow-up channel request",
-    "url": "https://github.com/Smartdevs17/stellarlend/issues/1189",
-    "platform": "github_security",
-    "repo_owner": "Smartdevs17",
-    "repo_name": "stellarlend",
-    "issue_number": 1189,
-    "org_handle": "Smartdevs17",
-    "org_name": "Smartdevs17/stellarlend",
-    "body": "Hi,\n\nI previously submitted several security reports to this repository. Those public reports have since been removed, and I do not want to repost any vulnerability details publicly.\n\nI\u2019m following up only on the administrative side:\n\n- Are the removed reports still under bug-bounty review?\n- Have the corresponding fixes been considered deployed/eligible for payout under SECURITY.md?\n- What private channel should I use to continue the discussion and provide my USDC wallet if/when approved?\n\nThe repository\u2019s current GitHub Security Advisory submission URL returns 404 for me, and the Bug Bounty Submission Form link in SECURITY.md also appears unavailable.\n\nPlease either enable/provide a private disclosure channel or contact me through my GitHub account so I can continue privately.\n\nThanks,\nFranklin (@franklincg)",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-09-30T12:23:16.687739+00:00"
+    "last_audited": "2026-09-30T19:02:24.258599+00:00"
   },
   {
     "id": "sec-dadadave80/lattice-241",
@@ -582,7 +579,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-30T12:23:17.008586+00:00"
+    "last_audited": "2026-09-30T19:02:24.502350+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -607,32 +604,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-09-30T12:23:17.331396+00:00"
-  },
-  {
-    "id": "sec-Oliversmoke/comeback-359",
-    "domain": "security",
-    "title": "security: bug bounty program setup",
-    "url": "https://github.com/Oliversmoke/comeback/issues/359",
-    "platform": "github_security",
-    "repo_owner": "Oliversmoke",
-    "repo_name": "comeback",
-    "issue_number": 359,
-    "org_handle": "Oliversmoke",
-    "org_name": "Oliversmoke/comeback",
-    "body": "## Summary\nInvite security researchers.\n\n## Acceptance Criteria\nScope, rewards, safe harbor.\n\n---\nSource: ISSUES.md #360 \u00b7 StakeMind",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 2,
-    "last_audited": "2026-09-30T12:23:17.615701+00:00"
+    "last_audited": "2026-09-30T19:02:24.818652+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -657,7 +629,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-30T12:23:17.931411+00:00"
+    "last_audited": "2026-09-30T19:02:25.088022+00:00"
+  },
+  {
+    "id": "sec-Oliversmoke/comeback-359",
+    "domain": "security",
+    "title": "security: bug bounty program setup",
+    "url": "https://github.com/Oliversmoke/comeback/issues/359",
+    "platform": "github_security",
+    "repo_owner": "Oliversmoke",
+    "repo_name": "comeback",
+    "issue_number": 359,
+    "org_handle": "Oliversmoke",
+    "org_name": "Oliversmoke/comeback",
+    "body": "## Summary\nInvite security researchers.\n\n## Acceptance Criteria\nScope, rewards, safe harbor.\n\n---\nSource: ISSUES.md #360 \u00b7 StakeMind",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 2,
+    "last_audited": "2026-09-30T19:02:25.326897+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -682,7 +679,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-30T12:23:18.235600+00:00"
+    "last_audited": "2026-09-30T19:02:25.564325+00:00"
   },
   {
     "id": "sec-AudioBitsStellar/AudioBlock_Backend-510",
@@ -707,7 +704,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-30T12:23:18.554689+00:00"
+    "last_audited": "2026-09-30T19:02:25.785022+00:00"
   },
   {
     "id": "sec-abdulsalam-create/bounty-watch-27",
@@ -732,7 +729,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-30T12:23:18.853277+00:00"
+    "last_audited": "2026-09-30T19:02:25.967614+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -757,7 +754,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-30T12:23:19.133625+00:00"
+    "last_audited": "2026-09-30T19:02:26.157329+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -782,7 +779,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-09-30T12:23:19.463899+00:00"
+    "last_audited": "2026-09-30T19:02:26.375499+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -807,7 +804,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-30T12:23:19.738332+00:00"
+    "last_audited": "2026-09-30T19:02:26.671350+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1124",
@@ -832,7 +829,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-30T12:23:20.009185+00:00"
+    "last_audited": "2026-09-30T19:02:26.886166+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-306",
@@ -857,7 +854,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-30T12:23:20.275355+00:00"
+    "last_audited": "2026-09-30T19:02:27.100250+00:00"
   },
   {
     "id": "sec-relayhop/ClaudeEarnSelf-runtime-988",
@@ -882,7 +879,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-30T12:23:20.551284+00:00"
+    "last_audited": "2026-09-30T19:02:27.339479+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -907,7 +904,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-30T12:23:20.844523+00:00"
+    "last_audited": "2026-09-30T19:02:27.565972+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -932,7 +929,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-30T12:23:21.139784+00:00"
+    "last_audited": "2026-09-30T19:02:27.819545+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -957,7 +954,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-30T12:23:21.398822+00:00"
+    "last_audited": "2026-09-30T19:02:28.029434+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -982,7 +979,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-09-30T12:23:21.706476+00:00"
+    "last_audited": "2026-09-30T19:02:28.247595+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1007,7 +1004,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-30T12:23:21.993574+00:00"
+    "last_audited": "2026-09-30T19:02:28.474235+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -1032,7 +1029,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-30T12:23:22.308580+00:00"
+    "last_audited": "2026-09-30T19:02:28.700304+00:00"
   },
   {
     "id": "sec-vansh-09/BountyScout-448",
@@ -1057,7 +1054,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-30T12:23:22.583349+00:00"
+    "last_audited": "2026-09-30T19:02:28.944546+00:00"
   },
   {
     "id": "gh-piotrwitek/typesafe-actions-139",
@@ -1082,7 +1079,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-09-30T12:23:22.901797+00:00"
+    "last_audited": "2026-09-30T19:02:29.133690+00:00"
   },
   {
     "id": "web3-owocki-bot/ai-bounty-board-42",
@@ -1108,7 +1105,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-30T12:23:23.191374+00:00"
+    "last_audited": "2026-09-30T19:02:29.356864+00:00"
   },
   {
     "id": "web3-Chainbounty/chainbounty-contracts-3",
@@ -1134,7 +1131,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-30T12:23:23.515586+00:00"
+    "last_audited": "2026-09-30T19:02:29.628480+00:00"
   },
   {
     "id": "web3-daydreamsai/agent-bounties-61",
@@ -1160,7 +1157,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-09-30T12:23:23.884344+00:00"
+    "last_audited": "2026-09-30T19:02:29.843760+00:00"
   },
   {
     "id": "web3-xlabtg/wallet-contract-1",
@@ -1186,7 +1183,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-09-30T12:23:24.148256+00:00"
+    "last_audited": "2026-09-30T19:02:30.030617+00:00"
   },
   {
     "id": "web3-ResearchHub/issues-716",
@@ -1212,7 +1209,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-09-30T12:23:24.427576+00:00"
+    "last_audited": "2026-09-30T19:02:30.272128+00:00"
   },
   {
     "id": "gh-strias-ai/mcp-embodied-actuator-madrid-1",
@@ -1234,7 +1231,7 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-09-30T12:23:24.713784+00:00"
+    "last_audited": "2026-09-30T19:02:30.520378+00:00"
   },
   {
     "id": "gh-jaykode2025/stargazers-log-1",
@@ -1600,6 +1597,28 @@
     "status": "active",
     "competitor_prs": 0,
     "solvability_score": 50.0
+  },
+  {
+    "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1292",
+    "title": "[Bounty] [Bounty] Seed a paid wallet UX child bounty",
+    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1292",
+    "platform": "bounty",
+    "repo_owner": "zhangjiayang6835-cyber",
+    "repo_name": "bounty-plaza",
+    "issue_number": 1292,
+    "org_handle": "zhangjiayang6835-cyber",
+    "org_name": "zhangjiayang6835-cyber/bounty-plaza",
+    "body": "### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/NSPG13/agent-bounties/issues/1369\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] Seed a paid wallet UX child bounty\n\n<!-- agent-bounties/github-discovery-v1:start -->\n<!-- agent-bounties/github-discovery-v1 {\"discovery_id\":\"eip155:8453:agent-bounties/autonomous-v1:0xe8c1d3f046f3e4690bef59ba4abd5d02d2a6984b\"} -->\n## Canonical bounty discovery\n\nCreate and fully fund a concrete wallet UX coding bounty that a different registered participant completes and receives canonical settlement for.\n\n- **Current work state:** `unavailable`\n- **Current payment state:** `escrowed`\n- **Current competition state:** `exclusive_claim`\n- **Solver reward:** 0.90 USDC\n- **Entry/claim bond:** 0.10 USDC\n- **Funding:** 1.00 / 1.00 USDC\n- **Verifier:** deterministic_module (`deterministic_module`; ready: `false`)\n- **Funding Deadline:** `2026-10-11T00:00:00+00:00`\n\n### Next action\n\n**[Inspect canonical state](https://api.agentbounties.app/v1/base/autonomous-bounties/events?network=base-mainnet&bounty_id=0xed39b0f29e43a16acff555865d464eeb94b13eac27c4ead88e598c52609ab253&utm_source=github&utm_medium=issue&utm_campaign=bounty-discovery-v1&discovery_id=eip155%3A8453%3Aagent-bounties%2Fautonomous-v1%3A0xe8c1d3f046f3e4690bef59ba4abd5d02d2a6984b)** \u2014 Inspect confirmed canonical events. GitHub state is not settlement evidence.\n\n[Open the public bounty page](https://agentbounties.app/earn.html?bountyContract=0xe8c1d3f046f3e4690bef59ba4abd5d02d2a6984b&network=base-mainnet&utm_source=github&utm_medium=issue&utm_campaign=bounty-discovery-v1&discovery_id=eip155%3A8453%3Aagent-bounties%2Fautonomous-v1%3A0xe8c1d3f046f3e4690bef59ba4abd5d02d2a6984b)\n[Original source](https://github.com/NSPG13/agent-bounties/issues/336)\n\n> GitHub mirrors canonical public state and cannot fund, claim, verify, settle, or prove payment. Only a confirmed canonical `BountySettled` receipt below proves solver payment.\n<!-- agent-bounties/github-discovery-v1:end -->\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n112 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$90\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n",
+    "reward_usd": 112.0,
+    "reward_formatted": "$112",
+    "tech": [
+      "bounty",
+      "real"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 1,
+    "solvability_score": 40.0
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1295",
