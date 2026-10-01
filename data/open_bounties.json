@@ -22,7 +22,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T05:21:29.093381+00:00"
+    "last_audited": "2026-10-01T12:55:22.321478+00:00"
   },
   {
     "id": "gh-NightVibes33/Filza-27-55",
@@ -44,7 +44,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T05:21:29.380048+00:00"
+    "last_audited": "2026-10-01T12:55:22.684427+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-5",
@@ -69,7 +69,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T05:21:29.659458+00:00"
+    "last_audited": "2026-10-01T12:55:23.025472+00:00"
   },
   {
     "id": "gh-Ricky1800/ledgerlite-6",
@@ -93,7 +93,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T05:21:29.930901+00:00"
+    "last_audited": "2026-10-01T12:55:23.401384+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-7",
@@ -118,7 +118,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-01T05:21:30.179764+00:00"
+    "last_audited": "2026-10-01T12:55:23.757052+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-6",
@@ -143,7 +143,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T05:21:30.446775+00:00"
+    "last_audited": "2026-10-01T12:55:24.094750+00:00"
   },
   {
     "id": "gh-Ricky1800/ledgerlite-5",
@@ -167,7 +167,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T05:21:30.696132+00:00"
+    "last_audited": "2026-10-01T12:55:24.415519+00:00"
   },
   {
     "id": "gh-probe-rs/webpage-303",
@@ -189,7 +189,33 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T05:21:30.993587+00:00"
+    "last_audited": "2026-10-01T12:55:24.756176+00:00"
+  },
+  {
+    "id": "web3-Chain-Love/chain-love-4057",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "[DBIP] Split security executionEnvironment into executionEnvironments (runtimes) + languages (array of langs), normalize separators",
+    "url": "https://github.com/Chain-Love/chain-love/issues/4057",
+    "platform": "web3_github",
+    "repo_owner": "Chain-Love",
+    "repo_name": "chain-love",
+    "issue_number": 4057,
+    "org_handle": "Chain-Love",
+    "org_name": "Chain-Love/chain-love",
+    "body": "### Proposal type\nSplit column (one conflated column -> two typed columns) + add validation\n\n### Affected scope\n- Canonical: `references/offers/security.csv`\n- Per-network security listings: `listings/specific-networks/<network>/security.csv`\n- `schema.json` on json-tools (replace `executionEnvironment` with two array columns + enum constraints)\n- Security wiki page\n\n### Motivation / problem statement\nAt main, `security.csv` has 92 rows. The `executionEnvironment` column **conflates two orthogonal dimensions** in a single free-text field:\n\n1. **Execution environment / runtime** \u2014 `EVM`, `SVM`, `WASM`, `Substrate`, `Solana`, `Aptos`, `EOS`, `Fabric`\n2. **Programming language** \u2014 `Solidity`, `Move`, `Cairo`, `Vyper`, `Rust`, `Go`\n\nMeasured distribution (92 rows): empty(31), `TBD`(18), `EVM`(15), `Solidity`(6), `Solidity, Move, Cairo, Vyper, Rust`(4), `Rust`(4), `EVM (Solidity)`(3), `EVM, SVM, WASM`(3), `EVM (Solidity), Rust, ZK`(1), `EVM, Substrate, Rust`(1), `EVM (Solidity/Vyper)`(1), `Solidity, Cairo, Rust, Go`(1), `EVM, Rust, Move, Solana`(1), `Solidity, Vyper`(1), `EVM, Solana, Aptos, EOS, Fabric`(1), `EVM (Solidity, Vyper)`(1).\n\nConcrete defects:\n- **8 rows mix both dimensions** (e.g. `abdk`, `certik`, `certora-gambit`, `chainsecurity`, `chimera`, `halmos`, `quantstamp-audit`, `statemind-smart-contract-audit` all carry both a runtime and a language in one cell).\n- **Inconsistent separators**: 6 rows use parenthetical qualification `EVM (Solidity)` while others use comma `EVM, SVM, WASM` \u2014 the same fact (EVM + Solidity) is encoded two different ways, so it is un-queryable (\"which tools support Solidity on EVM?\" cannot be answered by a single filter).\n- `TBD`(18) and empty(31) are placeholders, not environments.\n\n### Proposed change\n1. **Split** `executionEnvironment` into two typed array columns:\n   - `executionEnvironments` \u2014 array of runtimes from a closed enum: `evm`, `svm`, `wasm`, `substrate`, `solana`, `aptos`, `eos`, `fabric`, ...\n   - `languages` \u2014 array of languages from a closed enum: `solidity`, `move`, `cairo`, `vyper`, `rust`, `go`, ...\n2. **Normalize** to comma-separated arrays, drop parenthetical qualifiers (e.g. `EVM (Solidity)` -> `executionEnvironments=[\"evm\"]`, `languages=[\"solidity\"]`).\n3. **Add enum constraints** in `schema.json` so future free-text cannot creep back in.\n4. **Null semantics**: `TBD`/empty mean **not verified**; MUST NOT default to \"EVM only\".\n\n### Relationship to #3697 / #3678\n#3697 renames the *sdks* `sdk` column to `sdkLanguages`; #3678 normalizes *oracle* `dataTypes`. This DBIP is the security-table companion that splits its conflated `executionEnvironment` \u2014 distinct table, distinct column, not a duplicate.\n\n### Payout address\nUSDC payout address (Chain-Love DBIP bounty): `0x0751C1d8DbA83d8968401293b50Bc91E7701dcf8`\n",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "solidity",
+      "python"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 1,
+    "last_audited": "2026-10-01T12:55:25.113247+00:00"
   },
   {
     "id": "web3-anthropics/claude-code-96705",
@@ -219,7 +245,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T05:21:31.321607+00:00"
+    "last_audited": "2026-10-01T12:55:25.521778+00:00"
   },
   {
     "id": "web3-verdikta/verdikta-applications-47",
@@ -245,32 +271,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-01T05:21:31.651556+00:00"
-  },
-  {
-    "id": "web3-x402-foundation/x402-3065",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "[Feature]: verification gated release policy for auth-capture (a pact-escrow profile)",
-    "url": "https://github.com/x402-foundation/x402/issues/3065",
-    "platform": "web3_github",
-    "repo_owner": "x402-foundation",
-    "repo_name": "x402",
-    "issue_number": 3065,
-    "org_handle": "x402-foundation",
-    "org_name": "x402-foundation/x402",
-    "body": "### Problem or use case\n\nauth-capture deliberately defines the hold and stays silent on the release: capture or void is a discretionary act of the captureAuthorizer. That's the right layering, but it leaves the two parties with no protocol-level way to (1) agree upfront what satisfactory delivery means for this payment, (2) verify delivery against that agreement, and (3) dispute a wrong release decision. Today the client trusts the captureAuthorizer's judgment, off-protocol.\n\nThat blocks the use case several open issues are circling: agent-to-agent task delegation where payment releases on verified completion (#1247), dispute handling when verification is contested (#2001), a correctness and dispute layer for what settlement can't see (#2887), and canonical delivery proof at settlement (#1195, #2833).\n\nConcrete example: an agent pays $195 for a data cleaning job under auth-capture with autoCapture:false. What decides capture vs void? Today, nothing the counterparties agreed to in a machine checkable form. The acceptance tests passing or failing should be that decision, and both sides should have committed to those tests before work started.\n\n### Proposed solution\n\nA release-policy profile over auth-capture. No changes to the scheme itself, the profile specifies what a conformant captureAuthorizer executes:\n\n  1. Before authorization, buyer and seller co-sign a Verifiable Task Contract: a JSON object fixing task scope by hash, price, verification method, challenge window, and the seller's bond. Canonicalized with JCS (RFC 8785), signed with JWS (RFC 7515).\n\n  2. Release becomes mechanical. Verification passes: capture. Verification fails: void. On the optimistic path, capture fires at challenge-window expiry unless a fraud proof lands; the bond funds slashing, challenger cost reimbursement, and a capped bounty, because slashing alone doesn't fix the verifier's dilemma. Verification is graded per contract: deterministic re-execution, TEE attestation (EAT/RATS), zkML, or staked arbitration.\n\n  3. At settlement, both parties co-sign a Work Attestation carrying the contract hash and outcome: a delivery receipt in the sense #1195 and #2833 are after, except only emittable through a bonded, escrowed contract, which is what makes accumulated receipts expensive to fake.\n \nThe full lifecycle is specified as an IETF Internet-Draft, draft-laxsharma-pact-00 (individual submission, Experimental). One honesty note: Section 8 of the -00 currently expresses the x402 binding as a standalone pact-escrow scheme, written against the escrow and deferred lineage that was closed in May (#873, #426). Reshaping that binding into a profile over the merged auth-capture machinery is exactly the change I'd make in -01, and this issue is me proposing it here first. Schemas and worked examples whose hashes verify in CI: https://github.com/pact-spec/spec . Draft: https://datatracker.ietf.org/doc/draft-laxsharma-pact/\n\nConcrete ask: (a) is this better shaped as a profile doc under specs/schemes/auth-capture/ or an extension under specs/extensions/? (b) If maintainers see a path, I'll draft that spec doc as a PR. It's a -00, published to be demolished; sharp edges welcome.",
-    "reward_usd": 195.0,
-    "reward_formatted": "$195",
-    "tech": [
-      "enhancement"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 21,
-    "last_audited": "2026-10-01T05:21:31.944672+00:00"
+    "last_audited": "2026-10-01T12:55:25.897413+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -296,7 +297,32 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-01T05:21:32.224586+00:00"
+    "last_audited": "2026-10-01T12:55:26.261516+00:00"
+  },
+  {
+    "id": "web3-x402-foundation/x402-3065",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "[Feature]: verification gated release policy for auth-capture (a pact-escrow profile)",
+    "url": "https://github.com/x402-foundation/x402/issues/3065",
+    "platform": "web3_github",
+    "repo_owner": "x402-foundation",
+    "repo_name": "x402",
+    "issue_number": 3065,
+    "org_handle": "x402-foundation",
+    "org_name": "x402-foundation/x402",
+    "body": "### Problem or use case\n\nauth-capture deliberately defines the hold and stays silent on the release: capture or void is a discretionary act of the captureAuthorizer. That's the right layering, but it leaves the two parties with no protocol-level way to (1) agree upfront what satisfactory delivery means for this payment, (2) verify delivery against that agreement, and (3) dispute a wrong release decision. Today the client trusts the captureAuthorizer's judgment, off-protocol.\n\nThat blocks the use case several open issues are circling: agent-to-agent task delegation where payment releases on verified completion (#1247), dispute handling when verification is contested (#2001), a correctness and dispute layer for what settlement can't see (#2887), and canonical delivery proof at settlement (#1195, #2833).\n\nConcrete example: an agent pays $195 for a data cleaning job under auth-capture with autoCapture:false. What decides capture vs void? Today, nothing the counterparties agreed to in a machine checkable form. The acceptance tests passing or failing should be that decision, and both sides should have committed to those tests before work started.\n\n### Proposed solution\n\nA release-policy profile over auth-capture. No changes to the scheme itself, the profile specifies what a conformant captureAuthorizer executes:\n\n  1. Before authorization, buyer and seller co-sign a Verifiable Task Contract: a JSON object fixing task scope by hash, price, verification method, challenge window, and the seller's bond. Canonicalized with JCS (RFC 8785), signed with JWS (RFC 7515).\n\n  2. Release becomes mechanical. Verification passes: capture. Verification fails: void. On the optimistic path, capture fires at challenge-window expiry unless a fraud proof lands; the bond funds slashing, challenger cost reimbursement, and a capped bounty, because slashing alone doesn't fix the verifier's dilemma. Verification is graded per contract: deterministic re-execution, TEE attestation (EAT/RATS), zkML, or staked arbitration.\n\n  3. At settlement, both parties co-sign a Work Attestation carrying the contract hash and outcome: a delivery receipt in the sense #1195 and #2833 are after, except only emittable through a bonded, escrowed contract, which is what makes accumulated receipts expensive to fake.\n \nThe full lifecycle is specified as an IETF Internet-Draft, draft-laxsharma-pact-00 (individual submission, Experimental). One honesty note: Section 8 of the -00 currently expresses the x402 binding as a standalone pact-escrow scheme, written against the escrow and deferred lineage that was closed in May (#873, #426). Reshaping that binding into a profile over the merged auth-capture machinery is exactly the change I'd make in -01, and this issue is me proposing it here first. Schemas and worked examples whose hashes verify in CI: https://github.com/pact-spec/spec . Draft: https://datatracker.ietf.org/doc/draft-laxsharma-pact/\n\nConcrete ask: (a) is this better shaped as a profile doc under specs/schemes/auth-capture/ or an extension under specs/extensions/? (b) If maintainers see a path, I'll draft that spec doc as a PR. It's a -00, published to be demolished; sharp edges welcome.",
+    "reward_usd": 195.0,
+    "reward_formatted": "$195",
+    "tech": [
+      "enhancement"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 21,
+    "last_audited": "2026-10-01T12:55:26.638276+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -405,7 +431,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-01T05:21:32.528904+00:00"
+    "last_audited": "2026-10-01T12:55:27.021843+00:00"
   },
   {
     "id": "sec-StellarTickets/blockchain-42",
@@ -430,7 +456,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T05:21:32.866287+00:00"
+    "last_audited": "2026-10-01T12:55:27.371085+00:00"
   },
   {
     "id": "sec-ethereum/go-ethereum-35852",
@@ -455,32 +481,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T05:21:33.151029+00:00"
-  },
-  {
-    "id": "sec-Refract-Protocol/refract-backend-132",
-    "domain": "security",
-    "title": "[High] Build a structured bug-bounty submission intake API",
-    "url": "https://github.com/Refract-Protocol/refract-backend/issues/132",
-    "platform": "github_security",
-    "repo_owner": "Refract-Protocol",
-    "repo_name": "refract-backend",
-    "issue_number": 132,
-    "org_handle": "Refract-Protocol",
-    "org_name": "Refract-Protocol/refract-backend",
-    "body": "**Complexity:** High (200 points)\n**Category:** Governance & Community Tooling\n\n**Description:** Build a backend API/webhook intake for security researchers to submit structured vulnerability reports against the process already described in `SECURITY.md`, replacing whatever ad hoc email/manual process exists today with a trackable, structured pipeline.\n\n**Problem Statement & Context:** `SECURITY.md` exists and presumably documents a reporting process, but nothing in this codebase provides structured, trackable intake for those reports \u2014 for a project that (per this very Wave initiative) is actively trying to attract more community engagement and external scrutiny, a real intake pipeline (not just \"email us\") is both a security-maturity signal and an operational necessity as report volume grows.\n\n**Scope & Acceptance Criteria:**\n- An authenticated (not public \u2014 vulnerability reports shouldn't be publicly submittable/readable) intake endpoint accepting structured reports (severity, affected component, description, reproduction steps), persisted with a status workflow (`new` \u2192 `triaging` \u2192 `resolved`/`wontfix`).\n- Integration with an existing team communication channel (e.g. a webhook notification on new submission) so reports don't sit unnoticed.\n- Out of scope: a public bug-bounty leaderboard/payout-tracking system \u2014 intake and internal triage tracking only.\n\n**Implementation Guidelines (Suggested Execution):**\n1. **Key Files/Modules:** New `src/security-reports/` module; `SECURITY.md` (update the documented reporting process to reference the new intake path).\n2. **Design/Architecture:** Reuse the auth/admin-guard work from the Security section for triage-access control; reports themselves should require some form of submitter identification/contact to prevent anonymous spam while still protecting report confidentiality from non-triagers.\n3. **Edge Cases/Constraints:** Report contents (especially reproduction steps for unpatched vulnerabilities) must never be exposed via any public/list endpoint \u2014 access control here is at least as important as the intake mechanism itself.\n4. **Testing:** Test access control thoroughly \u2014 a non-triager must never be able to read another submitter's report contents.\n\n**Definition of \"Done\":**\n- `SECURITY.md` documents the new structured intake path as the primary reporting mechanism.\n\n**Resources:**\n- `SECURITY.md`\n- Related: \"Add API authentication and admin-only guards\" (Security & Auditing, this wave)",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 7,
-    "last_audited": "2026-10-01T05:21:34.481276+00:00"
+    "last_audited": "2026-10-01T12:55:27.721850+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -505,7 +506,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-01T05:21:34.773806+00:00"
+    "last_audited": "2026-10-01T12:55:28.067507+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -530,7 +531,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T05:21:35.064875+00:00"
+    "last_audited": "2026-10-01T12:55:28.461528+00:00"
   },
   {
     "id": "sec-dadadave80/lattice-241",
@@ -555,7 +556,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T05:21:35.335854+00:00"
+    "last_audited": "2026-10-01T12:55:28.779450+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -580,7 +581,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-01T05:21:35.637142+00:00"
+    "last_audited": "2026-10-01T12:55:29.186857+00:00"
+  },
+  {
+    "id": "sec-AlienScroll78/vesting-cliff-drip-stream-803",
+    "domain": "security",
+    "title": "Create security policy and vulnerability disclosure process",
+    "url": "https://github.com/AlienScroll78/vesting-cliff-drip-stream/issues/803",
+    "platform": "github_security",
+    "repo_owner": "AlienScroll78",
+    "repo_name": "vesting-cliff-drip-stream",
+    "issue_number": 803,
+    "org_handle": "AlienScroll78",
+    "org_name": "AlienScroll78/vesting-cliff-drip-stream",
+    "body": "## Summary\nPopulate `SECURITY.md` with a complete vulnerability disclosure policy, including scope, out-of-scope items, reporting instructions, SLA for response, safe harbor statement, and bug bounty information.\n\n## Motivation\nThe README references `SECURITY.md` but if the file is minimal or missing, security researchers have no clear channel for responsible disclosure, increasing the risk of public disclosure without notice.\n\n## Required Sections\n1. **Scope**: What is in scope (contract, API, frontend, infrastructure).\n2. **Out of Scope**: Third-party dependencies, testnet-only issues.\n3. **Reporting**: Email address or HackerOne/Immunefi link.\n4. **Response SLA**: Acknowledge in 24h, triage in 72h, patch in 7 days for critical.\n5. **Safe Harbor**: Legal protection for good-faith researchers.\n6. **Bug Bounty**: Reward tiers by severity (Critical: $10K, High: $5K, etc.).\n7. **Known Issues**: List of accepted risks that will not be fixed.\n8. **PGP Key**: For encrypted report submission.\n\n## Acceptance Criteria\n- [ ] SECURITY.md reviewed by legal/compliance.\n- [ ] Reporting email/platform configured and monitored.\n- [ ] Safe harbor statement reviewed by legal.\n- [ ] Response SLA committed and achievable.",
+    "reward_usd": 10.0,
+    "reward_formatted": "$10",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 4,
+    "last_audited": "2026-10-01T12:55:29.564701+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -605,7 +631,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-01T05:21:35.914976+00:00"
+    "last_audited": "2026-10-01T12:55:29.930411+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -630,7 +656,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-01T05:21:36.244399+00:00"
+    "last_audited": "2026-10-01T12:55:30.308944+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -655,7 +681,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-01T05:21:36.518749+00:00"
+    "last_audited": "2026-10-01T12:55:30.665196+00:00"
   },
   {
     "id": "sec-AudioBitsStellar/AudioBlock_Backend-510",
@@ -680,7 +706,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-01T05:21:36.805078+00:00"
+    "last_audited": "2026-10-01T12:55:31.047366+00:00"
   },
   {
     "id": "sec-abdulsalam-create/bounty-watch-27",
@@ -705,7 +731,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T05:21:37.105851+00:00"
+    "last_audited": "2026-10-01T12:55:31.401166+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -730,7 +756,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-01T05:21:37.345586+00:00"
+    "last_audited": "2026-10-01T12:55:31.736221+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -755,7 +781,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-10-01T05:21:37.611296+00:00"
+    "last_audited": "2026-10-01T12:55:32.102295+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -780,7 +806,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-01T05:21:37.865932+00:00"
+    "last_audited": "2026-10-01T12:55:32.433211+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-306",
@@ -805,7 +831,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-01T05:21:38.135315+00:00"
+    "last_audited": "2026-10-01T12:55:32.793474+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1124",
@@ -830,7 +856,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-01T05:21:38.386073+00:00"
+    "last_audited": "2026-10-01T12:55:33.181439+00:00"
   },
   {
     "id": "sec-relayhop/ClaudeEarnSelf-runtime-988",
@@ -855,7 +881,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-01T05:21:38.640768+00:00"
+    "last_audited": "2026-10-01T12:55:33.538326+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -880,7 +906,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-01T05:21:38.875830+00:00"
+    "last_audited": "2026-10-01T12:55:33.942133+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -905,7 +931,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-01T05:21:39.141163+00:00"
+    "last_audited": "2026-10-01T12:55:34.264445+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -930,7 +956,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-01T05:21:39.457893+00:00"
+    "last_audited": "2026-10-01T12:55:34.588506+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -955,7 +981,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-01T05:21:39.759953+00:00"
+    "last_audited": "2026-10-01T12:55:34.925553+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -980,7 +1006,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-01T05:21:40.037387+00:00"
+    "last_audited": "2026-10-01T12:55:35.309987+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -1005,7 +1031,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-01T05:21:40.282838+00:00"
+    "last_audited": "2026-10-01T12:55:35.682245+00:00"
   },
   {
     "id": "sec-vansh-09/BountyScout-448",
@@ -1030,7 +1056,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-01T05:21:40.574789+00:00"
+    "last_audited": "2026-10-01T12:55:36.030499+00:00"
   },
   {
     "id": "gh-piotrwitek/typesafe-actions-139",
@@ -1055,7 +1081,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-01T05:21:40.841153+00:00"
+    "last_audited": "2026-10-01T12:55:36.440967+00:00"
   },
   {
     "id": "web3-owocki-bot/ai-bounty-board-42",
@@ -1081,33 +1107,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T05:21:41.108423+00:00"
-  },
-  {
-    "id": "web3-Chainbounty/chainbounty-contracts-3",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "Implement bounty extension feature to update deadline",
-    "url": "https://github.com/Chainbounty/chainbounty-contracts/issues/3",
-    "platform": "web3_github",
-    "repo_owner": "Chainbounty",
-    "repo_name": "chainbounty-contracts",
-    "issue_number": 3,
-    "org_handle": "Chainbounty",
-    "org_name": "Chainbounty/chainbounty-contracts",
-    "body": "## Summary\n\nAllow posters to extend the deadline of an Open or Claimed bounty if they need more time for contributors to complete the work. This adds flexibility without requiring bounty cancellation and reposting.\n\n## Acceptance criteria\n\n- [ ] Add `extend_deadline` function that only the poster can call.\n- [ ] New deadline must be in the future and after the current deadline.\n- [ ] Emit a `deadline_extended` event with old and new deadline values.\n\n## Getting started\n\nFork this repository, clone your fork, and add this repo as `upstream`:\n\n```bash\ngit clone https://github.com/<your-username>/chainbounty-contracts.git\ncd chainbounty-contracts\ngit remote add upstream https://github.com/Chainbounty/chainbounty-contracts.git\n```\n\nCreate a branch for this issue:\n\n```bash\ngit checkout -b feat/extend-deadline\n```\n\nSuggested commit message:\n\n```\nfeat: allow posters to extend bounty deadlines\n```\n\nRun `cargo fmt --check`, `cargo clippy`, and `cargo test` before pushing, then open a pull request from your fork against `main` and link this issue.",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "solidity",
-      "python"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 65.0,
-    "live_status": "open",
-    "comments_count": 1,
-    "last_audited": "2026-10-01T05:21:41.391855+00:00"
+    "last_audited": "2026-10-01T12:55:36.783794+00:00"
   },
   {
     "id": "web3-daydreamsai/agent-bounties-61",
@@ -1133,7 +1133,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-01T05:21:41.677882+00:00"
+    "last_audited": "2026-10-01T12:55:37.183323+00:00"
   },
   {
     "id": "web3-xlabtg/wallet-contract-1",
@@ -1159,7 +1159,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-01T05:21:41.963613+00:00"
+    "last_audited": "2026-10-01T12:55:37.526578+00:00"
   },
   {
     "id": "web3-ResearchHub/issues-716",
@@ -1185,7 +1185,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-01T05:21:42.240039+00:00"
+    "last_audited": "2026-10-01T12:55:37.861807+00:00"
   },
   {
     "id": "gh-osmesirius-ship-it/DAX_DA13-DA13x2-13",
@@ -1209,7 +1209,7 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T05:21:42.503124+00:00"
+    "last_audited": "2026-10-01T12:55:38.200558+00:00"
   },
   {
     "id": "gh-strias-ai/mcp-embodied-actuator-madrid-1",
@@ -1231,7 +1231,7 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T05:21:42.767375+00:00"
+    "last_audited": "2026-10-01T12:55:38.534733+00:00"
   },
   {
     "id": "gh-jaykode2025/stargazers-log-1",
@@ -1631,28 +1631,6 @@
     "org_handle": "zhangjiayang6835-cyber",
     "org_name": "zhangjiayang6835-cyber/bounty-plaza",
     "body": "### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/NSPG13/agent-bounties/issues/1364\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] Seed a paid MCP child bounty\n\n<!-- agent-bounties/github-discovery-v1:start -->\n<!-- agent-bounties/github-discovery-v1 {\"discovery_id\":\"eip155:8453:agent-bounties/autonomous-v1:0x43d42cb227d76588ab16693f14efd6cff851fa7a\"} -->\n## Canonical bounty discovery\n\nCreate and fully fund a concrete MCP coding bounty that a different registered participant completes and receives canonical settlement for.\n\n- **Current work state:** `unavailable`\n- **Current payment state:** `escrowed`\n- **Current competition state:** `exclusive_claim`\n- **Solver reward:** 0.90 USDC\n- **Entry/claim bond:** 0.10 USDC\n- **Funding:** 1.00 / 1.00 USDC\n- **Verifier:** deterministic_module (`deterministic_module`; ready: `false`)\n- **Funding Deadline:** `2026-10-11T00:00:00+00:00`\n\n### Next action\n\n**[Inspect canonical state](https://api.agentbounties.app/v1/base/autonomous-bounties/events?network=base-mainnet&bounty_id=0x12ad2fa99de272728311a3eb07c3c741048382260cb91ba1e8f001ed3b5759d0&utm_source=github&utm_medium=issue&utm_campaign=bounty-discovery-v1&discovery_id=eip155%3A8453%3Aagent-bounties%2Fautonomous-v1%3A0x43d42cb227d76588ab16693f14efd6cff851fa7a)** \u2014 Inspect confirmed canonical events. GitHub state is not settlement evidence.\n\n[Open the public bounty page](https://agentbounties.app/earn.html?bountyContract=0x43d42cb227d76588ab16693f14efd6cff851fa7a&network=base-mainnet&utm_source=github&utm_medium=issue&utm_campaign=bounty-discovery-v1&discovery_id=eip155%3A8453%3Aagent-bounties%2Fautonomous-v1%3A0x43d42cb227d76588ab16693f14efd6cff851fa7a)\n[Original source](https://github.com/NSPG13/agent-bounties/issues/335)\n\n> GitHub mirrors canonical public state and cannot fund, claim, verify, settle, or prove payment. Only a confirmed canonical `BountySettled` receipt below proves solver payment.\n<!-- agent-bounties/github-discovery-v1:end -->\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n112 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$90\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n",
-    "reward_usd": 112.0,
-    "reward_formatted": "$112",
-    "tech": [
-      "bounty",
-      "real"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 1,
-    "solvability_score": 40.0
-  },
-  {
-    "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1293",
-    "title": "[Bounty] [Bounty] Seed a paid API child bounty",
-    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1293",
-    "platform": "bounty",
-    "repo_owner": "zhangjiayang6835-cyber",
-    "repo_name": "bounty-plaza",
-    "issue_number": 1293,
-    "org_handle": "zhangjiayang6835-cyber",
-    "org_name": "zhangjiayang6835-cyber/bounty-plaza",
-    "body": "### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/NSPG13/agent-bounties/issues/1368\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] Seed a paid API child bounty\n\n<!-- agent-bounties/github-discovery-v1:start -->\n<!-- agent-bounties/github-discovery-v1 {\"discovery_id\":\"eip155:8453:agent-bounties/autonomous-v1:0xbe17ef2d154265ebe3142d7bda5e99610d571455\"} -->\n## Canonical bounty discovery\n\nCreate and fully fund a concrete API coding bounty that a different registered participant completes and receives canonical settlement for.\n\n- **Current work state:** `unavailable`\n- **Current payment state:** `escrowed`\n- **Current competition state:** `exclusive_claim`\n- **Solver reward:** 0.90 USDC\n- **Entry/claim bond:** 0.10 USDC\n- **Funding:** 1.00 / 1.00 USDC\n- **Verifier:** deterministic_module (`deterministic_module`; ready: `false`)\n- **Funding Deadline:** `2026-10-11T00:00:00+00:00`\n\n### Next action\n\n**[Inspect canonical state](https://api.agentbounties.app/v1/base/autonomous-bounties/events?network=base-mainnet&bounty_id=0x99f668fc2f432e156033fd2fda2c9e91edffa30cc598013b4f2aaebbfd2348e3&utm_source=github&utm_medium=issue&utm_campaign=bounty-discovery-v1&discovery_id=eip155%3A8453%3Aagent-bounties%2Fautonomous-v1%3A0xbe17ef2d154265ebe3142d7bda5e99610d571455)** \u2014 Inspect confirmed canonical events. GitHub state is not settlement evidence.\n\n[Open the public bounty page](https://agentbounties.app/earn.html?bountyContract=0xbe17ef2d154265ebe3142d7bda5e99610d571455&network=base-mainnet&utm_source=github&utm_medium=issue&utm_campaign=bounty-discovery-v1&discovery_id=eip155%3A8453%3Aagent-bounties%2Fautonomous-v1%3A0xbe17ef2d154265ebe3142d7bda5e99610d571455)\n[Original source](https://github.com/NSPG13/agent-bounties/issues/334)\n\n> GitHub mirrors canonical public state and cannot fund, claim, verify, settle, or prove payment. Only a confirmed canonical `BountySettled` receipt below proves solver payment.\n<!-- agent-bounties/github-discovery-v1:end -->\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n112 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$90\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n",
     "reward_usd": 112.0,
     "reward_formatted": "$112",
     "tech": [
