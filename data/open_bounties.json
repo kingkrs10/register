@@ -22,7 +22,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T23:51:03.259461+00:00"
+    "last_audited": "2026-10-02T05:09:04.234480+00:00"
   },
   {
     "id": "gh-NightVibes33/Filza-27-55",
@@ -44,31 +44,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T23:51:03.489302+00:00"
-  },
-  {
-    "id": "gh-Ricky1800/ledgerlite-6",
-    "title": "Shell completions",
-    "url": "https://github.com/Ricky1800/ledgerlite/issues/6",
-    "platform": "opire",
-    "repo_owner": "Ricky1800",
-    "repo_name": "ledgerlite",
-    "issue_number": 6,
-    "org_handle": "Ricky1800",
-    "org_name": "Ricky1800/ledgerlite",
-    "body": "**Body:**\n\nGenerate shell completions using `clap_complete` for bash/zsh/fish/\nPowerShell.\n\n**Acceptance criteria:**\n\n- New `ledgerlite completions <shell>` subcommand (hidden from `--help`\n  is fine) that prints the completion script to stdout.\n- `clap_complete` added as a normal dependency (it's tiny and\n  clap-maintained, consistent with \"keep deps lean\").\n- README install section gets a one-line snippet per shell for wiring\n  it up.\n- Smoke-test in `tests/cli.rs` that each shell variant runs without\n  erroring.\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #6</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @Ricky1800</code> (replace <code>20</code> with the amount, and <code>@Ricky1800</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "good first issue"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-01T23:51:03.720480+00:00"
+    "last_audited": "2026-10-02T05:09:04.423004+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-5",
@@ -93,23 +69,23 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T23:51:03.975146+00:00"
+    "last_audited": "2026-10-02T05:09:04.594640+00:00"
   },
   {
-    "id": "gh-Ricky1800/ledgerlite-5",
-    "title": "Budget vs. actual report",
-    "url": "https://github.com/Ricky1800/ledgerlite/issues/5",
+    "id": "gh-Ricky1800/ledgerlite-6",
+    "title": "Shell completions",
+    "url": "https://github.com/Ricky1800/ledgerlite/issues/6",
     "platform": "opire",
     "repo_owner": "Ricky1800",
     "repo_name": "ledgerlite",
-    "issue_number": 5,
+    "issue_number": 6,
     "org_handle": "Ricky1800",
     "org_name": "Ricky1800/ledgerlite",
-    "body": "**Body:**\n\nAdd an optional budget file (`budget.toml`, category -> monthly target)\nand a `ledgerlite report --budget` mode that shows actual vs. budget\nper category alongside the existing P&L.\n\n**Acceptance criteria:**\n\n- `budget.toml` schema documented in the README, loaded only when\n  `--budget` is passed (no behavior change otherwise).\n- Missing budget file with `--budget` passed produces a friendly error,\n  not a panic.\n- Table/CSV/JSON/MD renderers all handle the extra column(s).\n- Unit tests for variance calculation (over/under budget, category with\n  no budget entry, category with no actuals).\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #5</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @Ricky1800</code> (replace <code>20</code> with the amount, and <code>@Ricky1800</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "body": "**Body:**\n\nGenerate shell completions using `clap_complete` for bash/zsh/fish/\nPowerShell.\n\n**Acceptance criteria:**\n\n- New `ledgerlite completions <shell>` subcommand (hidden from `--help`\n  is fine) that prints the completion script to stdout.\n- `clap_complete` added as a normal dependency (it's tiny and\n  clap-maintained, consistent with \"keep deps lean\").\n- README install section gets a one-line snippet per shell for wiring\n  it up.\n- Smoke-test in `tests/cli.rs` that each shell variant runs without\n  erroring.\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #6</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @Ricky1800</code> (replace <code>20</code> with the amount, and <code>@Ricky1800</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
     "reward_usd": 100.0,
     "reward_formatted": "$100",
     "tech": [
-      "help wanted"
+      "good first issue"
     ],
     "status": "active",
     "domain": "code",
@@ -117,7 +93,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T23:51:04.241267+00:00"
+    "last_audited": "2026-10-02T05:09:04.803733+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-7",
@@ -142,7 +118,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-01T23:51:04.479155+00:00"
+    "last_audited": "2026-10-02T05:09:04.988118+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-6",
@@ -167,7 +143,31 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T23:51:04.723945+00:00"
+    "last_audited": "2026-10-02T05:09:05.166958+00:00"
+  },
+  {
+    "id": "gh-Ricky1800/ledgerlite-5",
+    "title": "Budget vs. actual report",
+    "url": "https://github.com/Ricky1800/ledgerlite/issues/5",
+    "platform": "opire",
+    "repo_owner": "Ricky1800",
+    "repo_name": "ledgerlite",
+    "issue_number": 5,
+    "org_handle": "Ricky1800",
+    "org_name": "Ricky1800/ledgerlite",
+    "body": "**Body:**\n\nAdd an optional budget file (`budget.toml`, category -> monthly target)\nand a `ledgerlite report --budget` mode that shows actual vs. budget\nper category alongside the existing P&L.\n\n**Acceptance criteria:**\n\n- `budget.toml` schema documented in the README, loaded only when\n  `--budget` is passed (no behavior change otherwise).\n- Missing budget file with `--budget` passed produces a friendly error,\n  not a panic.\n- Table/CSV/JSON/MD renderers all handle the extra column(s).\n- Unit tests for variance calculation (over/under budget, category with\n  no budget entry, category with no actuals).\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #5</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @Ricky1800</code> (replace <code>20</code> with the amount, and <code>@Ricky1800</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "help wanted"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-02T05:09:05.351441+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-84",
@@ -191,7 +191,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T23:51:04.996091+00:00"
+    "last_audited": "2026-10-02T05:09:05.558636+00:00"
   },
   {
     "id": "web3-Chain-Love/chain-love-4057",
@@ -217,7 +217,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-01T23:51:05.263197+00:00"
+    "last_audited": "2026-10-02T05:09:05.756537+00:00"
   },
   {
     "id": "web3-anthropics/claude-code-96705",
@@ -247,7 +247,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T23:51:05.566035+00:00"
+    "last_audited": "2026-10-02T05:09:05.981705+00:00"
   },
   {
     "id": "web3-verdikta/verdikta-applications-47",
@@ -273,7 +273,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-01T23:51:05.846276+00:00"
+    "last_audited": "2026-10-02T05:09:06.190418+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -299,7 +299,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-01T23:51:06.091946+00:00"
+    "last_audited": "2026-10-02T05:09:06.442962+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -324,7 +324,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-10-01T23:51:06.346238+00:00"
+    "last_audited": "2026-10-02T05:09:06.647135+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -433,7 +433,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-01T23:51:06.581553+00:00"
+    "last_audited": "2026-10-02T05:09:06.910248+00:00"
   },
   {
     "id": "sec-StellarTickets/blockchain-42",
@@ -458,7 +458,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T23:51:06.848257+00:00"
+    "last_audited": "2026-10-02T05:09:07.120407+00:00"
   },
   {
     "id": "sec-ethereum/go-ethereum-35852",
@@ -483,7 +483,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T23:51:07.107779+00:00"
+    "last_audited": "2026-10-02T05:09:07.313333+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -508,7 +508,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-01T23:51:07.328051+00:00"
+    "last_audited": "2026-10-02T05:09:07.498346+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -533,7 +533,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T23:51:07.592637+00:00"
+    "last_audited": "2026-10-02T05:09:07.706345+00:00"
   },
   {
     "id": "sec-dadadave80/lattice-241",
@@ -558,7 +558,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T23:51:07.863000+00:00"
+    "last_audited": "2026-10-02T05:09:07.899162+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -583,7 +583,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-01T23:51:08.118965+00:00"
+    "last_audited": "2026-10-02T05:09:08.093854+00:00"
   },
   {
     "id": "sec-AlienScroll78/vesting-cliff-drip-stream-803",
@@ -608,7 +608,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-01T23:51:08.386843+00:00"
+    "last_audited": "2026-10-02T05:09:08.299698+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -633,7 +633,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-01T23:51:08.648584+00:00"
+    "last_audited": "2026-10-02T05:09:08.485750+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -658,7 +658,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-01T23:51:08.908772+00:00"
+    "last_audited": "2026-10-02T05:09:08.698370+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -683,7 +683,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-01T23:51:09.202829+00:00"
+    "last_audited": "2026-10-02T05:09:08.920031+00:00"
   },
   {
     "id": "sec-AudioBitsStellar/AudioBlock_Backend-510",
@@ -708,7 +708,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-01T23:51:09.446625+00:00"
+    "last_audited": "2026-10-02T05:09:09.115099+00:00"
   },
   {
     "id": "sec-abdulsalam-create/bounty-watch-27",
@@ -733,7 +733,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T23:51:09.724344+00:00"
+    "last_audited": "2026-10-02T05:09:09.300480+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -758,7 +758,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-01T23:51:09.946077+00:00"
+    "last_audited": "2026-10-02T05:09:09.501760+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -783,7 +783,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-10-01T23:51:10.196890+00:00"
+    "last_audited": "2026-10-02T05:09:09.708001+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -808,7 +808,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-01T23:51:10.431585+00:00"
+    "last_audited": "2026-10-02T05:09:09.946627+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-306",
@@ -833,7 +833,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-01T23:51:10.712418+00:00"
+    "last_audited": "2026-10-02T05:09:10.131269+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1124",
@@ -858,22 +858,22 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-01T23:51:10.961744+00:00"
+    "last_audited": "2026-10-02T05:09:10.348801+00:00"
   },
   {
-    "id": "sec-relayhop/ClaudeEarnSelf-runtime-988",
+    "id": "sec-relayhop/sn-monetization-runtime-1115",
     "domain": "security",
-    "title": "[demand] high-priority 2026-09-15T23:08",
-    "url": "https://github.com/relayhop/ClaudeEarnSelf-runtime/issues/988",
+    "title": "[radar] SN open bounty 2026-09-14T13:54",
+    "url": "https://github.com/relayhop/sn-monetization-runtime/issues/1115",
     "platform": "github_security",
     "repo_owner": "relayhop",
-    "repo_name": "ClaudeEarnSelf-runtime",
-    "issue_number": 988,
+    "repo_name": "sn-monetization-runtime",
+    "issue_number": 1115,
     "org_handle": "relayhop",
-    "org_name": "relayhop/ClaudeEarnSelf-runtime",
-    "body": "Demand-side radar \u9ad8\u512a\u5148\u8a0a\u865f:\n\n```\n6\tsn/bitcoin\t1.1\t-\tOPEN_NEED,LOW_COMP\thttps://stacker.news/items/1573009\tWhat would you want your signing device  manufacturer to do if there's vulns?\n5\tgithub\t0.2\t$100\tOPEN_ISSUE,LOW_COMP\thttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1559\t[Bounty] $100 BOUNTY FOR IMPLEMENTING A FOREVER IF BLOCK INTO OMNIBLOCKS\n5\tgithub\t0.2\t$500\tOPEN_ISSUE,LOW_COMP\thttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1558\t[Bounty] Reverse bounty\n```",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
+    "org_name": "relayhop/sn-monetization-runtime",
+    "body": "New SN OPEN_BOUNTY detected:\n\n```\n1570125\tStacker_Stocks\t2\t286\t10000\t17\t27.5\t9274\t27409\trecent@Stacker_Stocks\tOPEN_BOUNTY,SELF_POST_OPP\tDaily Stock Discussion Sunday\u2019s Weekly Close Contest \ud83d\udfe5 or \ud83d\udfe9? 30k sat award!\n```",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
     "tech": [
       "security",
       "sast",
@@ -882,8 +882,8 @@
     "status": "active",
     "solvability_score": 85.0,
     "live_status": "open",
-    "comments_count": 1,
-    "last_audited": "2026-10-01T23:51:11.195956+00:00"
+    "comments_count": 5,
+    "last_audited": "2026-10-02T05:09:10.550945+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -908,7 +908,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-01T23:51:11.418305+00:00"
+    "last_audited": "2026-10-02T05:09:10.741494+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -933,7 +933,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-01T23:51:11.699539+00:00"
+    "last_audited": "2026-10-02T05:09:10.947525+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -958,7 +958,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-01T23:51:11.938430+00:00"
+    "last_audited": "2026-10-02T05:09:11.115401+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -983,32 +983,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-01T23:51:12.196242+00:00"
-  },
-  {
-    "id": "sec-monk-io/monk-plugin-386",
-    "domain": "security",
-    "title": "[Surface coverage] `monk cluster inspect` has no MCP tool and 0 filed issues \u2014 untested false-success blind spot",
-    "url": "https://github.com/monk-io/monk-plugin/issues/386",
-    "platform": "github_security",
-    "repo_owner": "monk-io",
-    "repo_name": "monk-plugin",
-    "issue_number": 386,
-    "org_handle": "monk-io",
-    "org_name": "monk-io/monk-plugin",
-    "body": "## Coverage gap report (NOT a confirmed bug \u2014 needs verification)\n\n**Verdict:** UNFILED surface. No reproduction performed in this report; this documents a verb the bounty's agent harness cannot observe and that has **0** filed issues.\n\n### Evidence the surface is uncovered\n1. The canonical monk-agent MCP tool inventory (`plugins/monk/skills/monk/SKILL.md`, `allowed-tools`, line 4 of current `monk-plugin` HEAD) lists **every** exposed agent tool. cluster tools expose status/peers/create/grow/peer-*/upgrade/delete/exit/provider/price/catalog/gpuTypes/estimate/ingress-*/registry-*/forget/switch/join/bind \u2014 there is **no** `monk_cluster_inspect` tool.\n2. Live issue search (`repo:monk-io/monk-plugin is:issue \"cluster inspect\"`) returns **13** match(es) \u2014 only [342, 327, 245, 250, 243] (different verb).\n3. `monk cluster inspect` exists in the monk CLI per the docs / other issues, so it is a live, shippable verb with no agent coverage and no bug reports.\n\n### Why this is a false-success risk (to verify)  [DUP-RISK live hits [342, 327, 245, 250, 243]]\n`cluster inspect` returns cluster state. Sibling status verbs misreport on RPC failure (#244 peers RPC fail, #250 status-read fail, #298 ingress.status disabled-on-RPC-fail). `inspect` may return cached/stale/partial cluster state while reporting ok, leaving the agent blind to a degraded cluster.\n\n### Evidence bar to reach +2 (for whoever can run a live monkd)\n- **R (reachability):** run `monk cluster inspect`, then prove the dependent endpoint is actually live \u2014 `curl -v <endpoint>` returning 200 / valid TLS, **or** capture the failure monk reported as success.\n- **S (secret-injection):** run with a test secret, confirm via `monk secret list` / runtime env that the secret is present at runtime; show the \"success\" report when injection actually failed.\n\n### Status\n- Filed as: coverage gap / **needs-verification** (Gate HOLD_NO_REPRO \u2014 no execution in this report).\n- If a concrete false-success is reproduced, link it here; this issue is the tracking anchor.\n\nTags: `unfiled-surface` `needs-verification` `cluster`\n",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 4,
-    "last_audited": "2026-10-01T23:51:12.460279+00:00"
+    "last_audited": "2026-10-02T05:09:11.334843+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -1033,7 +1008,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-01T23:51:12.694407+00:00"
+    "last_audited": "2026-10-02T05:09:11.520167+00:00"
+  },
+  {
+    "id": "sec-monk-io/monk-plugin-386",
+    "domain": "security",
+    "title": "[Surface coverage] `monk cluster inspect` has no MCP tool and 0 filed issues \u2014 untested false-success blind spot",
+    "url": "https://github.com/monk-io/monk-plugin/issues/386",
+    "platform": "github_security",
+    "repo_owner": "monk-io",
+    "repo_name": "monk-plugin",
+    "issue_number": 386,
+    "org_handle": "monk-io",
+    "org_name": "monk-io/monk-plugin",
+    "body": "## Coverage gap report (NOT a confirmed bug \u2014 needs verification)\n\n**Verdict:** UNFILED surface. No reproduction performed in this report; this documents a verb the bounty's agent harness cannot observe and that has **0** filed issues.\n\n### Evidence the surface is uncovered\n1. The canonical monk-agent MCP tool inventory (`plugins/monk/skills/monk/SKILL.md`, `allowed-tools`, line 4 of current `monk-plugin` HEAD) lists **every** exposed agent tool. cluster tools expose status/peers/create/grow/peer-*/upgrade/delete/exit/provider/price/catalog/gpuTypes/estimate/ingress-*/registry-*/forget/switch/join/bind \u2014 there is **no** `monk_cluster_inspect` tool.\n2. Live issue search (`repo:monk-io/monk-plugin is:issue \"cluster inspect\"`) returns **13** match(es) \u2014 only [342, 327, 245, 250, 243] (different verb).\n3. `monk cluster inspect` exists in the monk CLI per the docs / other issues, so it is a live, shippable verb with no agent coverage and no bug reports.\n\n### Why this is a false-success risk (to verify)  [DUP-RISK live hits [342, 327, 245, 250, 243]]\n`cluster inspect` returns cluster state. Sibling status verbs misreport on RPC failure (#244 peers RPC fail, #250 status-read fail, #298 ingress.status disabled-on-RPC-fail). `inspect` may return cached/stale/partial cluster state while reporting ok, leaving the agent blind to a degraded cluster.\n\n### Evidence bar to reach +2 (for whoever can run a live monkd)\n- **R (reachability):** run `monk cluster inspect`, then prove the dependent endpoint is actually live \u2014 `curl -v <endpoint>` returning 200 / valid TLS, **or** capture the failure monk reported as success.\n- **S (secret-injection):** run with a test secret, confirm via `monk secret list` / runtime env that the secret is present at runtime; show the \"success\" report when injection actually failed.\n\n### Status\n- Filed as: coverage gap / **needs-verification** (Gate HOLD_NO_REPRO \u2014 no execution in this report).\n- If a concrete false-success is reproduced, link it here; this issue is the tracking anchor.\n\nTags: `unfiled-surface` `needs-verification` `cluster`\n",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 4,
+    "last_audited": "2026-10-02T05:09:11.733765+00:00"
   },
   {
     "id": "sec-vansh-09/BountyScout-448",
@@ -1058,7 +1058,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-01T23:51:12.932830+00:00"
+    "last_audited": "2026-10-02T05:09:11.912328+00:00"
   },
   {
     "id": "gh-piotrwitek/typesafe-actions-139",
@@ -1083,7 +1083,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-01T23:51:13.178209+00:00"
+    "last_audited": "2026-10-02T05:09:12.116968+00:00"
   },
   {
     "id": "web3-owocki-bot/ai-bounty-board-42",
@@ -1109,7 +1109,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T23:51:13.486821+00:00"
+    "last_audited": "2026-10-02T05:09:12.305887+00:00"
   },
   {
     "id": "web3-daydreamsai/agent-bounties-61",
@@ -1135,7 +1135,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-01T23:51:13.781794+00:00"
+    "last_audited": "2026-10-02T05:09:12.523347+00:00"
   },
   {
     "id": "web3-xlabtg/wallet-contract-1",
@@ -1161,7 +1161,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-01T23:51:14.037433+00:00"
+    "last_audited": "2026-10-02T05:09:12.690872+00:00"
   },
   {
     "id": "web3-ResearchHub/issues-716",
@@ -1187,7 +1187,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-01T23:51:14.340676+00:00"
+    "last_audited": "2026-10-02T05:09:12.867248+00:00"
   },
   {
     "id": "gh-osmesirius-ship-it/DAX_DA13-DA13x2-13",
@@ -1211,7 +1211,7 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T23:51:14.576371+00:00"
+    "last_audited": "2026-10-02T05:09:13.107299+00:00"
   },
   {
     "id": "gh-strias-ai/mcp-embodied-actuator-madrid-1",
@@ -1233,7 +1233,7 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-01T23:51:14.779391+00:00"
+    "last_audited": "2026-10-02T05:09:13.283088+00:00"
   },
   {
     "id": "gh-jaykode2025/stargazers-log-1",
