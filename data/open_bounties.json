@@ -19,7 +19,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-02T19:09:54.910154+00:00"
+    "last_audited": "2026-10-02T23:41:43.041657+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-5",
@@ -44,7 +44,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-02T19:09:55.200733+00:00"
+    "last_audited": "2026-10-02T23:41:43.292648+00:00"
   },
   {
     "id": "gh-Ricky1800/ledgerlite-6",
@@ -68,7 +68,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-02T19:09:55.468679+00:00"
+    "last_audited": "2026-10-02T23:41:43.563155+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-7",
@@ -93,7 +93,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-02T19:09:55.760202+00:00"
+    "last_audited": "2026-10-02T23:41:43.805938+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-6",
@@ -118,7 +118,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-02T19:09:56.041651+00:00"
+    "last_audited": "2026-10-02T23:41:44.061885+00:00"
   },
   {
     "id": "gh-Ricky1800/ledgerlite-5",
@@ -142,7 +142,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-02T19:09:56.329511+00:00"
+    "last_audited": "2026-10-02T23:41:44.322182+00:00"
   },
   {
     "id": "gh-probe-rs/webpage-303",
@@ -164,7 +164,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-02T19:09:56.603444+00:00"
+    "last_audited": "2026-10-02T23:41:44.637855+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-84",
@@ -188,7 +188,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-02T19:09:56.933081+00:00"
+    "last_audited": "2026-10-02T23:41:44.912995+00:00"
   },
   {
     "id": "web3-Chain-Love/chain-love-4057",
@@ -214,7 +214,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-02T19:09:57.235233+00:00"
+    "last_audited": "2026-10-02T23:41:45.167513+00:00"
   },
   {
     "id": "web3-anthropics/claude-code-96705",
@@ -244,7 +244,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-02T19:09:57.560907+00:00"
+    "last_audited": "2026-10-02T23:41:45.481913+00:00"
   },
   {
     "id": "web3-verdikta/verdikta-applications-47",
@@ -270,7 +270,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-02T19:09:57.865987+00:00"
+    "last_audited": "2026-10-02T23:41:45.781624+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -296,7 +296,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-02T19:09:58.182735+00:00"
+    "last_audited": "2026-10-02T23:41:46.082332+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -321,7 +321,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-10-02T19:09:58.500288+00:00"
+    "last_audited": "2026-10-02T23:41:46.397501+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -430,7 +430,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-02T19:09:58.806245+00:00"
+    "last_audited": "2026-10-02T23:41:46.657191+00:00"
   },
   {
     "id": "sec-StellarTickets/blockchain-42",
@@ -455,7 +455,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-02T19:09:59.100192+00:00"
+    "last_audited": "2026-10-02T23:41:46.958402+00:00"
   },
   {
     "id": "sec-ethereum/go-ethereum-35852",
@@ -480,7 +480,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-02T19:09:59.429799+00:00"
+    "last_audited": "2026-10-02T23:41:47.215309+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -505,7 +505,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-02T19:09:59.706923+00:00"
+    "last_audited": "2026-10-02T23:41:47.483009+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -530,7 +530,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-02T19:10:00.008653+00:00"
+    "last_audited": "2026-10-02T23:41:47.804318+00:00"
   },
   {
     "id": "sec-dadadave80/lattice-241",
@@ -555,7 +555,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-02T19:10:00.295260+00:00"
+    "last_audited": "2026-10-02T23:41:48.069794+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -580,22 +580,22 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-02T19:10:00.614626+00:00"
+    "last_audited": "2026-10-02T23:41:48.361314+00:00"
   },
   {
-    "id": "sec-AlienScroll78/vesting-cliff-drip-stream-803",
+    "id": "sec-Lafiya-xyz/Lafiya-contract-435",
     "domain": "security",
-    "title": "Create security policy and vulnerability disclosure process",
-    "url": "https://github.com/AlienScroll78/vesting-cliff-drip-stream/issues/803",
+    "title": "[Advanced] Design a bug bounty program with severity rubric, scope, and safe-harbor terms",
+    "url": "https://github.com/Lafiya-xyz/Lafiya-contract/issues/435",
     "platform": "github_security",
-    "repo_owner": "AlienScroll78",
-    "repo_name": "vesting-cliff-drip-stream",
-    "issue_number": 803,
-    "org_handle": "AlienScroll78",
-    "org_name": "AlienScroll78/vesting-cliff-drip-stream",
-    "body": "## Summary\nPopulate `SECURITY.md` with a complete vulnerability disclosure policy, including scope, out-of-scope items, reporting instructions, SLA for response, safe harbor statement, and bug bounty information.\n\n## Motivation\nThe README references `SECURITY.md` but if the file is minimal or missing, security researchers have no clear channel for responsible disclosure, increasing the risk of public disclosure without notice.\n\n## Required Sections\n1. **Scope**: What is in scope (contract, API, frontend, infrastructure).\n2. **Out of Scope**: Third-party dependencies, testnet-only issues.\n3. **Reporting**: Email address or HackerOne/Immunefi link.\n4. **Response SLA**: Acknowledge in 24h, triage in 72h, patch in 7 days for critical.\n5. **Safe Harbor**: Legal protection for good-faith researchers.\n6. **Bug Bounty**: Reward tiers by severity (Critical: $10K, High: $5K, etc.).\n7. **Known Issues**: List of accepted risks that will not be fixed.\n8. **PGP Key**: For encrypted report submission.\n\n## Acceptance Criteria\n- [ ] SECURITY.md reviewed by legal/compliance.\n- [ ] Reporting email/platform configured and monitored.\n- [ ] Safe harbor statement reviewed by legal.\n- [ ] Response SLA committed and achievable.",
-    "reward_usd": 10.0,
-    "reward_formatted": "$10",
+    "repo_owner": "Lafiya-xyz",
+    "repo_name": "Lafiya-contract",
+    "issue_number": 435,
+    "org_handle": "Lafiya-xyz",
+    "org_name": "Lafiya-xyz/Lafiya-contract",
+    "body": "## Summary\n\nSECURITY.md describes private disclosure, but it offers researchers **no severity rubric, no reward structure, no scope definition, and no safe-harbor language**. Skilled Soroban security researchers put their time where the rules are clear. Before mainnet, and ideally during a public testnet phase, Lafiya needs a program that attracts them.\n\n## Deliverables\n\n- **Scope definition:**\n  - in scope: the three contracts (and any new ones) at specific deployed addresses and commits; the commitment scheme; the verifier SDK verdict logic;\n  - out of scope: `lafiya-web` (separate program), third-party RPC, social engineering, and denial of service through network spam.\n- **A severity rubric tailored to Lafiya's impact model**, for example:\n  - **Critical:** make an arbitrary record verify as attested; take over admin or upgrade authority; recover health data from on-chain data at scale.\n  - **High:** a permanent verification outage; bypassing suspension or revocation; forging multisig authorization.\n  - **Medium:** griefing that removes legitimate attestations; a temporary outage.\n  - **Low:** event inconsistencies; information leaks with limited impact.\n- A **reward table** scaled to what the project can afford, including non-monetary recognition, possibly funded through ecosystem grant programs. Research the options available to Stellar ecosystem projects.\n- **Safe-harbor** language (adapting a standard template such as disclose.io), testnet-only testing rules, and a ban on mainnet exploitation.\n- **Triage process:** response SLAs, a severity-agreement process, fix and disclosure timelines, and CVE/GHSA publication through GitHub Security Advisories.\n\n## Acceptance criteria\n\n- [ ] SECURITY.md is updated with the program, or links to a program page.\n- [ ] GitHub private vulnerability reporting is enabled and documented.\n- [ ] A triage runbook in `docs/runbooks/`.\n\n## Files\n\n- `SECURITY.md`\n- `docs/runbooks/`\n",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
     "tech": [
       "security",
       "sast",
@@ -605,7 +605,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-02T19:10:00.903855+00:00"
+    "last_audited": "2026-10-02T23:41:48.674687+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -630,7 +630,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-02T19:10:01.219531+00:00"
+    "last_audited": "2026-10-02T23:41:48.989457+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -655,7 +655,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-02T19:10:01.503275+00:00"
+    "last_audited": "2026-10-02T23:41:49.262456+00:00"
   },
   {
     "id": "sec-yarilomail/yarilo-2105",
@@ -680,7 +680,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-02T19:10:01.807640+00:00"
+    "last_audited": "2026-10-02T23:41:49.571138+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -705,7 +705,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-02T19:10:02.107296+00:00"
+    "last_audited": "2026-10-02T23:41:49.814304+00:00"
   },
   {
     "id": "sec-AudioBitsStellar/AudioBlock_Backend-510",
@@ -730,7 +730,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-02T19:10:02.399118+00:00"
+    "last_audited": "2026-10-02T23:41:50.088772+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -755,7 +755,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-02T19:10:02.693624+00:00"
+    "last_audited": "2026-10-02T23:41:50.353391+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -780,7 +780,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-10-02T19:10:02.983716+00:00"
+    "last_audited": "2026-10-02T23:41:50.614674+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -805,7 +805,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-02T19:10:03.299416+00:00"
+    "last_audited": "2026-10-02T23:41:50.866952+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-306",
@@ -830,7 +830,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-02T19:10:03.601480+00:00"
+    "last_audited": "2026-10-02T23:41:51.153187+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1124",
@@ -855,22 +855,22 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-02T19:10:03.873361+00:00"
+    "last_audited": "2026-10-02T23:41:51.437098+00:00"
   },
   {
-    "id": "sec-relayhop/ClaudeEarnSelf-runtime-988",
+    "id": "sec-relayhop/sn-monetization-runtime-1115",
     "domain": "security",
-    "title": "[demand] high-priority 2026-09-15T23:08",
-    "url": "https://github.com/relayhop/ClaudeEarnSelf-runtime/issues/988",
+    "title": "[radar] SN open bounty 2026-09-14T13:54",
+    "url": "https://github.com/relayhop/sn-monetization-runtime/issues/1115",
     "platform": "github_security",
     "repo_owner": "relayhop",
-    "repo_name": "ClaudeEarnSelf-runtime",
-    "issue_number": 988,
+    "repo_name": "sn-monetization-runtime",
+    "issue_number": 1115,
     "org_handle": "relayhop",
-    "org_name": "relayhop/ClaudeEarnSelf-runtime",
-    "body": "Demand-side radar \u9ad8\u512a\u5148\u8a0a\u865f:\n\n```\n6\tsn/bitcoin\t1.1\t-\tOPEN_NEED,LOW_COMP\thttps://stacker.news/items/1573009\tWhat would you want your signing device  manufacturer to do if there's vulns?\n5\tgithub\t0.2\t$100\tOPEN_ISSUE,LOW_COMP\thttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1559\t[Bounty] $100 BOUNTY FOR IMPLEMENTING A FOREVER IF BLOCK INTO OMNIBLOCKS\n5\tgithub\t0.2\t$500\tOPEN_ISSUE,LOW_COMP\thttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1558\t[Bounty] Reverse bounty\n```",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
+    "org_name": "relayhop/sn-monetization-runtime",
+    "body": "New SN OPEN_BOUNTY detected:\n\n```\n1570125\tStacker_Stocks\t2\t286\t10000\t17\t27.5\t9274\t27409\trecent@Stacker_Stocks\tOPEN_BOUNTY,SELF_POST_OPP\tDaily Stock Discussion Sunday\u2019s Weekly Close Contest \ud83d\udfe5 or \ud83d\udfe9? 30k sat award!\n```",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
     "tech": [
       "security",
       "sast",
@@ -879,8 +879,8 @@
     "status": "active",
     "solvability_score": 85.0,
     "live_status": "open",
-    "comments_count": 1,
-    "last_audited": "2026-10-02T19:10:04.144027+00:00"
+    "comments_count": 5,
+    "last_audited": "2026-10-02T23:41:51.713339+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -905,7 +905,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-02T19:10:04.441543+00:00"
+    "last_audited": "2026-10-02T23:41:52.009539+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -930,7 +930,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-02T19:10:04.726647+00:00"
+    "last_audited": "2026-10-02T23:41:52.326168+00:00"
   },
   {
     "id": "sec-abdulsalam-create/bounty-watch-27",
@@ -955,7 +955,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-02T19:10:04.973683+00:00"
+    "last_audited": "2026-10-02T23:41:52.606449+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -980,7 +980,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-02T19:10:05.261919+00:00"
+    "last_audited": "2026-10-02T23:41:52.988107+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -1005,7 +1005,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-02T19:10:05.562422+00:00"
+    "last_audited": "2026-10-02T23:41:53.267701+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -1030,7 +1030,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-02T19:10:05.836708+00:00"
+    "last_audited": "2026-10-02T23:41:53.564259+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1055,7 +1055,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-02T19:10:06.131942+00:00"
+    "last_audited": "2026-10-02T23:41:53.821235+00:00"
   },
   {
     "id": "sec-vansh-09/BountyScout-448",
@@ -1080,7 +1080,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-02T19:10:08.427348+00:00"
+    "last_audited": "2026-10-02T23:41:54.075092+00:00"
   },
   {
     "id": "gh-piotrwitek/typesafe-actions-139",
@@ -1105,7 +1105,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-02T19:10:08.706962+00:00"
+    "last_audited": "2026-10-02T23:41:54.341921+00:00"
   },
   {
     "id": "web3-owocki-bot/ai-bounty-board-42",
@@ -1131,7 +1131,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-02T19:10:08.993268+00:00"
+    "last_audited": "2026-10-02T23:41:54.621433+00:00"
   },
   {
     "id": "web3-daydreamsai/agent-bounties-61",
@@ -1157,7 +1157,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-02T19:10:09.274042+00:00"
+    "last_audited": "2026-10-02T23:41:54.878084+00:00"
   },
   {
     "id": "web3-xlabtg/wallet-contract-1",
@@ -1183,7 +1183,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-02T19:10:09.548991+00:00"
+    "last_audited": "2026-10-02T23:41:55.145493+00:00"
   },
   {
     "id": "web3-ResearchHub/issues-716",
@@ -1209,7 +1209,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-02T19:10:09.822261+00:00"
+    "last_audited": "2026-10-02T23:41:55.406093+00:00"
   },
   {
     "id": "gh-osmesirius-ship-it/DAX_DA13-DA13x2-13",
@@ -1233,7 +1233,7 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-02T19:10:10.092907+00:00"
+    "last_audited": "2026-10-02T23:41:55.699104+00:00"
   },
   {
     "id": "gh-strias-ai/mcp-embodied-actuator-madrid-1",
@@ -1683,28 +1683,6 @@
     "solvability_score": 40.0
   },
   {
-    "id": "gh-sindresorhus/awesome-lint-37",
-    "title": "Add rule for linting header image if one exists",
-    "url": "https://github.com/sindresorhus/awesome-lint/issues/37",
-    "platform": "issuehunt",
-    "repo_owner": "sindresorhus",
-    "repo_name": "awesome-lint",
-    "issue_number": 37,
-    "org_handle": "sindresorhus",
-    "org_name": "sindresorhus/awesome-lint",
-    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2460%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/sindresorhus/awesome-lint/issues/37)\n<!-- /Issuehunt Badges -->\n\n\nBased on discussion in https://github.com/sindresorhus/awesome/pull/1314.\r\n\r\n- [ ] If a header image exists (aside from awesome-list badge), ensure it is high-DPI or SVG.\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $60.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($60.00)\n\n### Submitted pull Requests\n- [#225 Add header image rule (SVG/HiDPI)](https://oss.issuehunt.io/r/sindresorhus/awesome-lint/pull/225)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/sindresorhus/awesome-lint/issues/37)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/sindresorhus/awesome-lint/issues/37)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/sindresorhus/awesome-lint/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
-    "reward_usd": 60.0,
-    "reward_formatted": "$60",
-    "tech": [
-      "new-rule",
-      ":dollar: Funded on Issuehunt"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 40.0
-  },
-  {
     "id": "gh-sindresorhus/fkill-cli-6",
     "title": "Smart mode",
     "url": "https://github.com/sindresorhus/fkill-cli/issues/6",
@@ -1720,6 +1698,28 @@
     "tech": [
       "enhancement",
       "help wanted",
+      ":dollar: Funded on Issuehunt"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 40.0
+  },
+  {
+    "id": "gh-sindresorhus/awesome-lint-37",
+    "title": "Add rule for linting header image if one exists",
+    "url": "https://github.com/sindresorhus/awesome-lint/issues/37",
+    "platform": "issuehunt",
+    "repo_owner": "sindresorhus",
+    "repo_name": "awesome-lint",
+    "issue_number": 37,
+    "org_handle": "sindresorhus",
+    "org_name": "sindresorhus/awesome-lint",
+    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2460%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/sindresorhus/awesome-lint/issues/37)\n<!-- /Issuehunt Badges -->\n\n\nBased on discussion in https://github.com/sindresorhus/awesome/pull/1314.\r\n\r\n- [ ] If a header image exists (aside from awesome-list badge), ensure it is high-DPI or SVG.\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $60.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($60.00)\n\n### Submitted pull Requests\n- [#225 Add header image rule (SVG/HiDPI)](https://oss.issuehunt.io/r/sindresorhus/awesome-lint/pull/225)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/sindresorhus/awesome-lint/issues/37)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/sindresorhus/awesome-lint/issues/37)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/sindresorhus/awesome-lint/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
+    "reward_usd": 60.0,
+    "reward_formatted": "$60",
+    "tech": [
+      "new-rule",
       ":dollar: Funded on Issuehunt"
     ],
     "status": "active",
