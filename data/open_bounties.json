@@ -1,27 +1,5 @@
 [
   {
-    "id": "gh-NightVibes33/Filza-27-55",
-    "title": "can we access appdata on ths filza in ios 27.0?",
-    "url": "https://github.com/NightVibes33/Filza-27/issues/55",
-    "platform": "opire",
-    "repo_owner": "NightVibes33",
-    "repo_name": "Filza-27",
-    "issue_number": 55,
-    "org_handle": "NightVibes33",
-    "org_name": "NightVibes33/Filza-27",
-    "body": "hi thanks for this project can we access app data on this filza version my ios version is ios 27.0 \n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #55</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @AKIFKHAN5</code> (replace <code>20</code> with the amount, and <code>@AKIFKHAN5</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-03T04:53:07.214285+00:00"
-  },
-  {
     "id": "gh-Ricky1800/localbiz-site-5",
     "title": "`next/image`-optimized photo gallery section",
     "url": "https://github.com/Ricky1800/localbiz-site/issues/5",
@@ -44,7 +22,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T04:53:07.554091+00:00"
+    "last_audited": "2026-10-03T11:28:33.208780+00:00"
   },
   {
     "id": "gh-Ricky1800/ledgerlite-6",
@@ -68,7 +46,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T04:53:07.884562+00:00"
+    "last_audited": "2026-10-03T11:28:33.473156+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-7",
@@ -93,7 +71,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-03T04:53:08.199463+00:00"
+    "last_audited": "2026-10-03T11:28:33.729859+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-6",
@@ -118,7 +96,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T04:53:08.528769+00:00"
+    "last_audited": "2026-10-03T11:28:34.035647+00:00"
   },
   {
     "id": "gh-Ricky1800/ledgerlite-5",
@@ -142,7 +120,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T04:53:08.860951+00:00"
+    "last_audited": "2026-10-03T11:28:34.365040+00:00"
   },
   {
     "id": "gh-probe-rs/webpage-303",
@@ -164,7 +142,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T04:53:09.211268+00:00"
+    "last_audited": "2026-10-03T11:28:34.611838+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-84",
@@ -188,7 +166,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T04:53:09.555639+00:00"
+    "last_audited": "2026-10-03T11:28:34.889365+00:00"
   },
   {
     "id": "web3-Chain-Love/chain-love-4057",
@@ -214,7 +192,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-03T04:53:09.925739+00:00"
+    "last_audited": "2026-10-03T11:28:35.146010+00:00"
   },
   {
     "id": "web3-anthropics/claude-code-96705",
@@ -244,7 +222,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T04:53:10.320837+00:00"
+    "last_audited": "2026-10-03T11:28:35.474178+00:00"
   },
   {
     "id": "web3-verdikta/verdikta-applications-47",
@@ -270,7 +248,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-03T04:53:10.661574+00:00"
+    "last_audited": "2026-10-03T11:28:35.723117+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -296,7 +274,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-03T04:53:10.987782+00:00"
+    "last_audited": "2026-10-03T11:28:35.992988+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -321,7 +299,33 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-10-03T04:53:11.342614+00:00"
+    "last_audited": "2026-10-03T11:28:36.316468+00:00"
+  },
+  {
+    "id": "web3-Nish916/revenue-command-runner-1",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "Cloud Revenue Command Dashboard",
+    "url": "https://github.com/Nish916/revenue-command-runner/issues/1",
+    "platform": "web3_github",
+    "repo_owner": "Nish916",
+    "repo_name": "revenue-command-runner",
+    "issue_number": 1,
+    "org_handle": "Nish916",
+    "org_name": "Nish916/revenue-command-runner",
+    "body": "# Cloud Revenue Command Dashboard\n\nUpdated: 2026-10-03 06:04:16 UTC\n\n## Decision\n## Evidence-based revenue execution\n- ROLE: AUTOMATION_ONLY. Cloud discovery is advisory only; authenticated mutations run in the local executor.\n- MODE: AUTOMATION_ONLY_SUPER_INFINITY_AGGRESSIVE\n- TARGET: Discover and rank legitimate machine-executable paid work requiring minimal human attendance; authenticated mutations remain local; never guarantee income.\n- TOKEN BALANCE: RustChain reports 177.1 RTC; this is not verified fiat proceeds or withdrawal readiness.\n- VERIFIED: Cognitive-OS PR #53 state is open.\n- VERIFIED: RustChain #2259 state is open.\n- NOW: No cloud-discovered opportunity qualifies as cash-near. Do not confuse screening-required roles, freelance listings, or buyer-intent signals with earnings; local authenticated executor owns real APPLY/CLAIM/START_WORK actions.\n- DISCOVERY ONLY \u2014 FREELANCE: [nearskill] Finance Expert - Remote Part-Time Fellowship \u2014 parsed budget 105.0; application/bid not yet executed.\n- APPLICATION PIPELINE (NOT CASH-NEAR): [nearskill] Finance Expert - Remote Part-Time Fellowship \u2014 published floor/reference 105.0 USD; screening/application required.\n- DISCOVERY ONLY \u2014 INTENT BEACON: [github-intent] Leads \u2014 2026-09-21 (4) \u2014 freshness/fit scored; payer/contact still unverified.\n- CONTRACT POOL: 20 ranked remote/contract jobs are available as a lower-speed independent payer lane.\n- EXPLORATION CATALOG: 93 tracked earning surfaces across modes {'ACTIVE_FEED': 16, 'ACTIVE_FEED_AUTH': 2, 'AUTH_REQUIRED': 43, 'DISCOVERY_TARGET': 27, 'PARKED_BLOCKED': 1, 'ACTIVE_LOCAL_AUTH': 2, 'ACTIVE_EXTERNAL': 1, 'PARKED_ZERO_INVENTORY': 1}.\n- UPSIDE: [rfp] Enrollment Marketing Services \u2014 parsed budget/reward 350000.0 \u2014 action VERIFY. Do not let this block fast-cash work.\n- SOURCE HEALTH: OK=arbeitnow,braintrust,devpost,freelancer,github,github-intent,himalayas,hn-intent,jobicy,laborx,nearskill,oneforma,remoteok,remotive,rfp,security,superteam,wwr; failed=none.\n- ACCESS CATALOG: 43/93 sources have the configured AUTH_REQUIRED label. This is not a count of failed logins; confirm current local access using access_audit.py before classifying a blocker.\n- GUARANTEE GATE: Never guarantee income. Accepted funded work has priority, but acceptance, completion, settlement and bank receipt remain separate stages.\n- EXECUTION LAW 1: A pending proposal, PR, claim, review, KYC review or unpaid deliverable never satisfies the hourly floor.\n- EXECUTION LAW 2: AUTOMATION_ONLY priority: accepted/funded machine-executable work > funded agent-allowed bounty with deterministic acceptance > prepaid fixed-scope digital service order > agent-native escrowed task > verified open-source bounty. Human interviews, surveys, live usability tests and manual attendance are PARKED.\n- EXECUTION LAW 3: Spend 0% of core cycles on interviews, surveys, research calls or human-attendance tasks. Keep them outside the automation core.\n- EXECUTION LAW 4: Never spend two consecutive cycles on the same blocked payer/source without new evidence. PARK and rotate.\n- EXECUTION LAW 5: Maintain at most three evidence-qualified opportunities plus one bounded product experiment. Zero eligible opportunities is a valid result; never manufacture activity to fill lanes.\n- EXECUTION LAW 6: For direct client work, ask for upfront payment or funded milestone before substantial delivery.\n- EXECUTION LAW 7: Every cycle must produce NOW / NEXT / PARK. NOW must be a concrete action tied to a payer, not 'monitor'.\n- NEXT: Push the best authenticated APPLY/WORK lane; if authentication is unavailable, prepare exact submission/deliverable and rotate to another executable lane.\n- PARK: Any lane requiring human interview/attendance, survey/user-testing participation, deposit/stake/bond without explicit human approval, self-payment, fake demand, spam, identity rental, private-contact scraping, gambling/trading, AI use prohibited by platform terms, or unauthorized exploitation.\n- PAID GATE: Track authoritative external customer settlement separately from withdrawal-ready receivables and actual bank cash. Never count the same payment twice.\n\nAI provider: deterministic payment-first fallback.\n## Compact evidence\n~~~json\n{\n  \"ts\": \"2026-10-03T06:03:43.156340+00:00\",\n  \"exploration_catalog\": {\n    \"total_sources\": 93,\n    \"mode_counts\": {\n      \"ACTIVE_FEED\": 16,\n      \"ACTIVE_FEED_AUTH\": 2,\n      \"AUTH_REQUIRED\": 43,\n      \"DISCOVERY_TARGET\": 27,\n      \"PARKED_BLOCKED\": 1,\n      \"ACTIVE_LOCAL_AUTH\": 2,\n      \"ACTIVE_EXTERNAL\": 1,\n      \"PARKED_ZERO_INVENTORY\": 1\n    },\n    \"category_counts\": {\n      \"bounty\": 3,\n      \"freelance\": 10,\n      \"ai-data\": 5,\n      \"rfp\": 1,\n      \"challenge\": 2,\n      \"security\": 9,\n      \"job\": 6,\n      \"buyer-intent\": 2,\n      \"testing\": 6,\n      \"research\": 6,\n      \"ai-evaluation\": 2,\n      \"microtask\": 3,\n      \"consulting\": 2,\n      \"expert-network\": 7,\n      \"opensource-bounty\": 3,\n      \"procurement\": 11,\n      \"agent-marketplace\": 2,\n      \"api-marketplace\": 1,\n      \"paid-study\": 1,\n      \"unclaimed-deposit\": 1,\n      \"unclaimed-investment\": 1,\n      \"unclaimed-securities\": 1,\n      \"tax-refund\": 1,\n      \"unclaimed-insurance\": 1,\n      \"employment-recovery\": 2,\n      \"payout-recovery\": 1,\n      \"investment-recovery\": 1,\n      \"consumer-recovery\": 2\n    },\n    \"catalog_file\": \"config/sources.json\",\n    \"intent_dictionary_file\": \"config/intent-signals.json\"\n  },\n  \"payment_floor\": {\n    \"mode\": \"AUTOMATION_ONLY_SUPER_INFINITY_AGGRESSIVE\",\n    \"cloud_role\": \"DISCOVERY_ONLY_LOCAL_EXECUTOR_REQUIRED\",\n    \"target\": \"Discover and rank legitimate machine-executable paid work requiring minimal human attendance; authenticated mutations remain local; never guarantee income.\",\n    \"priority_order\": [\n      \"accepted_or_funded_machine_executable_work\",\n      \"funded_agent_allowed_zero_capital_bounty\",\n      \"prepaid_fixed_scope_digital_service\",\n      \"zero_capital_open_source_bounty\",\n      \"automation_compatible_freelance_task\",\n      \"high_ticket_automation_proposal\"\n    ],\n    \"rotation_rule\": \"Immediately rotate any blocked/non-executable source; never spend two consecutive cycles without new payer evidence.\",\n    \"high_ticket_attention_cap_pct_until_floor\": 10,\n    \"human_interview_survey_attention_pct\": 0,\n    \"minimum_independent_payer_lanes\": 8,\n    \"guarantee_definition\": \"Only accepted/funded fixed-pay work with objective acceptance and no remaining payer discretion can be called guarantee-ready; discovery/application alone never qualifies.\",\n    \"cycle_output\": [\n      \"NOW\",\n      \"NEXT\",\n      \"PARK\"\n    ]\n  },\n  \"settlement\": {\n    \"rustchain_native\": {\n      \"amount_i64\": 162100000,\n      \"amount_rtc\": 162.1,\n      \"miner_id\": \"RTCbc589ef246bc1c5c8c44117f1d66b226f33b9f73\"\n    },\n    \"rustchain_hosted\": {\n      \"amount_i64\": 15000000,\n      \"amount_rtc\": 15.0,\n      \"miner_id\": \"Nish916\"\n    },\n    \"rustchain_total_rtc\": 177.1\n  },\n  \"minute_cycles\": [\n    {\n      \"cycle\": 1,\n      \"ts\": \"2026-10-03T06:03:45.131782+00:00\",\n      \"settlement_total_rtc\": 177.1,\n      \"settlement_delta_rtc\": 0.0,\n      \"status\": \"NO_NEW_SETTLEMENT\",\n      \"cloud_role\": \"DISCOVERY_ONLY\",\n      \"candidate\": {\n        \"source\": \"superteam\",\n        \"kind\": \"bounty\",\n        \"title\": \"$20,000 in Pre-Audit Credits for Colosseum\\u2019s Crypto World's Fair Hackathon\",\n        \"url\": \"https://superteam.fun/earn/listing/pre-audit-credits-adevarlabs\",\n        \"amount_guess\": 20000.0,\n        \"action\": \"VERIFY_AND_PREP\"\n      },\n      \"rule\": \"Cloud candidates are informational. Only the local authenticated executor may APPLY/CLAIM/START_WORK; only external settlement counts as earnings.\"\n    },\n    {\n      \"cycle\": 2,\n      \"ts\": \"2026-10-03T06:03:55.556858+00:00\",\n      \"settlement_total_rtc\": 177.1,\n      \"settlement_delta_rtc\": 0.0,\n      \"status\": \"NO_NEW_SETTLEMENT\",\n      \"cloud_role\": \"DISCOVERY_ONLY\",\n      \"candidate\": {\n        \"source\": \"superteam\",\n        \"kind\": \"bounty\",\n        \"title\": \"AI \\u00d7 Solana Track Thailand Track $10,000\",\n        \"url\": \"https://superteam.fun/earn/listing/ai-solana-track\",\n        \"amount_guess\": 10000.0,\n        \"action\": \"VERIFY_AND_PREP\"\n      },\n      \"rule\": \"Cloud candidates are informational. Only the local authenticated executor may APPLY/CLAIM/START_WORK; only external settlement counts as earnings.\"\n    },\n    {\n      \"cycle\": 3,\n      \"ts\": \"2026-10-03T06:04:05.979263+00:00\",\n      \"settlement_total_rtc\": 177.1,\n      \"settlement_delta_rtc\": 0.0,\n      \"status\": \"NO_NEW_SETTLEMENT\",\n      \"cloud_role\": \"DISCOVERY_ONLY\",\n      \"candidate\": {\n        \"source\": \"superteam\",\n        \"kind\": \"bounty\",\n        \"title\": \"Colosseum Crypto World's Fair Hackathon | Superteam Argentina Track\",\n        \"url\": \"https://superteam.fun/earn/listing/colosseum-crypto-worlds-fair-hackathon-superteam-argentina-track\",\n        \"amount_guess\": 10000.0,\n        \"action\": \"VERIFY_AND_PREP\"\n      },\n      \"rule\": \"Cloud candidates are informational. Only the local authenticated executor may APPLY/CLAIM/START_WORK; only external settlement counts as earnings.\"\n    },\n    {\n      \"cycle\": 4,\n      \"ts\": \"2026-10-03T06:04:16.392441+00:00\",\n      \"settlement_total_rtc\": 177.1,\n      \"settlement_delta_rtc\": 0.0,\n      \"status\": \"NO_NEW_SETTLEMENT\",\n      \"cloud_role\": \"DISCOVERY_ONLY\",\n      \"candidate\": {\n        \"source\": \"superteam\",\n        \"kind\": \"bounty\",\n        \"title\": \"Colosseum Crypto World\\u2019s Fair: Superteam T\\u00fcrkiye Local Track\",\n        \"url\": \"https://superteam.fun/earn/listing/submit-crypto-worlds-fair-project-for-turkish-builders\",\n        \"amount_guess\": 10000.0,\n        \"action\": \"VERIFY_AND_PREP\"\n      },\n      \"rule\": \"Cloud candidates are informational. Only the local authenticated executor may APPLY/CLAIM/START_WORK; only external settlement counts as earnings.\"\n    }\n  ],\n  \"minute_final_delta_rtc\": 0.0,\n  \"submitted\": {\n    \"cognitive_pr_53\": {\n      \"state\": \"open\",\n      \"merged\": false,\n      \"updated_at\": \"2026-10-02T06:42:22Z\",\n      \"url\": \"https://github.com/aLexzzz430/Cognitive-OS/pull/53\"\n    },\n    \"rustchain_2259\": {\n      \"state\": \"open\",\n      \"updated_at\": \"2026-09-30T03:10:30Z\",\n      \"url\": \"https://github.com/Scottcjn/rustchain-bounties/issues/2259\",\n      \"comments\": 38\n    }\n  },\n  \"source_status\": [\n    {\n      \"source\": \"arbeitnow\",\n      \"ok\": true,\n      \"count\": 25\n    },\n    {\n      \"source\": \"braintrust\",\n      \"ok\": true,\n      \"count\": 20\n    },\n    {\n      \"source\": \"devpost\",\n      \"ok\": true,\n      \"count\": 4\n    },\n    {\n      \"source\": \"freelancer\",\n      \"ok\": true,\n      \"count\": 30\n    },\n    {\n      \"source\": \"github\",\n      \"ok\": true,\n      \"count\": 17\n    },\n    {\n      \"source\": \"github-intent\",\n      \"ok\": true,\n      \"count\": 28\n    },\n    {\n      \"source\": \"himalayas\",\n      \"ok\": true,\n      \"count\": 3\n    },\n    {\n      \"source\": \"hn-intent\",\n      \"ok\": true,\n      \"count\": 7\n    },\n    {\n      \"source\": \"jobicy\",\n      \"ok\": true,\n      \"count\": 8\n    },\n    {\n      \"source\": \"laborx\",\n      \"ok\": true,\n      \"count\": 9\n    },\n    {\n      \"source\": \"nearskill\",\n      \"ok\": true,\n      \"count\": 19\n    },\n    {\n      \"source\": \"oneforma\",\n      \"ok\": true,\n      \"count\": 9\n    },\n    {\n      \"source\": \"remoteok\",\n      \"ok\": true,\n      \"count\": 25\n    },\n    {\n      \"source\": \"remotive\",\n      \"ok\": true,\n      \"count\": 9\n    },\n    {\n      \"source\": \"rfp\",\n      \"ok\": true,\n      \"count\": 8\n    },\n    {\n      \"source\": \"security\",\n      \"ok\": true,\n      \"count\": 10\n    },\n    {\n      \"source\": \"superteam\",\n      \"ok\": true,\n      \"count\": 20\n    },\n    {\n      \"source\": \"wwr\",\n      \"ok\": true,\n      \"count\": 25\n    }\n  ],\n  \"first_cash\": [],\n  \"application_pipeline\": [\n    {\n      \"source\": \"nearskill\",\n      \"kind\": \"paid-trial\",\n      \"title\": \"Finance Expert - Remote Part-Time Fellowship\",\n      \"company\": \"Handshake AI\",\n      \"url\": \"https://nearskill.in/jobs/finance-expert-remote-part-time-fellowship-505374\",\n      \"amount_guess\": 105.0,\n      \"advertised_min\": 105.0,\n      \"advertised_max\": 105.0,\n      \"currency\": \"USD\",\n      \"amount_basis\": \"fixed\",\n      \"fit\": 2,\n      \"openings\": 0,\n      \"locations\": [],\n      \"date_posted\": \"2026-09-26T04:14:43Z\",\n      \"pay_certainty\": \"PUBLISHED_PAY_SCREENING_REQUIRED\",\n      \"manual_gate\": \"APPLICATION_OR_SCREENING\",\n      \"score\": 3213.0,\n      \"action\": \"APPLY_OR_PREP\"\n    },\n    {\n      \"source\": \"nearskill\",\n      \"kind\": \"paid-hourly\",\n      \"title\": \"3D Slicer Medical Imaging Evaluator - Remote\",\n      \"company\": \"Handshake AI\",\n      \"url\": \"https://nearskill.in/jobs/3d-slicer-medical-imaging-evaluator-remote-855899\",\n      \"amount_guess\": 125.0,\n      \"advertised_min\": 125.0,\n      \"advertised_max\": 125.0,\n      \"currency\": \"USD\",\n      \"amount_basis\": \"hourly_floor\",\n      \"fit\": 2,\n      \"openings\": 0,\n      \"locations\": [],\n      \"date_posted\": \"2026-09-16T07:19:22Z\",\n      \"pay_certainty\": \"PUBLISHED_PAY_SCREENING_REQUIRED\",\n      \"manual_gate\": \"APPLICATION_OR_SCREENING\",\n      \"score\": 2975.0,\n      \"action\": \"APPLY_OR_PREP\"\n    },\n    {\n      \"source\": \"nearskill\",\n      \"kind\": \"paid-hourly\",\n      \"title\": \"AEC BIM Expert - Remote AI Research Program\",\n      \"company\": \"Handshake AI\",\n      \"url\": \"https://nearskill.in/jobs/aec-bim-expert-remote-ai-research-program-855895\",\n      \"amount_guess\": 125.0,\n      \"advertised_min\": 125.0,\n      \"advertised_max\": 125.0,\n      \"currency\": \"USD\",\n      \"amount_basis\": \"hourly_floor\",\n      \"fit\": 2,\n      \"openings\": 0,\n      \"locations\": [],\n      \"date_posted\": \"2026-09-18T12:57:22Z\",\n      \"pay_certainty\": \"PUBLISHED_PAY_SCREENING_REQUIRED\",\n      \"manual_gate\": \"APPLICATION_OR_SCREENING\",\n      \"score\": 2975.0,\n      \"action\": \"APPLY_OR_PREP\"\n    },\n    {\n      \"source\": \"nearskill\",\n      \"kind\": \"paid-hourly\",\n      \"title\": \"Business Operations Expert (Remote, Part-Time)\",\n      \"company\": \"Mercor\",\n      \"url\": \"https://nearskill.in/jobs/business-operations-expert-remote-part-time-5OZZ9P\",\n      \"amount_guess\": 90.0,\n      \"advertised_min\": 90.0,\n      \"advertised_max\": 120.0,\n      \"currency\": \"USD\",\n      \"amount_basis\": \"hourly_floor\",\n      \"fit\": 3,\n      \"openings\": 0,\n      \"locations\": [\n        \"United States\",\n        \"India\",\n        \"United Kingdom\",\n        \"Canada\",\n        \"Australia\"\n      ],\n      \"date_posted\": \"2026-09-16T05:19:57Z\",\n      \"pay_certainty\": \"PUBLISHED_PAY_SCREENING_REQUIRED\",\n      \"manual_gate\": \"APPLICATION_OR_SCREENING\",\n      \"score\": 2583.0,\n      \"action\": \"APPLY_OR_PREP\"\n    },\n    {\n      \"source\": \"nearskill\",\n      \"kind\": \"paid-trial\",\n      \"title\": \"Power Market Analyst - Remote Part-Time Contract\",\n      \"company\": \"Handshake AI\",\n      \"url\": \"https://nearskill.in/jobs/power-market-analyst-remote-part-time-contract-009470\",\n      \"amount_guess\": 80.0,\n      \"advertised_min\": 80.0,\n      \"advertised_max\": 80.0,\n      \"currency\": \"USD\",\n      \"amount_basis\": \"fixed\",\n      \"fit\": 2,\n      \"openings\": 0,\n      \"locations\": [],\n      \"date_posted\": \"2026-09-16T07:22:52Z\",\n      \"pay_certainty\": \"PUBLISHED_PAY_SCREENING_REQUIRED\",\n      \"manual_gate\": \"APPLICATION_OR_SCREENING\",\n      \"score\": 2448.0,\n      \"action\": \"APPLY_OR_PREP\"\n    },\n    {\n      \"source\": \"nearskill\",\n      \"kind\": \"paid-hourly\",\n      \"title\": \"Healthcare Specialist Remote Contract Rubric Design\",\n      \"company\": \"SME Careers\",\n      \"url\": \"https://nearskill.in/jobs/healthcare-specialist-remote-contract-rubric-design-c26511\",\n      \"amount_guess\": 100.0,\n      \"advertised_min\": 100.0,\n      \"advertised_max\": 100.0,\n      \"currency\": \"USD\",\n      \"amount_basis\": \"hourly_floor\",\n      \"fit\": 2,\n      \"openings\": 0,\n      \"locations\": [],\n      \"date_posted\": \"2026-09-29T11:11:54Z\",\n      \"pay_certainty\": \"PUBLISHED_PAY_SCREENING_REQUIRED\",\n      \"manual_gate\": \"APPLICATION_OR_SCREENING\",\n      \"score\": 2380.0,\n      \"action\": \"APPLY_OR_PREP\"\n    },\n    {\n      \"source\": \"nearskill\",\n      \"kind\": \"paid-hourly\",\n      \"title\": \"Business & Sales Operations Domain Expert\",\n      \"company\": \"Mercor\",\n      \"url\": \"https://nearskill.in/jobs/business-sales-operations-domain-expert-tBYYIf\",\n      \"amount_guess\": 60.0,\n      \"advertised_min\": 60.0,\n      \"advertised_max\": 100.0,\n      \"currency\": \"USD\",\n      \"amount_basis\": \"hourly_floor\",\n      \"fit\": 5,\n      \"openings\": 10,\n      \"locations\": [],\n      \"date_posted\": \"2026-08-20T07:16:02Z\",\n      \"pay_certainty\": \"PUBLISHED_PAY_SCREENING_REQUIRED\",\n      \"manual_gate\": \"APPLICATION_OR_SCREENING\",\n      \"score\": 2356.2,\n      \"action\": \"APPLY_OR_PREP\"\n    },\n    {\n      \"source\": \"nearskill\",\n      \"kind\": \"paid-hourly\",\n      \"title\": \"Human Resources Expert - Remote Fellowship\",\n      \"company\": \"Handshake AI\",\n      \"url\": \"https://nearskill.in/jobs/human-resources-expert-remote-fellowship-840000\",\n      \"amount_guess\": 75.0,\n      \"advertised_min\": 75.0,\n      \"advertised_max\": 75.0,\n      \"currency\": \"USD\",\n      \"amount_basis\": \"hourly_floor\",\n      \"fit\": 2,\n      \"openings\": 0,\n      \"locations\": [],\n      \"date_posted\": \"2026-09-17T22:57:39Z\",\n      \"pay_certainty\": \"PUBLISHED_PAY_SCREENING_REQUIRED\",\n      \"manual_gate\": \"APPLICATION_OR_SCREENING\",\n      \"score\": 1785.0,\n      \"action\": \"APPLY_OR_PREP\"\n    }\n  ],\n  \"high_ticket\": [\n    {\n      \"source\": \"rfp\",\n      \"kind\": \"consulting-rfp\",\n      \"title\": \"Enrollment Marketing Services\",\n      \"url\": \"https://usesettle.com/rfp-hunter/enrollment-marketing-services-2345768\",\n      \"amount_guess\": 350000.0,\n      \"issuer\": \"State University Of New York At Fredonia\",\n      \"deadline\": \"October 7, 2026\",\n      \"location\": \"Fredonia, New York, United States\",\n      \"description\": \"A university seeks an enrollment marketing partner to develop and execute integrated recruitment strategies, campaigns, outreach, lead generation, and performance measurement. The engagement will run for one year, with questions due October 1, 2026.\",\n      \"fit\": 2,\n      \"score\": 195300.0,\n      \"action\": \"VERIFY\",\n      \"hard_flags\": [],\n      \"requirements\": \"Must be a current Platinum Preferred Partner of Technolutions Slate Must maintain Platinum Preferred Slate Partner designation throughout the contract term Must provide a student search and recruitment solution integrated with Technolutions Slate Must have a minimum of five years of experience providing student search, recruitment, or enrollment services to accredited colleges or universities Must demonstrate experience supporting institutions with comparable enrollment objectives Must provide dedicated enrollment strategy expertise Must provide a minimum of three references from accredited colleges or universities Must demonstrate sufficient organizational, technical, and financial capacity Must comply with New York State procurement and data privacy requirements Must be able to collaborate with a third-party digital marketing vendor\",\n      \"eligibility\": \"POSSIBLE_UNVERIFIED\"\n    },\n    {\n      \"source\": \"rfp\",\n      \"kind\": \"consulting-rfp\",\n      \"title\": \"Tourism Marketing and Promotions Grant Services\",\n      \"url\": \"https://usesettle.com/rfp-hunter/tourism-marketing-and-promotions-grant-services-2340164\",\n      \"amount_guess\": 200000.0,\n      \"issuer\": \"County Of Hawaii\",\n      \"deadline\": \"October 9, 2026\",\n      \"location\": \"Hilo, Hawaii, United States\",\n      \"description\": \"A vendor is sought to deliver integrated tourism marketing, travel trade, international outreach, media, meetings and conventions, and event promotion services in support of sustainable visitor demand across Hawaii. The contract term is one year, with questions due September 18, 2026.\",\n      \"fit\": 2,\n      \"score\": 111600.0,\n      \"action\": \"VERIFY\",\n      \"hard_flags\": [],\n      \"requirements\": \"Must be a qualified nonprofit organization Must have insurance coverage with at least an A.M. Best\\u2019s Key Rating of A- VII Must provide proof of compliance with HRS 103D-310 for awards of $2,500 or greater Must be registered to do business in the State of Hawaii Must submit a redacted copy of the proposal Must comply with k\\u0101n\\u0101wai guidelines for tourism Must maintain a HANDS account for performance reporting\",\n      \"eligibility\": \"POSSIBLE_UNVERIFIED\"\n    },\n    {\n      \"source\": \"rfp\",\n      \"kind\": \"consulting-rfp\",\n      \"title\": \"Comprehensive Digital Marketing Services\",\n      \"url\": \"https://usesettle.com/rfp-hunter/comprehensive-digital-marketing-services-2340088\",\n      \"amount_guess\": 150000.0,\n      \"issuer\": \"Galveston College\",\n      \"deadline\": \"October 7, 2026\",\n      \"location\": \"Galveston, Texas, United States\",\n      \"description\": \"A vendor is sought to develop and implement a comprehensive digital marketing strategy across digital channels to increase student and adult learning enrollment. The full RFP document is unavailable.\",\n      \"fit\": 2,\n      \"score\": 83700.0,\n      \"action\": \"VERIFY\",\n      \"hard_flags\": [],\n      \"requirements\": \"Must be able to create and implement a comprehensive digital marketing plan Must provide comprehensive digital advertising services Must provide monitoring and reporting services Must be an authorized vendor\",\n      \"eligibility\": \"POSSIBLE_UNVERIFIED\"\n    },\n    {\n      \"source\": \"rfp\",\n      \"kind\": \"consulting-rfp\",\n      \"title\": \"Strategic Marketing, Media Buying, Production and PR Support Services\",\n      \"url\": \"https://usesettle.com/rfp-hunter/strategic-marketing-media-buying-production-and-pr-support-services-2335546\",\n      \"amount_guess\": 85000.0,\n      \"issuer\": \"City Of Durango\",\n      \"deadline\": \"October 6, 2026\",\n      \"location\": \"Durango, Colorado, United States\",\n      \"description\": \"The airport is seeking a marketing and public relations partner to support campaign strategy, creative production, media planning and buying, photography, videography, and ongoing media performance evaluation.\",\n      \"fit\": 2,\n      \"score\": 47430.0,\n      \"action\": \"VERIFY\",\n      \"hard_flags\": [],\n      \"requirements\": \"Must have at least three years of experience delivering professional marketing services and consultation Account Executive must have at least three years of experience Must obtain a current City Business License upon award Must complete a W-9 form upon award Must maintain required insurance coverage including Worker's Compensation, Comprehensive General Liability, and Comprehensive Automobile Liability Must be able to provide quarterly marketing reports Must be able to provide on-site photography and videography Must be able to manage quarterly e-newsletter development and distribution\",\n      \"eligibility\": \"POSSIBLE_UNVERIFIED\"\n    },\n    {\n      \"source\": \"rfp\",\n      \"kind\": \"consulting-rfp\",\n      \"title\": \"Economic Development Marketing Plan Services\",\n      \"url\": \"https://usesettle.com/rfp-hunter/economic-development-marketing-plan-services-2348106\",\n      \"amount_guess\": 75000.0,\n      \"issuer\": \"City Of Dublin\",\n      \"deadline\": \"October 9, 2026\",\n      \"location\": \"Dublin, Ohio, United States\",\n      \"description\": \"The City is seeking a marketing services provider to develop and execute a digital strategy promoting its 2027 Economic Development objectives. The engagement will focus on paid media, audience engagement, lead generation, business attraction, local business promotion, and performance analytics.\",\n      \"fit\": 3,\n      \"score\": 45900.0,\n      \"action\": \"VERIFY\",\n      \"hard_flags\": [],\n      \"requirements\": \"Must have at least five years of current experience in providing and managing communications and public relations on behalf of clients Must demonstrate ability and expertise to fulfill all services listed in the scope of work Must be able to commence services on the execution of a mutual agreement\",\n      \"eligibility\": \"POSSIBLE_UNVERIFIED\"\n    },\n    {\n      \"source\": \"superteam\",\n      \"kind\": \"bounty\",\n      \"title\": \"$20,000 in Pre-Audit Credits for Colosseum\\u2019s Crypto World's Fair Hackathon\",\n      \"url\": \"https://superteam.fun/earn/listing/pre-audit-credits-adevarlabs\",\n      \"amount_guess\": 20000.0,\n      \"currency\": \"USDC\",\n      \"fit\": 2,\n      \"deadline\": \"2026-10-13T06:59:00.000Z\",\n      \"sponsor\": \"Adevar Labs Inc.\",\n      \"comments\": 3,\n      \"score\": 27522.94,\n      \"action\": \"VERIFY_AND_PREP\",\n      \"risk_flag\": null,\n      \"pay_certainty\": \"FUNDED_BOUNTY_COMPETITIVE\"\n    },\n    {\n      \"source\": \"superteam\",\n      \"kind\": \"bounty\",\n      \"title\": \"AI \\u00d7 Solana Track Thailand Track $10,000\",\n      \"url\": \"https://superteam.fun/earn/listing/ai-solana-track\",\n      \"amount_guess\": 10000.0,\n      \"currency\": \"USDG\",\n      \"fit\": 7,\n      \"deadline\": \"2026-10-13T06:59:00.000Z\",\n      \"sponsor\": \"Superteam Thailand \",\n      \"comments\": 1,\n      \"score\": 26699.03,\n      \"action\": \"VERIFY_AND_PREP\",\n      \"risk_flag\": null,\n      \"pay_certainty\": \"FUNDED_BOUNTY_COMPETITIVE\"\n    },\n    {\n      \"source\": \"rfp\",\n      \"kind\": \"consulting-rfp\",\n      \"title\": \"Business Line Branding and Organizational Website Services\",\n      \"url\": \"https://usesettle.com/rfp-hunter/business-line-branding-and-organizational-website-services-2341746\",\n      \"amount_guess\": 40000.0,\n      \"issuer\": \"Landforce\",\n      \"deadline\": \"October 7, 2026\",\n      \"location\": \"Pittsburgh, Pennsylvania, United States\",\n      \"description\": \"The organization is seeking a qualified vendor to deliver end-to-end branding and website services, including strategy, design, CMS development, content migration, accessibility, SEO, hosting, and launch. The project also includes an impact dashboard and a comprehensive audit of the existing website.\",\n      \"fit\": 3,\n      \"score\": 24480.0,\n      \"action\": \"VERIFY\",\n      \"hard_flags\": [],\n      \"requirements\": \"Must demonstrate experience leading organization-wide brand architecture and identity work Must have experience with complex, multi-audience website strategy and development Must have technical capability with CMS, CRM, and email integrations Must have relevant nonprofit, social-enterprise, or environmental-service experience Must certify that the firm and its principals are not currently debarred or suspended from federal assistance programs Must operate in accordance with Title VI of the Civil Rights Act of 1964 Must include standard Equal Employment Opportunity clause in contract\",\n      \"eligibility\": \"POSSIBLE_UNVERIFIED\"\n    }\n  ],\n  \"fast_cash\": [],\n  \"freelance_pipeline\": [\n    {\n      \"source\": \"nearskill\",\n      \"kind\": \"paid-trial\",\n      \"title\": \"Finance Expert - Remote Part-Time Fellowship\",\n      \"company\": \"Handshake AI\",\n      \"url\": \"https://nearskill.in/jobs/finance-expert-remote-part-time-fellowship-505374\",\n      \"amount_guess\": 105.0,\n      \"advertised_min\": 105.0,\n      \"advertised_max\": 105.0,\n      \"currency\": \"USD\",\n      \"amount_basis\": \"fixed\",\n      \"fit\": 2,\n      \"openings\": 0,\n      \"locations\": [],\n      \"date_posted\": \"2026-09-26T04:14:43Z\",\n      \"pay_certainty\": \"PUBLISHED_PAY_SCREENING_REQUIRED\",\n      \"manual_gate\": \"APPLICATION_OR_SCREENING\",\n      \"score\": 3213.0,\n      \"action\": \"APPLY_OR_PREP\"\n    },\n    {\n      \"source\": \"nearskill\",\n      \"kind\": \"paid-trial\",\n      \"title\": \"Power Market Analyst - Remote Part-Time Contract\",\n      \"company\": \"Handshake AI\",\n      \"url\": \"https://nearskill.in/jobs/power-market-analyst-remote-part-time-contract-009470\",\n      \"amount_guess\": 80.0,\n      \"advertised_min\": 80.0,\n      \"advertised_max\": 80.0,\n      \"currency\": \"USD\",\n      \"amount_basis\": \"fixed\",\n      \"fit\": 2,\n      \"openings\": 0,\n      \"locations\": [],\n      \"date_posted\": \"2026-09-16T07:22:52Z\",\n      \"pay_certainty\": \"PUBLISHED_PAY_SCREENING_REQUIRED\",\n      \"manual_gate\": \"APPLICATION_OR_SCREENING\",\n      \"score\": 2448.0,\n      \"action\": \"APPLY_OR_PREP\"\n    },\n    {\n      \"source\": \"laborx\",\n      \"kind\": \"freelance\",\n      \"title\": \"3D Artist\",\n      \"url\": \"https://laborx.com/jobs\",\n      \"amount_guess\": 1500.0,\n      \"currency\": \"USD\",\n      \"unit\": \"MONTH\",\n      \"fit\": 3,\n      \"score\": 1950.0,\n      \"date_posted\": \"2026-10-03\",\n      \"action\": \"APPLY\"\n    },\n    {\n      \"source\": \"laborx\",\n      \"kind\": \"freelance\",\n      \"title\": \"Community Calendar Manager / Content Curator\",\n      \"url\": \"https://laborx.com/jobs\",\n      \"amount_guess\": 1200.0,\n      \"currency\": \"USD\",\n      \"unit\": \"MONTH\",\n      \"fit\": 4,\n      \"score\": 1680.0,\n      \"date_posted\": \"2026-10-03\",\n      \"action\": \"APPLY\"\n    },\n    {\n      \"source\": \"freelancer\",\n      \"kind\": \"freelance\",\n      \"title\": \"Senior TypeScript/Next.js Team for AI-Powered PWA | December 2026 Launch\",\n      \"url\": \"https://www.freelancer.com/projects/40747253\",\n      \"amount_guess\": 10000.0,\n      \"currency\": \"USD\",\n      \"budget_native\": {\n        \"minimum\": 5000.0,\n        \"maximum\": 10000.0\n      },\n      \"fit\": 2,\n      \"bids\": 87,\n      \"score\": 1557.79,\n      \"urgent\": false,\n      \"action\": \"APPLY\"\n    },\n    {\n      \"source\": \"laborx\",\n      \"kind\": \"freelance\",\n      \"title\": \"SOMEONE FROM USA OR CANADA\",\n      \"url\": \"https://laborx.com/jobs\",\n      \"amount_guess\": 1000.0,\n      \"currency\": \"USD\",\n      \"unit\": \"MONTH\",\n      \"fit\": 1,\n      \"score\": 1100.0,\n      \"date_posted\": \"2026-10-03\",\n      \"action\": \"APPLY\"\n    },\n    {\n      \"source\": \"freelancer\",\n      \"kind\": \"freelance\",\n      \"title\": \"YouTube Bodycam Footage Researcher\",\n      \"url\": \"https://www.freelancer.com/projects/40747210\",\n      \"amount_guess\": 750.0,\n      \"currency\": \"USD\",\n      \"budget_native\": {\n        \"minimum\": 250.0,\n        \"maximum\": 750.0\n      },\n      \"fit\": 1,\n      \"bids\": 25,\n      \"score\": 280.0,\n      \"urgent\": false,\n      \"action\": \"APPLY\"\n    },\n    {\n      \"source\": \"freelancer\",\n      \"kind\": \"freelance\",\n      \"title\": \"Excel Data Cleaning & Forecasting Formulas\",\n      \"url\": \"https://www.freelancer.com/projects/40747338\",\n      \"amount_guess\": 390.07,\n      \"currency\": \"INR\",\n      \"budget_native\": {\n        \"minimum\": 12500.0,\n        \"maximum\": 37500.0\n      },\n      \"fit\": 1,\n      \"bids\": 10,\n      \"score\": 242.71,\n      \"urgent\": false,\n      \"action\": \"APPLY\"\n    }\n  ],\n  \"buyer_intent\": [\n    {\n      \"source\": \"github-intent\",\n      \"kind\": \"buyer-intent\",\n      \"title\": \"Leads \\u2014 2026-09-21 (4)\",\n      \"url\": \"https://github.com/andybsgsports/Free-Finder-of-Lance/issues/10\",\n      \"amount_guess\": 40.0,\n      \"fit\": 10,\n      \"comments\": 0,\n      \"updated_at\": \"2026-09-21T18:34:05Z\",\n      \"score\": 1322.0,\n      \"action\": \"VERIFY_CONTACT\"\n    },\n    {\n      \"source\": \"github-intent\",\n      \"kind\": \"buyer-intent\",\n      \"title\": \"Leads \\u2014 2026-09-29 (3)\",\n      \"url\": \"https://github.com/andybsgsports/Free-Finder-of-Lance/issues/17\",\n      \"amount_guess\": 30.0,\n      \"fit\": 10,\n      \"comments\": 0,\n      \"updated_at\": \"2026-09-29T18:33:04Z\",\n      \"score\": 1321.5,\n      \"action\": \"VERIFY_CONTACT\"\n    },\n    {\n      \"source\": \"github-intent\",\n      \"kind\": \"buyer-intent\",\n      \"title\": \"Plan: Merge-queue-first CI with per-area workflows and Auto Harness CI triage\",\n      \"url\": \"https://github.com/vouchington/vouchington/issues/645\",\n      \"amount_guess\": 0.0,\n      \"fit\": 10,\n      \"comments\": 27,\n      \"updated_at\": \"2026-10-03T05:48:42Z\",\n      \"score\": 1280.0,\n      \"action\": \"VERIFY_CONTACT\"\n    },\n    {\n      \"source\": \"github-intent\",\n      \"kind\": \"buyer-intent\",\n      \"title\": \"Leads \\u2014 2026-09-20 (3)\",\n      \"url\": \"https://github.com/andybsgsports/Free-Finder-of-Lance/issues/9\",\n      \"amount_guess\": 500.0,\n      \"fit\": 9,\n      \"comments\": 0,\n      \"updated_at\": \"2026-09-20T16:48:06Z\",\n      \"score\": 1225.0,\n      \"action\": \"VERIFY_CONTACT\"\n    },\n    {\n      \"source\": \"github-intent\",\n      \"kind\": \"buyer-intent\",\n      \"title\": \"[competitor][consultant-dashboard] Topmate earnings walkthrough parity \\u2014 where we lose supply trust, conversion & growth loops\",\n      \"url\": \"https://github.com/Practitionist/familiarise_web/issues/1827\",\n      \"amount_guess\": 0.0,\n      \"fit\": 9,\n      \"comments\": 0,\n      \"updated_at\": \"2026-10-01T18:52:42Z\",\n      \"score\": 1200.0,\n      \"action\": \"VERIFY_CONTACT\"\n    },\n    {\n      \"source\": \"github-intent\",\n      \"kind\": \"buyer-intent\",\n      \"title\": \"consolidation-task: merge thread on #64 into single spec\",\n      \"url\": \"https://github.com/Ultimate-Multisite/docs/issues/179\",\n      \"amount_guess\": 0.0,\n      \"fit\": 9,\n      \"comments\": 1439,\n      \"updated_at\": \"2026-10-03T05:52:58Z\",\n      \"score\": 1160.0,\n      \"action\": \"VERIFY_CONTACT\"\n    },\n    {\n      \"source\": \"github-intent\",\n      \"kind\": \"buyer-intent\",\n      \"title\": \"How Do I Choose a Digital Agency for Real Estate Agents?\",\n      \"url\": \"https://github.com/PitchPineMedia25/Real-Estate-Digital-Marketing-Agency/issues/32\",\n      \"amount_guess\": 0.0,\n      \"fit\": 7,\n      \"comments\": 0,\n      \"updated_at\": \"2026-09-28T04:30:16Z\",\n      \"score\": 960.0,\n      \"action\": \"VERIFY_CONTACT\"\n    },\n    {\n      \"source\": \"github-intent\",\n      \"kind\": \"buyer-intent\",\n      \"title\": \"Legacy copy (#2423): fix titles, descriptions, author schema and \\\"free\\\" claims on the 20 older articles (D-326, public-adjuster line), then the full week-2 read\",\n      \"url\": \"https://github.com/StellarEdgeServices/otterquote-platform/issues/2480\",\n      \"amount_guess\": 10.0,\n      \"fit\": 7,\n      \"comments\": 1,\n      \"updated_at\": \"2026-10-03T04:40:21Z\",\n      \"score\": 958.5,\n      \"action\": \"VERIFY_CONTACT\"\n    }\n  ],\n  \"contract_jobs\": [\n    {\n      \"source\": \"nearskill\",\n      \"kind\": \"contract-job\",\n      \"title\": \"Customer Success Engineer (LatAm)\",\n      \"company\": \"Mercor\",\n      \"url\": \"https://nearskill.in/jobs/customer-success-engineer-latam-lLT79a\",\n      \"amount_guess\": 35000.0,\n      \"advertised_min\": 35000.0,\n      \"advertised_max\": 50000.0,\n      \"currency\": \"USD\",\n      \"amount_basis\": \"year\",\n      \"fit\": 4,\n      \"openings\": 0,\n      \"locations\": [\n        \"United States\",\n        \"India\",\n        \"United Kingdom\",\n        \"Canada\",\n        \"Australia\"\n      ],\n      \"date_posted\": \"2026-08-04T02:29:52Z\",\n      \"pay_certainty\": \"PUBLISHED_PAY_SCREENING_REQUIRED\",\n      \"manual_gate\": \"APPLICATION_OR_SCREENING\",\n      \"score\": 672000.0,\n      \"action\": \"APPLY_OR_PREP\"\n    },\n    {\n      \"source\": \"nearskill\",\n      \"kind\": \"contract-job\",\n      \"title\": \"Customer Success Engineer (India)\",\n      \"company\": \"Mercor\",\n      \"url\": \"https://nearskill.in/jobs/customer-success-engineer-india-dF5rx2\",\n      \"amount_guess\": 30000.0,\n      \"advertised_min\": 30000.0,\n      \"advertised_max\": 45000.0,\n      \"currency\": \"USD\",\n      \"amount_basis\": \"year\",\n      \"fit\": 2,\n      \"openings\": 2,\n      \"locations\": [\n        \"United States\",\n        \"India\",\n        \"United Kingdom\",\n        \"Canada\",\n        \"Australia\"\n      ],\n      \"date_posted\": \"2026-08-02T19:41:30Z\",\n      \"pay_certainty\": \"PUBLISHED_PAY_SCREENING_REQUIRED\",\n      \"manual_gate\": \"APPLICATION_OR_SCREENING\",\n      \"score\": 409632.0,\n      \"action\": \"APPLY_OR_PREP\"\n    },\n    {\n      \"source\": \"nearskill\",\n      \"kind\": \"contract-job\",\n      \"title\": \"Customer Success - Operations (India Region)\",\n      \"company\": \"Mercor\",\n      \"url\": \"https://nearskill.in/jobs/customer-success-operations-india-region-9KAp7n\",\n      \"amount_guess\": 15000.0,\n      \"advertised_min\": 15000.0,\n      \"advertised_max\": 30000.0,\n      \"currency\": \"USD\",\n      \"amount_basis\": \"year\",\n      \"fit\": 4,\n      \"openings\": 2,\n      \"locations\": [\n        \"United States\",\n        \"India\",\n        \"United Kingdom\",\n        \"Canada\",\n        \"Australia\"\n      ],\n      \"date_posted\": \"2026-09-04T06:37:15Z\",\n      \"pay_certainty\": \"PUBLISHED_PAY_SCREENING_REQUIRED\",\n      \"manual_gate\": \"APPLICATION_OR_SCREENING\",\n      \"score\": 289152.0,\n      \"action\": \"APPLY_OR_PREP\"\n    },\n    {\n      \"source\": \"remoteok\",\n      \"kind\": \"contract-job\",\n      \"title\": \"Senior Shopify Developer\",\n      \"company\": \"Sanctuary Computer\",\n      \"url\": \"https://remoteOK.com/remote-jobs/remote-senior-shopify-developer-sanctuary-computer-1137405\",\n      \"amount_guess\": 250000.0,\n      \"amount_basis\": \"annual_salary_if_disclosed\",\n      \"fit\": 13,\n      \"score\": 2180.0,\n      \"date\": \"2026-09-18T13:29:53+00:00\",\n      \"action\": \"APPLY\"\n    },\n    {\n      \"source\": \"remotive\",\n      \"kind\": \"contract-job\",\n      \"title\": \"Senior Shopify Developer\",\n      \"company\": \"Sanctuary Computer Inc\",\n      \"url\": \"https://remotive.com/remote-jobs/software-development/senior-shopify-developer-2091140\",\n      \"amount_guess\": 150.0,\n      \"amount_text\": \"$80k - $150k\",\n      \"fit\": 13,\n      \"score\": 1541.5,\n      \"publication_date\": \"2026-09-18T15:10:28\",\n      \"action\": \"APPLY\"\n    },\n    {\n      \"source\": \"remoteok\",\n      \"kind\": \"contract-job\",\n      \"title\": \"VP Pricing & Packaging\",\n      \"company\": \"Delinea\",\n      \"url\": \"https://remoteOK.com/remote-jobs/remote-vp-pricing-packaging-delinea-1137407\",\n      \"amount_guess\": 340000.0,\n      \"amount_basis\": \"annual_salary_if_disclosed\",\n      \"fit\": 7,\n      \"score\": 1460.0,\n      \"date\": \"2026-09-19T00:00:16+00:00\",\n      \"action\": \"APPLY\"\n    },\n    {\n      \"source\": \"remoteok\",\n      \"kind\": \"contract-job\",\n      \"title\": \"Marketing Specialist\",\n      \"company\": \"INNERGY\",\n      \"url\": \"https://remoteOK.com/remote-jobs/remote-marketing-specialist-innergy-1136094\",\n      \"amount_guess\": 0.0,\n      \"amount_basis\": \"annual_salary_if_disclosed\",\n      \"fit\": 11,\n      \"score\": 1440.0,\n      \"date\": \"2026-08-04T15:06:47+00:00\",\n      \"action\": \"APPLY\"\n    },\n    {\n      \"source\": \"wwr\",\n      \"kind\": \"contract-job\",\n      \"title\": \"Storyblok: Director of Product Marketing - USA\",\n      \"url\": \"https://weworkremotely.com/remote-jobs/storyblok-director-of-product-marketing-usa\",\n      \"amount_guess\": 250000.0,\n      \"fit\": 13,\n      \"region\": \"Anywhere in the World\",\n      \"score\": 1330,\n      \"pubDate\": \"Wed, 30 Sep 2026 07:31:24 +0000\",\n      \"action\": \"APPLY\"\n    }\n  ],\n  \"rules\": {\n    \"count_as_revenue\": [\n      \"authoritative external settlement\",\n      \"payer-confirmed withdrawal-ready balance\"\n    ],\n    \"do_not_count\": [\n      \"claim\",\n      \"bid\",\n      \"PR\",\n      \"listing\",\n      \"headline reward\",\n      \"self-transfer\",\n      \"402\",\n      \"unaccepted deliverable\"\n    ],\n    \"blocked_lane_policy\": \"PARK_AND_CONTINUE\",\n    \"exploration_policy\": \"Automation-only cloud discovery. Human interviews/surveys/live usability tasks, auth-gated screening roles, annual salaries, spend-requiring competitions, unfunded listings, and unaccepted work never enter first_cash. Local authenticated executor owns APPLY/CLAIM/START_WORK.\"\n  }\n}~~~\n",
+    "reward_usd": 20.0,
+    "reward_formatted": "$20",
+    "tech": [
+      "solidity",
+      "python"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 3,
+    "last_audited": "2026-10-03T11:28:36.697071+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -430,7 +434,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-03T04:53:11.716871+00:00"
+    "last_audited": "2026-10-03T11:28:36.996859+00:00"
   },
   {
     "id": "sec-StellarTickets/blockchain-42",
@@ -455,7 +459,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T04:53:12.051940+00:00"
+    "last_audited": "2026-10-03T11:28:37.273683+00:00"
   },
   {
     "id": "sec-ethereum/go-ethereum-35852",
@@ -480,7 +484,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T04:53:12.418705+00:00"
+    "last_audited": "2026-10-03T11:28:37.568831+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -505,7 +509,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-03T04:53:12.764533+00:00"
+    "last_audited": "2026-10-03T11:28:37.816461+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -530,7 +534,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T04:53:13.173490+00:00"
+    "last_audited": "2026-10-03T11:28:38.116707+00:00"
   },
   {
     "id": "sec-dadadave80/lattice-241",
@@ -555,7 +559,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T04:53:13.489678+00:00"
+    "last_audited": "2026-10-03T11:28:38.371284+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -580,22 +584,22 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-03T04:53:13.844456+00:00"
+    "last_audited": "2026-10-03T11:28:38.634541+00:00"
   },
   {
-    "id": "sec-Lafiya-xyz/Lafiya-contract-435",
+    "id": "sec-freedom-winds/BountyScout-1124",
     "domain": "security",
-    "title": "[Advanced] Design a bug bounty program with severity rubric, scope, and safe-harbor terms",
-    "url": "https://github.com/Lafiya-xyz/Lafiya-contract/issues/435",
+    "title": "\ud83c\udfaf Bounty Alert: 13 New Opportunityies found",
+    "url": "https://github.com/freedom-winds/BountyScout/issues/1124",
     "platform": "github_security",
-    "repo_owner": "Lafiya-xyz",
-    "repo_name": "Lafiya-contract",
-    "issue_number": 435,
-    "org_handle": "Lafiya-xyz",
-    "org_name": "Lafiya-xyz/Lafiya-contract",
-    "body": "## Summary\n\nSECURITY.md describes private disclosure, but it offers researchers **no severity rubric, no reward structure, no scope definition, and no safe-harbor language**. Skilled Soroban security researchers put their time where the rules are clear. Before mainnet, and ideally during a public testnet phase, Lafiya needs a program that attracts them.\n\n## Deliverables\n\n- **Scope definition:**\n  - in scope: the three contracts (and any new ones) at specific deployed addresses and commits; the commitment scheme; the verifier SDK verdict logic;\n  - out of scope: `lafiya-web` (separate program), third-party RPC, social engineering, and denial of service through network spam.\n- **A severity rubric tailored to Lafiya's impact model**, for example:\n  - **Critical:** make an arbitrary record verify as attested; take over admin or upgrade authority; recover health data from on-chain data at scale.\n  - **High:** a permanent verification outage; bypassing suspension or revocation; forging multisig authorization.\n  - **Medium:** griefing that removes legitimate attestations; a temporary outage.\n  - **Low:** event inconsistencies; information leaks with limited impact.\n- A **reward table** scaled to what the project can afford, including non-monetary recognition, possibly funded through ecosystem grant programs. Research the options available to Stellar ecosystem projects.\n- **Safe-harbor** language (adapting a standard template such as disclose.io), testnet-only testing rules, and a ban on mainnet exploitation.\n- **Triage process:** response SLAs, a severity-agreement process, fix and disclosure timelines, and CVE/GHSA publication through GitHub Security Advisories.\n\n## Acceptance criteria\n\n- [ ] SECURITY.md is updated with the program, or links to a program page.\n- [ ] GitHub private vulnerability reporting is enabled and documented.\n- [ ] A triage runbook in `docs/runbooks/`.\n\n## Files\n\n- `SECURITY.md`\n- `docs/runbooks/`\n",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
+    "repo_owner": "freedom-winds",
+    "repo_name": "BountyScout",
+    "issue_number": 1124,
+    "org_handle": "freedom-winds",
+    "org_name": "freedom-winds/BountyScout",
+    "body": "### Active Bounty Scan Results\n\n**Scan Time:** 2026-09-24 21:57 UTC\n\n#### 1. [DOC-14: Add security disclosure timeline to SECURITY.md](https://github.com/veracindarella/paystream-contracts/issues/98)\n- **Repository:** [veracindarella/paystream-contracts](https://github.com/veracindarella/paystream-contracts)\n- **Comments:** 3\n- **Last Updated:** 2026-09-24T21:57:08Z\n\n#### 2. [[Bounty proposal] fix(hive-app): exception text and raw exception reflection in Hive plugin endpoints ($50 proposed)](https://github.com/BasedHardware/omi/issues/18750)\n- **Repository:** [BasedHardware/omi](https://github.com/BasedHardware/omi)\n- **Comments:** 0\n- **Last Updated:** 2026-09-24T21:53:02Z\n\n#### 3. [documentation: repo has no CODE_OF_CONDUCT.md](https://github.com/nebgov/nebgov/issues/1225)\n- **Repository:** [nebgov/nebgov](https://github.com/nebgov/nebgov)\n- **Comments:** 3\n- **Last Updated:** 2026-09-24T21:52:14Z\n\n#### 4. [commit-monitor: new leads 2026-09-24_2147Z](https://github.com/ahmedfuzayl-gif/commit-monitor/issues/80)\n- **Repository:** [ahmedfuzayl-gif/commit-monitor](https://github.com/ahmedfuzayl-gif/commit-monitor)\n- **Comments:** 0\n- **Last Updated:** 2026-09-24T21:47:56Z\n\n#### 5. [[BUG BOUNTY] LiquidationAuction.initialize allows unauthenticated first-call admin takeover](https://github.com/Smartdevs17/stellarlend/issues/1108)\n- **Repository:** [Smartdevs17/stellarlend](https://github.com/Smartdevs17/stellarlend)\n- **Comments:** 1\n- **Last Updated:** 2026-09-24T21:44:41Z\n\n#### 6. [[Bounty proposal] fix(github-app): exception text and raw response dumps in chat tool endpoints ($50 proposed)](https://github.com/BasedHardware/omi/issues/18747)\n- **Repository:** [BasedHardware/omi](https://github.com/BasedHardware/omi)\n- **Comments:** 0\n- **Last Updated:** 2026-09-24T21:44:39Z\n\n#### 7. [[BUG BOUNTY] YieldSplitter pays hardcoded synthetic yield from pooled principal, enabling cross-user fund loss](https://github.com/Smartdevs17/stellarlend/issues/1107)\n- **Repository:** [Smartdevs17/stellarlend](https://github.com/Smartdevs17/stellarlend)\n- **Comments:** 2\n- **Last Updated:** 2026-09-24T21:44:11Z\n\n#### 8. [[BUG BOUNTY] InstitutionalWallet guardian approvals are not bound to rotation payload, enabling recovery takeover](https://github.com/Smartdevs17/stellarlend/issues/1104)\n- **Repository:** [Smartdevs17/stellarlend](https://github.com/Smartdevs17/stellarlend)\n- **Comments:** 2\n- **Last Updated:** 2026-09-24T21:44:09Z\n\n#### 9. [[BUG BOUNTY] AMM admin is spoofable: privileged functions compare an address but never require its auth](https://github.com/Smartdevs17/stellarlend/issues/1110)\n- **Repository:** [Smartdevs17/stellarlend](https://github.com/Smartdevs17/stellarlend)\n- **Comments:** 1\n- **Last Updated:** 2026-09-24T21:43:33Z\n\n#### 10. [[BUG BOUNTY] AutoCompoundVault double-transfers deposits/withdrawals, enabling cross-user vault drain after harvest](https://github.com/Smartdevs17/stellarlend/issues/1106)\n- **Repository:** [Smartdevs17/stellarlend](https://github.com/Smartdevs17/stellarlend)\n- **Comments:** 2\n- **Last Updated:** 2026-09-24T21:42:21Z\n\n#### 11. [[Template] Create an Express.js API template](https://github.com/HHS/simpler-grants-protocol/issues/332)\n- **Repository:** [HHS/simpler-grants-protocol](https://github.com/HHS/simpler-grants-protocol)\n- **Comments:** 3\n- **Last Updated:** 2026-09-24T21:36:04Z\n\n#### 12. [[Bounty proposal] fix(backend): form json validation and sync file write exception leaks ($50 proposed)](https://github.com/BasedHardware/omi/issues/18742)\n- **Repository:** [BasedHardware/omi](https://github.com/BasedHardware/omi)\n- **Comments:** 0\n- **Last Updated:** 2026-09-24T21:41:12Z\n\n#### 13. [[Bounty proposal] fix(phone-calls): exception text and stack trace leaks in VoIP and verification endpoints ($50 proposed)](https://github.com/BasedHardware/omi/issues/18738)\n- **Repository:** [BasedHardware/omi](https://github.com/BasedHardware/omi)\n- **Comments:** 1\n- **Last Updated:** 2026-09-24T21:41:10Z\n\n",
+    "reward_usd": 50.0,
+    "reward_formatted": "$50",
     "tech": [
       "security",
       "sast",
@@ -604,8 +608,8 @@
     "status": "active",
     "solvability_score": 85.0,
     "live_status": "open",
-    "comments_count": 4,
-    "last_audited": "2026-10-03T04:53:14.189885+00:00"
+    "comments_count": 0,
+    "last_audited": "2026-10-03T11:28:38.923991+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -630,7 +634,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-03T04:53:14.516041+00:00"
+    "last_audited": "2026-10-03T11:28:39.181727+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -655,57 +659,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-03T04:53:14.837310+00:00"
-  },
-  {
-    "id": "sec-lissy93/bug-bounties-222",
-    "domain": "security",
-    "title": "[Program]: TrueProxies",
-    "url": "https://github.com/lissy93/bug-bounties/issues/222",
-    "platform": "github_security",
-    "repo_owner": "lissy93",
-    "repo_name": "bug-bounties",
-    "issue_number": 222,
-    "org_handle": "lissy93",
-    "org_name": "lissy93/bug-bounties",
-    "body": "### Company\n\nTrueProxies\n\n### Program URL\n\nhttps://trueproxies.com/security/\n\n### Contact\n\nhello@trueproxies.com\n\n### Description\n\n_No response_\n\n### Rewards\n\n- [ ] *bounty\n- [ ] *recognition\n- [ ] *swag\n\n### Program type\n\nvdp\n\n### Status\n\nactive\n\n### Safe harbor\n\n_No response_\n\n### Allows disclosure\n\n_No response_\n\n### Domains\n\ntrueproxies.com\n\n### Structured scope\n\n_No response_\n\n### Out of scope\n\n_No response_\n\n### Excluded methods\n\n- [ ] dos\n- [ ] social_engineering\n- [ ] phishing\n- [ ] physical_access\n- [ ] automated_scanning\n\n### Requires account\n\n_No response_\n\n### Minimum payout\n\n_No response_\n\n### Maximum payout\n\n_No response_\n\n### Currency\n\n_No response_\n\n### Payout - critical\n\n_No response_\n\n### Payout - high\n\n_No response_\n\n### Payout - medium\n\n_No response_\n\n### Payout - low\n\n_No response_\n\n### Swag details\n\n_No response_\n\n### Testing policy URL\n\n_No response_\n\n### Response SLA days\n\n_No response_\n\n### Disclosure timeline days\n\n_No response_\n\n### Legal terms URL\n\n_No response_\n\n### Hall of fame URL\n\n_No response_\n\n### Reporting URL\n\n_No response_\n\n### PGP key URL\n\n_No response_\n\n### Preferred languages\n\n_No response_\n\n### Standards\n\n_No response_\n\n### Confirmation\n\n- [X] I confirm the information is accurate and I have included only publicly documented program details.\n",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 2,
-    "last_audited": "2026-10-03T04:53:15.162813+00:00"
-  },
-  {
-    "id": "sec-yarilomail/yarilo-2105",
-    "domain": "security",
-    "title": "security: a private channel for vulnerability reports (SECURITY.md, GitHub reporting, HackerOne Community Edition)",
-    "url": "https://github.com/yarilomail/yarilo/issues/2105",
-    "platform": "github_security",
-    "repo_owner": "yarilomail",
-    "repo_name": "yarilo",
-    "issue_number": 2105,
-    "org_handle": "yarilomail",
-    "org_name": "yarilomail/yarilo",
-    "body": "After the release. Today there is no way for a researcher to report a vulnerability in yarilo privately: no `SECURITY.md`, no private reporting on the repository, no program on any platform. Checked on 2026-10-02: YesWeHack and Intigriti have no free tier for open source; huntr closed its open-source program in June 2026; HackerOne's Community Edition is a free full subscription for OSI-licensed, non-commercial projects; GitHub private vulnerability reporting is free on public repositories.\n\n## What to do\n\n1. **`SECURITY.md` in the repository root.** Supported versions (the release line), where to report (the GitHub form below, then the HackerOne program once accepted), what to expect: first answer within one week, fix and advisory before public disclosure, no bounty promised. English, short.\n2. **GitHub private vulnerability reporting** on `yarilomail/yarilo`: Settings \u2192 Advanced Security \u2192 Private vulnerability reporting \u2192 Enable. Reports arrive as draft advisories; a CVE is requested from the advisory. Repository admin does this.\n3. **Apply for HackerOne Community Edition** (https://www.hackerone.com/company/open-source-community). Conditions, all met or one day of work: OSI licence, project older than three months with shipped releases, `SECURITY.md` in the root, a link to the HackerOne program in the navigation of doc.yarilomail.org, first response to a report within one week. The subscription is free; a 5% processing fee applies only to bounties actually paid, and paying is optional.\n4. **Public docs**: a \"Security\" page on doc.yarilomail.org (repository `yarilomail/documentation`) with the same content as `SECURITY.md` and the program link in the site navigation, since HackerOne requires the link there.\n5. **Decide on bounties later**: start with no bounty table; revisit after the first real reports.\n\n## Not in scope\n\nA paid platform (YesWeHack, Intigriti, Bugcrowd managed tiers): no public pricing, sales-led, nothing that the free options above do not give at this stage.\n\n## Done when\n\n`SECURITY.md` is on `main`, the GitHub reporting form is live on the repository, the HackerOne program is accepted and linked from the docs site, and a test report through each of the two channels reached the maintainers.\n",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-03T04:53:15.494705+00:00"
+    "last_audited": "2026-10-03T11:28:39.433276+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -730,7 +684,57 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-03T04:53:15.828021+00:00"
+    "last_audited": "2026-10-03T11:28:39.714004+00:00"
+  },
+  {
+    "id": "sec-yarilomail/yarilo-2105",
+    "domain": "security",
+    "title": "security: a private channel for vulnerability reports (SECURITY.md, GitHub reporting, HackerOne Community Edition)",
+    "url": "https://github.com/yarilomail/yarilo/issues/2105",
+    "platform": "github_security",
+    "repo_owner": "yarilomail",
+    "repo_name": "yarilo",
+    "issue_number": 2105,
+    "org_handle": "yarilomail",
+    "org_name": "yarilomail/yarilo",
+    "body": "After the release. Today there is no way for a researcher to report a vulnerability in yarilo privately: no `SECURITY.md`, no private reporting on the repository, no program on any platform. Checked on 2026-10-02: YesWeHack and Intigriti have no free tier for open source; huntr closed its open-source program in June 2026; HackerOne's Community Edition is a free full subscription for OSI-licensed, non-commercial projects; GitHub private vulnerability reporting is free on public repositories.\n\n## What to do\n\n1. **`SECURITY.md` in the repository root.** Supported versions (the release line), where to report (the GitHub form below, then the HackerOne program once accepted), what to expect: first answer within one week, fix and advisory before public disclosure, no bounty promised. English, short.\n2. **GitHub private vulnerability reporting** on `yarilomail/yarilo`: Settings \u2192 Advanced Security \u2192 Private vulnerability reporting \u2192 Enable. Reports arrive as draft advisories; a CVE is requested from the advisory. Repository admin does this.\n3. **Apply for HackerOne Community Edition** (https://www.hackerone.com/company/open-source-community). Conditions, all met or one day of work: OSI licence, project older than three months with shipped releases, `SECURITY.md` in the root, a link to the HackerOne program in the navigation of doc.yarilomail.org, first response to a report within one week. The subscription is free; a 5% processing fee applies only to bounties actually paid, and paying is optional.\n4. **Public docs**: a \"Security\" page on doc.yarilomail.org (repository `yarilomail/documentation`) with the same content as `SECURITY.md` and the program link in the site navigation, since HackerOne requires the link there.\n5. **Decide on bounties later**: start with no bounty table; revisit after the first real reports.\n\n## Not in scope\n\nA paid platform (YesWeHack, Intigriti, Bugcrowd managed tiers): no public pricing, sales-led, nothing that the free options above do not give at this stage.\n\n## Done when\n\n`SECURITY.md` is on `main`, the GitHub reporting form is live on the repository, the HackerOne program is accepted and linked from the docs site, and a test report through each of the two channels reached the maintainers.\n",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-03T11:28:39.956132+00:00"
+  },
+  {
+    "id": "sec-AudioBitsStellar/AudioBlock_Backend-510",
+    "domain": "security",
+    "title": "Write a bug bounty program setup document",
+    "url": "https://github.com/AudioBitsStellar/AudioBlock_Backend/issues/510",
+    "platform": "github_security",
+    "repo_owner": "AudioBitsStellar",
+    "repo_name": "AudioBlock_Backend",
+    "issue_number": 510,
+    "org_handle": "AudioBitsStellar",
+    "org_name": "AudioBitsStellar/AudioBlock_Backend",
+    "body": "## Problem / Context\nThere is a docs/SECURITY_POLICY.md but no defined bug bounty scope/rewards for external security researchers.\n\n## Proposed approach\nDraft a proposal document covering in-scope assets, reward tiers, and submission process for maintainer review.\n\n## Acceptance criteria\n- [ ] Document covers scope, rewards, and process\n- [ ] Reviewed by a maintainer before any public announcement",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 5,
+    "last_audited": "2026-10-03T11:28:40.242143+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -755,7 +759,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-03T04:53:16.118435+00:00"
+    "last_audited": "2026-10-03T11:28:40.509090+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -780,7 +784,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-10-03T04:53:16.443063+00:00"
+    "last_audited": "2026-10-03T11:28:40.807768+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -805,7 +809,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-03T04:53:16.778915+00:00"
+    "last_audited": "2026-10-03T11:28:41.053894+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-306",
@@ -830,7 +834,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-03T04:53:17.104420+00:00"
+    "last_audited": "2026-10-03T11:28:41.299369+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1124",
@@ -855,22 +859,22 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-03T04:53:17.452033+00:00"
+    "last_audited": "2026-10-03T11:28:41.567291+00:00"
   },
   {
-    "id": "sec-relayhop/ClaudeEarnSelf-runtime-988",
+    "id": "sec-relayhop/sn-monetization-runtime-1115",
     "domain": "security",
-    "title": "[demand] high-priority 2026-09-15T23:08",
-    "url": "https://github.com/relayhop/ClaudeEarnSelf-runtime/issues/988",
+    "title": "[radar] SN open bounty 2026-09-14T13:54",
+    "url": "https://github.com/relayhop/sn-monetization-runtime/issues/1115",
     "platform": "github_security",
     "repo_owner": "relayhop",
-    "repo_name": "ClaudeEarnSelf-runtime",
-    "issue_number": 988,
+    "repo_name": "sn-monetization-runtime",
+    "issue_number": 1115,
     "org_handle": "relayhop",
-    "org_name": "relayhop/ClaudeEarnSelf-runtime",
-    "body": "Demand-side radar \u9ad8\u512a\u5148\u8a0a\u865f:\n\n```\n6\tsn/bitcoin\t1.1\t-\tOPEN_NEED,LOW_COMP\thttps://stacker.news/items/1573009\tWhat would you want your signing device  manufacturer to do if there's vulns?\n5\tgithub\t0.2\t$100\tOPEN_ISSUE,LOW_COMP\thttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1559\t[Bounty] $100 BOUNTY FOR IMPLEMENTING A FOREVER IF BLOCK INTO OMNIBLOCKS\n5\tgithub\t0.2\t$500\tOPEN_ISSUE,LOW_COMP\thttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1558\t[Bounty] Reverse bounty\n```",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
+    "org_name": "relayhop/sn-monetization-runtime",
+    "body": "New SN OPEN_BOUNTY detected:\n\n```\n1570125\tStacker_Stocks\t2\t286\t10000\t17\t27.5\t9274\t27409\trecent@Stacker_Stocks\tOPEN_BOUNTY,SELF_POST_OPP\tDaily Stock Discussion Sunday\u2019s Weekly Close Contest \ud83d\udfe5 or \ud83d\udfe9? 30k sat award!\n```",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
     "tech": [
       "security",
       "sast",
@@ -879,8 +883,8 @@
     "status": "active",
     "solvability_score": 85.0,
     "live_status": "open",
-    "comments_count": 1,
-    "last_audited": "2026-10-03T04:53:17.776374+00:00"
+    "comments_count": 5,
+    "last_audited": "2026-10-03T11:28:41.838529+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -905,7 +909,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-03T04:53:18.126424+00:00"
+    "last_audited": "2026-10-03T11:28:42.151105+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -930,7 +934,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-03T04:53:18.485568+00:00"
+    "last_audited": "2026-10-03T11:28:42.402917+00:00"
   },
   {
     "id": "sec-abdulsalam-create/bounty-watch-27",
@@ -955,7 +959,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T04:53:18.816759+00:00"
+    "last_audited": "2026-10-03T11:28:42.654288+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -980,7 +984,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-03T04:53:19.145747+00:00"
+    "last_audited": "2026-10-03T11:28:42.923212+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -1005,7 +1009,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-03T04:53:19.576937+00:00"
+    "last_audited": "2026-10-03T11:28:43.179723+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -1030,7 +1034,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-03T04:53:19.943035+00:00"
+    "last_audited": "2026-10-03T11:28:43.447745+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1055,7 +1059,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-03T04:53:20.297618+00:00"
+    "last_audited": "2026-10-03T11:28:43.720776+00:00"
   },
   {
     "id": "sec-vansh-09/BountyScout-448",
@@ -1080,7 +1084,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-03T04:53:20.645964+00:00"
+    "last_audited": "2026-10-03T11:28:43.976876+00:00"
   },
   {
     "id": "gh-piotrwitek/typesafe-actions-139",
@@ -1105,7 +1109,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-03T04:53:20.988933+00:00"
+    "last_audited": "2026-10-03T11:28:44.242888+00:00"
   },
   {
     "id": "web3-owocki-bot/ai-bounty-board-42",
@@ -1131,7 +1135,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T04:53:21.324851+00:00"
+    "last_audited": "2026-10-03T11:28:44.488751+00:00"
   },
   {
     "id": "web3-daydreamsai/agent-bounties-61",
@@ -1157,7 +1161,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-03T04:53:21.689457+00:00"
+    "last_audited": "2026-10-03T11:28:44.764477+00:00"
   },
   {
     "id": "web3-xlabtg/wallet-contract-1",
@@ -1183,7 +1187,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-03T04:53:22.015776+00:00"
+    "last_audited": "2026-10-03T11:28:45.037436+00:00"
   },
   {
     "id": "web3-ResearchHub/issues-716",
@@ -1209,7 +1213,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-03T04:53:22.347294+00:00"
+    "last_audited": "2026-10-03T11:28:45.315429+00:00"
   },
   {
     "id": "gh-osmesirius-ship-it/DAX_DA13-DA13x2-13",
@@ -1233,7 +1237,26 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T04:53:22.652421+00:00"
+    "last_audited": "2026-10-03T11:28:45.548473+00:00"
+  },
+  {
+    "id": "gh-NightVibes33/Filza-27-55",
+    "title": "can we access appdata on ths filza in ios 27.0?",
+    "url": "https://github.com/NightVibes33/Filza-27/issues/55",
+    "platform": "opire",
+    "repo_owner": "NightVibes33",
+    "repo_name": "Filza-27",
+    "issue_number": 55,
+    "org_handle": "NightVibes33",
+    "org_name": "NightVibes33/Filza-27",
+    "body": "hi thanks for this project can we access app data on this filza version my ios version is ios 27.0 \n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #55</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @AKIFKHAN5</code> (replace <code>20</code> with the amount, and <code>@AKIFKHAN5</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 60.0
   },
   {
     "id": "gh-strias-ai/mcp-embodied-actuator-madrid-1",
