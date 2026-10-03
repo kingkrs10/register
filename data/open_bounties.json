@@ -22,7 +22,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T16:04:37.405028+00:00"
+    "last_audited": "2026-10-03T20:54:57.899500+00:00"
   },
   {
     "id": "gh-Ricky1800/ledgerlite-6",
@@ -46,7 +46,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T16:04:37.732057+00:00"
+    "last_audited": "2026-10-03T20:54:58.151039+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-7",
@@ -71,7 +71,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-03T16:04:38.071585+00:00"
+    "last_audited": "2026-10-03T20:54:58.381475+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-6",
@@ -96,7 +96,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T16:04:38.409895+00:00"
+    "last_audited": "2026-10-03T20:54:58.625364+00:00"
   },
   {
     "id": "gh-Ricky1800/ledgerlite-5",
@@ -120,7 +120,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T16:04:38.736780+00:00"
+    "last_audited": "2026-10-03T20:54:58.846372+00:00"
   },
   {
     "id": "gh-probe-rs/webpage-303",
@@ -142,7 +142,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T16:04:39.074431+00:00"
+    "last_audited": "2026-10-03T20:54:59.080394+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-84",
@@ -166,7 +166,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T16:04:39.450206+00:00"
+    "last_audited": "2026-10-03T20:54:59.333135+00:00"
   },
   {
     "id": "web3-Chain-Love/chain-love-4057",
@@ -192,7 +192,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-03T16:04:39.784229+00:00"
+    "last_audited": "2026-10-03T20:54:59.606365+00:00"
   },
   {
     "id": "web3-anthropics/claude-code-96705",
@@ -222,7 +222,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T16:04:40.169458+00:00"
+    "last_audited": "2026-10-03T20:54:59.943175+00:00"
   },
   {
     "id": "web3-verdikta/verdikta-applications-47",
@@ -248,7 +248,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-03T16:04:40.540376+00:00"
+    "last_audited": "2026-10-03T20:55:00.191893+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -274,7 +274,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-03T16:04:40.878620+00:00"
+    "last_audited": "2026-10-03T20:55:00.445111+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -299,7 +299,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-10-03T16:04:41.219627+00:00"
+    "last_audited": "2026-10-03T20:55:00.691909+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -386,31 +386,6 @@
     "solvability_score": 90.0
   },
   {
-    "id": "sec-Ledger-Lenz/Ledgerlens-contract-1182",
-    "domain": "security",
-    "title": "Coordinated disclosure policy, SECURITY.md and bug bounty scope",
-    "url": "https://github.com/Ledger-Lenz/Ledgerlens-contract/issues/1182",
-    "platform": "github_security",
-    "repo_owner": "Ledger-Lenz",
-    "repo_name": "Ledgerlens-contract",
-    "issue_number": 1182,
-    "org_handle": "Ledger-Lenz",
-    "org_name": "Ledger-Lenz/Ledgerlens-contract",
-    "body": "> **Difficulty:** Advanced  |  **Areas:** security, documentation, mainnet-readiness\r\n\r\n## Context\r\n\r\nA protocol securing financial decisions needs a clear, findable way for researchers to report vulnerabilities and know what is in scope. Define the policy and the machinery that supports it.\r\n\r\n## Requirements\r\n\r\n- Write `SECURITY.md` with reporting channels, PGP or secure-form guidance, response time targets, safe-harbor language and disclosure timelines.\r\n- Define a severity rubric mapped to contract-specific impact (fund loss for integrators, false-safe scores, governance takeover, denial of service) and reward tiers.\r\n- Define scope: contracts, tools, scripts, deployed addresses; and explicit out-of-scope items.\r\n- Add an internal triage process with owners and a private advisory workflow, including how fixes are prepared and released without early leakage.\r\n\r\n## Acceptance criteria\r\n\r\n- [ ] SECURITY.md merged and linked from the README and issue template chooser.\r\n- [ ] The rubric is consistent with the incident severity classification document.\r\n- [ ] Private vulnerability reporting is enabled and a dry-run of the workflow is recorded.\r\n\r\n## Where to start\r\n\r\nSee `docs/incident-severity-classification.md` and `docs/security/`.\r\n\r\n## Working on this issue\r\n\r\nComment to claim it before starting. For design-heavy items, post a short design note (approach, storage/ABI impact, test plan) on this issue for maintainer feedback before opening a large PR. Keep the PR focused on this issue, and reference it with `Closes #<number>`. Any change to the public ABI, storage layout, events or error enum must follow the repository's compatibility policies and update the relevant docs and generated artifacts.",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 4,
-    "last_audited": "2026-10-03T16:04:41.563343+00:00"
-  },
-  {
     "id": "sec-StellarTickets/blockchain-42",
     "domain": "security",
     "title": "Add public bug bounty guidelines",
@@ -433,7 +408,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T16:04:41.923985+00:00"
+    "last_audited": "2026-10-03T20:55:00.933995+00:00"
   },
   {
     "id": "sec-ethereum/go-ethereum-35852",
@@ -458,7 +433,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T16:04:42.270583+00:00"
+    "last_audited": "2026-10-03T20:55:01.204746+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -483,7 +458,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-03T16:04:42.581332+00:00"
+    "last_audited": "2026-10-03T20:55:01.452181+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -508,7 +483,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T16:04:42.976339+00:00"
+    "last_audited": "2026-10-03T20:55:01.732783+00:00"
   },
   {
     "id": "sec-dadadave80/lattice-241",
@@ -533,7 +508,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T16:04:43.309656+00:00"
+    "last_audited": "2026-10-03T20:55:01.985719+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -558,7 +533,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-03T16:04:43.670021+00:00"
+    "last_audited": "2026-10-03T20:55:02.253023+00:00"
   },
   {
     "id": "sec-freedom-winds/BountyScout-1124",
@@ -583,7 +558,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T16:04:43.996386+00:00"
+    "last_audited": "2026-10-03T20:55:02.474959+00:00"
+  },
+  {
+    "id": "sec-pancakeswap/pancake-v3-contracts-32",
+    "domain": "security",
+    "title": "Bug Bounty",
+    "url": "https://github.com/pancakeswap/pancake-v3-contracts/issues/32",
+    "platform": "github_security",
+    "repo_owner": "pancakeswap",
+    "repo_name": "pancake-v3-contracts",
+    "issue_number": 32,
+    "org_handle": "pancakeswap",
+    "org_name": "pancakeswap/pancake-v3-contracts",
+    "body": "Hi,\n\nI believe I have identified a potentially high-severity vulnerability affecting `MasterChefV3` and related PancakeSwap V3 components. I have a fully reproducible PoC and integration tests demonstrating the issue on unmodified production code.\n\nI attempted to report this through the official channels, but I was unable to reach the appropriate security contact, and I currently cannot use Immunefi due to its KYC requirements.\n\nCould you please provide an official private reporting channel (security email, PGP key, or another secure contact method) so I can disclose the details responsibly?\n\nAs this concerns a potential security issue, I would appreciate it if this issue could be closed or removed to avoid unnecessary public exposure.\n",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 9,
+    "last_audited": "2026-10-03T20:55:02.705540+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -608,7 +608,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-03T16:04:44.338691+00:00"
+    "last_audited": "2026-10-03T20:55:03.038587+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -633,7 +633,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-03T16:04:44.677725+00:00"
+    "last_audited": "2026-10-03T20:55:03.298592+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -658,7 +658,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-03T16:04:44.990792+00:00"
+    "last_audited": "2026-10-03T20:55:03.574236+00:00"
   },
   {
     "id": "sec-yarilomail/yarilo-2105",
@@ -683,7 +683,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T16:04:45.326210+00:00"
+    "last_audited": "2026-10-03T20:55:03.794383+00:00"
   },
   {
     "id": "sec-AudioBitsStellar/AudioBlock_Backend-510",
@@ -708,7 +708,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-03T16:04:45.677613+00:00"
+    "last_audited": "2026-10-03T20:55:04.054942+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -732,8 +732,8 @@
     "status": "active",
     "solvability_score": 85.0,
     "live_status": "open",
-    "comments_count": 1,
-    "last_audited": "2026-10-03T16:04:45.987416+00:00"
+    "comments_count": 2,
+    "last_audited": "2026-10-03T20:55:04.272327+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -758,7 +758,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-10-03T16:04:46.335016+00:00"
+    "last_audited": "2026-10-03T20:55:04.524997+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -783,7 +783,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-03T16:04:46.668185+00:00"
+    "last_audited": "2026-10-03T20:55:04.743743+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-306",
@@ -808,7 +808,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-03T16:04:47.005562+00:00"
+    "last_audited": "2026-10-03T20:55:04.970610+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1124",
@@ -833,32 +833,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-03T16:04:47.350335+00:00"
-  },
-  {
-    "id": "sec-relayhop/sn-monetization-runtime-1115",
-    "domain": "security",
-    "title": "[radar] SN open bounty 2026-09-14T13:54",
-    "url": "https://github.com/relayhop/sn-monetization-runtime/issues/1115",
-    "platform": "github_security",
-    "repo_owner": "relayhop",
-    "repo_name": "sn-monetization-runtime",
-    "issue_number": 1115,
-    "org_handle": "relayhop",
-    "org_name": "relayhop/sn-monetization-runtime",
-    "body": "New SN OPEN_BOUNTY detected:\n\n```\n1570125\tStacker_Stocks\t2\t286\t10000\t17\t27.5\t9274\t27409\trecent@Stacker_Stocks\tOPEN_BOUNTY,SELF_POST_OPP\tDaily Stock Discussion Sunday\u2019s Weekly Close Contest \ud83d\udfe5 or \ud83d\udfe9? 30k sat award!\n```",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 5,
-    "last_audited": "2026-10-03T16:04:47.686537+00:00"
+    "last_audited": "2026-10-03T20:55:05.203099+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -883,7 +858,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-03T16:04:48.020743+00:00"
+    "last_audited": "2026-10-03T20:55:05.448910+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -908,7 +883,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-03T16:04:48.386829+00:00"
+    "last_audited": "2026-10-03T20:55:05.652403+00:00"
   },
   {
     "id": "sec-abdulsalam-create/bounty-watch-27",
@@ -933,7 +908,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T16:04:48.727573+00:00"
+    "last_audited": "2026-10-03T20:55:05.917067+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -958,7 +933,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-03T16:04:49.127526+00:00"
+    "last_audited": "2026-10-03T20:55:06.138717+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -983,7 +958,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-03T16:04:49.451104+00:00"
+    "last_audited": "2026-10-03T20:55:06.388155+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -1008,7 +983,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-03T16:04:49.813208+00:00"
+    "last_audited": "2026-10-03T20:55:06.613391+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1033,7 +1008,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-03T16:04:51.164971+00:00"
+    "last_audited": "2026-10-03T20:55:06.887819+00:00"
   },
   {
     "id": "sec-vansh-09/BountyScout-448",
@@ -1058,7 +1033,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-03T16:04:51.498273+00:00"
+    "last_audited": "2026-10-03T20:55:07.116024+00:00"
   },
   {
     "id": "gh-piotrwitek/typesafe-actions-139",
@@ -1083,7 +1058,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-03T16:04:51.830578+00:00"
+    "last_audited": "2026-10-03T20:55:07.325758+00:00"
   },
   {
     "id": "web3-owocki-bot/ai-bounty-board-42",
@@ -1109,7 +1084,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T16:04:52.210301+00:00"
+    "last_audited": "2026-10-03T20:55:07.600947+00:00"
   },
   {
     "id": "web3-daydreamsai/agent-bounties-61",
@@ -1135,7 +1110,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-03T16:04:52.540683+00:00"
+    "last_audited": "2026-10-03T20:55:07.893114+00:00"
   },
   {
     "id": "web3-xlabtg/wallet-contract-1",
@@ -1161,7 +1136,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-03T16:04:52.926988+00:00"
+    "last_audited": "2026-10-03T20:55:08.121229+00:00"
   },
   {
     "id": "web3-ResearchHub/issues-716",
@@ -1187,7 +1162,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-03T16:04:53.244485+00:00"
+    "last_audited": "2026-10-03T20:55:08.368510+00:00"
   },
   {
     "id": "gh-osmesirius-ship-it/DAX_DA13-DA13x2-13",
@@ -1211,7 +1186,7 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T16:04:53.557156+00:00"
+    "last_audited": "2026-10-03T20:55:08.583243+00:00"
   },
   {
     "id": "gh-NightVibes33/Filza-27-55",
@@ -1233,7 +1208,7 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T16:04:53.915239+00:00"
+    "last_audited": "2026-10-03T20:55:08.795472+00:00"
   },
   {
     "id": "gh-strias-ai/mcp-embodied-actuator-madrid-1",
@@ -1252,7 +1227,10 @@
     "status": "active",
     "domain": "code",
     "competitor_prs": 0,
-    "solvability_score": 60.0
+    "solvability_score": 60.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-03T20:55:09.004813+00:00"
   },
   {
     "id": "gh-jaykode2025/stargazers-log-1",
@@ -1403,7 +1381,7 @@
     ],
     "status": "active",
     "domain": "code",
-    "competitor_prs": 0,
+    "competitor_prs": 1,
     "solvability_score": 50.0
   },
   {
@@ -1638,20 +1616,19 @@
     "solvability_score": 40.0
   },
   {
-    "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1295",
-    "title": "[Bounty] [Bounty] Seed a paid MCP child bounty",
-    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1295",
+    "id": "gh-zhangjiayang6835-cyber/bounty-plaza-283",
+    "title": "[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [bounty][funding-pending]:",
+    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/283",
     "platform": "bounty",
     "repo_owner": "zhangjiayang6835-cyber",
     "repo_name": "bounty-plaza",
-    "issue_number": 1295,
+    "issue_number": 283,
     "org_handle": "zhangjiayang6835-cyber",
     "org_name": "zhangjiayang6835-cyber/bounty-plaza",
-    "body": "### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/NSPG13/agent-bounties/issues/1364\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] Seed a paid MCP child bounty\n\n<!-- agent-bounties/github-discovery-v1:start -->\n<!-- agent-bounties/github-discovery-v1 {\"discovery_id\":\"eip155:8453:agent-bounties/autonomous-v1:0x43d42cb227d76588ab16693f14efd6cff851fa7a\"} -->\n## Canonical bounty discovery\n\nCreate and fully fund a concrete MCP coding bounty that a different registered participant completes and receives canonical settlement for.\n\n- **Current work state:** `unavailable`\n- **Current payment state:** `escrowed`\n- **Current competition state:** `exclusive_claim`\n- **Solver reward:** 0.90 USDC\n- **Entry/claim bond:** 0.10 USDC\n- **Funding:** 1.00 / 1.00 USDC\n- **Verifier:** deterministic_module (`deterministic_module`; ready: `false`)\n- **Funding Deadline:** `2026-10-11T00:00:00+00:00`\n\n### Next action\n\n**[Inspect canonical state](https://api.agentbounties.app/v1/base/autonomous-bounties/events?network=base-mainnet&bounty_id=0x12ad2fa99de272728311a3eb07c3c741048382260cb91ba1e8f001ed3b5759d0&utm_source=github&utm_medium=issue&utm_campaign=bounty-discovery-v1&discovery_id=eip155%3A8453%3Aagent-bounties%2Fautonomous-v1%3A0x43d42cb227d76588ab16693f14efd6cff851fa7a)** \u2014 Inspect confirmed canonical events. GitHub state is not settlement evidence.\n\n[Open the public bounty page](https://agentbounties.app/earn.html?bountyContract=0x43d42cb227d76588ab16693f14efd6cff851fa7a&network=base-mainnet&utm_source=github&utm_medium=issue&utm_campaign=bounty-discovery-v1&discovery_id=eip155%3A8453%3Aagent-bounties%2Fautonomous-v1%3A0x43d42cb227d76588ab16693f14efd6cff851fa7a)\n[Original source](https://github.com/NSPG13/agent-bounties/issues/335)\n\n> GitHub mirrors canonical public state and cannot fund, claim, verify, settle, or prove payment. Only a confirmed canonical `BountySettled` receipt below proves solver payment.\n<!-- agent-bounties/github-discovery-v1:end -->\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n112 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$90\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n",
+    "body": "### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/282\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [bounty][funding-pending]: complete\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/222\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [bounty][funding-pending]: complete the firs\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/215\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [bounty][funding-pending]: complete the first permiss\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/116\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [bounty][funding-pending]: complete the first permissionless a\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/88\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [bounty][funding-pending]: complete the first permissionless autonomous\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/13\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [bounty][funding-pending]: complete the first permissionless autonomous mainnet \n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/NSPG13/agent-bounties/issues/187\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[bounty][funding-pending]: complete the first permissionless autonomous mainnet payout loop\n\n### Goal\nComplete the first permissionless autonomous-v1 mainnet loop using a deterministic leading-zero work proof: claim, submit, verify, settle, receive USDC, and publish the canonical payout evidence without maintainer intervention.\n\n### Acceptance criteria\n- The solver wallet is independent from the bounty creator and makes the first confirmed canonical claim.\n- The solver posts the 0.10 USDC claim bond and submits nonzero submission and evidence hashes before the claim deadline.\n- The solver uses `cargo run -p cli -- autonomous-mine-work-proof` (or an exactly compatible implementation) to find a 16-leading-zero-bit\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n112 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$90\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n",
     "reward_usd": 112.0,
     "reward_formatted": "$112",
     "tech": [
-      "bounty",
       "real"
     ],
     "status": "active",
