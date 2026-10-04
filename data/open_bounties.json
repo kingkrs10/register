@@ -1,5 +1,29 @@
 [
   {
+    "id": "gh-Ricky1800/ledgerlite-6",
+    "title": "Shell completions",
+    "url": "https://github.com/Ricky1800/ledgerlite/issues/6",
+    "platform": "opire",
+    "repo_owner": "Ricky1800",
+    "repo_name": "ledgerlite",
+    "issue_number": 6,
+    "org_handle": "Ricky1800",
+    "org_name": "Ricky1800/ledgerlite",
+    "body": "**Body:**\n\nGenerate shell completions using `clap_complete` for bash/zsh/fish/\nPowerShell.\n\n**Acceptance criteria:**\n\n- New `ledgerlite completions <shell>` subcommand (hidden from `--help`\n  is fine) that prints the completion script to stdout.\n- `clap_complete` added as a normal dependency (it's tiny and\n  clap-maintained, consistent with \"keep deps lean\").\n- README install section gets a one-line snippet per shell for wiring\n  it up.\n- Smoke-test in `tests/cli.rs` that each shell variant runs without\n  erroring.\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #6</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @Ricky1800</code> (replace <code>20</code> with the amount, and <code>@Ricky1800</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "good first issue"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-04T22:58:15.185923+00:00"
+  },
+  {
     "id": "gh-Ricky1800/localbiz-site-5",
     "title": "`next/image`-optimized photo gallery section",
     "url": "https://github.com/Ricky1800/localbiz-site/issues/5",
@@ -22,31 +46,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T19:25:35.091142+00:00"
-  },
-  {
-    "id": "gh-Ricky1800/ledgerlite-6",
-    "title": "Shell completions",
-    "url": "https://github.com/Ricky1800/ledgerlite/issues/6",
-    "platform": "opire",
-    "repo_owner": "Ricky1800",
-    "repo_name": "ledgerlite",
-    "issue_number": 6,
-    "org_handle": "Ricky1800",
-    "org_name": "Ricky1800/ledgerlite",
-    "body": "**Body:**\n\nGenerate shell completions using `clap_complete` for bash/zsh/fish/\nPowerShell.\n\n**Acceptance criteria:**\n\n- New `ledgerlite completions <shell>` subcommand (hidden from `--help`\n  is fine) that prints the completion script to stdout.\n- `clap_complete` added as a normal dependency (it's tiny and\n  clap-maintained, consistent with \"keep deps lean\").\n- README install section gets a one-line snippet per shell for wiring\n  it up.\n- Smoke-test in `tests/cli.rs` that each shell variant runs without\n  erroring.\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #6</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @Ricky1800</code> (replace <code>20</code> with the amount, and <code>@Ricky1800</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "good first issue"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-04T19:25:35.359295+00:00"
+    "last_audited": "2026-10-04T22:58:15.438727+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-7",
@@ -71,7 +71,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-04T19:25:35.603440+00:00"
+    "last_audited": "2026-10-04T22:58:15.672292+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-6",
@@ -96,7 +96,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T19:25:35.849944+00:00"
+    "last_audited": "2026-10-04T22:58:15.920350+00:00"
   },
   {
     "id": "gh-Ricky1800/ledgerlite-5",
@@ -120,7 +120,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T19:25:36.082203+00:00"
+    "last_audited": "2026-10-04T22:58:16.140147+00:00"
   },
   {
     "id": "gh-probe-rs/webpage-303",
@@ -142,7 +142,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T19:25:36.338862+00:00"
+    "last_audited": "2026-10-04T22:58:16.405237+00:00"
   },
   {
     "id": "web3-Chain-Love/chain-love-4057",
@@ -168,7 +168,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-04T19:25:36.609540+00:00"
+    "last_audited": "2026-10-04T22:58:16.641089+00:00"
   },
   {
     "id": "web3-muhammalif/evm-signature-verifier-1",
@@ -194,7 +194,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-04T19:25:36.832406+00:00"
+    "last_audited": "2026-10-04T22:58:16.886170+00:00"
   },
   {
     "id": "web3-verdikta/verdikta-applications-47",
@@ -220,7 +220,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-04T19:25:37.138897+00:00"
+    "last_audited": "2026-10-04T22:58:17.149294+00:00"
   },
   {
     "id": "web3-anthropics/claude-code-96705",
@@ -250,7 +250,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T19:25:37.422092+00:00"
+    "last_audited": "2026-10-04T22:58:17.430460+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -276,7 +276,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-04T19:25:37.700699+00:00"
+    "last_audited": "2026-10-04T22:58:17.670967+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -301,7 +301,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-10-04T19:25:37.977016+00:00"
+    "last_audited": "2026-10-04T22:58:17.923806+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -410,7 +410,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T19:25:38.251693+00:00"
+    "last_audited": "2026-10-04T22:58:18.174947+00:00"
   },
   {
     "id": "sec-ethereum/go-ethereum-35852",
@@ -435,7 +435,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T19:25:38.497103+00:00"
+    "last_audited": "2026-10-04T22:58:18.401670+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -460,7 +460,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-04T19:25:38.769303+00:00"
+    "last_audited": "2026-10-04T22:58:18.617786+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -485,7 +485,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T19:25:39.040006+00:00"
+    "last_audited": "2026-10-04T22:58:18.905789+00:00"
   },
   {
     "id": "sec-dadadave80/lattice-241",
@@ -510,7 +510,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T19:25:39.285378+00:00"
+    "last_audited": "2026-10-04T22:58:19.214920+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -535,7 +535,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-04T19:25:39.588216+00:00"
+    "last_audited": "2026-10-04T22:58:19.465957+00:00"
   },
   {
     "id": "sec-pancakeswap/pancake-v3-contracts-32",
@@ -560,7 +560,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 9,
-    "last_audited": "2026-10-04T19:25:39.902217+00:00"
+    "last_audited": "2026-10-04T22:58:19.707515+00:00"
   },
   {
     "id": "sec-freedom-winds/BountyScout-1124",
@@ -585,7 +585,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T19:25:40.151305+00:00"
+    "last_audited": "2026-10-04T22:58:19.958155+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -610,7 +610,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-04T19:25:40.435825+00:00"
+    "last_audited": "2026-10-04T22:58:20.197292+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -635,7 +635,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-04T19:25:40.672307+00:00"
+    "last_audited": "2026-10-04T22:58:20.427360+00:00"
   },
   {
     "id": "sec-yarilomail/yarilo-2105",
@@ -660,7 +660,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-04T19:25:40.938755+00:00"
+    "last_audited": "2026-10-04T22:58:20.666992+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -685,7 +685,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-04T19:25:41.197958+00:00"
+    "last_audited": "2026-10-04T22:58:20.910026+00:00"
   },
   {
     "id": "sec-AudioBitsStellar/AudioBlock_Backend-510",
@@ -710,7 +710,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-04T19:25:41.447198+00:00"
+    "last_audited": "2026-10-04T22:58:21.144443+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -735,7 +735,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-04T19:25:41.691067+00:00"
+    "last_audited": "2026-10-04T22:58:21.332755+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-279",
@@ -760,7 +760,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-04T19:25:41.922395+00:00"
+    "last_audited": "2026-10-04T22:58:21.537401+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -785,7 +785,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-10-04T19:25:42.166704+00:00"
+    "last_audited": "2026-10-04T22:58:21.765418+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -810,7 +810,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-04T19:25:42.434102+00:00"
+    "last_audited": "2026-10-04T22:58:21.995582+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-306",
@@ -835,7 +835,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-04T19:25:42.698297+00:00"
+    "last_audited": "2026-10-04T22:58:22.210390+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -860,7 +860,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-04T19:25:42.982855+00:00"
+    "last_audited": "2026-10-04T22:58:22.455147+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -885,7 +885,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-04T19:25:43.223712+00:00"
+    "last_audited": "2026-10-04T22:58:22.662784+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -910,7 +910,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-04T19:25:43.450659+00:00"
+    "last_audited": "2026-10-04T22:58:22.884468+00:00"
   },
   {
     "id": "sec-abdulsalam-create/bounty-watch-27",
@@ -935,7 +935,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T19:25:43.730207+00:00"
+    "last_audited": "2026-10-04T22:58:23.113645+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -960,7 +960,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-04T19:25:43.989866+00:00"
+    "last_audited": "2026-10-04T22:58:23.355676+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -985,7 +985,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-04T19:25:44.261050+00:00"
+    "last_audited": "2026-10-04T22:58:23.584395+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1010,7 +1010,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-04T19:25:44.522968+00:00"
+    "last_audited": "2026-10-04T22:58:23.817738+00:00"
   },
   {
     "id": "gh-piotrwitek/typesafe-actions-139",
@@ -1035,7 +1035,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-04T19:25:44.801837+00:00"
+    "last_audited": "2026-10-04T22:58:24.028986+00:00"
   },
   {
     "id": "web3-owocki-bot/ai-bounty-board-42",
@@ -1061,7 +1061,33 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T19:25:45.062267+00:00"
+    "last_audited": "2026-10-04T22:58:24.245425+00:00"
+  },
+  {
+    "id": "web3-RonTuretzky/issue.fund-8",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "Improve contract reuse and run Pashov-guided security review",
+    "url": "https://github.com/RonTuretzky/issue.fund/issues/8",
+    "platform": "web3_github",
+    "repo_owner": "RonTuretzky",
+    "repo_name": "issue.fund",
+    "issue_number": 8,
+    "org_handle": "RonTuretzky",
+    "org_name": "RonTuretzky/issue.fund",
+    "body": "## Requested work\nContinue smart-contract improvements in an isolated cloud checkout. Compare the active production source and existing OpenZeppelin RSA review branch; do not audit the archived ZK branch as production.\n\n- Inventory custom modules and check reusable audited-library references, exact versions, licensing and semantic compatibility\n- Make scoped local improvements and run available contract/regression checks\n- Apply the official Pashov Audit Group Solidity auditor skill and clearly state any coverage/runtime limitations\n- Prepare a private HTML slideshow with changes, findings, tests and unresolved risks\n\n## Boundaries\nAI-assisted security review is not an independent professional audit. No merging, deployment, live transactions, bounty funding or external outreach.\n\nStatus: in progress. Ron's review and the open-source bounty-repository handoff are tracked separately.",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "solidity",
+      "python"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 65.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-04T22:58:24.446748+00:00"
   },
   {
     "id": "web3-daydreamsai/agent-bounties-61",
@@ -1087,33 +1113,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-04T19:25:45.315397+00:00"
-  },
-  {
-    "id": "web3-xlabtg/wallet-contract-1",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "\ud83d\udd12 Smart Contract Security Audit Request",
-    "url": "https://github.com/xlabtg/wallet-contract/issues/1",
-    "platform": "web3_github",
-    "repo_owner": "xlabtg",
-    "repo_name": "wallet-contract",
-    "issue_number": 1,
-    "org_handle": "xlabtg",
-    "org_name": "xlabtg/wallet-contract",
-    "body": "## Objective\nConduct a comprehensive security audit of these TON smart contracts to identify vulnerabilities within the scope of the [TON Bug Bounty Program](https://github.com/ton-blockchain/bug-bounty).\n\nBe sure to read this before completing the assignment https://github.com/ton-blockchain/bug-bounty/blob/main/skills/bug-bounty-self-check.md\n\n## Scope (In-Scope Vulnerabilities)\n\n### Critical & High Severity\n- **Fund Theft**: Any vulnerability allowing unauthorized transfer of funds\n- **Signature Bypass**: Bypassing signature verification\n- **Replay Attacks**: Replaying transactions without proper protection\n- **Sequence Number Bypass**: Bypassing seqno checks\n- **Integer Overflow/Underflow**: Arithmetic errors leading to fund loss\n- **Logic Errors**: Flaws in contract logic allowing unauthorized actions\n- **Gas Manipulation**: Forcing contract to run out of gas at critical moments\n- **Message Spoofing**: Forging messages from trusted sources\n\n### Medium Severity\n- **Denial of Service**: Making contract permanently unusable\n- **Information Leakage**: Exposing sensitive information via contract state\n- **Upgrade Vulnerabilities**: Flaws in upgrade mechanisms\n- **Access Control Issues**: Improper permission checks\n\n### Low Severity\n- **Gas Inefficiency**: Suboptimal gas usage (only if it creates attack vectors)\n- **Code Quality Issues**: Only if they have security implications\n\n## Out of Scope\n- UI/UX issues\n- Missing features without security impact\n- Gas optimization without security impact\n- Known TON blockchain limitations\n\n## Smart Contract Attack Vectors to Check\n\n### 1. Message Handling\n- [ ] Verify all incoming messages are properly validated\n- [ ] Check `op` (operation code) handling\n- [ ] Verify sender authentication\n- [ ] Check for message replay protection (seqno, valid_until)\n- [ ] Verify proper handling of bounced messages\n\n### 2. Signature Verification\n- [ ] Verify signature is checked for all privileged operations\n- [ ] Check for signature malleability issues\n- [ ] Verify public key is properly stored and used\n- [ ] Check for missing signature checks\n\n### 3. State Management\n- [ ] Verify state is properly initialized\n- [ ] Check for race conditions in state updates\n- [ ] Verify state consistency after operations\n- [ ] Check for improper state exposure\n\n### 4. Fund Management\n- [ ] Verify balance checks before transfers\n- [ ] Check for integer overflow in amount calculations\n- [ ] Verify proper handling of TON vs Jetton\n- [ ] Check for dust attacks vulnerability\n\n### 5. TVM-Specific Issues\n- [ ] Check for gas consumption issues\n- [ ] Verify proper use of TVM primitives\n- [ ] Check for cell/slice handling errors\n- [ ] Verify proper exception handling\n\n### 6. Wallet-Specific (for wallet-contract)\n- [ ] Verify seqno increment logic\n- [ ] Check valid_until implementation\n- [ ] Verify multi-signature logic (if applicable)\n- [ ] Check for sub-wallet ID vulnerabilities\n\n### 7. Multisig-Specific (for multisig-contract)\n- [ ] Verify signature collection logic\n- [ ] Check for signature replay across different proposals\n- [ ] Verify quorum enforcement\n- [ ] Check for proposer authorization\n\n### 8. Token-Specific (for token-contract)\n- [ ] Verify mint/burn authorization\n- [ ] Check for balance manipulation\n- [ ] Verify transfer logic\n- [ ] Check for approval/allowance vulnerabilities\n\n### 9. DNS-Specific (for dns-contract)\n- [ ] Verify domain ownership checks\n- [ ] Check for DNS record manipulation\n- [ ] Verify proper resolution logic\n\n### 10. Nominator Pool-Specific (for nominator-pool)\n- [ ] Verify stake/unstake logic\n- [ ] Check for reward calculation errors\n- [ ] Verify validator authorization\n- [ ] Check for fund locking issues\n\n## Methodology\n\n### Phase 1: Code Comprehension\n1. Read entire contract code\n2. Map all functions and their purposes\n3. Identify entry points (recv_internal, recv_external)\n4. Map state variables and their purposes\n5. Understand the contract's role in TON ecosystem\n\n### Phase 2: Threat Modeling\n1. Identify trusted parties (owner, validator, etc.)\n2. Identify untrusted parties (anyone sending messages)\n3. Map trust boundaries\n4. Identify critical assets (funds, state)\n5. List potential attackers and their goals\n\n### Phase 3: Vulnerability Analysis\nFor each function:\n1. Check input validation\n2. Verify authorization checks\n3. Analyze state changes\n4. Check for integer overflow/underflow\n5. Verify proper error handling\n6. Check for gas-related issues\n\n### Phase 4: Attack Simulation\nFor each potential vulnerability:\n1. Construct attack scenario\n2. Write PoC in Fift or use TON Sandbox\n3. Verify exploit works\n4. Assess impact\n\n## Deliverables\n\nFor EACH vulnerability found, create a separate issue with:\n\n### Issue Title Format\n`[Security] <Severity>: <Brief Description> in <Contract Name>`\n\nExample: `[Security] Critical: Signature Bypass in Wallet V4 seqno check`\n\n### Issue Template\n```markdown\n## Vulnerability Details\n\n**Severity**: Critical / High / Medium / Low\n**CVSS Score**: [0.0-10.0]\n**CVSS Vector**: [CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H]\n**Vulnerability Type**: [CWE ID and Name]\n**Affected Contract**: [Contract name and file path]\n**Affected Function**: [Function name]\n**Affected Lines**: [Line numbers]\n\n## Description\n[Detailed technical description of the vulnerability]\n\n## Root Cause\n[Why this vulnerability exists - the underlying flaw]\n\n## Impact\n[What an attacker can achieve]\n- Financial impact: [How much can be stolen/lost]\n- Operational impact: [What functionality is compromised]\n\n## Proof of Concept (PoC)\n\n### Attack Scenario\n[Step-by-step description of the attack]\n\n### PoC Code (Fift/Python)\n```fift\n// Fift code demonstrating the exploit\n```\n\nOR\n\n```python\n# Python code using pytonlib or TON Sandbox\n```\n\n### Expected Behavior\n[What should happen according to contract logic]\n\n### Actual Behavior\n[What actually happens - the exploit]\n\n### Transaction Trace\n[If available, show the transaction flow]\n\n## Remediation\n\n### Root Cause Fix\n[How to fix the underlying issue]\n\n### Code Fix\n```func\n// Before (vulnerable)\n() vulnerable_function(...) inline {\n    // vulnerable code\n}\n\n// After (fixed)\n() fixed_function(...) inline {\n    // fixed code\n}\n```\n\n### Additional Recommendations\n[Any additional security improvements]\n\n## References\n- [Link to CWE]\n- [Link to similar vulnerability in other projects]\n- [Link to TON documentation]\n- [Link to TON Bug Bounty scope]\n\n## Self-Check Validation\n- [ ] Verified this is in-scope for TON Bug Bounty\n- [ ] Confirmed this is not a known/documented issue\n- [ ] PoC tested in isolated environment (TON Sandbox, NOT mainnet/testnet)\n- [ ] Impact assessment is accurate and realistic\n- [ ] Remediation is practical and doesn't break functionality\n- [ ] No false positives - vulnerability is real and exploitable\n\n## Execution Instructions\n\n1. **Read all contracts thoroughly**: Don't skip any file\n2. **Understand the ecosystem**: How do these contracts interact?\n3. **Think like an attacker**: What would YOU try to exploit?\n4. **Verify everything**: Double-check each finding\n5. **Create separate issues**: One issue per vulnerability\n6. **Prioritize by severity**: Critical first, then High, Medium, Low\n7. **Tag appropriately**: Use labels like `security`, `critical`, `smart-contract`, `wallet`, `multisig`, etc.\n8. **No false positives**: Only report what you can prove with PoC\n\n## Special Considerations\n\n### For Wallet Contracts\n- Focus on seqno, valid_until, signature verification\n- Check for replay attack vectors\n- Verify sub-wallet ID handling\n\n### For Multisig Contracts\n- Focus on signature collection and verification\n- Check for quorum enforcement\n- Verify proposal lifecycle\n\n### For Token Contracts\n- Focus on mint/burn authorization\n- Check for balance manipulation\n- Verify transfer and approval logic\n\n### For DNS Contracts\n- Focus on domain ownership verification\n- Check for record manipulation\n\n### For Nominator Pools\n- Focus on stake/unstake logic\n- Check for reward calculation\n- Verify validator interactions\n\n## Context Management\nYou have unlimited time and context. The context autocompacts, so you can continue indefinitely. Do as much as possible in one go. If something is left over, continue in the same issue until fully complete.\n\n## Repository to Audit\nhttps://github.com/xlabtg/wallet-contract\n\n**CRITICAL WARNING**: \n- Do NOT deploy or test exploits on mainnet or testnet\n- Use TON Sandbox or local test environment only\n- This is for security research purposes only\n- Follow responsible disclosure practices",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "solidity",
-      "python"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 65.0,
-    "live_status": "open",
-    "comments_count": 2,
-    "last_audited": "2026-10-04T19:25:45.567084+00:00"
+    "last_audited": "2026-10-04T22:58:24.694395+00:00"
   },
   {
     "id": "web3-ResearchHub/issues-716",
@@ -1139,7 +1139,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-04T19:25:45.875862+00:00"
+    "last_audited": "2026-10-04T22:58:24.923283+00:00"
   },
   {
     "id": "gh-osmesirius-ship-it/DAX_DA13-DA13x2-13",
@@ -1163,7 +1163,7 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T19:25:46.128793+00:00"
+    "last_audited": "2026-10-04T22:58:25.142931+00:00"
   },
   {
     "id": "gh-NightVibes33/Filza-27-55",
@@ -1185,7 +1185,7 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T19:25:46.364717+00:00"
+    "last_audited": "2026-10-04T22:58:25.354996+00:00"
   },
   {
     "id": "gh-strias-ai/mcp-embodied-actuator-madrid-1",
@@ -1207,7 +1207,7 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T19:25:46.600771+00:00"
+    "last_audited": "2026-10-04T22:58:25.564851+00:00"
   },
   {
     "id": "gh-barton87/barton87-1",
@@ -1229,7 +1229,7 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T19:25:46.846701+00:00"
+    "last_audited": "2026-10-04T22:58:25.783387+00:00"
   },
   {
     "id": "gh-jaykode2025/stargazers-log-1",
@@ -1286,29 +1286,6 @@
     "org_handle": "javokhir-sec",
     "org_name": "javokhir-sec/awesome-bugbounty-resources",
     "body": "## Suggest adding SnapTool Bounty Hunter\n\n**URL:** https://www.snaptools.uk/bounty-hunter\n\nA free aggregator tracking GitHub bounties, hackathons, AI competitions, and Web3 audit contests in one page. Each entry is status-tagged (Available/Taken/\u26a0\ufe0f Avoid).\n\nPlatforms covered: Code4rena, Immunefi, Sherlock, Kaggle, Devpost, HackerEarth, plus live GitHub issue bounties.",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "solidity",
-      "python"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 55.0
-  },
-  {
-    "id": "web3-adw0rd/awesome-mcp-tools-mcp-1",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "Add to catalog: Bug Bounty Intelligence (smart contract security, x402 paid)",
-    "url": "https://github.com/adw0rd/awesome-mcp-tools-mcp/issues/1",
-    "platform": "web3_github",
-    "repo_owner": "adw0rd",
-    "repo_name": "awesome-mcp-tools-mcp",
-    "issue_number": 1,
-    "org_handle": "adw0rd",
-    "org_name": "adw0rd/awesome-mcp-tools-mcp",
-    "body": "Request to add Bug Bounty Intelligence to the awesome-mcp.tools catalog.\n\nGitHub: https://github.com/holistis/bug-bounty-intelligence-mcp\nName: bug-bounty-intelligence-mcp\nDescription: AI-powered smart contract security analysis trained on 27,681 accepted findings\nCategories: security, web3, smart-contracts, audit, paid, x402\nTools: scan_contract (paid \\ USDC), list_vulnerability_patterns (free), get_scan_report (free)\nInstall: npx -y github:holistis/bug-bounty-intelligence-mcp\nLicense: MIT\nMCP registry: io.github.holistis/bug-bounty-intelligence-mcp",
     "reward_usd": 100.0,
     "reward_formatted": "$100",
     "tech": [
