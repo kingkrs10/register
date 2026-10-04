@@ -22,7 +22,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T20:54:57.899500+00:00"
+    "last_audited": "2026-10-04T00:27:49.799239+00:00"
   },
   {
     "id": "gh-Ricky1800/ledgerlite-6",
@@ -46,7 +46,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T20:54:58.151039+00:00"
+    "last_audited": "2026-10-04T00:27:50.067637+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-7",
@@ -71,7 +71,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-03T20:54:58.381475+00:00"
+    "last_audited": "2026-10-04T00:27:50.329553+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-6",
@@ -96,7 +96,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T20:54:58.625364+00:00"
+    "last_audited": "2026-10-04T00:27:50.597286+00:00"
   },
   {
     "id": "gh-Ricky1800/ledgerlite-5",
@@ -120,7 +120,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T20:54:58.846372+00:00"
+    "last_audited": "2026-10-04T00:27:50.855183+00:00"
   },
   {
     "id": "gh-probe-rs/webpage-303",
@@ -142,7 +142,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T20:54:59.080394+00:00"
+    "last_audited": "2026-10-04T00:27:51.101216+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-84",
@@ -166,7 +166,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T20:54:59.333135+00:00"
+    "last_audited": "2026-10-04T00:27:51.349782+00:00"
   },
   {
     "id": "web3-Chain-Love/chain-love-4057",
@@ -192,7 +192,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-03T20:54:59.606365+00:00"
+    "last_audited": "2026-10-04T00:27:51.636379+00:00"
   },
   {
     "id": "web3-anthropics/claude-code-96705",
@@ -222,7 +222,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T20:54:59.943175+00:00"
+    "last_audited": "2026-10-04T00:27:51.951265+00:00"
   },
   {
     "id": "web3-verdikta/verdikta-applications-47",
@@ -248,7 +248,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-03T20:55:00.191893+00:00"
+    "last_audited": "2026-10-04T00:27:52.247644+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -274,7 +274,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-03T20:55:00.445111+00:00"
+    "last_audited": "2026-10-04T00:27:52.497249+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -299,7 +299,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-10-03T20:55:00.691909+00:00"
+    "last_audited": "2026-10-04T00:27:52.779578+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -408,7 +408,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T20:55:00.933995+00:00"
+    "last_audited": "2026-10-04T00:27:53.056002+00:00"
   },
   {
     "id": "sec-ethereum/go-ethereum-35852",
@@ -433,7 +433,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T20:55:01.204746+00:00"
+    "last_audited": "2026-10-04T00:27:53.331173+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -458,7 +458,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-03T20:55:01.452181+00:00"
+    "last_audited": "2026-10-04T00:27:53.624028+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -483,7 +483,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T20:55:01.732783+00:00"
+    "last_audited": "2026-10-04T00:27:53.945967+00:00"
   },
   {
     "id": "sec-dadadave80/lattice-241",
@@ -508,7 +508,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T20:55:01.985719+00:00"
+    "last_audited": "2026-10-04T00:27:54.193461+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -533,7 +533,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-03T20:55:02.253023+00:00"
+    "last_audited": "2026-10-04T00:27:54.461533+00:00"
   },
   {
     "id": "sec-freedom-winds/BountyScout-1124",
@@ -558,7 +558,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T20:55:02.474959+00:00"
+    "last_audited": "2026-10-04T00:27:54.691997+00:00"
   },
   {
     "id": "sec-pancakeswap/pancake-v3-contracts-32",
@@ -583,7 +583,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 9,
-    "last_audited": "2026-10-03T20:55:02.705540+00:00"
+    "last_audited": "2026-10-04T00:27:54.972965+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -608,7 +608,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-03T20:55:03.038587+00:00"
+    "last_audited": "2026-10-04T00:27:55.243435+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -633,7 +633,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-03T20:55:03.298592+00:00"
+    "last_audited": "2026-10-04T00:27:55.542350+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -658,7 +658,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-03T20:55:03.574236+00:00"
+    "last_audited": "2026-10-04T00:27:55.828989+00:00"
   },
   {
     "id": "sec-yarilomail/yarilo-2105",
@@ -683,7 +683,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T20:55:03.794383+00:00"
+    "last_audited": "2026-10-04T00:27:56.096628+00:00"
   },
   {
     "id": "sec-AudioBitsStellar/AudioBlock_Backend-510",
@@ -708,7 +708,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-03T20:55:04.054942+00:00"
+    "last_audited": "2026-10-04T00:27:56.376739+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -733,7 +733,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-03T20:55:04.272327+00:00"
+    "last_audited": "2026-10-04T00:27:56.621210+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -758,7 +758,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-10-03T20:55:04.524997+00:00"
+    "last_audited": "2026-10-04T00:27:56.887721+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -783,7 +783,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-03T20:55:04.743743+00:00"
+    "last_audited": "2026-10-04T00:27:57.144655+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-306",
@@ -808,7 +808,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-03T20:55:04.970610+00:00"
+    "last_audited": "2026-10-04T00:27:57.377572+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1124",
@@ -833,7 +833,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-03T20:55:05.203099+00:00"
+    "last_audited": "2026-10-04T00:27:57.640962+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -858,7 +858,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-03T20:55:05.448910+00:00"
+    "last_audited": "2026-10-04T00:27:57.890989+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -883,7 +883,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-03T20:55:05.652403+00:00"
+    "last_audited": "2026-10-04T00:27:58.114225+00:00"
   },
   {
     "id": "sec-abdulsalam-create/bounty-watch-27",
@@ -908,7 +908,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T20:55:05.917067+00:00"
+    "last_audited": "2026-10-04T00:27:58.376937+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -933,7 +933,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-03T20:55:06.138717+00:00"
+    "last_audited": "2026-10-04T00:27:58.649780+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -958,7 +958,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-03T20:55:06.388155+00:00"
+    "last_audited": "2026-10-04T00:27:58.936637+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -983,7 +983,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-03T20:55:06.613391+00:00"
+    "last_audited": "2026-10-04T00:27:59.172191+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1008,7 +1008,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-03T20:55:06.887819+00:00"
+    "last_audited": "2026-10-04T00:27:59.428243+00:00"
   },
   {
     "id": "sec-vansh-09/BountyScout-448",
@@ -1033,7 +1033,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-03T20:55:07.116024+00:00"
+    "last_audited": "2026-10-04T00:27:59.677911+00:00"
   },
   {
     "id": "gh-piotrwitek/typesafe-actions-139",
@@ -1058,7 +1058,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-03T20:55:07.325758+00:00"
+    "last_audited": "2026-10-04T00:27:59.948102+00:00"
   },
   {
     "id": "web3-owocki-bot/ai-bounty-board-42",
@@ -1084,7 +1084,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T20:55:07.600947+00:00"
+    "last_audited": "2026-10-04T00:28:00.220013+00:00"
   },
   {
     "id": "web3-daydreamsai/agent-bounties-61",
@@ -1110,7 +1110,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-03T20:55:07.893114+00:00"
+    "last_audited": "2026-10-04T00:28:00.494104+00:00"
   },
   {
     "id": "web3-xlabtg/wallet-contract-1",
@@ -1136,7 +1136,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-03T20:55:08.121229+00:00"
+    "last_audited": "2026-10-04T00:28:00.792245+00:00"
   },
   {
     "id": "web3-ResearchHub/issues-716",
@@ -1162,7 +1162,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-03T20:55:08.368510+00:00"
+    "last_audited": "2026-10-04T00:28:01.065012+00:00"
   },
   {
     "id": "gh-osmesirius-ship-it/DAX_DA13-DA13x2-13",
@@ -1186,7 +1186,7 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T20:55:08.583243+00:00"
+    "last_audited": "2026-10-04T00:28:01.329563+00:00"
   },
   {
     "id": "gh-NightVibes33/Filza-27-55",
@@ -1208,7 +1208,7 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T20:55:08.795472+00:00"
+    "last_audited": "2026-10-04T00:28:01.557671+00:00"
   },
   {
     "id": "gh-strias-ai/mcp-embodied-actuator-madrid-1",
@@ -1230,7 +1230,7 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-03T20:55:09.004813+00:00"
+    "last_audited": "2026-10-04T00:28:01.795723+00:00"
   },
   {
     "id": "gh-jaykode2025/stargazers-log-1",
@@ -1381,7 +1381,7 @@
     ],
     "status": "active",
     "domain": "code",
-    "competitor_prs": 1,
+    "competitor_prs": 0,
     "solvability_score": 50.0
   },
   {
@@ -1594,6 +1594,48 @@
     "solvability_score": 50.0
   },
   {
+    "id": "gh-zhangjiayang6835-cyber/bounty-plaza-260",
+    "title": "[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] AWS IAM Privilege Escalation ",
+    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/260",
+    "platform": "bounty",
+    "repo_owner": "zhangjiayang6835-cyber",
+    "repo_name": "bounty-plaza",
+    "issue_number": 260,
+    "org_handle": "zhangjiayang6835-cyber",
+    "org_name": "zhangjiayang6835-cyber/bounty-plaza",
+    "body": "### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/244\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] AWS IAM Privilege Escalation via PassR\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/189\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [BUG] AWS IAM Privilege Escalation via PassRole + EC2\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/145\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [BUG] AWS IAM Privilege Escalation via PassRole + EC2 $150\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/59\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [BUG] AWS IAM Privilege Escalation via PassRole + EC2 $150\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/41\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [BUG] AWS IAM Privilege Escalation via PassRole + EC2 $150\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/ai-research/issues/942\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[BUG] AWS IAM Privilege Escalation via PassRole + EC2 $150\n\n## AWS IAM PassRole \u6743\u9650\u63d0\u5347\n\n**\u96be\u5ea6**: Hard | **\u8d4f\u91d1**: $150\n\n### \u6f0f\u6d1e\u63cf\u8ff0\nIAM \u7b56\u7565\u5141\u8bb8 `iam:PassRole` \u5230 EC2\uff0c\u4e14\u9644\u5e26 `ec2:RunInstances`\u3002\u653b\u51fb\u8005\u53ef\u4ee5\u542f\u52a8\u4e00\u4e2a\u62e5\u6709\u9ad8\u6743\u9650 Role \u7684 EC2 \u5b9e\u4f8b\uff0c\u901a\u8fc7 user-data \u811a\u672c\u83b7\u53d6\u4e34\u65f6\u51ed\u8bc1\uff0c\u5b9e\u73b0\u6743\u9650\u63d0\u5347\u3002\n\n### \u8981\u6c42\n\u5b9e\u65bd\u6700\u5c0f\u6743\u9650\u7b56\u7565 + PassRole \u6761\u4ef6\u952e\u9650\u5236 + \u654f\u611f Role \u4fdd\u62a4\u3002\n\n### \u9a8c\u6536\u6807\u51c6\n- [ ] PassRole \u9650\u5b9a\u7279\u5b9a Role \u767d\u540d\u5355\n- [ ] \u79fb\u9664\u901a\u914d\u7b26 Resource\n- [ ] \u6dfb\u52a0 aws:SourceArn \u6761\u4ef6\u952e\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n187 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$150\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n187 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$150\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n187 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$150\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n187 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08U\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n187 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$150\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n",
+    "reward_usd": 187.0,
+    "reward_formatted": "$187",
+    "tech": [
+      "real"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 1,
+    "solvability_score": 40.0
+  },
+  {
+    "id": "gh-zhangjiayang6835-cyber/bounty-plaza-265",
+    "title": "[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] MongoDB NoSQL Injection \u2192 Aut",
+    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/265",
+    "platform": "bounty",
+    "repo_owner": "zhangjiayang6835-cyber",
+    "repo_name": "bounty-plaza",
+    "issue_number": 265,
+    "org_handle": "zhangjiayang6835-cyber",
+    "org_name": "zhangjiayang6835-cyber/bounty-plaza",
+    "body": "### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/240\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] MongoDB NoSQL Injection \u2192 Authenticati\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/196\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [BUG] MongoDB NoSQL Injection \u2192 Authentication Bypass\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/136\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [BUG] MongoDB NoSQL Injection \u2192 Authentication Bypass $150\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/69\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [BUG] MongoDB NoSQL Injection \u2192 Authentication Bypass $150\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/34\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [BUG] MongoDB NoSQL Injection \u2192 Authentication Bypass $150\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/ai-research/issues/949\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[BUG] MongoDB NoSQL Injection \u2192 Authentication Bypass $150\n\n## MongoDB NoSQL \u6ce8\u5165 \u2192 \u8ba4\u8bc1\u7ed5\u8fc7\n\n**\u96be\u5ea6**: Hard | **\u8d4f\u91d1**: $150\n\n### \u6f0f\u6d1e\u63cf\u8ff0\n\u767b\u5f55\u63a5\u53e3 JSON body \u76f4\u63a5\u4f20\u5165 `db.users.find({username: body.username, password: body.password})`\u3002\u653b\u51fb\u8005\u53d1\u9001 `{\"username\": \"admin\", \"password\": {\"$ne\": \"\"}}` \u7ed5\u8fc7\u8ba4\u8bc1\u3002\n\n### \u8981\u6c42\n\u4f7f\u7528\u53c2\u6570\u5316\u67e5\u8be2 / ORM / \u8f93\u5165\u7c7b\u578b\u6821\u9a8c\u3002\n\n### \u9a8c\u6536\u6807\u51c6\n- [ ] \u7981\u6b62\u64cd\u4f5c\u7b26\u6ce8\u5165 (\\$ne, \\$gt, \\$where \u7b49)\n- [ ] \u8f93\u5165\u7c7b\u578b\u5f3a\u5236\u4e3a string\n- [ ] \u670d\u52a1\u7aef\u52a0\u76d0\u54c8\u5e0c\u5bc6\u7801\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n187 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$150\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n187 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$150\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n187 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$150\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n187 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$150\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n",
+    "reward_usd": 187.0,
+    "reward_formatted": "$187",
+    "tech": [
+      "real"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 40.0
+  },
+  {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1292",
     "title": "[Bounty] [Bounty] Seed a paid wallet UX child bounty",
     "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1292",
@@ -1608,27 +1650,6 @@
     "reward_formatted": "$112",
     "tech": [
       "bounty",
-      "real"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 1,
-    "solvability_score": 40.0
-  },
-  {
-    "id": "gh-zhangjiayang6835-cyber/bounty-plaza-283",
-    "title": "[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [bounty][funding-pending]:",
-    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/283",
-    "platform": "bounty",
-    "repo_owner": "zhangjiayang6835-cyber",
-    "repo_name": "bounty-plaza",
-    "issue_number": 283,
-    "org_handle": "zhangjiayang6835-cyber",
-    "org_name": "zhangjiayang6835-cyber/bounty-plaza",
-    "body": "### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/282\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [bounty][funding-pending]: complete\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/222\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [bounty][funding-pending]: complete the firs\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/215\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [bounty][funding-pending]: complete the first permiss\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/116\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [bounty][funding-pending]: complete the first permissionless a\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/88\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [bounty][funding-pending]: complete the first permissionless autonomous\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/13\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [bounty][funding-pending]: complete the first permissionless autonomous mainnet \n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/NSPG13/agent-bounties/issues/187\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[bounty][funding-pending]: complete the first permissionless autonomous mainnet payout loop\n\n### Goal\nComplete the first permissionless autonomous-v1 mainnet loop using a deterministic leading-zero work proof: claim, submit, verify, settle, receive USDC, and publish the canonical payout evidence without maintainer intervention.\n\n### Acceptance criteria\n- The solver wallet is independent from the bounty creator and makes the first confirmed canonical claim.\n- The solver posts the 0.10 USDC claim bond and submits nonzero submission and evidence hashes before the claim deadline.\n- The solver uses `cargo run -p cli -- autonomous-mine-work-proof` (or an exactly compatible implementation) to find a 16-leading-zero-bit\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n112 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$90\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n",
-    "reward_usd": 112.0,
-    "reward_formatted": "$112",
-    "tech": [
       "real"
     ],
     "status": "active",
