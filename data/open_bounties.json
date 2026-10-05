@@ -1,27 +1,47 @@
 [
   {
-    "id": "gh-Ricky1800/ledgerlite-6",
-    "title": "Shell completions",
-    "url": "https://github.com/Ricky1800/ledgerlite/issues/6",
+    "id": "gh-NightVibes33/Filza-27-55",
+    "title": "can we access appdata on ths filza in ios 27.0?",
+    "url": "https://github.com/NightVibes33/Filza-27/issues/55",
     "platform": "opire",
-    "repo_owner": "Ricky1800",
-    "repo_name": "ledgerlite",
-    "issue_number": 6,
-    "org_handle": "Ricky1800",
-    "org_name": "Ricky1800/ledgerlite",
-    "body": "**Body:**\n\nGenerate shell completions using `clap_complete` for bash/zsh/fish/\nPowerShell.\n\n**Acceptance criteria:**\n\n- New `ledgerlite completions <shell>` subcommand (hidden from `--help`\n  is fine) that prints the completion script to stdout.\n- `clap_complete` added as a normal dependency (it's tiny and\n  clap-maintained, consistent with \"keep deps lean\").\n- README install section gets a one-line snippet per shell for wiring\n  it up.\n- Smoke-test in `tests/cli.rs` that each shell variant runs without\n  erroring.\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #6</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @Ricky1800</code> (replace <code>20</code> with the amount, and <code>@Ricky1800</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "repo_owner": "NightVibes33",
+    "repo_name": "Filza-27",
+    "issue_number": 55,
+    "org_handle": "NightVibes33",
+    "org_name": "NightVibes33/Filza-27",
+    "body": "hi thanks for this project can we access app data on this filza version my ios version is ios 27.0 \n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #55</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @AKIFKHAN5</code> (replace <code>20</code> with the amount, and <code>@AKIFKHAN5</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
     "reward_usd": 100.0,
     "reward_formatted": "$100",
-    "tech": [
-      "good first issue"
-    ],
+    "tech": [],
     "status": "active",
     "domain": "code",
     "competitor_prs": 0,
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T22:58:15.185923+00:00"
+    "last_audited": "2026-10-05T05:07:28.577656+00:00"
+  },
+  {
+    "id": "gh-chenzilin100/StellarBladeTrainer-Releases-5",
+    "title": "1.0.16 update breaks projectile parry",
+    "url": "https://github.com/chenzilin100/StellarBladeTrainer-Releases/issues/5",
+    "platform": "opire",
+    "repo_owner": "chenzilin100",
+    "repo_name": "StellarBladeTrainer-Releases",
+    "issue_number": 5,
+    "org_handle": "chenzilin100",
+    "org_name": "chenzilin100/StellarBladeTrainer-Releases",
+    "body": "Automatic Defence no longer parries projectiles after 1.0.16 update\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #5</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @Leibeun</code> (replace <code>20</code> with the amount, and <code>@Leibeun</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 1,
+    "last_audited": "2026-10-05T05:07:28.792186+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-5",
@@ -46,7 +66,31 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T22:58:15.438727+00:00"
+    "last_audited": "2026-10-05T05:07:29.035451+00:00"
+  },
+  {
+    "id": "gh-Ricky1800/ledgerlite-6",
+    "title": "Shell completions",
+    "url": "https://github.com/Ricky1800/ledgerlite/issues/6",
+    "platform": "opire",
+    "repo_owner": "Ricky1800",
+    "repo_name": "ledgerlite",
+    "issue_number": 6,
+    "org_handle": "Ricky1800",
+    "org_name": "Ricky1800/ledgerlite",
+    "body": "**Body:**\n\nGenerate shell completions using `clap_complete` for bash/zsh/fish/\nPowerShell.\n\n**Acceptance criteria:**\n\n- New `ledgerlite completions <shell>` subcommand (hidden from `--help`\n  is fine) that prints the completion script to stdout.\n- `clap_complete` added as a normal dependency (it's tiny and\n  clap-maintained, consistent with \"keep deps lean\").\n- README install section gets a one-line snippet per shell for wiring\n  it up.\n- Smoke-test in `tests/cli.rs` that each shell variant runs without\n  erroring.\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #6</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @Ricky1800</code> (replace <code>20</code> with the amount, and <code>@Ricky1800</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "good first issue"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-05T05:07:29.262674+00:00"
   },
   {
     "id": "gh-Ricky1800/localbiz-site-7",
@@ -71,78 +115,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-04T22:58:15.672292+00:00"
-  },
-  {
-    "id": "gh-Ricky1800/localbiz-site-6",
-    "title": "Reduced-motion-aware entrance animations",
-    "url": "https://github.com/Ricky1800/localbiz-site/issues/6",
-    "platform": "opire",
-    "repo_owner": "Ricky1800",
-    "repo_name": "localbiz-site",
-    "issue_number": 6,
-    "org_handle": "Ricky1800",
-    "org_name": "Ricky1800/localbiz-site",
-    "body": "**Body:**\nThe homepage sections currently have no entrance animation. Add a small,\ndependency-free fade/slide-in on scroll for section headings (e.g. via\n`IntersectionObserver` in a small client component), fully disabled under\n`prefers-reduced-motion: reduce` (which `app/globals.css` already handles\nglobally for `transition`/`animation` \u2014 this issue is about adding new\nmotion, not fixing existing motion).\n\n**Acceptance criteria:**\n- [ ] No animation library dependency added \u2014 implement with\n      `IntersectionObserver` + CSS classes.\n- [ ] Verified to no-op completely when `prefers-reduced-motion: reduce` is\n      set (test manually via browser dev tools' emulation, or add this to\n      the Playwright suite from issue #1 once it exists).\n- [ ] No layout shift or content that's inaccessible before JS loads (content\n      must be visible/readable with JavaScript disabled).\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #6</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @Ricky1800</code> (replace <code>20</code> with the amount, and <code>@Ricky1800</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "enhancement",
-      "good first issue"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-04T22:58:15.920350+00:00"
-  },
-  {
-    "id": "gh-Ricky1800/ledgerlite-5",
-    "title": "Budget vs. actual report",
-    "url": "https://github.com/Ricky1800/ledgerlite/issues/5",
-    "platform": "opire",
-    "repo_owner": "Ricky1800",
-    "repo_name": "ledgerlite",
-    "issue_number": 5,
-    "org_handle": "Ricky1800",
-    "org_name": "Ricky1800/ledgerlite",
-    "body": "**Body:**\n\nAdd an optional budget file (`budget.toml`, category -> monthly target)\nand a `ledgerlite report --budget` mode that shows actual vs. budget\nper category alongside the existing P&L.\n\n**Acceptance criteria:**\n\n- `budget.toml` schema documented in the README, loaded only when\n  `--budget` is passed (no behavior change otherwise).\n- Missing budget file with `--budget` passed produces a friendly error,\n  not a panic.\n- Table/CSV/JSON/MD renderers all handle the extra column(s).\n- Unit tests for variance calculation (over/under budget, category with\n  no budget entry, category with no actuals).\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #5</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @Ricky1800</code> (replace <code>20</code> with the amount, and <code>@Ricky1800</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "help wanted"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-04T22:58:16.140147+00:00"
-  },
-  {
-    "id": "gh-probe-rs/webpage-303",
-    "title": "docs page: menu sidebar overlaps the content",
-    "url": "https://github.com/probe-rs/webpage/issues/303",
-    "platform": "opire",
-    "repo_owner": "probe-rs",
-    "repo_name": "webpage",
-    "issue_number": 303,
-    "org_handle": "probe-rs",
-    "org_name": "probe-rs/webpage",
-    "body": "https://probe.rs/docs/ looks bad at the moment:\n\n<img width=\"600\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/95949dcd-2311-4e52-8b13-42af0978c2c1\" />\n\n`ml-74` in `<div id=\"outside-menu\" class=\"pb-10 mx-10 md:ml-74\">` is expanded to\n\n```css\n@media (width >= 48rem) {\n    .md\\:ml-74 {\n        margin-left: calc(var(--spacing) * 74);\n    }\n}\n```\n\nWhen I changed the multiplicator `74`  to `100`, the content area looks normal. \n\nThis page looks good several days ago, but this line of code didn't change [for a year](https://github.com/probe-rs/webpage/blame/87af3d550b5dae600c6e4bca210bdfe9bc2f8bd0/src/layouts/Doc.astro#L58), so maybe something  breaks.\n\nhttps://github.com/user-attachments/assets/bee6d0c0-70b0-4f2b-8cb3-1526689f7626\n\n\n\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #303</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @zjp-CN</code> (replace <code>20</code> with the amount, and <code>@zjp-CN</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-04T22:58:16.405237+00:00"
+    "last_audited": "2026-10-05T05:07:29.517758+00:00"
   },
   {
     "id": "web3-Chain-Love/chain-love-4057",
@@ -168,33 +141,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-04T22:58:16.641089+00:00"
-  },
-  {
-    "id": "web3-muhammalif/evm-signature-verifier-1",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "[Bounty 100 USDT] Refactor Signature Verifier & Add Replay Attack Invariant Tests",
-    "url": "https://github.com/muhammalif/evm-signature-verifier/issues/1",
-    "platform": "web3_github",
-    "repo_owner": "muhammalif",
-    "repo_name": "evm-signature-verifier",
-    "issue_number": 1,
-    "org_handle": "muhammalif",
-    "org_name": "muhammalif/evm-signature-verifier",
-    "body": "  ### \ud83d\udccc Context & Objective\n  Our current signature verification engine in `src/SignatureVerifier.sol` handles basic ECDSA recovery, but lacks explicit invariant testing against secp256k1 signature malleability and strict deadline enforcement under high concurrency. \n\n  We are opening a milestone bounty for external contributors to audit and harden the verification flow.\n\n  ---\n\n  ### \ud83c\udfaf Acceptance Criteria\n  - [ ] Implement strict `s`-value malleability checks conforming to EIP-2 (`s <= secp256k1n / 2`).\n  - [ ] Add deadline expiration safeguards to prevent stale authorization executions.\n  - [ ] Enforce on-chain replay protection via hashed execution tracking.\n  - [ ] All unit and fuzz tests in `test/SignatureVerifier.t.sol` must pass on GitHub Actions CI.\n  - [ ] Existing test suites must not be deleted or weakened.\n\n  ---\n\n  ### \ud83d\udcb0 Bounty Details\n  - **Reward:** `100 USDT` (Escrowed via Bountra on BNB Smart Chain)\n  - **Network:** BNB Smart Chain Testnet (Chain ID `97`)\n  - **Escrow Contract:** `0xbe576879961Bd8cdf7CfA72F146C8a3E352c7260`\n  - **Evaluation:** Bountra Autonomous Agent (5-Layer Code & Security Gate)\n  \n",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "solidity",
-      "python"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 2,
-    "last_audited": "2026-10-04T22:58:16.886170+00:00"
+    "last_audited": "2026-10-05T05:07:29.764637+00:00"
   },
   {
     "id": "web3-verdikta/verdikta-applications-47",
@@ -219,8 +166,8 @@
     "competitor_prs": 0,
     "solvability_score": 100.0,
     "live_status": "open",
-    "comments_count": 4,
-    "last_audited": "2026-10-04T22:58:17.149294+00:00"
+    "comments_count": 5,
+    "last_audited": "2026-10-05T05:07:30.030556+00:00"
   },
   {
     "id": "web3-anthropics/claude-code-96705",
@@ -250,7 +197,33 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T22:58:17.430460+00:00"
+    "last_audited": "2026-10-05T05:07:30.306971+00:00"
+  },
+  {
+    "id": "web3-muhammalif/evm-signature-verifier-1",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "[Bounty 100 USDT] Refactor Signature Verifier & Add Replay Attack Invariant Tests",
+    "url": "https://github.com/muhammalif/evm-signature-verifier/issues/1",
+    "platform": "web3_github",
+    "repo_owner": "muhammalif",
+    "repo_name": "evm-signature-verifier",
+    "issue_number": 1,
+    "org_handle": "muhammalif",
+    "org_name": "muhammalif/evm-signature-verifier",
+    "body": "  ### \ud83d\udccc Context & Objective\n  Our current signature verification engine in `src/SignatureVerifier.sol` handles basic ECDSA recovery, but lacks explicit invariant testing against secp256k1 signature malleability and strict deadline enforcement under high concurrency. \n\n  We are opening a milestone bounty for external contributors to audit and harden the verification flow.\n\n  ---\n\n  ### \ud83c\udfaf Acceptance Criteria\n  - [ ] Implement strict `s`-value malleability checks conforming to EIP-2 (`s <= secp256k1n / 2`).\n  - [ ] Add deadline expiration safeguards to prevent stale authorization executions.\n  - [ ] Enforce on-chain replay protection via hashed execution tracking.\n  - [ ] All unit and fuzz tests in `test/SignatureVerifier.t.sol` must pass on GitHub Actions CI.\n  - [ ] Existing test suites must not be deleted or weakened.\n\n  ---\n\n  ### \ud83d\udcb0 Bounty Details\n  - **Reward:** `100 USDT` (Escrowed via Bountra on BNB Smart Chain)\n  - **Network:** BNB Smart Chain Testnet (Chain ID `97`)\n  - **Escrow Contract:** `0xbe576879961Bd8cdf7CfA72F146C8a3E352c7260`\n  - **Evaluation:** Bountra Autonomous Agent (5-Layer Code & Security Gate)\n  \n",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "solidity",
+      "python"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 4,
+    "last_audited": "2026-10-05T05:07:30.536681+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -276,7 +249,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-04T22:58:17.670967+00:00"
+    "last_audited": "2026-10-05T05:07:30.788776+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -301,7 +274,33 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-10-04T22:58:17.923806+00:00"
+    "last_audited": "2026-10-05T05:07:31.033105+00:00"
+  },
+  {
+    "id": "web3-ExcelDsigN-tech/dukapay-689",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "Bug bounty contact unreachable: security@dukapay.com bounces, Private Vulnerability Reporting disabled",
+    "url": "https://github.com/ExcelDsigN-tech/dukapay/issues/689",
+    "platform": "web3_github",
+    "repo_owner": "ExcelDsigN-tech",
+    "repo_name": "dukapay",
+    "issue_number": 689,
+    "org_handle": "ExcelDsigN-tech",
+    "org_name": "ExcelDsigN-tech/dukapay",
+    "body": "Hello DukaPay team,\n\nI am a security researcher (iblitzc0de). I attempted to report three validated vulnerabilities under your Bug Bounty Program (docs/BUG_BOUNTY_PROGRAM.md), but both private reporting channels are currently unreachable:\n\n1. Emails to security@dukapay.com bounce with \"550 5.1.0 Recipient not found\" (attempted 2026-10-04).\n2. GitHub Private Vulnerability Reporting is disabled for this repository.\n\nThe findings are ready to submit privately with runnable proofs of concept, affecting the Soroban contracts and the backend API, with severities up to Critical under your reward table. I am intentionally including no technical details in this public issue.\n\nCould you please either enable Private Vulnerability Reporting on this repository, or provide a working private email address? I will submit the full reports as soon as a private channel is available.\n\nThank you,\niblitzc0de\n",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "solidity",
+      "python"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 1,
+    "last_audited": "2026-10-05T05:07:31.250825+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -410,7 +409,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T22:58:18.174947+00:00"
+    "last_audited": "2026-10-05T05:07:31.479930+00:00"
   },
   {
     "id": "sec-ethereum/go-ethereum-35852",
@@ -435,7 +434,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T22:58:18.401670+00:00"
+    "last_audited": "2026-10-05T05:07:31.709026+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -460,7 +459,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-04T22:58:18.617786+00:00"
+    "last_audited": "2026-10-05T05:07:31.932276+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -485,7 +484,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T22:58:18.905789+00:00"
+    "last_audited": "2026-10-05T05:07:32.226066+00:00"
   },
   {
     "id": "sec-dadadave80/lattice-241",
@@ -510,7 +509,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T22:58:19.214920+00:00"
+    "last_audited": "2026-10-05T05:07:32.454153+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -535,7 +534,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-04T22:58:19.465957+00:00"
+    "last_audited": "2026-10-05T05:07:32.716613+00:00"
   },
   {
     "id": "sec-pancakeswap/pancake-v3-contracts-32",
@@ -560,7 +559,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 9,
-    "last_audited": "2026-10-04T22:58:19.707515+00:00"
+    "last_audited": "2026-10-05T05:07:32.990496+00:00"
   },
   {
     "id": "sec-freedom-winds/BountyScout-1124",
@@ -585,7 +584,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T22:58:19.958155+00:00"
+    "last_audited": "2026-10-05T05:07:33.241699+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -610,7 +609,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-04T22:58:20.197292+00:00"
+    "last_audited": "2026-10-05T05:07:33.476684+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -635,7 +634,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-04T22:58:20.427360+00:00"
+    "last_audited": "2026-10-05T05:07:33.723203+00:00"
   },
   {
     "id": "sec-yarilomail/yarilo-2105",
@@ -660,7 +659,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-04T22:58:20.666992+00:00"
+    "last_audited": "2026-10-05T05:07:33.970596+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -685,7 +684,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-04T22:58:20.910026+00:00"
+    "last_audited": "2026-10-05T05:07:34.251222+00:00"
   },
   {
     "id": "sec-AudioBitsStellar/AudioBlock_Backend-510",
@@ -710,7 +709,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-04T22:58:21.144443+00:00"
+    "last_audited": "2026-10-05T05:07:34.502978+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -735,7 +734,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-04T22:58:21.332755+00:00"
+    "last_audited": "2026-10-05T05:07:34.715006+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-279",
@@ -760,7 +759,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-04T22:58:21.537401+00:00"
+    "last_audited": "2026-10-05T05:07:34.920879+00:00"
+  },
+  {
+    "id": "sec-hanzhad/squelch-news-engine-1321",
+    "domain": "security",
+    "title": "Google froze its open source bug bounty program due to a \u2018significant rise\u2019 in AI submissions",
+    "url": "https://github.com/hanzhad/squelch-news-engine/issues/1321",
+    "platform": "github_security",
+    "repo_owner": "hanzhad",
+    "repo_name": "squelch-news-engine",
+    "issue_number": 1321,
+    "org_handle": "hanzhad",
+    "org_name": "hanzhad/squelch-news-engine",
+    "body": "<!-- squelch\ndelivery:\n  rss:\n    at: '2026-10-05T01:02:52.618688+00:00'\n  site:\n    at: '2026-10-05T01:02:51.139724+00:00'\nimage: https://techcrunch.com/wp-content/uploads/2025/07/ai-slop-bug-bounty-reports-1646637201.jpg?resize=1200,863\npublished_at: '2026-10-04T20:31:07+00:00'\nscore: 5\nscraped_by: squelch\nsource: techcrunchai\ntags:\n- security\n- policy\n- open-source\nuid: 71b92d7d124804e8\nurl: https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions\nverdict_reason: It covers a significant security and infrastructure policy change\n  affecting open-source maintainers due to AI-generated vulnerability submissions.\n-->\n\n## Summary\n\nGoogle paused its Open Source Software Vulnerability Rewards Program as of October 1, citing an overwhelming volume of invalid, AI-generated submissions and hallucinations. The freeze is expected to last until the first quarter of 2027, when the company plans to provide an update. Google's other bug bounty programs remain active.\n\n**Kept:** It covers a significant security and infrastructure policy change affecting open-source maintainers due to AI-generated vulnerability submissions.\n\n**Tags:** security, policy, open-source \u00b7 **Score:** 5/10\n\n---\n\n**Source:** `techcrunchai`\n**Link:** https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions\n**Published:** 2026-10-04T20:31:07+00:00\n\n<details>\n<summary>Original text</summary>\n\n<!-- squelch:original -->\nBlaming a \u201csignificant rise\u201d in AI submissions, Google has paused its open source bug bounty program until next year.\nLast year, TechCrunch reported that cybersecurity experts were warning of that AI slop posed a serious risk to bug bounty programs. Looks like that\u2019s the issue confronting Google\u2019s Open Source Software Vulnerability Rewards Program, where researchers were rewarded for finding vulnerabilities in the company\u2019s open source software.\nIn posts on X and the program website, Google said the bug bounty program was paused as of October 1, with a promise to provide \u201can update\u201d in the first quarter of 2027. According to Tom\u2019s Hardware, Google engineers and open source maintainers were overwhelmed by reports that were invalid or contained hallucinations.\n\u201cThis pause is due to a significant rise in automated submissions, the vast majority of which are not valid,\u201d the company said.\nIn the meantime, participants are encouraged to consider Google\u2019s other bug bounty programs.\n<!-- /squelch:original -->\n\n</details>",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-05T05:07:35.146638+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -785,7 +809,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-10-04T22:58:21.765418+00:00"
+    "last_audited": "2026-10-05T05:07:35.390596+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -810,32 +834,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-04T22:58:21.995582+00:00"
-  },
-  {
-    "id": "sec-zhangjiayang6835-cyber/bounty-plaza-306",
-    "domain": "security",
-    "title": "[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Race Condition in /t",
-    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/306",
-    "platform": "github_security",
-    "repo_owner": "zhangjiayang6835-cyber",
-    "repo_name": "bounty-plaza",
-    "issue_number": 306,
-    "org_handle": "zhangjiayang6835-cyber",
-    "org_name": "zhangjiayang6835-cyber/bounty-plaza",
-    "body": "### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/258\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Race Condition in /tmp File H\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/247\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Race Condition in /tmp File Handling (\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/188\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [BUG] Race Condition in /tmp File Handling (TOCTOU) $\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/144\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [BUG] Race Condition in /tmp File Handling (TOCTOU) $150\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/61\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [BUG] Race Condition in /tmp File Handling (TOCTOU) $150\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/40\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [BUG] Race Condition in /tmp File Handling (TOCTOU) $150\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/ai-research/issues/943\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[BUG] Race Condition in /tmp File Handling (TOCTOU) $150\n\n## /tmp \u6587\u4ef6\u5904\u7406\u7684 TOCTOU \u6761\u4ef6\u7ade\u4e89\n\n**\u96be\u5ea6**: Hard | **\u8d4f\u91d1**: $150\n\n### \u6f0f\u6d1e\u63cf\u8ff0\n\u811a\u672c\u5148\u68c0\u67e5 `/tmp/lock` \u4e0d\u5b58\u5728\uff0c\u7136\u540e\u521b\u5efa\u5e76\u5199\u5165\u6570\u636e\u3002\u653b\u51fb\u8005\u53ef\u5728\u68c0\u67e5\u548c\u521b\u5efa\u4e4b\u95f4\u66ff\u6362\u4e3a\u7b26\u53f7\u94fe\u63a5\u6307\u5411 `/etc/passwd`\uff0c\u5bfc\u81f4\u4efb\u610f\u6587\u4ef6\u5199\u5165\u3002\n\n### \u8981\u6c42\n\u4f7f\u7528 `O_CREAT | O_EXCL` \u539f\u5b50\u64cd\u4f5c + \u5b89\u5168\u4e34\u65f6\u76ee\u5f55\u3002\n\n### \u9a8c\u6536\u6807\u51c6\n- [ ] \u4f7f\u7528 mkstemp / O_EXCL \u539f\u5b50\u521b\u5efa\n- [ ] \u8bbe\u7f6e\u4e25\u683c\u6587\u4ef6\u6743\u9650 (0600)\n- [ ] \u9a8c\u8bc1\u6587\u4ef6\u6240\u6709\u8005\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n187 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$150\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n187 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$150\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n187 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real \n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n187 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$150\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 4,
-    "last_audited": "2026-10-04T22:58:22.210390+00:00"
+    "last_audited": "2026-10-05T05:07:35.606928+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -860,7 +859,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-04T22:58:22.455147+00:00"
+    "last_audited": "2026-10-05T05:07:35.843892+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -885,7 +884,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-04T22:58:22.662784+00:00"
+    "last_audited": "2026-10-05T05:07:36.079162+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -910,7 +909,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-04T22:58:22.884468+00:00"
+    "last_audited": "2026-10-05T05:07:36.307531+00:00"
   },
   {
     "id": "sec-abdulsalam-create/bounty-watch-27",
@@ -935,7 +934,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T22:58:23.113645+00:00"
+    "last_audited": "2026-10-05T05:07:36.539621+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -960,7 +959,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-04T22:58:23.355676+00:00"
+    "last_audited": "2026-10-05T05:07:36.788820+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -985,7 +984,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-04T22:58:23.584395+00:00"
+    "last_audited": "2026-10-05T05:07:37.050969+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1010,7 +1009,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-04T22:58:23.817738+00:00"
+    "last_audited": "2026-10-05T05:07:37.320907+00:00"
   },
   {
     "id": "gh-piotrwitek/typesafe-actions-139",
@@ -1035,7 +1034,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-04T22:58:24.028986+00:00"
+    "last_audited": "2026-10-05T05:07:37.565081+00:00"
   },
   {
     "id": "web3-owocki-bot/ai-bounty-board-42",
@@ -1061,7 +1060,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T22:58:24.245425+00:00"
+    "last_audited": "2026-10-05T05:07:37.804322+00:00"
   },
   {
     "id": "web3-RonTuretzky/issue.fund-8",
@@ -1087,7 +1086,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T22:58:24.446748+00:00"
+    "last_audited": "2026-10-05T05:07:38.041547+00:00"
   },
   {
     "id": "web3-daydreamsai/agent-bounties-61",
@@ -1113,7 +1112,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-04T22:58:24.694395+00:00"
+    "last_audited": "2026-10-05T05:07:38.325408+00:00"
   },
   {
     "id": "web3-ResearchHub/issues-716",
@@ -1139,7 +1138,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-04T22:58:24.923283+00:00"
+    "last_audited": "2026-10-05T05:07:38.566924+00:00"
   },
   {
     "id": "gh-osmesirius-ship-it/DAX_DA13-DA13x2-13",
@@ -1163,29 +1162,7 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T22:58:25.142931+00:00"
-  },
-  {
-    "id": "gh-NightVibes33/Filza-27-55",
-    "title": "can we access appdata on ths filza in ios 27.0?",
-    "url": "https://github.com/NightVibes33/Filza-27/issues/55",
-    "platform": "opire",
-    "repo_owner": "NightVibes33",
-    "repo_name": "Filza-27",
-    "issue_number": 55,
-    "org_handle": "NightVibes33",
-    "org_name": "NightVibes33/Filza-27",
-    "body": "hi thanks for this project can we access app data on this filza version my ios version is ios 27.0 \n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #55</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @AKIFKHAN5</code> (replace <code>20</code> with the amount, and <code>@AKIFKHAN5</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 60.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-04T22:58:25.354996+00:00"
+    "last_audited": "2026-10-05T05:07:38.822704+00:00"
   },
   {
     "id": "gh-strias-ai/mcp-embodied-actuator-madrid-1",
@@ -1207,7 +1184,7 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T22:58:25.564851+00:00"
+    "last_audited": "2026-10-05T05:07:39.083063+00:00"
   },
   {
     "id": "gh-barton87/barton87-1",
@@ -1229,26 +1206,7 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-04T22:58:25.783387+00:00"
-  },
-  {
-    "id": "gh-jaykode2025/stargazers-log-1",
-    "title": "Display a list of starred repositories",
-    "url": "https://github.com/jaykode2025/stargazers-log/issues/1",
-    "platform": "opire",
-    "repo_owner": "jaykode2025",
-    "repo_name": "stargazers-log",
-    "issue_number": 1,
-    "org_handle": "jaykode2025",
-    "org_name": "jaykode2025/stargazers-log",
-    "body": "Show a list of starred repositories on the home page.\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #1</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @jaykode2025</code> (replace <code>20</code> with the amount, and <code>@jaykode2025</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 60.0
+    "last_audited": "2026-10-05T05:07:39.303911+00:00"
   },
   {
     "id": "web3-tetherless-world/whyis-237",
@@ -1271,7 +1229,10 @@
     ],
     "status": "active",
     "competitor_prs": 0,
-    "solvability_score": 55.0
+    "solvability_score": 55.0,
+    "live_status": "open",
+    "comments_count": 1,
+    "last_audited": "2026-10-05T05:07:39.541367+00:00"
   },
   {
     "id": "web3-javokhir-sec/awesome-bugbounty-resources-2",
@@ -1427,30 +1388,6 @@
     "solvability_score": 50.0
   },
   {
-    "id": "gh-piotrwitek/typesafe-actions-156",
-    "title": "Add default handler in createReducer",
-    "url": "https://github.com/piotrwitek/typesafe-actions/issues/156",
-    "platform": "issuehunt",
-    "repo_owner": "piotrwitek",
-    "repo_name": "typesafe-actions",
-    "issue_number": 156,
-    "org_handle": "piotrwitek",
-    "org_name": "piotrwitek/typesafe-actions",
-    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2480%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/piotrwitek/typesafe-actions/issues/156)\n<!-- /Issuehunt Badges -->\n\n\nHow do I create a default action handler. For example loadingReducer should set `loading` bool to true only if it receives specific actions, otherwise I want to make it false\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $80.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($80.00)\n\n### Submitted pull Requests\n- [#241 Reducers: add default handler](https://oss.issuehunt.io/r/piotrwitek/typesafe-actions/pull/241)\n- [#273 Add createReducer default handler](https://oss.issuehunt.io/r/piotrwitek/typesafe-actions/pull/273)\n- [#279 feat(createReducer): add handleDefault fallback chain API](https://oss.issuehunt.io/r/piotrwitek/typesafe-actions/pull/279)\n- [#296 feat: add default handler to createReducer](https://oss.issuehunt.io/r/piotrwitek/typesafe-actions/pull/296)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/piotrwitek/typesafe-actions/issues/156)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/piotrwitek/typesafe-actions/issues/156)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/piotrwitek/typesafe-actions/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
-    "reward_usd": 80.0,
-    "reward_formatted": "$80",
-    "tech": [
-      "new feature",
-      "needs API design",
-      "needs community feedback",
-      ":dollar: Funded on Issuehunt"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 50.0
-  },
-  {
     "id": "web3-zhangjiayang6835-cyber/bounty-plaza-1214",
     "domain": "web3_desci",
     "sub_type": "web3_smart_contract",
@@ -1562,27 +1499,6 @@
     "solvability_score": 40.0
   },
   {
-    "id": "gh-egoist/codepan-63",
-    "title": "add query string parameters for setting panel width",
-    "url": "https://github.com/egoist/codepan/issues/63",
-    "platform": "issuehunt",
-    "repo_owner": "egoist",
-    "repo_name": "codepan",
-    "issue_number": 63,
-    "org_handle": "egoist",
-    "org_name": "egoist/codepan",
-    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%24100%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/egoist/codepan/issues/63)\n<!-- /Issuehunt Badges -->\n\n\nCurrently writing a course and embedding codepan iframes for experimenting with JS, yet having large console is a design problem for integration. I was thinking about something like what Glitch does: https://glitch-embed.glitch.me/#preview\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $100.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($100.00)\n\n### Submitted pull Requests\n- [#70 iframe width and tabs](https://oss.issuehunt.io/r/egoist/codepan/pull/70)\n- [#113 Add query parameter for pane widths](https://oss.issuehunt.io/r/egoist/codepan/pull/113)\n- [#112 Add query parameter for panel widths](https://oss.issuehunt.io/r/egoist/codepan/pull/112)\n- [#114 feat: configure embedded panel widths from the URL](https://oss.issuehunt.io/r/egoist/codepan/pull/114)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/egoist/codepan/issues/63)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/egoist/codepan/issues/63)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/egoist/codepan/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      ":dollar: Funded on Issuehunt"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 40.0
-  },
-  {
     "id": "gh-rgommezz/react-native-offline-339",
     "title": "Upgrade Example App for current Expo Go version",
     "url": "https://github.com/rgommezz/react-native-offline/issues/339",
@@ -1604,6 +1520,27 @@
     "solvability_score": 40.0
   },
   {
+    "id": "gh-egoist/codepan-63",
+    "title": "add query string parameters for setting panel width",
+    "url": "https://github.com/egoist/codepan/issues/63",
+    "platform": "issuehunt",
+    "repo_owner": "egoist",
+    "repo_name": "codepan",
+    "issue_number": 63,
+    "org_handle": "egoist",
+    "org_name": "egoist/codepan",
+    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%24100%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/egoist/codepan/issues/63)\n<!-- /Issuehunt Badges -->\n\n\nCurrently writing a course and embedding codepan iframes for experimenting with JS, yet having large console is a design problem for integration. I was thinking about something like what Glitch does: https://glitch-embed.glitch.me/#preview\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $100.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($100.00)\n\n### Submitted pull Requests\n- [#70 iframe width and tabs](https://oss.issuehunt.io/r/egoist/codepan/pull/70)\n- [#113 Add query parameter for pane widths](https://oss.issuehunt.io/r/egoist/codepan/pull/113)\n- [#112 Add query parameter for panel widths](https://oss.issuehunt.io/r/egoist/codepan/pull/112)\n- [#114 feat: configure embedded panel widths from the URL](https://oss.issuehunt.io/r/egoist/codepan/pull/114)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/egoist/codepan/issues/63)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/egoist/codepan/issues/63)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/egoist/codepan/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      ":dollar: Funded on Issuehunt"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 40.0
+  },
+  {
     "id": "gh-sindresorhus/fkill-cli-6",
     "title": "Smart mode",
     "url": "https://github.com/sindresorhus/fkill-cli/issues/6",
@@ -1616,6 +1553,29 @@
     "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2440%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/sindresorhus/fkill-cli/issues/6)\n<!-- /Issuehunt Badges -->\n\n\nCurrently there's a lot of useless processes in interactive mode that I would never care to close. Like all the Chrome helper processes. These makes it harder to find processes I actually want to close. With some simple heuristics I think we could hide away most of those useless processes.\r\n\r\nShould smart mode be default when using the interactive UI?\r\n## \r\n\r\nWhat processes needs hiding?\r\n- ~~Google Chrome Helper~~ (done)\r\n- 2BUA8C4S2C.com.agilebits.onepassword-osx-helper\r\n- -zsh\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $40.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($40.00)\n\n### Submitted pull Requests\n- [#1 Group duplicate processes in interactive mode](https://oss.issuehunt.io/r/OMGletmein/fkill-cli/pull/1)\n- [#1 Add explicit kill-all choices for duplicate processes](https://oss.issuehunt.io/r/harshdevgoyal/fkill-cli/pull/1)\n- [#1 feat: group same-name processes with submenu selection (Closes #6)Feat/smart mode](https://oss.issuehunt.io/r/xqsjdy/fkill-cli/pull/1)\n- [#1 Group duplicate processes in interactive mode](https://oss.issuehunt.io/r/nwinkelman2/fkill-cli/pull/1)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/sindresorhus/fkill-cli/issues/6)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/sindresorhus/fkill-cli/issues/6)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/sindresorhus/fkill-cli/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
     "reward_usd": 40.0,
     "reward_formatted": "$40",
+    "tech": [
+      "enhancement",
+      "help wanted",
+      ":dollar: Funded on Issuehunt"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 40.0
+  },
+  {
+    "id": "gh-Qix-/better-exceptions-10",
+    "title": "ipython support",
+    "url": "https://github.com/Qix-/better-exceptions/issues/10",
+    "platform": "issuehunt",
+    "repo_owner": "Qix-",
+    "repo_name": "better-exceptions",
+    "issue_number": 10,
+    "org_handle": "Qix-",
+    "org_name": "Qix-/better-exceptions",
+    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2470%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/Qix-/better-exceptions/issues/10)\n<!-- /Issuehunt Badges -->\n\n\nDoes not appear to work in ipython (at least in emacs)\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $70.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://issuehunt.io/u/issuehunt) ($70.00)\n\n#### [Become a backer now!](https://issuehunt.io/r/Qix-/better-exceptions/issues/10)\n#### [Or submit a pull request to get the deposits!](https://issuehunt.io/r/Qix-/better-exceptions/issues/10)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://issuehunt.io/r/Qix-/better-exceptions/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://issuehunt.io/r/new) on IssueHunt to raise funds.\n---\nIssueHunt has been backed by the following sponsors. [Become a sponsor](https://issuehunt.io/membership/members)\n</details>\n<!-- /Issuehunt content-->",
+    "reward_usd": 70.0,
+    "reward_formatted": "$70",
     "tech": [
       "enhancement",
       "help wanted",
