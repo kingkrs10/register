@@ -19,7 +19,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-06T13:12:23.408954+00:00"
+    "last_audited": "2026-10-06T19:26:10.590059+00:00"
   },
   {
     "id": "gh-chenzilin100/StellarBladeTrainer-Releases-5",
@@ -41,7 +41,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-06T13:12:23.652196+00:00"
+    "last_audited": "2026-10-06T19:26:10.772850+00:00"
   },
   {
     "id": "gh-future-architect/vuls-777",
@@ -63,7 +63,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-06T13:12:23.989716+00:00"
+    "last_audited": "2026-10-06T19:26:11.018804+00:00"
   },
   {
     "id": "web3-Chain-Love/chain-love-4057",
@@ -89,7 +89,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-06T13:12:24.219898+00:00"
+    "last_audited": "2026-10-06T19:26:11.233233+00:00"
   },
   {
     "id": "web3-anthropics/claude-code-96705",
@@ -119,7 +119,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-06T13:12:24.638037+00:00"
+    "last_audited": "2026-10-06T19:26:11.478539+00:00"
   },
   {
     "id": "web3-verdikta/verdikta-applications-47",
@@ -145,7 +145,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-06T13:12:24.912139+00:00"
+    "last_audited": "2026-10-06T19:26:11.694225+00:00"
   },
   {
     "id": "web3-muhammalif/evm-signature-verifier-1",
@@ -171,7 +171,33 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-06T13:12:25.154018+00:00"
+    "last_audited": "2026-10-06T19:26:11.907400+00:00"
+  },
+  {
+    "id": "web3-NSPG13/agent-bounties-1612",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "Maintainer notice: deploy AgentBountyFactoryV2 to Base mainnet and pin it",
+    "url": "https://github.com/NSPG13/agent-bounties/issues/1612",
+    "platform": "web3_github",
+    "repo_owner": "NSPG13",
+    "repo_name": "agent-bounties",
+    "issue_number": 1612,
+    "org_handle": "NSPG13",
+    "org_name": "NSPG13/agent-bounties",
+    "body": "## Intent\n\nThe owner approved a Base mainnet launch of autonomous-v2 and waived the independent review (see #1577). The launch goes in two PRs.\n\n**1. Deploy tooling.**\n- **Script.** `scripts/deploy_autonomous_v2_mainnet.py` has two modes:\n  - `plan` is a read-only preflight. It checks chain 8453, the USDC code, the fee terms, the keeper's balance and the predicted factory address.\n  - `deploy` refuses unless `BASE_KEEPER_PRIVATE_KEY` derives to the pinned keeper `0xc26a\u20265dbc`, and refuses if a mainnet v2 record already exists. It deploys with an explicit nonce, waits through RPC lag, and verifies on-chain that the token, fee bps, fee recipient and implementation (code present, v2 protocol hash) match. It then writes evidence with the runtime code hashes.\n- **Workflow.** `.github/workflows/autonomous-v2-mainnet-deploy.yml` runs the v2 Foundry tests and the read-only plan on every PR. It deploys only on a manual dispatch from `main` with an explicit confirmation input, under the shared keeper concurrency group.\n\n**2. Pin the deployment.** This PR follows the deployment:\n- `deployments/autonomous-v2-base-mainnet.json`;\n- `service-runtime` pins the mainnet factory, implementation and fee terms, so mainnet v2 settings are accepted only when they equal the pinned deployment;\n- docs and the ADR record the owner's waiver.\n\nLaunch fee terms: 750 bps to `0x884834E884d6e93462655A2820140aD03E6747bC`, settled in Base USDC `0x8335\u20262913`.\n\n## Planned file scope\n\n- `scripts/deploy_autonomous_v2_mainnet.py` (new), `scripts/test_deploy_autonomous_v2_mainnet.py` (new)\n- `.github/workflows/autonomous-v2-mainnet-deploy.yml` (new)\n- then `deployments/autonomous-v2-base-mainnet.json` (new), `crates/service-runtime/src/lib.rs`, `docs/autonomous-protocol.md`, `docs/adr/0006-protocol-v2-platform-fee-and-non-custodial-fiat.md`, `docs/base-sepolia-runbook.md`, `.env.example`\n\n## Open PR impact\n\nNone on these files. Production services deploy from the private runtime, so hosted v2 on mainnet also needs that runtime to adopt the public changes and set `BASE_MAINNET_BOUNTY_V2_*`. This PR does not change it.\n\n## Boundaries\n\n- The deployment costs the keeper gas only. It creates no bounty and moves no user funds.\n- The v1 factory and every existing bounty are untouched.\n- This notice is not bounty acceptance, payout approval or payment settlement.",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "solidity",
+      "python"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-06T19:26:12.108830+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -197,7 +223,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-06T13:12:25.435495+00:00"
+    "last_audited": "2026-10-06T19:26:12.344702+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -222,7 +248,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-10-06T13:12:25.719798+00:00"
+    "last_audited": "2026-10-06T19:26:12.577490+00:00"
   },
   {
     "id": "web3-ExcelDsigN-tech/dukapay-689",
@@ -248,7 +274,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-06T13:12:26.058821+00:00"
+    "last_audited": "2026-10-06T19:26:12.777804+00:00"
   },
   {
     "id": "web3-openscad/openscad-783",
@@ -275,7 +301,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 13,
-    "last_audited": "2026-10-06T13:12:26.336976+00:00"
+    "last_audited": "2026-10-06T19:26:13.001023+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -384,7 +410,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-06T13:12:26.603195+00:00"
+    "last_audited": "2026-10-06T19:26:13.231337+00:00"
   },
   {
     "id": "sec-ethereum/go-ethereum-35852",
@@ -409,7 +435,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-06T13:12:26.873125+00:00"
+    "last_audited": "2026-10-06T19:26:13.569594+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -434,7 +460,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-06T13:12:27.112272+00:00"
+    "last_audited": "2026-10-06T19:26:13.765064+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -459,7 +485,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-06T13:12:27.388009+00:00"
+    "last_audited": "2026-10-06T19:26:13.966413+00:00"
   },
   {
     "id": "sec-dadadave80/lattice-241",
@@ -484,7 +510,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-06T13:12:27.654421+00:00"
+    "last_audited": "2026-10-06T19:26:14.162966+00:00"
   },
   {
     "id": "sec-Nudgen-Marketing/mermail-skills-482",
@@ -509,7 +535,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-06T13:12:28.023365+00:00"
+    "last_audited": "2026-10-06T19:26:14.352119+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -534,7 +560,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-06T13:12:28.358530+00:00"
+    "last_audited": "2026-10-06T19:26:14.595494+00:00"
   },
   {
     "id": "sec-pancakeswap/pancake-v3-contracts-32",
@@ -559,7 +585,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 9,
-    "last_audited": "2026-10-06T13:12:28.638679+00:00"
+    "last_audited": "2026-10-06T19:26:14.826386+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -584,7 +610,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-06T13:12:28.896055+00:00"
+    "last_audited": "2026-10-06T19:26:15.056238+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -609,7 +635,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-06T13:12:29.270440+00:00"
+    "last_audited": "2026-10-06T19:26:15.286459+00:00"
+  },
+  {
+    "id": "sec-lissy93/bug-bounties-224",
+    "domain": "security",
+    "title": "[Program]: Epic Systems",
+    "url": "https://github.com/lissy93/bug-bounties/issues/224",
+    "platform": "github_security",
+    "repo_owner": "lissy93",
+    "repo_name": "bug-bounties",
+    "issue_number": 224,
+    "org_handle": "lissy93",
+    "org_name": "lissy93/bug-bounties",
+    "body": "### Company\n\nEpic Systems\n\n### Program URL\n\nhttps://www.epic.com/epic/page/reporting-potential-security-vulnerability/\n\n### Contact\n\nmailto:securitycontact@epic.com\n\n### Rewards\n\n- [ ] *bounty\n- [ ] *recognition\n- [ ] *swag\n\n### Program type\n\nvdp\n\n### Status\n\nactive\n\n### Description\n\nEpic Systems takes vulnerability reports from security researchers, penetration testing companies and anyone else by email or phone, and publishes a PGP key for sending the details securely. Epic community members are asked to report through their Epic technical services representative, and patients to the healthcare organization where they receive care. Epic says it does not offer compensation for reporting vulnerabilities.\n\n### Domains\n\n_No response_\n\n### Structured scope\n\n_No response_\n\n### Out of scope\n\n_No response_\n\n### Minimum payout\n\n_No response_\n\n### Maximum payout\n\n_No response_\n\n### Currency\n\n_No response_\n\n### Payout - critical\n\n_No response_\n\n### Payout - high\n\n_No response_\n\n### Payout - medium\n\n_No response_\n\n### Payout - low\n\n_No response_\n\n### Testing policy URL\n\n_No response_\n\n### Excluded methods\n\n- [ ] dos\n- [ ] social_engineering\n- [ ] phishing\n- [ ] physical_access\n- [ ] automated_scanning\n\n### Requires account\n\n_No response_\n\n### Safe harbor\n\n_No response_\n\n### Allows disclosure\n\n_No response_\n\n### Disclosure timeline days\n\n_No response_\n\n### Response SLA days\n\n_No response_\n\n### Legal terms URL\n\n_No response_\n\n### Hall of fame URL\n\n_No response_\n\n### Swag details\n\n_No response_\n\n### Reporting URL\n\n_No response_\n\n### PGP key URL\n\nhttps://www.epic.com/.well-known/pgpkey.txt\n\n### Preferred languages\n\nEnglish\n\n### Standards\n\n_No response_\n\n### Confirmation\n\n- [X] I confirm the information is accurate and I have included only publicly documented program details.\n",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 1,
+    "last_audited": "2026-10-06T19:26:15.478656+00:00"
   },
   {
     "id": "sec-yarilomail/yarilo-2105",
@@ -634,7 +685,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-06T13:12:29.530236+00:00"
+    "last_audited": "2026-10-06T19:26:15.687239+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -659,32 +710,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-06T13:12:29.776940+00:00"
-  },
-  {
-    "id": "sec-AudioBitsStellar/AudioBlock_Backend-510",
-    "domain": "security",
-    "title": "Write a bug bounty program setup document",
-    "url": "https://github.com/AudioBitsStellar/AudioBlock_Backend/issues/510",
-    "platform": "github_security",
-    "repo_owner": "AudioBitsStellar",
-    "repo_name": "AudioBlock_Backend",
-    "issue_number": 510,
-    "org_handle": "AudioBitsStellar",
-    "org_name": "AudioBitsStellar/AudioBlock_Backend",
-    "body": "## Problem / Context\nThere is a docs/SECURITY_POLICY.md but no defined bug bounty scope/rewards for external security researchers.\n\n## Proposed approach\nDraft a proposal document covering in-scope assets, reward tiers, and submission process for maintainer review.\n\n## Acceptance criteria\n- [ ] Document covers scope, rewards, and process\n- [ ] Reviewed by a maintainer before any public announcement",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 5,
-    "last_audited": "2026-10-06T13:12:30.110977+00:00"
+    "last_audited": "2026-10-06T19:26:15.900159+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -709,7 +735,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-06T13:12:30.365509+00:00"
+    "last_audited": "2026-10-06T19:26:16.065594+00:00"
   },
   {
     "id": "sec-SecOpsNews/news-74729",
@@ -734,7 +760,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-06T13:12:30.618900+00:00"
+    "last_audited": "2026-10-06T19:26:16.294106+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-279",
@@ -759,7 +785,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-06T13:12:30.878298+00:00"
+    "last_audited": "2026-10-06T19:26:16.495180+00:00"
   },
   {
     "id": "sec-SecOpsNews/news-74720",
@@ -783,8 +809,8 @@
     "status": "active",
     "solvability_score": 85.0,
     "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-06T13:12:31.111274+00:00"
+    "comments_count": 1,
+    "last_audited": "2026-10-06T19:26:16.731189+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -809,7 +835,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-10-06T13:12:31.348034+00:00"
+    "last_audited": "2026-10-06T19:26:16.998143+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -834,7 +860,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-06T13:12:31.624895+00:00"
+    "last_audited": "2026-10-06T19:26:17.252842+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -859,7 +885,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-06T13:12:31.869599+00:00"
+    "last_audited": "2026-10-06T19:26:17.435303+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -884,7 +910,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-06T13:12:32.169574+00:00"
+    "last_audited": "2026-10-06T19:26:17.670655+00:00"
   },
   {
     "id": "sec-abdulsalam-create/bounty-watch-27",
@@ -909,7 +935,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-06T13:12:32.428303+00:00"
+    "last_audited": "2026-10-06T19:26:17.868261+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -934,7 +960,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-06T13:12:32.675090+00:00"
+    "last_audited": "2026-10-06T19:26:18.051333+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -959,7 +985,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-06T13:12:32.943170+00:00"
+    "last_audited": "2026-10-06T19:26:18.247987+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -984,7 +1010,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-06T13:12:33.211883+00:00"
+    "last_audited": "2026-10-06T19:26:18.469712+00:00"
+  },
+  {
+    "id": "sec-vansh-09/BountyScout-448",
+    "domain": "security",
+    "title": "\ud83c\udfaf Bounty Alert: 26 New Opportunityies found",
+    "url": "https://github.com/vansh-09/BountyScout/issues/448",
+    "platform": "github_security",
+    "repo_owner": "vansh-09",
+    "repo_name": "BountyScout",
+    "issue_number": 448,
+    "org_handle": "vansh-09",
+    "org_name": "vansh-09/BountyScout",
+    "body": "### Active Bounty Scan Results\n\n**Scan Time:** 2026-07-21 05:48 UTC\n\n#### 1. [\ud83c\udfaf Bounty Alert: 27 New Opportunityies found](https://github.com/freedom-winds/BountyScout/issues/174)\n- **Repository:** [freedom-winds/BountyScout](https://github.com/freedom-winds/BountyScout)\n- **Comments:** 0\n- **Last Updated:** 2026-07-21T05:48:36Z\n\n#### 2. [[Feature]: Gamified Peer-to-Peer Mentorship & Bounty System](https://github.com/uditt490-pixel/YuvaHub/issues/229)\n- **Repository:** [uditt490-pixel/YuvaHub](https://github.com/uditt490-pixel/YuvaHub)\n- **Comments:** 0\n- **Last Updated:** 2026-07-21T05:29:49Z\n\n#### 3. [[BOUNTY] [READY FOR AGENT] [$100 USD] Adds new station event, the Metamorphosis by Franz Kafka](https://github.com/Iamgoofball/-tg-station/issues/61)\n- **Repository:** [Iamgoofball/-tg-station](https://github.com/Iamgoofball/-tg-station)\n- **Comments:** 0\n- **Last Updated:** 2026-07-21T05:27:20Z\n\n#### 4. [Add listing: Bug Bounty Intelligence \u2014 smart contract security scan,  USDC, Base](https://github.com/paidmcp/directory/issues/6)\n- **Repository:** [paidmcp/directory](https://github.com/paidmcp/directory)\n- **Comments:** 0\n- **Last Updated:** 2026-07-21T05:27:10Z\n\n#### 5. [Add to tool registry: Bug Bounty Intelligence \u2014 smart contract security, x402 paid](https://github.com/guorui999/func-hub/issues/1)\n- **Repository:** [guorui999/func-hub](https://github.com/guorui999/func-hub)\n- **Comments:** 0\n- **Last Updated:** 2026-07-21T05:25:42Z\n\n#### 6. [[Bug bounty] WSL repair action cannot supply sudo password in an existing Ubuntu distro](https://github.com/monk-io/monk-plugin/issues/121)\n- **Repository:** [monk-io/monk-plugin](https://github.com/monk-io/monk-plugin)\n- **Comments:** 0\n- **Last Updated:** 2026-07-21T05:24:48Z\n\n#### 7. [Bounty payout to a contributor with no linked Stellar address silently releases to an empty-string recipient](https://github.com/MergeFi/backend/issues/18)\n- **Repository:** [MergeFi/backend](https://github.com/MergeFi/backend)\n- **Comments:** 0\n- **Last Updated:** 2026-07-21T05:12:40Z\n\n#### 8. [[Bug bounty] Antigravity Windows hook-started companion survives official uninstaller](https://github.com/monk-io/monk-plugin/issues/120)\n- **Repository:** [monk-io/monk-plugin](https://github.com/monk-io/monk-plugin)\n- **Comments:** 0\n- **Last Updated:** 2026-07-21T05:12:20Z\n\n#### 9. [Add MCP server: BountyVerdict Agent Decision Tools](https://github.com/TensorBlock/awesome-mcp-servers/issues/1311)\n- **Repository:** [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers)\n- **Comments:** 2\n- **Last Updated:** 2026-07-21T05:04:26Z\n\n#### 10. [[Bug bounty] Credential mode selector exposes no selected state](https://github.com/monk-io/monk-plugin/issues/119)\n- **Repository:** [monk-io/monk-plugin](https://github.com/monk-io/monk-plugin)\n- **Comments:** 0\n- **Last Updated:** 2026-07-21T05:04:11Z\n\n#### 11. [[Bug bounty] Codex exec cancels every Monk MCP tool call without prompting](https://github.com/monk-io/monk-plugin/issues/113)\n- **Repository:** [monk-io/monk-plugin](https://github.com/monk-io/monk-plugin)\n- **Comments:** 0\n- **Last Updated:** 2026-07-21T05:03:52Z\n\n#### 12. [[READY FOR AGENT] [OPEN] [$150 USD Opire Bounty] Replace security weapons with a more appropriate tool](https://github.com/Iamgoofball/-tg-station/issues/58)\n- **Repository:** [Iamgoofball/-tg-station](https://github.com/Iamgoofball/-tg-station)\n- **Comments:** 4\n- **Last Updated:** 2026-07-21T05:03:42Z\n\n#### 13. [[Bounty] [BOUNTY] [READY FOR AGENT] [100-300$USD Opire] Design a new antagonist](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/589)\n- **Repository:** [zhangjiayang6835-cyber/bounty-plaza](https://github.com/zhangjiayang6835-cyber/bounty-plaza)\n- **Comments:** 2\n- **Last Updated:** 2026-07-21T05:00:56Z\n\n#### 14. [[Bounty] [paid PR Opire bounty] [HIGH PRIORITY] [$50] Add the Dentist job with teeth orga](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/588)\n- **Repository:** [zhangjiayang6835-cyber/bounty-plaza](https://github.com/zhangjiayang6835-cyber/bounty-plaza)\n- **Comments:** 2\n- **Last Updated:** 2026-07-21T05:00:48Z\n\n#### 15. [[BOUNTY] [READY FOR AGENT] [$950 USD] ADD DAILY QUESTS FOR SECURITY TO BOOST PLAYER ENGAGEMENT](https://github.com/Iamgoofball/-tg-station/issues/59)\n- **Repository:** [Iamgoofball/-tg-station](https://github.com/Iamgoofball/-tg-station)\n- **Comments:** 2\n- **Last Updated:** 2026-07-21T05:00:43Z\n\n#### 16. [[Bounty] [READY FOR AGENT] [$250 USD Opire Bounty] translate all user-facing text](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/584)\n- **Repository:** [zhangjiayang6835-cyber/bounty-plaza](https://github.com/zhangjiayang6835-cyber/bounty-plaza)\n- **Comments:** 1\n- **Last Updated:** 2026-07-21T05:00:41Z\n\n#### 17. [[Bounty] [BOUNTY] [AGENT READY] [$200 USD] Increase immersion and user satisfaction by ad](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/586)\n- **Repository:** [zhangjiayang6835-cyber/bounty-plaza](https://github.com/zhangjiayang6835-cyber/bounty-plaza)\n- **Comments:** 1\n- **Last Updated:** 2026-07-21T05:00:37Z\n\n#### 18. [[Bounty] [paid PR opire bounty $250 TG USD CREDS] [EASY TASK FOR AGENTS] [AGENTIC] Implem](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/590)\n- **Repository:** [zhangjiayang6835-cyber/bounty-plaza](https://github.com/zhangjiayang6835-cyber/bounty-plaza)\n- **Comments:** 2\n- **Last Updated:** 2026-07-21T05:00:35Z\n\n#### 19. [[paid PR Opire bounty] [HIGH PRIORITY] [$50] Add the Dentist job with teeth organs.](https://github.com/Iamgoofball/-tg-station/issues/49)\n- **Repository:** [Iamgoofball/-tg-station](https://github.com/Iamgoofball/-tg-station)\n- **Comments:** 2\n- **Last Updated:** 2026-07-21T04:37:08Z\n\n#### 20. [[paid PR Opire bounty] [$10] Fix the clown not being able to do backflips.](https://github.com/Iamgoofball/-tg-station/issues/50)\n- **Repository:** [Iamgoofball/-tg-station](https://github.com/Iamgoofball/-tg-station)\n- **Comments:** 0\n- **Last Updated:** 2026-07-21T04:36:56Z\n\n#### 21. [[Bounty] [BOUNTY] [PAID BOUNTY] [$25] Make the bar fish sing](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/587)\n- **Repository:** [zhangjiayang6835-cyber/bounty-plaza](https://github.com/zhangjiayang6835-cyber/bounty-plaza)\n- **Comments:** 0\n- **Last Updated:** 2026-07-21T04:33:46Z\n\n#### 22. [[READY FOR AGENT] [$250 USD Opire Bounty] translate all user-facing text](https://github.com/Iamgoofball/-tg-station/issues/57)\n- **Repository:** [Iamgoofball/-tg-station](https://github.com/Iamgoofball/-tg-station)\n- **Comments:** 3\n- **Last Updated:** 2026-07-21T04:33:10Z\n\n#### 23. [Option to not show posts of people I'm following when browsing a specific relay set](https://github.com/CodyTseng/jumble/issues/157)\n- **Repository:** [CodyTseng/jumble](https://github.com/CodyTseng/jumble)\n- **Comments:** 7\n- **Last Updated:** 2026-07-21T04:25:43Z\n\n#### 24. [[demand] high-priority 2026-07-21T04:23](https://github.com/relayhop/ClaudeEarnSelf-runtime/issues/342)\n- **Repository:** [relayhop/ClaudeEarnSelf-runtime](https://github.com/relayhop/ClaudeEarnSelf-runtime)\n- **Comments:** 0\n- **Last Updated:** 2026-07-21T04:23:00Z\n\n#### 25. [[BOUNTY] [PAID BOUNTY] [$40] [paid opire bounty] Add enterprise resource planning](https://github.com/Iamgoofball/-tg-station/issues/55)\n- **Repository:** [Iamgoofball/-tg-station](https://github.com/Iamgoofball/-tg-station)\n- **Comments:** 5\n- **Last Updated:** 2026-07-21T04:51:19Z\n\n#### 26. [[Bounty] [BOUNTY] [PAID BOUNTY] [$40] [paid opire bounty] Add enterprise resource plannin](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/585)\n- **Repository:** [zhangjiayang6835-cyber/bounty-plaza](https://github.com/zhangjiayang6835-cyber/bounty-plaza)\n- **Comments:** 0\n- **Last Updated:** 2026-07-21T04:33:45Z\n\n",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 2,
+    "last_audited": "2026-10-06T19:26:18.679985+00:00"
   },
   {
     "id": "gh-piotrwitek/typesafe-actions-139",
@@ -1009,7 +1060,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-06T13:12:33.473594+00:00"
+    "last_audited": "2026-10-06T19:26:18.907684+00:00"
   },
   {
     "id": "web3-owocki-bot/ai-bounty-board-42",
@@ -1035,7 +1086,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-06T13:12:33.727926+00:00"
+    "last_audited": "2026-10-06T19:26:19.115191+00:00"
   },
   {
     "id": "web3-p2arthur/fullstack-kanban-1",
@@ -1064,7 +1115,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-06T13:12:33.962865+00:00"
+    "last_audited": "2026-10-06T19:26:19.326122+00:00"
   },
   {
     "id": "web3-ResearchHub/issues-716",
@@ -1090,7 +1141,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-06T13:12:34.242245+00:00"
+    "last_audited": "2026-10-06T19:26:20.536189+00:00"
   },
   {
     "id": "gh-osmesirius-ship-it/DAX_DA13-DA13x2-13",
@@ -1114,29 +1165,7 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-06T13:12:34.478017+00:00"
-  },
-  {
-    "id": "gh-strias-ai/mcp-embodied-actuator-madrid-1",
-    "title": "MCP Slot Request - Embodied Physical Execution",
-    "url": "https://github.com/strias-ai/mcp-embodied-actuator-madrid/issues/1",
-    "platform": "opire",
-    "repo_owner": "strias-ai",
-    "repo_name": "mcp-embodied-actuator-madrid",
-    "issue_number": 1,
-    "org_handle": "strias-ai",
-    "org_name": "strias-ai/mcp-embodied-actuator-madrid",
-    "body": "### Model Context Protocol Reservation Request\n\n- **Agent Name:** \n- **Tool Protocol:** MCP Standard / Tool Use\n- **Requested Hardware:** Rover 5G / Quadcopter\n- **Preferred Payment:** USDC / SEPA\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #1</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @strias-ai</code> (replace <code>20</code> with the amount, and <code>@strias-ai</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 60.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-06T13:12:34.732540+00:00"
+    "last_audited": "2026-10-06T19:26:20.709499+00:00"
   },
   {
     "id": "web3-p2arthur/fullstack-kanban-3",
@@ -1163,7 +1192,7 @@
     "solvability_score": 55.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-06T13:12:34.959787+00:00"
+    "last_audited": "2026-10-06T19:26:21.899817+00:00"
   },
   {
     "id": "web3-tetherless-world/whyis-237",
@@ -1189,7 +1218,7 @@
     "solvability_score": 55.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-06T13:12:35.214736+00:00"
+    "last_audited": "2026-10-06T19:26:22.122533+00:00"
   },
   {
     "id": "web3-javokhir-sec/awesome-bugbounty-resources-2",
@@ -1215,7 +1244,7 @@
     "solvability_score": 55.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-06T13:12:35.452311+00:00"
+    "last_audited": "2026-10-06T19:26:22.321756+00:00"
   },
   {
     "id": "gh-patsissons/gitcoin-bounties-1",
@@ -1234,10 +1263,7 @@
     "status": "active",
     "domain": "code",
     "competitor_prs": 0,
-    "solvability_score": 50.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-06T13:12:35.679901+00:00"
+    "solvability_score": 50.0
   },
   {
     "id": "gh-gitcoinco/gitcoin_co_30-511",
