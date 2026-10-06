@@ -1,12 +1,12 @@
 # 🎯 MicroBountyHarvest - Daily Status Report
-*Generated on: `2026-10-06 05:54:37 UTC`*
+*Generated on: `2026-10-06 13:12:23 UTC`*
 
 ## 📊 Executive Summary
 
 | Metric | Value |
 |---|---|
 | **Active Open Bounties** | **68** |
-| **Open Bounty Pipeline Value** | **$8,712.00** |
+| **Open Bounty Pipeline Value** | **$8,802.00** |
 | **Total Solved Bounties** | **110** |
 | **Solved Bounties Value** | **$11,910.00** |
 | **Ready to Claim (Local Fix Tested)** | **21** |
@@ -38,7 +38,7 @@
 | 18 | `[KAGGLE]` | `kaggle/titanic#1` | kaggle | **$100 (Badge)** | `open` | 🟡 Submitted | [Submission CSV](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/kaggle_submissions/titanic/submission.csv) |
 | 19 | `[KAGGLE]` | `kaggle/spaceship-titanic#1` | kaggle | **$250 (Bounty)** | `open` | 🟡 Submitted | [Submission CSV](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/kaggle_submissions/spaceship-titanic/submission.csv) |
 | 20 | `[SECURITY]` | `benelabs/crucible#926` | github_security | **$150** | `closed` | ⚪ Closed | [Advisory Report](/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_benelabs_crucible_926.md) |
-| 21 | `[CODE]` | `NightVibes33/Filza-27#46` | opire | **$50** | `open` | ⚪ Closed | [PR Link](https://github.com/NightVibes33/Filza-27/pull/50) |
+| 21 | `[CODE]` | `NightVibes33/Filza-27#46` | opire | **$50** | `closed` | ⚪ Closed | [PR Link](https://github.com/NightVibes33/Filza-27/pull/50) |
 | 22 | `[CODE]` | `ETK2456/usdt-tracker#1` | opire | **$50** | `open` | 🟡 Submitted | [PR Link](https://github.com/ETK2456/usdt-tracker/pull/2) |
 | 23 | `[CODE]` | `HarrieAlexandrowicz5/gorm#1` | opire | **$50** | `open` | ⚪ Closed | [PR Link](https://github.com/HarrieAlexandrowicz5/gorm/pull/7) |
 | 24 | `[WEB3_DESCI]` | `holistis/bug-bounty-intelligence-mcp#3` | web3_github | **$100** | `open` | 🟡 Submitted | [PR Link](https://github.com/holistis/bug-bounty-intelligence-mcp/pull/5) |
