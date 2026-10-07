@@ -19,7 +19,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-07T13:07:28.479120+00:00"
+    "last_audited": "2026-10-07T19:53:10.195777+00:00"
   },
   {
     "id": "gh-richa2014/richa-money-agent-4",
@@ -41,7 +41,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 8,
-    "last_audited": "2026-10-07T13:07:28.843873+00:00"
+    "last_audited": "2026-10-07T19:53:10.436467+00:00"
   },
   {
     "id": "gh-chenzilin100/StellarBladeTrainer-Releases-5",
@@ -63,7 +63,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-07T13:07:29.216873+00:00"
+    "last_audited": "2026-10-07T19:53:10.639630+00:00"
   },
   {
     "id": "gh-future-architect/vuls-777",
@@ -85,7 +85,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-07T13:07:29.606753+00:00"
+    "last_audited": "2026-10-07T19:53:10.883717+00:00"
   },
   {
     "id": "gh-marktext/marktext-375",
@@ -111,7 +111,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 54,
-    "last_audited": "2026-10-07T13:07:30.032261+00:00"
+    "last_audited": "2026-10-07T19:53:11.141233+00:00"
   },
   {
     "id": "web3-Chain-Love/chain-love-4057",
@@ -137,7 +137,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-07T13:07:30.423981+00:00"
+    "last_audited": "2026-10-07T19:53:11.405749+00:00"
   },
   {
     "id": "web3-anthropics/claude-code-96705",
@@ -167,7 +167,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-07T13:07:30.843138+00:00"
+    "last_audited": "2026-10-07T19:53:11.679580+00:00"
   },
   {
     "id": "web3-verdikta/verdikta-applications-47",
@@ -193,7 +193,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-07T13:07:31.223461+00:00"
+    "last_audited": "2026-10-07T19:53:11.916131+00:00"
   },
   {
     "id": "web3-muhammalif/evm-signature-verifier-1",
@@ -219,32 +219,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-07T13:07:31.607095+00:00"
-  },
-  {
-    "id": "web3-w3hc/longjing-168",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "Add note settlement to LongjingCredits",
-    "url": "https://github.com/w3hc/longjing/issues/168",
-    "platform": "web3_github",
-    "repo_owner": "w3hc",
-    "repo_name": "longjing",
-    "issue_number": 168,
-    "org_handle": "w3hc",
-    "org_name": "w3hc/longjing",
-    "body": "### Problem\n\n`withdraw` returns the whole stake, refunds are paid from the pool, and whoever slashes collects the whole stake, so an owner can slash their own note (LJ-01).\n\n### Proposed solution\n\n- Notes keyed by `c`, leaf computed onchain from `msg.value`, immutable `C_MAX` and `SLASH_BOUNTY`\n- `initiateWithdrawal` / `finalizeWithdrawal` with challenge window `W` (3 days), the leaf removed on initiation, `P \u2264 D` enforced\n- `slash(k)`: the caller gets the bounty and the rest goes to `operatorBalance`\n- A root history, a set of accepted refund keys (rotation timelocked)\n- Remove `redeemRefund`, the policy stake and `slashPolicyStake`\n- Remove `refund_redemption`, `double_spend_slashing` and their verifiers, and wire `SettlementVerifier`\n\n### Acceptance criteria\n\n- [ ] Foundry tests with real verifiers: an honest exit, an understated exit slashed in the window, self-slash pays only the bounty, `claimExpired` blocked while a withdrawal is pending\n- [ ] Pausing never blocks initiate, finalize or slash\n- [ ] Each note pays out at most D in total\n",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "enhancement"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-07T13:07:31.999168+00:00"
+    "last_audited": "2026-10-07T19:53:12.147494+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -270,7 +245,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-07T13:07:32.413641+00:00"
+    "last_audited": "2026-10-07T19:53:12.361418+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -295,7 +270,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-10-07T13:07:32.789192+00:00"
+    "last_audited": "2026-10-07T19:53:12.572075+00:00"
   },
   {
     "id": "web3-ExcelDsigN-tech/dukapay-689",
@@ -321,7 +296,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-07T13:07:33.141042+00:00"
+    "last_audited": "2026-10-07T19:53:12.786610+00:00"
   },
   {
     "id": "web3-openscad/openscad-783",
@@ -348,7 +323,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 13,
-    "last_audited": "2026-10-07T13:07:33.531625+00:00"
+    "last_audited": "2026-10-07T19:53:13.023009+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -457,7 +432,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-07T13:07:33.876866+00:00"
+    "last_audited": "2026-10-07T19:53:13.275320+00:00"
   },
   {
     "id": "sec-ethereum/go-ethereum-35852",
@@ -482,7 +457,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-07T13:07:34.238959+00:00"
+    "last_audited": "2026-10-07T19:53:13.498259+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -507,7 +482,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-07T13:07:34.584038+00:00"
+    "last_audited": "2026-10-07T19:53:13.740747+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -532,7 +507,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-07T13:07:35.010847+00:00"
+    "last_audited": "2026-10-07T19:53:14.013879+00:00"
   },
   {
     "id": "sec-dadadave80/lattice-241",
@@ -557,7 +532,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-07T13:07:35.339811+00:00"
+    "last_audited": "2026-10-07T19:53:14.220512+00:00"
   },
   {
     "id": "sec-Nudgen-Marketing/mermail-skills-482",
@@ -582,7 +557,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-07T13:07:35.757742+00:00"
+    "last_audited": "2026-10-07T19:53:14.432968+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -607,20 +582,20 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-07T13:07:36.138922+00:00"
+    "last_audited": "2026-10-07T19:53:14.659682+00:00"
   },
   {
-    "id": "sec-pancakeswap/pancake-v3-contracts-32",
+    "id": "sec-Logorythmus-org/Menog-os-8",
     "domain": "security",
-    "title": "Bug Bounty",
-    "url": "https://github.com/pancakeswap/pancake-v3-contracts/issues/32",
+    "title": "P0: establish a private security reporting channel",
+    "url": "https://github.com/Logorythmus-org/Menog-os/issues/8",
     "platform": "github_security",
-    "repo_owner": "pancakeswap",
-    "repo_name": "pancake-v3-contracts",
-    "issue_number": 32,
-    "org_handle": "pancakeswap",
-    "org_name": "pancakeswap/pancake-v3-contracts",
-    "body": "Hi,\n\nI believe I have identified a potentially high-severity vulnerability affecting `MasterChefV3` and related PancakeSwap V3 components. I have a fully reproducible PoC and integration tests demonstrating the issue on unmodified production code.\n\nI attempted to report this through the official channels, but I was unable to reach the appropriate security contact, and I currently cannot use Immunefi due to its KYC requirements.\n\nCould you please provide an official private reporting channel (security email, PGP key, or another secure contact method) so I can disclose the details responsibly?\n\nAs this concerns a potential security issue, I would appreciate it if this issue could be closed or removed to avoid unnecessary public exposure.\n",
+    "repo_owner": "Logorythmus-org",
+    "repo_name": "Menog-os",
+    "issue_number": 8,
+    "org_handle": "Logorythmus-org",
+    "org_name": "Logorythmus-org/Menog-os",
+    "body": "## Goal\n\nClose the public security-reporting gap before the first tagged release.\n\n## Current state\n\n`SECURITY.md` correctly states that the private reporting channel is **NOT AVAILABLE**.\nNormal bugs may be filed publicly, but security-sensitive reports currently have no usable\nconfidential destination.\n\n## Required human decision\n\nChoose and establish at least one real private reporting path:\n\n- a monitored security mailbox, preferably with an OpenPGP public key/fingerprint; and/or\n- GitHub Private Vulnerability Reporting, if enabled for this repository.\n\nDo not publish a placeholder address or fingerprint.\n\n## Completion criteria\n\n- `SECURITY.md` names a working confidential reporting path;\n- the channel is tested end-to-end;\n- expected acknowledgement/disclosure language matches the actual process;\n- no public issue/PR is required for embargoed findings;\n- the repository does not claim a bug bounty unless one actually exists.\n\n## Scope\n\nSecurity-reporting operations and documentation only. No runtime behavior, release, or deployment change.",
     "reward_usd": 150.0,
     "reward_formatted": "$150",
     "tech": [
@@ -631,8 +606,33 @@
     "status": "active",
     "solvability_score": 85.0,
     "live_status": "open",
-    "comments_count": 9,
-    "last_audited": "2026-10-07T13:07:36.519752+00:00"
+    "comments_count": 0,
+    "last_audited": "2026-10-07T19:53:14.891068+00:00"
+  },
+  {
+    "id": "sec-cerebruminc/bug-bounty-14",
+    "domain": "security",
+    "title": "bug bounty programs",
+    "url": "https://github.com/cerebruminc/bug-bounty/issues/14",
+    "platform": "github_security",
+    "repo_owner": "cerebruminc",
+    "repo_name": "bug-bounty",
+    "issue_number": 14,
+    "org_handle": "cerebruminc",
+    "org_name": "cerebruminc/bug-bounty",
+    "body": "Hello Team,\n\nThis is Deepak, An Independent Cyber Security Researcher And Bug Hunter From India\n\nFirst of all, I want to know if there are any active bug bounty programs you're running for your website. If so, then I'll begin my research for your website.\n\nThank You!\n",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-07T19:53:15.130583+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -657,7 +657,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-07T13:07:36.938777+00:00"
+    "last_audited": "2026-10-07T19:53:15.357274+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -682,7 +682,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-07T13:07:37.316208+00:00"
+    "last_audited": "2026-10-07T19:53:15.597519+00:00"
   },
   {
     "id": "sec-yarilomail/yarilo-2105",
@@ -707,7 +707,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-07T13:07:37.691024+00:00"
+    "last_audited": "2026-10-07T19:53:15.824597+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -732,32 +732,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-07T13:07:38.074448+00:00"
-  },
-  {
-    "id": "sec-AudioBitsStellar/AudioBlock_Backend-510",
-    "domain": "security",
-    "title": "Write a bug bounty program setup document",
-    "url": "https://github.com/AudioBitsStellar/AudioBlock_Backend/issues/510",
-    "platform": "github_security",
-    "repo_owner": "AudioBitsStellar",
-    "repo_name": "AudioBlock_Backend",
-    "issue_number": 510,
-    "org_handle": "AudioBitsStellar",
-    "org_name": "AudioBitsStellar/AudioBlock_Backend",
-    "body": "## Problem / Context\nThere is a docs/SECURITY_POLICY.md but no defined bug bounty scope/rewards for external security researchers.\n\n## Proposed approach\nDraft a proposal document covering in-scope assets, reward tiers, and submission process for maintainer review.\n\n## Acceptance criteria\n- [ ] Document covers scope, rewards, and process\n- [ ] Reviewed by a maintainer before any public announcement",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 5,
-    "last_audited": "2026-10-07T13:07:38.452545+00:00"
+    "last_audited": "2026-10-07T19:53:16.056302+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -782,7 +757,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-07T13:07:38.829679+00:00"
+    "last_audited": "2026-10-07T19:53:16.255917+00:00"
   },
   {
     "id": "sec-SecOpsNews/news-74729",
@@ -807,7 +782,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-07T13:07:39.235336+00:00"
+    "last_audited": "2026-10-07T19:53:16.454131+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-279",
@@ -832,7 +807,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-07T13:07:40.635148+00:00"
+    "last_audited": "2026-10-07T19:53:16.629024+00:00"
   },
   {
     "id": "sec-SecOpsNews/news-74720",
@@ -857,7 +832,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-07T13:07:41.010110+00:00"
+    "last_audited": "2026-10-07T19:53:16.825795+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -882,7 +857,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-10-07T13:07:41.416935+00:00"
+    "last_audited": "2026-10-07T19:53:17.022390+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -907,7 +882,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-07T13:07:41.782638+00:00"
+    "last_audited": "2026-10-07T19:53:17.209027+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -932,7 +907,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-07T13:07:42.124858+00:00"
+    "last_audited": "2026-10-07T19:53:17.492786+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -957,7 +932,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-07T13:07:42.506456+00:00"
+    "last_audited": "2026-10-07T19:53:17.769998+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -982,7 +957,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-07T13:07:43.142910+00:00"
+    "last_audited": "2026-10-07T19:53:17.943221+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -1007,7 +982,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-07T13:07:43.534127+00:00"
+    "last_audited": "2026-10-07T19:53:18.179563+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1032,32 +1007,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-07T13:07:43.964593+00:00"
-  },
-  {
-    "id": "sec-vansh-09/BountyScout-448",
-    "domain": "security",
-    "title": "\ud83c\udfaf Bounty Alert: 26 New Opportunityies found",
-    "url": "https://github.com/vansh-09/BountyScout/issues/448",
-    "platform": "github_security",
-    "repo_owner": "vansh-09",
-    "repo_name": "BountyScout",
-    "issue_number": 448,
-    "org_handle": "vansh-09",
-    "org_name": "vansh-09/BountyScout",
-    "body": "### Active Bounty Scan Results\n\n**Scan Time:** 2026-07-21 05:48 UTC\n\n#### 1. [\ud83c\udfaf Bounty Alert: 27 New Opportunityies found](https://github.com/freedom-winds/BountyScout/issues/174)\n- **Repository:** [freedom-winds/BountyScout](https://github.com/freedom-winds/BountyScout)\n- **Comments:** 0\n- **Last Updated:** 2026-07-21T05:48:36Z\n\n#### 2. [[Feature]: Gamified Peer-to-Peer Mentorship & Bounty System](https://github.com/uditt490-pixel/YuvaHub/issues/229)\n- **Repository:** [uditt490-pixel/YuvaHub](https://github.com/uditt490-pixel/YuvaHub)\n- **Comments:** 0\n- **Last Updated:** 2026-07-21T05:29:49Z\n\n#### 3. [[BOUNTY] [READY FOR AGENT] [$100 USD] Adds new station event, the Metamorphosis by Franz Kafka](https://github.com/Iamgoofball/-tg-station/issues/61)\n- **Repository:** [Iamgoofball/-tg-station](https://github.com/Iamgoofball/-tg-station)\n- **Comments:** 0\n- **Last Updated:** 2026-07-21T05:27:20Z\n\n#### 4. [Add listing: Bug Bounty Intelligence \u2014 smart contract security scan,  USDC, Base](https://github.com/paidmcp/directory/issues/6)\n- **Repository:** [paidmcp/directory](https://github.com/paidmcp/directory)\n- **Comments:** 0\n- **Last Updated:** 2026-07-21T05:27:10Z\n\n#### 5. [Add to tool registry: Bug Bounty Intelligence \u2014 smart contract security, x402 paid](https://github.com/guorui999/func-hub/issues/1)\n- **Repository:** [guorui999/func-hub](https://github.com/guorui999/func-hub)\n- **Comments:** 0\n- **Last Updated:** 2026-07-21T05:25:42Z\n\n#### 6. [[Bug bounty] WSL repair action cannot supply sudo password in an existing Ubuntu distro](https://github.com/monk-io/monk-plugin/issues/121)\n- **Repository:** [monk-io/monk-plugin](https://github.com/monk-io/monk-plugin)\n- **Comments:** 0\n- **Last Updated:** 2026-07-21T05:24:48Z\n\n#### 7. [Bounty payout to a contributor with no linked Stellar address silently releases to an empty-string recipient](https://github.com/MergeFi/backend/issues/18)\n- **Repository:** [MergeFi/backend](https://github.com/MergeFi/backend)\n- **Comments:** 0\n- **Last Updated:** 2026-07-21T05:12:40Z\n\n#### 8. [[Bug bounty] Antigravity Windows hook-started companion survives official uninstaller](https://github.com/monk-io/monk-plugin/issues/120)\n- **Repository:** [monk-io/monk-plugin](https://github.com/monk-io/monk-plugin)\n- **Comments:** 0\n- **Last Updated:** 2026-07-21T05:12:20Z\n\n#### 9. [Add MCP server: BountyVerdict Agent Decision Tools](https://github.com/TensorBlock/awesome-mcp-servers/issues/1311)\n- **Repository:** [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers)\n- **Comments:** 2\n- **Last Updated:** 2026-07-21T05:04:26Z\n\n#### 10. [[Bug bounty] Credential mode selector exposes no selected state](https://github.com/monk-io/monk-plugin/issues/119)\n- **Repository:** [monk-io/monk-plugin](https://github.com/monk-io/monk-plugin)\n- **Comments:** 0\n- **Last Updated:** 2026-07-21T05:04:11Z\n\n#### 11. [[Bug bounty] Codex exec cancels every Monk MCP tool call without prompting](https://github.com/monk-io/monk-plugin/issues/113)\n- **Repository:** [monk-io/monk-plugin](https://github.com/monk-io/monk-plugin)\n- **Comments:** 0\n- **Last Updated:** 2026-07-21T05:03:52Z\n\n#### 12. [[READY FOR AGENT] [OPEN] [$150 USD Opire Bounty] Replace security weapons with a more appropriate tool](https://github.com/Iamgoofball/-tg-station/issues/58)\n- **Repository:** [Iamgoofball/-tg-station](https://github.com/Iamgoofball/-tg-station)\n- **Comments:** 4\n- **Last Updated:** 2026-07-21T05:03:42Z\n\n#### 13. [[Bounty] [BOUNTY] [READY FOR AGENT] [100-300$USD Opire] Design a new antagonist](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/589)\n- **Repository:** [zhangjiayang6835-cyber/bounty-plaza](https://github.com/zhangjiayang6835-cyber/bounty-plaza)\n- **Comments:** 2\n- **Last Updated:** 2026-07-21T05:00:56Z\n\n#### 14. [[Bounty] [paid PR Opire bounty] [HIGH PRIORITY] [$50] Add the Dentist job with teeth orga](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/588)\n- **Repository:** [zhangjiayang6835-cyber/bounty-plaza](https://github.com/zhangjiayang6835-cyber/bounty-plaza)\n- **Comments:** 2\n- **Last Updated:** 2026-07-21T05:00:48Z\n\n#### 15. [[BOUNTY] [READY FOR AGENT] [$950 USD] ADD DAILY QUESTS FOR SECURITY TO BOOST PLAYER ENGAGEMENT](https://github.com/Iamgoofball/-tg-station/issues/59)\n- **Repository:** [Iamgoofball/-tg-station](https://github.com/Iamgoofball/-tg-station)\n- **Comments:** 2\n- **Last Updated:** 2026-07-21T05:00:43Z\n\n#### 16. [[Bounty] [READY FOR AGENT] [$250 USD Opire Bounty] translate all user-facing text](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/584)\n- **Repository:** [zhangjiayang6835-cyber/bounty-plaza](https://github.com/zhangjiayang6835-cyber/bounty-plaza)\n- **Comments:** 1\n- **Last Updated:** 2026-07-21T05:00:41Z\n\n#### 17. [[Bounty] [BOUNTY] [AGENT READY] [$200 USD] Increase immersion and user satisfaction by ad](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/586)\n- **Repository:** [zhangjiayang6835-cyber/bounty-plaza](https://github.com/zhangjiayang6835-cyber/bounty-plaza)\n- **Comments:** 1\n- **Last Updated:** 2026-07-21T05:00:37Z\n\n#### 18. [[Bounty] [paid PR opire bounty $250 TG USD CREDS] [EASY TASK FOR AGENTS] [AGENTIC] Implem](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/590)\n- **Repository:** [zhangjiayang6835-cyber/bounty-plaza](https://github.com/zhangjiayang6835-cyber/bounty-plaza)\n- **Comments:** 2\n- **Last Updated:** 2026-07-21T05:00:35Z\n\n#### 19. [[paid PR Opire bounty] [HIGH PRIORITY] [$50] Add the Dentist job with teeth organs.](https://github.com/Iamgoofball/-tg-station/issues/49)\n- **Repository:** [Iamgoofball/-tg-station](https://github.com/Iamgoofball/-tg-station)\n- **Comments:** 2\n- **Last Updated:** 2026-07-21T04:37:08Z\n\n#### 20. [[paid PR Opire bounty] [$10] Fix the clown not being able to do backflips.](https://github.com/Iamgoofball/-tg-station/issues/50)\n- **Repository:** [Iamgoofball/-tg-station](https://github.com/Iamgoofball/-tg-station)\n- **Comments:** 0\n- **Last Updated:** 2026-07-21T04:36:56Z\n\n#### 21. [[Bounty] [BOUNTY] [PAID BOUNTY] [$25] Make the bar fish sing](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/587)\n- **Repository:** [zhangjiayang6835-cyber/bounty-plaza](https://github.com/zhangjiayang6835-cyber/bounty-plaza)\n- **Comments:** 0\n- **Last Updated:** 2026-07-21T04:33:46Z\n\n#### 22. [[READY FOR AGENT] [$250 USD Opire Bounty] translate all user-facing text](https://github.com/Iamgoofball/-tg-station/issues/57)\n- **Repository:** [Iamgoofball/-tg-station](https://github.com/Iamgoofball/-tg-station)\n- **Comments:** 3\n- **Last Updated:** 2026-07-21T04:33:10Z\n\n#### 23. [Option to not show posts of people I'm following when browsing a specific relay set](https://github.com/CodyTseng/jumble/issues/157)\n- **Repository:** [CodyTseng/jumble](https://github.com/CodyTseng/jumble)\n- **Comments:** 7\n- **Last Updated:** 2026-07-21T04:25:43Z\n\n#### 24. [[demand] high-priority 2026-07-21T04:23](https://github.com/relayhop/ClaudeEarnSelf-runtime/issues/342)\n- **Repository:** [relayhop/ClaudeEarnSelf-runtime](https://github.com/relayhop/ClaudeEarnSelf-runtime)\n- **Comments:** 0\n- **Last Updated:** 2026-07-21T04:23:00Z\n\n#### 25. [[BOUNTY] [PAID BOUNTY] [$40] [paid opire bounty] Add enterprise resource planning](https://github.com/Iamgoofball/-tg-station/issues/55)\n- **Repository:** [Iamgoofball/-tg-station](https://github.com/Iamgoofball/-tg-station)\n- **Comments:** 5\n- **Last Updated:** 2026-07-21T04:51:19Z\n\n#### 26. [[Bounty] [BOUNTY] [PAID BOUNTY] [$40] [paid opire bounty] Add enterprise resource plannin](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/585)\n- **Repository:** [zhangjiayang6835-cyber/bounty-plaza](https://github.com/zhangjiayang6835-cyber/bounty-plaza)\n- **Comments:** 0\n- **Last Updated:** 2026-07-21T04:33:45Z\n\n",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 2,
-    "last_audited": "2026-10-07T13:07:44.324392+00:00"
+    "last_audited": "2026-10-07T19:53:18.433647+00:00"
   },
   {
     "id": "sec-onflow/flow-credit-markets-26",
@@ -1082,7 +1032,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-07T13:07:44.712972+00:00"
+    "last_audited": "2026-10-07T19:53:18.725870+00:00"
   },
   {
     "id": "gh-piotrwitek/typesafe-actions-139",
@@ -1107,7 +1057,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-07T13:07:45.075498+00:00"
+    "last_audited": "2026-10-07T19:53:18.928724+00:00"
   },
   {
     "id": "web3-owocki-bot/ai-bounty-board-42",
@@ -1133,7 +1083,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-07T13:07:45.435705+00:00"
+    "last_audited": "2026-10-07T19:53:19.129038+00:00"
   },
   {
     "id": "web3-p2arthur/fullstack-kanban-1",
@@ -1162,7 +1112,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-07T13:07:45.839281+00:00"
+    "last_audited": "2026-10-07T19:53:19.350959+00:00"
   },
   {
     "id": "web3-ResearchHub/issues-716",
@@ -1188,7 +1138,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-07T13:07:46.224990+00:00"
+    "last_audited": "2026-10-07T19:53:19.587324+00:00"
   },
   {
     "id": "gh-osmesirius-ship-it/DAX_DA13-DA13x2-13",
@@ -1212,7 +1162,7 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-07T13:07:46.557070+00:00"
+    "last_audited": "2026-10-07T19:53:19.787938+00:00"
   },
   {
     "id": "web3-p2arthur/fullstack-kanban-3",
@@ -1239,7 +1189,7 @@
     "solvability_score": 55.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-07T13:07:46.911870+00:00"
+    "last_audited": "2026-10-07T19:53:19.996584+00:00"
   },
   {
     "id": "web3-tetherless-world/whyis-237",
@@ -1262,7 +1212,10 @@
     ],
     "status": "active",
     "competitor_prs": 0,
-    "solvability_score": 55.0
+    "solvability_score": 55.0,
+    "live_status": "open",
+    "comments_count": 1,
+    "last_audited": "2026-10-07T19:53:20.204798+00:00"
   },
   {
     "id": "web3-javokhir-sec/awesome-bugbounty-resources-2",
@@ -1285,7 +1238,10 @@
     ],
     "status": "active",
     "competitor_prs": 0,
-    "solvability_score": 55.0
+    "solvability_score": 55.0,
+    "live_status": "open",
+    "comments_count": 1,
+    "last_audited": "2026-10-07T19:53:20.417820+00:00"
   },
   {
     "id": "gh-patsissons/gitcoin-bounties-1",
@@ -1575,6 +1531,28 @@
     "solvability_score": 40.0
   },
   {
+    "id": "gh-LibVNC/x11vnc-91",
+    "title": "ExtendedDesktopSize support?",
+    "url": "https://github.com/LibVNC/x11vnc/issues/91",
+    "platform": "issuehunt",
+    "repo_owner": "LibVNC",
+    "repo_name": "x11vnc",
+    "issue_number": 91,
+    "org_handle": "LibVNC",
+    "org_name": "LibVNC/x11vnc",
+    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2450%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/LibVNC/x11vnc/issues/91)\n<!-- /Issuehunt Badges -->\n\n\nHi,\r\nWhen using a noVNC v1.0.0 client with \"remote resize\" enabled, the user's desktop can be resized to fit the browser window if the server supports ExtendedDesktopSize encoding.  For me, the resizing does not work for x11vnc v0.9.16, but does if I switch to Xvnc. \r\n\r\nDoes x11vnc support ExtendedDesktopSize?  If it does, I could use some help figuring out why the client & server are not in agreement on their protocol extensions.\r\nAlso, see [this issue](https://github.com/novnc/noVNC/issues/869).\r\n\r\nThanks.\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $50.00)\n\n- [<img src='https://avatars2.githubusercontent.com/u/1123701?v=4' alt='maxnet' width=24 height=24> maxnet](https://issuehunt.io/u/maxnet) ($50.00)\n\n#### [Become a backer now!](https://issuehunt.io/r/LibVNC/x11vnc/issues/91)\n#### [Or submit a pull request to get the deposits!](https://issuehunt.io/r/LibVNC/x11vnc/issues/91)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://issuehunt.io/r/LibVNC/x11vnc/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://issuehunt.io/r/new) on IssueHunt to raise funds.\n---\nIssueHunt has been backed by the following sponsors. [Become a sponsor](https://issuehunt.io/membership/members)\n</details>\n<!-- /Issuehunt content-->",
+    "reward_usd": 50.0,
+    "reward_formatted": "$50",
+    "tech": [
+      "enhancement",
+      ":dollar: Funded on Issuehunt"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 40.0
+  },
+  {
     "id": "gh-rgommezz/react-native-offline-339",
     "title": "Upgrade Example App for current Expo Go version",
     "url": "https://github.com/rgommezz/react-native-offline/issues/339",
@@ -1629,29 +1607,6 @@
     "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2440%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/sindresorhus/fkill-cli/issues/6)\n<!-- /Issuehunt Badges -->\n\n\nCurrently there's a lot of useless processes in interactive mode that I would never care to close. Like all the Chrome helper processes. These makes it harder to find processes I actually want to close. With some simple heuristics I think we could hide away most of those useless processes.\r\n\r\nShould smart mode be default when using the interactive UI?\r\n## \r\n\r\nWhat processes needs hiding?\r\n- ~~Google Chrome Helper~~ (done)\r\n- 2BUA8C4S2C.com.agilebits.onepassword-osx-helper\r\n- -zsh\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $40.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($40.00)\n\n### Submitted pull Requests\n- [#1 Group duplicate processes in interactive mode](https://oss.issuehunt.io/r/OMGletmein/fkill-cli/pull/1)\n- [#1 Add explicit kill-all choices for duplicate processes](https://oss.issuehunt.io/r/harshdevgoyal/fkill-cli/pull/1)\n- [#1 feat: group same-name processes with submenu selection (Closes #6)Feat/smart mode](https://oss.issuehunt.io/r/xqsjdy/fkill-cli/pull/1)\n- [#1 Group duplicate processes in interactive mode](https://oss.issuehunt.io/r/nwinkelman2/fkill-cli/pull/1)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/sindresorhus/fkill-cli/issues/6)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/sindresorhus/fkill-cli/issues/6)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/sindresorhus/fkill-cli/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
     "reward_usd": 40.0,
     "reward_formatted": "$40",
-    "tech": [
-      "enhancement",
-      "help wanted",
-      ":dollar: Funded on Issuehunt"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 40.0
-  },
-  {
-    "id": "gh-Qix-/better-exceptions-10",
-    "title": "ipython support",
-    "url": "https://github.com/Qix-/better-exceptions/issues/10",
-    "platform": "issuehunt",
-    "repo_owner": "Qix-",
-    "repo_name": "better-exceptions",
-    "issue_number": 10,
-    "org_handle": "Qix-",
-    "org_name": "Qix-/better-exceptions",
-    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2470%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/Qix-/better-exceptions/issues/10)\n<!-- /Issuehunt Badges -->\n\n\nDoes not appear to work in ipython (at least in emacs)\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $70.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://issuehunt.io/u/issuehunt) ($70.00)\n\n#### [Become a backer now!](https://issuehunt.io/r/Qix-/better-exceptions/issues/10)\n#### [Or submit a pull request to get the deposits!](https://issuehunt.io/r/Qix-/better-exceptions/issues/10)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://issuehunt.io/r/Qix-/better-exceptions/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://issuehunt.io/r/new) on IssueHunt to raise funds.\n---\nIssueHunt has been backed by the following sponsors. [Become a sponsor](https://issuehunt.io/membership/members)\n</details>\n<!-- /Issuehunt content-->",
-    "reward_usd": 70.0,
-    "reward_formatted": "$70",
     "tech": [
       "enhancement",
       "help wanted",

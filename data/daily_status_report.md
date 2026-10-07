@@ -1,18 +1,18 @@
 # 🎯 MicroBountyHarvest - Daily Status Report
-*Generated on: `2026-10-07 13:07:28 UTC`*
+*Generated on: `2026-10-07 19:53:09 UTC`*
 
 ## 📊 Executive Summary
 
 | Metric | Value |
 |---|---|
-| **Active Open Bounties** | **70** |
-| **Open Bounty Pipeline Value** | **$9,072.00** |
+| **Active Open Bounties** | **68** |
+| **Open Bounty Pipeline Value** | **$8,852.00** |
 | **Total Solved Bounties** | **112** |
 | **Solved Bounties Value** | **$12,110.00** |
-| **Ready to Claim (Local Fix Tested)** | **23** |
+| **Ready to Claim (Local Fix Tested)** | **22** |
 | **PRs Submitted & Pending Review** | **54** |
 | **PRs Merged / Payout Won** | **3** |
-| **Closed / Inactive Cases** | **32** |
+| **Closed / Inactive Cases** | **33** |
 
 ## 🛠️ Solved Cases Live Status Breakdown
 
@@ -129,7 +129,7 @@
 | 109 | `[CODE]` | `kostasuser01gr/VoiceAI-Support-Dashboard#85` | opire | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
 | 110 | `[WEB3_DESCI]` | `ExcelDsigN-tech/dukapay#689` | web3_github | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
 | 111 | `[WEB3_DESCI]` | `NSPG13/agent-bounties#1612` | web3_github | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
-| 112 | `[WEB3_DESCI]` | `w3hc/longjing#168` | web3_github | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
+| 112 | `[WEB3_DESCI]` | `w3hc/longjing#168` | web3_github | **$100** | `closed` | ⚪ Closed | Not Submitted |
 
 ## 🚀 Actionable Next Steps
 - Run `python main.py --claim` to submit pull requests or artifacts for **Ready to Claim** cases.
