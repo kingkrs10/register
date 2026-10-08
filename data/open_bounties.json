@@ -19,7 +19,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-07T19:53:10.195777+00:00"
+    "last_audited": "2026-10-08T00:09:57.394202+00:00"
   },
   {
     "id": "gh-richa2014/richa-money-agent-4",
@@ -40,8 +40,8 @@
     "competitor_prs": 0,
     "solvability_score": 100.0,
     "live_status": "open",
-    "comments_count": 8,
-    "last_audited": "2026-10-07T19:53:10.436467+00:00"
+    "comments_count": 13,
+    "last_audited": "2026-10-08T00:09:57.667065+00:00"
   },
   {
     "id": "gh-chenzilin100/StellarBladeTrainer-Releases-5",
@@ -63,7 +63,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-07T19:53:10.639630+00:00"
+    "last_audited": "2026-10-08T00:09:57.922429+00:00"
   },
   {
     "id": "gh-future-architect/vuls-777",
@@ -85,7 +85,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-07T19:53:10.883717+00:00"
+    "last_audited": "2026-10-08T00:09:58.171617+00:00"
   },
   {
     "id": "gh-marktext/marktext-375",
@@ -111,7 +111,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 54,
-    "last_audited": "2026-10-07T19:53:11.141233+00:00"
+    "last_audited": "2026-10-08T00:09:58.430922+00:00"
   },
   {
     "id": "web3-Chain-Love/chain-love-4057",
@@ -137,63 +137,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-07T19:53:11.405749+00:00"
-  },
-  {
-    "id": "web3-anthropics/claude-code-96705",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "[Bug] Safety classifier false positives blocking authorized smart contract security audits on local forks",
-    "url": "https://github.com/anthropics/claude-code/issues/96705",
-    "platform": "web3_github",
-    "repo_owner": "anthropics",
-    "repo_name": "claude-code",
-    "issue_number": 96705,
-    "org_handle": "anthropics",
-    "org_name": "anthropics/claude-code",
-    "body": "**Bug Description**\nFalse positives from the safety classifier during authorised bug bounty work.\n\nContext: I run a human-reviewed bug bounty practice. On 2026-09-24 a Claude Code session audited the\nAera V3 contracts, which are in scope of Aera's public Immunefi bug bounty\n(https://immunefi.com/bug-bounty/aera/). All testing ran in local Foundry tests on local chain forks.\nNothing was broadcast to any network, and every finding is reviewed by me before any submission.\n\nWhat happened: parallel audit sub-agents from standard Solidity audit skills (pashov solidity-auditor,\n0xsimao-ai) were stopped with \"safeguards flagged this message\". That was 7 of 12 agents in one\nskill and 2 of 12 in the other, and most of the rest were cut off partway. A separate agent's write of\na plain protocol-description document was also blocked once, then went through on retry.\n\nImpact: most of the audit coverage was lost and tokens were wasted on agents that died, on work that\nexists to find bugs and disclose them responsibly.\n\nAsk: fewer false positives for authorised, fork-only smart contract security review. Or, if there's a\nway for verified security researchers to get adjusted safeguards, please point me to it.\n\n**Environment Info**\n- Platform: win32\n- Terminal: windows-terminal\n- Version: 2.1.281\n- Feedback ID: 32fa1f31-8b89-4bbf-934d-30efa40122de\n\n**Errors**\n```json\n[{\"error\":\"TelemetrySafeError: VirtualMessageList: itemKeys/messages length desync (keys=71 messages=70 range=[53,71))\\n    at ZT (B:/~BUN/root/chunk-t0gqpaxf.js:24:28891)\\n    at Vc (B:/~BUN/root/chunk-t0gqpaxf.js:24:20085)\\n    at $s (B:/~BUN/root/chunk-w5ra8acm.js:18:20178)\\n    at pu (B:/~BUN/root/chunk-w5ra8acm.js:18:38345)\\n    at Zh (B:/~BUN/root/chunk-w5ra8acm.js:18:84428)\\n    at db (B:/~BUN/root/chunk-w5ra8acm.js:18:83428)\\n    at Pu (B:/~BUN/root/chunk-w5ra8acm.js:18:83257)\\n    at Yh (B:/~BUN/root/chunk-w5ra8acm.js:18:79781)\\n    at mt (B:/~BUN/root/chunk-w5ra8acm.js:18:6261)\\n    at ei (B:/~BUN/root/chunk-w5ra8acm.js:18:4792)\",\"timestamp\":\"2026-09-24T10:20:53.431Z\"}]\n```\n",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "bug",
-      "duplicate",
-      "platform:windows",
-      "area:model",
-      "area:security",
-      "area:agents"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-07T19:53:11.679580+00:00"
-  },
-  {
-    "id": "web3-verdikta/verdikta-applications-47",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "Bounty API: accept smart-wallet (EIP-1271) creator signatures on PATCH /jobs/:id/public-submissions",
-    "url": "https://github.com/verdikta/verdikta-applications/issues/47",
-    "platform": "web3_github",
-    "repo_owner": "verdikta",
-    "repo_name": "verdikta-applications",
-    "issue_number": 47,
-    "org_handle": "verdikta",
-    "org_name": "verdikta/verdikta-applications",
-    "body": "## Goal\n\nA bounty whose creator is a smart-contract wallet (a Coinbase Smart Wallet such as a Verdikta agent's CDP wallet, or a Base Account) can toggle its `publicSubmissions` flag through the existing creator-signed `PATCH /api/jobs/:id/public-submissions` flow.\n\n## Context\n\n`verifyPublicSubmissionsAction` in `example-bounty-program/server/utils/messageAuth.js` checks the signature with `ethers.verifyMessage` (ecrecover) and compares the recovered address to `job.creator`. A contract wallet has no private key of its own, so no signature can ever recover to its address: every toggle attempt by a smart-wallet creator gets a 401.\n\nObserved on Base mainnet, bounty 101 (2026-09-28): the owner asked the agent that created it to make submissions public, and the agent had no way to do it. The creator `0xA3b423861e6D6501a05e87d1f500fFff2402f7B1` is an ERC-1967 proxy to the Coinbase Smart Wallet v1.1 implementation `0x00000110dCdEdC9581cb5eCB8467282f2926534d`. Every agent-created bounty has a smart-account creator, so no agent can ever use this path today. Human creators using Base Account on the website are probably affected in the same way (not verified).\n\nThe standard fix is EIP-1271: when the creator address has code, call `isValidSignature(hashMessage(message), signature)` on it and accept the magic value `0x1626ba7e`. The agent-side counterpart (signing with the smart account and calling this endpoint) is tracked in verdikta/verdikta-agents (linked below).\n\n## Acceptance criteria\n\n- [ ] When `job.creator` has contract code, the verifier accepts the signature if `creator.isValidSignature(hashMessage(message), signature)` returns `0x1626ba7e`, called through the server's configured RPC provider.\n- [ ] EOA creators are verified by ecrecover exactly as today, with no change in behavior.\n- [ ] Existing rejections are unchanged: wrong signer, Bounty ID mismatch, body/message value mismatch, and an expired or future timestamp return the same status codes as today.\n- [ ] An `isValidSignature` call that reverts or returns anything other than the magic value is rejected with 401, never 500 and never accepted. An RPC failure never results in acceptance.\n- [ ] Every caller of the verifier awaits it (it becomes async).\n- [ ] `/api/docs` and `agents.txt` say the signature may be an EOA `personal_sign` or an EIP-1271 smart-wallet signature.\n- [ ] Deployed to testnet, then mainnet.\n\n## Validation\n\n- Unit tests: an EOA signature passes; a contract creator with a mocked `isValidSignature` returning the magic value passes; non-magic, revert and RPC-error cases get 401 or another non-2xx response and are never accepted.\n- Testnet: a signature produced by a CDP smart account (from the verdikta-agents counterpart, or a script using viem `toCoinbaseSmartAccount(...).signMessage`) toggles the flag, and `GET /api/jobs/:id` reflects the new value.\n- Mainnet: the agent that created bounty 101 sets `publicSubmissions: true`, and `GET /api/jobs/101` shows `true`.\n\n## Scope\n\nIn scope:\n\n- `messageAuth.js` verification, the PATCH route's call site, and the docs/agents.txt text.\n\nOut of scope:\n\n- ERC-6492 (undeployed wallets): every bounty creator has already sent `createBounty`, so its wallet is deployed.\n- Website UI changes.\n- Agent-side signing (verdikta-agents).\n- Any other creator-authorized endpoint.\n",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "solidity",
-      "python"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 5,
-    "last_audited": "2026-10-07T19:53:11.916131+00:00"
+    "last_audited": "2026-10-08T00:09:58.708017+00:00"
   },
   {
     "id": "web3-muhammalif/evm-signature-verifier-1",
@@ -219,7 +163,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-07T19:53:12.147494+00:00"
+    "last_audited": "2026-10-08T00:09:58.939285+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -245,7 +189,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-07T19:53:12.361418+00:00"
+    "last_audited": "2026-10-08T00:09:59.198252+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -270,7 +214,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-10-07T19:53:12.572075+00:00"
+    "last_audited": "2026-10-08T00:09:59.452560+00:00"
   },
   {
     "id": "web3-ExcelDsigN-tech/dukapay-689",
@@ -296,7 +240,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-07T19:53:12.786610+00:00"
+    "last_audited": "2026-10-08T00:09:59.677595+00:00"
   },
   {
     "id": "web3-openscad/openscad-783",
@@ -323,7 +267,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 13,
-    "last_audited": "2026-10-07T19:53:13.023009+00:00"
+    "last_audited": "2026-10-08T00:09:59.939810+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -410,6 +354,31 @@
     "solvability_score": 90.0
   },
   {
+    "id": "sec-benzospace-labs/benzo-76",
+    "domain": "security",
+    "title": "[Bounty: $45] Add a disclosure contact to `SECURITY.md`",
+    "url": "https://github.com/benzospace-labs/benzo/issues/76",
+    "platform": "github_security",
+    "repo_owner": "benzospace-labs",
+    "repo_name": "benzo",
+    "issue_number": 76,
+    "org_handle": "benzospace-labs",
+    "org_name": "benzospace-labs/benzo",
+    "body": "**Context**\n`SECURITY.md` describes the threat model, the assumptions, and the \"known public architecture / not a vulnerability\" list in detail, but the README's link row points readers to it as the security entry point and there is no reporting address, no channel, and no acknowledgement window anywhere in the file. A researcher who finds a flaw in the pool or the claim flow has no documented way to report it, which is the one gap that turns a found bug into a public one.\n\n**Proposed Change**\nAdd a short \"Reporting a vulnerability\" section with a concrete contact (an email address or a GitHub private vulnerability reporting preference), the scope of what is in and out of scope, and an expected response window. Keep it consistent with the existing \"not a vulnerability\" list so reports are triaged quickly.\n\n**Acceptance Criteria**\n- `SECURITY.md` names at least one reporting channel that a reader can actually use.\n- In-scope and out-of-scope are stated with reference to the existing lists in the file.\n- The README's security link still resolves to the same document.\n- `pnpm lint` passes locally and the `Lint` step in the `test` job in `.github/workflows/packages.yml` is unaffected.\n\n**Suggested Label**: documentation\n\n**ETA:** 24 hours",
+    "reward_usd": 45.0,
+    "reward_formatted": "$45",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-08T00:10:00.172840+00:00"
+  },
+  {
     "id": "sec-StellarTickets/blockchain-42",
     "domain": "security",
     "title": "Add public bug bounty guidelines",
@@ -432,7 +401,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-07T19:53:13.275320+00:00"
+    "last_audited": "2026-10-08T00:10:00.417934+00:00"
   },
   {
     "id": "sec-ethereum/go-ethereum-35852",
@@ -457,7 +426,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-07T19:53:13.498259+00:00"
+    "last_audited": "2026-10-08T00:10:00.679026+00:00"
+  },
+  {
+    "id": "sec-streamr-labs/streamr-84",
+    "domain": "security",
+    "title": "[Bounty: $50] Expand `SECURITY.md` with a real reporting path and scope",
+    "url": "https://github.com/streamr-labs/streamr/issues/84",
+    "platform": "github_security",
+    "repo_owner": "streamr-labs",
+    "repo_name": "streamr",
+    "issue_number": 84,
+    "org_handle": "streamr-labs",
+    "org_name": "streamr-labs/streamr",
+    "body": "**Context**\n`SECURITY.md` is five lines and its entire instruction is \"Please reach out to the team using GitHub's own security mechanism to submit an anonymous report.\" It does not say which versions are supported, what is in scope (the Soroban contract moves tokens, so contract bugs are security-relevant), what response time to expect, or how to report a key-handling issue in `src/providers/WalletProvider.tsx`. Given the contract's known multi-recipient withdrawal defect, an accurate scope statement matters.\n\n**Proposed Change**\nExpand `SECURITY.md` with supported versions (the `wasm32v1-none` contract build and the current frontend), in-scope areas (contract fund custody, wallet signing, RPC configuration), the private-reporting channel, and an expected acknowledgement window.\n\n**Acceptance Criteria**\n\n- The file names in-scope components including the `streamer` contract.\n- It states supported versions and a response expectation.\n- The reporting mechanism is a working link or explicit instruction.\n- `npm run lint` passes locally and the `build` job in `.github/workflows/node.yml` runs green.\n\n**Suggested Label**: documentation\n\n**ETA:** 24 hours",
+    "reward_usd": 50.0,
+    "reward_formatted": "$50",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-08T00:10:00.933478+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -482,32 +476,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-07T19:53:13.740747+00:00"
-  },
-  {
-    "id": "sec-Demilade10/PayStream-52",
-    "domain": "security",
-    "title": "security(core): draft bug bounty program scope and rewards proposal",
-    "url": "https://github.com/Demilade10/PayStream/issues/52",
-    "platform": "github_security",
-    "repo_owner": "Demilade10",
-    "repo_name": "PayStream",
-    "issue_number": 52,
-    "org_handle": "Demilade10",
-    "org_name": "Demilade10/PayStream",
-    "body": "## Description\nDraft a proposed bug bounty framework for PayStream covering eligible targets, severity classification, submission rules, and possible future reward ranges.\n\nThis issue does **not** launch a bug bounty, promise payment, or authorize unrestricted security testing. PayStream currently has no funded bounty treasury. Activation must be a separate maintainer decision after funding, legal/operational review, and publication of final terms.\n\n## Requirements and Context\nThis is a documentation-only proposal. Do not change contract or keeper code.\n\nThe work should use the merged findings from:\n\n- the `require_auth()` audit;\n- core contract invariants;\n- reentrancy/security review;\n- error and arithmetic audits;\n- `SECURITY.md` and its verified private-reporting channel.\n\nIf those dependencies are incomplete, mark affected sections as pending rather than inventing conclusions.\n\nCreate `docs/decisions/bug-bounty-proposal.md` with the following sections.\n\n### Status and disclaimer\n\nDisplay a prominent notice at the top:\n\n- **Status: Proposal only \u2014 not active**\n- no monetary rewards are currently guaranteed;\n- reports must follow `SECURITY.md`;\n- publishing this proposal does not authorize testing outside the stated safe-testing boundaries;\n- only a later, explicitly announced program can create reward eligibility.\n\nAvoid language such as \u201cwe pay,\u201d \u201creward,\u201d or \u201celigible for payment\u201d unless clearly qualified as proposed and contingent on activation.\n\n### Proposed in-scope assets\n\nIdentify assets precisely, including versions and contract addresses where applicable:\n\n- PayStream contract source in this repository;\n- the supported deployed Stellar testnet contract:\n  `CAGPAEHIEP7TOREAANS6CTYACQ6MCNVTKTBOQZIRFP3DVL3PC3DODSPJ`;\n- keeper code only where a flaw could cause unauthorized signing, secret exposure, duplicate charges, or incorrect payment submission;\n- future mainnet deployments only after explicitly added to an activated scope;\n- swap, oracle, token allowlist, plan-management, or usage-billing components only if they are merged and explicitly listed.\n\nClarify that source-code findings must affect the supported version or deployment to qualify under any future program.\n\nHighlight likely high-value attack surfaces:\n\n- missing or incorrect authorization;\n- unauthorized transfers;\n- allowance manipulation or accounting divergence;\n- charge calculation, overflow, underflow, or rounding errors;\n- duplicate/replay charging;\n- reentrancy or unsafe cross-contract interaction;\n- storage corruption and invariant violations;\n- token allowlist bypass;\n- oracle manipulation, stale-price acceptance, and slippage bypass;\n- keeper signing-key exposure.\n\n### Proposed out-of-scope items\n\nAt minimum, evaluate and document:\n\n- UI-only or cosmetic issues;\n- documentation typos;\n- issues in example/reference SDK contracts not deployed or controlled by PayStream;\n- vulnerabilities solely in Stellar, Soroban, third-party tokens, RPC providers, wallets, DEXs, or oracle infrastructure, unless caused by PayStream's unsafe integration;\n- known network-level availability/resource constraints without a PayStream-specific exploit;\n- testnet asset loss with no protocol-security impact;\n- attacks requiring a reporter's own compromised credentials;\n- social engineering, phishing, physical attacks, credential theft, and privacy violations;\n- denial-of-service or load testing;\n- automated scanning that degrades shared infrastructure;\n- findings already known, previously reported, or publicly disclosed;\n- unsupported branches, forks, old deployments, and unmerged pull requests;\n- best-practice suggestions without a demonstrable security impact.\n\n### Testing rules\n\nPropose safe research boundaries consistent with `SECURITY.md`:\n\n- use testnet and accounts/assets owned by the researcher;\n- do not test mainnet or third-party systems without explicit permission;\n- do not access, alter, or retain another person's data or assets;\n- stop immediately if unintended impact occurs;\n- do not perform denial-of-service, spam, destructive testing, or social engineering;\n- never request or expose seed phrases, secret keys, or credentials;\n- submit findings privately through the verified channel;\n- allow reasonable remediation time before coordinated disclosure.\n\nDo not promise legal safe harbor beyond what the project can responsibly provide.\n\n### Severity model\n\nDefine severity using impact and exploitability, not labels alone. Include example categories such as:\n\n| Tier | Proposed impact definition | Examples |\n|---|---|---|\n| Critical | Direct unauthorized asset loss, systemic theft, or complete authorization bypass | Unauthorized transfer from subscribers; arbitrary keeper-key compromise caused by repository code |\n| High | Serious integrity/invariant failure with substantial financial risk | Repeat charging, allowance-accounting bypass, exploitable oracle/slippage failure |\n| Medium | Limited financial impact or contract-specific availability loss | Persistent failure of a core function for affected subscriptions |\n| Low | Low-impact security weakness with a concrete scenario | Limited information exposure or hardening issue |\n\nAccount for:\n\n- attack prerequisites;\n- privileges required;\n- user interaction;\n- reproducibility;\n- affected users/assets;\n- maximum realistic impact;\n- whether the supported deployment is affected;\n- quality and originality of the report.\n\nState that final severity would be determined by the maintainer using documented evidence and, if adopted, a named methodology such as Immunefi-style impact categories or CVSS supplemented by blockchain-specific impact.\n\n### Duplicate and report-quality rules\n\nPropose how to handle:\n\n- duplicate reports;\n- multiple symptoms from one root cause;\n- previously known issues;\n- publicly disclosed findings;\n- unverifiable or AI-generated reports without a working reproduction;\n- reports submitted after a patch;\n- dependency vulnerabilities with and without PayStream-specific exploitability.\n\nThe earliest complete, privately submitted, reproducible report should generally receive priority under any activated program.\n\n### Proposed rewards\n\nProvide conservative, clearly non-binding ranges appropriate for an early testnet project. Present at least two possible models:\n\n1. a funded monetary model activated only after dedicated funds are escrowed or budgeted;\n2. an unfunded recognition model that offers public credit, acknowledgements, or contributor recognition only with reporter consent.\n\nFor monetary ranges:\n\n- use a clearly identified currency or stablecoin;\n- state whether amounts are fixed or ranges;\n- explain how severity, impact, report quality, and duplicates affect the proposed amount;\n- avoid ranges the project could not realistically fund;\n- include a total program budget and per-finding cap;\n- state that no monetary model becomes active until funds and final terms are publicly confirmed.\n\nDo not promise expedited acceptance or favorable treatment for a reporter's unrelated contributions. Code contributions must continue through normal review and assignment rules.\n\n### Activation checklist\n\nDefine prerequisites for launching a real program:\n\n- merge and verify `SECURITY.md`;\n- enable and test GitHub Private Vulnerability Reporting;\n- complete the relevant security audits and invariant documentation;\n- identify exact supported commit/deployment addresses;\n- secure and ring-fence a bounty budget;\n- define payout currency, method, eligibility, sanctions/tax considerations, and payment authority;\n- publish final scope, exclusions, severity rules, testing rules, and disclosure process;\n- define duplicate handling and dispute/escalation process;\n- announce an explicit activation date;\n- replace every \u201cproposed\u201d label with reviewed final terms.\n\nPossible funding sources may include grants or Drips funding, but do not imply acceptance, availability, or commitment.\n\n### Decision and maintenance\n\nConclude with:\n\n- recommendation on whether to activate now or defer;\n- reasoning;\n- conditions that should trigger reconsideration;\n- policy owner;\n- review cadence;\n- requirement to update scope whenever the supported contract address or major attack surface changes.\n\nIf `SECURITY.md` is merged, add only a brief link that clearly labels this document as an inactive proposal. If `SECURITY.md` is not merged, do not add or modify it in this PR.\n\n## Suggested Execution\n- **Branch name:** `docs/bug-bounty-proposal`\n- **Files to touch:**\n  - `docs/decisions/bug-bounty-proposal.md` (new)\n  - `SECURITY.md` (optional pointer only if already merged)\n- **Example commit message:** `docs(security): propose bug bounty scope and reward framework`\n\n## Test and Commit Steps\n1. Confirm the status of the auth audit, invariant documentation, reentrancy review, and `SECURITY.md`.\n2. Extract the actual merged attack surfaces and supported deployment details.\n3. Draft the proposal with the **not active / no guaranteed payment** notice at the top.\n4. Define scope, exclusions, safe-testing rules, severity, duplicate handling, possible reward models, and activation prerequisites.\n5. Review every statement to remove accidental promises or unsupported reporting channels.\n6. If applicable, add a clearly labelled proposal link from `SECURITY.md`.\n7. Commit the actual changed files:\n\n```powershell\ngit add docs/decisions/bug-bounty-proposal.md\ngit commit -m \"docs(security): propose bug bounty scope and reward framework\"\n```\n\nIf `SECURITY.md` is changed, stage it before committing.\n\n8. Open a PR referencing this issue.\n9. Do not announce or describe the program as active after merge.\n\n## Guidelines\n- Comment with the proposed document outline and request assignment before starting.\n- Do not start or open a PR until assigned by a maintainer.\n- The PR description must include `Closes #<issue-number>`.\n- Keep this PR documentation-only.\n- State prominently that the program is proposed, unfunded, and inactive.\n- Do not promise payment, an SLA, legal protection, or preferential contribution treatment.\n- Do not disclose unresolved vulnerabilities or unnecessary exploit details.\n- Use only verified reporting channels from `SECURITY.md`.\n- Do not upgrade Soroban SDK from `27.0.3`.\n- Follow Conventional Commits and repository branch conventions.\n\n## Complexity\n**High (200 pts)**",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-07T19:53:14.013879+00:00"
+    "last_audited": "2026-10-08T00:10:01.185030+00:00"
   },
   {
     "id": "sec-dadadave80/lattice-241",
@@ -532,7 +501,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-07T19:53:14.220512+00:00"
+    "last_audited": "2026-10-08T00:10:01.421797+00:00"
+  },
+  {
+    "id": "sec-Demilade10/PayStream-52",
+    "domain": "security",
+    "title": "security(core): draft bug bounty program scope and rewards proposal",
+    "url": "https://github.com/Demilade10/PayStream/issues/52",
+    "platform": "github_security",
+    "repo_owner": "Demilade10",
+    "repo_name": "PayStream",
+    "issue_number": 52,
+    "org_handle": "Demilade10",
+    "org_name": "Demilade10/PayStream",
+    "body": "## Description\nDraft a proposed bug bounty framework for PayStream covering eligible targets, severity classification, submission rules, and possible future reward ranges.\n\nThis issue does **not** launch a bug bounty, promise payment, or authorize unrestricted security testing. PayStream currently has no funded bounty treasury. Activation must be a separate maintainer decision after funding, legal/operational review, and publication of final terms.\n\n## Requirements and Context\nThis is a documentation-only proposal. Do not change contract or keeper code.\n\nThe work should use the merged findings from:\n\n- the `require_auth()` audit;\n- core contract invariants;\n- reentrancy/security review;\n- error and arithmetic audits;\n- `SECURITY.md` and its verified private-reporting channel.\n\nIf those dependencies are incomplete, mark affected sections as pending rather than inventing conclusions.\n\nCreate `docs/decisions/bug-bounty-proposal.md` with the following sections.\n\n### Status and disclaimer\n\nDisplay a prominent notice at the top:\n\n- **Status: Proposal only \u2014 not active**\n- no monetary rewards are currently guaranteed;\n- reports must follow `SECURITY.md`;\n- publishing this proposal does not authorize testing outside the stated safe-testing boundaries;\n- only a later, explicitly announced program can create reward eligibility.\n\nAvoid language such as \u201cwe pay,\u201d \u201creward,\u201d or \u201celigible for payment\u201d unless clearly qualified as proposed and contingent on activation.\n\n### Proposed in-scope assets\n\nIdentify assets precisely, including versions and contract addresses where applicable:\n\n- PayStream contract source in this repository;\n- the supported deployed Stellar testnet contract:\n  `CAGPAEHIEP7TOREAANS6CTYACQ6MCNVTKTBOQZIRFP3DVL3PC3DODSPJ`;\n- keeper code only where a flaw could cause unauthorized signing, secret exposure, duplicate charges, or incorrect payment submission;\n- future mainnet deployments only after explicitly added to an activated scope;\n- swap, oracle, token allowlist, plan-management, or usage-billing components only if they are merged and explicitly listed.\n\nClarify that source-code findings must affect the supported version or deployment to qualify under any future program.\n\nHighlight likely high-value attack surfaces:\n\n- missing or incorrect authorization;\n- unauthorized transfers;\n- allowance manipulation or accounting divergence;\n- charge calculation, overflow, underflow, or rounding errors;\n- duplicate/replay charging;\n- reentrancy or unsafe cross-contract interaction;\n- storage corruption and invariant violations;\n- token allowlist bypass;\n- oracle manipulation, stale-price acceptance, and slippage bypass;\n- keeper signing-key exposure.\n\n### Proposed out-of-scope items\n\nAt minimum, evaluate and document:\n\n- UI-only or cosmetic issues;\n- documentation typos;\n- issues in example/reference SDK contracts not deployed or controlled by PayStream;\n- vulnerabilities solely in Stellar, Soroban, third-party tokens, RPC providers, wallets, DEXs, or oracle infrastructure, unless caused by PayStream's unsafe integration;\n- known network-level availability/resource constraints without a PayStream-specific exploit;\n- testnet asset loss with no protocol-security impact;\n- attacks requiring a reporter's own compromised credentials;\n- social engineering, phishing, physical attacks, credential theft, and privacy violations;\n- denial-of-service or load testing;\n- automated scanning that degrades shared infrastructure;\n- findings already known, previously reported, or publicly disclosed;\n- unsupported branches, forks, old deployments, and unmerged pull requests;\n- best-practice suggestions without a demonstrable security impact.\n\n### Testing rules\n\nPropose safe research boundaries consistent with `SECURITY.md`:\n\n- use testnet and accounts/assets owned by the researcher;\n- do not test mainnet or third-party systems without explicit permission;\n- do not access, alter, or retain another person's data or assets;\n- stop immediately if unintended impact occurs;\n- do not perform denial-of-service, spam, destructive testing, or social engineering;\n- never request or expose seed phrases, secret keys, or credentials;\n- submit findings privately through the verified channel;\n- allow reasonable remediation time before coordinated disclosure.\n\nDo not promise legal safe harbor beyond what the project can responsibly provide.\n\n### Severity model\n\nDefine severity using impact and exploitability, not labels alone. Include example categories such as:\n\n| Tier | Proposed impact definition | Examples |\n|---|---|---|\n| Critical | Direct unauthorized asset loss, systemic theft, or complete authorization bypass | Unauthorized transfer from subscribers; arbitrary keeper-key compromise caused by repository code |\n| High | Serious integrity/invariant failure with substantial financial risk | Repeat charging, allowance-accounting bypass, exploitable oracle/slippage failure |\n| Medium | Limited financial impact or contract-specific availability loss | Persistent failure of a core function for affected subscriptions |\n| Low | Low-impact security weakness with a concrete scenario | Limited information exposure or hardening issue |\n\nAccount for:\n\n- attack prerequisites;\n- privileges required;\n- user interaction;\n- reproducibility;\n- affected users/assets;\n- maximum realistic impact;\n- whether the supported deployment is affected;\n- quality and originality of the report.\n\nState that final severity would be determined by the maintainer using documented evidence and, if adopted, a named methodology such as Immunefi-style impact categories or CVSS supplemented by blockchain-specific impact.\n\n### Duplicate and report-quality rules\n\nPropose how to handle:\n\n- duplicate reports;\n- multiple symptoms from one root cause;\n- previously known issues;\n- publicly disclosed findings;\n- unverifiable or AI-generated reports without a working reproduction;\n- reports submitted after a patch;\n- dependency vulnerabilities with and without PayStream-specific exploitability.\n\nThe earliest complete, privately submitted, reproducible report should generally receive priority under any activated program.\n\n### Proposed rewards\n\nProvide conservative, clearly non-binding ranges appropriate for an early testnet project. Present at least two possible models:\n\n1. a funded monetary model activated only after dedicated funds are escrowed or budgeted;\n2. an unfunded recognition model that offers public credit, acknowledgements, or contributor recognition only with reporter consent.\n\nFor monetary ranges:\n\n- use a clearly identified currency or stablecoin;\n- state whether amounts are fixed or ranges;\n- explain how severity, impact, report quality, and duplicates affect the proposed amount;\n- avoid ranges the project could not realistically fund;\n- include a total program budget and per-finding cap;\n- state that no monetary model becomes active until funds and final terms are publicly confirmed.\n\nDo not promise expedited acceptance or favorable treatment for a reporter's unrelated contributions. Code contributions must continue through normal review and assignment rules.\n\n### Activation checklist\n\nDefine prerequisites for launching a real program:\n\n- merge and verify `SECURITY.md`;\n- enable and test GitHub Private Vulnerability Reporting;\n- complete the relevant security audits and invariant documentation;\n- identify exact supported commit/deployment addresses;\n- secure and ring-fence a bounty budget;\n- define payout currency, method, eligibility, sanctions/tax considerations, and payment authority;\n- publish final scope, exclusions, severity rules, testing rules, and disclosure process;\n- define duplicate handling and dispute/escalation process;\n- announce an explicit activation date;\n- replace every \u201cproposed\u201d label with reviewed final terms.\n\nPossible funding sources may include grants or Drips funding, but do not imply acceptance, availability, or commitment.\n\n### Decision and maintenance\n\nConclude with:\n\n- recommendation on whether to activate now or defer;\n- reasoning;\n- conditions that should trigger reconsideration;\n- policy owner;\n- review cadence;\n- requirement to update scope whenever the supported contract address or major attack surface changes.\n\nIf `SECURITY.md` is merged, add only a brief link that clearly labels this document as an inactive proposal. If `SECURITY.md` is not merged, do not add or modify it in this PR.\n\n## Suggested Execution\n- **Branch name:** `docs/bug-bounty-proposal`\n- **Files to touch:**\n  - `docs/decisions/bug-bounty-proposal.md` (new)\n  - `SECURITY.md` (optional pointer only if already merged)\n- **Example commit message:** `docs(security): propose bug bounty scope and reward framework`\n\n## Test and Commit Steps\n1. Confirm the status of the auth audit, invariant documentation, reentrancy review, and `SECURITY.md`.\n2. Extract the actual merged attack surfaces and supported deployment details.\n3. Draft the proposal with the **not active / no guaranteed payment** notice at the top.\n4. Define scope, exclusions, safe-testing rules, severity, duplicate handling, possible reward models, and activation prerequisites.\n5. Review every statement to remove accidental promises or unsupported reporting channels.\n6. If applicable, add a clearly labelled proposal link from `SECURITY.md`.\n7. Commit the actual changed files:\n\n```powershell\ngit add docs/decisions/bug-bounty-proposal.md\ngit commit -m \"docs(security): propose bug bounty scope and reward framework\"\n```\n\nIf `SECURITY.md` is changed, stage it before committing.\n\n8. Open a PR referencing this issue.\n9. Do not announce or describe the program as active after merge.\n\n## Guidelines\n- Comment with the proposed document outline and request assignment before starting.\n- Do not start or open a PR until assigned by a maintainer.\n- The PR description must include `Closes #<issue-number>`.\n- Keep this PR documentation-only.\n- State prominently that the program is proposed, unfunded, and inactive.\n- Do not promise payment, an SLA, legal protection, or preferential contribution treatment.\n- Do not disclose unresolved vulnerabilities or unnecessary exploit details.\n- Use only verified reporting channels from `SECURITY.md`.\n- Do not upgrade Soroban SDK from `27.0.3`.\n- Follow Conventional Commits and repository branch conventions.\n\n## Complexity\n**High (200 pts)**",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-08T00:10:01.676189+00:00"
   },
   {
     "id": "sec-Nudgen-Marketing/mermail-skills-482",
@@ -557,57 +551,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-07T19:53:14.432968+00:00"
-  },
-  {
-    "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
-    "domain": "security",
-    "title": "Design and launch a bug bounty program",
-    "url": "https://github.com/Invoice-Liquidity-Network/Invoice-Liquidity-Network/issues/1080",
-    "platform": "github_security",
-    "repo_owner": "Invoice-Liquidity-Network",
-    "repo_name": "Invoice-Liquidity-Network",
-    "issue_number": 1080,
-    "org_handle": "Invoice-Liquidity-Network",
-    "org_name": "Invoice-Liquidity-Network/Invoice-Liquidity-Network",
-    "body": "`docs/vulnerability-disclosure.md` documents a disclosure process, but there's currently no structured bug bounty program (scope, reward tiers, triage SLA) to actively incentivize external security researchers ahead of mainnet.\n\n**Requirements and context**\n- Define program scope (in-scope services/repos, out-of-scope items), severity taxonomy, and reward tiers appropriate for a pre-mainnet financial protocol\n- Stand up the intake and triage process, cross-referencing `docs/vulnerability-disclosure.md` for consistency\n- Select and configure a bounty platform or self-hosted process\n- Publish the program and cross-link from `SECURITY.md`\n\n**Suggested execution**\n```\ngit checkout -b docs/bug-bounty-program-launch\n```\n- Design scope, rewards, and triage process for a bug bounty program, then launch it\n\n**Complexity**\nHigh (200 points) \u2014 this batch intentionally excludes trivial/medium-complexity work; see the ILN Stellar Wave contribution guide before picking this up.\n\n**Example commit message**\n`docs: design and launch bug bounty program ahead of mainnet`",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 6,
-    "last_audited": "2026-10-07T19:53:14.659682+00:00"
-  },
-  {
-    "id": "sec-Logorythmus-org/Menog-os-8",
-    "domain": "security",
-    "title": "P0: establish a private security reporting channel",
-    "url": "https://github.com/Logorythmus-org/Menog-os/issues/8",
-    "platform": "github_security",
-    "repo_owner": "Logorythmus-org",
-    "repo_name": "Menog-os",
-    "issue_number": 8,
-    "org_handle": "Logorythmus-org",
-    "org_name": "Logorythmus-org/Menog-os",
-    "body": "## Goal\n\nClose the public security-reporting gap before the first tagged release.\n\n## Current state\n\n`SECURITY.md` correctly states that the private reporting channel is **NOT AVAILABLE**.\nNormal bugs may be filed publicly, but security-sensitive reports currently have no usable\nconfidential destination.\n\n## Required human decision\n\nChoose and establish at least one real private reporting path:\n\n- a monitored security mailbox, preferably with an OpenPGP public key/fingerprint; and/or\n- GitHub Private Vulnerability Reporting, if enabled for this repository.\n\nDo not publish a placeholder address or fingerprint.\n\n## Completion criteria\n\n- `SECURITY.md` names a working confidential reporting path;\n- the channel is tested end-to-end;\n- expected acknowledgement/disclosure language matches the actual process;\n- no public issue/PR is required for embargoed findings;\n- the repository does not claim a bug bounty unless one actually exists.\n\n## Scope\n\nSecurity-reporting operations and documentation only. No runtime behavior, release, or deployment change.",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-07T19:53:14.891068+00:00"
+    "last_audited": "2026-10-08T00:10:01.934632+00:00"
   },
   {
     "id": "sec-cerebruminc/bug-bounty-14",
@@ -632,7 +576,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-07T19:53:15.130583+00:00"
+    "last_audited": "2026-10-08T00:10:02.213343+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -657,7 +601,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-07T19:53:15.357274+00:00"
+    "last_audited": "2026-10-08T00:10:02.451726+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -682,7 +626,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-07T19:53:15.597519+00:00"
+    "last_audited": "2026-10-08T00:10:02.702662+00:00"
+  },
+  {
+    "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
+    "domain": "security",
+    "title": "Design and launch a bug bounty program",
+    "url": "https://github.com/Invoice-Liquidity-Network/Invoice-Liquidity-Network/issues/1080",
+    "platform": "github_security",
+    "repo_owner": "Invoice-Liquidity-Network",
+    "repo_name": "Invoice-Liquidity-Network",
+    "issue_number": 1080,
+    "org_handle": "Invoice-Liquidity-Network",
+    "org_name": "Invoice-Liquidity-Network/Invoice-Liquidity-Network",
+    "body": "`docs/vulnerability-disclosure.md` documents a disclosure process, but there's currently no structured bug bounty program (scope, reward tiers, triage SLA) to actively incentivize external security researchers ahead of mainnet.\n\n**Requirements and context**\n- Define program scope (in-scope services/repos, out-of-scope items), severity taxonomy, and reward tiers appropriate for a pre-mainnet financial protocol\n- Stand up the intake and triage process, cross-referencing `docs/vulnerability-disclosure.md` for consistency\n- Select and configure a bounty platform or self-hosted process\n- Publish the program and cross-link from `SECURITY.md`\n\n**Suggested execution**\n```\ngit checkout -b docs/bug-bounty-program-launch\n```\n- Design scope, rewards, and triage process for a bug bounty program, then launch it\n\n**Complexity**\nHigh (200 points) \u2014 this batch intentionally excludes trivial/medium-complexity work; see the ILN Stellar Wave contribution guide before picking this up.\n\n**Example commit message**\n`docs: design and launch bug bounty program ahead of mainnet`",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 6,
+    "last_audited": "2026-10-08T00:10:02.989903+00:00"
   },
   {
     "id": "sec-yarilomail/yarilo-2105",
@@ -707,7 +676,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-07T19:53:15.824597+00:00"
+    "last_audited": "2026-10-08T00:10:03.246683+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -732,7 +701,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-07T19:53:16.056302+00:00"
+    "last_audited": "2026-10-08T00:10:03.512709+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -757,7 +726,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-07T19:53:16.255917+00:00"
+    "last_audited": "2026-10-08T00:10:03.826896+00:00"
   },
   {
     "id": "sec-SecOpsNews/news-74729",
@@ -782,7 +751,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-07T19:53:16.454131+00:00"
+    "last_audited": "2026-10-08T00:10:04.086591+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-279",
@@ -807,32 +776,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-07T19:53:16.629024+00:00"
-  },
-  {
-    "id": "sec-SecOpsNews/news-74720",
-    "domain": "security",
-    "title": "[BleepingComputer] Google halts open-source bug bounty program amid AI spam surge",
-    "url": "https://github.com/SecOpsNews/news/issues/74720",
-    "platform": "github_security",
-    "repo_owner": "SecOpsNews",
-    "repo_name": "news",
-    "issue_number": 74720,
-    "org_handle": "SecOpsNews",
-    "org_name": "SecOpsNews/news",
-    "body": "\n\nGoogle has now suspended submissions to its Open Source Software Vulnerability Rewards Program (OSS VRP) after being flooded by AI-generated reports. \\[...\\]\n\n\n\n<https://www.bleepingcomputer.com/news/google/google-halts-open-source-bug-bounty-program-amid-ai-spam-surge/>\n\n",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 1,
-    "last_audited": "2026-10-07T19:53:16.825795+00:00"
+    "last_audited": "2026-10-08T00:10:04.341448+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -857,7 +801,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-10-07T19:53:17.022390+00:00"
+    "last_audited": "2026-10-08T00:10:04.648180+00:00"
+  },
+  {
+    "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
+    "domain": "security",
+    "title": "[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Mass Assignment in User Profi",
+    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/281",
+    "platform": "github_security",
+    "repo_owner": "zhangjiayang6835-cyber",
+    "repo_name": "bounty-plaza",
+    "issue_number": 281,
+    "org_handle": "zhangjiayang6835-cyber",
+    "org_name": "zhangjiayang6835-cyber/bounty-plaza",
+    "body": "### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/220\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Mass Assignment in User Profile Update\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/214\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [BUG] Mass Assignment in User Profile Update \u2192 Privil\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/120\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [BUG] Mass Assignment in User Profile Update \u2192 Privilege Escal\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/83\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [BUG] Mass Assignment in User Profile Update \u2192 Privilege Escalation $12\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/19\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [BUG] Mass Assignment in User Profile Update \u2192 Privilege Escalation $120\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/ai-research/issues/964\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[BUG] Mass Assignment in User Profile Update \u2192 Privilege Escalation $120\n\n## Mass Assignment \u2192 \u6743\u9650\u63d0\u5347\n\n**\u96be\u5ea6**: Medium | **\u8d4f\u91d1**: $120\n\n### \u6f0f\u6d1e\u63cf\u8ff0\n\u7528\u6237\u8d44\u6599\u66f4\u65b0\u63a5\u53e3\u76f4\u63a5\u7ed1\u5b9a\u6240\u6709\u8bf7\u6c42\u53c2\u6570\u5230\u6a21\u578b\uff1a`User.update(params)`\u3002\u653b\u51fb\u8005\u53ef\u9644\u52a0 `role=admin` \u6216 `is_admin=true` \u53c2\u6570\u63d0\u5347\u4e3a\u7ba1\u7406\u5458\u3002\n\n### \u8981\u6c42\n\u4f7f\u7528\u767d\u540d\u5355\u53c2\u6570\u7ed1\u5b9a / DTO \u6a21\u5f0f / \u660e\u786e\u6307\u5b9a\u5141\u8bb8\u66f4\u65b0\u7684\u5b57\u6bb5\u3002\n\n### \u9a8c\u6536\u6807\u51c6\n- [ ] \u5b9a\u4e49\u53ef\u66f4\u65b0\u5b57\u6bb5\u767d\u540d\u5355\n- [ ] \u7981\u6b62\u6279\u91cf\u8d4b\u503c\u654f\u611f\u5b57\u6bb5\n- [ ] \u4f7f\u7528 ViewModel/DTO \u6a21\u5f0f\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n150 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$120\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n150 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$120\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n150 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$120\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n150 coins\n\n### \u771f\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n150 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$120\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n",
+    "reward_usd": 12.0,
+    "reward_formatted": "$12",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 4,
+    "last_audited": "2026-10-08T00:10:04.883502+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -882,7 +851,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-07T19:53:17.209027+00:00"
+    "last_audited": "2026-10-08T00:10:05.142039+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -907,7 +876,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-07T19:53:17.492786+00:00"
+    "last_audited": "2026-10-08T00:10:05.381913+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -932,7 +901,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-07T19:53:17.769998+00:00"
+    "last_audited": "2026-10-08T00:10:05.636717+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -957,7 +926,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-07T19:53:17.943221+00:00"
+    "last_audited": "2026-10-08T00:10:05.874546+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -982,7 +951,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-07T19:53:18.179563+00:00"
+    "last_audited": "2026-10-08T00:10:06.122343+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1007,7 +976,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-07T19:53:18.433647+00:00"
+    "last_audited": "2026-10-08T00:10:06.412422+00:00"
   },
   {
     "id": "sec-onflow/flow-credit-markets-26",
@@ -1032,7 +1001,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-07T19:53:18.725870+00:00"
+    "last_audited": "2026-10-08T00:10:06.688849+00:00"
   },
   {
     "id": "gh-piotrwitek/typesafe-actions-139",
@@ -1057,7 +1026,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-07T19:53:18.928724+00:00"
+    "last_audited": "2026-10-08T00:10:06.943764+00:00"
   },
   {
     "id": "web3-owocki-bot/ai-bounty-board-42",
@@ -1083,7 +1052,111 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-07T19:53:19.129038+00:00"
+    "last_audited": "2026-10-08T00:10:07.204076+00:00"
+  },
+  {
+    "id": "web3-stellar-abstraction-labs/stellar-account-abstraction-sdk-80",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "[Bounty: $70] Correct the contract-integration claims in `CLAUDE.md`",
+    "url": "https://github.com/stellar-abstraction-labs/stellar-account-abstraction-sdk/issues/80",
+    "platform": "web3_github",
+    "repo_owner": "stellar-abstraction-labs",
+    "repo_name": "stellar-account-abstraction-sdk",
+    "issue_number": 80,
+    "org_handle": "stellar-abstraction-labs",
+    "org_name": "stellar-abstraction-labs/stellar-account-abstraction-sdk",
+    "body": "**Context**\n`CLAUDE.md` states under Smart Contracts that the project \"Handles on-chain social wallet operations\" and that the SDK supports \"Soroban smart contracts integration\", and `BUSINESS_STRATEGY.md` lists \"Soroban smart contracts integration\" among existing strengths. No code path calls the contract: `StellarSocialAccount.addAuthMethod` (`stellar-social-sdk/src/auth/StellarSocialAccount.ts` lines 89\u201396) only pushes to a local array with the comment \"Para MVP, solo actualizar localmente\", and `initializeWithContract` (lines 116\u2013135) logs and returns `true` without any invocation. `claudedocs/contract-investigation.md` documents the same gap, so the maintainers already know the claim is inaccurate.\n\n**Proposed Change**\nRewrite the Smart Contracts section of `CLAUDE.md` to state plainly that the contract exists and is tested but is not invoked by the SDK at this revision, list the functions the SDK stubs correspond to, and mark the integration as the next milestone rather than an existing capability.\n\n**Acceptance Criteria**\n- `CLAUDE.md` no longer claims the SDK uses the contract.\n- The document names `addAuthMethod` and `initializeWithContract` as the stubs.\n- The next-milestone section names the contract functions to wire up.\n- `<cargo test --workspace>` passes locally and in the `contract-test` job of `.github/workflows/ci.yml`.\n\n**Suggested Label**: documentation\n\n**ETA:** 24 hours",
+    "reward_usd": 70.0,
+    "reward_formatted": "$70",
+    "tech": [
+      "solidity",
+      "python"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 65.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-08T00:10:07.456939+00:00"
+  },
+  {
+    "id": "web3-sampled-labs/sampled-77",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "[Bounty: $50] Complete the smart-contract function list in `README.md`",
+    "url": "https://github.com/sampled-labs/sampled/issues/77",
+    "platform": "web3_github",
+    "repo_owner": "sampled-labs",
+    "repo_name": "sampled",
+    "issue_number": 77,
+    "org_handle": "sampled-labs",
+    "org_name": "sampled-labs/sampled",
+    "body": "**Context**\n`README.md` lists `upload_sample()`, `purchase_sample()`, `withdraw_earnings()`, `get_sample()`, `get_earnings()`, and `get_stats()`. `contracts/sampled/src/lib.rs` also exports `update_price`, `get_user_samples`, `get_all_samples`, `get_user_purchases`, and `has_purchased`, all of which are wired into the frontend through `src/hooks/useSampledContract.ts`. The README's list is therefore an incomplete interface reference.\n\n**Proposed Change**\nExtend the function list to every public entry point in `contracts/sampled/src/lib.rs`, with a one-line description and the return type for each.\n\n**Acceptance Criteria**\n- Every `pub fn` in `contracts/sampled/src/lib.rs` appears in the README list.\n- Each entry states its parameters and return type.\n- The list is ordered consistently with the source file.\n- `npm run lint` passes locally and in the `build` job of `.github/workflows/node.yml`.\n\n**Suggested Label**: documentation\n**ETA:** 24 hours",
+    "reward_usd": 50.0,
+    "reward_formatted": "$50",
+    "tech": [
+      "solidity",
+      "python"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 65.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-08T00:10:07.701444+00:00"
+  },
+  {
+    "id": "web3-zstellar-labs/zstellar-109",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "[Bounty: $50] Add a `CHANGELOG.md` for the contract redeploy",
+    "url": "https://github.com/zstellar-labs/zstellar/issues/109",
+    "platform": "web3_github",
+    "repo_owner": "zstellar-labs",
+    "repo_name": "zstellar",
+    "issue_number": 109,
+    "org_handle": "zstellar-labs",
+    "org_name": "zstellar-labs/zstellar",
+    "body": "**Context**\nGit history records \"fix: redeploy smart contracts with correct Merkle levels (10) and patch WASMs\" and \"fix(rpc): intercept startLedger out of range error\", yet there is no `CHANGELOG.md`. The redeploy changed `CONTRACTS` in `frontend/src/lib/stellar/config.ts` and, per `maybeResetStorage`, deliberately invalidates every user's OPFS note store. Users and the README contract table have no record of when or why addresses changed.\n\n**Proposed Change**\nAdd a root `CHANGELOG.md` with an entry for the redeploy and the Merkle-level change, noting the address updates and the OPFS invalidation, and reference it from the README.\n\n**Acceptance Criteria**\n- `CHANGELOG.md` exists and records the redeploy and Merkle-level fix.\n- The entry notes the OPFS reset consequence.\n- `pnpm build` passes in the `build` job of `.github/workflows/ci.yml`.\n\n**Suggested Label**: documentation\n\n**ETA:** 24 hours",
+    "reward_usd": 50.0,
+    "reward_formatted": "$50",
+    "tech": [
+      "solidity",
+      "python"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 65.0,
+    "live_status": "open",
+    "comments_count": 1,
+    "last_audited": "2026-10-08T00:10:07.957071+00:00"
+  },
+  {
+    "id": "web3-sampled-labs/sampled-74",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "[Bounty: $70] Correct the contract address in `README.md`",
+    "url": "https://github.com/sampled-labs/sampled/issues/74",
+    "platform": "web3_github",
+    "repo_owner": "sampled-labs",
+    "repo_name": "sampled",
+    "issue_number": 74,
+    "org_handle": "sampled-labs",
+    "org_name": "sampled-labs/sampled",
+    "body": "**Context**\n`README.md` advertises `Contract Address: CA7DGEWWS3VH5J2I4I7FFEB5UHK2MJSYWDKDQKXQM7GDNLI2IRATDTLG` under \"Deployed Smart Contract\", but the id the app actually uses is the literal in `src/util/contract.ts` (`CDYVZ75YN7355DW6L2BN7SYIAUXNBGZW7FB5ANXPVO7CTU7TKKPIFZZVJ`), which is also re-exported by `src/@types/stellar-generated.ts` through the `networks.testnet.contractId` constant. Anyone following the README inspects a different contract than the one the app calls.\n\n**Proposed Change**\nUpdate the README to the address in `src/util/contract.ts`, state the network and explorer link, and note where the address is defined.\n\n**Acceptance Criteria**\n- The README address matches `src/util/contract.ts` exactly.\n- The README names the network for that address.\n- The commented-out legacy address in `src/util/contract.ts` is either removed or explained.\n- `npm run build` passes locally and in the `build` job of `.github/workflows/node.yml`.\n\n**Suggested Label**: documentation\n**ETA:** 24 hours",
+    "reward_usd": 70.0,
+    "reward_formatted": "$70",
+    "tech": [
+      "solidity",
+      "python"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 65.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-08T00:10:08.212357+00:00"
   },
   {
     "id": "web3-p2arthur/fullstack-kanban-1",
@@ -1112,7 +1185,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-07T19:53:19.350959+00:00"
+    "last_audited": "2026-10-08T00:10:08.480764+00:00"
   },
   {
     "id": "web3-ResearchHub/issues-716",
@@ -1138,7 +1211,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-07T19:53:19.587324+00:00"
+    "last_audited": "2026-10-08T00:10:08.748780+00:00"
   },
   {
     "id": "gh-osmesirius-ship-it/DAX_DA13-DA13x2-13",
@@ -1162,7 +1235,7 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-07T19:53:19.787938+00:00"
+    "last_audited": "2026-10-08T00:10:08.971289+00:00"
   },
   {
     "id": "web3-p2arthur/fullstack-kanban-3",
@@ -1186,10 +1259,30 @@
     ],
     "status": "active",
     "competitor_prs": 0,
-    "solvability_score": 55.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-07T19:53:19.996584+00:00"
+    "solvability_score": 55.0
+  },
+  {
+    "id": "web3-slippay-labs/slippay-24",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "[Bounty: $75] Add a `contracts/checkout` Rust test suite",
+    "url": "https://github.com/slippay-labs/slippay/issues/24",
+    "platform": "web3_github",
+    "repo_owner": "slippay-labs",
+    "repo_name": "slippay",
+    "issue_number": 24,
+    "org_handle": "slippay-labs",
+    "org_name": "slippay-labs/slippay",
+    "body": "**Context**\n`contracts/checkout/src/lib.rs` implements the atomic split checkout and is the only Soroban contract with no `test.rs`: `contracts/receipt/src/test.rs`, `contracts/smart-wallet/src/test.rs`, and `contracts/subscription/src/test.rs` all exist. The contract that splits funds between merchant and platform is therefore the one with zero unit coverage.\n\n**Proposed Change**\nAdd `contracts/checkout/src/test.rs` with `#[cfg(test)]` tests that exercise: a happy-path split at the canonical fee, rejection when the payments do not sum to the total, rejection of a zero/negative amount, and correct handling of a platform address that equals the merchant address.\n\n**Acceptance Criteria**\n\n- New file `contracts/checkout/src/test.rs` compiles with `cargo test` in `contracts/checkout`.\n- The sum-mismatch case asserts a contract error, not a panic message string.\n- Fee arithmetic asserted against explicit stroop values.\n- Contract tests are wired into the `test` job in `.github/workflows/test.yml` (currently only `axl-gate.yml` runs `cargo test`, and only for `axl-compiler`).\n\n**Suggested Label**: tests\n**ETA:** 24 hours",
+    "reward_usd": 75.0,
+    "reward_formatted": "$75",
+    "tech": [
+      "solidity",
+      "python"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 55.0
   },
   {
     "id": "web3-tetherless-world/whyis-237",
@@ -1212,10 +1305,7 @@
     ],
     "status": "active",
     "competitor_prs": 0,
-    "solvability_score": 55.0,
-    "live_status": "open",
-    "comments_count": 1,
-    "last_audited": "2026-10-07T19:53:20.204798+00:00"
+    "solvability_score": 55.0
   },
   {
     "id": "web3-javokhir-sec/awesome-bugbounty-resources-2",
@@ -1238,10 +1328,7 @@
     ],
     "status": "active",
     "competitor_prs": 0,
-    "solvability_score": 55.0,
-    "live_status": "open",
-    "comments_count": 1,
-    "last_audited": "2026-10-07T19:53:20.417820+00:00"
+    "solvability_score": 55.0
   },
   {
     "id": "gh-patsissons/gitcoin-bounties-1",
@@ -1369,30 +1456,6 @@
     "tech": [
       "bounty",
       "real"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 50.0
-  },
-  {
-    "id": "web3-p2arthur/fullstack-kanban-6",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "Implement bounty escrow release on completion and refund handling",
-    "url": "https://github.com/p2arthur/fullstack-kanban/issues/6",
-    "platform": "web3_github",
-    "repo_owner": "p2arthur",
-    "repo_name": "fullstack-kanban",
-    "issue_number": 6,
-    "org_handle": "p2arthur",
-    "org_name": "p2arthur/fullstack-kanban",
-    "body": "**What**: Implement the creator approval flow when a task moves to 'Done', triggering the smart contract escrow release transaction to transfer funds to the assignee, and provide a refund mechanism if a task is cancelled.\n\n**Why**: Completes the end-to-end task lifecycle by ensuring assignees receive their earned bounty upon verified completion and creators can reclaim unspent funds.\n\n**Acceptance criteria**:\n- [ ] Moving a task to 'Done' prompts the creator to approve completion and sign the contract release transaction.\n- [ ] Escrow contract successfully transfers the locked ALGO bounty to the assignee's wallet address on approval.\n- [ ] Creator can cancel an uncompleted task to trigger a refund transaction returning locked ALGO to their wallet.\n- [ ] Database updates the task status and stores release/refund transaction hashes upon confirmation.",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "smart-contract",
-      "frontend",
-      "web3"
     ],
     "status": "active",
     "competitor_prs": 0,

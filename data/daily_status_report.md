@@ -1,16 +1,16 @@
 # 🎯 MicroBountyHarvest - Daily Status Report
-*Generated on: `2026-10-07 19:53:09 UTC`*
+*Generated on: `2026-10-08 00:09:57 UTC`*
 
 ## 📊 Executive Summary
 
 | Metric | Value |
 |---|---|
-| **Active Open Bounties** | **68** |
-| **Open Bounty Pipeline Value** | **$8,852.00** |
-| **Total Solved Bounties** | **112** |
-| **Solved Bounties Value** | **$12,110.00** |
+| **Active Open Bounties** | **71** |
+| **Open Bounty Pipeline Value** | **$8,674.00** |
+| **Total Solved Bounties** | **113** |
+| **Solved Bounties Value** | **$12,155.00** |
 | **Ready to Claim (Local Fix Tested)** | **22** |
-| **PRs Submitted & Pending Review** | **54** |
+| **PRs Submitted & Pending Review** | **55** |
 | **PRs Merged / Payout Won** | **3** |
 | **Closed / Inactive Cases** | **33** |
 
@@ -130,6 +130,7 @@
 | 110 | `[WEB3_DESCI]` | `ExcelDsigN-tech/dukapay#689` | web3_github | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
 | 111 | `[WEB3_DESCI]` | `NSPG13/agent-bounties#1612` | web3_github | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
 | 112 | `[WEB3_DESCI]` | `w3hc/longjing#168` | web3_github | **$100** | `closed` | ⚪ Closed | Not Submitted |
+| 113 | `[SECURITY]` | `benzospace-labs/benzo#76` | github_security | **$45** | `open` | 🟡 Submitted | [Advisory Report](/home/runner/work/register/register/data/security_reports/sec_advisory_benzospace-labs_benzo_76.md) |
 
 ## 🚀 Actionable Next Steps
 - Run `python main.py --claim` to submit pull requests or artifacts for **Ready to Claim** cases.
