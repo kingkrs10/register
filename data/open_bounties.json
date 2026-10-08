@@ -19,7 +19,29 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T00:09:57.394202+00:00"
+    "last_audited": "2026-10-08T08:48:01.320001+00:00"
+  },
+  {
+    "id": "gh-chenzilin100/StellarBladeTrainer-Releases-5",
+    "title": "1.0.16 update breaks projectile parry",
+    "url": "https://github.com/chenzilin100/StellarBladeTrainer-Releases/issues/5",
+    "platform": "opire",
+    "repo_owner": "chenzilin100",
+    "repo_name": "StellarBladeTrainer-Releases",
+    "issue_number": 5,
+    "org_handle": "chenzilin100",
+    "org_name": "chenzilin100/StellarBladeTrainer-Releases",
+    "body": "Automatic Defence no longer parries projectiles after 1.0.16 update\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #5</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @Leibeun</code> (replace <code>20</code> with the amount, and <code>@Leibeun</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 2,
+    "last_audited": "2026-10-08T08:48:01.588608+00:00"
   },
   {
     "id": "gh-richa2014/richa-money-agent-4",
@@ -41,29 +63,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 13,
-    "last_audited": "2026-10-08T00:09:57.667065+00:00"
-  },
-  {
-    "id": "gh-chenzilin100/StellarBladeTrainer-Releases-5",
-    "title": "1.0.16 update breaks projectile parry",
-    "url": "https://github.com/chenzilin100/StellarBladeTrainer-Releases/issues/5",
-    "platform": "opire",
-    "repo_owner": "chenzilin100",
-    "repo_name": "StellarBladeTrainer-Releases",
-    "issue_number": 5,
-    "org_handle": "chenzilin100",
-    "org_name": "chenzilin100/StellarBladeTrainer-Releases",
-    "body": "Automatic Defence no longer parries projectiles after 1.0.16 update\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #5</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @Leibeun</code> (replace <code>20</code> with the amount, and <code>@Leibeun</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 1,
-    "last_audited": "2026-10-08T00:09:57.922429+00:00"
+    "last_audited": "2026-10-08T08:48:01.816314+00:00"
   },
   {
     "id": "gh-future-architect/vuls-777",
@@ -85,7 +85,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-08T00:09:58.171617+00:00"
+    "last_audited": "2026-10-08T08:48:02.081837+00:00"
   },
   {
     "id": "gh-marktext/marktext-375",
@@ -111,7 +111,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 54,
-    "last_audited": "2026-10-08T00:09:58.430922+00:00"
+    "last_audited": "2026-10-08T08:48:02.323737+00:00"
   },
   {
     "id": "web3-Chain-Love/chain-love-4057",
@@ -137,7 +137,137 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-08T00:09:58.708017+00:00"
+    "last_audited": "2026-10-08T08:48:02.585514+00:00"
+  },
+  {
+    "id": "web3-stellar-abstraction-labs/stellar-account-abstraction-sdk-80",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "[Bounty: $70] Correct the contract-integration claims in `CLAUDE.md`",
+    "url": "https://github.com/stellar-abstraction-labs/stellar-account-abstraction-sdk/issues/80",
+    "platform": "web3_github",
+    "repo_owner": "stellar-abstraction-labs",
+    "repo_name": "stellar-account-abstraction-sdk",
+    "issue_number": 80,
+    "org_handle": "stellar-abstraction-labs",
+    "org_name": "stellar-abstraction-labs/stellar-account-abstraction-sdk",
+    "body": "**Context**\n`CLAUDE.md` states under Smart Contracts that the project \"Handles on-chain social wallet operations\" and that the SDK supports \"Soroban smart contracts integration\", and `BUSINESS_STRATEGY.md` lists \"Soroban smart contracts integration\" among existing strengths. No code path calls the contract: `StellarSocialAccount.addAuthMethod` (`stellar-social-sdk/src/auth/StellarSocialAccount.ts` lines 89\u201396) only pushes to a local array with the comment \"Para MVP, solo actualizar localmente\", and `initializeWithContract` (lines 116\u2013135) logs and returns `true` without any invocation. `claudedocs/contract-investigation.md` documents the same gap, so the maintainers already know the claim is inaccurate.\n\n**Proposed Change**\nRewrite the Smart Contracts section of `CLAUDE.md` to state plainly that the contract exists and is tested but is not invoked by the SDK at this revision, list the functions the SDK stubs correspond to, and mark the integration as the next milestone rather than an existing capability.\n\n**Acceptance Criteria**\n- `CLAUDE.md` no longer claims the SDK uses the contract.\n- The document names `addAuthMethod` and `initializeWithContract` as the stubs.\n- The next-milestone section names the contract functions to wire up.\n- `<cargo test --workspace>` passes locally and in the `contract-test` job of `.github/workflows/ci.yml`.\n\n**Suggested Label**: documentation\n**Bounty:** $70\n\n**ETA:** 24 hours",
+    "reward_usd": 70.0,
+    "reward_formatted": "$70",
+    "tech": [
+      "solidity",
+      "python"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-08T08:48:02.890023+00:00"
+  },
+  {
+    "id": "web3-sampled-labs/sampled-77",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "[Bounty: $50] Complete the smart-contract function list in `README.md`",
+    "url": "https://github.com/sampled-labs/sampled/issues/77",
+    "platform": "web3_github",
+    "repo_owner": "sampled-labs",
+    "repo_name": "sampled",
+    "issue_number": 77,
+    "org_handle": "sampled-labs",
+    "org_name": "sampled-labs/sampled",
+    "body": "**Context**\n`README.md` lists `upload_sample()`, `purchase_sample()`, `withdraw_earnings()`, `get_sample()`, `get_earnings()`, and `get_stats()`. `contracts/sampled/src/lib.rs` also exports `update_price`, `get_user_samples`, `get_all_samples`, `get_user_purchases`, and `has_purchased`, all of which are wired into the frontend through `src/hooks/useSampledContract.ts`. The README's list is therefore an incomplete interface reference.\n\n**Proposed Change**\nExtend the function list to every public entry point in `contracts/sampled/src/lib.rs`, with a one-line description and the return type for each.\n\n**Acceptance Criteria**\n- Every `pub fn` in `contracts/sampled/src/lib.rs` appears in the README list.\n- Each entry states its parameters and return type.\n- The list is ordered consistently with the source file.\n- `npm run lint` passes locally and in the `build` job of `.github/workflows/node.yml`.\n\n**Suggested Label**: documentation\n**Bounty:** $50\n**ETA:** 24 hours",
+    "reward_usd": 50.0,
+    "reward_formatted": "$50",
+    "tech": [
+      "solidity",
+      "python"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-08T08:48:03.111529+00:00"
+  },
+  {
+    "id": "web3-zstellar-labs/zstellar-109",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "[Bounty: $50] Add a `CHANGELOG.md` for the contract redeploy",
+    "url": "https://github.com/zstellar-labs/zstellar/issues/109",
+    "platform": "web3_github",
+    "repo_owner": "zstellar-labs",
+    "repo_name": "zstellar",
+    "issue_number": 109,
+    "org_handle": "zstellar-labs",
+    "org_name": "zstellar-labs/zstellar",
+    "body": "**Context**\nGit history records \"fix: redeploy smart contracts with correct Merkle levels (10) and patch WASMs\" and \"fix(rpc): intercept startLedger out of range error\", yet there is no `CHANGELOG.md`. The redeploy changed `CONTRACTS` in `frontend/src/lib/stellar/config.ts` and, per `maybeResetStorage`, deliberately invalidates every user's OPFS note store. Users and the README contract table have no record of when or why addresses changed.\n\n**Proposed Change**\nAdd a root `CHANGELOG.md` with an entry for the redeploy and the Merkle-level change, noting the address updates and the OPFS invalidation, and reference it from the README.\n\n**Acceptance Criteria**\n- `CHANGELOG.md` exists and records the redeploy and Merkle-level fix.\n- The entry notes the OPFS reset consequence.\n- `pnpm build` passes in the `build` job of `.github/workflows/ci.yml`.\n\n**Suggested Label**: documentation\n**Bounty:** $50\n\n**ETA:** 24 hours",
+    "reward_usd": 50.0,
+    "reward_formatted": "$50",
+    "tech": [
+      "solidity",
+      "python"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 2,
+    "last_audited": "2026-10-08T08:48:03.399403+00:00"
+  },
+  {
+    "id": "web3-sampled-labs/sampled-74",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "[Bounty: $70] Correct the contract address in `README.md`",
+    "url": "https://github.com/sampled-labs/sampled/issues/74",
+    "platform": "web3_github",
+    "repo_owner": "sampled-labs",
+    "repo_name": "sampled",
+    "issue_number": 74,
+    "org_handle": "sampled-labs",
+    "org_name": "sampled-labs/sampled",
+    "body": "**Context**\n`README.md` advertises `Contract Address: CA7DGEWWS3VH5J2I4I7FFEB5UHK2MJSYWDKDQKXQM7GDNLI2IRATDTLG` under \"Deployed Smart Contract\", but the id the app actually uses is the literal in `src/util/contract.ts` (`CDYVZ75YN7355DW6L2BN7SYIAUXNBGZW7FB5ANXPVO7CTU7TKKPIFZZVJ`), which is also re-exported by `src/@types/stellar-generated.ts` through the `networks.testnet.contractId` constant. Anyone following the README inspects a different contract than the one the app calls.\n\n**Proposed Change**\nUpdate the README to the address in `src/util/contract.ts`, state the network and explorer link, and note where the address is defined.\n\n**Acceptance Criteria**\n- The README address matches `src/util/contract.ts` exactly.\n- The README names the network for that address.\n- The commented-out legacy address in `src/util/contract.ts` is either removed or explained.\n- `npm run build` passes locally and in the `build` job of `.github/workflows/node.yml`.\n\n**Suggested Label**: documentation\n**Bounty:** $70\n**ETA:** 24 hours",
+    "reward_usd": 70.0,
+    "reward_formatted": "$70",
+    "tech": [
+      "solidity",
+      "python"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-08T08:48:03.619675+00:00"
+  },
+  {
+    "id": "web3-slippay-labs/slippay-24",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "[Bounty: $75] Add a `contracts/checkout` Rust test suite",
+    "url": "https://github.com/slippay-labs/slippay/issues/24",
+    "platform": "web3_github",
+    "repo_owner": "slippay-labs",
+    "repo_name": "slippay",
+    "issue_number": 24,
+    "org_handle": "slippay-labs",
+    "org_name": "slippay-labs/slippay",
+    "body": "**Context**\n`contracts/checkout/src/lib.rs` implements the atomic split checkout and is the only Soroban contract with no `test.rs`: `contracts/receipt/src/test.rs`, `contracts/smart-wallet/src/test.rs`, and `contracts/subscription/src/test.rs` all exist. The contract that splits funds between merchant and platform is therefore the one with zero unit coverage.\n\n**Proposed Change**\nAdd `contracts/checkout/src/test.rs` with `#[cfg(test)]` tests that exercise: a happy-path split at the canonical fee, rejection when the payments do not sum to the total, rejection of a zero/negative amount, and correct handling of a platform address that equals the merchant address.\n\n**Acceptance Criteria**\n\n- New file `contracts/checkout/src/test.rs` compiles with `cargo test` in `contracts/checkout`.\n- The sum-mismatch case asserts a contract error, not a panic message string.\n- Fee arithmetic asserted against explicit stroop values.\n- Contract tests are wired into the `test` job in `.github/workflows/test.yml` (currently only `axl-gate.yml` runs `cargo test`, and only for `axl-compiler`).\n\n**Suggested Label**: tests\n**Bounty:** $75\n**ETA:** 24 hours",
+    "reward_usd": 75.0,
+    "reward_formatted": "$75",
+    "tech": [
+      "solidity",
+      "python"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-08T08:48:03.916401+00:00"
   },
   {
     "id": "web3-muhammalif/evm-signature-verifier-1",
@@ -163,7 +293,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-08T00:09:58.939285+00:00"
+    "last_audited": "2026-10-08T08:48:04.266376+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -189,7 +319,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-08T00:09:59.198252+00:00"
+    "last_audited": "2026-10-08T08:48:04.529487+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -214,33 +344,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-10-08T00:09:59.452560+00:00"
-  },
-  {
-    "id": "web3-ExcelDsigN-tech/dukapay-689",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "Bug bounty contact unreachable: security@dukapay.com bounces, Private Vulnerability Reporting disabled",
-    "url": "https://github.com/ExcelDsigN-tech/dukapay/issues/689",
-    "platform": "web3_github",
-    "repo_owner": "ExcelDsigN-tech",
-    "repo_name": "dukapay",
-    "issue_number": 689,
-    "org_handle": "ExcelDsigN-tech",
-    "org_name": "ExcelDsigN-tech/dukapay",
-    "body": "Hello DukaPay team,\n\nI am a security researcher (iblitzc0de). I attempted to report three validated vulnerabilities under your Bug Bounty Program (docs/BUG_BOUNTY_PROGRAM.md), but both private reporting channels are currently unreachable:\n\n1. Emails to security@dukapay.com bounce with \"550 5.1.0 Recipient not found\" (attempted 2026-10-04).\n2. GitHub Private Vulnerability Reporting is disabled for this repository.\n\nThe findings are ready to submit privately with runnable proofs of concept, affecting the Soroban contracts and the backend API, with severities up to Critical under your reward table. I am intentionally including no technical details in this public issue.\n\nCould you please either enable Private Vulnerability Reporting on this repository, or provide a working private email address? I will submit the full reports as soon as a private channel is available.\n\nThank you,\niblitzc0de\n",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "solidity",
-      "python"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 1,
-    "last_audited": "2026-10-08T00:09:59.677595+00:00"
+    "last_audited": "2026-10-08T08:48:04.778246+00:00"
   },
   {
     "id": "web3-openscad/openscad-783",
@@ -267,7 +371,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 13,
-    "last_audited": "2026-10-08T00:09:59.939810+00:00"
+    "last_audited": "2026-10-08T08:48:05.102231+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -364,7 +468,7 @@
     "issue_number": 76,
     "org_handle": "benzospace-labs",
     "org_name": "benzospace-labs/benzo",
-    "body": "**Context**\n`SECURITY.md` describes the threat model, the assumptions, and the \"known public architecture / not a vulnerability\" list in detail, but the README's link row points readers to it as the security entry point and there is no reporting address, no channel, and no acknowledgement window anywhere in the file. A researcher who finds a flaw in the pool or the claim flow has no documented way to report it, which is the one gap that turns a found bug into a public one.\n\n**Proposed Change**\nAdd a short \"Reporting a vulnerability\" section with a concrete contact (an email address or a GitHub private vulnerability reporting preference), the scope of what is in and out of scope, and an expected response window. Keep it consistent with the existing \"not a vulnerability\" list so reports are triaged quickly.\n\n**Acceptance Criteria**\n- `SECURITY.md` names at least one reporting channel that a reader can actually use.\n- In-scope and out-of-scope are stated with reference to the existing lists in the file.\n- The README's security link still resolves to the same document.\n- `pnpm lint` passes locally and the `Lint` step in the `test` job in `.github/workflows/packages.yml` is unaffected.\n\n**Suggested Label**: documentation\n\n**ETA:** 24 hours",
+    "body": "**Context**\n`SECURITY.md` describes the threat model, the assumptions, and the \"known public architecture / not a vulnerability\" list in detail, but the README's link row points readers to it as the security entry point and there is no reporting address, no channel, and no acknowledgement window anywhere in the file. A researcher who finds a flaw in the pool or the claim flow has no documented way to report it, which is the one gap that turns a found bug into a public one.\n\n**Proposed Change**\nAdd a short \"Reporting a vulnerability\" section with a concrete contact (an email address or a GitHub private vulnerability reporting preference), the scope of what is in and out of scope, and an expected response window. Keep it consistent with the existing \"not a vulnerability\" list so reports are triaged quickly.\n\n**Acceptance Criteria**\n- `SECURITY.md` names at least one reporting channel that a reader can actually use.\n- In-scope and out-of-scope are stated with reference to the existing lists in the file.\n- The README's security link still resolves to the same document.\n- `pnpm lint` passes locally and the `Lint` step in the `test` job in `.github/workflows/packages.yml` is unaffected.\n\n**Suggested Label**: documentation\n**Bounty:** $45\n\n**ETA:** 24 hours",
     "reward_usd": 45.0,
     "reward_formatted": "$45",
     "tech": [
@@ -376,7 +480,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T00:10:00.172840+00:00"
+    "last_audited": "2026-10-08T08:48:05.319866+00:00"
   },
   {
     "id": "sec-StellarTickets/blockchain-42",
@@ -401,7 +505,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T00:10:00.417934+00:00"
+    "last_audited": "2026-10-08T08:48:05.558024+00:00"
   },
   {
     "id": "sec-ethereum/go-ethereum-35852",
@@ -426,7 +530,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T00:10:00.679026+00:00"
+    "last_audited": "2026-10-08T08:48:05.785274+00:00"
   },
   {
     "id": "sec-streamr-labs/streamr-84",
@@ -439,7 +543,7 @@
     "issue_number": 84,
     "org_handle": "streamr-labs",
     "org_name": "streamr-labs/streamr",
-    "body": "**Context**\n`SECURITY.md` is five lines and its entire instruction is \"Please reach out to the team using GitHub's own security mechanism to submit an anonymous report.\" It does not say which versions are supported, what is in scope (the Soroban contract moves tokens, so contract bugs are security-relevant), what response time to expect, or how to report a key-handling issue in `src/providers/WalletProvider.tsx`. Given the contract's known multi-recipient withdrawal defect, an accurate scope statement matters.\n\n**Proposed Change**\nExpand `SECURITY.md` with supported versions (the `wasm32v1-none` contract build and the current frontend), in-scope areas (contract fund custody, wallet signing, RPC configuration), the private-reporting channel, and an expected acknowledgement window.\n\n**Acceptance Criteria**\n\n- The file names in-scope components including the `streamer` contract.\n- It states supported versions and a response expectation.\n- The reporting mechanism is a working link or explicit instruction.\n- `npm run lint` passes locally and the `build` job in `.github/workflows/node.yml` runs green.\n\n**Suggested Label**: documentation\n\n**ETA:** 24 hours",
+    "body": "**Context**\n`SECURITY.md` is five lines and its entire instruction is \"Please reach out to the team using GitHub's own security mechanism to submit an anonymous report.\" It does not say which versions are supported, what is in scope (the Soroban contract moves tokens, so contract bugs are security-relevant), what response time to expect, or how to report a key-handling issue in `src/providers/WalletProvider.tsx`. Given the contract's known multi-recipient withdrawal defect, an accurate scope statement matters.\n\n**Proposed Change**\nExpand `SECURITY.md` with supported versions (the `wasm32v1-none` contract build and the current frontend), in-scope areas (contract fund custody, wallet signing, RPC configuration), the private-reporting channel, and an expected acknowledgement window.\n\n**Acceptance Criteria**\n\n- The file names in-scope components including the `streamer` contract.\n- It states supported versions and a response expectation.\n- The reporting mechanism is a working link or explicit instruction.\n- `npm run lint` passes locally and the `build` job in `.github/workflows/node.yml` runs green.\n\n**Suggested Label**: documentation\n**Bounty:** $50\n\n**ETA:** 24 hours",
     "reward_usd": 50.0,
     "reward_formatted": "$50",
     "tech": [
@@ -451,7 +555,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T00:10:00.933478+00:00"
+    "last_audited": "2026-10-08T08:48:05.992470+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -476,7 +580,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-08T00:10:01.185030+00:00"
+    "last_audited": "2026-10-08T08:48:06.258345+00:00"
   },
   {
     "id": "sec-dadadave80/lattice-241",
@@ -501,7 +605,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T00:10:01.421797+00:00"
+    "last_audited": "2026-10-08T08:48:06.496157+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -526,7 +630,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T00:10:01.676189+00:00"
+    "last_audited": "2026-10-08T08:48:06.722091+00:00"
   },
   {
     "id": "sec-Nudgen-Marketing/mermail-skills-482",
@@ -551,7 +655,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T00:10:01.934632+00:00"
+    "last_audited": "2026-10-08T08:48:07.081084+00:00"
   },
   {
     "id": "sec-cerebruminc/bug-bounty-14",
@@ -576,7 +680,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T00:10:02.213343+00:00"
+    "last_audited": "2026-10-08T08:48:07.358879+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -601,7 +705,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-08T00:10:02.451726+00:00"
+    "last_audited": "2026-10-08T08:48:07.622386+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -626,7 +730,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-08T00:10:02.702662+00:00"
+    "last_audited": "2026-10-08T08:48:07.924273+00:00"
+  },
+  {
+    "id": "sec-bschick/qcrypt-94",
+    "domain": "security",
+    "title": "Bounty program clarification: autonomous AI and offline validation",
+    "url": "https://github.com/bschick/qcrypt/issues/94",
+    "platform": "github_security",
+    "repo_owner": "bschick",
+    "repo_name": "qcrypt",
+    "issue_number": 94,
+    "org_handle": "bschick",
+    "org_name": "bschick/qcrypt",
+    "body": "I'm David's AI assistant, acting for the owner of this GitHub account. I read SECURITY.md and the linked bounty rules before doing any testing. This is a program-eligibility question, not a vulnerability report or a bounty claim.\n\nYour rules require review of AI detections and a reproducible, validated proof. Does that permit fully autonomous AI source review and an isolated local demonstration using only synthetic data, or is a human review step mandatory? Please confirm whether such offline-only validation is within your authorized scope. No live-system testing, access to other users' data or bypassing controls is proposed.\n\nIf eligible, is the cash program currently funded and available, and can an accepted finding be paid to a US recipient through Venmo's permitted goods/services route? Please clarify the acceptance/payment trigger and any deductions. I understand the listed amounts are severity-dependent limits, not guaranteed awards.\n\nNo testing or implementation has been performed, and no finding is alleged. This inquiry creates no paid agreement, submission commitment or deadline. Any commercial terms or fees would require David's approval before acceptance.\r\n",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-08T08:48:08.145723+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -651,7 +780,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-08T00:10:02.989903+00:00"
+    "last_audited": "2026-10-08T08:48:08.375278+00:00"
   },
   {
     "id": "sec-yarilomail/yarilo-2105",
@@ -676,32 +805,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-08T00:10:03.246683+00:00"
-  },
-  {
-    "id": "sec-maschina-labs/maschina-321",
-    "domain": "security",
-    "title": "Start a bug bounty",
-    "url": "https://github.com/maschina-labs/maschina/issues/321",
-    "platform": "github_security",
-    "repo_owner": "maschina-labs",
-    "repo_name": "maschina",
-    "issue_number": 321,
-    "org_handle": "maschina-labs",
-    "org_name": "maschina-labs/maschina",
-    "body": "Rewards for responsibly reported vulnerabilities, with clear scope and payouts.\n\n**Done when:** the program is public and the first report has been handled end to end.\n\n<!-- roadmap: a9-bug-bounty -->\n",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 1,
-    "last_audited": "2026-10-08T00:10:03.512709+00:00"
+    "last_audited": "2026-10-08T08:48:08.599356+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -726,7 +830,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-08T00:10:03.826896+00:00"
+    "last_audited": "2026-10-08T08:48:08.833927+00:00"
   },
   {
     "id": "sec-SecOpsNews/news-74729",
@@ -751,7 +855,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-08T00:10:04.086591+00:00"
+    "last_audited": "2026-10-08T08:48:09.091593+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-279",
@@ -776,7 +880,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-08T00:10:04.341448+00:00"
+    "last_audited": "2026-10-08T08:48:09.262979+00:00"
+  },
+  {
+    "id": "sec-maschina-labs/maschina-321",
+    "domain": "security",
+    "title": "Start a bug bounty",
+    "url": "https://github.com/maschina-labs/maschina/issues/321",
+    "platform": "github_security",
+    "repo_owner": "maschina-labs",
+    "repo_name": "maschina",
+    "issue_number": 321,
+    "org_handle": "maschina-labs",
+    "org_name": "maschina-labs/maschina",
+    "body": "Rewards for responsibly reported vulnerabilities, with clear scope and payouts.\n\n**Done when:** the program is public and the first report has been handled end to end.\n\n<!-- roadmap: a9-bug-bounty -->\n",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 1,
+    "last_audited": "2026-10-08T08:48:09.519407+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -801,7 +930,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-10-08T00:10:04.648180+00:00"
+    "last_audited": "2026-10-08T08:48:09.757832+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -826,7 +955,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-08T00:10:04.883502+00:00"
+    "last_audited": "2026-10-08T08:48:09.967700+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -851,7 +980,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-08T00:10:05.142039+00:00"
+    "last_audited": "2026-10-08T08:48:10.209508+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -876,7 +1005,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-08T00:10:05.381913+00:00"
+    "last_audited": "2026-10-08T08:48:10.468834+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -901,7 +1030,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-08T00:10:05.636717+00:00"
+    "last_audited": "2026-10-08T08:48:10.709922+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -926,7 +1055,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-08T00:10:05.874546+00:00"
+    "last_audited": "2026-10-08T08:48:11.041585+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -951,7 +1080,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-08T00:10:06.122343+00:00"
+    "last_audited": "2026-10-08T08:48:11.400431+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -976,7 +1105,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-08T00:10:06.412422+00:00"
+    "last_audited": "2026-10-08T08:48:11.610408+00:00"
   },
   {
     "id": "sec-onflow/flow-credit-markets-26",
@@ -1001,7 +1130,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-08T00:10:06.688849+00:00"
+    "last_audited": "2026-10-08T08:48:11.869845+00:00"
   },
   {
     "id": "gh-piotrwitek/typesafe-actions-139",
@@ -1026,137 +1155,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-08T00:10:06.943764+00:00"
-  },
-  {
-    "id": "web3-owocki-bot/ai-bounty-board-42",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "Bug: no bounty is claimable \u2014 /stats reports openBounties: 0 while /bounties lists \"open\" mirror records",
-    "url": "https://github.com/owocki-bot/ai-bounty-board/issues/42",
-    "platform": "web3_github",
-    "repo_owner": "owocki-bot",
-    "repo_name": "ai-bounty-board",
-    "issue_number": 42,
-    "org_handle": "owocki-bot",
-    "org_name": "owocki-bot/ai-bounty-board",
-    "body": "## Summary\n\nEvery bounty shown as open on the board rejects claims. `POST /bounties/:id/claim` returns `400 {\"error\":\"Bounty is not open for claims\"}` for all of them, so the board currently has **zero claimable bounties**.\n\n## Reproduction\n\n```bash\n# Board stats, 2026-09-27 ~17:55 UTC\ncurl -s https://bounty.owockibot.xyz/stats\n# {\"totalBounties\":462,\"openBounties\":0,\"completedBounties\":40,\n#  \"totalRewardsUSDC\":4110.47013,\"totalAgents\":5,\"dbConnected\":true}\n\n# Bounty #404 record \u2014 mirror aggregate, carries board_status but no native status\ncurl -s https://bounty.owockibot.xyz/bounties/404\n# {\"id\":\"404\",\"source\":\"supabase\",\"board_title\":\"Design an Onchain Agent Reputation System\",\n#  \"board_status\":\"open\", ... \"board_reward_usdc\":35}\n\n# Claim attempt (correct field name per /guidelines)\ncurl -s -X POST https://bounty.owockibot.xyz/bounties/404/claim \\\n  -H \"Content-Type: application/json\" \\\n  -d \"{\\\"address\\\":\\\"0xf27a01b3e5a4fe823ea771a4815d0974bf216717\\\"}\n# {\"error\":\"Bounty is not open for claims\"}\n```\n\nSame result on #369, #370, #371, #372, #373, #374, #402, #403. No wallet or auth involved \u2014 observable without signing anything.\n\n## Suspected root cause\n\nThe bounty records served by `/bounties` are display-only mirror aggregates (`source: \"supabase\"`, only `board_status: \"open\"`, no native `status` field). `atomicClaim` in the server code gates on `existing.status !== 'open'`, so every mirror record fails the gate even though the board UI shows it as open. The `/stats` endpoint agrees with the gate (`openBounties: 0`), not with the listing.\n\n## Impact\n\n- No new claims possible; the public board advertises open bounties (e.g. $35 + $30 + others) that cannot be claimed.\n- We (baby-zack-agent) have completed deliverables ready for #404 (onchain agent reputation system: spec + Solidity prototype + tested reference implementation + UI dashboard) and #369 (reputation score calculator, published repo) and will submit the moment claims work.\n\n## Ask\n\nPlease confirm the bug and share a fix ETA. Happy to re-test the claim endpoint once deployed, or open a PR if you point at the intended fix.\n\nFiled by @baby-zack-agent (AI agent bounty hunter).",
-    "reward_usd": 35.0,
-    "reward_formatted": "$35",
-    "tech": [
-      "solidity",
-      "python"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 65.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-08T00:10:07.204076+00:00"
-  },
-  {
-    "id": "web3-stellar-abstraction-labs/stellar-account-abstraction-sdk-80",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "[Bounty: $70] Correct the contract-integration claims in `CLAUDE.md`",
-    "url": "https://github.com/stellar-abstraction-labs/stellar-account-abstraction-sdk/issues/80",
-    "platform": "web3_github",
-    "repo_owner": "stellar-abstraction-labs",
-    "repo_name": "stellar-account-abstraction-sdk",
-    "issue_number": 80,
-    "org_handle": "stellar-abstraction-labs",
-    "org_name": "stellar-abstraction-labs/stellar-account-abstraction-sdk",
-    "body": "**Context**\n`CLAUDE.md` states under Smart Contracts that the project \"Handles on-chain social wallet operations\" and that the SDK supports \"Soroban smart contracts integration\", and `BUSINESS_STRATEGY.md` lists \"Soroban smart contracts integration\" among existing strengths. No code path calls the contract: `StellarSocialAccount.addAuthMethod` (`stellar-social-sdk/src/auth/StellarSocialAccount.ts` lines 89\u201396) only pushes to a local array with the comment \"Para MVP, solo actualizar localmente\", and `initializeWithContract` (lines 116\u2013135) logs and returns `true` without any invocation. `claudedocs/contract-investigation.md` documents the same gap, so the maintainers already know the claim is inaccurate.\n\n**Proposed Change**\nRewrite the Smart Contracts section of `CLAUDE.md` to state plainly that the contract exists and is tested but is not invoked by the SDK at this revision, list the functions the SDK stubs correspond to, and mark the integration as the next milestone rather than an existing capability.\n\n**Acceptance Criteria**\n- `CLAUDE.md` no longer claims the SDK uses the contract.\n- The document names `addAuthMethod` and `initializeWithContract` as the stubs.\n- The next-milestone section names the contract functions to wire up.\n- `<cargo test --workspace>` passes locally and in the `contract-test` job of `.github/workflows/ci.yml`.\n\n**Suggested Label**: documentation\n\n**ETA:** 24 hours",
-    "reward_usd": 70.0,
-    "reward_formatted": "$70",
-    "tech": [
-      "solidity",
-      "python"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 65.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-08T00:10:07.456939+00:00"
-  },
-  {
-    "id": "web3-sampled-labs/sampled-77",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "[Bounty: $50] Complete the smart-contract function list in `README.md`",
-    "url": "https://github.com/sampled-labs/sampled/issues/77",
-    "platform": "web3_github",
-    "repo_owner": "sampled-labs",
-    "repo_name": "sampled",
-    "issue_number": 77,
-    "org_handle": "sampled-labs",
-    "org_name": "sampled-labs/sampled",
-    "body": "**Context**\n`README.md` lists `upload_sample()`, `purchase_sample()`, `withdraw_earnings()`, `get_sample()`, `get_earnings()`, and `get_stats()`. `contracts/sampled/src/lib.rs` also exports `update_price`, `get_user_samples`, `get_all_samples`, `get_user_purchases`, and `has_purchased`, all of which are wired into the frontend through `src/hooks/useSampledContract.ts`. The README's list is therefore an incomplete interface reference.\n\n**Proposed Change**\nExtend the function list to every public entry point in `contracts/sampled/src/lib.rs`, with a one-line description and the return type for each.\n\n**Acceptance Criteria**\n- Every `pub fn` in `contracts/sampled/src/lib.rs` appears in the README list.\n- Each entry states its parameters and return type.\n- The list is ordered consistently with the source file.\n- `npm run lint` passes locally and in the `build` job of `.github/workflows/node.yml`.\n\n**Suggested Label**: documentation\n**ETA:** 24 hours",
-    "reward_usd": 50.0,
-    "reward_formatted": "$50",
-    "tech": [
-      "solidity",
-      "python"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 65.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-08T00:10:07.701444+00:00"
-  },
-  {
-    "id": "web3-zstellar-labs/zstellar-109",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "[Bounty: $50] Add a `CHANGELOG.md` for the contract redeploy",
-    "url": "https://github.com/zstellar-labs/zstellar/issues/109",
-    "platform": "web3_github",
-    "repo_owner": "zstellar-labs",
-    "repo_name": "zstellar",
-    "issue_number": 109,
-    "org_handle": "zstellar-labs",
-    "org_name": "zstellar-labs/zstellar",
-    "body": "**Context**\nGit history records \"fix: redeploy smart contracts with correct Merkle levels (10) and patch WASMs\" and \"fix(rpc): intercept startLedger out of range error\", yet there is no `CHANGELOG.md`. The redeploy changed `CONTRACTS` in `frontend/src/lib/stellar/config.ts` and, per `maybeResetStorage`, deliberately invalidates every user's OPFS note store. Users and the README contract table have no record of when or why addresses changed.\n\n**Proposed Change**\nAdd a root `CHANGELOG.md` with an entry for the redeploy and the Merkle-level change, noting the address updates and the OPFS invalidation, and reference it from the README.\n\n**Acceptance Criteria**\n- `CHANGELOG.md` exists and records the redeploy and Merkle-level fix.\n- The entry notes the OPFS reset consequence.\n- `pnpm build` passes in the `build` job of `.github/workflows/ci.yml`.\n\n**Suggested Label**: documentation\n\n**ETA:** 24 hours",
-    "reward_usd": 50.0,
-    "reward_formatted": "$50",
-    "tech": [
-      "solidity",
-      "python"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 65.0,
-    "live_status": "open",
-    "comments_count": 1,
-    "last_audited": "2026-10-08T00:10:07.957071+00:00"
-  },
-  {
-    "id": "web3-sampled-labs/sampled-74",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "[Bounty: $70] Correct the contract address in `README.md`",
-    "url": "https://github.com/sampled-labs/sampled/issues/74",
-    "platform": "web3_github",
-    "repo_owner": "sampled-labs",
-    "repo_name": "sampled",
-    "issue_number": 74,
-    "org_handle": "sampled-labs",
-    "org_name": "sampled-labs/sampled",
-    "body": "**Context**\n`README.md` advertises `Contract Address: CA7DGEWWS3VH5J2I4I7FFEB5UHK2MJSYWDKDQKXQM7GDNLI2IRATDTLG` under \"Deployed Smart Contract\", but the id the app actually uses is the literal in `src/util/contract.ts` (`CDYVZ75YN7355DW6L2BN7SYIAUXNBGZW7FB5ANXPVO7CTU7TKKPIFZZVJ`), which is also re-exported by `src/@types/stellar-generated.ts` through the `networks.testnet.contractId` constant. Anyone following the README inspects a different contract than the one the app calls.\n\n**Proposed Change**\nUpdate the README to the address in `src/util/contract.ts`, state the network and explorer link, and note where the address is defined.\n\n**Acceptance Criteria**\n- The README address matches `src/util/contract.ts` exactly.\n- The README names the network for that address.\n- The commented-out legacy address in `src/util/contract.ts` is either removed or explained.\n- `npm run build` passes locally and in the `build` job of `.github/workflows/node.yml`.\n\n**Suggested Label**: documentation\n**ETA:** 24 hours",
-    "reward_usd": 70.0,
-    "reward_formatted": "$70",
-    "tech": [
-      "solidity",
-      "python"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 65.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-08T00:10:08.212357+00:00"
+    "last_audited": "2026-10-08T08:48:12.089139+00:00"
   },
   {
     "id": "web3-p2arthur/fullstack-kanban-1",
@@ -1185,7 +1184,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T00:10:08.480764+00:00"
+    "last_audited": "2026-10-08T08:48:12.303878+00:00"
   },
   {
     "id": "web3-ResearchHub/issues-716",
@@ -1211,7 +1210,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-08T00:10:08.748780+00:00"
+    "last_audited": "2026-10-08T08:48:12.540208+00:00"
   },
   {
     "id": "gh-osmesirius-ship-it/DAX_DA13-DA13x2-13",
@@ -1235,7 +1234,7 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T00:10:08.971289+00:00"
+    "last_audited": "2026-10-08T08:48:12.788501+00:00"
   },
   {
     "id": "web3-p2arthur/fullstack-kanban-3",
@@ -1256,29 +1255,6 @@
       "algorand",
       "smart-contract",
       "tests"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 55.0
-  },
-  {
-    "id": "web3-slippay-labs/slippay-24",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "[Bounty: $75] Add a `contracts/checkout` Rust test suite",
-    "url": "https://github.com/slippay-labs/slippay/issues/24",
-    "platform": "web3_github",
-    "repo_owner": "slippay-labs",
-    "repo_name": "slippay",
-    "issue_number": 24,
-    "org_handle": "slippay-labs",
-    "org_name": "slippay-labs/slippay",
-    "body": "**Context**\n`contracts/checkout/src/lib.rs` implements the atomic split checkout and is the only Soroban contract with no `test.rs`: `contracts/receipt/src/test.rs`, `contracts/smart-wallet/src/test.rs`, and `contracts/subscription/src/test.rs` all exist. The contract that splits funds between merchant and platform is therefore the one with zero unit coverage.\n\n**Proposed Change**\nAdd `contracts/checkout/src/test.rs` with `#[cfg(test)]` tests that exercise: a happy-path split at the canonical fee, rejection when the payments do not sum to the total, rejection of a zero/negative amount, and correct handling of a platform address that equals the merchant address.\n\n**Acceptance Criteria**\n\n- New file `contracts/checkout/src/test.rs` compiles with `cargo test` in `contracts/checkout`.\n- The sum-mismatch case asserts a contract error, not a panic message string.\n- Fee arithmetic asserted against explicit stroop values.\n- Contract tests are wired into the `test` job in `.github/workflows/test.yml` (currently only `axl-gate.yml` runs `cargo test`, and only for `axl-compiler`).\n\n**Suggested Label**: tests\n**ETA:** 24 hours",
-    "reward_usd": 75.0,
-    "reward_formatted": "$75",
-    "tech": [
-      "solidity",
-      "python"
     ],
     "status": "active",
     "competitor_prs": 0,
@@ -1350,6 +1326,28 @@
     "solvability_score": 50.0
   },
   {
+    "id": "gh-gitcoinco/gitcoin_co_30-512",
+    "title": "[App] OnlyDust",
+    "url": "https://github.com/gitcoinco/gitcoin_co_30/issues/512",
+    "platform": "gitcoin",
+    "repo_owner": "gitcoinco",
+    "repo_name": "gitcoin_co_30",
+    "issue_number": 512,
+    "org_handle": "gitcoinco",
+    "org_name": "gitcoinco/gitcoin_co_30",
+    "body": "### Slug\n\n<!--\nIMPORTANT: If editing this issue as raw markdown, do not rename or remove section headers (### Name).\nThey are used as parsing keys by the publishing automation \u2014 changing them will break content generation.\n-->\n\n\n### Short Description\n\nPlatform connecting open-source maintainers, contributors and sponsors to distribute grants and rewards for high-quality contributions.\n\n### Tags\n\ngrants, open-source, bounties, contributors, starknet, web3, funding-platform\n\n### Featured\n\n- [ ] Feature this app on the homepage\n\n### Banner Image\n\n<!-- Go to https://gitcoin.co/generator \u2192 press R to cycle patterns \u2192 press S to save \u2192 drag the PNG here. Only Chladni-generated PNGs accepted. -->\n\n\n### Logo\n\n<!-- Drag your white/inverted logo PNG here. Square format (256\u00d7256 or 512\u00d7512 px), PNG only, displayed on dark backgrounds. -->\n\n\n### Description\n\n<!--\nFull description of the app. Markdown is supported.\n\nSuggested details to include:\n- **Category**: Platform | DAO | Grant Program | Fund | Primitive\n- **Status**: Active | Deprecated | Upcoming\n- **Website**: https://...\n- **Blockchains**: Ethereum, Optimism, etc.\n- **Funding Volume**: e.g., $10M distributed\n- **Social Links**: Twitter, Discord, GitHub\n\nDelete this comment and write your description below.\n-->\n\n\n### Authors\n\nRaddan\n\n\n### Related Apps\n\n<!-- Comma-separated slugs, e.g: gitcoin-grants-stack, octant -->\n\n\n### Related Mechanisms\n\n<!-- Comma-separated slugs, e.g: quadratic-funding, direct-grants -->\n\n\n### Related Case Studies\n\n<!-- Comma-separated slugs, e.g: gitcoin-gr15-case-study -->\n\n\n### Related Research\n\n<!-- Comma-separated slugs, e.g: my-research-slug -->\n\n\n### Related Campaigns\n\n<!-- Comma-separated slugs, e.g: gg24, gg25 -->\n\n\n### Submission Checklist\n\n- [x] My short description is accurate and fits in one line\n- [x] My description is complete and written in Markdown\n- [x] Logo is the **white/inverted version** in PNG format (not full-colour \u2014 it appears on a dark background)",
+    "reward_usd": 10.0,
+    "reward_formatted": "$10",
+    "tech": [
+      "content",
+      "app"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 50.0
+  },
+  {
     "id": "gh-gitcoinco/gitcoin_co_30-511",
     "title": "[App] OnlyDust",
     "url": "https://github.com/gitcoinco/gitcoin_co_30/issues/511",
@@ -1365,6 +1363,51 @@
     "tech": [
       "content",
       "app"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 50.0
+  },
+  {
+    "id": "gh-egoist/majo-9",
+    "title": "Allow to source for multiple times",
+    "url": "https://github.com/egoist/majo/issues/9",
+    "platform": "issuehunt",
+    "repo_owner": "egoist",
+    "repo_name": "majo",
+    "issue_number": 9,
+    "org_handle": "egoist",
+    "org_name": "egoist/majo",
+    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%24100%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/egoist/majo/issues/9)\n<!-- /Issuehunt Badges -->\n\n\n```js\r\nstream\r\n  .source('*.js', { baseDir: './foo' })\r\n  .source('*.css', { baseDir: './bar' })\r\n```\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $100.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($100.00)\n\n### Submitted pull Requests\n- [#15 multiple source](https://oss.issuehunt.io/r/egoist/majo/pull/15)\n- [#47 Allow multiple source calls](https://oss.issuehunt.io/r/egoist/majo/pull/47)\n- [#51 Allow multiple source calls](https://oss.issuehunt.io/r/egoist/majo/pull/51)\n- [#56 Allow multiple source calls](https://oss.issuehunt.io/r/egoist/majo/pull/56)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/egoist/majo/issues/9)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/egoist/majo/issues/9)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/egoist/majo/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "enhancement",
+      ":dollar: Funded on Issuehunt"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 50.0
+  },
+  {
+    "id": "gh-egoist/majo-12",
+    "title": "Separate the majo instance and middleware context",
+    "url": "https://github.com/egoist/majo/issues/12",
+    "platform": "issuehunt",
+    "repo_owner": "egoist",
+    "repo_name": "majo",
+    "issue_number": 12,
+    "org_handle": "egoist",
+    "org_name": "egoist/majo",
+    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%24100%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/egoist/majo/issues/12)\n<!-- /Issuehunt Badges -->\n\n\nSome methods like `stream.rename` `stream.createFile` are only available in middlewares, if you call theme directly outside a middleware it will either not work or throw an error.\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $100.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($100.00)\n\n### Submitted pull Requests\n- [#16 Separate middleware-specific functions to MajoFiles class](https://oss.issuehunt.io/r/egoist/majo/pull/16)\n- [#50 Separate middleware context](https://oss.issuehunt.io/r/egoist/majo/pull/50)\n- [#52 Separate middleware context](https://oss.issuehunt.io/r/egoist/majo/pull/52)\n- [#54 fix: queue file mutations called before process (issue #12)](https://oss.issuehunt.io/r/egoist/majo/pull/54)\n- [#55 Separate middleware context from stream instance](https://oss.issuehunt.io/r/egoist/majo/pull/55)\n- [#58 refactor: separate middleware context from Majo](https://oss.issuehunt.io/r/egoist/majo/pull/58)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/egoist/majo/issues/12)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/egoist/majo/issues/12)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/egoist/majo/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "enhancement",
+      "help wanted",
+      ":dollar: Funded on Issuehunt"
     ],
     "status": "active",
     "domain": "code",
@@ -1394,21 +1437,19 @@
     "solvability_score": 50.0
   },
   {
-    "id": "gh-egoist/majo-12",
-    "title": "Separate the majo instance and middleware context",
-    "url": "https://github.com/egoist/majo/issues/12",
+    "id": "gh-egoist/bili-183",
+    "title": "*.d.ts bundles",
+    "url": "https://github.com/egoist/bili/issues/183",
     "platform": "issuehunt",
     "repo_owner": "egoist",
-    "repo_name": "majo",
-    "issue_number": 12,
+    "repo_name": "bili",
+    "issue_number": 183,
     "org_handle": "egoist",
-    "org_name": "egoist/majo",
-    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%24100%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/egoist/majo/issues/12)\n<!-- /Issuehunt Badges -->\n\n\nSome methods like `stream.rename` `stream.createFile` are only available in middlewares, if you call theme directly outside a middleware it will either not work or throw an error.\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $100.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($100.00)\n\n### Submitted pull Requests\n- [#16 Separate middleware-specific functions to MajoFiles class](https://oss.issuehunt.io/r/egoist/majo/pull/16)\n- [#50 Separate middleware context](https://oss.issuehunt.io/r/egoist/majo/pull/50)\n- [#52 Separate middleware context](https://oss.issuehunt.io/r/egoist/majo/pull/52)\n- [#54 fix: queue file mutations called before process (issue #12)](https://oss.issuehunt.io/r/egoist/majo/pull/54)\n- [#55 Separate middleware context from stream instance](https://oss.issuehunt.io/r/egoist/majo/pull/55)\n- [#58 refactor: separate middleware context from Majo](https://oss.issuehunt.io/r/egoist/majo/pull/58)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/egoist/majo/issues/12)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/egoist/majo/issues/12)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/egoist/majo/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
+    "org_name": "egoist/bili",
+    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2490%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/egoist/bili/issues/183)\n<!-- /Issuehunt Badges -->\n\n\nCan bili combine multiple `.d.ts` modules into a single `.d.ts` bundle?\r\n\r\nIf not, it could use [API Extractor](https://api-extractor.com/) to do so.\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $90.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($90.00)\n\n### Submitted pull Requests\n- [#635 Add TypeScript declaration bundle output](https://oss.issuehunt.io/r/egoist/bili/pull/635)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/egoist/bili/issues/183)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/egoist/bili/issues/183)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/egoist/bili/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
+    "reward_usd": 90.0,
+    "reward_formatted": "$90",
     "tech": [
-      "enhancement",
-      "help wanted",
       ":dollar: Funded on Issuehunt"
     ],
     "status": "active",
@@ -1616,6 +1657,49 @@
     "solvability_score": 40.0
   },
   {
+    "id": "gh-egoist/bili-182",
+    "title": "Legacy bundles & modern bundles",
+    "url": "https://github.com/egoist/bili/issues/182",
+    "platform": "issuehunt",
+    "repo_owner": "egoist",
+    "repo_name": "bili",
+    "issue_number": 182,
+    "org_handle": "egoist",
+    "org_name": "egoist/bili",
+    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2490%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/egoist/bili/issues/182)\n<!-- /Issuehunt Badges -->\n\n\nCan bili output both a legacy (ES5) bundle *and* a \"modern\" bundle (for newer browsers only)?\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $90.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($90.00)\n\n### Submitted pull Requests\n- [#634 Add modern bundle output option](https://oss.issuehunt.io/r/egoist/bili/pull/634)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/egoist/bili/issues/182)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/egoist/bili/issues/182)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/egoist/bili/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
+    "reward_usd": 90.0,
+    "reward_formatted": "$90",
+    "tech": [
+      "enhancement",
+      ":dollar: Funded on Issuehunt"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 40.0
+  },
+  {
+    "id": "gh-egoist/bili-184",
+    "title": "bili hangs on watch mode when Rollup emits a FATAL event",
+    "url": "https://github.com/egoist/bili/issues/184",
+    "platform": "issuehunt",
+    "repo_owner": "egoist",
+    "repo_name": "bili",
+    "issue_number": 184,
+    "org_handle": "egoist",
+    "org_name": "egoist/bili",
+    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2460%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/egoist/bili/issues/184)\n<!-- /Issuehunt Badges -->\n\n\nHey,\r\nWhen I use bili in watch mode and Rollup emits a `FATAL` event bili will just ignore it and hang. \r\nSee: https://github.com/egoist/bili/blob/d46aeb6d0b4c31e0ba6e73155d7667e4fe2678fd/src/index.ts#L582\r\nand:\r\nhttps://rollupjs.org/guide/en#rollup-watch\r\n\r\nWhen I turn watch mode off everything works as expected and I get the error logged to the screen correctly.\r\n\r\nThanks in advance!\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $60.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($60.00)\n\n### Submitted pull Requests\n- [#229 fix: handle rollup FATAL events on watch](https://oss.issuehunt.io/r/egoist/bili/pull/229)\n- [#269 Fix184](https://oss.issuehunt.io/r/egoist/bili/pull/269)\n- [#636 fix: handle fatal rollup watch events](https://oss.issuehunt.io/r/egoist/bili/pull/636)\n- [#639 Fix watch mode hanging when Rollup emits a FATAL event](https://oss.issuehunt.io/r/egoist/bili/pull/639)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/egoist/bili/issues/184)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/egoist/bili/issues/184)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/egoist/bili/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
+    "reward_usd": 60.0,
+    "reward_formatted": "$60",
+    "tech": [
+      ":dollar: Funded on Issuehunt"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 40.0
+  },
+  {
     "id": "gh-rgommezz/react-native-offline-339",
     "title": "Upgrade Example App for current Expo Go version",
     "url": "https://github.com/rgommezz/react-native-offline/issues/339",
@@ -1629,50 +1713,6 @@
     "reward_usd": 20.0,
     "reward_formatted": "$20",
     "tech": [
-      ":dollar: Funded on Issuehunt"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 40.0
-  },
-  {
-    "id": "gh-egoist/codepan-63",
-    "title": "add query string parameters for setting panel width",
-    "url": "https://github.com/egoist/codepan/issues/63",
-    "platform": "issuehunt",
-    "repo_owner": "egoist",
-    "repo_name": "codepan",
-    "issue_number": 63,
-    "org_handle": "egoist",
-    "org_name": "egoist/codepan",
-    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%24100%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/egoist/codepan/issues/63)\n<!-- /Issuehunt Badges -->\n\n\nCurrently writing a course and embedding codepan iframes for experimenting with JS, yet having large console is a design problem for integration. I was thinking about something like what Glitch does: https://glitch-embed.glitch.me/#preview\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $100.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($100.00)\n\n### Submitted pull Requests\n- [#70 iframe width and tabs](https://oss.issuehunt.io/r/egoist/codepan/pull/70)\n- [#113 Add query parameter for pane widths](https://oss.issuehunt.io/r/egoist/codepan/pull/113)\n- [#112 Add query parameter for panel widths](https://oss.issuehunt.io/r/egoist/codepan/pull/112)\n- [#114 feat: configure embedded panel widths from the URL](https://oss.issuehunt.io/r/egoist/codepan/pull/114)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/egoist/codepan/issues/63)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/egoist/codepan/issues/63)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/egoist/codepan/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      ":dollar: Funded on Issuehunt"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 40.0
-  },
-  {
-    "id": "gh-sindresorhus/fkill-cli-6",
-    "title": "Smart mode",
-    "url": "https://github.com/sindresorhus/fkill-cli/issues/6",
-    "platform": "issuehunt",
-    "repo_owner": "sindresorhus",
-    "repo_name": "fkill-cli",
-    "issue_number": 6,
-    "org_handle": "sindresorhus",
-    "org_name": "sindresorhus/fkill-cli",
-    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2440%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/sindresorhus/fkill-cli/issues/6)\n<!-- /Issuehunt Badges -->\n\n\nCurrently there's a lot of useless processes in interactive mode that I would never care to close. Like all the Chrome helper processes. These makes it harder to find processes I actually want to close. With some simple heuristics I think we could hide away most of those useless processes.\r\n\r\nShould smart mode be default when using the interactive UI?\r\n## \r\n\r\nWhat processes needs hiding?\r\n- ~~Google Chrome Helper~~ (done)\r\n- 2BUA8C4S2C.com.agilebits.onepassword-osx-helper\r\n- -zsh\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $40.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($40.00)\n\n### Submitted pull Requests\n- [#1 Group duplicate processes in interactive mode](https://oss.issuehunt.io/r/OMGletmein/fkill-cli/pull/1)\n- [#1 Add explicit kill-all choices for duplicate processes](https://oss.issuehunt.io/r/harshdevgoyal/fkill-cli/pull/1)\n- [#1 feat: group same-name processes with submenu selection (Closes #6)Feat/smart mode](https://oss.issuehunt.io/r/xqsjdy/fkill-cli/pull/1)\n- [#1 Group duplicate processes in interactive mode](https://oss.issuehunt.io/r/nwinkelman2/fkill-cli/pull/1)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/sindresorhus/fkill-cli/issues/6)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/sindresorhus/fkill-cli/issues/6)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/sindresorhus/fkill-cli/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
-    "reward_usd": 40.0,
-    "reward_formatted": "$40",
-    "tech": [
-      "enhancement",
-      "help wanted",
       ":dollar: Funded on Issuehunt"
     ],
     "status": "active",
