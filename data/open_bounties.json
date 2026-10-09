@@ -19,7 +19,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T23:14:44.828136+00:00"
+    "last_audited": "2026-10-09T05:44:50.296006+00:00"
   },
   {
     "id": "gh-chenzilin100/StellarBladeTrainer-Releases-5",
@@ -41,7 +41,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-08T23:14:45.152503+00:00"
+    "last_audited": "2026-10-09T05:44:50.510535+00:00"
   },
   {
     "id": "gh-prest/prest-284",
@@ -66,7 +66,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-08T23:14:45.436669+00:00"
+    "last_audited": "2026-10-09T05:44:50.747438+00:00"
   },
   {
     "id": "gh-future-architect/vuls-777",
@@ -88,7 +88,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-08T23:14:45.771643+00:00"
+    "last_audited": "2026-10-09T05:44:50.997353+00:00"
   },
   {
     "id": "gh-marktext/marktext-375",
@@ -104,8 +104,6 @@
     "reward_usd": 30.0,
     "reward_formatted": "$30",
     "tech": [
-      ":whale: help wanted",
-      ":cow: good first issue",
       ":panda_face: plugin"
     ],
     "status": "active",
@@ -113,8 +111,8 @@
     "competitor_prs": 0,
     "solvability_score": 100.0,
     "live_status": "open",
-    "comments_count": 56,
-    "last_audited": "2026-10-08T23:14:46.079634+00:00"
+    "comments_count": 60,
+    "last_audited": "2026-10-09T05:44:51.224117+00:00"
   },
   {
     "id": "web3-Chain-Love/chain-love-4057",
@@ -140,7 +138,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-08T23:14:46.389651+00:00"
+    "last_audited": "2026-10-09T05:44:51.419528+00:00"
   },
   {
     "id": "web3-sampled-labs/sampled-77",
@@ -166,7 +164,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T23:14:46.717933+00:00"
+    "last_audited": "2026-10-09T05:44:51.630293+00:00"
   },
   {
     "id": "web3-Signpost-Labs/signpost-app-77",
@@ -192,7 +190,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T23:14:47.028302+00:00"
+    "last_audited": "2026-10-09T05:44:51.859771+00:00"
   },
   {
     "id": "web3-sampled-labs/sampled-74",
@@ -218,7 +216,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T23:14:47.325487+00:00"
+    "last_audited": "2026-10-09T05:44:52.077449+00:00"
   },
   {
     "id": "web3-slippay-labs/slippay-24",
@@ -244,7 +242,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T23:14:47.625940+00:00"
+    "last_audited": "2026-10-09T05:44:52.288199+00:00"
   },
   {
     "id": "web3-borastellar/ai-bora-stellar-76",
@@ -270,7 +268,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T23:14:47.956721+00:00"
+    "last_audited": "2026-10-09T05:44:52.515977+00:00"
   },
   {
     "id": "web3-muhammalif/evm-signature-verifier-1",
@@ -296,7 +294,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-08T23:14:48.257457+00:00"
+    "last_audited": "2026-10-09T05:44:52.695242+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -322,7 +320,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-08T23:14:48.570537+00:00"
+    "last_audited": "2026-10-09T05:44:52.920826+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -347,7 +345,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-10-08T23:14:48.872578+00:00"
+    "last_audited": "2026-10-09T05:44:53.147003+00:00"
   },
   {
     "id": "web3-openscad/openscad-783",
@@ -374,7 +372,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 13,
-    "last_audited": "2026-10-08T23:14:49.165692+00:00"
+    "last_audited": "2026-10-09T05:44:53.402067+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -483,7 +481,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T23:14:49.460746+00:00"
+    "last_audited": "2026-10-09T05:44:53.609237+00:00"
   },
   {
     "id": "sec-StellarQuorum/StellarQuorum-334",
@@ -508,7 +506,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T23:14:49.794777+00:00"
+    "last_audited": "2026-10-09T05:44:53.820432+00:00"
   },
   {
     "id": "sec-StellarTickets/blockchain-42",
@@ -533,7 +531,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T23:14:50.105327+00:00"
+    "last_audited": "2026-10-09T05:44:54.018946+00:00"
   },
   {
     "id": "sec-ethereum/go-ethereum-35852",
@@ -558,7 +556,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T23:14:50.387952+00:00"
+    "last_audited": "2026-10-09T05:44:54.246966+00:00"
   },
   {
     "id": "sec-streamr-labs/streamr-84",
@@ -583,7 +581,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T23:14:50.690687+00:00"
+    "last_audited": "2026-10-09T05:44:54.448469+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -608,7 +606,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-08T23:14:50.986685+00:00"
+    "last_audited": "2026-10-09T05:44:54.639896+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -633,7 +631,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T23:14:51.296172+00:00"
+    "last_audited": "2026-10-09T05:44:54.869288+00:00"
   },
   {
     "id": "sec-llehouerou/oiko-99",
@@ -658,7 +656,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T23:14:51.606768+00:00"
+    "last_audited": "2026-10-09T05:44:55.064125+00:00"
   },
   {
     "id": "sec-cerebruminc/bug-bounty-14",
@@ -683,7 +681,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T23:14:51.920575+00:00"
+    "last_audited": "2026-10-09T05:44:55.297797+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -708,7 +706,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-08T23:14:52.253266+00:00"
+    "last_audited": "2026-10-09T05:44:55.528080+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -733,7 +731,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-08T23:14:52.571188+00:00"
+    "last_audited": "2026-10-09T05:44:55.838392+00:00"
   },
   {
     "id": "sec-bschick/qcrypt-94",
@@ -758,7 +756,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T23:14:52.811048+00:00"
+    "last_audited": "2026-10-09T05:44:56.021485+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -783,7 +781,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-08T23:14:53.120572+00:00"
+    "last_audited": "2026-10-09T05:44:56.234181+00:00"
   },
   {
     "id": "sec-yarilomail/yarilo-2105",
@@ -808,7 +806,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-08T23:14:53.397154+00:00"
+    "last_audited": "2026-10-09T05:44:56.412907+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -833,7 +831,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-08T23:14:53.666600+00:00"
+    "last_audited": "2026-10-09T05:44:56.694787+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-279",
@@ -858,7 +856,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-08T23:14:53.954984+00:00"
+    "last_audited": "2026-10-09T05:44:56.876316+00:00"
   },
   {
     "id": "sec-Escaro-Labs/escaro-38",
@@ -883,7 +881,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T23:14:54.247969+00:00"
+    "last_audited": "2026-10-09T05:44:57.066377+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -908,7 +906,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-08T23:14:54.563410+00:00"
+    "last_audited": "2026-10-09T05:44:57.262042+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -933,7 +931,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-10-08T23:14:54.888527+00:00"
+    "last_audited": "2026-10-09T05:44:57.497923+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -958,7 +956,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-08T23:14:55.164305+00:00"
+    "last_audited": "2026-10-09T05:44:57.669672+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -983,7 +981,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-08T23:14:55.438183+00:00"
+    "last_audited": "2026-10-09T05:44:57.851614+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -1008,7 +1006,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-08T23:14:55.689968+00:00"
+    "last_audited": "2026-10-09T05:44:58.049438+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -1033,7 +1031,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-08T23:14:55.994149+00:00"
+    "last_audited": "2026-10-09T05:44:58.257175+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -1058,7 +1056,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-08T23:14:56.284689+00:00"
+    "last_audited": "2026-10-09T05:44:58.447723+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -1083,7 +1081,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-08T23:14:56.576272+00:00"
+    "last_audited": "2026-10-09T05:44:58.643000+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1108,7 +1106,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-08T23:14:56.896180+00:00"
+    "last_audited": "2026-10-09T05:44:58.860361+00:00"
   },
   {
     "id": "sec-onflow/flow-credit-markets-26",
@@ -1133,7 +1131,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-08T23:14:57.202054+00:00"
+    "last_audited": "2026-10-09T05:44:59.056689+00:00"
   },
   {
     "id": "web3-p2arthur/fullstack-kanban-1",
@@ -1162,7 +1160,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T23:14:57.455862+00:00"
+    "last_audited": "2026-10-09T05:44:59.268167+00:00"
   },
   {
     "id": "web3-ResearchHub/issues-716",
@@ -1188,7 +1186,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-08T23:14:57.759639+00:00"
+    "last_audited": "2026-10-09T05:44:59.469526+00:00"
   },
   {
     "id": "gh-osmesirius-ship-it/DAX_DA13-DA13x2-13",
@@ -1212,7 +1210,7 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T23:14:58.065663+00:00"
+    "last_audited": "2026-10-09T05:44:59.629489+00:00"
   },
   {
     "id": "web3-p2arthur/fullstack-kanban-3",
@@ -1239,7 +1237,7 @@
     "solvability_score": 55.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-08T23:14:58.367427+00:00"
+    "last_audited": "2026-10-09T05:44:59.834289+00:00"
   },
   {
     "id": "web3-tetherless-world/whyis-237",
@@ -1301,28 +1299,6 @@
     "reward_usd": 30.0,
     "reward_formatted": "$30",
     "tech": [],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 50.0
-  },
-  {
-    "id": "gh-gitcoinco/gitcoin_co_30-512",
-    "title": "[App] OnlyDust",
-    "url": "https://github.com/gitcoinco/gitcoin_co_30/issues/512",
-    "platform": "gitcoin",
-    "repo_owner": "gitcoinco",
-    "repo_name": "gitcoin_co_30",
-    "issue_number": 512,
-    "org_handle": "gitcoinco",
-    "org_name": "gitcoinco/gitcoin_co_30",
-    "body": "### Slug\n\n<!--\nIMPORTANT: If editing this issue as raw markdown, do not rename or remove section headers (### Name).\nThey are used as parsing keys by the publishing automation \u2014 changing them will break content generation.\n-->\n\n\n### Short Description\n\nPlatform connecting open-source maintainers, contributors and sponsors to distribute grants and rewards for high-quality contributions.\n\n### Tags\n\ngrants, open-source, bounties, contributors, starknet, web3, funding-platform\n\n### Featured\n\n- [ ] Feature this app on the homepage\n\n### Banner Image\n\n<!-- Go to https://gitcoin.co/generator \u2192 press R to cycle patterns \u2192 press S to save \u2192 drag the PNG here. Only Chladni-generated PNGs accepted. -->\n\n\n### Logo\n\n<!-- Drag your white/inverted logo PNG here. Square format (256\u00d7256 or 512\u00d7512 px), PNG only, displayed on dark backgrounds. -->\n\n\n### Description\n\n<!--\nFull description of the app. Markdown is supported.\n\nSuggested details to include:\n- **Category**: Platform | DAO | Grant Program | Fund | Primitive\n- **Status**: Active | Deprecated | Upcoming\n- **Website**: https://...\n- **Blockchains**: Ethereum, Optimism, etc.\n- **Funding Volume**: e.g., $10M distributed\n- **Social Links**: Twitter, Discord, GitHub\n\nDelete this comment and write your description below.\n-->\n\n\n### Authors\n\nRaddan\n\n\n### Related Apps\n\n<!-- Comma-separated slugs, e.g: gitcoin-grants-stack, octant -->\n\n\n### Related Mechanisms\n\n<!-- Comma-separated slugs, e.g: quadratic-funding, direct-grants -->\n\n\n### Related Case Studies\n\n<!-- Comma-separated slugs, e.g: gitcoin-gr15-case-study -->\n\n\n### Related Research\n\n<!-- Comma-separated slugs, e.g: my-research-slug -->\n\n\n### Related Campaigns\n\n<!-- Comma-separated slugs, e.g: gg24, gg25 -->\n\n\n### Submission Checklist\n\n- [x] My short description is accurate and fits in one line\n- [x] My description is complete and written in Markdown\n- [x] Logo is the **white/inverted version** in PNG format (not full-colour \u2014 it appears on a dark background)",
-    "reward_usd": 10.0,
-    "reward_formatted": "$10",
-    "tech": [
-      "content",
-      "app"
-    ],
     "status": "active",
     "domain": "code",
     "competitor_prs": 0,
@@ -1439,6 +1415,29 @@
     "solvability_score": 50.0
   },
   {
+    "id": "gh-SelfhostedPro/selfhosted_templates-132",
+    "title": "[APP REQUEST]: CloudFlare DDNS",
+    "url": "https://github.com/SelfhostedPro/selfhosted_templates/issues/132",
+    "platform": "issuehunt",
+    "repo_owner": "SelfhostedPro",
+    "repo_name": "selfhosted_templates",
+    "issue_number": 132,
+    "org_handle": "SelfhostedPro",
+    "org_name": "SelfhostedPro/selfhosted_templates",
+    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2415%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/SelfhostedPro/selfhosted_templates/issues/132)\n<!-- /Issuehunt Badges -->\n\n\n### Dockerhub Link: ###\r\n*https://github.com/oznu/docker-cloudflare-ddns*\r\n\r\n### Description ###\r\n* free CloudFlare DNS Service and helps to auto update the IP*\r\n\r\n### Separate Database? ###\r\n*No*\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $15.00)\n\n- [<img src='https://avatars1.githubusercontent.com/u/47480699?v=4' alt='curator888' width=24 height=24> curator888](https://oss.issuehunt.io/u/curator888) ($15.00)\n\n### Submitted pull Requests\n- [#180 Add Cloudflare DDNS to templates](https://oss.issuehunt.io/r/SelfhostedPro/selfhosted_templates/pull/180)\n- [#286 Add Cloudflare DDNS app template](https://oss.issuehunt.io/r/SelfhostedPro/selfhosted_templates/pull/286)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/SelfhostedPro/selfhosted_templates/issues/132)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/SelfhostedPro/selfhosted_templates/issues/132)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/SelfhostedPro/selfhosted_templates/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
+    "reward_usd": 15.0,
+    "reward_formatted": "$15",
+    "tech": [
+      "App Request",
+      ":dollar: Funded on Issuehunt",
+      "hacktoberfest"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 50.0
+  },
+  {
     "id": "gh-gajus/flow-runtime-165",
     "title": "webpack loader",
     "url": "https://github.com/gajus/flow-runtime/issues/165",
@@ -1453,27 +1452,6 @@
     "reward_formatted": "$200",
     "tech": [
       "enhancement",
-      ":dollar: Funded on Issuehunt"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 50.0
-  },
-  {
-    "id": "gh-egoist/bili-183",
-    "title": "*.d.ts bundles",
-    "url": "https://github.com/egoist/bili/issues/183",
-    "platform": "issuehunt",
-    "repo_owner": "egoist",
-    "repo_name": "bili",
-    "issue_number": 183,
-    "org_handle": "egoist",
-    "org_name": "egoist/bili",
-    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2490%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/egoist/bili/issues/183)\n<!-- /Issuehunt Badges -->\n\n\nCan bili combine multiple `.d.ts` modules into a single `.d.ts` bundle?\r\n\r\nIf not, it could use [API Extractor](https://api-extractor.com/) to do so.\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $90.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($90.00)\n\n### Submitted pull Requests\n- [#635 Add TypeScript declaration bundle output](https://oss.issuehunt.io/r/egoist/bili/pull/635)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/egoist/bili/issues/183)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/egoist/bili/issues/183)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/egoist/bili/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
-    "reward_usd": 90.0,
-    "reward_formatted": "$90",
-    "tech": [
       ":dollar: Funded on Issuehunt"
     ],
     "status": "active",
@@ -1634,6 +1612,29 @@
     "solvability_score": 40.0
   },
   {
+    "id": "gh-effector/effector-161",
+    "title": "Perf tests on real devices",
+    "url": "https://github.com/effector/effector/issues/161",
+    "platform": "issuehunt",
+    "repo_owner": "effector",
+    "repo_name": "effector",
+    "issue_number": 161,
+    "org_handle": "effector",
+    "org_name": "effector/effector",
+    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%24100%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/zerobias/effector/issues/161)\n<!-- /Issuehunt Badges -->\n\n\nNow we have [tests for compatibility][browserstack-tests] with real devices so we can also run performance checks on them as well\r\nIt will allow us to be sure, that the library match the user requirements on common devices\r\n\r\n[browserstack-tests]: https://github.com/zerobias/effector/tree/master/src/browserstack\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $100.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($100.00)\n\n### Submitted pull Requests\n- [#1329 Add BrowserStack performance budget checks](https://oss.issuehunt.io/r/effector/effector/pull/1329)\n- [#1331 test(compat): add browserstack perf budget suite](https://oss.issuehunt.io/r/effector/effector/pull/1331)\n- [#1332 test(compat): add BrowserStack perf budgets](https://oss.issuehunt.io/r/effector/effector/pull/1332)\n- [#1333 test(compat): add BrowserStack performance budgets](https://oss.issuehunt.io/r/effector/effector/pull/1333)\n- [#1354 test(compat): normalize real-device performance budgets](https://oss.issuehunt.io/r/effector/effector/pull/1354)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/zerobias/effector/issues/161)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/zerobias/effector/issues/161)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/zerobias/effector/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "enhancement",
+      ":dollar: Funded on Issuehunt",
+      "compatibility"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 40.0
+  },
+  {
     "id": "gh-sindresorhus/Settings-9",
     "title": "Rapidly switching between tabs causes view size to be wrong",
     "url": "https://github.com/sindresorhus/Settings/issues/9",
@@ -1692,27 +1693,6 @@
     "reward_formatted": "$90",
     "tech": [
       "enhancement",
-      ":dollar: Funded on Issuehunt"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 40.0
-  },
-  {
-    "id": "gh-rgommezz/react-native-offline-339",
-    "title": "Upgrade Example App for current Expo Go version",
-    "url": "https://github.com/rgommezz/react-native-offline/issues/339",
-    "platform": "issuehunt",
-    "repo_owner": "rgommezz",
-    "repo_name": "react-native-offline",
-    "issue_number": 339,
-    "org_handle": "rgommezz",
-    "org_name": "rgommezz/react-native-offline",
-    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2420%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/rgommezz/react-native-offline/issues/339)\n<!-- /Issuehunt Badges -->\n\n\n### Current Behavior\r\n- Example App will not launch with Expo Go V39+\r\n\r\n\r\n### Expected behavior\r\nExample App will launch with Expo Go V39+\r\n\r\n### How to reproduce\r\n\r\n- Pretty obvious\r\n\r\n### Your Environment\r\n\r\nIphone 7 Plus\r\nExpo Go V39+\r\n\r\n## Notes:\r\nI don't have a way to juggle Expo Go versions on my device. It would be nice if this used the current version, so I could check it out.\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $20.00)\n\n- [<img src='https://avatars.githubusercontent.com/u/54514092?v=4' alt='charlestbell' width=24 height=24> charlestbell](https://issuehunt.io/u/charlestbell) ($20.00)\n\n### Submitted pull Requests\n- [#343 Updating expo example to v43](https://issuehunt.io/r/rgommezz/react-native-offline/pull/343)\n---\n\n#### [Become a backer now!](https://issuehunt.io/r/rgommezz/react-native-offline/issues/339)\n#### [Or submit a pull request to get the deposits!](https://issuehunt.io/r/rgommezz/react-native-offline/issues/339)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://issuehunt.io/r/rgommezz/react-native-offline/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
-    "reward_usd": 20.0,
-    "reward_formatted": "$20",
-    "tech": [
       ":dollar: Funded on Issuehunt"
     ],
     "status": "active",
