@@ -1,27 +1,5 @@
 [
   {
-    "id": "gh-NightVibes33/Filza-27-55",
-    "title": "can we access appdata on ths filza in ios 27.0?",
-    "url": "https://github.com/NightVibes33/Filza-27/issues/55",
-    "platform": "opire",
-    "repo_owner": "NightVibes33",
-    "repo_name": "Filza-27",
-    "issue_number": 55,
-    "org_handle": "NightVibes33",
-    "org_name": "NightVibes33/Filza-27",
-    "body": "hi thanks for this project can we access app data on this filza version my ios version is ios 27.0 \n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #55</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @AKIFKHAN5</code> (replace <code>20</code> with the amount, and <code>@AKIFKHAN5</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-09T05:44:50.296006+00:00"
-  },
-  {
     "id": "gh-chenzilin100/StellarBladeTrainer-Releases-5",
     "title": "1.0.16 update breaks projectile parry",
     "url": "https://github.com/chenzilin100/StellarBladeTrainer-Releases/issues/5",
@@ -41,7 +19,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-09T05:44:50.510535+00:00"
+    "last_audited": "2026-10-09T13:01:54.038015+00:00"
   },
   {
     "id": "gh-prest/prest-284",
@@ -66,7 +44,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-09T05:44:50.747438+00:00"
+    "last_audited": "2026-10-09T13:01:54.268845+00:00"
   },
   {
     "id": "gh-future-architect/vuls-777",
@@ -88,7 +66,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-09T05:44:50.997353+00:00"
+    "last_audited": "2026-10-09T13:01:54.544283+00:00"
   },
   {
     "id": "gh-marktext/marktext-375",
@@ -100,7 +78,7 @@
     "issue_number": 375,
     "org_handle": "marktext",
     "org_name": "marktext/marktext",
-    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2430%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/marktext/marktext/issues/375)\n<!-- /Issuehunt Badges -->\n\n\n**Hi, everyone**\r\n\r\nBecause of love of **markdown**, I usually likes to write some documents or technical blog. Therefore, I decided to write a markdown editor. The first thing I planned to do was write an editor for myself use. By the way, open sourced to GitHub. Mark Text has received more and more attention, with more feature requests, in order to meet these needs, I began to do some more in-depth thinking on Mark Text, such as support for different editing modes, customized settings, auto-completion of picture paths, etc.\r\n\r\nThe 0.12.25 version was recently released, with support for sidebars and tabs, which makes it easier to edit projects and search for keywords in projects.\r\n\r\nAs the new functional requirements will always appear, the marktext volume (code size) will also become larger and larger. After the 1.0 release, we consider supporting plug-in so that we can write our own plug-ins to achieve the functions we want.. such as:\r\n\r\n- Upload Evernote\r\n\u00a0\u00a0\u00a0\u00a0\r\n- Custom theme\r\n\u00a0\u00a0\u00a0\u00a0\r\n- Turn marktext into a memo\r\n\u00a0\u00a0\u00a0\u00a0\r\nOf course, there are still many functions that plug-ins can implement. We also hope that everyone can provide some ideas or what do you want to use plug-ins to do something? This also makes it easier for us to better design plug-in APIs.\r\n\r\nFinally, everyone is welcome to download Mark Text and experience it, although it is not yet perfect.\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $30.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/13612118?v=4' alt='boostio' width=24 height=24> boostio](https://oss.issuehunt.io/u/boostio) ($10.00)\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($20.00)\n\n### Submitted pull Requests\n- [#4936 docs(muya): document picker registration](https://oss.issuehunt.io/r/marktext/marktext/pull/4936)\n- [#5633 fix(desktop): remove applied custom CSS when the preference is cleared](https://oss.issuehunt.io/r/marktext/marktext/pull/5633)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/marktext/marktext/issues/375)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/marktext/marktext/issues/375)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/marktext/marktext/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
+    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2430%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/marktext/marktext/issues/375)\n<!-- /Issuehunt Badges -->\n\n\n**Hi, everyone**\r\n\r\nBecause of love of **markdown**, I usually likes to write some documents or technical blog. Therefore, I decided to write a markdown editor. The first thing I planned to do was write an editor for myself use. By the way, open sourced to GitHub. Mark Text has received more and more attention, with more feature requests, in order to meet these needs, I began to do some more in-depth thinking on Mark Text, such as support for different editing modes, customized settings, auto-completion of picture paths, etc.\r\n\r\nThe 0.12.25 version was recently released, with support for sidebars and tabs, which makes it easier to edit projects and search for keywords in projects.\r\n\r\nAs the new functional requirements will always appear, the marktext volume (code size) will also become larger and larger. After the 1.0 release, we consider supporting plug-in so that we can write our own plug-ins to achieve the functions we want.. such as:\r\n\r\n- Upload Evernote\r\n\u00a0\u00a0\u00a0\u00a0\r\n- Custom theme\r\n\u00a0\u00a0\u00a0\u00a0\r\n- Turn marktext into a memo\r\n\u00a0\u00a0\u00a0\u00a0\r\nOf course, there are still many functions that plug-ins can implement. We also hope that everyone can provide some ideas or what do you want to use plug-ins to do something? This also makes it easier for us to better design plug-in APIs.\r\n\r\nFinally, everyone is welcome to download Mark Text and experience it, although it is not yet perfect.\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $30.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/13612118?v=4' alt='boostio' width=24 height=24> boostio](https://oss.issuehunt.io/u/boostio) ($10.00)\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($20.00)\n\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/marktext/marktext/issues/375)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/marktext/marktext/issues/375)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/marktext/marktext/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
     "reward_usd": 30.0,
     "reward_formatted": "$30",
     "tech": [
@@ -112,7 +90,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 60,
-    "last_audited": "2026-10-09T05:44:51.224117+00:00"
+    "last_audited": "2026-10-09T13:01:54.797871+00:00"
   },
   {
     "id": "web3-Chain-Love/chain-love-4057",
@@ -138,33 +116,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-09T05:44:51.419528+00:00"
-  },
-  {
-    "id": "web3-sampled-labs/sampled-77",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "[Bounty: $50] Complete the smart-contract function list in `README.md`",
-    "url": "https://github.com/sampled-labs/sampled/issues/77",
-    "platform": "web3_github",
-    "repo_owner": "sampled-labs",
-    "repo_name": "sampled",
-    "issue_number": 77,
-    "org_handle": "sampled-labs",
-    "org_name": "sampled-labs/sampled",
-    "body": "**Context**\n`README.md` lists `upload_sample()`, `purchase_sample()`, `withdraw_earnings()`, `get_sample()`, `get_earnings()`, and `get_stats()`. `contracts/sampled/src/lib.rs` also exports `update_price`, `get_user_samples`, `get_all_samples`, `get_user_purchases`, and `has_purchased`, all of which are wired into the frontend through `src/hooks/useSampledContract.ts`. The README's list is therefore an incomplete interface reference.\n\n**Proposed Change**\nExtend the function list to every public entry point in `contracts/sampled/src/lib.rs`, with a one-line description and the return type for each.\n\n**Acceptance Criteria**\n- Every `pub fn` in `contracts/sampled/src/lib.rs` appears in the README list.\n- Each entry states its parameters and return type.\n- The list is ordered consistently with the source file.\n- `npm run lint` passes locally and in the `build` job of `.github/workflows/node.yml`.\n\n**Suggested Label**: documentation\n**Bounty:** $50\n**ETA:** 24 hours",
-    "reward_usd": 50.0,
-    "reward_formatted": "$50",
-    "tech": [
-      "solidity",
-      "python"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-09T05:44:51.630293+00:00"
+    "last_audited": "2026-10-09T13:01:55.033500+00:00"
   },
   {
     "id": "web3-Signpost-Labs/signpost-app-77",
@@ -190,33 +142,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T05:44:51.859771+00:00"
-  },
-  {
-    "id": "web3-sampled-labs/sampled-74",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "[Bounty: $70] Correct the contract address in `README.md`",
-    "url": "https://github.com/sampled-labs/sampled/issues/74",
-    "platform": "web3_github",
-    "repo_owner": "sampled-labs",
-    "repo_name": "sampled",
-    "issue_number": 74,
-    "org_handle": "sampled-labs",
-    "org_name": "sampled-labs/sampled",
-    "body": "**Context**\n`README.md` advertises `Contract Address: CA7DGEWWS3VH5J2I4I7FFEB5UHK2MJSYWDKDQKXQM7GDNLI2IRATDTLG` under \"Deployed Smart Contract\", but the id the app actually uses is the literal in `src/util/contract.ts` (`CDYVZ75YN7355DW6L2BN7SYIAUXNBGZW7FB5ANXPVO7CTU7TKKPIFZZVJ`), which is also re-exported by `src/@types/stellar-generated.ts` through the `networks.testnet.contractId` constant. Anyone following the README inspects a different contract than the one the app calls.\n\n**Proposed Change**\nUpdate the README to the address in `src/util/contract.ts`, state the network and explorer link, and note where the address is defined.\n\n**Acceptance Criteria**\n- The README address matches `src/util/contract.ts` exactly.\n- The README names the network for that address.\n- The commented-out legacy address in `src/util/contract.ts` is either removed or explained.\n- `npm run build` passes locally and in the `build` job of `.github/workflows/node.yml`.\n\n**Suggested Label**: documentation\n**Bounty:** $70\n**ETA:** 24 hours",
-    "reward_usd": 70.0,
-    "reward_formatted": "$70",
-    "tech": [
-      "solidity",
-      "python"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-09T05:44:52.077449+00:00"
+    "last_audited": "2026-10-09T13:01:55.267901+00:00"
   },
   {
     "id": "web3-slippay-labs/slippay-24",
@@ -242,7 +168,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T05:44:52.288199+00:00"
+    "last_audited": "2026-10-09T13:01:55.486332+00:00"
   },
   {
     "id": "web3-borastellar/ai-bora-stellar-76",
@@ -268,7 +194,63 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T05:44:52.515977+00:00"
+    "last_audited": "2026-10-09T13:01:55.721113+00:00"
+  },
+  {
+    "id": "web3-Presago-Labs/presago-79",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "[Bounty: $60] Remove the contracts layout entry and cargo test steps from README.md",
+    "url": "https://github.com/Presago-Labs/presago/issues/79",
+    "platform": "web3_github",
+    "repo_owner": "Presago-Labs",
+    "repo_name": "presago",
+    "issue_number": 79,
+    "org_handle": "Presago-Labs",
+    "org_name": "Presago-Labs/presago",
+    "body": "**Context**\n`README.md` lists \"`contracts/` \u2014 Rust/Soroban contracts for markets, rewards, referrals, and leaderboards\" in its repository layout, describes a four-contract workspace under \"Smart contracts\", and gives a \"Contract tests\" block that runs `cd contracts` followed by `cargo test --workspace`. The clone has no `contracts/` directory, so the documented layout is wrong and the test command fails immediately on a fresh clone \u2014 the same reason the `contracts` job in `.github/workflows/ci.yml` never runs.\n\n**Proposed Change**\nEither correct the layout section to point at wherever the contracts live now, or remove the `contracts/` bullet, the \"Smart contracts\" workspace description, and the `cargo test` block, replacing them with a note that the contracts live in a separate repository.\n\n**Acceptance Criteria**\n- No documented path in `README.md` is absent from the repository.\n- The documented test command runs or is removed.\n- Any user following the README from a fresh clone reaches a passing command.\n\n**Suggested Label**: documentation\n\n**ETA:** 24 hours",
+    "reward_usd": 60.0,
+    "reward_formatted": "$60",
+    "tech": [
+      "solidity",
+      "python"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-09T13:01:55.932982+00:00"
+  },
+  {
+    "id": "web3-anthropics/claude-code-96705",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "[Bug] Safety classifier false positives blocking authorized smart contract security audits on local forks",
+    "url": "https://github.com/anthropics/claude-code/issues/96705",
+    "platform": "web3_github",
+    "repo_owner": "anthropics",
+    "repo_name": "claude-code",
+    "issue_number": 96705,
+    "org_handle": "anthropics",
+    "org_name": "anthropics/claude-code",
+    "body": "**Bug Description**\nFalse positives from the safety classifier during authorised bug bounty work.\n\nContext: I run a human-reviewed bug bounty practice. On 2026-09-24 a Claude Code session audited the\nAera V3 contracts, which are in scope of Aera's public Immunefi bug bounty\n(https://immunefi.com/bug-bounty/aera/). All testing ran in local Foundry tests on local chain forks.\nNothing was broadcast to any network, and every finding is reviewed by me before any submission.\n\nWhat happened: parallel audit sub-agents from standard Solidity audit skills (pashov solidity-auditor,\n0xsimao-ai) were stopped with \"safeguards flagged this message\". That was 7 of 12 agents in one\nskill and 2 of 12 in the other, and most of the rest were cut off partway. A separate agent's write of\na plain protocol-description document was also blocked once, then went through on retry.\n\nImpact: most of the audit coverage was lost and tokens were wasted on agents that died, on work that\nexists to find bugs and disclose them responsibly.\n\nAsk: fewer false positives for authorised, fork-only smart contract security review. Or, if there's a\nway for verified security researchers to get adjusted safeguards, please point me to it.\n\n**Environment Info**\n- Platform: win32\n- Terminal: windows-terminal\n- Version: 2.1.281\n- Feedback ID: 32fa1f31-8b89-4bbf-934d-30efa40122de\n\n**Errors**\n```json\n[{\"error\":\"TelemetrySafeError: VirtualMessageList: itemKeys/messages length desync (keys=71 messages=70 range=[53,71))\\n    at ZT (B:/~BUN/root/chunk-t0gqpaxf.js:24:28891)\\n    at Vc (B:/~BUN/root/chunk-t0gqpaxf.js:24:20085)\\n    at $s (B:/~BUN/root/chunk-w5ra8acm.js:18:20178)\\n    at pu (B:/~BUN/root/chunk-w5ra8acm.js:18:38345)\\n    at Zh (B:/~BUN/root/chunk-w5ra8acm.js:18:84428)\\n    at db (B:/~BUN/root/chunk-w5ra8acm.js:18:83428)\\n    at Pu (B:/~BUN/root/chunk-w5ra8acm.js:18:83257)\\n    at Yh (B:/~BUN/root/chunk-w5ra8acm.js:18:79781)\\n    at mt (B:/~BUN/root/chunk-w5ra8acm.js:18:6261)\\n    at ei (B:/~BUN/root/chunk-w5ra8acm.js:18:4792)\",\"timestamp\":\"2026-09-24T10:20:53.431Z\"}]\n```\n",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "bug",
+      "duplicate",
+      "platform:windows",
+      "area:model",
+      "area:security",
+      "area:agents"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-09T13:01:56.209165+00:00"
   },
   {
     "id": "web3-muhammalif/evm-signature-verifier-1",
@@ -294,7 +276,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-09T05:44:52.695242+00:00"
+    "last_audited": "2026-10-09T13:01:56.428279+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -320,7 +302,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-09T05:44:52.920826+00:00"
+    "last_audited": "2026-10-09T13:01:56.651807+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -345,7 +327,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-10-09T05:44:53.147003+00:00"
+    "last_audited": "2026-10-09T13:01:57.223179+00:00"
   },
   {
     "id": "web3-openscad/openscad-783",
@@ -372,7 +354,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 13,
-    "last_audited": "2026-10-09T05:44:53.402067+00:00"
+    "last_audited": "2026-10-09T13:01:57.455058+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -481,7 +463,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T05:44:53.609237+00:00"
+    "last_audited": "2026-10-09T13:01:57.693024+00:00"
   },
   {
     "id": "sec-StellarQuorum/StellarQuorum-334",
@@ -506,7 +488,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T05:44:53.820432+00:00"
+    "last_audited": "2026-10-09T13:01:57.945440+00:00"
   },
   {
     "id": "sec-StellarTickets/blockchain-42",
@@ -531,7 +513,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T05:44:54.018946+00:00"
+    "last_audited": "2026-10-09T13:01:58.185853+00:00"
   },
   {
     "id": "sec-ethereum/go-ethereum-35852",
@@ -556,7 +538,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T05:44:54.246966+00:00"
+    "last_audited": "2026-10-09T13:01:58.407791+00:00"
   },
   {
     "id": "sec-streamr-labs/streamr-84",
@@ -581,7 +563,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T05:44:54.448469+00:00"
+    "last_audited": "2026-10-09T13:01:58.675331+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -606,7 +588,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-09T05:44:54.639896+00:00"
+    "last_audited": "2026-10-09T13:01:58.906898+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -631,20 +613,20 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T05:44:54.869288+00:00"
+    "last_audited": "2026-10-09T13:01:59.170945+00:00"
   },
   {
-    "id": "sec-llehouerou/oiko-99",
+    "id": "sec-Nudgen-Marketing/mermail-skills-482",
     "domain": "security",
-    "title": "SECURITY.md: one vulnerability policy for the ecosystem",
-    "url": "https://github.com/llehouerou/oiko/issues/99",
+    "title": "[official-skill] mermail-bounty-ops",
+    "url": "https://github.com/Nudgen-Marketing/mermail-skills/issues/482",
     "platform": "github_security",
-    "repo_owner": "llehouerou",
-    "repo_name": "oiko",
-    "issue_number": 99,
-    "org_handle": "llehouerou",
-    "org_name": "llehouerou/oiko",
-    "body": "## Parent\n\n[Spec: presenting Oiko on GitHub](https://github.com/llehouerou/oiko/issues/96)\n\n## What to build\n\n`SECURITY.md` at the root of oiko, the one policy every repository of the ecosystem links, as decided in [How is a vulnerability reported, and what does Oiko promise in return?](https://github.com/llehouerou/oiko/issues/84):\n\n- Reporting: GitHub private vulnerability reporting only (link `/security/advisories/new`), on the repository that holds the bug; no email address.\n- Supported versions: the latest release only; a fix ships as a patch, or as the next minor when it must break something (ADR 0019).\n- Response: one maintainer, spare time; acknowledgement within 7 days, assessment within 14, an update at least every two weeks; coordinated disclosure up to 90 days.\n- Disclosure: a GHSA with the fix release, a CVE through GitHub for every accepted vulnerability, the reporter credited unless they decline, no bounty.\n- Reports: a reproduction against a real release, checked by a human; an unverified AI-generated report is closed without assessment.\n- Trust model and scope, in and out, as the ticket lists them, each point linking its ADR (0017, 0019, 0020, 0026, 0027, 0034).\n- The catalogue: a listing is no endorsement; a malicious type is reported on oiko-catalogue and delisted, with no advisory.\n\nThe README's Help section and CONTRIBUTING link it.\n\n## Acceptance criteria\n\n- [ ] GitHub's Security tab shows the policy, and \"Report a vulnerability\" opens a private report.\n- [ ] The CI link check passes.\n\n## Blocked by\n\n- [The README becomes a lobby; its facts move to docs/](https://github.com/llehouerou/oiko/issues/98)\n- [Repository settings, now: private reporting, Discussions, metadata, labels](https://github.com/llehouerou/oiko/issues/108)\n\n## User stories covered\n\n20\n",
+    "repo_owner": "Nudgen-Marketing",
+    "repo_name": "mermail-skills",
+    "issue_number": 482,
+    "org_handle": "Nudgen-Marketing",
+    "org_name": "Nudgen-Marketing/mermail-skills",
+    "body": "## Proposed skill directory / name\n\n`mermail-bounty-ops`\n\n## Purpose\n\nLoad this skill when the owner wants Mermail to triage inbound bounty, freelance, bug-bounty, hackathon, grant, or agent-job email into a bounded opportunity queue. It extracts stated payout/deadline/eligibility facts, applies zero-capital and identity/location gates, ranks viable technical opportunities, and can optionally save an owner-review draft.\n\nInbound email never authorizes an application, external send, wallet action, spending, or security testing.\n\n## MCP tools owned by this skill\n\nNone.\n\nThis is a persona/orchestration skill that composes existing canonical owners:\n- inbox reads: `mermail-manage-inbox`\n- workspace/mailbox discovery: `mermail-administer-workspace`\n- optional owner-review drafts / later approved delivery: `mermail-compose-email`\n- optional owner-requested payment-state reads: `mermail-agent-wallet`\n\nIt does not add, rename, or duplicate any MCP tool ownership.\n\n## Why this belongs in the official package (not a companion)\n\nThe workflow is entirely centered on first-party Mermail capabilities: inbox discovery, safe bounded message reads, opportunity triage, and optional drafting. It does not depend on a separate third-party product to function. It also provides a reusable security boundary for a common agent workflow: untrusted commercial email must not be allowed to trigger wallet actions, paid unlocks, token approvals, fabricated identity/location proof, or out-of-scope security testing.\n\n## Contributor readiness\n\n- [x] I can update tool-coverage.json, routing.md, scenarios, README, and agents/openai.yaml in one PR\n- [x] I have read the end-to-end skill contribution tutorial\n- [x] I have read AUTHORING.md and SECURITY.md\n\nImplementation status: local validator passes with 18 skills and 82 business tools.\n\n",
     "reward_usd": 150.0,
     "reward_formatted": "$150",
     "tech": [
@@ -656,7 +638,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T05:44:55.064125+00:00"
+    "last_audited": "2026-10-09T13:01:59.456280+00:00"
   },
   {
     "id": "sec-cerebruminc/bug-bounty-14",
@@ -681,7 +663,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T05:44:55.297797+00:00"
+    "last_audited": "2026-10-09T13:01:59.691415+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -706,7 +688,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-09T05:44:55.528080+00:00"
+    "last_audited": "2026-10-09T13:01:59.941249+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -731,7 +713,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-09T05:44:55.838392+00:00"
+    "last_audited": "2026-10-09T13:02:00.237031+00:00"
   },
   {
     "id": "sec-bschick/qcrypt-94",
@@ -756,7 +738,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T05:44:56.021485+00:00"
+    "last_audited": "2026-10-09T13:02:00.424523+00:00"
+  },
+  {
+    "id": "sec-LeanScaleTeam/LeanScale-sales-app-82",
+    "domain": "security",
+    "title": "Security vulnerability",
+    "url": "https://github.com/LeanScaleTeam/LeanScale-sales-app/issues/82",
+    "platform": "github_security",
+    "repo_owner": "LeanScaleTeam",
+    "repo_name": "LeanScale-sales-app",
+    "issue_number": 82,
+    "org_handle": "LeanScaleTeam",
+    "org_name": "LeanScaleTeam/LeanScale-sales-app",
+    "body": "Hey,\n\nfound some serious security vulnerability related to leanscale do you guys have a bug bounty program ?",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-09T13:02:00.652264+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -781,32 +788,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-09T05:44:56.234181+00:00"
-  },
-  {
-    "id": "sec-yarilomail/yarilo-2105",
-    "domain": "security",
-    "title": "security: a private channel for vulnerability reports (SECURITY.md, GitHub reporting, HackerOne Community Edition)",
-    "url": "https://github.com/yarilomail/yarilo/issues/2105",
-    "platform": "github_security",
-    "repo_owner": "yarilomail",
-    "repo_name": "yarilo",
-    "issue_number": 2105,
-    "org_handle": "yarilomail",
-    "org_name": "yarilomail/yarilo",
-    "body": "After the release. Today there is no way for a researcher to report a vulnerability in yarilo privately: no `SECURITY.md`, no private reporting on the repository, no program on any platform. Checked on 2026-10-02: YesWeHack and Intigriti have no free tier for open source; huntr closed its open-source program in June 2026; HackerOne's Community Edition is a free full subscription for OSI-licensed, non-commercial projects; GitHub private vulnerability reporting is free on public repositories.\n\n## What to do\n\n1. **`SECURITY.md` in the repository root.** Supported versions (the release line), where to report (the GitHub form below, then the HackerOne program once accepted), what to expect: first answer within one week, fix and advisory before public disclosure, no bounty promised. English, short.\n2. **GitHub private vulnerability reporting** on `yarilomail/yarilo`: Settings \u2192 Advanced Security \u2192 Private vulnerability reporting \u2192 Enable. Reports arrive as draft advisories; a CVE is requested from the advisory. Repository admin does this.\n3. **Apply for HackerOne Community Edition** (https://www.hackerone.com/company/open-source-community). Conditions, all met or one day of work: OSI licence, project older than three months with shipped releases, `SECURITY.md` in the root, a link to the HackerOne program in the navigation of doc.yarilomail.org, first response to a report within one week. The subscription is free; a 5% processing fee applies only to bounties actually paid, and paying is optional.\n4. **Public docs**: a \"Security\" page on doc.yarilomail.org (repository `yarilomail/documentation`) with the same content as `SECURITY.md` and the program link in the site navigation, since HackerOne requires the link there.\n5. **Decide on bounties later**: start with no bounty table; revisit after the first real reports.\n\n## Not in scope\n\nA paid platform (YesWeHack, Intigriti, Bugcrowd managed tiers): no public pricing, sales-led, nothing that the free options above do not give at this stage.\n\n## Done when\n\n`SECURITY.md` is on `main`, the GitHub reporting form is live on the repository, the HackerOne program is accepted and linked from the docs site, and a test report through each of the two channels reached the maintainers.\n",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 1,
-    "last_audited": "2026-10-09T05:44:56.412907+00:00"
+    "last_audited": "2026-10-09T13:02:00.877880+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -831,7 +813,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-09T05:44:56.694787+00:00"
+    "last_audited": "2026-10-09T13:02:01.063957+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-279",
@@ -856,7 +838,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-09T05:44:56.876316+00:00"
+    "last_audited": "2026-10-09T13:02:01.286769+00:00"
   },
   {
     "id": "sec-Escaro-Labs/escaro-38",
@@ -881,7 +863,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T05:44:57.066377+00:00"
+    "last_audited": "2026-10-09T13:02:01.539050+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -906,7 +888,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-09T05:44:57.262042+00:00"
+    "last_audited": "2026-10-09T13:02:01.783117+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -931,7 +913,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-10-09T05:44:57.497923+00:00"
+    "last_audited": "2026-10-09T13:02:02.009809+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -956,7 +938,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-09T05:44:57.669672+00:00"
+    "last_audited": "2026-10-09T13:02:02.253275+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -981,7 +963,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-09T05:44:57.851614+00:00"
+    "last_audited": "2026-10-09T13:02:02.627312+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -1006,7 +988,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-09T05:44:58.049438+00:00"
+    "last_audited": "2026-10-09T13:02:02.873599+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -1031,7 +1013,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-09T05:44:58.257175+00:00"
+    "last_audited": "2026-10-09T13:02:03.052257+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -1056,7 +1038,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-09T05:44:58.447723+00:00"
+    "last_audited": "2026-10-09T13:02:03.274196+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -1081,7 +1063,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-09T05:44:58.643000+00:00"
+    "last_audited": "2026-10-09T13:02:03.520952+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1106,7 +1088,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-09T05:44:58.860361+00:00"
+    "last_audited": "2026-10-09T13:02:03.766973+00:00"
   },
   {
     "id": "sec-onflow/flow-credit-markets-26",
@@ -1131,7 +1113,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-09T05:44:59.056689+00:00"
+    "last_audited": "2026-10-09T13:02:04.095641+00:00"
   },
   {
     "id": "web3-p2arthur/fullstack-kanban-1",
@@ -1160,7 +1142,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T05:44:59.268167+00:00"
+    "last_audited": "2026-10-09T13:02:04.375875+00:00"
   },
   {
     "id": "web3-ResearchHub/issues-716",
@@ -1186,7 +1168,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-09T05:44:59.469526+00:00"
+    "last_audited": "2026-10-09T13:02:04.615727+00:00"
   },
   {
     "id": "gh-osmesirius-ship-it/DAX_DA13-DA13x2-13",
@@ -1210,7 +1192,7 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T05:44:59.629489+00:00"
+    "last_audited": "2026-10-09T13:02:04.831254+00:00"
   },
   {
     "id": "web3-p2arthur/fullstack-kanban-3",
@@ -1237,7 +1219,7 @@
     "solvability_score": 55.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T05:44:59.834289+00:00"
+    "last_audited": "2026-10-09T13:02:05.082185+00:00"
   },
   {
     "id": "web3-tetherless-world/whyis-237",
@@ -1260,7 +1242,10 @@
     ],
     "status": "active",
     "competitor_prs": 0,
-    "solvability_score": 55.0
+    "solvability_score": 55.0,
+    "live_status": "open",
+    "comments_count": 1,
+    "last_audited": "2026-10-09T13:02:05.314986+00:00"
   },
   {
     "id": "web3-javokhir-sec/awesome-bugbounty-resources-2",
