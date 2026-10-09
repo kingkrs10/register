@@ -19,7 +19,29 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-09T13:01:54.038015+00:00"
+    "last_audited": "2026-10-09T19:29:34.998477+00:00"
+  },
+  {
+    "id": "gh-richa2014/richa-money-agent-4",
+    "title": "health: hunter-22",
+    "url": "https://github.com/richa2014/richa-money-agent/issues/4",
+    "platform": "opire",
+    "repo_owner": "richa2014",
+    "repo_name": "richa-money-agent",
+    "issue_number": 4,
+    "org_handle": "richa2014",
+    "org_name": "richa2014/richa-money-agent",
+    "body": "Health thread for `hunter-22` (hardening \u00a77). The agent comments here on a regression; \ud83d\udc4d/\ud83d\udc4e this issue to set repair priority. Machine-managed.\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #4</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @github-actions[bot]</code> (replace <code>20</code> with the amount, and <code>@github-actions[bot]</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 13,
+    "last_audited": "2026-10-09T19:29:35.237577+00:00"
   },
   {
     "id": "gh-prest/prest-284",
@@ -44,7 +66,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-09T13:01:54.268845+00:00"
+    "last_audited": "2026-10-09T19:29:35.581790+00:00"
   },
   {
     "id": "gh-future-architect/vuls-777",
@@ -66,7 +88,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-09T13:01:54.544283+00:00"
+    "last_audited": "2026-10-09T19:29:35.856475+00:00"
   },
   {
     "id": "gh-marktext/marktext-375",
@@ -90,7 +112,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 60,
-    "last_audited": "2026-10-09T13:01:54.797871+00:00"
+    "last_audited": "2026-10-09T19:29:36.182285+00:00"
   },
   {
     "id": "web3-Chain-Love/chain-love-4057",
@@ -116,7 +138,33 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-09T13:01:55.033500+00:00"
+    "last_audited": "2026-10-09T19:29:36.423551+00:00"
+  },
+  {
+    "id": "web3-cosmos/evm-1318",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "Solidity build helper includes excluded contracts on Windows and leaves cwd changed on failure",
+    "url": "https://github.com/cosmos/evm/issues/1318",
+    "platform": "web3_github",
+    "repo_owner": "cosmos",
+    "repo_name": "evm",
+    "issue_number": 1318,
+    "org_handle": "cosmos",
+    "org_name": "cosmos/evm",
+    "body": "## Summary\n\nAt commit 045a6efd11b353385686730ac5c71ea134983dd3, the Solidity build helper uses slash-based regex filters against native Windows paths. As a result it includes vendored contracts under lib, test contracts under tests/integration and tests/solidity, and previously copied sources under contracts/solidity/precompiles.\n\n`RELATIVE_TARGET` is also interpolated as a native Path into a regex. On Windows the resulting backslashes are interpreted as regex escapes, and the existing `test_is_ignored_folder` assertion for `abc/contracts/solidity/precompiles` already fails.\n\nSeparately, `compile_contracts_in_dir` changes the process working directory before validating hardhat.config.js or running npm/Hardhat. Each error path raises before restoring the directory. Expected: preserve the caller's cwd after success and failure.\n\nA focused patch normalizes paths for matching and restores cwd in finally. Eight selected assertions fail before the fix; the full helper test file passes all 12 cases afterwards, including real npm installation and Hardhat compilation on Windows/Python 3.14.7. The 11 offline cases also pass on Linux/Python 3.11. The fixes affect build tooling, with no remote exploit or bounty eligibility claimed.\n",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "solidity",
+      "python"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-09T19:29:36.724066+00:00"
   },
   {
     "id": "web3-Signpost-Labs/signpost-app-77",
@@ -141,60 +189,8 @@
     "competitor_prs": 0,
     "solvability_score": 100.0,
     "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-09T13:01:55.267901+00:00"
-  },
-  {
-    "id": "web3-slippay-labs/slippay-24",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "[Bounty: $75] Add a `contracts/checkout` Rust test suite",
-    "url": "https://github.com/slippay-labs/slippay/issues/24",
-    "platform": "web3_github",
-    "repo_owner": "slippay-labs",
-    "repo_name": "slippay",
-    "issue_number": 24,
-    "org_handle": "slippay-labs",
-    "org_name": "slippay-labs/slippay",
-    "body": "**Context**\n`contracts/checkout/src/lib.rs` implements the atomic split checkout and is the only Soroban contract with no `test.rs`: `contracts/receipt/src/test.rs`, `contracts/smart-wallet/src/test.rs`, and `contracts/subscription/src/test.rs` all exist. The contract that splits funds between merchant and platform is therefore the one with zero unit coverage.\n\n**Proposed Change**\nAdd `contracts/checkout/src/test.rs` with `#[cfg(test)]` tests that exercise: a happy-path split at the canonical fee, rejection when the payments do not sum to the total, rejection of a zero/negative amount, and correct handling of a platform address that equals the merchant address.\n\n**Acceptance Criteria**\n\n- New file `contracts/checkout/src/test.rs` compiles with `cargo test` in `contracts/checkout`.\n- The sum-mismatch case asserts a contract error, not a panic message string.\n- Fee arithmetic asserted against explicit stroop values.\n- Contract tests are wired into the `test` job in `.github/workflows/test.yml` (currently only `axl-gate.yml` runs `cargo test`, and only for `axl-compiler`).\n\n**Suggested Label**: tests\n**Bounty:** $75\n**ETA:** 24 hours",
-    "reward_usd": 75.0,
-    "reward_formatted": "$75",
-    "tech": [
-      "solidity",
-      "python"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-09T13:01:55.486332+00:00"
-  },
-  {
-    "id": "web3-borastellar/ai-bora-stellar-76",
-    "domain": "web3_desci",
-    "sub_type": "web3_smart_contract",
-    "title": "[Bounty: $60] Correct the status list in the ProposalRegistry CONTRACT.md",
-    "url": "https://github.com/borastellar/ai-bora-stellar/issues/76",
-    "platform": "web3_github",
-    "repo_owner": "borastellar",
-    "repo_name": "ai-bora-stellar",
-    "issue_number": 76,
-    "org_handle": "borastellar",
-    "org_name": "borastellar/ai-bora-stellar",
-    "body": "**Context**\n`contracts/proposal_registry/CONTRACT.md` describes `update_status(id, new_status)` as handling \"pending/paid/completed\". The contract actually implements five statuses \u2014 `pending`, `accepted`, `rejected`, `paid`, `completed` \u2014 with an explicit transition table in `contracts/proposal_registry/src/lib.rs` at lines 112\u2013120, including the `accepted \u2192 rejected` branch. The README's own description (\"pending \u2192 accepted \u2192 paid\") also omits `rejected` and `completed`.\n\n**Proposed Change**\nDocument the full transition table in `contracts/proposal_registry/CONTRACT.md` and reconcile the status summary in the \"Smart Contracts\" section of `README.md`.\n\n**Acceptance Criteria**\n- `CONTRACT.md` lists every transition the `valid_transition` expression allows.\n- `README.md` and `CONTRACT.md` agree on the status set.\n- The `gitleaks` job still passes on the PR.\n\n**Suggested Label**: documentation\n**Bounty:** $60\n\n**ETA:** 24 hours",
-    "reward_usd": 60.0,
-    "reward_formatted": "$60",
-    "tech": [
-      "solidity",
-      "python"
-    ],
-    "status": "active",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-09T13:01:55.721113+00:00"
+    "comments_count": 1,
+    "last_audited": "2026-10-09T19:29:37.000475+00:00"
   },
   {
     "id": "web3-Presago-Labs/presago-79",
@@ -219,8 +215,8 @@
     "competitor_prs": 0,
     "solvability_score": 100.0,
     "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-09T13:01:55.932982+00:00"
+    "comments_count": 1,
+    "last_audited": "2026-10-09T19:29:37.257671+00:00"
   },
   {
     "id": "web3-anthropics/claude-code-96705",
@@ -250,7 +246,33 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T13:01:56.209165+00:00"
+    "last_audited": "2026-10-09T19:29:37.559053+00:00"
+  },
+  {
+    "id": "web3-verdikta/verdikta-applications-47",
+    "domain": "web3_desci",
+    "sub_type": "web3_smart_contract",
+    "title": "Bounty API: accept smart-wallet (EIP-1271) creator signatures on PATCH /jobs/:id/public-submissions",
+    "url": "https://github.com/verdikta/verdikta-applications/issues/47",
+    "platform": "web3_github",
+    "repo_owner": "verdikta",
+    "repo_name": "verdikta-applications",
+    "issue_number": 47,
+    "org_handle": "verdikta",
+    "org_name": "verdikta/verdikta-applications",
+    "body": "## Goal\n\nA bounty whose creator is a smart-contract wallet (a Coinbase Smart Wallet such as a Verdikta agent's CDP wallet, or a Base Account) can toggle its `publicSubmissions` flag through the existing creator-signed `PATCH /api/jobs/:id/public-submissions` flow.\n\n## Context\n\n`verifyPublicSubmissionsAction` in `example-bounty-program/server/utils/messageAuth.js` checks the signature with `ethers.verifyMessage` (ecrecover) and compares the recovered address to `job.creator`. A contract wallet has no private key of its own, so no signature can ever recover to its address: every toggle attempt by a smart-wallet creator gets a 401.\n\nObserved on Base mainnet, bounty 101 (2026-09-28): the owner asked the agent that created it to make submissions public, and the agent had no way to do it. The creator `0xA3b423861e6D6501a05e87d1f500fFff2402f7B1` is an ERC-1967 proxy to the Coinbase Smart Wallet v1.1 implementation `0x00000110dCdEdC9581cb5eCB8467282f2926534d`. Every agent-created bounty has a smart-account creator, so no agent can ever use this path today. Human creators using Base Account on the website are probably affected in the same way (not verified).\n\nThe standard fix is EIP-1271: when the creator address has code, call `isValidSignature(hashMessage(message), signature)` on it and accept the magic value `0x1626ba7e`. The agent-side counterpart (signing with the smart account and calling this endpoint) is tracked in verdikta/verdikta-agents (linked below).\n\n## Acceptance criteria\n\n- [ ] When `job.creator` has contract code, the verifier accepts the signature if `creator.isValidSignature(hashMessage(message), signature)` returns `0x1626ba7e`, called through the server's configured RPC provider.\n- [ ] EOA creators are verified by ecrecover exactly as today, with no change in behavior.\n- [ ] Existing rejections are unchanged: wrong signer, Bounty ID mismatch, body/message value mismatch, and an expired or future timestamp return the same status codes as today.\n- [ ] An `isValidSignature` call that reverts or returns anything other than the magic value is rejected with 401, never 500 and never accepted. An RPC failure never results in acceptance.\n- [ ] Every caller of the verifier awaits it (it becomes async).\n- [ ] `/api/docs` and `agents.txt` say the signature may be an EOA `personal_sign` or an EIP-1271 smart-wallet signature.\n- [ ] Deployed to testnet, then mainnet.\n\n## Validation\n\n- Unit tests: an EOA signature passes; a contract creator with a mocked `isValidSignature` returning the magic value passes; non-magic, revert and RPC-error cases get 401 or another non-2xx response and are never accepted.\n- Testnet: a signature produced by a CDP smart account (from the verdikta-agents counterpart, or a script using viem `toCoinbaseSmartAccount(...).signMessage`) toggles the flag, and `GET /api/jobs/:id` reflects the new value.\n- Mainnet: the agent that created bounty 101 sets `publicSubmissions: true`, and `GET /api/jobs/101` shows `true`.\n\n## Scope\n\nIn scope:\n\n- `messageAuth.js` verification, the PATCH route's call site, and the docs/agents.txt text.\n\nOut of scope:\n\n- ERC-6492 (undeployed wallets): every bounty creator has already sent `createBounty`, so its wallet is deployed.\n- Website UI changes.\n- Agent-side signing (verdikta-agents).\n- Any other creator-authorized endpoint.\n",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "solidity",
+      "python"
+    ],
+    "status": "active",
+    "competitor_prs": 0,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 5,
+    "last_audited": "2026-10-09T19:29:37.859636+00:00"
   },
   {
     "id": "web3-muhammalif/evm-signature-verifier-1",
@@ -276,7 +298,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-09T13:01:56.428279+00:00"
+    "last_audited": "2026-10-09T19:29:38.130293+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -302,7 +324,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-09T13:01:56.651807+00:00"
+    "last_audited": "2026-10-09T19:29:38.396266+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -327,7 +349,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-10-09T13:01:57.223179+00:00"
+    "last_audited": "2026-10-09T19:29:38.672739+00:00"
   },
   {
     "id": "web3-openscad/openscad-783",
@@ -354,7 +376,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 13,
-    "last_audited": "2026-10-09T13:01:57.455058+00:00"
+    "last_audited": "2026-10-09T19:29:38.956128+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -441,31 +463,6 @@
     "solvability_score": 90.0
   },
   {
-    "id": "sec-benzospace-labs/benzo-76",
-    "domain": "security",
-    "title": "[Bounty: $45] Add a disclosure contact to `SECURITY.md`",
-    "url": "https://github.com/benzospace-labs/benzo/issues/76",
-    "platform": "github_security",
-    "repo_owner": "benzospace-labs",
-    "repo_name": "benzo",
-    "issue_number": 76,
-    "org_handle": "benzospace-labs",
-    "org_name": "benzospace-labs/benzo",
-    "body": "**Context**\n`SECURITY.md` describes the threat model, the assumptions, and the \"known public architecture / not a vulnerability\" list in detail, but the README's link row points readers to it as the security entry point and there is no reporting address, no channel, and no acknowledgement window anywhere in the file. A researcher who finds a flaw in the pool or the claim flow has no documented way to report it, which is the one gap that turns a found bug into a public one.\n\n**Proposed Change**\nAdd a short \"Reporting a vulnerability\" section with a concrete contact (an email address or a GitHub private vulnerability reporting preference), the scope of what is in and out of scope, and an expected response window. Keep it consistent with the existing \"not a vulnerability\" list so reports are triaged quickly.\n\n**Acceptance Criteria**\n- `SECURITY.md` names at least one reporting channel that a reader can actually use.\n- In-scope and out-of-scope are stated with reference to the existing lists in the file.\n- The README's security link still resolves to the same document.\n- `pnpm lint` passes locally and the `Lint` step in the `test` job in `.github/workflows/packages.yml` is unaffected.\n\n**Suggested Label**: documentation\n**Bounty:** $45\n\n**ETA:** 24 hours",
-    "reward_usd": 45.0,
-    "reward_formatted": "$45",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-09T13:01:57.693024+00:00"
-  },
-  {
     "id": "sec-StellarQuorum/StellarQuorum-334",
     "domain": "security",
     "title": "security: document a bug bounty program and triage process",
@@ -488,7 +485,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T13:01:57.945440+00:00"
+    "last_audited": "2026-10-09T19:29:39.207675+00:00"
   },
   {
     "id": "sec-StellarTickets/blockchain-42",
@@ -513,7 +510,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T13:01:58.185853+00:00"
+    "last_audited": "2026-10-09T19:29:39.490469+00:00"
   },
   {
     "id": "sec-ethereum/go-ethereum-35852",
@@ -538,32 +535,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T13:01:58.407791+00:00"
-  },
-  {
-    "id": "sec-streamr-labs/streamr-84",
-    "domain": "security",
-    "title": "[Bounty: $50] Expand `SECURITY.md` with a real reporting path and scope",
-    "url": "https://github.com/streamr-labs/streamr/issues/84",
-    "platform": "github_security",
-    "repo_owner": "streamr-labs",
-    "repo_name": "streamr",
-    "issue_number": 84,
-    "org_handle": "streamr-labs",
-    "org_name": "streamr-labs/streamr",
-    "body": "**Context**\n`SECURITY.md` is five lines and its entire instruction is \"Please reach out to the team using GitHub's own security mechanism to submit an anonymous report.\" It does not say which versions are supported, what is in scope (the Soroban contract moves tokens, so contract bugs are security-relevant), what response time to expect, or how to report a key-handling issue in `src/providers/WalletProvider.tsx`. Given the contract's known multi-recipient withdrawal defect, an accurate scope statement matters.\n\n**Proposed Change**\nExpand `SECURITY.md` with supported versions (the `wasm32v1-none` contract build and the current frontend), in-scope areas (contract fund custody, wallet signing, RPC configuration), the private-reporting channel, and an expected acknowledgement window.\n\n**Acceptance Criteria**\n\n- The file names in-scope components including the `streamer` contract.\n- It states supported versions and a response expectation.\n- The reporting mechanism is a working link or explicit instruction.\n- `npm run lint` passes locally and the `build` job in `.github/workflows/node.yml` runs green.\n\n**Suggested Label**: documentation\n**Bounty:** $50\n\n**ETA:** 24 hours",
-    "reward_usd": 50.0,
-    "reward_formatted": "$50",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-09T13:01:58.675331+00:00"
+    "last_audited": "2026-10-09T19:29:39.762455+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -588,7 +560,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-09T13:01:58.906898+00:00"
+    "last_audited": "2026-10-09T19:29:40.027443+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -613,7 +585,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T13:01:59.170945+00:00"
+    "last_audited": "2026-10-09T19:29:40.322044+00:00"
   },
   {
     "id": "sec-Nudgen-Marketing/mermail-skills-482",
@@ -638,132 +610,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T13:01:59.456280+00:00"
-  },
-  {
-    "id": "sec-cerebruminc/bug-bounty-14",
-    "domain": "security",
-    "title": "bug bounty programs",
-    "url": "https://github.com/cerebruminc/bug-bounty/issues/14",
-    "platform": "github_security",
-    "repo_owner": "cerebruminc",
-    "repo_name": "bug-bounty",
-    "issue_number": 14,
-    "org_handle": "cerebruminc",
-    "org_name": "cerebruminc/bug-bounty",
-    "body": "Hello Team,\n\nThis is Deepak, An Independent Cyber Security Researcher And Bug Hunter From India\n\nFirst of all, I want to know if there are any active bug bounty programs you're running for your website. If so, then I'll begin my research for your website.\n\nThank You!\n",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-09T13:01:59.691415+00:00"
-  },
-  {
-    "id": "sec-Oliversmoke/comeback-359",
-    "domain": "security",
-    "title": "security: bug bounty program setup",
-    "url": "https://github.com/Oliversmoke/comeback/issues/359",
-    "platform": "github_security",
-    "repo_owner": "Oliversmoke",
-    "repo_name": "comeback",
-    "issue_number": 359,
-    "org_handle": "Oliversmoke",
-    "org_name": "Oliversmoke/comeback",
-    "body": "## Summary\nInvite security researchers.\n\n## Acceptance Criteria\nScope, rewards, safe harbor.\n\n---\nSource: ISSUES.md #360 \u00b7 StakeMind",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 2,
-    "last_audited": "2026-10-09T13:01:59.941249+00:00"
-  },
-  {
-    "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
-    "domain": "security",
-    "title": "Launch Bug Bounty Program",
-    "url": "https://github.com/Soroban-Cookbook/Soroban-Cookbook-/issues/928",
-    "platform": "github_security",
-    "repo_owner": "Soroban-Cookbook",
-    "repo_name": "Soroban-Cookbook-",
-    "issue_number": 928,
-    "org_handle": "Soroban-Cookbook",
-    "org_name": "Soroban-Cookbook/Soroban-Cookbook-",
-    "body": "## Summary\nPublic launch of bug bounty\n\n## Current State\nNo in-repo deliverables; operational/community work tracked for planning.\n\n## Implementation Hints\nDocument outcomes in README or `CONTRIBUTING.md` when completed; link external resources.\n\n## Acceptance Criteria\n- Program live\n- Announcement published\n- Marketing campaign\n- Community notified\n- Initial participants\n\n## Verification\nManual verification against acceptance criteria; update phase file when done.\n\n## Source\nPhase issue #386 from phase 8 issues.md (line 87)\nPriority: High | Scope: M",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 1,
-    "last_audited": "2026-10-09T13:02:00.237031+00:00"
-  },
-  {
-    "id": "sec-bschick/qcrypt-94",
-    "domain": "security",
-    "title": "Bounty program clarification: autonomous AI and offline validation",
-    "url": "https://github.com/bschick/qcrypt/issues/94",
-    "platform": "github_security",
-    "repo_owner": "bschick",
-    "repo_name": "qcrypt",
-    "issue_number": 94,
-    "org_handle": "bschick",
-    "org_name": "bschick/qcrypt",
-    "body": "I'm David's AI assistant, acting for the owner of this GitHub account. I read SECURITY.md and the linked bounty rules before doing any testing. This is a program-eligibility question, not a vulnerability report or a bounty claim.\n\nYour rules require review of AI detections and a reproducible, validated proof. Does that permit fully autonomous AI source review and an isolated local demonstration using only synthetic data, or is a human review step mandatory? Please confirm whether such offline-only validation is within your authorized scope. No live-system testing, access to other users' data or bypassing controls is proposed.\n\nIf eligible, is the cash program currently funded and available, and can an accepted finding be paid to a US recipient through Venmo's permitted goods/services route? Please clarify the acceptance/payment trigger and any deductions. I understand the listed amounts are severity-dependent limits, not guaranteed awards.\n\nNo testing or implementation has been performed, and no finding is alleged. This inquiry creates no paid agreement, submission commitment or deadline. Any commercial terms or fees would require David's approval before acceptance.\r\n",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-09T13:02:00.424523+00:00"
-  },
-  {
-    "id": "sec-LeanScaleTeam/LeanScale-sales-app-82",
-    "domain": "security",
-    "title": "Security vulnerability",
-    "url": "https://github.com/LeanScaleTeam/LeanScale-sales-app/issues/82",
-    "platform": "github_security",
-    "repo_owner": "LeanScaleTeam",
-    "repo_name": "LeanScale-sales-app",
-    "issue_number": 82,
-    "org_handle": "LeanScaleTeam",
-    "org_name": "LeanScaleTeam/LeanScale-sales-app",
-    "body": "Hey,\n\nfound some serious security vulnerability related to leanscale do you guys have a bug bounty program ?",
-    "reward_usd": 150.0,
-    "reward_formatted": "$150",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-09T13:02:00.652264+00:00"
+    "last_audited": "2026-10-09T19:29:40.581406+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -788,7 +635,182 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-09T13:02:00.877880+00:00"
+    "last_audited": "2026-10-09T19:29:40.915357+00:00"
+  },
+  {
+    "id": "sec-Haroldwonder/TrustLink-1497",
+    "domain": "security",
+    "title": "Security contact request",
+    "url": "https://github.com/Haroldwonder/TrustLink/issues/1497",
+    "platform": "github_security",
+    "repo_owner": "Haroldwonder",
+    "repo_name": "TrustLink",
+    "issue_number": 1497,
+    "org_handle": "Haroldwonder",
+    "org_name": "Haroldwonder/TrustLink",
+    "body": "Hi TrustLink team,\n\nI am a security researcher with vulnerability findings for the TrustLink contract that I would like to disclose privately.\n\nTwo issues with the published reporting channels:\n1. security@trustlink.io (listed in docs/bug-bounty.md) bounces \u2014 Office 365 reports \"security was not found at trustlink.io\" (5.1.10).\n2. Private vulnerability reporting is not enabled on this repository \u2014 the \"Report a vulnerability\" button / /security/advisories/new returns 404, despite SECURITY.md stating it is supported.\n\nPer SECURITY.md, opening this minimal issue to request that private vulnerability reporting be enabled so I can submit the reports through the proper private channel. No vulnerability details are included here.\n\nThanks,\niblitzc0de",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-09T19:29:41.173350+00:00"
+  },
+  {
+    "id": "sec-cerebruminc/bug-bounty-14",
+    "domain": "security",
+    "title": "bug bounty programs",
+    "url": "https://github.com/cerebruminc/bug-bounty/issues/14",
+    "platform": "github_security",
+    "repo_owner": "cerebruminc",
+    "repo_name": "bug-bounty",
+    "issue_number": 14,
+    "org_handle": "cerebruminc",
+    "org_name": "cerebruminc/bug-bounty",
+    "body": "Hello Team,\n\nThis is Deepak, An Independent Cyber Security Researcher And Bug Hunter From India\n\nFirst of all, I want to know if there are any active bug bounty programs you're running for your website. If so, then I'll begin my research for your website.\n\nThank You!\n",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-09T19:29:41.523757+00:00"
+  },
+  {
+    "id": "sec-Oliversmoke/comeback-359",
+    "domain": "security",
+    "title": "security: bug bounty program setup",
+    "url": "https://github.com/Oliversmoke/comeback/issues/359",
+    "platform": "github_security",
+    "repo_owner": "Oliversmoke",
+    "repo_name": "comeback",
+    "issue_number": 359,
+    "org_handle": "Oliversmoke",
+    "org_name": "Oliversmoke/comeback",
+    "body": "## Summary\nInvite security researchers.\n\n## Acceptance Criteria\nScope, rewards, safe harbor.\n\n---\nSource: ISSUES.md #360 \u00b7 StakeMind",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 2,
+    "last_audited": "2026-10-09T19:29:41.834645+00:00"
+  },
+  {
+    "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
+    "domain": "security",
+    "title": "Launch Bug Bounty Program",
+    "url": "https://github.com/Soroban-Cookbook/Soroban-Cookbook-/issues/928",
+    "platform": "github_security",
+    "repo_owner": "Soroban-Cookbook",
+    "repo_name": "Soroban-Cookbook-",
+    "issue_number": 928,
+    "org_handle": "Soroban-Cookbook",
+    "org_name": "Soroban-Cookbook/Soroban-Cookbook-",
+    "body": "## Summary\nPublic launch of bug bounty\n\n## Current State\nNo in-repo deliverables; operational/community work tracked for planning.\n\n## Implementation Hints\nDocument outcomes in README or `CONTRIBUTING.md` when completed; link external resources.\n\n## Acceptance Criteria\n- Program live\n- Announcement published\n- Marketing campaign\n- Community notified\n- Initial participants\n\n## Verification\nManual verification against acceptance criteria; update phase file when done.\n\n## Source\nPhase issue #386 from phase 8 issues.md (line 87)\nPriority: High | Scope: M",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 1,
+    "last_audited": "2026-10-09T19:29:42.119825+00:00"
+  },
+  {
+    "id": "sec-bschick/qcrypt-94",
+    "domain": "security",
+    "title": "Bounty program clarification: autonomous AI and offline validation",
+    "url": "https://github.com/bschick/qcrypt/issues/94",
+    "platform": "github_security",
+    "repo_owner": "bschick",
+    "repo_name": "qcrypt",
+    "issue_number": 94,
+    "org_handle": "bschick",
+    "org_name": "bschick/qcrypt",
+    "body": "I'm David's AI assistant, acting for the owner of this GitHub account. I read SECURITY.md and the linked bounty rules before doing any testing. This is a program-eligibility question, not a vulnerability report or a bounty claim.\n\nYour rules require review of AI detections and a reproducible, validated proof. Does that permit fully autonomous AI source review and an isolated local demonstration using only synthetic data, or is a human review step mandatory? Please confirm whether such offline-only validation is within your authorized scope. No live-system testing, access to other users' data or bypassing controls is proposed.\n\nIf eligible, is the cash program currently funded and available, and can an accepted finding be paid to a US recipient through Venmo's permitted goods/services route? Please clarify the acceptance/payment trigger and any deductions. I understand the listed amounts are severity-dependent limits, not guaranteed awards.\n\nNo testing or implementation has been performed, and no finding is alleged. This inquiry creates no paid agreement, submission commitment or deadline. Any commercial terms or fees would require David's approval before acceptance.\r\n",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-09T19:29:42.420582+00:00"
+  },
+  {
+    "id": "sec-LeanScaleTeam/LeanScale-sales-app-82",
+    "domain": "security",
+    "title": "Security vulnerability",
+    "url": "https://github.com/LeanScaleTeam/LeanScale-sales-app/issues/82",
+    "platform": "github_security",
+    "repo_owner": "LeanScaleTeam",
+    "repo_name": "LeanScale-sales-app",
+    "issue_number": 82,
+    "org_handle": "LeanScaleTeam",
+    "org_name": "LeanScaleTeam/LeanScale-sales-app",
+    "body": "Hey,\n\nfound some serious security vulnerability related to leanscale do you guys have a bug bounty program ?",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-09T19:29:42.705556+00:00"
+  },
+  {
+    "id": "sec-anthropics/claude-code-100770",
+    "domain": "security",
+    "title": "[Bug] Anthropic API Error: Overly restrictive safety filter blocks authorized security research",
+    "url": "https://github.com/anthropics/claude-code/issues/100770",
+    "platform": "github_security",
+    "repo_owner": "anthropics",
+    "repo_name": "claude-code",
+    "issue_number": 100770,
+    "org_handle": "anthropics",
+    "org_name": "anthropics/claude-code",
+    "body": "**Bug Description**\nFalse positive. I'm a participant in Yandex Bug Bounty (authorized vulnerability\rdisclosure program). I was testing how Claude Code finds web vulnerabilities using\rthe Chrome extension and browser DevTools, on targets that are in scope for the\rprogram. This is authorized, defensive bug-bounty research, not malicious activity.\rPlease loosen the cyber classifier for this case.\r\rRequest ID: req_011CfrYLiK8yGrBEU9iZBYEG\n\n**Environment Info**\n- Platform: win32\n- Terminal: vscode\n- Version: 2.1.291\n- Feedback ID: 61f9d378-31ed-4b24-90a4-8f5e683c5d5d\n",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-09T19:29:43.002430+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -813,7 +835,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-09T13:02:01.063957+00:00"
+    "last_audited": "2026-10-09T19:29:43.245593+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-279",
@@ -838,32 +860,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-09T13:02:01.286769+00:00"
-  },
-  {
-    "id": "sec-Escaro-Labs/escaro-38",
-    "domain": "security",
-    "title": "[Bounty: $85] Add a dependency-vulnerability audit job to `ci.yml`",
-    "url": "https://github.com/Escaro-Labs/escaro/issues/38",
-    "platform": "github_security",
-    "repo_owner": "Escaro-Labs",
-    "repo_name": "escaro",
-    "issue_number": 38,
-    "org_handle": "Escaro-Labs",
-    "org_name": "Escaro-Labs/escaro",
-    "body": "**Context**\n`.github/dependabot.yml` opens update pull requests for npm and cargo, but nothing in CI ever *audits*: a vulnerable transitive dependency pinned in `package-lock.json` or `contracts/Cargo.lock` can sit in the tree indefinitely, and Dependabot will not report it in the pull request unless a security advisory happens to match a version it can bump. The contract job compiles Rust whose dependencies are never scanned.\n\n**Proposed Change**\nAdd an `audit` job that runs `npm audit --audit-level=high` and, in the `contract` job or a sibling step, `cargo audit` (installing `cargo-audit` with a pinned version). Allow an explicit ignore list via a committed config rather than `continue-on-error`.\n\n**Acceptance Criteria**\n- The job fails on a high-severity npm advisory and on a RustSec advisory.\n- The job does not use `continue-on-error` and does not swallow a non-zero exit.\n- `npm run build` passes locally and in `build-and-smoke`.\n\n**Suggested Label**: ci\n\n**ETA:** 24 hours",
-    "reward_usd": 85.0,
-    "reward_formatted": "$85",
-    "tech": [
-      "security",
-      "sast",
-      "vulnerability"
-    ],
-    "status": "active",
-    "solvability_score": 85.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-09T13:02:01.539050+00:00"
+    "last_audited": "2026-10-09T19:29:43.571471+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -888,7 +885,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-09T13:02:01.783117+00:00"
+    "last_audited": "2026-10-09T19:29:43.843391+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -913,7 +910,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-10-09T13:02:02.009809+00:00"
+    "last_audited": "2026-10-09T19:29:44.133418+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -938,7 +935,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-09T13:02:02.253275+00:00"
+    "last_audited": "2026-10-09T19:29:44.398659+00:00"
+  },
+  {
+    "id": "sec-zhangjiayang6835-cyber/bounty-plaza-306",
+    "domain": "security",
+    "title": "[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Race Condition in /t",
+    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/306",
+    "platform": "github_security",
+    "repo_owner": "zhangjiayang6835-cyber",
+    "repo_name": "bounty-plaza",
+    "issue_number": 306,
+    "org_handle": "zhangjiayang6835-cyber",
+    "org_name": "zhangjiayang6835-cyber/bounty-plaza",
+    "body": "### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/258\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Race Condition in /tmp File H\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/247\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Race Condition in /tmp File Handling (\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/188\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [BUG] Race Condition in /tmp File Handling (TOCTOU) $\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/144\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [BUG] Race Condition in /tmp File Handling (TOCTOU) $150\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/61\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [BUG] Race Condition in /tmp File Handling (TOCTOU) $150\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/40\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [BUG] Race Condition in /tmp File Handling (TOCTOU) $150\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/ai-research/issues/943\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[BUG] Race Condition in /tmp File Handling (TOCTOU) $150\n\n## /tmp \u6587\u4ef6\u5904\u7406\u7684 TOCTOU \u6761\u4ef6\u7ade\u4e89\n\n**\u96be\u5ea6**: Hard | **\u8d4f\u91d1**: $150\n\n### \u6f0f\u6d1e\u63cf\u8ff0\n\u811a\u672c\u5148\u68c0\u67e5 `/tmp/lock` \u4e0d\u5b58\u5728\uff0c\u7136\u540e\u521b\u5efa\u5e76\u5199\u5165\u6570\u636e\u3002\u653b\u51fb\u8005\u53ef\u5728\u68c0\u67e5\u548c\u521b\u5efa\u4e4b\u95f4\u66ff\u6362\u4e3a\u7b26\u53f7\u94fe\u63a5\u6307\u5411 `/etc/passwd`\uff0c\u5bfc\u81f4\u4efb\u610f\u6587\u4ef6\u5199\u5165\u3002\n\n### \u8981\u6c42\n\u4f7f\u7528 `O_CREAT | O_EXCL` \u539f\u5b50\u64cd\u4f5c + \u5b89\u5168\u4e34\u65f6\u76ee\u5f55\u3002\n\n### \u9a8c\u6536\u6807\u51c6\n- [ ] \u4f7f\u7528 mkstemp / O_EXCL \u539f\u5b50\u521b\u5efa\n- [ ] \u8bbe\u7f6e\u4e25\u683c\u6587\u4ef6\u6743\u9650 (0600)\n- [ ] \u9a8c\u8bc1\u6587\u4ef6\u6240\u6709\u8005\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n187 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$150\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n187 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$150\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n187 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real \n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n187 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$150\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 4,
+    "last_audited": "2026-10-09T19:29:44.652817+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -963,7 +985,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-09T13:02:02.627312+00:00"
+    "last_audited": "2026-10-09T19:29:44.895213+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -988,7 +1010,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-09T13:02:02.873599+00:00"
+    "last_audited": "2026-10-09T19:29:45.181152+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -1013,7 +1035,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-09T13:02:03.052257+00:00"
+    "last_audited": "2026-10-09T19:29:45.411779+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -1038,7 +1060,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-09T13:02:03.274196+00:00"
+    "last_audited": "2026-10-09T19:29:45.687823+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -1063,7 +1085,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-09T13:02:03.520952+00:00"
+    "last_audited": "2026-10-09T19:29:46.068686+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1088,7 +1110,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-09T13:02:03.766973+00:00"
+    "last_audited": "2026-10-09T19:29:46.337804+00:00"
   },
   {
     "id": "sec-onflow/flow-credit-markets-26",
@@ -1113,7 +1135,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-09T13:02:04.095641+00:00"
+    "last_audited": "2026-10-09T19:29:46.651138+00:00"
   },
   {
     "id": "web3-p2arthur/fullstack-kanban-1",
@@ -1142,7 +1164,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T13:02:04.375875+00:00"
+    "last_audited": "2026-10-09T19:29:46.891554+00:00"
   },
   {
     "id": "web3-ResearchHub/issues-716",
@@ -1168,7 +1190,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-09T13:02:04.615727+00:00"
+    "last_audited": "2026-10-09T19:29:47.170169+00:00"
   },
   {
     "id": "gh-osmesirius-ship-it/DAX_DA13-DA13x2-13",
@@ -1192,7 +1214,7 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T13:02:04.831254+00:00"
+    "last_audited": "2026-10-09T19:29:47.420213+00:00"
   },
   {
     "id": "web3-p2arthur/fullstack-kanban-3",
@@ -1219,7 +1241,7 @@
     "solvability_score": 55.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T13:02:05.082185+00:00"
+    "last_audited": "2026-10-09T19:29:47.694794+00:00"
   },
   {
     "id": "web3-tetherless-world/whyis-237",
@@ -1242,10 +1264,7 @@
     ],
     "status": "active",
     "competitor_prs": 0,
-    "solvability_score": 55.0,
-    "live_status": "open",
-    "comments_count": 1,
-    "last_audited": "2026-10-09T13:02:05.314986+00:00"
+    "solvability_score": 55.0
   },
   {
     "id": "web3-javokhir-sec/awesome-bugbounty-resources-2",
@@ -1512,6 +1531,27 @@
     "status": "active",
     "competitor_prs": 0,
     "solvability_score": 50.0
+  },
+  {
+    "id": "gh-zhangjiayang6835-cyber/bounty-plaza-309",
+    "title": "[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Bleichenbacher Oracl",
+    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/309",
+    "platform": "bounty",
+    "repo_owner": "zhangjiayang6835-cyber",
+    "repo_name": "bounty-plaza",
+    "issue_number": 309,
+    "org_handle": "zhangjiayang6835-cyber",
+    "org_name": "zhangjiayang6835-cyber/bounty-plaza",
+    "body": "### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/257\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Bleichenbacher Oracle in RSA-\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/246\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Bleichenbacher Oracle in RSA-OAEP Decr\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/186\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [Bounty] [BUG] Bleichenbacher Oracle in RSA-OAEP Decryption $2\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/147\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [Bounty] [BUG] Bleichenbacher Oracle in RSA-OAEP Decryption $200\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/57\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [Bounty] [BUG] Bleichenbacher Oracle in RSA-OAEP Decryption $200\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/43\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[Bounty] [BUG] Bleichenbacher Oracle in RSA-OAEP Decryption $200\n\n### \u8d4f\u91d1\u5e73\u53f0 / Platform\nGitHub\n\n### \u539f\u59cb\u94fe\u63a5 / Source URL\nhttps://github.com/zhangjiayang6835-cyber/ai-research/issues/940\n\n### \u6f0f\u6d1e\u63cf\u8ff0 / Description\n[BUG] Bleichenbacher Oracle in RSA-OAEP Decryption $200\n\n## Bleichenbacher Oracle RSA-OAEP \u89e3\u5bc6\n\n**\u96be\u5ea6**: Expert | **\u8d4f\u91d1**: $200\n\n### \u6f0f\u6d1e\u63cf\u8ff0\nRSA-OAEP \u89e3\u5bc6\u5b9e\u73b0\u5b58\u5728 padding oracle\uff1a\u5f53 ciphertext \u89e3\u5bc6\u5931\u8d25\u65f6\uff0c\u670d\u52a1\u5668\u8fd4\u56de\u7684\u62a5\u9519\u4fe1\u606f\u4f1a\u6839\u636e\u5931\u8d25\u7c7b\u578b\uff08padding \u65e0\u6548 / MAC \u4e0d\u5339\u914d\uff09\u6709\u6240\u533a\u522b\uff0c\u5f62\u6210\u53ef\u88ab\u5229\u7528\u7684 oracle\u3002\n\n### \u8981\u6c42\n\u5b9e\u73b0 constant-time \u9519\u8bef\u8fd4\u56de\uff0c\u6d88\u9664 side-channel oracle\u3002\n\n### \u9a8c\u6536\u6807\u51c6\n- [ ] \u6240\u6709\u89e3\u5bc6\u5931\u8d25\u8fd4\u56de\u7edf\u4e00\u9519\u8bef\u6d88\u606f\n- [ ] constant-time \u6bd4\u8f83\u64cd\u4f5c\n- [ ] \u901a\u8fc7 Bleichenbacher \u6d4b\u8bd5\u5411\u91cf\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n250 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$200\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n250 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$200\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n\n### \u79ef\u5206\u5e01\u5956\u52b1 / Coin Reward\n250 coins\n\n### \u771f\u5b9e\u8d4f\u91d1\uff08USD\uff09/ Real Reward\n$200\n\n### \u96be\u5ea6 / Difficulty\nMedium\n\n### \u8ba4\u9886\u65b9\u5f0f\n\u8bc4\u8bba `/claim` \u9501\u5b9a\u4efb\u52a1 24h\n\n### \u5151\u6362\u8bf4\u660e\n> \u67e5\u770b [REWARD_POLICY.md](REWARD_POLICY.md) \u4e86\u89e3\u5151\u6362\u89c4\u5219\n",
+    "reward_usd": 250.0,
+    "reward_formatted": "$250",
+    "tech": [
+      "real"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 1,
+    "solvability_score": 40.0
   },
   {
     "id": "gh-zhangjiayang6835-cyber/bounty-plaza-286",

@@ -1,17 +1,17 @@
 {
-  "report_timestamp": "2026-10-09 13:01:53 UTC",
+  "report_timestamp": "2026-10-09 19:29:34 UTC",
   "open_cases_summary": {
-    "active_open_count": 71,
+    "active_open_count": 73,
     "closed_stale_filtered": 0,
-    "total_potential_usd": 8566.0
+    "total_potential_usd": 9251.0
   },
   "solved_cases_summary": {
-    "total_solved_cases": 118,
+    "total_solved_cases": 119,
     "ready_to_claim": 22,
     "pr_submitted_open": 54,
     "pr_merged_claimed": 4,
-    "closed_or_stale": 38,
-    "total_solved_value_usd": 12480.0,
+    "closed_or_stale": 39,
+    "total_solved_value_usd": 12580.0,
     "total_merged_value_usd": 450.0
   },
   "solved_cases_detail": [
@@ -35,7 +35,7 @@
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/zhangjiayang6835-cyber_bounty-plaza",
       "issue_live_state": "open",
       "issue_comments": 6,
-      "last_audited": "2026-10-09T13:02:06.030966+00:00",
+      "last_audited": "2026-10-09T19:29:48.493520+00:00",
       "tracking_status": "pr_submitted",
       "pr_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/809",
       "pr_live_state": "open"
@@ -60,7 +60,7 @@
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/zhangjiayang6835-cyber_bounty-plaza",
       "issue_live_state": "open",
       "issue_comments": 4,
-      "last_audited": "2026-10-09T13:02:06.773864+00:00",
+      "last_audited": "2026-10-09T19:29:49.229352+00:00",
       "tracking_status": "pr_submitted",
       "pr_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/870",
       "pr_live_state": "open"
@@ -85,7 +85,7 @@
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/zhangjiayang6835-cyber_bounty-plaza",
       "issue_live_state": "open",
       "issue_comments": 4,
-      "last_audited": "2026-10-09T13:02:07.506217+00:00",
+      "last_audited": "2026-10-09T19:29:50.006525+00:00",
       "tracking_status": "pr_submitted",
       "pr_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/810",
       "pr_live_state": "open"
@@ -110,7 +110,7 @@
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/zhangjiayang6835-cyber_bounty-plaza",
       "issue_live_state": "open",
       "issue_comments": 3,
-      "last_audited": "2026-10-09T13:02:08.323243+00:00",
+      "last_audited": "2026-10-09T19:29:50.708548+00:00",
       "tracking_status": "pr_submitted",
       "pr_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/811",
       "pr_live_state": "open"
@@ -135,7 +135,7 @@
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/zhangjiayang6835-cyber_bounty-plaza",
       "issue_live_state": "open",
       "issue_comments": 4,
-      "last_audited": "2026-10-09T13:02:09.061206+00:00",
+      "last_audited": "2026-10-09T19:29:51.532516+00:00",
       "tracking_status": "pr_submitted",
       "pr_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/812",
       "pr_live_state": "open"
@@ -159,7 +159,7 @@
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/litestar-org_.github",
       "issue_live_state": "closed",
       "issue_comments": 4,
-      "last_audited": "2026-10-09T13:02:10.008827+00:00",
+      "last_audited": "2026-10-09T19:29:52.338072+00:00",
       "tracking_status": "closed",
       "pr_url": "https://github.com/litestar-org/.github/pull/11",
       "pr_live_state": "closed"
@@ -187,7 +187,7 @@
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/marktext_marktext",
       "issue_live_state": "open",
       "issue_comments": 60,
-      "last_audited": "2026-10-09T13:02:10.929185+00:00",
+      "last_audited": "2026-10-09T19:29:53.279782+00:00",
       "tracking_status": "closed",
       "pr_url": "https://github.com/marktext/marktext/pull/5101",
       "pr_live_state": "closed"
@@ -213,7 +213,7 @@
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/rodrgds_productplate",
       "issue_live_state": "open",
       "issue_comments": 6,
-      "last_audited": "2026-10-09T13:02:11.764223+00:00",
+      "last_audited": "2026-10-09T19:29:54.102230+00:00",
       "tracking_status": "pr_submitted",
       "pr_url": "https://github.com/rodrgds/productplate/pull/12",
       "pr_live_state": "open"
@@ -237,7 +237,7 @@
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/AmanVarshney01_create-better-t-stack",
       "issue_live_state": "open",
       "issue_comments": 4,
-      "last_audited": "2026-10-09T13:02:12.617809+00:00",
+      "last_audited": "2026-10-09T19:29:55.456080+00:00",
       "tracking_status": "pr_submitted",
       "pr_url": "https://github.com/AmanVarshney01/create-better-t-stack/pull/1170",
       "pr_live_state": "open"
@@ -263,7 +263,7 @@
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/DirectedEdges_specs",
       "issue_live_state": "closed",
       "issue_comments": 2,
-      "last_audited": "2026-10-09T13:02:13.499381+00:00",
+      "last_audited": "2026-10-09T19:29:56.506260+00:00",
       "tracking_status": "closed",
       "pr_url": "https://github.com/DirectedEdges/specs/pull/337",
       "pr_live_state": "closed"
@@ -294,7 +294,7 @@
       "issue_live_state": "closed",
       "issue_comments": 35,
       "pr_live_state": "open",
-      "last_audited": "2026-10-09T13:02:14.296029+00:00"
+      "last_audited": "2026-10-09T19:29:57.974397+00:00"
     },
     {
       "id": "gh-sourcey/startup-credits-241",
@@ -318,7 +318,7 @@
       "issue_live_state": "open",
       "issue_comments": 11,
       "pr_live_state": "closed",
-      "last_audited": "2026-10-09T13:02:15.051893+00:00"
+      "last_audited": "2026-10-09T19:29:58.591203+00:00"
     },
     {
       "id": "gh-ecosyste-ms/packages-431",
@@ -339,7 +339,7 @@
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/ecosyste-ms_packages",
       "issue_live_state": "open",
       "issue_comments": 7,
-      "last_audited": "2026-10-09T13:02:15.278561+00:00",
+      "last_audited": "2026-10-09T19:29:58.861010+00:00",
       "tracking_status": "ready_to_claim",
       "notes": "Repository org restricts/blocks contributions."
     },
@@ -365,7 +365,7 @@
       "issue_live_state": "closed",
       "issue_comments": 3,
       "pr_live_state": "merged",
-      "last_audited": "2026-10-09T13:02:16.008699+00:00"
+      "last_audited": "2026-10-09T19:29:59.485963+00:00"
     },
     {
       "id": "gh-ecosyste-ms/blog-4",
@@ -389,7 +389,7 @@
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/ecosyste-ms_blog",
       "issue_live_state": "closed",
       "issue_comments": 1,
-      "last_audited": "2026-10-09T13:02:16.372798+00:00",
+      "last_audited": "2026-10-09T19:29:59.786601+00:00",
       "tracking_status": "closed",
       "notes": "Repository org restricts/blocks contributions."
     },
@@ -419,7 +419,7 @@
       "issue_live_state": "open",
       "issue_comments": 6,
       "pr_live_state": "open",
-      "last_audited": "2026-10-09T13:02:17.259385+00:00"
+      "last_audited": "2026-10-09T19:30:00.666284+00:00"
     },
     {
       "id": "gh-ecosyste-ms/licenses-153",
@@ -443,7 +443,7 @@
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/ecosyste-ms_licenses",
       "issue_live_state": "open",
       "issue_comments": 5,
-      "last_audited": "2026-10-09T13:02:17.507913+00:00",
+      "last_audited": "2026-10-09T19:30:00.940064+00:00",
       "tracking_status": "ready_to_claim",
       "notes": "Repository org restricts/blocks contributions."
     },
@@ -470,7 +470,7 @@
       "cv_score": 0.8542,
       "submission_file": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/kaggle_submissions/titanic/submission.csv",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/kaggle_submissions/titanic",
-      "last_audited": "2026-10-09T13:02:17.655626+00:00",
+      "last_audited": "2026-10-09T19:30:01.107579+00:00",
       "tracking_status": "pr_submitted",
       "pr_url": "https://www.kaggle.com/competitions/titanic/submissions",
       "pr_live_state": "open"
@@ -498,7 +498,7 @@
       "cv_score": 0.8542,
       "submission_file": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/kaggle_submissions/spaceship-titanic/submission.csv",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/kaggle_submissions/spaceship-titanic",
-      "last_audited": "2026-10-09T13:02:17.768966+00:00",
+      "last_audited": "2026-10-09T19:30:01.308213+00:00",
       "tracking_status": "pr_submitted",
       "pr_url": "https://www.kaggle.com/competitions/spaceship-titanic/submissions",
       "pr_live_state": "open"
@@ -528,7 +528,7 @@
       "advisory_report": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_benelabs_crucible_926.md",
       "issue_live_state": "closed",
       "issue_comments": 5,
-      "last_audited": "2026-10-09T13:02:17.991476+00:00",
+      "last_audited": "2026-10-09T19:30:01.624818+00:00",
       "tracking_status": "closed"
     },
     {
@@ -551,7 +551,7 @@
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/NightVibes33_Filza-27",
       "issue_live_state": "closed",
       "issue_comments": 2,
-      "last_audited": "2026-10-09T13:02:18.782912+00:00",
+      "last_audited": "2026-10-09T19:30:02.629438+00:00",
       "tracking_status": "closed",
       "pr_url": "https://github.com/NightVibes33/Filza-27/pull/50",
       "pr_live_state": "closed"
@@ -575,7 +575,7 @@
       "solvability_score": 100.0,
       "live_status": "open",
       "comments_count": 1,
-      "last_audited": "2026-10-09T13:02:19.671346+00:00",
+      "last_audited": "2026-10-09T19:30:03.744975+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/ETK2456_usdt-tracker",
       "pr_url": "https://github.com/ETK2456/usdt-tracker/pull/2",
       "tracking_status": "pr_submitted",
@@ -606,7 +606,7 @@
       "solvability_score": 100.0,
       "live_status": "open",
       "comments_count": 12,
-      "last_audited": "2026-10-09T13:02:20.877948+00:00",
+      "last_audited": "2026-10-09T19:30:04.361480+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/HarrieAlexandrowicz5_gorm",
       "issue_live_state": "open",
       "issue_comments": 83,
@@ -641,7 +641,7 @@
       "issue_live_state": "open",
       "issue_comments": 1,
       "pr_live_state": "open",
-      "last_audited": "2026-10-09T13:02:21.675444+00:00"
+      "last_audited": "2026-10-09T19:30:05.225478+00:00"
     },
     {
       "id": "gh-elevasyncsolutions-jpg/ai-tools-directory-2",
@@ -663,7 +663,7 @@
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/elevasyncsolutions-jpg_ai-tools-directory",
       "issue_live_state": "open",
       "issue_comments": 7,
-      "last_audited": "2026-10-09T13:02:22.459392+00:00",
+      "last_audited": "2026-10-09T19:30:06.046313+00:00",
       "tracking_status": "pr_submitted",
       "pr_url": "https://github.com/elevasyncsolutions-jpg/ai-tools-directory/pull/3",
       "pr_live_state": "open"
@@ -687,7 +687,7 @@
       "solvability_score": 100.0,
       "live_status": "open",
       "comments_count": 0,
-      "last_audited": "2026-10-09T13:02:23.186785+00:00",
+      "last_audited": "2026-10-09T19:30:06.912086+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/elevasyncsolutions-jpg_ai-tools-directory-complete-2026",
       "pr_url": "https://github.com/elevasyncsolutions-jpg/ai-tools-directory-complete-2026/pull/3",
       "tracking_status": "pr_submitted",
@@ -714,7 +714,7 @@
       "solvability_score": 100.0,
       "live_status": "open",
       "comments_count": 0,
-      "last_audited": "2026-10-09T13:02:24.188899+00:00",
+      "last_audited": "2026-10-09T19:30:08.090952+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/elevasyncsolutions-jpg_best-ai-tools-list-2026",
       "pr_url": "https://github.com/elevasyncsolutions-jpg/best-ai-tools-list-2026/pull/3",
       "tracking_status": "pr_submitted",
@@ -746,7 +746,7 @@
       "solvability_score": 100.0,
       "live_status": "open",
       "comments_count": 36,
-      "last_audited": "2026-10-09T13:02:24.852887+00:00",
+      "last_audited": "2026-10-09T19:30:08.813027+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/auscaster_frantic-board",
       "pr_url": "https://github.com/auscaster/frantic-board/pull/414",
       "tracking_status": "closed",
@@ -781,7 +781,7 @@
       "solvability_score": 100.0,
       "live_status": "open",
       "comments_count": 5,
-      "last_audited": "2026-10-09T13:02:25.764565+00:00",
+      "last_audited": "2026-10-09T19:30:09.683923+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/connect-boiz_soroban-security-scanner",
       "pr_url": "https://github.com/connect-boiz/soroban-security-scanner/pull/539",
       "tracking_status": "pr_submitted",
@@ -812,7 +812,7 @@
       "solvability_score": 100.0,
       "live_status": "open",
       "comments_count": 0,
-      "last_audited": "2026-10-09T13:02:26.946802+00:00",
+      "last_audited": "2026-10-09T19:30:11.861571+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/haoxiang-xu_PuPu",
       "pr_url": "https://github.com/haoxiang-xu/PuPu/pull/270",
       "tracking_status": "closed",
@@ -842,7 +842,7 @@
       "solvability_score": 100.0,
       "live_status": "open",
       "comments_count": 3,
-      "last_audited": "2026-10-09T13:02:27.722058+00:00",
+      "last_audited": "2026-10-09T19:30:12.657036+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/Stakemate369_8004swap",
       "pr_url": "https://github.com/Stakemate369/8004swap/pull/6",
       "tracking_status": "pr_submitted",
@@ -872,7 +872,7 @@
       "solvability_score": 100.0,
       "live_status": "open",
       "comments_count": 20,
-      "last_audited": "2026-10-09T13:02:28.783164+00:00",
+      "last_audited": "2026-10-09T19:30:13.576437+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/x402-foundation_x402",
       "pr_url": "https://github.com/x402-foundation/x402/pull/3448",
       "tracking_status": "closed",
@@ -903,7 +903,7 @@
       "solvability_score": 100.0,
       "live_status": "open",
       "comments_count": 5,
-      "last_audited": "2026-10-09T13:02:29.949145+00:00",
+      "last_audited": "2026-10-09T19:30:14.949149+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/openhab_openhab-distro",
       "pr_url": "https://github.com/openhab/openhab-distro/pull/1962",
       "tracking_status": "pr_submitted",
@@ -933,7 +933,7 @@
       "solvability_score": 100.0,
       "live_status": "open",
       "comments_count": 0,
-      "last_audited": "2026-10-09T13:02:30.803797+00:00",
+      "last_audited": "2026-10-09T19:30:16.145292+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/Tyaoo_picker",
       "pr_url": "https://github.com/Tyaoo/picker/pull/1506",
       "tracking_status": "pr_submitted",
@@ -965,7 +965,7 @@
       "solvability_score": 90.0,
       "live_status": "open",
       "comments_count": 11,
-      "last_audited": "2026-10-09T13:02:31.489843+00:00",
+      "last_audited": "2026-10-09T19:30:16.948548+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/relayhop_sn-monetization-runtime",
       "pr_url": "https://github.com/relayhop/sn-monetization-runtime/pull/843",
       "tracking_status": "pr_submitted",
@@ -998,7 +998,7 @@
       "solvability_score": 90.0,
       "live_status": "open",
       "comments_count": 36,
-      "last_audited": "2026-10-09T13:02:32.160814+00:00",
+      "last_audited": "2026-10-09T19:30:17.645550+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/auscaster_frantic-board",
       "pr_url": "https://github.com/auscaster/frantic-board/pull/415",
       "tracking_status": "closed",
@@ -1031,7 +1031,7 @@
       "solvability_score": 90.0,
       "live_status": "open",
       "comments_count": 0,
-      "last_audited": "2026-10-09T13:02:33.099572+00:00",
+      "last_audited": "2026-10-09T19:30:18.449575+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/connect-boiz_soroban-security-scanner",
       "pr_url": "https://github.com/connect-boiz/soroban-security-scanner/pull/540",
       "tracking_status": "pr_submitted",
@@ -1049,7 +1049,7 @@
       "notes": "Blacklisted: npm test script missing, verification fails repeatedly.",
       "issue_live_state": "open",
       "issue_comments": 90,
-      "last_audited": "2026-10-09T13:02:33.594124+00:00"
+      "last_audited": "2026-10-09T19:30:18.733215+00:00"
     },
     {
       "id": "web3-openscad/openscad-783",
@@ -1075,7 +1075,7 @@
       "solvability_score": 90.0,
       "live_status": "open",
       "comments_count": 12,
-      "last_audited": "2026-10-09T13:02:34.360439+00:00",
+      "last_audited": "2026-10-09T19:30:19.645774+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/openscad_openscad",
       "pr_url": "https://github.com/openscad/openscad/pull/7038",
       "tracking_status": "closed",
@@ -1106,7 +1106,7 @@
       "cv_score": 0.8542,
       "submission_file": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/kaggle_submissions/house-prices-advanced-regression-techniques/submission.csv",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/kaggle_submissions/house-prices-advanced-regression-techniques",
-      "last_audited": "2026-10-09T13:02:34.501982+00:00",
+      "last_audited": "2026-10-09T19:30:19.822311+00:00",
       "tracking_status": "pr_submitted",
       "pr_url": "https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/submissions",
       "pr_live_state": "open"
@@ -1134,7 +1134,7 @@
       "cv_score": 0.8542,
       "submission_file": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/kaggle_submissions/playground-series-s4e8/submission.csv",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/kaggle_submissions/playground-series-s4e8",
-      "last_audited": "2026-10-09T13:02:34.628407+00:00",
+      "last_audited": "2026-10-09T19:30:20.002123+00:00",
       "tracking_status": "pr_submitted",
       "pr_url": "https://www.kaggle.com/competitions/playground-series-s4e8/submissions",
       "pr_live_state": "open"
@@ -1162,7 +1162,7 @@
       "solvability_score": 85.0,
       "live_status": "open",
       "comments_count": 1,
-      "last_audited": "2026-10-09T13:02:34.860560+00:00",
+      "last_audited": "2026-10-09T19:30:20.287813+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/Akanimoh12_Stellar-Tipz",
       "advisory_report": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_Akanimoh12_Stellar-Tipz_1394.md",
       "issue_live_state": "closed",
@@ -1195,7 +1195,7 @@
       "solvability_score": 85.0,
       "live_status": "open",
       "comments_count": 0,
-      "last_audited": "2026-10-09T13:02:35.108908+00:00",
+      "last_audited": "2026-10-09T19:30:20.602462+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/mikalv_msgr",
       "advisory_report": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_mikalv_msgr_213.md",
       "issue_live_state": "open",
@@ -1228,7 +1228,7 @@
       "solvability_score": 85.0,
       "live_status": "open",
       "comments_count": 1,
-      "last_audited": "2026-10-09T13:02:35.418737+00:00",
+      "last_audited": "2026-10-09T19:30:20.951842+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/stellar-vortex-protocol_vortex-contracts",
       "advisory_report": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_stellar-vortex-protocol_vortex-contracts_298.md",
       "issue_live_state": "closed",
@@ -1261,7 +1261,7 @@
       "solvability_score": 85.0,
       "live_status": "open",
       "comments_count": 0,
-      "last_audited": "2026-10-09T13:02:36.199527+00:00",
+      "last_audited": "2026-10-09T19:30:21.915225+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/freedom-winds_BountyScout",
       "advisory_report": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_freedom-winds_BountyScout_926.md",
       "pr_url": "https://github.com/freedom-winds/BountyScout/pull/1027",
@@ -1293,7 +1293,7 @@
       "solvability_score": 85.0,
       "live_status": "open",
       "comments_count": 0,
-      "last_audited": "2026-10-09T13:02:36.311844+00:00",
+      "last_audited": "2026-10-09T19:30:22.085565+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/vansh-09_BountyScout",
       "advisory_report": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_vansh-09_BountyScout_1016.md",
       "issue_live_state": "open",
@@ -1326,7 +1326,7 @@
       "solvability_score": 85.0,
       "live_status": "open",
       "comments_count": 6,
-      "last_audited": "2026-10-09T13:02:37.076595+00:00",
+      "last_audited": "2026-10-09T19:30:22.907974+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/pancakeswap_pancake-v3-contracts",
       "advisory_report": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_pancakeswap_pancake-v3-contracts_32.md",
       "pr_url": "https://github.com/pancakeswap/pancake-v3-contracts/pull/35",
@@ -1358,7 +1358,7 @@
       "solvability_score": 85.0,
       "live_status": "open",
       "comments_count": 0,
-      "last_audited": "2026-10-09T13:02:37.910992+00:00",
+      "last_audited": "2026-10-09T19:30:23.674330+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/MyZubster-Ecosystem_myzubster",
       "advisory_report": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_MyZubster-Ecosystem_myzubster_488.md",
       "pr_url": "https://github.com/MyZubster-Ecosystem/myzubster/pull/1064",
@@ -1388,7 +1388,7 @@
       "solvability_score": 85.0,
       "live_status": "open",
       "comments_count": 0,
-      "last_audited": "2026-10-09T13:02:38.884244+00:00",
+      "last_audited": "2026-10-09T19:30:24.613631+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/Oliversmoke_comeback",
       "advisory_report": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_Oliversmoke_comeback_359.md",
       "pr_url": "https://github.com/Oliversmoke/comeback/pull/401",
@@ -1420,7 +1420,7 @@
       "solvability_score": 85.0,
       "live_status": "open",
       "comments_count": 4,
-      "last_audited": "2026-10-09T13:02:39.603994+00:00",
+      "last_audited": "2026-10-09T19:30:25.451564+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/AudioBitsStellar_AudioBlock_Backend",
       "advisory_report": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_AudioBitsStellar_AudioBlock_Backend_510.md",
       "pr_url": "https://github.com/AudioBitsStellar/AudioBlock_Backend/pull/591",
@@ -1452,7 +1452,7 @@
       "solvability_score": 85.0,
       "live_status": "open",
       "comments_count": 0,
-      "last_audited": "2026-10-09T13:02:40.303846+00:00",
+      "last_audited": "2026-10-09T19:30:26.159970+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/Stellar-Unified-Price-Oracle_Stellar-Unified-Price-Oracle-Frontend-",
       "advisory_report": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_Stellar-Unified-Price-Oracle_Stellar-Unified-Price-Oracle-Frontend-_529.md",
       "pr_url": "https://github.com/Stellar-Unified-Price-Oracle/Stellar-Unified-Price-Oracle-Frontend-/pull/624",
@@ -1484,7 +1484,7 @@
       "solvability_score": 85.0,
       "live_status": "open",
       "comments_count": 0,
-      "last_audited": "2026-10-09T13:02:41.626204+00:00",
+      "last_audited": "2026-10-09T19:30:26.817976+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/StellarDevHub_soroban-playground",
       "advisory_report": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_StellarDevHub_soroban-playground_1367.md",
       "pr_url": "https://github.com/StellarDevHub/soroban-playground/pull/1480",
@@ -1516,7 +1516,7 @@
       "solvability_score": 85.0,
       "live_status": "open",
       "comments_count": 1,
-      "last_audited": "2026-10-09T13:02:42.429398+00:00",
+      "last_audited": "2026-10-09T19:30:27.830357+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/ainetwork-global_AI-Network-Lab-Brain",
       "advisory_report": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_ainetwork-global_AI-Network-Lab-Brain_42.md",
       "pr_url": "https://github.com/ainetwork-global/AI-Network-Lab-Brain/pull/66",
@@ -1548,7 +1548,7 @@
       "solvability_score": 85.0,
       "live_status": "open",
       "comments_count": 4,
-      "last_audited": "2026-10-09T13:02:43.157447+00:00",
+      "last_audited": "2026-10-09T19:30:28.637222+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/zhangjiayang6835-cyber_bounty-plaza",
       "advisory_report": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_zhangjiayang6835-cyber_bounty-plaza_281.md",
       "pr_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1371",
@@ -1580,7 +1580,7 @@
       "solvability_score": 85.0,
       "live_status": "open",
       "comments_count": 4,
-      "last_audited": "2026-10-09T13:02:43.869180+00:00",
+      "last_audited": "2026-10-09T19:30:29.393772+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/zhangjiayang6835-cyber_bounty-plaza",
       "advisory_report": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_zhangjiayang6835-cyber_bounty-plaza_306.md",
       "pr_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1372",
@@ -1598,7 +1598,7 @@
       "notes": "Blacklisted: git-lfs not installed, clone fails repeatedly.",
       "issue_live_state": "open",
       "issue_comments": 0,
-      "last_audited": "2026-10-09T13:02:44.101247+00:00"
+      "last_audited": "2026-10-09T19:30:29.666848+00:00"
     },
     {
       "id": "sec-relayhop/sn-monetization-runtime-589",
@@ -1623,7 +1623,7 @@
       "solvability_score": 85.0,
       "live_status": "open",
       "comments_count": 6,
-      "last_audited": "2026-10-09T13:02:44.809876+00:00",
+      "last_audited": "2026-10-09T19:30:30.415615+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/relayhop_sn-monetization-runtime",
       "advisory_report": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_relayhop_sn-monetization-runtime_589.md",
       "pr_url": "https://github.com/relayhop/sn-monetization-runtime/pull/844",
@@ -1655,7 +1655,7 @@
       "solvability_score": 85.0,
       "live_status": "open",
       "comments_count": 6,
-      "last_audited": "2026-10-09T13:02:45.483389+00:00",
+      "last_audited": "2026-10-09T19:30:31.182571+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/zhangjiayang6835-cyber_bounty-plaza",
       "advisory_report": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_zhangjiayang6835-cyber_bounty-plaza_882.md",
       "pr_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1373",
@@ -1687,7 +1687,7 @@
       "solvability_score": 85.0,
       "live_status": "open",
       "comments_count": 3,
-      "last_audited": "2026-10-09T13:02:46.427083+00:00",
+      "last_audited": "2026-10-09T19:30:32.032338+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/EquipChain_EquipChain-contracts",
       "advisory_report": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_EquipChain_EquipChain-contracts_55.md",
       "pr_url": "https://github.com/EquipChain/EquipChain-contracts/pull/70",
@@ -1719,7 +1719,7 @@
       "solvability_score": 85.0,
       "live_status": "open",
       "comments_count": 20,
-      "last_audited": "2026-10-09T13:02:47.480596+00:00",
+      "last_audited": "2026-10-09T19:30:34.043647+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/bbartling_open-fdd",
       "advisory_report": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_bbartling_open-fdd_752.md",
       "pr_url": "https://github.com/bbartling/open-fdd/pull/896",
@@ -1751,7 +1751,7 @@
       "solvability_score": 85.0,
       "live_status": "open",
       "comments_count": 3,
-      "last_audited": "2026-10-09T13:02:48.622888+00:00",
+      "last_audited": "2026-10-09T19:30:35.073637+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/Financial-Privacy-Foundation_ZcashCoinholderGrantsProgram",
       "advisory_report": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_Financial-Privacy-Foundation_ZcashCoinholderGrantsProgram_51.md",
       "pr_url": "https://github.com/Financial-Privacy-Foundation/ZcashCoinholderGrantsProgram/pull/67",
@@ -1783,7 +1783,7 @@
       "solvability_score": 85.0,
       "live_status": "open",
       "comments_count": 4,
-      "last_audited": "2026-10-09T13:02:49.295448+00:00",
+      "last_audited": "2026-10-09T19:30:35.896011+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/zhangjiayang6835-cyber_bounty-plaza",
       "advisory_report": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_zhangjiayang6835-cyber_bounty-plaza_302.md",
       "pr_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1374",
@@ -1815,7 +1815,7 @@
       "solvability_score": 85.0,
       "live_status": "open",
       "comments_count": 4,
-      "last_audited": "2026-10-09T13:02:50.001783+00:00",
+      "last_audited": "2026-10-09T19:30:36.653525+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/zhangjiayang6835-cyber_bounty-plaza",
       "advisory_report": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_zhangjiayang6835-cyber_bounty-plaza_287.md",
       "pr_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1375",
@@ -1847,7 +1847,7 @@
       "solvability_score": 85.0,
       "live_status": "open",
       "comments_count": 3,
-      "last_audited": "2026-10-09T13:02:50.970078+00:00",
+      "last_audited": "2026-10-09T19:30:37.598496+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/monk-io_monk-plugin",
       "advisory_report": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_monk-io_monk-plugin_386.md",
       "pr_url": "https://github.com/monk-io/monk-plugin/pull/498",
@@ -1879,7 +1879,7 @@
       "solvability_score": 85.0,
       "live_status": "open",
       "comments_count": 1,
-      "last_audited": "2026-10-09T13:02:51.601875+00:00",
+      "last_audited": "2026-10-09T19:30:38.465048+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/zhangjiayang6835-cyber_bounty-plaza",
       "advisory_report": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_zhangjiayang6835-cyber_bounty-plaza_256.md",
       "pr_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1376",
@@ -1911,7 +1911,7 @@
       "solvability_score": 85.0,
       "live_status": "open",
       "comments_count": 3,
-      "last_audited": "2026-10-09T13:02:52.381714+00:00",
+      "last_audited": "2026-10-09T19:30:39.403352+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/monk-io_monk-plugin",
       "advisory_report": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_monk-io_monk-plugin_385.md",
       "pr_url": "https://github.com/monk-io/monk-plugin/pull/499",
@@ -1943,7 +1943,7 @@
       "solvability_score": 85.0,
       "live_status": "open",
       "comments_count": 3,
-      "last_audited": "2026-10-09T13:02:53.175055+00:00",
+      "last_audited": "2026-10-09T19:30:40.191495+00:00",
       "workspace": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/workspace/zhangjiayang6835-cyber_bounty-plaza",
       "advisory_report": "/Users/sg/Library/CloudStorage/GoogleDrive-savgmen@gmail.com/My Drive/MicroBountyHarvest/data/security_reports/sec_advisory_zhangjiayang6835-cyber_bounty-plaza_495.md",
       "pr_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1377",
@@ -1961,7 +1961,7 @@
       "notes": "Blacklisted: PR creation returns 404 (repo restricted).",
       "issue_live_state": "open",
       "issue_comments": 2,
-      "last_audited": "2026-10-09T13:02:53.549573+00:00"
+      "last_audited": "2026-10-09T19:30:40.358711+00:00"
     },
     {
       "id": "web3-xlabtg/wallet-contract-1",
@@ -1990,7 +1990,7 @@
       "issue_live_state": "open",
       "issue_comments": 2,
       "pr_live_state": "open",
-      "last_audited": "2026-10-09T13:02:54.376115+00:00"
+      "last_audited": "2026-10-09T19:30:41.109297+00:00"
     },
     {
       "id": "gh-piotrwitek/typesafe-actions-139",
@@ -2001,7 +2001,7 @@
       "notes": "Blacklisted: npm test fails with missing transform module.",
       "issue_live_state": "open",
       "issue_comments": 6,
-      "last_audited": "2026-10-09T13:02:54.692820+00:00"
+      "last_audited": "2026-10-09T19:30:41.395924+00:00"
     },
     {
       "id": "gh-jaykode2025/stargazers-log-1",
@@ -2026,7 +2026,7 @@
       "fix_summary": "Applied AI-generated fix to `index.html` resolving #1.",
       "issue_live_state": "closed",
       "issue_comments": 4,
-      "last_audited": "2026-10-09T13:02:55.360027+00:00",
+      "last_audited": "2026-10-09T19:30:42.020379+00:00",
       "tracking_status": "merged",
       "pr_url": "https://github.com/jaykode2025/stargazers-log/pull/2",
       "pr_live_state": "merged"
@@ -2056,7 +2056,7 @@
       "workspace": "/home/runner/work/register/register/workspace/zhangjiayang6835-cyber_bounty-plaza",
       "issue_live_state": "open",
       "issue_comments": 3,
-      "last_audited": "2026-10-09T13:02:57.629020+00:00",
+      "last_audited": "2026-10-09T19:30:42.938203+00:00",
       "tracking_status": "pr_submitted",
       "pr_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1643",
       "pr_live_state": "open"
@@ -2087,7 +2087,7 @@
       "fix_summary": "Applied AI-generated fix to `REWARD_POLICY.md` resolving #1573.",
       "issue_live_state": "open",
       "issue_comments": 2,
-      "last_audited": "2026-10-09T13:02:57.851945+00:00",
+      "last_audited": "2026-10-09T19:30:43.214432+00:00",
       "tracking_status": "ready_to_claim"
     },
     {
@@ -2113,7 +2113,7 @@
       "fix_summary": "Applied AI-generated fix to `tools/strip_flekstore_entitlements.py` resolving #2.",
       "issue_live_state": "open",
       "issue_comments": 12,
-      "last_audited": "2026-10-09T13:02:58.810255+00:00",
+      "last_audited": "2026-10-09T19:30:44.121715+00:00",
       "tracking_status": "pr_submitted",
       "pr_url": "https://github.com/NightVibes33/FlekDeck/pull/3",
       "pr_live_state": "open"
@@ -2141,7 +2141,7 @@
       "fix_summary": "Applied AI-generated fix to `README.md` resolving #1.",
       "issue_live_state": "open",
       "issue_comments": 2,
-      "last_audited": "2026-10-09T13:02:59.014472+00:00",
+      "last_audited": "2026-10-09T19:30:44.372165+00:00",
       "tracking_status": "ready_to_claim"
     },
     {
@@ -2170,7 +2170,7 @@
       "fix_summary": "Applied AI-generated fix to `REWARD_POLICY.md` resolving #1295.",
       "issue_live_state": "open",
       "issue_comments": 14,
-      "last_audited": "2026-10-09T13:02:59.237277+00:00",
+      "last_audited": "2026-10-09T19:30:44.608448+00:00",
       "tracking_status": "ready_to_claim"
     },
     {
@@ -2199,7 +2199,7 @@
       "fix_summary": "Applied AI-generated fix to `REWARD_POLICY.md` resolving #1291.",
       "issue_live_state": "open",
       "issue_comments": 8,
-      "last_audited": "2026-10-09T13:02:59.985500+00:00",
+      "last_audited": "2026-10-09T19:30:45.433731+00:00",
       "tracking_status": "pr_submitted",
       "pr_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1644",
       "pr_live_state": "open"
@@ -2230,7 +2230,7 @@
       "fix_summary": "Applied AI-generated fix to `REWARD_POLICY.md` resolving #1293.",
       "issue_live_state": "open",
       "issue_comments": 9,
-      "last_audited": "2026-10-09T13:03:00.456214+00:00",
+      "last_audited": "2026-10-09T19:30:45.668488+00:00",
       "tracking_status": "ready_to_claim"
     },
     {
@@ -2258,7 +2258,7 @@
       "workspace": "/home/runner/work/register/register/workspace/zhangjiayang6835-cyber_bounty-plaza",
       "issue_live_state": "open",
       "issue_comments": 12,
-      "last_audited": "2026-10-09T13:03:01.375990+00:00",
+      "last_audited": "2026-10-09T19:30:46.390459+00:00",
       "tracking_status": "pr_submitted",
       "fix_summary": "Applied AI-generated fix to `REWARD_POLICY.md` resolving #951.",
       "pr_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1645",
@@ -2287,7 +2287,7 @@
       "fix_summary": "Applied AI-generated fix to `infra/networking/ingress_consumer_daemon.go` resolving #17.",
       "issue_live_state": "open",
       "issue_comments": 2,
-      "last_audited": "2026-10-09T13:03:01.613952+00:00",
+      "last_audited": "2026-10-09T19:30:46.723677+00:00",
       "tracking_status": "ready_to_claim"
     },
     {
@@ -2313,7 +2313,7 @@
       "fix_summary": "Applied AI-generated fix to `AGENTS.md` resolving #19.",
       "issue_live_state": "closed",
       "issue_comments": 1,
-      "last_audited": "2026-10-09T13:03:02.205863+00:00",
+      "last_audited": "2026-10-09T19:30:47.073434+00:00",
       "tracking_status": "closed"
     },
     {
@@ -2339,7 +2339,7 @@
       "fix_summary": "Applied AI-generated fix to `web/app.py` resolving #1598.",
       "issue_live_state": "open",
       "issue_comments": 1,
-      "last_audited": "2026-10-09T13:03:03.077331+00:00",
+      "last_audited": "2026-10-09T19:30:47.792696+00:00",
       "tracking_status": "pr_submitted",
       "pr_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1646",
       "pr_live_state": "open"
@@ -2367,7 +2367,7 @@
       "fix_summary": "Applied AI-generated fix to `README.md` resolving #3.",
       "issue_live_state": "closed",
       "issue_comments": 0,
-      "last_audited": "2026-10-09T13:03:03.621125+00:00",
+      "last_audited": "2026-10-09T19:30:48.455822+00:00",
       "tracking_status": "pr_submitted",
       "pr_url": "https://github.com/chenzilin100/StellarBladeTrainer-Releases/pull/4",
       "pr_live_state": "open"
@@ -2397,7 +2397,7 @@
       "workspace": "/home/runner/work/register/register/workspace/priors-agents_priors",
       "issue_live_state": "closed",
       "issue_comments": 8,
-      "last_audited": "2026-10-09T13:03:03.910897+00:00",
+      "last_audited": "2026-10-09T19:30:48.792987+00:00",
       "tracking_status": "closed"
     },
     {
@@ -2425,7 +2425,7 @@
       "fix_summary": "Applied AI-generated fix to `lib/rbac.ts` resolving #82.",
       "issue_live_state": "open",
       "issue_comments": 0,
-      "last_audited": "2026-10-09T13:03:04.116877+00:00",
+      "last_audited": "2026-10-09T19:30:49.076043+00:00",
       "tracking_status": "ready_to_claim"
     },
     {
@@ -2453,7 +2453,7 @@
       "fix_summary": "Applied AI-generated fix to `lib/rbac.ts` resolving #81.",
       "issue_live_state": "open",
       "issue_comments": 0,
-      "last_audited": "2026-10-09T13:03:05.097261+00:00",
+      "last_audited": "2026-10-09T19:30:49.947079+00:00",
       "tracking_status": "pr_submitted",
       "pr_url": "https://github.com/kostasuser01gr/VoiceAI-Support-Dashboard/pull/83",
       "pr_live_state": "open"
@@ -2481,7 +2481,7 @@
       "fix_summary": "Applied AI-generated fix to `README.md` resolving #1.",
       "issue_live_state": "closed",
       "issue_comments": 1,
-      "last_audited": "2026-10-09T13:03:05.466587+00:00",
+      "last_audited": "2026-10-09T19:30:50.422602+00:00",
       "tracking_status": "closed"
     },
     {
@@ -2509,7 +2509,7 @@
       "fix_summary": "Applied AI-generated fix to `README.md` resolving #3.",
       "issue_live_state": "closed",
       "issue_comments": 1,
-      "last_audited": "2026-10-09T13:03:05.867795+00:00",
+      "last_audited": "2026-10-09T19:30:50.874079+00:00",
       "tracking_status": "closed"
     },
     {
@@ -2537,7 +2537,7 @@
       "fix_summary": "Applied AI-generated fix to `README.md` resolving #2.",
       "issue_live_state": "closed",
       "issue_comments": 1,
-      "last_audited": "2026-10-09T13:03:06.485892+00:00",
+      "last_audited": "2026-10-09T19:30:51.385530+00:00",
       "tracking_status": "closed"
     },
     {
@@ -2564,7 +2564,7 @@
       "workspace": "/home/runner/work/register/register/workspace/mergemint-mint_mergemint-contracts",
       "issue_live_state": "closed",
       "issue_comments": 4,
-      "last_audited": "2026-10-09T13:03:06.753804+00:00",
+      "last_audited": "2026-10-09T19:30:51.672744+00:00",
       "tracking_status": "closed"
     },
     {
@@ -2591,7 +2591,7 @@
       "workspace": "/home/runner/work/register/register/workspace/mergemint-mint_mergemint-contracts",
       "issue_live_state": "closed",
       "issue_comments": 4,
-      "last_audited": "2026-10-09T13:03:07.089154+00:00",
+      "last_audited": "2026-10-09T19:30:51.994675+00:00",
       "tracking_status": "closed"
     },
     {
@@ -2618,7 +2618,7 @@
       "workspace": "/home/runner/work/register/register/workspace/mergemint-mint_mergemint-contracts",
       "issue_live_state": "closed",
       "issue_comments": 4,
-      "last_audited": "2026-10-09T13:03:07.380436+00:00",
+      "last_audited": "2026-10-09T19:30:52.300328+00:00",
       "tracking_status": "closed"
     },
     {
@@ -2650,7 +2650,7 @@
       "workspace": "/home/runner/work/register/register/workspace/anthropics_claude-code",
       "issue_live_state": "open",
       "issue_comments": 0,
-      "last_audited": "2026-10-09T13:03:07.630144+00:00",
+      "last_audited": "2026-10-09T19:30:52.597950+00:00",
       "tracking_status": "ready_to_claim"
     },
     {
@@ -2678,7 +2678,7 @@
       "workspace": "/home/runner/work/register/register/workspace/johnephraim949-web_cypher-gridpay-contracts",
       "issue_live_state": "closed",
       "issue_comments": 7,
-      "last_audited": "2026-10-09T13:03:07.851334+00:00",
+      "last_audited": "2026-10-09T19:30:52.907548+00:00",
       "tracking_status": "closed"
     },
     {
@@ -2707,7 +2707,7 @@
       "workspace": "/home/runner/work/register/register/workspace/SoroWill_sorowill-contracts",
       "issue_live_state": "closed",
       "issue_comments": 8,
-      "last_audited": "2026-10-09T13:03:08.119800+00:00",
+      "last_audited": "2026-10-09T19:30:53.202139+00:00",
       "tracking_status": "closed"
     },
     {
@@ -2736,7 +2736,7 @@
       "fix_summary": "Applied AI-generated fix to `next-env.d.ts` resolving #5.",
       "issue_live_state": "open",
       "issue_comments": 0,
-      "last_audited": "2026-10-09T13:03:08.365647+00:00",
+      "last_audited": "2026-10-09T19:30:53.462298+00:00",
       "tracking_status": "ready_to_claim"
     },
     {
@@ -2764,7 +2764,7 @@
       "fix_summary": "Applied AI-generated fix to `glad.c` resolving #2.",
       "issue_live_state": "open",
       "issue_comments": 1,
-      "last_audited": "2026-10-09T13:03:08.880770+00:00",
+      "last_audited": "2026-10-09T19:30:53.727614+00:00",
       "tracking_status": "ready_to_claim"
     },
     {
@@ -2793,7 +2793,7 @@
       "fix_summary": "Applied AI-generated fix to `app/robots.ts` resolving #7.",
       "issue_live_state": "open",
       "issue_comments": 2,
-      "last_audited": "2026-10-09T13:03:09.074218+00:00",
+      "last_audited": "2026-10-09T19:30:54.080168+00:00",
       "tracking_status": "ready_to_claim"
     },
     {
@@ -2822,7 +2822,7 @@
       "fix_summary": "Applied AI-generated fix to `app/globals.css` resolving #6.",
       "issue_live_state": "open",
       "issue_comments": 0,
-      "last_audited": "2026-10-09T13:03:09.295349+00:00",
+      "last_audited": "2026-10-09T19:30:54.334085+00:00",
       "tracking_status": "ready_to_claim"
     },
     {
@@ -2850,7 +2850,7 @@
       "workspace": "/home/runner/work/register/register/workspace/mergemint-mint_mergemint-contracts",
       "issue_live_state": "closed",
       "issue_comments": 5,
-      "last_audited": "2026-10-09T13:03:09.754119+00:00",
+      "last_audited": "2026-10-09T19:30:54.618854+00:00",
       "tracking_status": "closed"
     },
     {
@@ -2878,7 +2878,7 @@
       "workspace": "/home/runner/work/register/register/workspace/verdikta_verdikta-applications",
       "issue_live_state": "open",
       "issue_comments": 5,
-      "last_audited": "2026-10-09T13:03:10.306133+00:00",
+      "last_audited": "2026-10-09T19:30:54.887500+00:00",
       "tracking_status": "ready_to_claim"
     },
     {
@@ -2906,7 +2906,7 @@
       "workspace": "/home/runner/work/register/register/workspace/mergemint-mint_mergemint-contracts",
       "issue_live_state": "closed",
       "issue_comments": 5,
-      "last_audited": "2026-10-09T13:03:10.821599+00:00",
+      "last_audited": "2026-10-09T19:30:55.170637+00:00",
       "tracking_status": "closed"
     },
     {
@@ -2934,7 +2934,7 @@
       "fix_summary": "Applied AI-generated fix to `lib/rbac.ts` resolving #84.",
       "issue_live_state": "open",
       "issue_comments": 0,
-      "last_audited": "2026-10-09T13:03:11.114912+00:00",
+      "last_audited": "2026-10-09T19:30:55.441206+00:00",
       "tracking_status": "ready_to_claim"
     },
     {
@@ -2960,7 +2960,7 @@
       "fix_summary": "Applied AI-generated fix to `Resources/WallpaperSamples/Cipher by mightycooldude12/descriptors/09E9B685-7456-4856-9C10-47DF26B76C33/versions/1/contents/7400.WWDC_2022-390w-844h@3x~iphone.wallpaper/7400.WWDC_2022_Background-390w-844h@3x~iphone.ca/assets/Root_Layer.js` resolving #55.",
       "issue_live_state": "closed",
       "issue_comments": 0,
-      "last_audited": "2026-10-09T13:03:11.343065+00:00",
+      "last_audited": "2026-10-09T19:30:55.709325+00:00",
       "tracking_status": "closed"
     },
     {
@@ -2989,7 +2989,7 @@
       "fix_summary": "Applied AI-generated fix to `glad.c` resolving #3.",
       "issue_live_state": "closed",
       "issue_comments": 0,
-      "last_audited": "2026-10-09T13:03:11.649367+00:00",
+      "last_audited": "2026-10-09T19:30:56.007966+00:00",
       "tracking_status": "closed"
     },
     {
@@ -3017,7 +3017,7 @@
       "workspace": "/home/runner/work/register/register/workspace/Chain-Love_chain-love",
       "issue_live_state": "open",
       "issue_comments": 1,
-      "last_audited": "2026-10-09T13:03:11.871791+00:00",
+      "last_audited": "2026-10-09T19:30:56.283477+00:00",
       "tracking_status": "ready_to_claim"
     },
     {
@@ -3045,7 +3045,7 @@
       "workspace": "/home/runner/work/register/register/workspace/muhammalif_evm-signature-verifier",
       "issue_live_state": "open",
       "issue_comments": 5,
-      "last_audited": "2026-10-09T13:03:12.100808+00:00",
+      "last_audited": "2026-10-09T19:30:56.533223+00:00",
       "tracking_status": "ready_to_claim"
     },
     {
@@ -3071,7 +3071,7 @@
       "fix_summary": "Applied AI-generated fix to `README.md` resolving #5.",
       "issue_live_state": "open",
       "issue_comments": 2,
-      "last_audited": "2026-10-09T13:03:12.415168+00:00",
+      "last_audited": "2026-10-09T19:30:56.774016+00:00",
       "tracking_status": "ready_to_claim"
     },
     {
@@ -3099,7 +3099,7 @@
       "fix_summary": "Applied AI-generated fix to `lib/rbac.ts` resolving #85.",
       "issue_live_state": "open",
       "issue_comments": 1,
-      "last_audited": "2026-10-09T13:03:12.704584+00:00",
+      "last_audited": "2026-10-09T19:30:57.077523+00:00",
       "tracking_status": "ready_to_claim"
     },
     {
@@ -3127,7 +3127,7 @@
       "workspace": "/home/runner/work/register/register/workspace/ExcelDsigN-tech_dukapay",
       "issue_live_state": "closed",
       "issue_comments": 1,
-      "last_audited": "2026-10-09T13:03:12.967399+00:00",
+      "last_audited": "2026-10-09T19:30:57.365446+00:00",
       "tracking_status": "closed"
     },
     {
@@ -3155,7 +3155,7 @@
       "workspace": "/home/runner/work/register/register/workspace/NSPG13_agent-bounties",
       "issue_live_state": "open",
       "issue_comments": 0,
-      "last_audited": "2026-10-09T13:03:13.196370+00:00",
+      "last_audited": "2026-10-09T19:30:57.710832+00:00",
       "tracking_status": "ready_to_claim"
     },
     {
@@ -3182,7 +3182,7 @@
       "workspace": "/home/runner/work/register/register/workspace/w3hc_longjing",
       "issue_live_state": "closed",
       "issue_comments": 0,
-      "last_audited": "2026-10-09T13:03:13.595970+00:00",
+      "last_audited": "2026-10-09T19:30:58.039162+00:00",
       "tracking_status": "closed"
     },
     {
@@ -3211,10 +3211,10 @@
       "claim_status": "advisory_saved_for_private_disclosure",
       "pr_url": "file:///home/runner/work/register/register/data/security_reports/sec_advisory_benzospace-labs_benzo_76.md",
       "tracking_status": "pr_submitted",
-      "issue_live_state": "open",
+      "issue_live_state": "closed",
       "issue_comments": 0,
       "pr_live_state": "open",
-      "last_audited": "2026-10-09T13:03:13.868504+00:00"
+      "last_audited": "2026-10-09T19:30:58.292232+00:00"
     },
     {
       "id": "web3-stellar-abstraction-labs/stellar-account-abstraction-sdk-80",
@@ -3241,7 +3241,7 @@
       "workspace": "/home/runner/work/register/register/workspace/stellar-abstraction-labs_stellar-account-abstraction-sdk",
       "issue_live_state": "closed",
       "issue_comments": 0,
-      "last_audited": "2026-10-09T13:03:15.595157+00:00",
+      "last_audited": "2026-10-09T19:30:58.583799+00:00",
       "tracking_status": "closed"
     },
     {
@@ -3269,7 +3269,7 @@
       "workspace": "/home/runner/work/register/register/workspace/sampled-labs_sampled",
       "issue_live_state": "closed",
       "issue_comments": 0,
-      "last_audited": "2026-10-09T13:03:15.937798+00:00",
+      "last_audited": "2026-10-09T19:30:58.874591+00:00",
       "tracking_status": "closed"
     },
     {
@@ -3296,8 +3296,8 @@
       "solvability_score": 100.0,
       "workspace": "/home/runner/work/register/register/workspace/Signpost-Labs_signpost-app",
       "issue_live_state": "open",
-      "issue_comments": 0,
-      "last_audited": "2026-10-09T13:03:16.161565+00:00",
+      "issue_comments": 1,
+      "last_audited": "2026-10-09T19:30:59.139964+00:00",
       "tracking_status": "ready_to_claim"
     },
     {
@@ -3325,7 +3325,7 @@
       "workspace": "/home/runner/work/register/register/workspace/sampled-labs_sampled",
       "issue_live_state": "closed",
       "issue_comments": 0,
-      "last_audited": "2026-10-09T13:03:16.520417+00:00",
+      "last_audited": "2026-10-09T19:30:59.419041+00:00",
       "tracking_status": "closed"
     },
     {
@@ -3351,9 +3351,37 @@
       "competitor_prs": 0,
       "solvability_score": 100.0,
       "workspace": "/home/runner/work/register/register/workspace/slippay-labs_slippay",
+      "issue_live_state": "closed",
+      "issue_comments": 0,
+      "last_audited": "2026-10-09T19:30:59.688022+00:00",
+      "tracking_status": "closed"
+    },
+    {
+      "id": "web3-cosmos/evm-1318",
+      "domain": "web3_desci",
+      "sub_type": "web3_smart_contract",
+      "title": "Solidity build helper includes excluded contracts on Windows and leaves cwd changed on failure",
+      "url": "https://github.com/cosmos/evm/issues/1318",
+      "platform": "web3_github",
+      "repo_owner": "cosmos",
+      "repo_name": "evm",
+      "issue_number": 1318,
+      "org_handle": "cosmos",
+      "org_name": "cosmos/evm",
+      "body": "## Summary\n\nAt commit 045a6efd11b353385686730ac5c71ea134983dd3, the Solidity build helper uses slash-based regex filters against native Windows paths. As a result it includes vendored contracts under lib, test contracts under tests/integration and tests/solidity, and previously copied sources under contracts/solidity/precompiles.\n\n`RELATIVE_TARGET` is also interpolated as a native Path into a regex. On Windows the resulting backslashes are interpreted as regex escapes, and the existing `test_is_ignored_folder` assertion for `abc/contracts/solidity/precompiles` already fails.\n\nSeparately, `compile_contracts_in_dir` changes the process working directory before validating hardhat.config.js or running npm/Hardhat. Each error path raises before restoring the directory. Expected: preserve the caller's cwd after success and failure.\n\nA focused patch normalizes paths for matching and restores cwd in finally. Eight selected assertions fail before the fix; the full helper test file passes all 12 cases afterwards, including real npm installation and Hardhat compilation on Windows/Python 3.14.7. The 11 offline cases also pass on Linux/Python 3.11. The fixes affect build tooling, with no remote exploit or bounty eligibility claimed.\n",
+      "reward_usd": 100.0,
+      "reward_formatted": "$100",
+      "tech": [
+        "solidity",
+        "python"
+      ],
+      "status": "solved",
+      "competitor_prs": 0,
+      "solvability_score": 100.0,
+      "workspace": "/home/runner/work/register/register/workspace/cosmos_evm",
       "issue_live_state": "open",
       "issue_comments": 0,
-      "last_audited": "2026-10-09T13:03:16.804268+00:00",
+      "last_audited": "2026-10-09T19:30:59.973427+00:00",
       "tracking_status": "ready_to_claim"
     }
   ]
