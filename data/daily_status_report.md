@@ -1,15 +1,15 @@
 # 🎯 MicroBountyHarvest - Daily Status Report
-*Generated on: `2026-10-09 19:29:34 UTC`*
+*Generated on: `2026-10-10 00:02:37 UTC`*
 
 ## 📊 Executive Summary
 
 | Metric | Value |
 |---|---|
-| **Active Open Bounties** | **73** |
-| **Open Bounty Pipeline Value** | **$9,251.00** |
-| **Total Solved Bounties** | **119** |
-| **Solved Bounties Value** | **$12,580.00** |
-| **Ready to Claim (Local Fix Tested)** | **22** |
+| **Active Open Bounties** | **72** |
+| **Open Bounty Pipeline Value** | **$9,214.00** |
+| **Total Solved Bounties** | **120** |
+| **Solved Bounties Value** | **$12,640.00** |
+| **Ready to Claim (Local Fix Tested)** | **23** |
 | **PRs Submitted & Pending Review** | **54** |
 | **PRs Merged / Payout Won** | **4** |
 | **Closed / Inactive Cases** | **39** |
@@ -137,6 +137,7 @@
 | 117 | `[WEB3_DESCI]` | `sampled-labs/sampled#74` | web3_github | **$70** | `closed` | ⚪ Closed | Not Submitted |
 | 118 | `[WEB3_DESCI]` | `slippay-labs/slippay#24` | web3_github | **$75** | `closed` | ⚪ Closed | Not Submitted |
 | 119 | `[WEB3_DESCI]` | `cosmos/evm#1318` | web3_github | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
+| 120 | `[WEB3_DESCI]` | `Presago-Labs/presago#79` | web3_github | **$60** | `open` | 🟢 Ready to Claim | Not Submitted |
 
 ## 🚀 Actionable Next Steps
 - Run `python main.py --claim` to submit pull requests or artifacts for **Ready to Claim** cases.

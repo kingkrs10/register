@@ -19,7 +19,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-09T19:29:34.998477+00:00"
+    "last_audited": "2026-10-10T00:02:37.462643+00:00"
   },
   {
     "id": "gh-richa2014/richa-money-agent-4",
@@ -41,7 +41,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 13,
-    "last_audited": "2026-10-09T19:29:35.237577+00:00"
+    "last_audited": "2026-10-10T00:02:37.720939+00:00"
   },
   {
     "id": "gh-prest/prest-284",
@@ -66,7 +66,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-09T19:29:35.581790+00:00"
+    "last_audited": "2026-10-10T00:02:37.972704+00:00"
   },
   {
     "id": "gh-future-architect/vuls-777",
@@ -88,7 +88,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-09T19:29:35.856475+00:00"
+    "last_audited": "2026-10-10T00:02:38.320801+00:00"
   },
   {
     "id": "gh-marktext/marktext-375",
@@ -112,7 +112,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 60,
-    "last_audited": "2026-10-09T19:29:36.182285+00:00"
+    "last_audited": "2026-10-10T00:02:38.588438+00:00"
   },
   {
     "id": "web3-Chain-Love/chain-love-4057",
@@ -138,7 +138,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-09T19:29:36.423551+00:00"
+    "last_audited": "2026-10-10T00:02:38.832069+00:00"
   },
   {
     "id": "web3-cosmos/evm-1318",
@@ -164,7 +164,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T19:29:36.724066+00:00"
+    "last_audited": "2026-10-10T00:02:39.123922+00:00"
   },
   {
     "id": "web3-Signpost-Labs/signpost-app-77",
@@ -190,7 +190,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-09T19:29:37.000475+00:00"
+    "last_audited": "2026-10-10T00:02:39.433539+00:00"
   },
   {
     "id": "web3-Presago-Labs/presago-79",
@@ -216,7 +216,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-09T19:29:37.257671+00:00"
+    "last_audited": "2026-10-10T00:02:39.700344+00:00"
   },
   {
     "id": "web3-anthropics/claude-code-96705",
@@ -246,7 +246,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T19:29:37.559053+00:00"
+    "last_audited": "2026-10-10T00:02:39.993626+00:00"
   },
   {
     "id": "web3-verdikta/verdikta-applications-47",
@@ -272,7 +272,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-09T19:29:37.859636+00:00"
+    "last_audited": "2026-10-10T00:02:40.242881+00:00"
   },
   {
     "id": "web3-muhammalif/evm-signature-verifier-1",
@@ -298,7 +298,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-09T19:29:38.130293+00:00"
+    "last_audited": "2026-10-10T00:02:40.472283+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -324,7 +324,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-09T19:29:38.396266+00:00"
+    "last_audited": "2026-10-10T00:02:40.749249+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -349,7 +349,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-10-09T19:29:38.672739+00:00"
+    "last_audited": "2026-10-10T00:02:41.032779+00:00"
   },
   {
     "id": "web3-openscad/openscad-783",
@@ -376,7 +376,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 13,
-    "last_audited": "2026-10-09T19:29:38.956128+00:00"
+    "last_audited": "2026-10-10T00:02:41.305294+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -485,7 +485,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T19:29:39.207675+00:00"
+    "last_audited": "2026-10-10T00:02:41.583336+00:00"
   },
   {
     "id": "sec-StellarTickets/blockchain-42",
@@ -510,7 +510,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T19:29:39.490469+00:00"
+    "last_audited": "2026-10-10T00:02:41.829599+00:00"
   },
   {
     "id": "sec-ethereum/go-ethereum-35852",
@@ -535,7 +535,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T19:29:39.762455+00:00"
+    "last_audited": "2026-10-10T00:02:42.073403+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -560,7 +560,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-09T19:29:40.027443+00:00"
+    "last_audited": "2026-10-10T00:02:42.318106+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -585,7 +585,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T19:29:40.322044+00:00"
+    "last_audited": "2026-10-10T00:02:42.641540+00:00"
   },
   {
     "id": "sec-Nudgen-Marketing/mermail-skills-482",
@@ -610,7 +610,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T19:29:40.581406+00:00"
+    "last_audited": "2026-10-10T00:02:42.884209+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -635,7 +635,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-09T19:29:40.915357+00:00"
+    "last_audited": "2026-10-10T00:02:43.154184+00:00"
   },
   {
     "id": "sec-Haroldwonder/TrustLink-1497",
@@ -660,7 +660,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T19:29:41.173350+00:00"
+    "last_audited": "2026-10-10T00:02:43.383119+00:00"
   },
   {
     "id": "sec-cerebruminc/bug-bounty-14",
@@ -685,7 +685,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T19:29:41.523757+00:00"
+    "last_audited": "2026-10-10T00:02:43.630093+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -710,7 +710,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-09T19:29:41.834645+00:00"
+    "last_audited": "2026-10-10T00:02:43.886452+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -735,7 +735,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-09T19:29:42.119825+00:00"
+    "last_audited": "2026-10-10T00:02:44.196682+00:00"
   },
   {
     "id": "sec-bschick/qcrypt-94",
@@ -760,7 +760,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T19:29:42.420582+00:00"
+    "last_audited": "2026-10-10T00:02:44.442402+00:00"
   },
   {
     "id": "sec-LeanScaleTeam/LeanScale-sales-app-82",
@@ -785,7 +785,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T19:29:42.705556+00:00"
+    "last_audited": "2026-10-10T00:02:44.704065+00:00"
   },
   {
     "id": "sec-anthropics/claude-code-100770",
@@ -810,7 +810,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T19:29:43.002430+00:00"
+    "last_audited": "2026-10-10T00:02:44.970120+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -835,7 +835,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-09T19:29:43.245593+00:00"
+    "last_audited": "2026-10-10T00:02:45.250655+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-279",
@@ -860,7 +860,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-09T19:29:43.571471+00:00"
+    "last_audited": "2026-10-10T00:02:45.533840+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -885,7 +885,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-09T19:29:43.843391+00:00"
+    "last_audited": "2026-10-10T00:02:45.791465+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -910,7 +910,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-10-09T19:29:44.133418+00:00"
+    "last_audited": "2026-10-10T00:02:46.290272+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -935,7 +935,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-09T19:29:44.398659+00:00"
+    "last_audited": "2026-10-10T00:02:46.537493+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-306",
@@ -960,7 +960,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-09T19:29:44.652817+00:00"
+    "last_audited": "2026-10-10T00:02:46.784122+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -985,7 +985,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-09T19:29:44.895213+00:00"
+    "last_audited": "2026-10-10T00:02:47.023179+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -1010,7 +1010,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-09T19:29:45.181152+00:00"
+    "last_audited": "2026-10-10T00:02:47.284672+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -1035,7 +1035,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-09T19:29:45.411779+00:00"
+    "last_audited": "2026-10-10T00:02:47.532958+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -1060,7 +1060,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-09T19:29:45.687823+00:00"
+    "last_audited": "2026-10-10T00:02:47.789869+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -1085,7 +1085,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-09T19:29:46.068686+00:00"
+    "last_audited": "2026-10-10T00:02:48.038285+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1110,7 +1110,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-09T19:29:46.337804+00:00"
+    "last_audited": "2026-10-10T00:02:48.298569+00:00"
   },
   {
     "id": "sec-onflow/flow-credit-markets-26",
@@ -1135,7 +1135,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-09T19:29:46.651138+00:00"
+    "last_audited": "2026-10-10T00:02:48.587378+00:00"
   },
   {
     "id": "web3-p2arthur/fullstack-kanban-1",
@@ -1164,7 +1164,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T19:29:46.891554+00:00"
+    "last_audited": "2026-10-10T00:02:48.819532+00:00"
   },
   {
     "id": "web3-ResearchHub/issues-716",
@@ -1190,7 +1190,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-09T19:29:47.170169+00:00"
+    "last_audited": "2026-10-10T00:02:49.147322+00:00"
   },
   {
     "id": "gh-osmesirius-ship-it/DAX_DA13-DA13x2-13",
@@ -1214,7 +1214,7 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T19:29:47.420213+00:00"
+    "last_audited": "2026-10-10T00:02:49.373872+00:00"
   },
   {
     "id": "web3-p2arthur/fullstack-kanban-3",
@@ -1241,7 +1241,7 @@
     "solvability_score": 55.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-09T19:29:47.694794+00:00"
+    "last_audited": "2026-10-10T00:02:49.688300+00:00"
   },
   {
     "id": "web3-tetherless-world/whyis-237",
@@ -1590,25 +1590,6 @@
     "tech": [
       "real"
     ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 1,
-    "solvability_score": 40.0
-  },
-  {
-    "id": "gh-zhangjiayang6835-cyber/bounty-plaza-1598",
-    "title": "[BOUNTY-PLaza-645] DAXDA Recursive Bounty System - 5 Domain Bounties",
-    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1598",
-    "platform": "bounty",
-    "repo_owner": "zhangjiayang6835-cyber",
-    "repo_name": "bounty-plaza",
-    "issue_number": 1598,
-    "org_handle": "zhangjiayang6835-cyber",
-    "org_name": "zhangjiayang6835-cyber/bounty-plaza",
-    "body": "This submission fulfills Bounty Plaza #645 by creating 5 self-similar bounties for the DAXDA project.\n\nAll 5 bounties:\n\u2705 Are structurally identical to the meta-bounty format\n\u2705 Copy the DAXDA overview verbatim\n\u2705 Target different esoteric domains (Cl(16,4), Containment, DA13, Chrono, MMPIBench)\n\u2705 Enable recursive expansion with sub-bounty opportunities\n\u2705 Include full technical specifications, validation criteria, and submission formats\n\nTotal Value: $37,000\nAll pass 100% validation (9/9 checks per bounty)\n\nRepository: https://github.com/osmesirius-ship-it/daxda-next-gen\nBranch: feature/daxda-bounty-system\n\n[bounty - Plaza -645 \u2013 submission.zip](https://github.com/user-attachments/files/32395165/bounty.-.Plaza.-645.submission.zip)",
-    "reward_usd": 37.0,
-    "reward_formatted": "$37",
-    "tech": [],
     "status": "active",
     "domain": "code",
     "competitor_prs": 1,
