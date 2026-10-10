@@ -1,18 +1,18 @@
 # 🎯 MicroBountyHarvest - Daily Status Report
-*Generated on: `2026-10-10 12:20:10 UTC`*
+*Generated on: `2026-10-10 18:29:08 UTC`*
 
 ## 📊 Executive Summary
 
 | Metric | Value |
 |---|---|
-| **Active Open Bounties** | **72** |
-| **Open Bounty Pipeline Value** | **$9,214.00** |
+| **Active Open Bounties** | **78** |
+| **Open Bounty Pipeline Value** | **$9,994.00** |
 | **Total Solved Bounties** | **120** |
 | **Solved Bounties Value** | **$12,640.00** |
-| **Ready to Claim (Local Fix Tested)** | **23** |
+| **Ready to Claim (Local Fix Tested)** | **21** |
 | **PRs Submitted & Pending Review** | **54** |
 | **PRs Merged / Payout Won** | **4** |
-| **Closed / Inactive Cases** | **39** |
+| **Closed / Inactive Cases** | **41** |
 
 ## 🛠️ Solved Cases Live Status Breakdown
 
@@ -133,11 +133,11 @@
 | 113 | `[SECURITY]` | `benzospace-labs/benzo#76` | github_security | **$45** | `closed` | 🟡 Submitted | [Advisory Report](/home/runner/work/register/register/data/security_reports/sec_advisory_benzospace-labs_benzo_76.md) |
 | 114 | `[WEB3_DESCI]` | `stellar-abstraction-labs/stellar-account-abstraction-sdk#80` | web3_github | **$70** | `closed` | ⚪ Closed | Not Submitted |
 | 115 | `[WEB3_DESCI]` | `sampled-labs/sampled#77` | web3_github | **$50** | `closed` | ⚪ Closed | Not Submitted |
-| 116 | `[WEB3_DESCI]` | `Signpost-Labs/signpost-app#77` | web3_github | **$60** | `open` | 🟢 Ready to Claim | Not Submitted |
+| 116 | `[WEB3_DESCI]` | `Signpost-Labs/signpost-app#77` | web3_github | **$60** | `closed` | ⚪ Closed | Not Submitted |
 | 117 | `[WEB3_DESCI]` | `sampled-labs/sampled#74` | web3_github | **$70** | `closed` | ⚪ Closed | Not Submitted |
 | 118 | `[WEB3_DESCI]` | `slippay-labs/slippay#24` | web3_github | **$75** | `closed` | ⚪ Closed | Not Submitted |
 | 119 | `[WEB3_DESCI]` | `cosmos/evm#1318` | web3_github | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
-| 120 | `[WEB3_DESCI]` | `Presago-Labs/presago#79` | web3_github | **$60** | `open` | 🟢 Ready to Claim | Not Submitted |
+| 120 | `[WEB3_DESCI]` | `Presago-Labs/presago#79` | web3_github | **$60** | `closed` | ⚪ Closed | Not Submitted |
 
 ## 🚀 Actionable Next Steps
 - Run `python main.py --claim` to submit pull requests or artifacts for **Ready to Claim** cases.
