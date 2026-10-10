@@ -19,7 +19,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-10T05:32:20.789260+00:00"
+    "last_audited": "2026-10-10T12:20:11.270486+00:00"
   },
   {
     "id": "gh-richa2014/richa-money-agent-4",
@@ -41,7 +41,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 13,
-    "last_audited": "2026-10-10T05:32:21.004264+00:00"
+    "last_audited": "2026-10-10T12:20:11.629870+00:00"
   },
   {
     "id": "gh-prest/prest-284",
@@ -66,7 +66,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-10T05:32:21.204408+00:00"
+    "last_audited": "2026-10-10T12:20:12.024439+00:00"
   },
   {
     "id": "gh-future-architect/vuls-777",
@@ -88,7 +88,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-10T05:32:21.425720+00:00"
+    "last_audited": "2026-10-10T12:20:12.415953+00:00"
   },
   {
     "id": "gh-marktext/marktext-375",
@@ -112,7 +112,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 60,
-    "last_audited": "2026-10-10T05:32:21.667495+00:00"
+    "last_audited": "2026-10-10T12:20:12.764245+00:00"
   },
   {
     "id": "web3-Chain-Love/chain-love-4057",
@@ -138,7 +138,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-10T05:32:21.897664+00:00"
+    "last_audited": "2026-10-10T12:20:13.109658+00:00"
   },
   {
     "id": "web3-cosmos/evm-1318",
@@ -164,7 +164,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-10T05:32:22.135256+00:00"
+    "last_audited": "2026-10-10T12:20:13.490452+00:00"
   },
   {
     "id": "web3-Signpost-Labs/signpost-app-77",
@@ -190,7 +190,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-10T05:32:22.346274+00:00"
+    "last_audited": "2026-10-10T12:20:13.865555+00:00"
   },
   {
     "id": "web3-Presago-Labs/presago-79",
@@ -216,7 +216,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-10T05:32:22.613735+00:00"
+    "last_audited": "2026-10-10T12:20:14.216818+00:00"
   },
   {
     "id": "web3-anthropics/claude-code-96705",
@@ -246,7 +246,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-10T05:32:22.862523+00:00"
+    "last_audited": "2026-10-10T12:20:14.623210+00:00"
   },
   {
     "id": "web3-verdikta/verdikta-applications-47",
@@ -272,7 +272,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-10T05:32:23.062461+00:00"
+    "last_audited": "2026-10-10T12:20:14.981369+00:00"
   },
   {
     "id": "web3-muhammalif/evm-signature-verifier-1",
@@ -298,7 +298,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-10T05:32:23.248544+00:00"
+    "last_audited": "2026-10-10T12:20:15.333419+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -324,7 +324,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-10T05:32:23.453592+00:00"
+    "last_audited": "2026-10-10T12:20:15.715261+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -349,7 +349,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-10-10T05:32:23.673593+00:00"
+    "last_audited": "2026-10-10T12:20:16.065772+00:00"
   },
   {
     "id": "web3-openscad/openscad-783",
@@ -376,7 +376,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 13,
-    "last_audited": "2026-10-10T05:32:23.899311+00:00"
+    "last_audited": "2026-10-10T12:20:16.444658+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -485,7 +485,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-10T05:32:24.083335+00:00"
+    "last_audited": "2026-10-10T12:20:16.788102+00:00"
   },
   {
     "id": "sec-StellarTickets/blockchain-42",
@@ -510,7 +510,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-10T05:32:24.287512+00:00"
+    "last_audited": "2026-10-10T12:20:17.126240+00:00"
   },
   {
     "id": "sec-ethereum/go-ethereum-35852",
@@ -535,7 +535,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-10T05:32:24.486706+00:00"
+    "last_audited": "2026-10-10T12:20:17.458927+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -560,7 +560,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-10T05:32:24.677708+00:00"
+    "last_audited": "2026-10-10T12:20:17.774700+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -585,7 +585,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-10T05:32:24.892338+00:00"
+    "last_audited": "2026-10-10T12:20:18.144774+00:00"
   },
   {
     "id": "sec-Nudgen-Marketing/mermail-skills-482",
@@ -610,7 +610,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-10T05:32:25.108029+00:00"
+    "last_audited": "2026-10-10T12:20:18.491462+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -635,7 +635,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-10T05:32:25.304752+00:00"
+    "last_audited": "2026-10-10T12:20:18.835075+00:00"
   },
   {
     "id": "sec-Haroldwonder/TrustLink-1497",
@@ -660,7 +660,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-10T05:32:25.477413+00:00"
+    "last_audited": "2026-10-10T12:20:19.145035+00:00"
   },
   {
     "id": "sec-cerebruminc/bug-bounty-14",
@@ -685,7 +685,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-10T05:32:25.691307+00:00"
+    "last_audited": "2026-10-10T12:20:19.479147+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -710,7 +710,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-10T05:32:25.878925+00:00"
+    "last_audited": "2026-10-10T12:20:19.829010+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -735,7 +735,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-10T05:32:26.127448+00:00"
+    "last_audited": "2026-10-10T12:20:20.190017+00:00"
   },
   {
     "id": "sec-bschick/qcrypt-94",
@@ -760,7 +760,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-10T05:32:26.297077+00:00"
+    "last_audited": "2026-10-10T12:20:20.565303+00:00"
   },
   {
     "id": "sec-LeanScaleTeam/LeanScale-sales-app-82",
@@ -785,7 +785,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-10T05:32:26.530977+00:00"
+    "last_audited": "2026-10-10T12:20:20.907897+00:00"
   },
   {
     "id": "sec-anthropics/claude-code-100770",
@@ -810,7 +810,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-10T05:32:26.764944+00:00"
+    "last_audited": "2026-10-10T12:20:21.287631+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -835,7 +835,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-10T05:32:26.937748+00:00"
+    "last_audited": "2026-10-10T12:20:21.605739+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-279",
@@ -860,7 +860,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-10T05:32:27.120113+00:00"
+    "last_audited": "2026-10-10T12:20:21.916771+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -885,7 +885,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-10T05:32:27.332158+00:00"
+    "last_audited": "2026-10-10T12:20:22.264159+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -910,7 +910,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-10-10T05:32:27.536558+00:00"
+    "last_audited": "2026-10-10T12:20:22.614807+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -935,7 +935,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-10T05:32:27.733679+00:00"
+    "last_audited": "2026-10-10T12:20:22.969127+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-306",
@@ -960,7 +960,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-10T05:32:27.933633+00:00"
+    "last_audited": "2026-10-10T12:20:23.320437+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -985,7 +985,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-10T05:32:28.102008+00:00"
+    "last_audited": "2026-10-10T12:20:23.627948+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -1010,7 +1010,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-10T05:32:28.278822+00:00"
+    "last_audited": "2026-10-10T12:20:23.954782+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -1035,7 +1035,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-10T05:32:28.482513+00:00"
+    "last_audited": "2026-10-10T12:20:24.356849+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -1060,7 +1060,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-10T05:32:28.684602+00:00"
+    "last_audited": "2026-10-10T12:20:24.740356+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -1085,7 +1085,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-10T05:32:28.897919+00:00"
+    "last_audited": "2026-10-10T12:20:25.092241+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1110,7 +1110,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-10T05:32:29.117995+00:00"
+    "last_audited": "2026-10-10T12:20:25.469680+00:00"
   },
   {
     "id": "sec-onflow/flow-credit-markets-26",
@@ -1135,7 +1135,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-10T05:32:29.382872+00:00"
+    "last_audited": "2026-10-10T12:20:25.814508+00:00"
   },
   {
     "id": "web3-p2arthur/fullstack-kanban-1",
@@ -1164,7 +1164,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-10T05:32:29.587505+00:00"
+    "last_audited": "2026-10-10T12:20:26.141515+00:00"
   },
   {
     "id": "web3-ResearchHub/issues-716",
@@ -1190,7 +1190,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-10T05:32:29.804170+00:00"
+    "last_audited": "2026-10-10T12:20:26.496830+00:00"
   },
   {
     "id": "gh-osmesirius-ship-it/DAX_DA13-DA13x2-13",
@@ -1214,7 +1214,7 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-10T05:32:29.989963+00:00"
+    "last_audited": "2026-10-10T12:20:26.826825+00:00"
   },
   {
     "id": "web3-p2arthur/fullstack-kanban-3",
@@ -1241,7 +1241,7 @@
     "solvability_score": 55.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-10T05:32:30.173658+00:00"
+    "last_audited": "2026-10-10T12:20:27.183877+00:00"
   },
   {
     "id": "web3-tetherless-world/whyis-237",
