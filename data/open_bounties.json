@@ -19,7 +19,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-10T23:28:38.918216+00:00"
+    "last_audited": "2026-10-11T05:23:56.102204+00:00"
   },
   {
     "id": "gh-richa2014/richa-money-agent-4",
@@ -41,7 +41,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 13,
-    "last_audited": "2026-10-10T23:28:39.097910+00:00"
+    "last_audited": "2026-10-11T05:23:56.303942+00:00"
   },
   {
     "id": "gh-souravsviswajith/Project-Atlas-Bootstrap-15",
@@ -63,7 +63,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-10T23:28:39.273083+00:00"
+    "last_audited": "2026-10-11T05:23:56.497923+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-85",
@@ -87,11 +87,11 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-10T23:28:39.477634+00:00"
+    "last_audited": "2026-10-11T05:23:56.703015+00:00"
   },
   {
     "id": "gh-Palehour/londinium-7",
-    "title": "\u26d4 feat(sim): importaciones \u2014 t\u00e9 como preferencia y harina importada (bloqueado: P-004 y P-011)",
+    "title": "feat(sim): importaciones \u2014 t\u00e9 como preferencia y harina importada",
     "url": "https://github.com/Palehour/londinium/issues/7",
     "platform": "opire",
     "repo_owner": "Palehour",
@@ -104,10 +104,9 @@
     "reward_formatted": "$100",
     "tech": [
       "hito-1",
-      "bloqueado",
       "area:simulacion",
       "tipo:feature",
-      "necesita-decision",
+      "listo-para-agente",
       "p3"
     ],
     "status": "active",
@@ -115,33 +114,8 @@
     "competitor_prs": 0,
     "solvability_score": 100.0,
     "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-10T23:28:39.700719+00:00"
-  },
-  {
-    "id": "gh-Ricky1800/localbiz-site-5",
-    "title": "`next/image`-optimized photo gallery section",
-    "url": "https://github.com/Ricky1800/localbiz-site/issues/5",
-    "platform": "opire",
-    "repo_owner": "Ricky1800",
-    "repo_name": "localbiz-site",
-    "issue_number": 5,
-    "org_handle": "Ricky1800",
-    "org_name": "Ricky1800/localbiz-site",
-    "body": "**Body:**\nAdd an optional homepage \"gallery\" section (before/after photos, shop\nphotos, completed jobs) driven by a new optional `gallery: { src, alt }[]`\nconfig field, rendered with `next/image` for automatic optimization/lazy\nloading. Should render nothing when `gallery` is unset or empty, consistent\nwith this project's \"hide when unset\" convention.\n\n**Acceptance criteria:**\n- [ ] New optional `gallery` field added to the zod schema with sensible\n      validation (non-empty `alt` text required for accessibility).\n- [ ] Section omitted entirely when `gallery` is unset/empty.\n- [ ] Images are responsive and don't cause layout shift (explicit\n      width/height or a fixed aspect-ratio wrapper).\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #5</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @Ricky1800</code> (replace <code>20</code> with the amount, and <code>@Ricky1800</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "enhancement",
-      "good first issue"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-10T23:28:39.893856+00:00"
+    "comments_count": 1,
+    "last_audited": "2026-10-11T05:23:56.918862+00:00"
   },
   {
     "id": "gh-prest/prest-284",
@@ -166,7 +140,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-10T23:28:40.096825+00:00"
+    "last_audited": "2026-10-11T05:23:57.146726+00:00"
   },
   {
     "id": "gh-future-architect/vuls-777",
@@ -188,7 +162,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-10T23:28:40.319500+00:00"
+    "last_audited": "2026-10-11T05:23:57.348342+00:00"
   },
   {
     "id": "gh-marktext/marktext-375",
@@ -212,7 +186,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 60,
-    "last_audited": "2026-10-10T23:28:40.575239+00:00"
+    "last_audited": "2026-10-11T05:23:57.562442+00:00"
   },
   {
     "id": "web3-Chain-Love/chain-love-4057",
@@ -238,7 +212,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-10T23:28:40.791586+00:00"
+    "last_audited": "2026-10-11T05:23:57.762996+00:00"
   },
   {
     "id": "web3-cosmos/evm-1318",
@@ -264,7 +238,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-10T23:28:41.027081+00:00"
+    "last_audited": "2026-10-11T05:23:57.981182+00:00"
   },
   {
     "id": "web3-anthropics/claude-code-96705",
@@ -294,7 +268,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-10T23:28:41.290232+00:00"
+    "last_audited": "2026-10-11T05:23:58.215955+00:00"
   },
   {
     "id": "web3-verdikta/verdikta-applications-47",
@@ -320,7 +294,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-10T23:28:41.501852+00:00"
+    "last_audited": "2026-10-11T05:23:58.408850+00:00"
   },
   {
     "id": "web3-muhammalif/evm-signature-verifier-1",
@@ -346,7 +320,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-10T23:28:41.695785+00:00"
+    "last_audited": "2026-10-11T05:23:58.599572+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -372,7 +346,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-10T23:28:41.929541+00:00"
+    "last_audited": "2026-10-11T05:23:58.792728+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -397,7 +371,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-10-10T23:28:42.143242+00:00"
+    "last_audited": "2026-10-11T05:23:59.021663+00:00"
   },
   {
     "id": "web3-openscad/openscad-783",
@@ -424,7 +398,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 13,
-    "last_audited": "2026-10-10T23:28:42.355688+00:00"
+    "last_audited": "2026-10-11T05:23:59.229934+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -533,7 +507,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-10T23:28:42.573646+00:00"
+    "last_audited": "2026-10-11T05:23:59.474304+00:00"
   },
   {
     "id": "sec-StellarTickets/blockchain-42",
@@ -558,7 +532,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-10T23:28:42.748893+00:00"
+    "last_audited": "2026-10-11T05:23:59.681036+00:00"
   },
   {
     "id": "sec-ethereum/go-ethereum-35852",
@@ -583,7 +557,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-10T23:28:42.944584+00:00"
+    "last_audited": "2026-10-11T05:23:59.871518+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -608,7 +582,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-10T23:28:43.115545+00:00"
+    "last_audited": "2026-10-11T05:24:00.060032+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -633,7 +607,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-10T23:28:43.324692+00:00"
+    "last_audited": "2026-10-11T05:24:00.247825+00:00"
   },
   {
     "id": "sec-hanthor/indiafoss-companion-1199",
@@ -658,7 +632,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-10T23:28:43.493468+00:00"
+    "last_audited": "2026-10-11T05:24:00.430673+00:00"
   },
   {
     "id": "sec-Nudgen-Marketing/mermail-skills-482",
@@ -683,7 +657,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-10T23:28:43.676915+00:00"
+    "last_audited": "2026-10-11T05:24:00.629231+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -708,7 +682,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-10T23:28:43.935118+00:00"
+    "last_audited": "2026-10-11T05:24:00.841342+00:00"
   },
   {
     "id": "sec-cerebruminc/bug-bounty-14",
@@ -733,7 +707,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-10T23:28:44.158325+00:00"
+    "last_audited": "2026-10-11T05:24:01.057715+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -758,7 +732,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-10T23:28:44.339456+00:00"
+    "last_audited": "2026-10-11T05:24:01.245114+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -783,7 +757,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-10T23:28:44.553128+00:00"
+    "last_audited": "2026-10-11T05:24:01.462932+00:00"
   },
   {
     "id": "sec-bschick/qcrypt-94",
@@ -808,7 +782,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-10T23:28:44.742284+00:00"
+    "last_audited": "2026-10-11T05:24:01.649826+00:00"
   },
   {
     "id": "sec-LeanScaleTeam/LeanScale-sales-app-82",
@@ -833,7 +807,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-10T23:28:44.937626+00:00"
+    "last_audited": "2026-10-11T05:24:01.835494+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -858,7 +832,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-10T23:28:45.136322+00:00"
+    "last_audited": "2026-10-11T05:24:02.010174+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-279",
@@ -883,7 +857,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-10T23:28:45.311288+00:00"
+    "last_audited": "2026-10-11T05:24:02.165228+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -908,7 +882,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-10T23:28:45.522447+00:00"
+    "last_audited": "2026-10-11T05:24:02.367195+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -933,7 +907,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-10-10T23:28:45.883656+00:00"
+    "last_audited": "2026-10-11T05:24:02.541260+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -958,7 +932,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-10T23:28:46.083130+00:00"
+    "last_audited": "2026-10-11T05:24:02.737755+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-306",
@@ -983,7 +957,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-10T23:28:46.248475+00:00"
+    "last_audited": "2026-10-11T05:24:02.915449+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -1008,7 +982,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-10T23:28:46.430333+00:00"
+    "last_audited": "2026-10-11T05:24:03.091347+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -1033,7 +1007,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-10T23:28:46.606082+00:00"
+    "last_audited": "2026-10-11T05:24:03.261425+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -1058,7 +1032,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-10T23:28:46.790758+00:00"
+    "last_audited": "2026-10-11T05:24:03.431998+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -1083,7 +1057,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-10T23:28:47.003844+00:00"
+    "last_audited": "2026-10-11T05:24:03.652512+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -1108,7 +1082,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-10T23:28:47.220948+00:00"
+    "last_audited": "2026-10-11T05:24:03.891933+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1133,7 +1107,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-10T23:28:47.429115+00:00"
+    "last_audited": "2026-10-11T05:24:04.154158+00:00"
   },
   {
     "id": "sec-onflow/flow-credit-markets-26",
@@ -1158,7 +1132,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-10T23:28:47.625707+00:00"
+    "last_audited": "2026-10-11T05:24:04.364076+00:00"
   },
   {
     "id": "web3-p2arthur/fullstack-kanban-1",
@@ -1187,7 +1161,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-10T23:28:47.805613+00:00"
+    "last_audited": "2026-10-11T05:24:04.549760+00:00"
   },
   {
     "id": "web3-daydreamsai/agent-bounties-61",
@@ -1213,7 +1187,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-10T23:28:48.005856+00:00"
+    "last_audited": "2026-10-11T05:24:04.782050+00:00"
   },
   {
     "id": "web3-ResearchHub/issues-716",
@@ -1239,7 +1213,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-10T23:28:48.202266+00:00"
+    "last_audited": "2026-10-11T05:24:04.985973+00:00"
   },
   {
     "id": "gh-osmesirius-ship-it/DAX_DA13-DA13x2-13",
@@ -1257,6 +1231,28 @@
     "tech": [
       "[meta-bounty-question]."
     ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 60.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-11T05:24:05.168325+00:00"
+  },
+  {
+    "id": "gh-abhayjnayakk/quant-integrity-1",
+    "title": "[read-only MCP health check] handshake incomplete: NO_RESPONSE",
+    "url": "https://github.com/abhayjnayakk/quant-integrity/issues/1",
+    "platform": "opire",
+    "repo_owner": "abhayjnayakk",
+    "repo_name": "quant-integrity",
+    "issue_number": 1,
+    "org_handle": "abhayjnayakk",
+    "org_name": "abhayjnayakk/quant-integrity",
+    "body": "Read-only health check of the endpoint registered for this project in the official MCP Registry did not complete a clean MCP handshake.\n\n- Registry name: ai.avasis/quant-research\n- Endpoint: `https://quant-mcp.avasis.ai/mcp`\n- Result: UNKNOWN \u2014 `NO_RESPONSE`: Endpoint did not complete MCP initialize + tools/list within timeout\n\nFull report (updated weekly): https://xka0085-byte.github.io/mcp-doctor/trust/p/ai.avasis-quant-research.html\nReproduce locally: `npx @eidonze/mcpdoctor schema https://quant-mcp.avasis.ai/mcp`\n\nWhat this is: [mcpdoctor](https://github.com/xka0085-byte/mcp-doctor) \u2014 an open-source (MIT) MCP preflight checker. It sends only MCP `initialize` + `tools/list`; no tools are called and no data is read.\n\n- If this endpoint is intentionally auth-gated, a failed anonymous handshake is expected \u2014 please ignore this issue (the public directory marks such servers as \"no anonymous handshake\").\n- If it should be reachable anonymously, the report shows the exact step that failed.\n- If you would rather not be listed in the public directory at all, reply here and we will exclude the server.\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #1</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @xka0085-byte</code> (replace <code>20</code> with the amount, and <code>@xka0085-byte</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [],
     "status": "active",
     "domain": "code",
     "competitor_prs": 0,
@@ -1384,6 +1380,28 @@
     "reward_usd": 30.0,
     "reward_formatted": "$30",
     "tech": [],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 50.0
+  },
+  {
+    "id": "gh-gitcoinco/gitcoin_co_30-511",
+    "title": "[App] OnlyDust",
+    "url": "https://github.com/gitcoinco/gitcoin_co_30/issues/511",
+    "platform": "gitcoin",
+    "repo_owner": "gitcoinco",
+    "repo_name": "gitcoin_co_30",
+    "issue_number": 511,
+    "org_handle": "gitcoinco",
+    "org_name": "gitcoinco/gitcoin_co_30",
+    "body": "### Slug\n\n<!--\nIMPORTANT: If editing this issue as raw markdown, do not rename or remove section headers (### Name).\nThey are used as parsing keys by the publishing automation \u2014 changing them will break content generation.\n-->\n\n\n### Short Description\n\nPlatform connecting open-source maintainers, contributors and sponsors to distribute grants and rewards for high-quality contributions.\n\n### Tags\n\ngrants, open-source, bounties, contributors, starknet, web3, funding-platform\n\n\n### Featured\n\n- [ ] Feature this app on the homepage\n\n### Banner Image\n\n<!-- Go to https://gitcoin.co/generator \u2192 press R to cycle patterns \u2192 press S to save \u2192 drag the PNG here. Only Chladni-generated PNGs accepted. -->\n\n\n### Logo\n\n<!-- Drag your white/inverted logo PNG here. Square format (256\u00d7256 or 512\u00d7512 px), PNG only, displayed on dark backgrounds. -->\n\n\n### Description\n\n<!--\nFull description of the app. Markdown is supported.\n\nSuggested details to include:\n- **Category**: Platform | DAO | Grant Program | Fund | Primitive\n- **Status**: Active | Deprecated | Upcoming\n- **Website**: https://...\n- **Blockchains**: Ethereum, Optimism, etc.\n- **Funding Volume**: e.g., $10M distributed\n- **Social Links**: Twitter, Discord, GitHub\n\nDelete this comment and write your description below.\n-->\n\n\n### Authors\n\nRaddan\n\n### Related Apps\n\n<!-- Comma-separated slugs, e.g: gitcoin-grants-stack, octant -->\n\n\n### Related Mechanisms\n\n<!-- Comma-separated slugs, e.g: quadratic-funding, direct-grants -->\n\n\n### Related Case Studies\n\n<!-- Comma-separated slugs, e.g: gitcoin-gr15-case-study -->\n\n\n### Related Research\n\n<!-- Comma-separated slugs, e.g: my-research-slug -->\n\n\n### Related Campaigns\n\n<!-- Comma-separated slugs, e.g: gg24, gg25 -->\n\n\n### Submission Checklist\n\n- [x] My short description is accurate and fits in one line\n- [x] My description is complete and written in Markdown\n- [x] Logo is the **white/inverted version** in PNG format (not full-colour \u2014 it appears on a dark background)",
+    "reward_usd": 10.0,
+    "reward_formatted": "$10",
+    "tech": [
+      "content",
+      "app"
+    ],
     "status": "active",
     "domain": "code",
     "competitor_prs": 0,
