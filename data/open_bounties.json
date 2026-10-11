@@ -19,7 +19,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-11T12:36:08.086979+00:00"
+    "last_audited": "2026-10-11T18:48:32.844173+00:00"
   },
   {
     "id": "gh-richa2014/richa-money-agent-4",
@@ -41,7 +41,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 13,
-    "last_audited": "2026-10-11T12:36:08.318822+00:00"
+    "last_audited": "2026-10-11T18:48:33.043131+00:00"
   },
   {
     "id": "gh-kostasuser01gr/VoiceAI-Support-Dashboard-85",
@@ -65,32 +65,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-11T12:36:08.568099+00:00"
-  },
-  {
-    "id": "gh-Ricky1800/localbiz-site-5",
-    "title": "`next/image`-optimized photo gallery section",
-    "url": "https://github.com/Ricky1800/localbiz-site/issues/5",
-    "platform": "opire",
-    "repo_owner": "Ricky1800",
-    "repo_name": "localbiz-site",
-    "issue_number": 5,
-    "org_handle": "Ricky1800",
-    "org_name": "Ricky1800/localbiz-site",
-    "body": "**Body:**\nAdd an optional homepage \"gallery\" section (before/after photos, shop\nphotos, completed jobs) driven by a new optional `gallery: { src, alt }[]`\nconfig field, rendered with `next/image` for automatic optimization/lazy\nloading. Should render nothing when `gallery` is unset or empty, consistent\nwith this project's \"hide when unset\" convention.\n\n**Acceptance criteria:**\n- [ ] New optional `gallery` field added to the zod schema with sensible\n      validation (non-empty `alt` text required for accessibility).\n- [ ] Section omitted entirely when `gallery` is unset/empty.\n- [ ] Images are responsive and don't cause layout shift (explicit\n      width/height or a fixed aspect-ratio wrapper).\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #5</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @Ricky1800</code> (replace <code>20</code> with the amount, and <code>@Ricky1800</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "enhancement",
-      "good first issue"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-11T12:36:08.817100+00:00"
+    "last_audited": "2026-10-11T18:48:33.231956+00:00"
   },
   {
     "id": "gh-prest/prest-284",
@@ -115,7 +90,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-11T12:36:09.097774+00:00"
+    "last_audited": "2026-10-11T18:48:33.447987+00:00"
   },
   {
     "id": "gh-future-architect/vuls-777",
@@ -137,7 +112,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-11T12:36:09.329860+00:00"
+    "last_audited": "2026-10-11T18:48:33.649000+00:00"
   },
   {
     "id": "gh-marktext/marktext-375",
@@ -161,7 +136,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 60,
-    "last_audited": "2026-10-11T12:36:09.597754+00:00"
+    "last_audited": "2026-10-11T18:48:33.865212+00:00"
   },
   {
     "id": "web3-Chain-Love/chain-love-4057",
@@ -187,7 +162,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-11T12:36:09.841546+00:00"
+    "last_audited": "2026-10-11T18:48:34.070285+00:00"
   },
   {
     "id": "web3-cosmos/evm-1318",
@@ -213,7 +188,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-11T12:36:10.092971+00:00"
+    "last_audited": "2026-10-11T18:48:34.332847+00:00"
   },
   {
     "id": "web3-anthropics/claude-code-96705",
@@ -243,7 +218,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-11T12:36:10.392901+00:00"
+    "last_audited": "2026-10-11T18:48:34.571360+00:00"
   },
   {
     "id": "web3-verdikta/verdikta-applications-47",
@@ -269,7 +244,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-11T12:36:10.663658+00:00"
+    "last_audited": "2026-10-11T18:48:34.802440+00:00"
   },
   {
     "id": "web3-muhammalif/evm-signature-verifier-1",
@@ -295,7 +270,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-11T12:36:10.917168+00:00"
+    "last_audited": "2026-10-11T18:48:35.013323+00:00"
   },
   {
     "id": "web3-openhab/openhab-distro-120",
@@ -321,7 +296,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-11T12:36:11.172471+00:00"
+    "last_audited": "2026-10-11T18:48:35.222401+00:00"
   },
   {
     "id": "web3-x402-foundation/x402-3065",
@@ -346,7 +321,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 21,
-    "last_audited": "2026-10-11T12:36:11.431640+00:00"
+    "last_audited": "2026-10-11T18:48:35.435157+00:00"
   },
   {
     "id": "web3-openscad/openscad-783",
@@ -373,7 +348,7 @@
     "solvability_score": 90.0,
     "live_status": "open",
     "comments_count": 13,
-    "last_audited": "2026-10-11T12:36:11.739629+00:00"
+    "last_audited": "2026-10-11T18:48:35.659794+00:00"
   },
   {
     "id": "kaggle-titanic",
@@ -482,7 +457,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-11T12:36:12.022354+00:00"
+    "last_audited": "2026-10-11T18:48:35.868623+00:00"
   },
   {
     "id": "sec-StellarTickets/blockchain-42",
@@ -507,7 +482,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-11T12:36:12.272296+00:00"
+    "last_audited": "2026-10-11T18:48:36.066912+00:00"
   },
   {
     "id": "sec-ethereum/go-ethereum-35852",
@@ -532,7 +507,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-11T12:36:12.526908+00:00"
+    "last_audited": "2026-10-11T18:48:36.273648+00:00"
   },
   {
     "id": "sec-mikalv/msgr-213",
@@ -557,7 +532,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-11T12:36:12.761978+00:00"
+    "last_audited": "2026-10-11T18:48:36.525772+00:00"
   },
   {
     "id": "sec-Demilade10/PayStream-52",
@@ -582,7 +557,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-11T12:36:13.005777+00:00"
+    "last_audited": "2026-10-11T18:48:36.709836+00:00"
   },
   {
     "id": "sec-hanthor/indiafoss-companion-1199",
@@ -607,7 +582,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-11T12:36:13.227616+00:00"
+    "last_audited": "2026-10-11T18:48:36.914225+00:00"
   },
   {
     "id": "sec-Nudgen-Marketing/mermail-skills-482",
@@ -632,7 +607,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-11T12:36:13.471428+00:00"
+    "last_audited": "2026-10-11T18:48:37.177882+00:00"
   },
   {
     "id": "sec-Invoice-Liquidity-Network/Invoice-Liquidity-Network-1080",
@@ -657,7 +632,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 6,
-    "last_audited": "2026-10-11T12:36:13.725840+00:00"
+    "last_audited": "2026-10-11T18:48:37.386074+00:00"
   },
   {
     "id": "sec-cerebruminc/bug-bounty-14",
@@ -682,7 +657,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-11T12:36:14.004796+00:00"
+    "last_audited": "2026-10-11T18:48:37.611793+00:00"
   },
   {
     "id": "sec-Oliversmoke/comeback-359",
@@ -707,7 +682,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-11T12:36:14.299695+00:00"
+    "last_audited": "2026-10-11T18:48:37.817758+00:00"
   },
   {
     "id": "sec-Soroban-Cookbook/Soroban-Cookbook--928",
@@ -732,7 +707,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-11T12:36:14.560367+00:00"
+    "last_audited": "2026-10-11T18:48:38.012414+00:00"
   },
   {
     "id": "sec-bschick/qcrypt-94",
@@ -757,7 +732,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-11T12:36:14.781694+00:00"
+    "last_audited": "2026-10-11T18:48:38.246212+00:00"
+  },
+  {
+    "id": "sec-abdulsalam-create/bounty-watch-104",
+    "domain": "security",
+    "title": "Scope digest 2026-10-11: 2 changes across 1 bounty programs",
+    "url": "https://github.com/abdulsalam-create/bounty-watch/issues/104",
+    "platform": "github_security",
+    "repo_owner": "abdulsalam-create",
+    "repo_name": "bounty-watch",
+    "issue_number": 104,
+    "org_handle": "abdulsalam-create",
+    "org_name": "abdulsalam-create/bounty-watch",
+    "body": "# Daily scope digest 2026-10-11\n\n2 scope change(s) across 1 bug bounty program(s) since the last digest.\n\nDashboard: https://abdulsalam-create.github.io/bounty-watch/scope.html\n\n### Cloudflare Public Bug Bounty (`h1:cloudflare`)\nhttps://hackerone.com/cloudflare\n- \u2795 **out-of-scope** added: `https://github.com/cloudflare/security-audit-skill`\n- \u2795 **out-of-scope** added: `https://playground.ai.cloudflare.com/`\n\n\ncc @abdulsalam-create",
+    "reward_usd": 150.0,
+    "reward_formatted": "$150",
+    "tech": [
+      "security",
+      "sast",
+      "vulnerability"
+    ],
+    "status": "active",
+    "solvability_score": 85.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-11T18:48:38.435079+00:00"
   },
   {
     "id": "sec-LeanScaleTeam/LeanScale-sales-app-82",
@@ -782,7 +782,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-11T12:36:15.015570+00:00"
+    "last_audited": "2026-10-11T18:48:38.646258+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-1570",
@@ -807,7 +807,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-11T12:36:15.242762+00:00"
+    "last_audited": "2026-10-11T18:48:38.827212+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-279",
@@ -832,7 +832,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-11T12:36:15.459299+00:00"
+    "last_audited": "2026-10-11T18:48:39.016763+00:00"
   },
   {
     "id": "sec-maschina-labs/maschina-321",
@@ -857,7 +857,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-11T12:36:15.751879+00:00"
+    "last_audited": "2026-10-11T18:48:39.270313+00:00"
   },
   {
     "id": "sec-relayhop/sn-monetization-runtime-1116",
@@ -882,7 +882,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-10-11T12:36:16.023296+00:00"
+    "last_audited": "2026-10-11T18:48:39.458046+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-281",
@@ -907,7 +907,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-11T12:36:16.266434+00:00"
+    "last_audited": "2026-10-11T18:48:39.654250+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-306",
@@ -932,7 +932,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-11T12:36:16.502737+00:00"
+    "last_audited": "2026-10-11T18:48:39.839043+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-302",
@@ -957,7 +957,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-11T12:36:16.733489+00:00"
+    "last_audited": "2026-10-11T18:48:40.034486+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-287",
@@ -982,7 +982,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-11T12:36:16.942075+00:00"
+    "last_audited": "2026-10-11T18:48:40.230908+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-256",
@@ -1007,7 +1007,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-11T12:36:17.197930+00:00"
+    "last_audited": "2026-10-11T18:48:40.441915+00:00"
   },
   {
     "id": "sec-zhangjiayang6835-cyber/bounty-plaza-495",
@@ -1032,7 +1032,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-11T12:36:17.411926+00:00"
+    "last_audited": "2026-10-11T18:48:40.623211+00:00"
   },
   {
     "id": "sec-jose-compu/opencircom-1",
@@ -1057,7 +1057,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-11T12:36:17.654972+00:00"
+    "last_audited": "2026-10-11T18:48:40.831727+00:00"
   },
   {
     "id": "sec-monk-io/monk-plugin-386",
@@ -1082,7 +1082,7 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-11T12:36:17.889057+00:00"
+    "last_audited": "2026-10-11T18:48:41.047960+00:00"
   },
   {
     "id": "sec-onflow/flow-credit-markets-26",
@@ -1107,7 +1107,32 @@
     "solvability_score": 85.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-11T12:36:18.137782+00:00"
+    "last_audited": "2026-10-11T18:48:41.266382+00:00"
+  },
+  {
+    "id": "gh-Ricky1800/localbiz-site-5",
+    "title": "`next/image`-optimized photo gallery section",
+    "url": "https://github.com/Ricky1800/localbiz-site/issues/5",
+    "platform": "opire",
+    "repo_owner": "Ricky1800",
+    "repo_name": "localbiz-site",
+    "issue_number": 5,
+    "org_handle": "Ricky1800",
+    "org_name": "Ricky1800/localbiz-site",
+    "body": "**Body:**\nAdd an optional homepage \"gallery\" section (before/after photos, shop\nphotos, completed jobs) driven by a new optional `gallery: { src, alt }[]`\nconfig field, rendered with `next/image` for automatic optimization/lazy\nloading. Should render nothing when `gallery` is unset or empty, consistent\nwith this project's \"hide when unset\" convention.\n\n**Acceptance criteria:**\n- [ ] New optional `gallery` field added to the zod schema with sensible\n      validation (non-empty `alt` text required for accessibility).\n- [ ] Section omitted entirely when `gallery` is unset/empty.\n- [ ] Images are responsive and don't cause layout shift (explicit\n      width/height or a fixed aspect-ratio wrapper).\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #5</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @Ricky1800</code> (replace <code>20</code> with the amount, and <code>@Ricky1800</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "enhancement",
+      "good first issue"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 75.0,
+    "live_status": "open",
+    "comments_count": 0,
+    "last_audited": "2026-10-11T18:48:41.464933+00:00"
   },
   {
     "id": "web3-p2arthur/fullstack-kanban-1",
@@ -1136,7 +1161,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-11T12:36:18.366045+00:00"
+    "last_audited": "2026-10-11T18:48:41.659871+00:00"
   },
   {
     "id": "web3-daydreamsai/agent-bounties-61",
@@ -1162,7 +1187,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-11T12:36:18.627897+00:00"
+    "last_audited": "2026-10-11T18:48:41.890491+00:00"
   },
   {
     "id": "web3-ResearchHub/issues-716",
@@ -1188,7 +1213,7 @@
     "solvability_score": 65.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-11T12:36:18.897527+00:00"
+    "last_audited": "2026-10-11T18:48:42.117967+00:00"
   },
   {
     "id": "gh-osmesirius-ship-it/DAX_DA13-DA13x2-13",
@@ -1212,29 +1237,7 @@
     "solvability_score": 60.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-11T12:36:19.151036+00:00"
-  },
-  {
-    "id": "gh-abhayjnayakk/quant-integrity-1",
-    "title": "[read-only MCP health check] handshake incomplete: NO_RESPONSE",
-    "url": "https://github.com/abhayjnayakk/quant-integrity/issues/1",
-    "platform": "opire",
-    "repo_owner": "abhayjnayakk",
-    "repo_name": "quant-integrity",
-    "issue_number": 1,
-    "org_handle": "abhayjnayakk",
-    "org_name": "abhayjnayakk/quant-integrity",
-    "body": "Read-only health check of the endpoint registered for this project in the official MCP Registry did not complete a clean MCP handshake.\n\n- Registry name: ai.avasis/quant-research\n- Endpoint: `https://quant-mcp.avasis.ai/mcp`\n- Result: UNKNOWN \u2014 `NO_RESPONSE`: Endpoint did not complete MCP initialize + tools/list within timeout\n\nFull report (updated weekly): https://xka0085-byte.github.io/mcp-doctor/trust/p/ai.avasis-quant-research.html\nReproduce locally: `npx @eidonze/mcpdoctor schema https://quant-mcp.avasis.ai/mcp`\n\nWhat this is: [mcpdoctor](https://github.com/xka0085-byte/mcp-doctor) \u2014 an open-source (MIT) MCP preflight checker. It sends only MCP `initialize` + `tools/list`; no tools are called and no data is read.\n\n- If this endpoint is intentionally auth-gated, a failed anonymous handshake is expected \u2014 please ignore this issue (the public directory marks such servers as \"no anonymous handshake\").\n- If it should be reachable anonymously, the report shows the exact step that failed.\n- If you would rather not be listed in the public directory at all, reply here and we will exclude the server.\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #1</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @xka0085-byte</code> (replace <code>20</code> with the amount, and <code>@xka0085-byte</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 60.0,
-    "live_status": "open",
-    "comments_count": 0,
-    "last_audited": "2026-10-11T12:36:19.387971+00:00"
+    "last_audited": "2026-10-11T18:48:42.290583+00:00"
   },
   {
     "id": "gh-strias-ai/mcp-embodied-actuator-madrid-1",
@@ -1247,6 +1250,25 @@
     "org_handle": "strias-ai",
     "org_name": "strias-ai/mcp-embodied-actuator-madrid",
     "body": "### Model Context Protocol Reservation Request\n\n- **Agent Name:** \n- **Tool Protocol:** MCP Standard / Tool Use\n- **Requested Hardware:** Rover 5G / Quadcopter\n- **Preferred Payment:** USDC / SEPA\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #1</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @strias-ai</code> (replace <code>20</code> with the amount, and <code>@strias-ai</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 60.0
+  },
+  {
+    "id": "gh-abhayjnayakk/quant-integrity-1",
+    "title": "[read-only MCP health check] handshake incomplete: NO_RESPONSE",
+    "url": "https://github.com/abhayjnayakk/quant-integrity/issues/1",
+    "platform": "opire",
+    "repo_owner": "abhayjnayakk",
+    "repo_name": "quant-integrity",
+    "issue_number": 1,
+    "org_handle": "abhayjnayakk",
+    "org_name": "abhayjnayakk/quant-integrity",
+    "body": "Read-only health check of the endpoint registered for this project in the official MCP Registry did not complete a clean MCP handshake.\n\n- Registry name: ai.avasis/quant-research\n- Endpoint: `https://quant-mcp.avasis.ai/mcp`\n- Result: UNKNOWN \u2014 `NO_RESPONSE`: Endpoint did not complete MCP initialize + tools/list within timeout\n\nFull report (updated weekly): https://xka0085-byte.github.io/mcp-doctor/trust/p/ai.avasis-quant-research.html\nReproduce locally: `npx @eidonze/mcpdoctor schema https://quant-mcp.avasis.ai/mcp`\n\nWhat this is: [mcpdoctor](https://github.com/xka0085-byte/mcp-doctor) \u2014 an open-source (MIT) MCP preflight checker. It sends only MCP `initialize` + `tools/list`; no tools are called and no data is read.\n\n- If this endpoint is intentionally auth-gated, a failed anonymous handshake is expected \u2014 please ignore this issue (the public directory marks such servers as \"no anonymous handshake\").\n- If it should be reachable anonymously, the report shows the exact step that failed.\n- If you would rather not be listed in the public directory at all, reply here and we will exclude the server.\n<br/>\n<hr/>\n\n<details><summary>This repo is using Opire - what does it mean? \ud83d\udc47</summary><br/>\ud83d\udcb5 Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount).<br/>\ud83d\udd75\ufe0f\u200d\u2642\ufe0f If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>\ud83d\ude4c And when they open the PR, they can comment <code>/claim #1</code> either in the PR description or in a PR's comment.<br/><br/>\ud83e\ude99 Also, everyone can tip any user commenting <code>/tip 20 @xka0085-byte</code> (replace <code>20</code> with the amount, and <code>@xka0085-byte</code> with the user to tip).<br/><br/>\ud83d\udcd6 If you want to learn more, check out our <a href=\"https://docs.opire.dev\">documentation</a>.</details>",
     "reward_usd": 100.0,
     "reward_formatted": "$100",
     "tech": [],
@@ -1426,6 +1448,28 @@
     "solvability_score": 50.0
   },
   {
+    "id": "gh-shanalikhan/code-settings-sync-143",
+    "title": "Considering disabled extensions",
+    "url": "https://github.com/shanalikhan/code-settings-sync/issues/143",
+    "platform": "issuehunt",
+    "repo_owner": "shanalikhan",
+    "repo_name": "code-settings-sync",
+    "issue_number": 143,
+    "org_handle": "shanalikhan",
+    "org_name": "shanalikhan/code-settings-sync",
+    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%24120%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/issues/143)\n<!-- /Issuehunt Badges -->\n\n\n**Visual Studio Code Version :** 1.7.1\r\n**Code Sync Settings Version :** 2.3.8\r\n**Operating System :** W10\r\n**Occurs On:** [Upload / Download]\r\n**Proxy Enabled:** No\r\n\r\nAs of version 1.7, VSCode introduced _[disabled extensions](http://code.visualstudio.com/updates/v1_7#_disable-extensions)_. \r\n\r\nWe're excited to find these supported by this beloved plugin soon, hopefully! ;) Thank you!\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $120.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($120.00)\n\n### Submitted pull Requests\n- [#1462 Include installed extensions missing from VS Code API](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/pull/1462)\n- [#1476 Feature: Support syncing disabled extensions](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/pull/1476)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/issues/143)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/issues/143)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
+    "reward_usd": 120.0,
+    "reward_formatted": "$120",
+    "tech": [
+      "feature-request  \ud83d\udca1",
+      "bounty"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 50.0
+  },
+  {
     "id": "gh-egoist/majo-9",
     "title": "Allow to source for multiple times",
     "url": "https://github.com/egoist/majo/issues/9",
@@ -1471,28 +1515,6 @@
     "solvability_score": 50.0
   },
   {
-    "id": "gh-shanalikhan/code-settings-sync-256",
-    "title": "Adding Support for Import / Export Sync Settings to File System",
-    "url": "https://github.com/shanalikhan/code-settings-sync/issues/256",
-    "platform": "issuehunt",
-    "repo_owner": "shanalikhan",
-    "repo_name": "code-settings-sync",
-    "issue_number": 256,
-    "org_handle": "shanalikhan",
-    "org_name": "shanalikhan/code-settings-sync",
-    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%24100%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/issues/256)\n<!-- /Issuehunt Badges -->\n\n\nSync Local Settings File can have more enhancements like adding path from which to export and import settings.\r\n\r\nModes will be provided to use to select either from GitHub Gist or File System via UI.\r\n\r\n1. Existing Command will be changed to Import and Export\r\n    a. By Export means to Upload in Gist and Import means to Download \r\n    b. Similar for File System respectively.\r\n2. Folder Path will be defined in the LocalSettings file.\r\n3. UI will be changed accordingly.\r\n\r\nUser can set a path inside OneDrive, Dropbox or other folder to view them and email them.\r\n\r\nThis feature will be developed upon user requests priority in this issue page\r\nAlso when alot of other core features are shipped with extension.\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $100.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($100.00)\n\n### Submitted pull Requests\n- [#1469 feat: add local filesystem sync service](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/pull/1469)\n- [#1483 feat: add filesystem settings import and export](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/pull/1483)\n- [#1489 feat(sync): export and import settings to a file system folder (#256)](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/pull/1489)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/issues/256)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/issues/256)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
-    "reward_usd": 100.0,
-    "reward_formatted": "$100",
-    "tech": [
-      "feature-request  \ud83d\udca1",
-      ":dollar: Funded on Issuehunt"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 50.0
-  },
-  {
     "id": "gh-SelfhostedPro/selfhosted_templates-132",
     "title": "[APP REQUEST]: CloudFlare DDNS",
     "url": "https://github.com/SelfhostedPro/selfhosted_templates/issues/132",
@@ -1509,6 +1531,28 @@
       "App Request",
       ":dollar: Funded on Issuehunt",
       "hacktoberfest"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 0,
+    "solvability_score": 50.0
+  },
+  {
+    "id": "gh-shanalikhan/code-settings-sync-256",
+    "title": "Adding Support for Import / Export Sync Settings to File System",
+    "url": "https://github.com/shanalikhan/code-settings-sync/issues/256",
+    "platform": "issuehunt",
+    "repo_owner": "shanalikhan",
+    "repo_name": "code-settings-sync",
+    "issue_number": 256,
+    "org_handle": "shanalikhan",
+    "org_name": "shanalikhan/code-settings-sync",
+    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%24100%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/issues/256)\n<!-- /Issuehunt Badges -->\n\n\nSync Local Settings File can have more enhancements like adding path from which to export and import settings.\r\n\r\nModes will be provided to use to select either from GitHub Gist or File System via UI.\r\n\r\n1. Existing Command will be changed to Import and Export\r\n    a. By Export means to Upload in Gist and Import means to Download \r\n    b. Similar for File System respectively.\r\n2. Folder Path will be defined in the LocalSettings file.\r\n3. UI will be changed accordingly.\r\n\r\nUser can set a path inside OneDrive, Dropbox or other folder to view them and email them.\r\n\r\nThis feature will be developed upon user requests priority in this issue page\r\nAlso when alot of other core features are shipped with extension.\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $100.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($100.00)\n\n### Submitted pull Requests\n- [#1469 feat: add local filesystem sync service](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/pull/1469)\n- [#1483 feat: add filesystem settings import and export](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/pull/1483)\n- [#1489 feat(sync): export and import settings to a file system folder (#256)](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/pull/1489)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/issues/256)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/issues/256)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
+    "reward_usd": 100.0,
+    "reward_formatted": "$100",
+    "tech": [
+      "feature-request  \ud83d\udca1",
+      ":dollar: Funded on Issuehunt"
     ],
     "status": "active",
     "domain": "code",
@@ -1749,28 +1793,6 @@
     "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2450%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/LibVNC/x11vnc/issues/91)\n<!-- /Issuehunt Badges -->\n\n\nHi,\r\nWhen using a noVNC v1.0.0 client with \"remote resize\" enabled, the user's desktop can be resized to fit the browser window if the server supports ExtendedDesktopSize encoding.  For me, the resizing does not work for x11vnc v0.9.16, but does if I switch to Xvnc. \r\n\r\nDoes x11vnc support ExtendedDesktopSize?  If it does, I could use some help figuring out why the client & server are not in agreement on their protocol extensions.\r\nAlso, see [this issue](https://github.com/novnc/noVNC/issues/869).\r\n\r\nThanks.\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $50.00)\n\n- [<img src='https://avatars2.githubusercontent.com/u/1123701?v=4' alt='maxnet' width=24 height=24> maxnet](https://issuehunt.io/u/maxnet) ($50.00)\n\n#### [Become a backer now!](https://issuehunt.io/r/LibVNC/x11vnc/issues/91)\n#### [Or submit a pull request to get the deposits!](https://issuehunt.io/r/LibVNC/x11vnc/issues/91)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://issuehunt.io/r/LibVNC/x11vnc/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://issuehunt.io/r/new) on IssueHunt to raise funds.\n---\nIssueHunt has been backed by the following sponsors. [Become a sponsor](https://issuehunt.io/membership/members)\n</details>\n<!-- /Issuehunt content-->",
     "reward_usd": 50.0,
     "reward_formatted": "$50",
-    "tech": [
-      "enhancement",
-      ":dollar: Funded on Issuehunt"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 40.0
-  },
-  {
-    "id": "gh-egoist/bili-182",
-    "title": "Legacy bundles & modern bundles",
-    "url": "https://github.com/egoist/bili/issues/182",
-    "platform": "issuehunt",
-    "repo_owner": "egoist",
-    "repo_name": "bili",
-    "issue_number": 182,
-    "org_handle": "egoist",
-    "org_name": "egoist/bili",
-    "body": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2490%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/egoist/bili/issues/182)\n<!-- /Issuehunt Badges -->\n\n\nCan bili output both a legacy (ES5) bundle *and* a \"modern\" bundle (for newer browsers only)?\n\n\n<!-- Issuehunt content -->\n\n---\n\n<details>\n<summary>\n<b>IssueHunt Summary</b>\n</summary>\n\n\n### Backers (Total: $90.00)\n\n- [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt](https://oss.issuehunt.io/u/issuehunt) ($90.00)\n\n### Submitted pull Requests\n- [#634 Add modern bundle output option](https://oss.issuehunt.io/r/egoist/bili/pull/634)\n---\n\n#### [Become a backer now!](https://oss.issuehunt.io/r/egoist/bili/issues/182)\n#### [Or submit a pull request to get the deposits!](https://oss.issuehunt.io/r/egoist/bili/issues/182)\n### Tips\n\n- Checkout the [Issuehunt explorer](https://oss.issuehunt.io/r/egoist/bili/) to discover more funded issues.\n- Need some help from other developers? [Add your repositories](https://oss.issuehunt.io/r/new) on IssueHunt to raise funds.\n</details>\n<!-- /Issuehunt content-->",
-    "reward_usd": 90.0,
-    "reward_formatted": "$90",
     "tech": [
       "enhancement",
       ":dollar: Funded on Issuehunt"
