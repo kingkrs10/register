@@ -29,8 +29,18 @@ if env_file.exists():
                 k, v = line.split("=", 1)
                 os.environ[k.strip()] = v.strip()
 
+# Strict Cash Escrow Mode:
+# When True, the engine exclusively targets verified, pre-funded escrow bounties (Algora, Polar.sh, IssueHunt).
+# Automatically filters out unfunded bot templates (Opire), volunteer security disclosures, Kaggle badges, and manual grant programs.
+STRICT_CASH_ESCROW_ONLY = os.getenv("STRICT_CASH_ESCROW_ONLY", "true").lower() in ("true", "1", "yes")
+
 # Domains Supported
-ENABLED_DOMAINS = ["code", "web3_desci", "security", "kaggle"]
+if STRICT_CASH_ESCROW_ONLY:
+    ENABLED_DOMAINS = ["code"]
+else:
+    ENABLED_DOMAINS = ["code", "web3_desci", "security", "kaggle"]
+
+ESCROW_ONLY_PLATFORMS = ["algora", "polar.sh", "issuehunt"]
 
 # Bounty Scout Settings
 MIN_BOUNTY_USD = float(os.getenv("MIN_BOUNTY_USD", "10"))

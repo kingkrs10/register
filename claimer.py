@@ -366,8 +366,12 @@ def claim_solved_bounties(dry_run: bool = False, claim_all: bool = False, domain
     if domain and domain.lower() not in ["all", "any"]:
         candidates = [b for b in candidates if b.get("domain", "code") == domain.lower()]
 
+    if config.STRICT_CASH_ESCROW_ONLY:
+        from scout import verify_funded_escrow
+        candidates = [b for b in candidates if verify_funded_escrow(b)]
+
     if not candidates:
-        print("[!] No pending unsubmitted bounties found matching filter.")
+        print("[!] No pending unsubmitted bounties found matching filter (or verified escrow criteria).")
         return 0
 
     targets = candidates if claim_all else [candidates[-1]]

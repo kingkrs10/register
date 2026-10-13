@@ -70,6 +70,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
           DRY_RUN: 'false'
+          STRICT_CASH_ESCROW_ONLY: 'true'
         run: |
           ACTION="${{ inputs.action || 'auto-live' }}"
           DOMAIN="${{ inputs.domain || 'all' }}"

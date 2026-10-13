@@ -1,18 +1,18 @@
 # 🎯 MicroBountyHarvest - Daily Status Report
-*Generated on: `2026-10-13 15:50:17 UTC`*
+*Generated on: `2026-10-13 20:52:09 UTC`*
 
 ## 📊 Executive Summary
 
 | Metric | Value |
 |---|---|
-| **Active Open Bounties** | **80** |
-| **Open Bounty Pipeline Value** | **$10,624.00** |
+| **Active Open Bounties** | **20** |
+| **Open Bounty Pipeline Value** | **$200.00** |
 | **Total Solved Bounties** | **124** |
 | **Solved Bounties Value** | **$13,440.00** |
 | **Ready to Claim (Local Fix Tested)** | **25** |
-| **PRs Submitted & Pending Review** | **54** |
+| **PRs Submitted & Pending Review** | **53** |
 | **PRs Merged / Payout Won** | **4** |
-| **Closed / Inactive Cases** | **41** |
+| **Closed / Inactive Cases** | **42** |
 
 ## 🛠️ Solved Cases Live Status Breakdown
 
@@ -91,7 +91,7 @@
 | 71 | `[CODE]` | `jaykode2025/stargazers-log#1` | opire | **$100** | `closed` | 🏆 Merged / Won | [PR Link](https://github.com/jaykode2025/stargazers-log/pull/2) |
 | 72 | `[WEB3_DESCI]` | `zhangjiayang6835-cyber/bounty-plaza#1214` | web3_github | **$350** | `open` | 🟡 Submitted | [PR Link](https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1643) |
 | 73 | `[CODE]` | `zhangjiayang6835-cyber/bounty-plaza#1573` | bounty | **$250** | `open` | 🟢 Ready to Claim | Not Submitted |
-| 74 | `[CODE]` | `NightVibes33/FlekDeck#2` | opire | **$100** | `open` | 🟡 Submitted | [PR Link](https://github.com/NightVibes33/FlekDeck/pull/3) |
+| 74 | `[CODE]` | `NightVibes33/FlekDeck#2` | opire | **$100** | `closed` | ⚪ Closed | [PR Link](https://github.com/NightVibes33/FlekDeck/pull/3) |
 | 75 | `[CODE]` | `strias-ai/embodied-ai-reservations-madrid#1` | opire | **$100** | `open` | 🟢 Ready to Claim | Not Submitted |
 | 76 | `[CODE]` | `zhangjiayang6835-cyber/bounty-plaza#1295` | bounty | **$112** | `open` | 🟢 Ready to Claim | Not Submitted |
 | 77 | `[CODE]` | `zhangjiayang6835-cyber/bounty-plaza#1291` | bounty | **$112** | `open` | 🟡 Submitted | [PR Link](https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1644) |

@@ -18,7 +18,21 @@ from domains.kaggle_solver import fetch_kaggle_competitions
 from domains.security import fetch_security_bounties
 from domains.web3_desci import fetch_web3_desci_bounties
 
-SEARCH_PLATFORMS = ["bounty", "gitcoin", "polar.sh", "opire", "issuehunt"]
+if config.STRICT_CASH_ESCROW_ONLY:
+    # Strictly target pre-funded escrow footprints (Polar pledges, IssueHunt deposits)
+    SEARCH_QUERIES = [
+        ('"polar.sh/api/github"', "polar.sh"),
+        ('"<!-- POLAR PLEDGE BADGE START -->"', "polar.sh"),
+        ('"issuehunt.io/r/"', "issuehunt"),
+    ]
+else:
+    SEARCH_QUERIES = [
+        ("bounty", "bounty"),
+        ("gitcoin", "gitcoin"),
+        ("polar.sh", "polar.sh"),
+        ("opire", "opire"),
+        ("issuehunt", "issuehunt"),
+    ]
 
 
 def get_ssl_context():
@@ -62,12 +76,12 @@ def fetch_github_bounties_multi(limit_per_query: int = 15) -> List[Dict[str, Any
     seen_urls: Set[str] = set()
     ctx = get_ssl_context()
 
-    for keyword in SEARCH_PLATFORMS:
-        query_str = urllib.parse.quote(f"{keyword} state:open type:issue")
+    for query_term, platform_name in SEARCH_QUERIES:
+        query_str = urllib.parse.quote(f"{query_term} state:open type:issue")
         url = f"https://api.github.com/search/issues?q={query_str}&per_page={limit_per_query}"
         try:
             req = urllib.request.Request(url, headers=headers)
-            with urllib.request.urlopen(req, context=ctx, timeout=4) as resp:
+            with urllib.request.urlopen(req, context=ctx, timeout=5) as resp:
                 data = json.loads(resp.read().decode())
                 items = data.get("items", [])
                 for item in items:
@@ -82,19 +96,38 @@ def fetch_github_bounties_multi(limit_per_query: int = 15) -> List[Dict[str, Any
                         body = item.get("body") or ""
                         title = item.get("title") or ""
 
-                        # Anti-spam filter: reject obvious phishing or non-development topics
-                        spam_triggers = ["usdt-tracker", "shipping/shopping", "paste prompt.md", "airdrop", "earn by few clicks", "telegram"]
+                        # Anti-spam filter: reject scrapers, newsletters, phishing or non-development topics
+                        spam_triggers = [
+                            "usdt-tracker", "shipping/shopping", "paste prompt.md", "airdrop",
+                            "earn by few clicks", "telegram", "bounty scout —", "bounty scout -",
+                            "revenue mesh radar", "bounty alert", "dependency dashboard", "bountyradar",
+                            "opportunities found", "opportunityies found", "kiai-bounties"
+                        ]
                         if any(st in (title + body).lower() for st in spam_triggers):
                             continue
 
+                        # Clean out boilerplate instructions and unfunded templates before matching rewards
+                        clean_body = re.sub(r"<details[\s\S]*?</details>", " ", body, flags=re.IGNORECASE)
+                        clean_body = re.sub(r"This repo is using Opire[\s\S]*", " ", clean_body, flags=re.IGNORECASE)
+                        clean_body = re.sub(r"Stellar Wave Program[\s\S]*", " ", clean_body, flags=re.IGNORECASE)
+                        clean_body = re.sub(r"/reward\s+100\b", " ", clean_body, flags=re.IGNORECASE)
+                        clean_body = re.sub(r"replace\s+[`'\"]?100[`'\"]?", " ", clean_body, flags=re.IGNORECASE)
+
                         # Extract explicit reward if specified (e.g., "$150", "bounty of $100", "pledged $50")
-                        reward_match = re.search(r"(?:bounty|reward|funded|pledged?)\s*(?:of|is|:)?\s*\$?(\d+(?:\.\d{2})?)", title + " " + body, re.IGNORECASE)
+                        reward_match = re.search(r"(?:bounty|reward|funded|pledged?)\s*(?:of|is|:)?\s*\$?(\d+(?:\.\d{2})?)", title + " " + clean_body, re.IGNORECASE)
                         if not reward_match:
-                            reward_match = re.search(r"\$(\d+)", title + " " + body)
+                            reward_match = re.search(r"\$(\d+(?:\.\d{2})?)", title + " " + clean_body)
 
                         reward_usd = float(reward_match.group(1)) if reward_match else 0.0
 
-                        # Only include issues that have an actual verified reward amount
+                        # In strict cash mode, Polar and IssueHunt bounties must have a verified pledge
+                        if config.STRICT_CASH_ESCROW_ONLY:
+                            if reward_usd < config.MIN_BOUNTY_USD:
+                                # Check if issue has a polar pledge or issuehunt backer badge with default min
+                                if "polar.sh" in platform_name or "issuehunt" in platform_name:
+                                    if "pledge" in body.lower() or "issuehunt" in body.lower():
+                                        reward_usd = max(config.MIN_BOUNTY_USD, reward_usd)
+
                         if reward_usd < config.MIN_BOUNTY_USD:
                             continue
 
@@ -103,7 +136,7 @@ def fetch_github_bounties_multi(limit_per_query: int = 15) -> List[Dict[str, Any
                                 "id": f"gh-{repo_owner}/{repo_name}-{item.get('number')}",
                                 "title": title,
                                 "url": html_url,
-                                "platform": keyword,
+                                "platform": platform_name,
                                 "repo_owner": repo_owner,
                                 "repo_name": repo_name,
                                 "issue_number": item.get("number", 0),
@@ -121,7 +154,7 @@ def fetch_github_bounties_multi(limit_per_query: int = 15) -> List[Dict[str, Any
                             }
                         )
         except Exception as e:
-            print(f"[!] GitHub search error for keyword '{keyword}': {e}", file=sys.stderr)
+            print(f"[!] GitHub search error for query '{query_term}': {e}", file=sys.stderr)
 
     return all_items
 
@@ -202,42 +235,61 @@ def verify_funded_escrow(bounty: Dict[str, Any]) -> bool:
     platform = (bounty.get("platform") or "").lower()
     title = (bounty.get("title") or "").lower()
     body = (bounty.get("body") or "").lower()
+    domain = bounty.get("domain", "code")
 
-    # 1. Algora: direct tRPC bounties are always backed by escrow
-    if platform == "algora":
-        return True
-
-    # 2. IssueHunt: check for funded badges or backer deposits
-    if "issuehunt" in platform or "issuehunt" in body:
-        funded_indicators = [
-            "funded", "backers", "issuehunt-%24", "issuehunt.io/r/", "oss.issuehunt.io"
-        ]
-        if any(ind in body for ind in funded_indicators):
-            return True
-
-    # 3. Polar.sh: check for polar pledge badges or active program rewards
-    if "polar" in platform or "polar.sh" in body:
-        polar_indicators = [
-            "polar pledge", "pledge.svg", "polar.sh/api/github", "/pledge",
-            "polar for startups", "startup program", "bounty"
-        ]
-        if any(ind in body or ind in title for ind in polar_indicators):
-            return True
-
-    # 4. Opire: only accept if there is an explicit reward command / deposit, reject template-only footers
-    if "opire" in platform or "opire" in body:
-        # Check if there is an explicit /reward command or funded amount
-        if "/reward" in body and not ("replace `100`" in body and body.count("/reward") == 1):
-            return True
+    # Anti-grant & manual program disqualifiers (Wave, Drips points, retroactive grants)
+    wave_disqualifiers = [
+        "stellar wave", "wave program", "drips.network", "drips network",
+        "grant application", "retroactive grant", "airdrop"
+    ]
+    if any(wd in title or wd in body for wd in wave_disqualifiers):
         return False
 
-    # 5. Gitcoin: must have explicit bounty funding indicator
-    if "gitcoin" in platform:
-        if "bounty" in title or "reward" in body:
+    if config.STRICT_CASH_ESCROW_ONLY:
+        # Strictly disallow non-escrow domains
+        if domain in ["security", "kaggle"]:
+            return False
+
+        # 1. Algora: direct bounties are backed by pre-funded escrow
+        if platform == "algora":
             return True
 
-    # General fallback: must have explicit dollar amount with bounty context
-    if bounty.get("reward_usd", 0) > 0 and ("bounty" in title or "reward" in title or "bounty" in body):
+        # 2. Polar.sh: verified pledge badge or polar issue URL with real pledged amount
+        if "polar" in platform or "polar.sh" in body:
+            polar_indicators = [
+                "polar pledge", "pledge.svg", "polar.sh/api/github", "/pledge",
+                "<!-- polar pledge badge start -->"
+            ]
+            if any(ind in body or ind in title for ind in polar_indicators):
+                return bounty.get("reward_usd", 0) >= config.MIN_BOUNTY_USD
+            return False
+
+        # 3. IssueHunt: funded badges or backer deposits
+        if "issuehunt" in platform or "issuehunt" in body:
+            funded_indicators = [
+                "issuehunt-%24", "issuehunt.io/r/", "oss.issuehunt.io", "<!-- issuehunt badges -->"
+            ]
+            if any(ind in body for ind in funded_indicators):
+                return bounty.get("reward_usd", 0) >= config.MIN_BOUNTY_USD
+            return False
+
+        # All other platforms under strict mode (Opire, Gitcoin, unverified Web3) are rejected
+        return False
+
+    # Non-strict legacy fallback mode
+    if platform == "algora":
+        return True
+    if "issuehunt" in platform or "issuehunt" in body:
+        return any(ind in body for ind in ["funded", "backers", "issuehunt-%24", "issuehunt.io/r/"])
+    if "polar" in platform or "polar.sh" in body:
+        return any(ind in body or ind in title for ind in ["polar pledge", "pledge.svg", "polar.sh/api/github", "/pledge"])
+    if "opire" in platform or "opire" in body:
+        if "/reward" in body and not ("replace" in body and "100" in body):
+            return True
+        return False
+    if "gitcoin" in platform:
+        return "bounty" in title or "reward" in body
+    if bounty.get("reward_usd", 0) > 0 and ("bounty" in title or "reward" in title):
         return True
 
     return False
@@ -255,15 +307,19 @@ def score_bounty_solvability(bounty: Dict[str, Any]) -> float:
     """
     domain = bounty.get("domain", "code")
 
-    # Domain-specific scoring rules
+    # In strict cash escrow mode, reject non-escrow domains immediately
+    if config.STRICT_CASH_ESCROW_ONLY and domain in ["kaggle", "security"]:
+        return 0.0
+
+    # Strict Escrow Verification Check: reject unfunded template issues
+    if not verify_funded_escrow(bounty):
+        return 0.0
+
+    # Domain-specific scoring rules (legacy non-strict)
     if domain == "kaggle":
         return 90.0  # Automated ML pipelines have high automated feasibility
     elif domain == "security":
         return 85.0  # Automated SAST / secret scans have reproducible PoC verification
-
-    # Strict Escrow Verification Check for code/web3 bounties: reject unfunded template issues
-    if not verify_funded_escrow(bounty):
-        return 0.0
 
     score = 50.0
 
@@ -360,13 +416,17 @@ def score_bounty_solvability(bounty: Dict[str, Any]) -> float:
 
 
 def scan_bounties(limit: int = 50, domain: Optional[str] = None) -> List[Dict[str, Any]]:
-    """Scans Algora, Polar.sh, Gitcoin, Opire, GitHub, Security & Kaggle for open bounties."""
-    active_domain = (domain or "all").lower()
-    print(f"[*] Scouting micro-bounties (domain={active_domain}, limit={limit})...")
+    """Scans verified platforms (Algora, Polar.sh, IssueHunt, etc.) for open bounties."""
+    if config.STRICT_CASH_ESCROW_ONLY and (domain is None or domain.lower() == "all"):
+        active_domain = "code"
+    else:
+        active_domain = (domain or "all").lower()
+
+    print(f"[*] Scouting micro-bounties (domain={active_domain}, limit={limit}, strict_cash_escrow={config.STRICT_CASH_ESCROW_ONLY})...")
 
     all_bounties: List[Dict[str, Any]] = []
 
-    # 1. Code / Algora & GitHub
+    # 1. Code / Algora & GitHub Escrow Bounties
     if active_domain in ["all", "code", "github"]:
         algora_raw = fetch_algora_bounties(limit=limit)
         for raw in algora_raw:
@@ -399,20 +459,20 @@ def scan_bounties(limit: int = 50, domain: Optional[str] = None) -> List[Dict[st
             g["domain"] = "code"
             all_bounties.append(g)
 
-    # 2. Web3 & DeSci Domain
-    if active_domain in ["all", "web3", "desci", "web3_desci"]:
+    # 2. Web3 & DeSci Domain (skipped in strict cash escrow mode)
+    if not config.STRICT_CASH_ESCROW_ONLY and active_domain in ["all", "web3", "desci", "web3_desci"]:
         print("[*] Scouting Web3 & DeSci bounties...")
         web3_items = fetch_web3_desci_bounties(limit_per_keyword=8)
         all_bounties.extend(web3_items)
 
-    # 3. Cybersecurity Domain
-    if active_domain in ["all", "security", "cybersecurity"]:
+    # 3. Cybersecurity Domain (skipped in strict cash escrow mode)
+    if not config.STRICT_CASH_ESCROW_ONLY and active_domain in ["all", "security", "cybersecurity"]:
         print("[*] Scouting Cybersecurity & Bug Bounty targets...")
         sec_items = fetch_security_bounties(limit_per_keyword=8)
         all_bounties.extend(sec_items)
 
-    # 4. Kaggle & AI Competitions Domain
-    if active_domain in ["all", "kaggle", "ai"]:
+    # 4. Kaggle & AI Competitions Domain (skipped in strict cash escrow mode)
+    if not config.STRICT_CASH_ESCROW_ONLY and active_domain in ["all", "kaggle", "ai"]:
         print("[*] Scouting Kaggle & AI micro-competitions...")
         kaggle_items = fetch_kaggle_competitions(limit=8)
         all_bounties.extend(kaggle_items)
