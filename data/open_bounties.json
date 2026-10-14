@@ -23,7 +23,34 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-14T13:35:16.046723+00:00"
+    "last_audited": "2026-10-14T18:30:18.044692+00:00"
+  },
+  {
+    "id": "gh-organicmaps/organicmaps-7408",
+    "title": "[android] Bookmarks backup to Google Drive",
+    "url": "https://github.com/organicmaps/organicmaps/issues/7408",
+    "platform": "polar.sh",
+    "repo_owner": "organicmaps",
+    "repo_name": "organicmaps",
+    "issue_number": 7408,
+    "org_handle": "organicmaps",
+    "org_name": "organicmaps/organicmaps",
+    "body": "Develop a bookmarks backup feature for Google Drive on Android, aligning with the iCloud synchronization available in the iOS version and mirroring WhatsApp\u2019s backup to Google Drive. This functionality should enable users to securely store their bookmarks in Google Drive and restore them when needed, such as after reinstalling the app or switching to a new device. The implementation should integrate with the Google Drive API, ensuring secure authentication, proper permission management, and seamless multi-device support.\n\nRelevant tickets:\n\n- #2678\n- #10199 \n- #622\n\n<!-- POLAR PLEDGE BADGE START -->\n## Upvote & Fund\n\n- We're using [Polar.sh](https://polar.sh/organicmaps) so you can upvote and help fund this issue.\n- We receive the funding once the issue is completed & confirmed by you.\n- Thank you in advance for helping prioritize & fund our backlog.\n\n<a href=\"https://polar.sh/organicmaps/organicmaps/issues/7408\">\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://polar.sh/api/github/organicmaps/organicmaps/issues/7408/pledge.svg?darkmode=1\">\n  <img alt=\"Fund with Polar\" src=\"https://polar.sh/api/github/organicmaps/organicmaps/issues/7408/pledge.svg\">\n</picture>\n</a>\n<!-- POLAR PLEDGE BADGE END -->\n",
+    "reward_usd": 10.0,
+    "reward_formatted": "$10",
+    "tech": [
+      "Android",
+      "Bookmarks and Tracks",
+      "Fund",
+      "GSoC"
+    ],
+    "status": "active",
+    "domain": "code",
+    "competitor_prs": 1,
+    "solvability_score": 100.0,
+    "live_status": "open",
+    "comments_count": 5,
+    "last_audited": "2026-10-14T18:30:18.486416+00:00"
   },
   {
     "id": "gh-Kludex/starlette-649",
@@ -45,7 +72,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 16,
-    "last_audited": "2026-10-14T13:35:16.331159+00:00"
+    "last_audited": "2026-10-14T18:30:18.799056+00:00"
   },
   {
     "id": "gh-ecosyste-ms/packages-431",
@@ -69,7 +96,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 7,
-    "last_audited": "2026-10-14T13:35:16.629506+00:00"
+    "last_audited": "2026-10-14T18:30:19.173597+00:00"
   },
   {
     "id": "gh-Bogdanp/dramatiq-324",
@@ -94,7 +121,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-14T13:35:17.101659+00:00"
+    "last_audited": "2026-10-14T18:30:19.529481+00:00"
   },
   {
     "id": "gh-organicmaps/organicmaps-1867",
@@ -120,29 +147,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 24,
-    "last_audited": "2026-10-14T13:35:17.389332+00:00"
-  },
-  {
-    "id": "gh-Kludex/uvicorn-1151",
-    "title": "support @asynccontextmanager app_factory functions",
-    "url": "https://github.com/Kludex/uvicorn/issues/1151",
-    "platform": "polar.sh",
-    "repo_owner": "Kludex",
-    "repo_name": "uvicorn",
-    "issue_number": 1151,
-    "org_handle": "Kludex",
-    "org_name": "Kludex/uvicorn",
-    "body": "### Checklist\r\n\r\n<!-- Please make sure you check all these items before submitting your feature request. -->\r\n\r\n- [x] There are no similar issues or pull requests for this yet.\r\n- [x] I discussed this idea on the [community chat](https://gitter.im/encode/community) and feedback is positive.\r\n\r\n### Is your feature related to a problem? Please describe.\r\n\r\nCurrently the lifespan task runs in a sibling task to any request tasks, but a number of use cases require wrapping a context manager around all the request tasks, eg:\r\n\r\n## Describe the solution you would like.\r\nsupport app factories like this:\r\n\r\n```python\r\n@contextlib.asynccontextmanager\r\nasync def app_factory() -> AsyncGenerator[App, None]:\r\n    async with anyio.create_task_group() as tg:\r\n        app = FastAPI(__name__)\r\n        app.include_router(items.router)\r\n        yield app\r\n```\r\n\r\nor :\r\n\r\n\r\n```python\r\nvar: ContextVar[int] = ContextVar('var', default=42)\r\n\r\n@contextlib.asynccontextmanager\r\nasync def app_factory():\r\n    token = var.set(999)\r\n    try:\r\n        app = FastAPI(__name__)\r\n        app.include_router(items.router)\r\n        yield app\r\n    finally:\r\n        var.reset(token)\r\n```\r\n\r\nor including the `__aenter__/__aexit__` directly on the app instance:\r\n\r\n```python\r\nclass ACMGRFastAPI(FastAPI):\r\n    async def __aenter__(self) -> \"ACMGRFastAPI\":\r\n        async with AsyncExitStack() as stack:\r\n            self.database = stack.enter_async_context(database())\r\n            self.cache = stack.enter_async_context(cache())\r\n            self.bot = stack.enter_async_context(bot())\r\n            self._stack = stack.pop_all()\r\n\r\n        return self\r\n\r\n    async def __aexit__(self, *exc_info) -> bool | None:\r\n        return await self._stack.__aexit__(*exc_info)\r\n```\r\n\r\n## Describe alternatives you considered\r\n\r\nrun lifespan as a parent task to all the request tasks\r\n\r\n## Additional context\r\n\r\nsee https://gitter.im/encode/community?at=610989bc8fc359158c4f959e\n\n<!-- POLAR PLEDGE BADGE START -->\n> [!IMPORTANT]\n> - We're using [Polar.sh](https://polar.sh/encode) so you can upvote and help fund this issue.\n> - We receive the funding once the issue is completed & confirmed by you.\n> - Thank you in advance for helping prioritize & fund our backlog.\n\n<a href=\"https://polar.sh/encode/uvicorn/issues/1151\">\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://polar.sh/api/github/encode/uvicorn/issues/1151/pledge.svg?darkmode=1\">\n  <img alt=\"Fund with Polar\" src=\"https://polar.sh/api/github/encode/uvicorn/issues/1151/pledge.svg\">\n</picture>\n</a>\n<!-- POLAR PLEDGE BADGE END -->\n",
-    "reward_usd": 10.0,
-    "reward_formatted": "$10",
-    "tech": [],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 1,
-    "solvability_score": 100.0,
-    "live_status": "open",
-    "comments_count": 12,
-    "last_audited": "2026-10-14T13:35:17.660736+00:00"
+    "last_audited": "2026-10-14T18:30:19.952476+00:00"
   },
   {
     "id": "gh-ecosyste-ms/summary-12",
@@ -164,7 +169,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-14T13:35:17.947870+00:00"
+    "last_audited": "2026-10-14T18:30:20.286533+00:00"
   },
   {
     "id": "gh-avajs/ava-2501",
@@ -191,7 +196,7 @@
     "solvability_score": 100.0,
     "live_status": "open",
     "comments_count": 5,
-    "last_audited": "2026-10-14T13:35:18.273207+00:00"
+    "last_audited": "2026-10-14T18:30:20.621807+00:00"
   },
   {
     "id": "gh-zegloforko/polartest2-1",
@@ -215,7 +220,7 @@
     "solvability_score": 50.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-14T13:35:18.585269+00:00"
+    "last_audited": "2026-10-14T18:30:20.960532+00:00"
   },
   {
     "id": "gh-zegloforko/polarforkotest-5",
@@ -237,7 +242,7 @@
     "solvability_score": 50.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-14T13:35:18.857885+00:00"
+    "last_audited": "2026-10-14T18:30:21.307470+00:00"
   },
   {
     "id": "gh-zegloforko/polartest2-3",
@@ -261,7 +266,7 @@
     "solvability_score": 50.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-14T13:35:19.183491+00:00"
+    "last_audited": "2026-10-14T18:30:21.651319+00:00"
   },
   {
     "id": "gh-birkjernstrom/birk-testing-25",
@@ -285,7 +290,7 @@
     "solvability_score": 50.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-14T13:35:19.461893+00:00"
+    "last_audited": "2026-10-14T18:30:21.949199+00:00"
   },
   {
     "id": "gh-birkjernstrom/bp-demo-3",
@@ -309,7 +314,7 @@
     "solvability_score": 50.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-14T13:35:19.722818+00:00"
+    "last_audited": "2026-10-14T18:30:22.273946+00:00"
   },
   {
     "id": "gh-zegloforko/polarforkotest-4",
@@ -333,31 +338,7 @@
     "solvability_score": 50.0,
     "live_status": "open",
     "comments_count": 2,
-    "last_audited": "2026-10-14T13:35:20.008945+00:00"
-  },
-  {
-    "id": "gh-zegloforko/polartest2-7",
-    "title": "Fem",
-    "url": "https://github.com/zegloforko/polartest2/issues/7",
-    "platform": "polar.sh",
-    "repo_owner": "zegloforko",
-    "repo_name": "polartest2",
-    "issue_number": 7,
-    "org_handle": "zegloforko",
-    "org_name": "zegloforko/polartest2",
-    "body": "\n\n<!-- POLAR PLEDGE BADGE START -->\n## Upvote & Fund\n\n- Nice stuff 3\n- We receive the funding once the issue is completed & confirmed by you.\n- Thank you in advance for helping prioritize & fund our backlog.\n\n<a href=\"http://127.0.0.1:3000/zegloforko/polartest2/issues/7\">\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"http://127.0.0.1:3000/api/github/zegloforko/polartest2/issues/7/pledge.svg?darkmode=1\">\n  <img alt=\"Fund with Polar\" src=\"http://127.0.0.1:3000/api/github/zegloforko/polartest2/issues/7/pledge.svg\">\n</picture>\n</a>\n<!-- POLAR PLEDGE BADGE END -->\n",
-    "reward_usd": 10.0,
-    "reward_formatted": "$10",
-    "tech": [
-      "polar"
-    ],
-    "status": "active",
-    "domain": "code",
-    "competitor_prs": 0,
-    "solvability_score": 50.0,
-    "live_status": "open",
-    "comments_count": 1,
-    "last_audited": "2026-10-14T13:35:20.282930+00:00"
+    "last_audited": "2026-10-14T18:30:22.771415+00:00"
   },
   {
     "id": "gh-k3d-io/k3d-1400",
@@ -381,7 +362,7 @@
     "solvability_score": 50.0,
     "live_status": "open",
     "comments_count": 3,
-    "last_audited": "2026-10-14T13:35:20.603425+00:00"
+    "last_audited": "2026-10-14T18:30:23.134471+00:00"
   },
   {
     "id": "gh-bk138/gromit-mpx-266",
@@ -403,7 +384,7 @@
     "solvability_score": 40.0,
     "live_status": "open",
     "comments_count": 0,
-    "last_audited": "2026-10-14T13:35:22.656021+00:00"
+    "last_audited": "2026-10-14T18:30:24.158446+00:00"
   },
   {
     "id": "gh-LibVNC/x11vnc-262",
@@ -427,7 +408,7 @@
     "solvability_score": 40.0,
     "live_status": "open",
     "comments_count": 9,
-    "last_audited": "2026-10-14T13:35:22.953690+00:00"
+    "last_audited": "2026-10-14T18:30:24.534193+00:00"
   },
   {
     "id": "gh-Rabbit-Company/Passky-Main-Website-1",
@@ -449,7 +430,7 @@
     "solvability_score": 40.0,
     "live_status": "open",
     "comments_count": 1,
-    "last_audited": "2026-10-14T13:35:23.241876+00:00"
+    "last_audited": "2026-10-14T18:30:24.900387+00:00"
   },
   {
     "id": "gh-bk138/gromit-mpx-104",
@@ -474,6 +455,6 @@
     "solvability_score": 40.0,
     "live_status": "open",
     "comments_count": 4,
-    "last_audited": "2026-10-14T13:35:23.519399+00:00"
+    "last_audited": "2026-10-14T18:30:25.195682+00:00"
   }
 ]
